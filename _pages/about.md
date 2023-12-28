@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong>Senior Applied Scientist</strong> in <a href="https://www.linkedin.com/in/kasra-hosseini/">the ML Core team @ Zalando</a><br>Previous affiliations - <a href="https://www.turing.ac.uk/">The Alan Turing Institute</a> and <a href="https://www.ox.ac.uk/">University of Oxford</a><br>PhD in Natural Sciences<hr>
+subtitle: &gt; <strong>Senior Applied Scientist</strong> in <a href="https://www.linkedin.com/in/kasra-hosseini/">the ML Core team @ Zalando</a><br>&gt; Previous affiliations - <a href="https://www.turing.ac.uk/">The Alan Turing Institute</a> and <a href="https://www.ox.ac.uk/">University of Oxford</a><br>&gt;<strong>PhD</strong> in Natural Sciences<hr>
 
 profile:
   align: right
@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a <strong>Senior Applied Scientist</strong> in <a href="https://www.linkedin.com/in/kasra-hosseini/">the ML Core team @ Zalando</a>.
+I am a Senior Applied Scientist in the ML Core team @ Zalando.
 
 Currently, my primary focus is exploring the applications of Large Language Models (LLMs) and multi-modal models in semantic search and information retrieval, harnessing their capabilities to make search and product discovery more context-aware and more intuitive. 
 
