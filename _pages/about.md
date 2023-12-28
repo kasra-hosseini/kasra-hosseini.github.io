@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Applied Scientist at <a href='https://www.linkedin.com/in/kasra-hosseini/'>Zalando</a> | PhD Natural Sciences | Prev:: <a href='https://www.turing.ac.uk/'>The Alan Turing Institute</a> and <a href='https://www.ox.ac.uk/'>University of Oxford</a>
+subtitle: Senior Applied Scientist at <a href='https://www.linkedin.com/in/kasra-hosseini/'>Zalando</a> | PhD Natural Sciences | Prev <a href='https://www.turing.ac.uk/'>The Alan Turing Institute</a> and <a href='https://www.ox.ac.uk/'>University of Oxford</a>
 
 profile:
   align: right
