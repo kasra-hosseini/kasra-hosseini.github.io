@@ -30,6 +30,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+I am a Senior Applied Scientist</strong> in <a href="https://www.linkedin.com/in/kasra-hosseini/">the ML Core team @ Zalando</a>.
+
 Currently, my primary focus is exploring the applications of Large Language Models (LLMs) and multi-modal models in semantic search and information retrieval, harnessing their capabilities to make search and product discovery more context-aware and more intuitive. 
 
 I have been also working on assessing the potential risks of LLM-integrated applications and developing strategies to mitigate them.
