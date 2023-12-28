@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span>&#62;</span> <strong>Senior Applied Scientist</strong> in <a href="https://www.linkedin.com/in/kasra-hosseini/">the ML Core team @ Zalando.</a><br><span>&#62;</span> Previous affiliations<span>&#58;</span> <a href="https://www.turing.ac.uk/">The Alan Turing Institute</a> and <a href="https://www.ox.ac.uk/">University of Oxford</a>.<br><span>&#62;</span>
+subtitle: <span>&#62;</span> <strong>Senior Applied Scientist</strong> in <a href="https://www.linkedin.com/in/kasra-hosseini/">the ML Core team @ Zalando.</a><br><span>&#62;</span> Previous affiliations<span>&#58;</span> <strong>Research Data Scientist</strong> @ <a href="https://www.turing.ac.uk/">The Alan Turing Institute</a> and <a href="https://www.ox.ac.uk/">University of Oxford</a>.<br><span>&#62;</span>
  <strong>PhD</strong> in Natural Sciences.<hr>
 
 profile:
