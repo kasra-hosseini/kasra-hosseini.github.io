@@ -7,8 +7,8 @@ subtitle: <span>&#62;</span> <strong>Senior Applied Scientist</strong> in <a hre
 
 profile:
   align: right
-  image: kasra_zalando.jpg
-  image_circular: true # crops the image to make it circular
+  image: kasra_ascii.png
+  image_circular: false # crops the image to make it circular
   # more_info:
     # <p>555 your office number</p>
     # <p>123 your address street</p>
