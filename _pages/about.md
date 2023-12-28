@@ -8,7 +8,7 @@ subtitle: >
   <a href="https://www.linkedin.com/in/kasra-hosseini/">the ML Core team @ Zalando</a>
 </p>
 <p>
-  Previous affiliations:
+  Previous affiliations - 
   <a href="https://www.turing.ac.uk/">The Alan Turing Institute</a> and
   <a href="https://www.ox.ac.uk/">University of Oxford</a>
 </p>
