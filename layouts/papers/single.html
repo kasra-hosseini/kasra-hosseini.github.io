@@ -1,0 +1,89 @@
+{{- define "main" }}
+
+<div style="margin-bottom: 1.5em;">
+  <a href="/papers/" style="color: #333; text-decoration: none; font-size: 1.5em;">←</a>
+</div>
+
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title" style="font-size: 1.8em;">{{ .Title }}</h1>
+    <div class="post-meta">
+      <span>{{ .Date.Format "2006" }}</span>
+      {{- if .Params.author }}
+      <span> · {{ .Params.author }}</span>
+      {{- end }}
+      {{- if .Params.venue }}
+      <br><span><em>{{ .Params.venue }}</em></span>
+      {{- end }}
+    </div>
+    {{- if or .Params.paper_url .Params.arxiv_url .Params.blogpost_url .Params.github_url .Params.webtool_url .Params.project_url }}
+    <div style="margin-top: 1em;">
+      {{- if .Params.paper_url }}
+      <a href="{{ .Params.paper_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">{{ .Params.paper_label | default "Read Paper" }}</a>
+      {{- end }}
+      {{- if .Params.arxiv_url }}
+      <a href="{{ .Params.arxiv_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">arXiv</a>
+      {{- end }}
+      {{- if .Params.blogpost_url }}
+      <a href="{{ .Params.blogpost_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">Blogpost</a>
+      {{- end }}
+      {{- if .Params.github_url }}
+      <a href="{{ .Params.github_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">GitHub</a>
+      {{- end }}
+      {{- if .Params.webtool_url }}
+      <a href="{{ .Params.webtool_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">Web Tool</a>
+      {{- end }}
+      {{- if .Params.project_url }}
+      <a href="{{ .Params.project_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">Project Page</a>
+      {{- end }}
+    </div>
+    {{- end }}
+    {{- if .Params.media_coverage }}
+    <div style="margin-top: 1em; padding: 1em; background-color: #f5f5f5; border-radius: 5px;">
+      <strong>Media Coverage:</strong>
+      <ul style="margin: 0.5em 0 0 0; padding-left: 1.5em;">
+        {{- range .Params.media_coverage }}
+        <li style="margin: 0.3em 0;"><a href="{{ .url }}" target="_blank" style="color: #b91c1c; text-decoration: none;">{{ .name }}</a></li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content">
+    <style>
+      .post-content h2 { font-size: 1.4em; }
+      .post-content h3 { font-size: 1.2em; }
+      .post-content h4 { font-size: 1.1em; }
+    </style>
+    {{ .Content }}
+  </div>
+  {{- end }}
+
+  {{- if not (.Param "hideCitation") }}
+  <div style="margin-top: 3em; padding-top: 2em; border-top: 1px solid #eee;">
+    <h2 style="font-size: 1.4em;">Citation</h2>
+    <p>Please cite this work as:</p>
+    <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 1em; border-radius: 5px; overflow-x: auto; font-family: monospace; font-size: 0.9em; margin: 1em 0;">
+      <span style="color: #f92672;">{{ .Params.author | default "Author" }}</span>. <span style="color: #a6e22e;">"{{ .Title }}"</span>. <em>{{ .Params.venue }}</em> ({{ .Date.Format "2006" }}).{{- if .Params.paper_url }} {{ .Params.paper_url }}{{- end }}
+    </div>
+    {{- if .Params.bibtex }}
+    <p style="margin-top: 1em;">Or use the BibTeX citation:</p>
+    <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 1em; border-radius: 5px; overflow-x: auto; font-family: monospace; font-size: 0.9em; white-space: pre-wrap;">{{ .Params.bibtex }}</div>
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{- if .Params.paper_categories }}
+  <footer class="post-footer">
+    <ul class="post-tags">
+      {{- range .Params.paper_categories }}
+      <li><a href="{{ "/paper_categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a></li>
+      {{- end }}
+    </ul>
+  </footer>
+  {{- end }}
+</article>
+
+{{- end }}

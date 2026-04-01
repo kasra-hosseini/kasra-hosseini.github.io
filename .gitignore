@@ -1,0 +1,15 @@
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+
+# macOS
+.DS_Store
+
+# Ignore vscode AI rules
+.github/instructions/codacy.instructions.md
+
+# Private tracking and draft files — do not push
+content/papers/TO_BE_ADDED.md
+content/posts/README.md
+content/posts/2025/sample-post.md

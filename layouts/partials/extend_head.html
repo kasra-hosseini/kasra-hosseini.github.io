@@ -1,0 +1,101 @@
+{{- /* Lora web font */ -}}
+<style>
+  @font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/fonts/lora-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/fonts/lora-bold.woff2') format('woff2');
+  }
+  body {
+    font-family: 'Lora', Georgia, serif;
+  }
+  .logo a {
+    font-weight: 400;
+  }
+</style>
+
+{{- /* Shared custom styles */ -}}
+<style>
+  .red-link {
+    color: #b91c1c;
+    text-decoration: none;
+  }
+  .red-link:hover {
+    text-decoration: underline;
+  }
+  .red-link-citation {
+    color: #b91c1c;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  .red-link-citation:hover {
+    text-decoration: underline;
+  }
+</style>
+
+{{- /* SEO: Rich Person structured data on homepage */ -}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kasra Hosseini",
+  "alternateName": ["Kasra Hosseini Zad", "Kasra Hosseinizad", "Seyed Kasra Hosseini Zad", "Seyedkasra Hosseinizad", "Kasra Zad"],
+  "url": "{{ .Site.BaseURL }}",
+  "image": "{{ .Site.BaseURL }}images/kasra.jpg",
+  "jobTitle": "Principal Applied Scientist",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Zalando",
+    "url": "https://www.zalando.com"
+  },
+  "alumniOf": [
+    {"@type": "CollegeOrUniversity", "name": "University of Oxford"},
+    {"@type": "CollegeOrUniversity", "name": "Ludwig Maximilian University of Munich"},
+    {"@type": "CollegeOrUniversity", "name": "Amirkabir University of Technology"},
+    {"@type": "CollegeOrUniversity", "name": "Isfahan University of Technology"}
+  ],
+  "knowsAbout": ["Machine Learning", "Large Language Models", "Artificial Intelligence", "AI Agents", "Multi-Agent Systems", "Natural Language Processing", "Semantic Search", "Information Retrieval", "Computer Vision", "AI Safety", "Red Teaming", "Adversarial ML", "Differential Privacy", "Federated Learning", "Deep Learning", "Seismology", "Geophysics", "Computational Science", "Digital Humanities"],
+  "sameAs": [
+    "https://github.com/kasra-hosseini",
+    "https://scholar.google.com/citations?user=uj3P_0EAAAAJ&hl=en",
+    "https://www.linkedin.com/in/kasra-hosseini/",
+    "https://orcid.org/0000-0002-5765-8082"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Berlin",
+    "addressCountry": "DE"
+  },
+  "description": "Principal Applied Scientist at Zalando, Berlin. Building production ML systems, LLMs, multi-agent AI, and semantic search. Previously at the Alan Turing Institute and University of Oxford. 49 peer-reviewed publications, 2500+ citations."
+}
+</script>
+{{- end }}
+
+{{- /* Math rendering with KaTeX */ -}}
+{{- if or .Params.math .Site.Params.math }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+{{- end }}

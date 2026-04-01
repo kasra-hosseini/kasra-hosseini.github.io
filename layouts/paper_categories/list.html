@@ -1,0 +1,44 @@
+{{- define "main" }}
+
+<div style="margin-bottom: 1.5em;">
+  <a href="/papers/" style="color: #333; text-decoration: none; font-size: 1.5em;">←</a>
+</div>
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+{{- $pagesByYear := slice }}
+{{- range .Pages.GroupByDate "2006" }}
+  {{- $pagesByYear = $pagesByYear | append . }}
+{{- end }}
+
+{{- range $pagesByYear }}
+  <h3 style="margin-top: 2em; margin-bottom: 1em;">{{ .Key }}</h3>
+
+  {{- range .Pages }}
+  <article class="post-entry">
+    <header class="entry-header">
+      <h2 class="entry-hint-parent">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+    </header>
+    {{- if (ne (.Param "hideSummary") true) }}
+    <div class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+      <span>{{ .Date.Format "January 2, 2006" }} · {{ .Params.author }}</span>
+      {{- if .Params.venue }}
+      <span> · <em>{{ .Params.venue }}</em></span>
+      {{- end }}
+    </footer>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  </article>
+  {{- end }}
+{{- end }}
+
+{{- end }}{{- /* end main */ -}}

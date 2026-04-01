@@ -1,0 +1,88 @@
+{{- define "main" }}
+
+<div style="margin-bottom: 1.5em;">
+  <a href="/posts/" style="color: #333; text-decoration: none; font-size: 1.5em;">←</a>
+</div>
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title" style="font-size: 1.8em;">
+      {{ .Title }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta" style="color: #666; font-size: 0.9em;">
+      Date: {{ .Date.Format "January 2, 2006" }}{{- if .Params.readingTime }} | Estimated Reading Time: {{ .Params.readingTime }} min{{- end }}{{- if .Params.author }} | Author: {{ .Params.author }}{{- end }}
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- partial "post_canonical.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+  {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    <style>
+      .post-content h2 { font-size: 1.4em; }
+      .post-content h3 { font-size: 1.2em; }
+      .post-content h4 { font-size: 1.1em; }
+    </style>
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  {{- if not (.Param "hideCitation") }}
+  <div style="margin-top: 3em; padding-top: 2em; border-top: 1px solid #eee;">
+    <h2 style="font-size: 1.4em;">Citation</h2>
+    <p>Please cite this work as:</p>
+    <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 1em; border-radius: 5px; overflow-x: auto; font-family: monospace; font-size: 0.9em; margin: 1em 0;">
+      <span style="color: #f92672;">{{ .Params.author | default "Kasra Hosseini" }}</span>. <span style="color: #a6e22e;">"{{ .Title }}"</span>. Kasra's Notes ({{ .Date.Format "January 2006" }}). {{ .Permalink }}
+    </div>
+    <p style="margin-top: 1em;">Or use the BibTeX citation:</p>
+    <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 1em; border-radius: 5px; overflow-x: auto; font-family: monospace; font-size: 0.9em;">
+@article{{ printf "{" }}{{ .File.BaseFileName }},<br>
+&nbsp;&nbsp;title = {{ printf "{" }}<span style="color: #a6e22e;">{{ .Title }}</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;author = {{ printf "{" }}<span style="color: #f92672;">{{ .Params.author | default "Kasra Hosseini" }}</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;journal = {{ printf "{" }}<span style="color: #66d9ef;">Kasra's Notes</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;year = {{ printf "{" }}<span style="color: #ae81ff;">{{ .Date.Format "2006" }}</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;month = {{ printf "{" }}<span style="color: #ae81ff;">{{ .Date.Format "January" }}</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;url = <span style="color: #e6db74;">"{{ .Permalink }}"</span><br>
+{{ printf "}" }}
+    </div>
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+    {{- if (.Param "ShowShareButtons") }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+
+{{- end }}{{- /* end main */ -}}
