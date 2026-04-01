@@ -1,0 +1,80 @@
+baseURL = "https://kasra-hosseini.github.io/"
+languageCode = "en-us"
+title = "Kasra Hosseini"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 100
+
+[params]
+    env = "production"
+    defaultTheme = "light"
+    disableThemeToggle = true
+    math = true
+    mainSections = ["posts", "papers"]
+    author = "Kasra Hosseini"
+    description = "Kasra Hosseini (Kasra Hosseini Zad) – Principal Applied Scientist at Zalando, Berlin. Building production ML systems, LLMs, multi-agent AI, and semantic search. Previously Research Data Scientist at the Alan Turing Institute and Postdoctoral Researcher at the University of Oxford. 49 peer-reviewed publications, 2500+ citations, h-index 25."
+    keywords = [
+      "Kasra Hosseini", "Kasra Hosseini Zad", "Kasra Hosseinizad",
+      "Seyed Kasra Hosseini Zad", "Seyedkasra Hosseinizad",
+      "Kasra Zad", "Hosseini", "Hosseinizad",
+      "Machine Learning", "Large Language Models", "LLM",
+      "AI", "Artificial Intelligence", "AI agents", "multi-agent AI",
+      "Berlin ML", "Berlin LLM", "Berlin AI", "Berlin Machine Learning",
+      "Applied Scientist", "Zalando", "Zalando AI",
+      "NLP", "Natural Language Processing", "Information Retrieval",
+      "Semantic Search", "Computer Vision", "Deep Learning",
+      "AI Safety", "Red Teaming", "Adversarial ML",
+      "Privacy", "Differential Privacy", "Federated Learning",
+      "Alan Turing Institute", "University of Oxford", "LMU Munich",
+      "Seismology", "Geophysics", "Computational Science",
+      "DeezyMatch", "MapReader", "obspyDMT", "SubMachine",
+      "Digital Humanities", "Historical Maps",
+    ]
+    images = ["/images/kasra.jpg"]
+
+  [params.schema]
+    publisherType = "Person"
+    sameAs = [
+      "https://github.com/kasra-hosseini",
+      "https://scholar.google.com/citations?user=uj3P_0EAAAAJ&hl=en",
+      "https://www.linkedin.com/in/kasra-hosseini/",
+      "https://orcid.org/0000-0002-5765-8082",
+    ]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  paper_category = "paper_categories"
+  post_category = "post_categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true 
+
+[menu]
+  [[menu.main]]
+    identifier = "main"
+    name = "Main"
+    url = "/"
+    weight = 5
+  [[menu.main]]
+    identifier = "papers"
+    name = "Papers"
+    url = "/papers/"
+    weight = 10
+  [[menu.main]]
+    identifier = "writing"
+    name = "Writing"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "code"
+    name = "Code"
+    url = "/code/"
+    weight = 30
