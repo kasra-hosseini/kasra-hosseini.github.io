@@ -163,6 +163,40 @@ keywords:
     }
   }
 
+  /* Collapsible timelines */
+  .timeline.collapsible .timeline-item.hidden-item {
+    display: none;
+  }
+
+  .timeline.collapsible .timeline-item.peek-item-1 {
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  .timeline.collapsible .timeline-item.peek-item-2 {
+    opacity: 0.12;
+    pointer-events: none;
+  }
+
+  .timeline-dots {
+    position: relative;
+    margin: 0.2em 0 0.2em 0;
+    padding-left: 0;
+    text-align: left;
+    margin-left: 6.55em;
+    cursor: pointer;
+    color: #999;
+    font-size: 1.4em;
+    letter-spacing: 0.15em;
+    border: none;
+    background: none;
+    transition: color 0.2s;
+  }
+
+  .timeline-dots:hover {
+    color: #b91c1c;
+  }
+
 </style>
 
 <div class="homepage-photo">
@@ -260,7 +294,7 @@ keywords:
 
 <h3 id="other-work" style="margin-bottom: 1em;">Other Selected Work & Research Experience</h3>
 
-<div class="timeline">
+<div class="timeline collapsible" data-visible="5">
   <div class="timeline-item">
     <span class="timeline-date">2023–present</span>
     <div class="timeline-content">Visitor, <strong>University College London (UCL)</strong>, London</div>
@@ -325,7 +359,7 @@ keywords:
 
 <h3 id="awards" style="margin-bottom: 1em;">Awards & Research Funding</h3>
 
-<div class="timeline">
+<div class="timeline collapsible" data-visible="5">
   <div class="timeline-item">
     <span class="timeline-date">2023</span>
     <div class="timeline-content"><a href="https://www.historians.org/awards-and-grants/past-recipients/roy-rosenzweig-prize-recipients" target="_blank" class="red-link"><strong>Roy Rosenzweig Prize</strong></a> (AHA) for innovation in Digital History (<a href="https://github.com/maps-as-data/MapReader" target="_blank" class="red-link">MapReader</a>)</div>
@@ -398,7 +432,7 @@ keywords:
 
 <h3 id="media" style="margin-bottom: 1em;">Media Coverage</h3>
 
-<div class="timeline">
+<div class="timeline collapsible" data-visible="5">
   <div class="timeline-item">
     <span class="timeline-date">2025</span>
     <div class="timeline-content"><strong><a href="https://openai.com/index/zalando/" target="_blank" class="red-link">OpenAI</a></strong>: Zalando Assistant featured by OpenAI. I am a Principal Applied Scientist and was responsible for the offline evaluation framework used to migrate the Assistant from GPT-3.5 to GPT-4o mini, enabling scaling to 20+ markets.</div>
@@ -447,7 +481,7 @@ keywords:
 
 <h3 id="talks" style="margin-bottom: 1em;">Talks, Presentations & Invited Visits</h3>
 
-<div class="timeline">
+<div class="timeline collapsible" data-visible="5">
   <div class="timeline-item">
     <span class="timeline-date">2025</span>
     <div class="timeline-content">Talk at <strong>ECIR 2025</strong> on <a href="https://doi.org/10.1007/978-3-031-88708-6_10" target="_blank" class="red-link">Leveraging Multimodal LLMs for Large-Scale Product Retrieval Evaluation</a></div>
@@ -556,7 +590,7 @@ keywords:
 
 <h3 id="teaching" style="margin-bottom: 1em;">Teaching & Tutorials</h3>
 
-<div class="timeline">
+<div class="timeline collapsible" data-visible="5">
   <div class="timeline-item">
     <span class="timeline-date">2025</span>
     <div class="timeline-content"><strong>AI Development at Zalando</strong>, session with visiting Swedish university students</div>
@@ -654,7 +688,7 @@ keywords:
 
 <h3 id="services" style="margin-bottom: 1em;">Professional Services</h3>
 
-<div class="timeline">
+<div class="timeline collapsible" data-visible="5">
   <div class="timeline-item">
     <span class="timeline-date">2021–2023</span>
     <div class="timeline-content">Advisory Board, <a href="https://machines-reading-maps.github.io/" target="_blank" class="red-link"><strong>Machines Reading Maps</strong></a>, advised on ML for maps</div>
@@ -705,3 +739,62 @@ keywords:
     <div class="timeline-content">Cruise <a href="https://www.marum.de/en/Ships-Log-MSM-201.html" target="_blank" class="red-link"><strong>MSM20/1</strong></a> (Walvis Ridge) and <a href="https://www.geomar.de/en/research/expeditions/detail-view/exp/314278" target="_blank" class="red-link"><strong>MSM20/2</strong></a> (South Atlantic, Tristan da Cunha), <strong>Atlantic Ocean</strong>, OBS group</div>
   </div>
 </div>
+
+<script>
+document.querySelectorAll('.timeline.collapsible').forEach(function(tl) {
+  var items = tl.querySelectorAll(':scope > .timeline-item');
+  var n = parseInt(tl.getAttribute('data-visible')) || 5;
+  if (items.length <= n) return;
+
+  function collapse() {
+    if (items.length > n) items[n].classList.add('peek-item-1');
+    if (items.length > n + 1) items[n + 1].classList.add('peek-item-2');
+    for (var i = n + 2; i < items.length; i++) {
+      items[i].classList.add('hidden-item');
+    }
+  }
+
+  function expand() {
+    if (items.length > n) items[n].classList.remove('peek-item-1');
+    if (items.length > n + 1) items[n + 1].classList.remove('peek-item-2');
+    for (var i = n + 2; i < items.length; i++) {
+      items[i].classList.remove('hidden-item');
+    }
+  }
+
+  collapse();
+
+  // Add ··· dots and ▲ arrow after the timeline
+  var wrap = document.createElement('div');
+  wrap.style.cssText = 'margin-left: 6.55em; margin-top: 0.2em;';
+
+  var dots = document.createElement('button');
+  dots.className = 'timeline-dots';
+  dots.style.marginLeft = '0';
+  dots.textContent = '···';
+  dots.title = 'Show all';
+
+  var arrow = document.createElement('button');
+  arrow.className = 'timeline-dots';
+  arrow.style.marginLeft = '0.3em';
+  arrow.style.display = 'none';
+  arrow.innerHTML = '&#9650;';
+  arrow.title = 'Show less';
+
+  wrap.appendChild(dots);
+  wrap.appendChild(arrow);
+  tl.parentNode.insertBefore(wrap, tl.nextSibling);
+
+  dots.addEventListener('click', function() {
+    expand();
+    dots.style.display = 'none';
+    arrow.style.display = '';
+  });
+
+  arrow.addEventListener('click', function() {
+    collapse();
+    arrow.style.display = 'none';
+    dots.style.display = '';
+  });
+});
+</script>
