@@ -3,9 +3,13 @@ title: "When Time Makes Sense: A Historically-Aware Approach to Targeted Sense D
 date: 2021-08-01
 author: "Kaspar Beelen, Federico Nanni, Mariona Coll Ardanuy, Kasra Hosseini, Giorgia Tolfo, Barbara McGillivray"
 venue: "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021"
+description: "This paper introduces time-sensitive Targeted Sense Disambiguation (TSD) for historical texts, showing that BERT models trained on nineteenth-century English consistently outperform modern language models and that time-aware disambiguation methods are especially valuable for older documents."
 paper_url: "https://aclanthology.org/2021.findings-acl.243/"
 paper_label: "ACL-IJCNLP 2021"
 paper_categories: ["AI", "NLP", "(L)LM"]
+cover:
+  image: "/images/papers/time-makes-sense/time-makes-sense-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @inproceedings{beelen-etal-2021-time,

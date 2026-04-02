@@ -3,10 +3,14 @@ title: "Smart Monitoring for Conservation Areas"
 date: 2020-06-05
 author: "Kasra Hosseini, Mariona Coll Ardanuy, Daniel J. Patterson, Lorena Garcia-Velez, Lucia Castro-Gonzalez, Lena Deecke, et al."
 venue: "Data Study Group Final Report: WWF, The Alan Turing Institute"
+description: "This report presents an NLP pipeline developed with WWF to automatically detect news articles reporting emerging threats to protected conservation areas, combining active learning with fine-tuned BERT models. The best-performing system achieved 96% recall and 82% precision, demonstrating the feasibility of near-real-time automated conservation threat monitoring at scale."
 paper_url: "https://doi.org/10.5281/zenodo.3878457"
 paper_label: "Zenodo"
 project_url: "https://wwf-sight.org/exploring-ai-with-the-alan-turing-institute/"
 paper_categories: ["AI", "NLP"]
+cover:
+  image: "/images/papers/smart-monitoring-conservation/smart-monitoring-conservation-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @techreport{hosseini2020smartmonitoring,

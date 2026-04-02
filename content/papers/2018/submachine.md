@@ -3,6 +3,7 @@ title: "SubMachine: Web-Based Tools for Exploring Seismic Tomography and Other M
 date: 2018-01-01
 author: "Kasra Hosseini, Kara J. Matthews, Karin Sigloch, Grace E. Shephard, Mathew Domeier, Maria Tsekhmistrenko"
 venue: "Geochemistry, Geophysics, Geosystems"
+description: "SubMachine is a suite of web-based tools for the interactive visualization and comparison of over 45 global and regional seismic tomography models of Earth's interior. By providing browser-accessible exploration alongside complementary datasets such as plate reconstructions and gravity anomalies, it lowers the barrier to collaborative research across the solid Earth community."
 paper_url: "https://doi.org/10.1029/2018GC007431"
 paper_label: "G-cubed"
 github_url: "https://github.com/kasra-hosseini/SubMachine_Public"

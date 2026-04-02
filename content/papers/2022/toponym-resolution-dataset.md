@@ -3,9 +3,13 @@ title: "A Dataset for Toponym Resolution in Nineteenth-Century English Newspaper
 date: 2022-01-24
 author: "Mariona Coll Ardanuy, David Beavan, Kaspar Beelen, Kasra Hosseini, Jon Lawrence, Katherine McDonough, Federico Nanni, Daniel van Strien, Daniel C. S. Wilson"
 venue: "Journal of Open Humanities Data"
+description: "This paper presents a manually annotated dataset of 3,364 toponyms from 343 nineteenth-century English newspaper articles across four locations, designed as a benchmark for developing and evaluating toponym resolution methods on noisy historical text."
 paper_url: "https://doi.org/10.5334/johd.56"
 paper_label: "Journal of Open Humanities Data"
 paper_categories: ["AI", "NLP"]
+cover:
+  image: "/images/papers/toponym-resolution-dataset/toponym-resolution-dataset-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{CollArdanuy2022,

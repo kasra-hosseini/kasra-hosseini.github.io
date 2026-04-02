@@ -3,11 +3,15 @@ title: "MapReader: a computer vision pipeline for the semantic exploration of ma
 date: 2022-01-01
 author: "Kasra Hosseini, Daniel C. S. Wilson, Kaspar Beelen, Katherine McDonough"
 venue: "Proceedings of the 6th ACM SIGSPATIAL International Workshop on Geospatial Humanities"
+description: "MapReader is an open-source Python library that enables users with minimal computer vision expertise to retrieve, patch, annotate, and classify large historical map collections using deep learning — demonstrated on approximately 16,000 nineteenth-century British maps comprising over 30 million patches."
 paper_url: "https://doi.org/10.1145/3557919.3565812"
 paper_label: "SIGSPATIAL 2022"
 arxiv_url: "https://arxiv.org/abs/2111.15592"
 github_url: "https://github.com/maps-as-data/MapReader"
 paper_categories: ["AI", "Computer Vision", "Software Engineering"]
+cover:
+  image: "/images/papers/mapreader/mapreader-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @inproceedings{10.1145/3557919.3565812,

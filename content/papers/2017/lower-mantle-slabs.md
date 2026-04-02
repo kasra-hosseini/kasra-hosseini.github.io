@@ -3,9 +3,13 @@ title: "On the consistency of seismically imaged lower mantle slabs"
 date: 2017-09-08
 author: "G. E. Shephard, K. J. Matthews, Kasra Hosseini, M. Domeier"
 venue: "Scientific Reports"
+description: "Vote maps across 14 global P- and S-wave tomography models quantify the consistency of positive seismic anomalies interpreted as subducted slabs in the lower mantle, revealing a peak in cross-model agreement at 1000-1400 km depth and a pronounced minimum around 2000 km."
 paper_url: "https://doi.org/10.1038/s41598-017-11039-w"
 paper_label: "Scientific Reports"
 paper_categories: ["Natural Sciences", "Computational Science"]
+cover:
+  image: "/images/papers/lower-mantle-slabs/lower-mantle-slabs-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{Shephard2017,

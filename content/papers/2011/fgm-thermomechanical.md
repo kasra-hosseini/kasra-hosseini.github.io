@@ -3,9 +3,13 @@ title: "Dynamic analysis of functionally graded plates using the hybrid Fourier-
 date: 2011-12-01
 author: "A. H. Akbarzadeh, M. Abbasi, S. K. Hosseini Zad, M. R. Eslami"
 venue: "Meccanica"
+description: "Hybrid Fourier-Laplace transform solution for the dynamic response of simply supported functionally graded plates under combined thermomechanical loading, accounting for through-thickness property gradation and heat flux boundary conditions."
 paper_url: "https://doi.org/10.1007/s11012-010-9397-6"
 paper_label: "Meccanica"
 paper_categories: ["Computational Science"]
+cover:
+  image: "/images/papers/fgm-thermomechanical/fgm-thermomechanical-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{Akbarzadeh2011,

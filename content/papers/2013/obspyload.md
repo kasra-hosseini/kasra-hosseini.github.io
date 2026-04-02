@@ -3,10 +3,14 @@ title: "ObsPyLoad: A Tool for Fully Automated Retrieval of Seismological Wavefor
 date: 2013-05-01
 author: "Chris Scheingraber, Kasra Hosseini, Robert Barsch, Karin Sigloch"
 venue: "Seismological Research Letters"
+description: "ObsPyLoad is a fully automated Python tool for querying and downloading seismological waveform data and metadata from multiple data centers (IRIS and ORFEUS) via a single command-line interface, removing the manual burden of data retrieval and format homogenization."
 paper_url: "https://doi.org/10.1785/0220120103"
 paper_label: "Seismological Research Letters"
 github_url: "https://github.com/scheingraber/obspyload"
 paper_categories: ["Software Engineering", "Computational Science", "Natural Sciences"]
+cover:
+  image: "/images/papers/obspyload/obspyload-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{10.1785/0220120103,

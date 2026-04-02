@@ -3,9 +3,13 @@ title: "Subducted Lithosphere Under South America From Multifrequency P Wave Tom
 date: 2021-05-16
 author: "Afsaneh Mohammadzaheri, Karin Sigloch, Kasra Hosseini, Mitchell G. Mihalynuk"
 venue: "Journal of Geophysical Research: Solid Earth"
+description: "Using the DETOX-P1 multifrequency P-wave tomography model, this paper identifies four distinct slab provinces beneath South America and infers a major tectonic reconfiguration around 85 Ma — from offshore intra-oceanic subduction to the eastward Andean subduction that built the modern Andes."
 paper_url: "https://doi.org/10.1029/2020JB020704"
 paper_label: "JGR: Solid Earth"
 paper_categories: ["Natural Sciences", "Computational Science"]
+cover:
+  image: "/images/papers/south-america-subduction/south-america-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{https://doi.org/10.1029/2020JB020704,

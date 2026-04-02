@@ -3,10 +3,14 @@ title: "MapReader: Software and Principles for Computational Map Studies"
 date: 2026-01-01
 author: "Katherine McDonough, Ruth Ahnert, Kaspar Beelen, Kasra Hosseini, Jon Lawrence, Valeria Vitale, Kalle Westerling, Daniel Wilson, Rosie Wood"
 venue: "University of London Press (Early Access)"
+description: "This book chapter introduces computational map studies as a field and presents MapReader's patch-based approach to analyzing digitized map collections at scale, arguing that automation and critical humanities interpretation are complementary when software design foregrounds the argumentative nature of maps as historical sources."
 paper_url: "https://read.uolpress.co.uk/read/map-reader/section/fbaafbaa-a836-4f13-92a7-e045a7eadbd2"
 paper_label: "Book Chapter"
 github_url: "https://github.com/maps-as-data/MapReader"
 paper_categories: ["AI", "Computer Vision", "Software Engineering"]
+cover:
+  image: "/images/papers/mapreader-book-chapter/mapreader-book-chapter-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @incollection{mcdonough2026mapreader,

@@ -3,9 +3,13 @@ title: "Numerical Simulation of Elastic and Thermoelastic Wave Propagation in Tw
 date: 2010-07-12
 author: "S. K. Hosseini Zad, A. Komeili, A. H. Akbarzadeh, M. R. Eslami"
 venue: "ASME 2010 10th Biennial Conference on Engineering Systems Design and Analysis, Volume 2"
+description: "Finite element simulation of elastic and thermoelastic wave propagation in two-dimensional domains using both classical and generalized coupled thermoelasticity theories, comparing how thermal and mechanical waves evolve under different boundary conditions."
 paper_url: "https://doi.org/10.1115/ESDA2010-24575"
 paper_label: "ASME ESDA 2010"
 paper_categories: ["Computational Science"]
+cover:
+  image: "/images/papers/thermoelastic-wave-propagation/thermoelastic-wave-propagation-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @proceedings{10.1115/ESDA2010-24575,

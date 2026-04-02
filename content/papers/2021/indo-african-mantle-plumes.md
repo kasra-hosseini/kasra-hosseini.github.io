@@ -3,6 +3,7 @@ title: "A tree of Indo-African mantle plumes imaged by seismic tomography"
 date: 2021-08-01
 author: "Maria Tsekhmistrenko, Karin Sigloch, Kasra Hosseini, Guilhem Barruol"
 venue: "Nature Geoscience"
+description: "Combining new seismological datasets, this study reveals that Indo-African mantle upwellings form a tree-like structure — a central trunk below ~1,500 km depth with three tilting branches extending toward different hotspots — overturning the classical picture of thin, vertical plume conduits."
 paper_url: "https://doi.org/10.1038/s41561-021-00762-9"
 paper_label: "Nature Geoscience"
 media_coverage:
@@ -15,6 +16,9 @@ media_coverage:
   - name: "NBC News"
     url: "https://www.nbcnews.com/mach/science/deep-inside-earth-scientists-find-weird-blobs-mountains-taller-mount-ncna997111"
 paper_categories: ["Natural Sciences", "Computational Science"]
+cover:
+  image: "/images/papers/indo-african-mantle-plumes/indo-african-plumes-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{Tsekhmistrenko2021,

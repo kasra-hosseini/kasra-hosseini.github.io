@@ -3,9 +3,13 @@ title: "Classical and generalized coupled thermoelasticity analysis in one-dimen
 date: 2012-02-01
 author: "S. K. Hosseini Zad, A. Komeili, M. R. Eslami, S. Fariborz"
 venue: "Archive of Applied Mechanics"
+description: "Direct finite element analysis of thermoelastic wave behavior at the interface of one-dimensional layered media, comparing classical and generalized thermoelasticity theories and revealing how multilayer structures produce markedly different wave distributions from single-layer cases."
 paper_url: "https://doi.org/10.1007/s00419-011-0555-7"
 paper_label: "Archive of Applied Mechanics"
 paper_categories: ["Computational Science"]
+cover:
+  image: "/images/papers/thermoelastic-waves/thermoelastic-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{Hosseini Zad2012,

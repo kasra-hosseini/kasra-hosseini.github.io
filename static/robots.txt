@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kasra-hosseini.github.io/sitemap.xml
+Sitemap: https://kasra-hosseini.com/sitemap.xml

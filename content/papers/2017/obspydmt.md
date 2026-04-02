@@ -3,10 +3,14 @@ title: "ObspyDMT: a Python toolbox for retrieving and processing large seismolog
 date: 2017-10-12
 author: "Kasra Hosseini, Karin Sigloch"
 venue: "Solid Earth"
+description: "ObspyDMT is an open-source Python toolbox that unifies query, retrieval, processing, and quality control of large seismological datasets from multiple data centers, usable either as a command-line tool without Python knowledge or as an importable module in automated workflows."
 paper_url: "https://se.copernicus.org/articles/8/1047/2017/"
 paper_label: "Solid Earth"
 github_url: "https://github.com/kasra-hosseini/obspyDMT"
 paper_categories: ["Software Engineering", "Computational Science", "Natural Sciences"]
+cover:
+  image: "/images/papers/obspydmt/obspydmt-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @Article{se-8-1047-2017,

@@ -3,9 +3,13 @@ title: "Living Machines: A study of atypical animacy"
 date: 2020-12-01
 author: "Mariona Coll Ardanuy, Federico Nanni, Kaspar Beelen, Kasra Hosseini, Ruth Ahnert, Jon Lawrence, Katherine McDonough, Giorgia Tolfo, Daniel CS Wilson, Barbara McGillivray"
 venue: "Proceedings of the 28th International Conference on Computational Linguistics (COLING)"
+description: "This paper introduces the first dataset for atypical animacy detection and a fully unsupervised BERT-based pipeline for identifying when typically inanimate objects—specifically machines in 19th-century English text—are described with animate attributes. The method substantially outperforms baselines and provides evidence of how industrialisation reshaped linguistic representations of machines as active agents."
 paper_url: "https://aclanthology.org/2020.coling-main.400/"
 paper_label: "COLING"
 paper_categories: ["AI", "NLP", "(L)LM"]
+cover:
+  image: "/images/papers/living-machines/living-machines-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @inproceedings{coll-ardanuy-etal-2020-living,

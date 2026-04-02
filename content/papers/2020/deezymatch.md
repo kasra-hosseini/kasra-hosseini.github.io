@@ -3,10 +3,14 @@ title: "DeezyMatch: A Flexible Deep Learning Approach to Fuzzy String Matching"
 date: 2020-10-01
 author: "Kasra Hosseini, Federico Nanni, Mariona Coll Ardanuy"
 venue: "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations"
+description: "DeezyMatch is an open-source deep learning library for fuzzy string matching and candidate ranking that supports transfer learning, making it practical when only limited training data are available. Its candidate ranker uses vector representations and an adaptive search algorithm to efficiently identify best-matching strings in large knowledge bases."
 paper_url: "https://doi.org/10.18653/v1/2020.emnlp-demos.9"
 paper_label: "EMNLP 2020"
 github_url: "https://github.com/Living-with-machines/DeezyMatch"
 paper_categories: ["AI", "NLP", "Software Engineering"]
+cover:
+  image: "/images/papers/deezymatch/deezymatch-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @inproceedings{hosseini-etal-2020-deezymatch,

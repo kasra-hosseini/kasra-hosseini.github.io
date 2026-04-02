@@ -3,9 +3,13 @@ title: "Training martian seismologists for InSight"
 date: 2018-10-01
 author: "Benjamin Fernando, Kasra Hosseini, Maria Tsekhmistrenko"
 venue: "Astronomy & Geophysics, Volume 59, Issue 5"
+description: "This article describes the blind-test exercise organised by the InSight marsquake service to prepare analysts for detecting and characterising seismic events on Mars using a single seismometer. It outlines the unique challenges of Martian seismology and the strategies developed to identify signals in an unfamiliar planetary noise environment."
 paper_url: "https://doi.org/10.1093/astrogeo/aty230"
 paper_label: "Astronomy & Geophysics"
 paper_categories: ["Natural Sciences"]
+cover:
+  image: "/images/papers/training-martian-seismologists/training-martian-seismologists-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{fernando2018training,

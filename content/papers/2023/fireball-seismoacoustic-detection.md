@@ -3,9 +3,13 @@ title: "Exclusive Seismoacoustic Detection and Characterization of an Unseen and
 date: 2023-11-14
 author: "Stephen P. Hicks, Sandro B. Matos, Adriano Pimentel, Giacomo Belli, Duccio Gheri, Maria Tsekhmistrenko, Kasra Hosseini, Wolfram H. Geissler, Rita Silva, Nicolau Wallenstein, Ana M. G. Ferreira"
 venue: "Geophysical Research Letters"
+description: "Using 26 seismometers and two infrasound arrays, this study detects and characterizes a small meteoroid that exploded unseen over the North Atlantic in 2022, demonstrating that seismoacoustic methods combined with satellite data can systematically detect fireballs without relying on human observations."
 paper_url: "https://doi.org/10.1029/2023GL105773"
 paper_label: "Geophysical Research Letters"
 paper_categories: ["Natural Sciences", "Computational Science"]
+cover:
+  image: "/images/papers/fireball-seismoacoustic-detection/fireball-seismoacoustic-detection-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{https://doi.org/10.1029/2023GL105773,

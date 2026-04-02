@@ -3,9 +3,13 @@ title: "Automated dynamic phenotyping of whole oilseed rape (Brassica napus) pla
 date: 2025-01-01
 author: "Evangeline Corcoran, Kasra Hosseini, Laura Siles, Smita Kurup, Sebastian Ahnert"
 venue: "Frontiers in Plant Science"
+description: "This study adapts the MapReader computer vision pipeline to automatically segment and classify five plant structures in whole oilseed rape images, achieving a weighted F1-score of 97.71 and demonstrating the transferability of humanities-developed image analysis tools to agricultural science."
 paper_url: "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1443882"
 paper_label: "Frontiers in Plant Science"
 paper_categories: ["AI", "Computer Vision", "Natural Sciences"]
+cover:
+  image: "/images/papers/automated-plant-phenotyping/automated-plant-phenotyping-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{10.3389/fpls.2025.1443882,

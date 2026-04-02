@@ -3,9 +3,13 @@ title: "Analysis of functionally graded thick truncated cone with finite length 
 date: 2011-08-01
 author: "Kamran Asemi, Mehdi Akhlaghi, Manouchehr Salehi, Seyed Kasra Hosseini Zad"
 venue: "Archive of Applied Mechanics"
+description: "Finite element analysis via the Rayleigh-Ritz energy method for a functionally graded thick truncated cone under axisymmetric hydrostatic internal pressure, examining how cone geometry and power-law material gradation affect displacement and stress distributions."
 paper_url: "https://doi.org/10.1007/s00419-010-0472-1"
 paper_label: "Archive of Applied Mechanics"
 paper_categories: ["Computational Science"]
+cover:
+  image: "/images/papers/fgm-truncated-cone/fgm-cone-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{Asemi2011,

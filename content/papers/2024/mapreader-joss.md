@@ -3,10 +3,14 @@ title: "MapReader: Open software for the visual analysis of maps"
 date: 2024-09-01
 author: "Rosie Wood, Kasra Hosseini, Kalle Westerling, Andrew Smith, Kaspar Beelen, Daniel C. S. Wilson, Katherine McDonough"
 venue: "Journal of Open Source Software"
+description: "MapReader is an open-source interdisciplinary software library for processing digitized maps and images via patch classification and text spotting, supporting both small manually-annotated datasets and large-scale automated analysis across humanities and natural science applications."
 paper_url: "https://doi.org/10.21105/joss.06434"
 paper_label: "JOSS"
 github_url: "https://github.com/maps-as-data/MapReader"
 paper_categories: ["AI", "Computer Vision", "Software Engineering"]
+cover:
+  image: "/images/papers/mapreader-joss/mapreader-joss-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{Wood2024,

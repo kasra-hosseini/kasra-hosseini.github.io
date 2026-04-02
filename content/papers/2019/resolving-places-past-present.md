@@ -3,9 +3,13 @@ title: "Resolving places, past and present: toponym resolution in historical Bri
 date: 2019-11-05
 author: "Mariona Coll Ardanuy, Katherine McDonough, Amrey Krause, Daniel C. S. Wilson, Kasra Hosseini, Daniel van Strien"
 venue: "Proceedings of the 13th Workshop on Geographic Information Retrieval"
+description: "This paper presents a toponym resolution approach for historical British newspapers that combines contemporary knowledge bases with modern gazetteers to link place names in 19th-century text to real-world locations. It introduces an expansive definition of locatable entities and uses contextual disambiguation, enabling fine-grained geographic analysis of digitized newspaper archives."
 paper_url: "https://doi.org/10.1145/3371140.3371143"
 paper_label: "GIR 2019"
 paper_categories: ["AI", "NLP"]
+cover:
+  image: "/images/papers/resolving-places-past-present/resolving-places-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @inproceedings{10.1145/3371140.3371143,

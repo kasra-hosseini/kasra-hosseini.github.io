@@ -3,9 +3,13 @@ title: "Australian Plate Subduction is Responsible for Northward Motion of the I
 date: 2021-09-08
 author: "Andrew J. Parsons, Karin Sigloch, Kasra Hosseini"
 venue: "Geophysical Research Letters"
+description: "Using seismic tomography and plate kinematics, this paper shows that the Indian slab migrated approximately 1,000 km laterally through the mantle, driven by subduction of the neighboring Australian slab — demonstrating that slabs in the same plate network must be interpreted collectively to avoid significant plate reconstruction errors."
 paper_url: "https://doi.org/10.1029/2021GL094904"
 paper_label: "Geophysical Research Letters"
 paper_categories: ["Natural Sciences"]
+cover:
+  image: "/images/papers/indian-slab-migration/indian-slab-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{https://doi.org/10.1029/2021GL094904,

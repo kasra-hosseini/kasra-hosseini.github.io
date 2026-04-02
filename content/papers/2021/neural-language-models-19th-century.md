@@ -3,11 +3,15 @@ title: "Neural Language Models for Nineteenth-Century English"
 date: 2021-05-24
 author: "Kasra Hosseini, Kaspar Beelen, Giovanni Colavizza, Mariona Coll Ardanuy"
 venue: "arXiv preprint"
+description: "This paper presents four types of neural language models — word2vec, fastText, BERT, and Flair — trained on approximately 5.1 billion tokens of nineteenth-century English books (1760–1900), consistently improving downstream task performance on historical documents compared to models trained on modern text."
 paper_url: "https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.48"
 paper_label: "JOHD"
 arxiv_url: "https://arxiv.org/abs/2105.11321"
 github_url: "https://github.com/Living-with-machines/histLM"
 paper_categories: ["AI", "NLP", "(L)LM"]
+cover:
+  image: "/images/papers/neural-language-models-19th-century/neural-language-models-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @misc{hosseini2021neurallanguagemodelsnineteenthcentury,

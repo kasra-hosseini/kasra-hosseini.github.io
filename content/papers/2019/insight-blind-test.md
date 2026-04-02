@@ -3,9 +3,13 @@ title: "Preparing for InSight: Evaluation of the Blind Test for Martian Seismici
 date: 2019-06-01
 author: "Martin van Driel, Savas Ceylan, John Francis Clinton, Domenico Giardini, [...], Kasra Hosseini, [...], and 54 others"
 venue: "Seismological Research Letters"
+description: "In preparation for NASA's InSight mission, 84 teams from 20 countries participated in a blind test to detect and characterise marsquakes embedded in a year-long synthetic single-station dataset. This paper evaluates the submissions, summarising the most successful detection strategies and the lessons learned for building a global seismicity catalog from a single planetary seismometer."
 paper_url: "https://doi.org/10.1785/0220180379"
 paper_label: "Seismological Research Letters"
 paper_categories: ["Natural Sciences", "Computational Science"]
+cover:
+  image: "/images/papers/insight-blind-test/insight-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{10.1785/0220180379,

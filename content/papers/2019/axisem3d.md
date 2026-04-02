@@ -3,9 +3,13 @@ title: "AxiSEM3D: broad-band seismic wavefields in 3-D global earth models with 
 date: 2019-02-18
 author: "Kuangdai Leng, Tarje Nissen-Meyer, Martin van Driel, Kasra Hosseini, David Al-Attar"
 venue: "Geophysical Journal International"
+description: "AxiSEM3D is a hybrid spectral-element/pseudospectral method for simulating global seismic wave propagation in realistic 3-D Earth models with undulating discontinuities. By parametrizing the azimuthal dimension with an adaptive Fourier series, it achieves two to three orders of magnitude speedup over full 3-D methods while supporting simulations up to 1 Hz."
 paper_url: "https://doi.org/10.1093/gji/ggz092"
 paper_label: "GJI"
 paper_categories: ["Computational Science", "Software Engineering", "Natural Sciences"]
+cover:
+  image: "/images/papers/axisem3d/axisem3d-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{10.1093/gji/ggz092,

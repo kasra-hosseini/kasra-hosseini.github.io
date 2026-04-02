@@ -3,9 +3,13 @@ title: "Maps of a Nation? The Digitized Ordnance Survey for New Historical Resea
 date: 2021-04-17
 author: "Kasra Hosseini, Katherine McDonough, Daniel van Strien, Olivia Vane, Daniel C. S. Wilson"
 venue: "Journal of Victorian Culture"
+description: "This paper introduces a computer vision pipeline for analyzing thousands of digitized nineteenth-century Ordnance Survey maps simultaneously, enabling new forms of spatial historical inquiry at scales previously impractical through individual map examination."
 paper_url: "https://doi.org/10.1093/jvcult/vcab009"
 paper_label: "Journal of Victorian Culture"
 paper_categories: ["AI", "Computer Vision"]
+cover:
+  image: "/images/papers/ordnance-survey-maps/ordnance-survey-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{10.1093/jvcult/vcab009,
