@@ -13,3 +13,6 @@ resources/
 content/papers/TO_BE_ADDED.md
 content/posts/README.md
 content/posts/2025/sample-post.md
+
+# Agent skills — local only, never push
+.claude/skills.md
