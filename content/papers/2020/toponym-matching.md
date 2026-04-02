@@ -3,9 +3,13 @@ title: "A Deep Learning Approach to Geographical Candidate Selection through Top
 date: 2020-11-13
 author: "Mariona Coll Ardanuy, Kasra Hosseini, Katherine McDonough, Amrey Krause, Daniel van Strien, Federico Nanni"
 venue: "Proceedings of the 28th International Conference on Advances in Geographic Information Systems (SIGSPATIAL)"
+description: "This paper applies deep neural network architectures to the task of geographical candidate selection through toponym matching, handling cross-lingual variations, regional name differences, and OCR errors in historical text. Evaluation on English and Spanish datasets shows strong performance, enabling more accurate downstream geographic entity resolution in digitized archives."
 paper_url: "https://doi.org/10.1145/3397536.3422236"
 paper_label: "SIGSPATIAL"
 paper_categories: ["AI", "NLP"]
+cover:
+  image: "/images/papers/toponym-matching/toponym-matching-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @inproceedings{10.1145/3397536.3422236,

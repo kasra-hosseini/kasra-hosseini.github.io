@@ -3,6 +3,7 @@ title: "Classical and Generalized Coupled Thermoelasticity of a Layer"
 date: 2010-07-12
 author: "S. K. Hosseini Zad, M. R. Eslami"
 venue: "ASME 2010 10th Biennial Conference on Engineering Systems Design and Analysis, Volume 4"
+description: "Analytical solution for one-dimensional coupled thermoelasticity of a finite layer using Lord-Shulman and Green-Lindsay generalized theories, with Laplace transform and Fourier expansion to compare temperature, displacement, and stress distributions across classical and generalized models."
 paper_url: "https://doi.org/10.1115/ESDA2010-25340"
 paper_label: "ASME ESDA 2010"
 paper_categories: ["Computational Science"]

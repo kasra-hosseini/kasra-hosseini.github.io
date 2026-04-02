@@ -3,9 +3,13 @@ title: "Performance report of the RHUM-RUM ocean bottom seismometer network arou
 date: 2016-02-02
 author: "S. C. Stähler, K. Sigloch, K. Hosseini, W. C. Crawford, G. Barruol, M. C. Schmidt-Aursch, M. Tsekhmistrenko, J.-R. Scholz, A. Mazzullo, M. Deen"
 venue: "Advances in Geosciences"
+description: "Performance report for the RHUM-RUM experiment, a 13-month deployment of 57 broadband ocean-bottom seismometers around La Réunion in the Indian Ocean, achieving 80% seismometer data recovery and characterizing the noise trade-offs between integrated DEPAS and separated INSU instrument designs."
 paper_url: "https://adgeo.copernicus.org/articles/41/43/2016/"
 paper_label: "Advances in Geosciences"
 paper_categories: ["Natural Sciences"]
+cover:
+  image: "/images/papers/rhum-rum-obs-network/rhum-rum-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @Article{adgeo-41-43-2016,

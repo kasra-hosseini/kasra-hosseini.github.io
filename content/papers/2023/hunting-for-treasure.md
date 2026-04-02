@@ -3,10 +3,14 @@ title: "Hunting for Treasure: Living with Machines and the British Library Newsp
 date: 2023-02-06
 author: "Giorgia Tolfo, Olivia Vane, Kaspar Beelen, Kasra Hosseini, Jon Lawrence, David Beavan, Katherine McDonough"
 venue: "Digitised Newspapers - A New Eldorado for Historians?, De Gruyter Oldenbourg"
+description: "This chapter describes the Living with Machines project's approach to the British Library's digitised newspaper collection, introducing Press Picker — an interactive tool for exploring the temporal and geographic distribution of newspaper titles — and surveying how digitised newspapers have been used in humanities research."
 paper_url: "https://doi.org/10.1515/9783110729214-002"
 paper_label: "De Gruyter"
 github_url: "https://github.com/Living-with-machines/PressPicker_public"
 paper_categories: ["AI", "NLP", "Data Visualization"]
+cover:
+  image: "/images/papers/hunting-for-treasure/hunting-for-treasure-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @incollection{tolfo2023hunting,

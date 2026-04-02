@@ -3,9 +3,13 @@ title: "Ten simple rules for working with other people's code"
 date: 2023-01-01
 author: "Charlie Pilgrim, Paul Kent, Kasra Hosseini, Ed Chalstrey"
 venue: "PLOS Computational Biology"
+description: "This paper presents ten pragmatic rules for researchers who need to use, modify, or build upon existing research software, covering four phases — planning, understanding, making changes, and publishing — while acknowledging the practical constraints of academic research environments."
 paper_url: "https://doi.org/10.1371/journal.pcbi.1011031"
 paper_label: "PLOS Comp Biol"
 paper_categories: ["Software Engineering"]
+cover:
+  image: "/images/papers/ten-simple-rules/ten-simple-rules-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{pilgrim2023ten,

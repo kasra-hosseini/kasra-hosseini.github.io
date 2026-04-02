@@ -3,9 +3,13 @@ title: "Multifrequency measurements of core-diffracted P waves (Pdiff) for globa
 date: 2015-08-28
 author: "Kasra Hosseini, Karin Sigloch"
 venue: "Geophysical Journal International"
+description: "A method for routinely measuring multifrequency finite-frequency traveltimes of core-diffracted P waves (Pdiff), yielding 479,559 traveltime anomalies across eight frequency bands from 1,857 earthquakes to enable global waveform tomography of the lowermost mantle."
 paper_url: "https://doi.org/10.1093/gji/ggv298"
 paper_label: "GJI"
 paper_categories: ["Natural Sciences", "Computational Science"]
+cover:
+  image: "/images/papers/pdiff-measurements/pdiff-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{10.1093/gji/ggv298,

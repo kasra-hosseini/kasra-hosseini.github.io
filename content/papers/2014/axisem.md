@@ -3,10 +3,14 @@ title: "AxiSEM: broadband 3-D seismic wavefields in axisymmetric media"
 date: 2014-06-04
 author: "T. Nissen-Meyer, M. van Driel, S. C. Stähler, Kasra Hosseini, S. Hempel, L. Auer, A. Colombi, A. Fournier"
 venue: "Solid Earth"
+description: "AxiSEM is an open-source spectral-element method that computes broadband 3-D global seismic wavefields at a fraction of conventional cost by exploiting axisymmetry to reduce the computational domain from 3-D to 2-D while retaining full 3-D wavefield accuracy."
 paper_url: "https://doi.org/10.5194/se-5-425-2014"
 paper_label: "Solid Earth"
 github_url: "https://github.com/geodynamics/axisem"
 paper_categories: ["Computational Science", "Software Engineering", "Natural Sciences"]
+cover:
+  image: "/images/papers/axisem/axisem-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @Article{se-5-425-2014,

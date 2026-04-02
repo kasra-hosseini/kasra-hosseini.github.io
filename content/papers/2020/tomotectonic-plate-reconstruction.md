@@ -3,9 +3,13 @@ title: "A Quantitative Tomotectonic Plate Reconstruction of Western North Americ
 date: 2020-06-24
 author: "Edward J. Clennett, Karin Sigloch, Mitchell G. Mihalynuk, Maria Seton, Martha A. Henderson, Kasra Hosseini, Afsaneh Mohammadzaheri, Stephen T. Johnston, R. Dietmar Müller"
 venue: "Geochemistry, Geophysics, Geosystems"
+description: "This paper presents a continuously closing plate reconstruction of western North America and the eastern Pacific basin from 170 Ma to present using tomotectonic analysis—combining seismic tomography of subducted mantle slabs with surface geological data. The model reveals that the eastern Pacific was broken into several smaller plates with simultaneous east- and west-directed subduction beneath a vast intraoceanic archipelago, overturning the long-held view of simple Farallon plate subduction."
 paper_url: "https://doi.org/10.1029/2020GC009117"
 paper_label: "G-cubed"
 paper_categories: ["Natural Sciences", "Computational Science"]
+cover:
+  image: "/images/papers/tomotectonic-plate-reconstruction/tomotectonic-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{https://doi.org/10.1029/2020GC009117,

@@ -3,9 +3,13 @@ title: "Assessing the Impact of OCR Quality on Downstream NLP Tasks"
 date: 2020-01-01
 author: "Daniel van Strien, Kaspar Beelen, Mariona Coll Ardanuy, Kasra Hosseini, Barbara McGillivray, Giovanni Colavizza"
 venue: "Proceedings of the 12th International Conference on Agents and Artificial Intelligence - Volume 1: ARTIDIGH"
+description: "This study systematically quantifies how OCR quality affects six downstream NLP tasks—including named entity recognition, dependency parsing, and topic modelling—using popular out-of-the-box tools on digitized historical text. Results show a consistent degradation with declining OCR quality, with some tasks more irreparably harmed than others, providing practical guidelines for researchers working with heritage digitization."
 paper_url: "https://doi.org/10.5220/0009169004840496"
 paper_label: "ICAART 2020"
 paper_categories: ["AI", "NLP", "(L)LM"]
+cover:
+  image: "/images/papers/ocr-quality-nlp/ocr-quality-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @conference{artidigh20,

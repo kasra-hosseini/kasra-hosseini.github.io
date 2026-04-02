@@ -3,9 +3,13 @@ title: "Geological, geophysical and plate kinematic constraints for models of th
 date: 2020-01-01
 author: "Andrew J. Parsons, Kasra Hosseini, Richard M. Palin, Karin Sigloch"
 venue: "Earth-Science Reviews"
+description: "This review integrates Tibetan bedrock geology, seismic tomographic images of subducted slabs, and plate kinematic constraints to evaluate competing models for the India-Asia collision and the post-Triassic Tethys oceans. It finds that no single reconstruction satisfies all constraints, pointing to fundamental gaps in understanding suture zones and the limits of continental subduction."
 paper_url: "https://doi.org/10.1016/j.earscirev.2020.103084"
 paper_label: "Earth-Science Reviews"
 paper_categories: ["Natural Sciences"]
+cover:
+  image: "/images/papers/india-asia-collision/india-asia-collision-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{PARSONS2020103084,

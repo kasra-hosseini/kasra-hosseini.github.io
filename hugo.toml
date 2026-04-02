@@ -13,19 +13,24 @@ theme = "PaperMod"
     math = true
     mainSections = ["posts", "papers"]
     author = "Kasra Hosseini"
-    description = "Kasra Hosseini (Kasra Hosseini Zad) – Principal Applied Scientist at Zalando, Berlin. Building production ML systems, LLMs, multi-agent AI, and semantic search. Previously Research Data Scientist at the Alan Turing Institute and Postdoctoral Researcher at the University of Oxford. 49 peer-reviewed publications, 2500+ citations, h-index 25."
+    description = "Kasra Hosseini (Kasra Hosseini Zad) – Principal Applied Scientist at Zalando, Berlin. Specializing in Machine Learning, Deep Learning, Large Language Models (LLMs), Multimodal LLMs, AI agents, and multi-agent systems for large-scale production systems. Expertise in Natural Language Processing (NLP), Computer Vision, semantic search, and information retrieval. Research interests span LLM fine-tuning, efficient and adaptable models, generative AI, and Data Science. Additional work in AI safety, red teaming, privacy-preserving ML, differential privacy, and federated learning. Previously Research Data Scientist at the Alan Turing Institute and Postdoctoral Researcher at the University of Oxford. 49 peer-reviewed publications, 2500+ citations, h-index 25."
     keywords = [
       "Kasra Hosseini", "Kasra Hosseini Zad", "Kasra Hosseinizad",
       "Seyed Kasra Hosseini Zad", "Seyedkasra Hosseinizad",
       "Kasra Zad", "Hosseini", "Hosseinizad",
-      "Machine Learning", "Large Language Models", "LLM",
-      "AI", "Artificial Intelligence", "AI agents", "multi-agent AI",
-      "Berlin ML", "Berlin LLM", "Berlin AI", "Berlin Machine Learning",
+      "Machine Learning", "Deep Learning", "Large Language Models", "LLM",
+      "AI", "Artificial Intelligence", "AI agents", "multi-agent AI", "multi-agent systems",
+      "Multimodal LLMs", "Multimodal Large Language Models",
+      "Natural Language Processing", "NLP", "Computer Vision",
+      "Semantic Search", "Information Retrieval", "Neural Search",
+      "LLM Fine-Tuning", "Efficient ML", "Adaptable ML", "Model Optimization",
+      "Generative AI", "LLM Evaluation", "LLM-as-a-Judge",
+      "Production ML Systems", "Real-Time ML", "ML Pipelines", "MLOps",
+      "Data Science", "ML Engineering",
+      "AI Safety", "Red Teaming", "Adversarial ML", "Responsible AI",
+      "Privacy-Preserving Machine Learning", "Differential Privacy", "Federated Learning",
       "Applied Scientist", "Zalando", "Zalando AI",
-      "NLP", "Natural Language Processing", "Information Retrieval",
-      "Semantic Search", "Computer Vision", "Deep Learning",
-      "AI Safety", "Red Teaming", "Adversarial ML",
-      "Privacy", "Differential Privacy", "Federated Learning",
+      "Berlin ML", "Berlin LLM", "Berlin AI", "Berlin Machine Learning",
       "Alan Turing Institute", "University of Oxford", "LMU Munich",
       "Seismology", "Geophysics", "Computational Science",
       "DeezyMatch", "MapReader", "obspyDMT", "SubMachine",

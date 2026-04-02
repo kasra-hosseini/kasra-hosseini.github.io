@@ -3,10 +3,14 @@ title: "Global mantle structure from multifrequency tomography using P, PP and P
 date: 2019-09-01
 author: "Kasra Hosseini, Karin Sigloch, Maria Tsekhmistrenko, Afsaneh Zaheri, Tarje Nissen-Meyer, Heiner Igel"
 venue: "Geophysical Journal International"
+description: "This study presents three new global P-wave tomography models (DETOX-P1/P2/P3) of Earth's mantle, introducing the first large-scale inversion of core-diffracted Pdiff waves at the highest possible frequencies. The resulting lowermost-mantle resolution matches or exceeds that of global S-wave models, revealing that the two canonical large low-shear-velocity provinces may instead form a globe-spanning chain of smaller slow patches."
 paper_url: "https://doi.org/10.1093/gji/ggz394"
 paper_label: "GJI"
 webtool_url: "https://doi.org/10.1029/2018GC007431"
 paper_categories: ["Natural Sciences", "Computational Science"]
+cover:
+  image: "/images/papers/global-mantle-structure/global-mantle-structure-teaser.jpg"
+  hidden: true
 draft: false
 bibtex: |
   @article{10.1093/gji/ggz394,

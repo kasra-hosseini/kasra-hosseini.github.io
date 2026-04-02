@@ -3,10 +3,14 @@ title: "Instaseis: instant global seismograms based on a broadband waveform data
 date: 2015-06-16
 author: "M. van Driel, L. Krischer, S. C. Stähler, Kasra Hosseini, T. Nissen-Meyer"
 venue: "Solid Earth"
+description: "Instaseis pre-computes and stores global Green's functions from AxiSEM in a database, enabling near-instantaneous (millisecond) extraction of arbitrary broadband seismograms at any source-receiver combination with 4th-order spatial accuracy."
 paper_url: "https://doi.org/10.5194/se-6-701-2015"
 paper_label: "Solid Earth"
 github_url: "https://github.com/krischer/instaseis"
 paper_categories: ["Computational Science", "Software Engineering", "Natural Sciences"]
+cover:
+  image: "/images/papers/instaseis/instaseis-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @Article{se-6-701-2015,

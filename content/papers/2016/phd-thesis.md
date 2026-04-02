@@ -3,9 +3,13 @@ title: "Global multiple-frequency seismic tomography using teleseismic and core-
 date: 2016-05-30
 author: "Kasra Hosseini"
 venue: "PhD Thesis, Ludwig-Maximilians-Universität München"
+description: "PhD thesis developing a global multiple-frequency seismic tomography framework that combines the largest collected dataset of Pdiff traveltime measurements with teleseismic P and PP data to image whole-mantle structure, revealing sharp slab geometries, mantle plumes, and subdivisions of Large Low Shear Velocity Provinces."
 paper_url: "https://nbn-resolving.de/urn:nbn:de:bvb:19-195973"
 paper_label: "PhD Thesis"
 paper_categories: ["Natural Sciences", "Computational Science"]
+cover:
+  image: "/images/papers/phd-thesis/phd-thesis-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @phdthesis{ediss19597,

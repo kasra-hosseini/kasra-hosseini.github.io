@@ -3,9 +3,13 @@ title: "Charting the mantle"
 date: 2026-03-01
 author: "A. M. G. Ferreira, UPFLOW team"
 venue: "Astronomy & Geophysics, Volume 67, Issue 2"
+description: "This article describes the UPFLOW project's deployment of the largest passive seafloor seismic experiment to date in the Atlantic Ocean, targeting poorly understood mantle upwellings beneath the Azores-Madeira-Canary Islands region and opening avenues for interdisciplinary research in marine biology and oceanography."
 paper_url: "https://doi.org/10.1093/astrogeo/atag007"
 paper_label: "Astronomy & Geophysics"
 paper_categories: ["Natural Sciences"]
+cover:
+  image: "/images/papers/charting-the-mantle/charting-the-mantle-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{ferreira2026charting,

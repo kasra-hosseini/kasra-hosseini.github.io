@@ -3,9 +3,13 @@ title: "Mechanical behaviour of functionally graded plates under static and dyna
 date: 2011-06-11
 author: "A. H. Akbarzadeh, S. K. Hosseini Zad, M. R. Eslami, M. Sadighi"
 venue: "Proceedings of the Institution of Mechanical Engineers, Part C: Journal of Mechanical Engineering Science"
+description: "Analytical solution for the static, dynamic, and free vibration behavior of functionally graded material plates using first- and third-order shear deformation theories combined with Fourier series and Laplace transforms."
 paper_url: "https://doi.org/10.1243/09544062JMES2111"
 paper_label: "IMechE Part C"
 paper_categories: ["Computational Science"]
+cover:
+  image: "/images/papers/fgm-plates/fgm-plates-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @article{doi:10.1243/09544062JMES2111,

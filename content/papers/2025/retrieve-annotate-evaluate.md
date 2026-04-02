@@ -3,6 +3,7 @@ title: "Retrieve, Annotate, Evaluate, Repeat: Leveraging Multimodal LLMs for Lar
 date: 2025-04-03
 author: "Kasra Hosseini, Thomas Kober, Josip Krapac, Roland Vollgraf, Weiwei Cheng, Ana Peleteiro Ramallo"
 venue: "Advances in Information Retrieval: 47th European Conference on Information Retrieval, ECIR 2025"
+description: "This paper proposes a multimodal LLM-based framework for large-scale product retrieval evaluation that generates query-specific annotation guidelines and conducts relevance assessments, achieving human-comparable quality at 1,000x lower cost on a large e-commerce platform."
 paper_url: "https://doi.org/10.1007/978-3-031-88708-6_10"
 paper_label: "ECIR 2025"
 arxiv_url: "https://arxiv.org/abs/2409.11860"

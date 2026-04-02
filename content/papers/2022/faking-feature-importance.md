@@ -3,10 +3,14 @@ title: "Faking feature importance: A cautionary tale on the use of differentiall
 date: 2022-03-02
 author: "Oscar Giles, Kasra Hosseini, Grigorios Mingas, Oliver Strickson, Louise Bowler, Camila Rangel Smith, Harrison Wilde, Jen Ning Lim, Bilal Mateen, Kasun Amarasinghe, Rayid Ghani, Alison Heppenstall, Nik Lomax, Nick Malleson, Martin O'Reilly, Sebastian Vollmer"
 venue: "arXiv preprint"
+description: "This paper demonstrates that differentially-private synthetic data often fails to reliably preserve feature importance rankings from real-world datasets, cautioning against its use for exploratory machine learning in sensitive domains such as healthcare and finance."
 paper_label: "arXiv"
 arxiv_url: "https://arxiv.org/abs/2203.01363"
 project_url: "https://www.turing.ac.uk/research/research-projects/quipp-quantifying-utility-and-preserving-privacy-synthetic-data-sets"
 paper_categories: ["AI", "Privacy"]
+cover:
+  image: "/images/papers/faking-feature-importance/faking-feature-importance-teaser.png"
+  hidden: true
 draft: false
 bibtex: |
   @misc{giles2022fakingfeatureimportancecautionary,
