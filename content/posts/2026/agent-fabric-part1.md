@@ -16,7 +16,7 @@ ShowToc: false
 TocOpen: false
 hideCitation: false
 scholar: true
-wordcount: "~4,000 words (body) · ~2,200 words (notes)"
+wordcount: "~4,100 words (body) · ~3,400 words (notes)"
 ---
 
 <style>
