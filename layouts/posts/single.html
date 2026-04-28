@@ -18,11 +18,33 @@
     {{- end }}
     {{- if not (.Param "hideMeta") }}
     <div class="post-meta" style="color: #666; font-size: 0.9em;">
-      Date: {{ .Date.Format "January 2, 2006" }}{{- if .Params.readingTime }} | Estimated Reading Time: {{ .Params.readingTime }} min{{- end }}{{- if .Params.author }} | Author: {{ .Params.author }}{{- end }}
+      Date: {{ .Date.Format "January 2, 2006" }}{{- if (.Param "ShowReadingTime") }} | {{ .ReadingTime }} min read{{- end }}{{- if .Params.author }} | Author: {{ .Params.author }}{{- end }}{{- if .Params.wordcount }} | {{ .Params.wordcount }}{{- end }}
       {{- partial "translation_list.html" . -}}
       {{- partial "edit_post.html" . -}}
       {{- partial "post_canonical.html" . -}}
     </div>
+    <div class="post-actions" style="margin-top: 0.4em; display: flex; gap: 6px; align-items: flex-start;">
+      <button onclick="window.print()" style="background: none; border: 1px solid #ccc; border-radius: 4px; padding: 2px 10px; font-size: 0.8em; color: #666; cursor: pointer;">Print / PDF</button>
+      <button id="toggle-all-btn" style="display: none; background: none; border: 1px solid #ccc; border-radius: 4px; padding: 2px 10px; font-size: 0.8em; color: #666; cursor: pointer;" onclick="(function(btn){var d=document.querySelectorAll('article details');var allOpen=Array.from(d).every(function(el){return el.open});d.forEach(function(el){el.open=!allOpen});btn.textContent=allOpen?'Expand all':'Collapse all'})(this)">Expand all</button>
+      <script>document.addEventListener('DOMContentLoaded',function(){if(document.querySelectorAll('article details').length>0)document.getElementById('toggle-all-btn').style.display=''})</script>
+      <div style="position: relative; display: inline-block;">
+        <button onclick="var box=this.parentElement.querySelector('.cite-popup'); box.style.display = box.style.display==='none'?'block':'none';" style="background: none; border: 1px solid #ccc; border-radius: 4px; padding: 2px 10px; font-size: 0.8em; color: #666; cursor: pointer;">Cite</button>
+        <div class="cite-popup" style="display:none; position:absolute; top:28px; left:0; z-index:100; background:#fff; border:1px solid #ddd; border-radius:6px; box-shadow:0 4px 16px rgba(0,0,0,0.12); padding:12px 14px; width:420px; max-width:85vw;">
+          <div style="font-size:0.75em; color:#666; margin-bottom:6px; font-weight:bold;">Plain text:</div>
+          <div style="background:#f5f5f5; padding:8px; border-radius:4px; font-family:monospace; font-size:0.75em; color:#333; margin-bottom:10px; line-height:1.4;">{{ .Params.author | default "Kasra Hosseini" }}. "{{ .Title }}". Zad's Notes ({{ .Date.Format "January 2006" }}). {{ .Permalink }}</div>
+          <div style="font-size:0.75em; color:#666; margin-bottom:6px; font-weight:bold;">BibTeX:</div>
+          <pre style="background:#f5f5f5; padding:8px; border-radius:4px; font-size:0.7em; color:#333; margin:0; overflow-x:auto; line-height:1.4;">@article{{ printf "{" }}{{ .File.BaseFileName }},
+  title = {{ printf "{" }}{{ .Title }}{{ printf "}" }},
+  author = {{ printf "{" }}{{ .Params.author | default "Kasra Hosseini" }}{{ printf "}" }},
+  journal = {{ printf "{" }}Zad's Notes{{ printf "}" }},
+  year = {{ printf "{" }}{{ .Date.Format "2006" }}{{ printf "}" }},
+  month = {{ printf "{" }}{{ .Date.Format "January" }}{{ printf "}" }},
+  url = {{ printf "{" }}{{ .Permalink }}{{ printf "}" }}
+{{ printf "}" }}</pre>
+        </div>
+      </div>
+    </div>
+    <style>@media print { .post-actions { display: none; } }</style>
     {{- end }}
   </header>
   {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden }}
@@ -47,16 +69,16 @@
   {{- if not (.Param "hideCitation") }}
   <div style="margin-top: 3em; padding-top: 2em; border-top: 1px solid #eee;">
     <h2 style="font-size: 1.4em;">Citation</h2>
-    <p>Please cite this work as:</p>
+    <p>If you find this article useful, you can cite it as:</p>
     <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 1em; border-radius: 5px; overflow-x: auto; font-family: monospace; font-size: 0.9em; margin: 1em 0;">
-      <span style="color: #f92672;">{{ .Params.author | default "Kasra Hosseini" }}</span>. <span style="color: #a6e22e;">"{{ .Title }}"</span>. Kasra's Notes ({{ .Date.Format "January 2006" }}). {{ .Permalink }}
+      <span style="color: #f92672;">{{ .Params.author | default "Kasra Hosseini" }}</span>. <span style="color: #a6e22e;">"{{ .Title }}"</span>. Zad's Notes ({{ .Date.Format "January 2006" }}). {{ .Permalink }}
     </div>
     <p style="margin-top: 1em;">Or use the BibTeX citation:</p>
     <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 1em; border-radius: 5px; overflow-x: auto; font-family: monospace; font-size: 0.9em;">
 @article{{ printf "{" }}{{ .File.BaseFileName }},<br>
 &nbsp;&nbsp;title = {{ printf "{" }}<span style="color: #a6e22e;">{{ .Title }}</span>{{ printf "}" }},<br>
 &nbsp;&nbsp;author = {{ printf "{" }}<span style="color: #f92672;">{{ .Params.author | default "Kasra Hosseini" }}</span>{{ printf "}" }},<br>
-&nbsp;&nbsp;journal = {{ printf "{" }}<span style="color: #66d9ef;">Kasra's Notes</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;journal = {{ printf "{" }}<span style="color: #66d9ef;">Zad's Notes</span>{{ printf "}" }},<br>
 &nbsp;&nbsp;year = {{ printf "{" }}<span style="color: #ae81ff;">{{ .Date.Format "2006" }}</span>{{ printf "}" }},<br>
 &nbsp;&nbsp;month = {{ printf "{" }}<span style="color: #ae81ff;">{{ .Date.Format "January" }}</span>{{ printf "}" }},<br>
 &nbsp;&nbsp;url = <span style="color: #e6db74;">"{{ .Permalink }}"</span><br>
