@@ -1,5 +1,5 @@
 ---
-title: "The Agent Fabric (Part 1): Why Agents Form Societies"
+title: "The Agent Fabric (Part 1): Why Agents May Form Societies"
 subtitle: "As agents multiply, isolation becomes expensive. Shared memory, specialization, and governance push useful agents into bounded societies."
 date: 2026-04-28
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
@@ -202,7 +202,7 @@ Some threads in this fabric are **designed patterns**, built top-down by enginee
 <div class="series-nav">
 <strong>The Agent Fabric</strong>, a multi-part series on why and how AI agents may form societies and what it means for us.
 
-- **Part 1. Why Agents Form Societies** (you are here). Two observations, the Loom Hypothesis, and the path from isolation to interweaving
+- **Part 1. Why Agents May Form Societies** (you are here). Two observations, the Loom Hypothesis, and the path from isolation to interweaving
 - **Part 2. Division of Labour and Governance.** Delegation archetypes, the specialist market, and governance archetypes *(coming soon)*
 - **Part 3. The Human in the Weave.** Modes of human-agent interaction and the fabric in daily life *(coming soon)*
 </div>
