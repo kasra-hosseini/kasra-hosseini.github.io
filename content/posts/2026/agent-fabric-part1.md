@@ -124,6 +124,14 @@ wordcount: "~4,000 words (body) · ~2,200 words (notes)"
     line-height: 1.6;
     color: #444;
   }
+  .viz-container { cursor: zoom-in; }
+  .viz-container.viz-expanded {
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%, -50%) scale(var(--viz-scale, 1.4));
+    z-index: 10000; cursor: zoom-out;
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.8);
+    transition: transform 0.2s ease;
+  }
   @media print {
     .viz-restart { display: none !important; }
     .viz-caption details { display: none !important; }
@@ -139,6 +147,40 @@ wordcount: "~4,000 words (body) · ~2,200 words (notes)"
     }
   }
 </style>
+
+<script>
+(function(){
+  var expanded = null;
+  document.addEventListener('click', function(e){
+    if(expanded){
+      expanded.classList.remove('viz-expanded');
+      expanded.style.removeProperty('--viz-scale');
+      expanded = null;
+      e.stopPropagation();
+      return;
+    }
+    var vc = e.target.closest('.viz-container');
+    if(!vc) return;
+    if(e.target.closest('.viz-caption, .viz-restart, button, a, details')) return;
+    if(vc.querySelector('#viz-two-societies')) return;
+    e.stopPropagation();
+    var rect = vc.getBoundingClientRect();
+    var scaleX = (window.innerWidth * 0.9) / rect.width;
+    var scaleY = (window.innerHeight * 0.9) / rect.height;
+    var scale = Math.min(scaleX, scaleY, 2.5);
+    vc.style.setProperty('--viz-scale', scale);
+    vc.classList.add('viz-expanded');
+    expanded = vc;
+  }, true);
+  document.addEventListener('keydown', function(e){
+    if(e.key==='Escape' && expanded){
+      expanded.classList.remove('viz-expanded');
+      expanded.style.removeProperty('--viz-scale');
+      expanded = null;
+    }
+  });
+})();
+</script>
 
 <div style="background: #fffbeb; border: 1px solid #f59e0b; border-radius: 6px; padding: 0.6em 1em; margin: 1.5em 0; font-size: 0.88em; color: #92400e;">
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
