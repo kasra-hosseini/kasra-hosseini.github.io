@@ -22,6 +22,21 @@
   }
 </style>
 
+{{- /* Google Scholar meta tags for blog posts with scholar: true */ -}}
+{{- if and .IsPage .Params.scholar }}
+<meta name="citation_title" content="{{ .Title }}">
+{{- $authors := split (.Params.author | default "Kasra Hosseini") " and " }}
+{{- range $authors }}
+<meta name="citation_author" content="{{ . | strings.TrimSpace }}">
+{{- end }}
+<meta name="citation_publication_date" content="{{ .Date.Format "2006/01/02" }}">
+<meta name="citation_journal_title" content="Zad's Notes">
+<meta name="citation_abstract_html_url" content="{{ .Permalink }}">
+{{- if .Description }}
+<meta name="citation_abstract" content="{{ .Description }}">
+{{- end }}
+{{- end }}
+
 {{- /* Shared custom styles */ -}}
 <style>
   .red-link {
@@ -48,7 +63,7 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Kasra Hosseini",
-  "alternateName": ["Kasra Hosseini Zad", "Kasra Hosseinizad", "Seyed Kasra Hosseini Zad", "Seyedkasra Hosseinizad", "Kasra Zad"],
+  "alternateName": ["Kasra", "Kasra Hosseini", "Kasra Hosseini Zad", "Kasra Hosseinizad", "Hosseini", "Hosseini Zad", "Hosseinizad", "Kasra Zad", "Seyed Kasra", "Seyed Kasra Hosseini Zad", "Seyed Kasra Hosseini", "Seyed Kasra Hosseinizad", "Seyedkasra Hosseinizad", "Dr. Kasra", "Dr. Zad", "Dr. Kasra Zad"],
   "url": "{{ .Site.BaseURL }}",
   "image": "{{ .Site.BaseURL }}images/kasra.jpg",
   "jobTitle": "Principal Applied Scientist",
