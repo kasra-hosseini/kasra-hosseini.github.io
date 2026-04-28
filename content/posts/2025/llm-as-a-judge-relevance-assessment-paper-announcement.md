@@ -1,8 +1,7 @@
 ---
 title: "LLM-as-a-Judge: Leveraging Multimodal LLMs for Large-Scale Product Retrieval Evaluation"
-date: 2024-11-15
+date: 2025-04-07
 author: "Kasra Hosseini"
-readingTime: 13
 post_categories: ["AI"]
 tags: ["AI", "LLM", "LLM-as-a-Judge"]
 description: "How we built a multimodal LLM framework for large-scale product retrieval evaluation at Zalando, achieving human-comparable annotation quality at 1,000x lower cost. Published at ECIR 2025."
@@ -13,9 +12,12 @@ draft: false
 math: true
 ShowToc: true
 TocOpen: false
+wordcount: "~2,200 words"
 ---
 
 > **Note:** Most of the content in this blogpost was previously published on the <a href="https://engineering.zalando.com/posts/2024/11/llm-as-a-judge-relevance-assessment-paper-announcement.html" target="_blank" class="red-link">Zalando Engineering Blog</a>.
+
+**[Update, March 2025]** This paper was published at <a href="https://ecir2025.eu/" target="_blank" class="red-link">ECIR 2025</a> (European Conference on Information Retrieval).
 
 We introduce a novel approach to large-scale product retrieval evaluation using Multimodal Large Language Models (MLLMs). Evaluated on 20,000 examples, our method shows how MLLMs can help automate the relevance assessment of retrieved products, achieving levels of accuracy comparable to human annotators and enabling scalable evaluation for high-traffic e-commerce platforms.
 
