@@ -58,7 +58,7 @@
   <h3 class="paper-year-heading" style="margin-top: 2em; margin-bottom: 1em;">{{ .Key }}</h3>
 
   {{- range .Pages }}
-  <article class="post-entry paper-item" data-categories="{{ delimit .Params.paper_categories "," }}">
+  <article class="post-entry paper-item" data-categories="{{ with .Params.paper_categories }}{{ delimit . "," }}{{ end }}">
     <header class="entry-header">
       <h2 class="entry-hint-parent">
         <a href="{{ .Permalink }}">{{ .Title }}</a>
