@@ -16,3 +16,6 @@ content/posts/2025/sample-post.md
 
 # Agent skills — local only, never push
 .claude/skills.md
+
+# Local archive — backups and old drafts, never push
+archive/
