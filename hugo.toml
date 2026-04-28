@@ -8,9 +8,11 @@ theme = "PaperMod"
 
 [params]
     env = "production"
+    comments = true
     defaultTheme = "light"
     disableThemeToggle = true
     math = true
+    ShowReadingTime = false
     mainSections = ["posts", "papers"]
     author = "Kasra Hosseini"
     description = "Kasra Hosseini (Kasra Hosseini Zad) – Principal Applied Scientist at Zalando, Berlin. Specializing in Machine Learning, Deep Learning, Large Language Models (LLMs), Multimodal LLMs, AI agents, and multi-agent systems for large-scale production systems. Expertise in Natural Language Processing (NLP), Computer Vision, semantic search, and information retrieval. Research interests span LLM fine-tuning, efficient and adaptable models, generative AI, and Data Science. Additional work in AI safety, red teaming, privacy-preserving ML, differential privacy, and federated learning. Previously Research Data Scientist at the Alan Turing Institute and Postdoctoral Researcher at the University of Oxford. 49 peer-reviewed publications, 2500+ citations, h-index 25."
@@ -35,6 +37,9 @@ theme = "PaperMod"
       "Seismology", "Geophysics", "Computational Science",
       "DeezyMatch", "MapReader", "obspyDMT", "SubMachine",
       "Digital Humanities", "Historical Maps",
+      "collective intelligence", "agent society", "human-AI interaction",
+      "AI governance", "agent fabric", "knowledge factory", "LLM agents",
+      "AI coordination", "society of mind", "agentic AI",
     ]
     images = ["/images/kasra.jpg"]
 
