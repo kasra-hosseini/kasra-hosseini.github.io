@@ -182,6 +182,8 @@ wordcount: "~4,100 words (body) · ~3,400 words (notes)"
 })();
 </script>
 
+<p style="font-size: 0.82em; color: #999; margin-top: 1em;"><a href="https://code.claude.com/docs/en/overview" target="_blank" style="color: #999;">Claude Code</a> was used for editing and visualizations. All ideas and arguments are the authors' own.</p>
+
 <div style="background: #fffbeb; border: 1px solid #f59e0b; border-radius: 6px; padding: 0.6em 1em; margin: 1.5em 0; font-size: 0.88em; color: #92400e;">
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
@@ -691,9 +693,6 @@ No system today operates at the full scale described here. Many of the component
 - **Part 2. Division of Labour and Governance** describes delegation archetypes, the specialist market, and governance archetypes. *(Coming soon)*
 - **Part 3. The Human in the Weave** explores modes of human-agent interaction and what daily life looks like when the fabric is alive. *(Coming soon)*
 </div>
-
-<p style="font-size: 0.82em; color: #999; margin-top: 2em;">Claude (Anthropic) was used for editing and visualizations. All ideas and arguments are the authors' own.</p>
-
 
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
