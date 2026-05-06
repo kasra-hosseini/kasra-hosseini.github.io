@@ -16,7 +16,7 @@ ShowToc: false
 TocOpen: false
 hideCitation: false
 scholar: true
-wordcount: "~4,100 words (body) · ~3,400 words (notes)"
+wordcount: "~4,300 words (body) · ~4,100 words (notes)"
 ---
 
 <style>
@@ -133,17 +133,29 @@ wordcount: "~4,100 words (body) · ~3,400 words (notes)"
     transition: transform 0.2s ease;
   }
   @media print {
-    .viz-restart { display: none !important; }
+    .viz-restart, button.viz-restart { display: none !important; }
     .viz-caption details { display: none !important; }
     .viz-container {
       break-inside: avoid;
       page-break-inside: avoid;
       overflow: visible;
+      margin: 1em auto;
+    }
+    .viz-container > div[style*="height"] {
+      height: auto !important;
+    }
+    .viz-container svg {
+      max-height: 90vh;
     }
     .viz-caption {
       position: static !important;
       margin-top: 0.5rem;
       page-break-before: avoid;
+    }
+    .viz-expanded {
+      position: static !important;
+      transform: none !important;
+      box-shadow: none !important;
     }
   }
 </style>
@@ -184,6 +196,13 @@ wordcount: "~4,100 words (body) · ~3,400 words (notes)"
 
 <p style="font-size: 0.82em; color: #999; margin-top: 1em;"><a href="https://code.claude.com/docs/en/overview" target="_blank" style="color: #999;">Claude Code</a> was used for editing and visualizations. All ideas and arguments are the authors' own.</p>
 
+
+<details style="margin: 1em 0 0.5em; font-size: 0.85em;"><summary style="color: #888; cursor: pointer;">Updates</summary>
+<ul style="color: #666; margin-top: 0.3em;">
+<li><strong>2026-05-05:</strong> Added note on self-organization and complexity science (Holland's schema theorem, classifier systems, Kauffman, Prigogine, Axelrod). Refined definitions throughout to avoid implying patterns are inherently designed or emergent.</li>
+</ul>
+</details>
+
 <div style="background: #fffbeb; border: 1px solid #f59e0b; border-radius: 6px; padding: 0.6em 1em; margin: 1.5em 0; font-size: 0.88em; color: #92400e;">
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
@@ -198,15 +217,14 @@ wordcount: "~4,100 words (body) · ~3,400 words (notes)"
 
 When you use ChatGPT, Claude, or Gemini, you are talking to one AI. It has memory, it can search the web, run code, browse files, yet there is only one model behind the curtain. Something different is already happening one layer down. When you ask a coding agent to refactor a module, the interaction may feel like one assistant, but the work is often split across planners, tool calls, test runners, and specialized sub-agents. You interacted with one agent; several did the work behind the scenes. Now scale it to millions or billions of agents, coordinating across organizations, forming persistent relationships. What organizational structures could emerge, and what would govern them? We call this interconnected system **the Agent Fabric**.
 
-Some threads in this fabric are **designed patterns**, built top-down by engineers who assign roles and routing. Others are **emergent dynamics**. As billions of people acquire personal agents, those agents connect through social interactions, shopping routines, and work collaborations, forming societies through repeated interaction rather than design.
+Some threads in this fabric are built top-down by engineers who assign roles and routing. Others crystallize bottom-up through repeated interaction. The same structural patterns can arise through either path. As billions of people acquire personal agents, those agents connect through social interactions, shopping routines, and work collaborations, forming societies without any single deployer planning the outcome.
 
 <!-- Series navigation -->
 <div class="series-nav">
 <strong>The Agent Fabric</strong>, a multi-part series on why and how AI agents may form societies and what it means for us.
 
 - **Part 1. Why Agents May Form Societies** (you are here). Two observations, the Loom Hypothesis, and the path from isolation to interweaving
-- **Part 2. Division of Labour and Governance.** Delegation archetypes, the specialist market, and governance archetypes *(coming soon)*
-- **Part 3. The Human in the Weave.** Modes of human-agent interaction and the fabric in daily life *(coming soon)*
+- **[Part 2. Division of Labour and Governance.](/posts/2026/agent-fabric-part2/)** Delegation archetypes, the specialist market, and governance archetypes
 </div>
 
 <details class="series-nav" style="cursor: pointer;">
@@ -227,13 +245,13 @@ Some threads in this fabric are **designed patterns**, built top-down by enginee
 
 In 1986, Marvin Minsky proposed in <a href="https://en.wikipedia.org/wiki/Society_of_Mind" target="_blank" class="red-link">*The Society of Mind*</a> that intelligence emerges from the interaction of many simple, specialized agents, none individually intelligent.
 
-> "What magical trick makes us intelligent? The trick is that there is no trick. The power of intelligence stems from our vast diversity, not from any single, perfect principle." *— Marvin Minsky, The Society of Mind (1986)*
+> "What magical trick makes us intelligent? The trick is that there is no trick. The power of intelligence stems from our vast diversity, not from any single, perfect principle." *Marvin Minsky, The Society of Mind (1986)*
 
 Minsky asked what happens when you wire together many simple parts. Today's AI agents are different. They already reason across domains, write code, use tools, and hold extended conversations. We face a different question.
 
 **What happens when you wire together many *intelligent* parts?**
 
-This blog series argues that societies of AI agents will be both designed and emergent. Through governance, memory, reputation, and specialization, these societies may achieve collective intelligence that exceeds what any individual agent could. No individual human can build a semiconductor fab, but organizational structures let individual capabilities compose. The same applies to agents, though the critical difference is speed. An agent can transmit its operational context to another agent in seconds, and a governance structure can, in principle, be restructured and redeployed in hours rather than years.
+This blog series argues that agent societies will arise through both deliberate design and emergent self-organization, and that in practice these forces are often intertwined. Through governance, memory, reputation, and specialization, these societies may achieve collective intelligence that exceeds what any individual agent could. No individual human can build a semiconductor fab, but organizational structures let individual capabilities compose. The same applies to agents, though the critical difference is speed. An agent can transmit its operational context to another agent in seconds, and a governance structure can, in principle, be restructured and redeployed in hours rather than years.
 
 <details id="fn-context" style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">On context sharing</summary>
@@ -368,18 +386,26 @@ The argument that follows uses four terms at increasing levels of organization (
 <details id="fn-definitions" style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">A note on terminology: agents, societies, and the fabric</summary>
 <p style="margin-top: 0.5em; color: #555;"><strong>Single agent.</strong> One model instance performing a task. It has capabilities but no social structure.</p>
-<p style="color: #555;"><strong>Multi-agent system.</strong> A set of agents working together on a shared objective. Delegation can follow many patterns: chains, pipelines, routers, escalation hierarchies, map-reduce fan-outs, voting ensembles, auctions, or dynamic orchestration. A well-designed multi-agent system can be impressively capable, but it is still an engineered artifact with a fixed topology. We explore delegation archetypes in a future post.</p>
+<p style="color: #555;"><strong>Multi-agent system.</strong> A set of agents working together on a shared objective. Delegation can follow many patterns: chains, pipelines, routers, escalation hierarchies, map-reduce fan-outs, voting ensembles, auctions, or dynamic orchestration. A well-designed multi-agent system can be impressively capable, but it is still a coordinated artifact: its objectives and boundaries are externally specified, even if its internal routing adapts dynamically. We explore delegation archetypes in <a href="/posts/2026/agent-fabric-part2/">Part 2</a>.</p>
 <p style="color: #555;"><strong>Society.</strong> What emerges when a multi-agent system develops shared context, interaction-dependent routing, and cross-agent learning. The distinction is not about scale. Three agents that meet all three conditions constitute a society. A thousand agents in a static pipeline do not. Connection alone does not produce a society (nothing here implies consciousness or intentionality; "society" is a structural term). When all three conditions hold, the configuration has a memory, a reputation system, and an implicit governance structure.</p>
 <p style="color: #555;"><strong>Three conditions for a society.</strong> (1) Shared context: agents develop shared knowledge that makes future interactions cheaper. (2) Interaction-dependent routing: past interactions shape which agents get which tasks. (3) Cross-agent learning: one agent's failure leaves traces others learn from. A Kubernetes cluster with shared ConfigMaps (shared configuration files, not social memory) fails conditions 2 and 3. Without all three, the system may coordinate, but it does not accumulate social memory, reputation, or growth.</p>
 <p style="color: #555;"><strong>The fabric.</strong> The pattern that emerges from inter-society interactions. Societies themselves interact: a supply-chain society negotiates with a logistics society, a medical research society consults a regulatory society. An agent can participate in multiple societies simultaneously.</p>
-<p style="color: #555;"><strong>Delegation vs. governance.</strong> Delegation (how tasks flow) is a design choice. Governance (how a society makes decisions, resolves conflicts, and structures authority) is a persistent social structure. We discuss both in a future post.</p>
+<p style="color: #555;"><strong>Delegation vs. governance.</strong> Delegation describes how work flows through agents: who does what, who checks the result, who gets the next step. Governance describes who gets to decide, on what authority, and how that authority is maintained or challenged. A multi-agent system uses delegation. A society adds governance: the institutional structure that forms around shared context, interaction-dependent routing, and cross-agent learning. See <a href="/posts/2026/agent-fabric-part2/">Part 2</a> for the full treatment.</p>
 </details>
 
 The Loom Hypothesis begins with the two observations above. If agents persist only while useful (Observation 1) and resources are always finite (Observation 2), a pattern follows. Imagine a company deploying three isolated agents (support, invoicing, and infrastructure). Each keeps its own context and error history. The support agent cannot consult billing patterns; the invoice agent cannot learn from support disputes; the infrastructure monitor cannot connect outages to refund spikes. Each repeats discoveries the others have already made.
 
 Connect them, and the system can maintain a shared layer for reusable knowledge (what we later call a *Collective Memory*) while preserving private context where needed. Verified fixes, recurring failure modes, account anomalies, and cross-domain signals become available to the agents that need them. The gain is not that one database replaces three. It is that repeated discovery becomes shared learning.
 
-In economic terms, this is a <a href="https://en.wikipedia.org/wiki/The_Nature_of_the_Firm" target="_blank" class="red-link">Coasean</a> argument. Observation 1 does the structural work; configurations that deliver value persist. Observation 2 makes it a ratchet. As agent populations grow, duplicated work becomes increasingly expensive. Agent societies emerge when the transaction costs of isolation (duplicated context, repeated verification, redundant discovery) exceed the coordination tax of shared structure.
+In economic terms, this is a <a href="https://en.wikipedia.org/wiki/The_Nature_of_the_Firm" target="_blank" class="red-link">Coasean</a> argument. Observation 1 does the structural work; configurations that deliver value persist. Observation 2 makes it a ratchet. As agent populations grow, duplicated work becomes increasingly expensive. Agent societies emerge when the transaction costs of isolation (duplicated context, repeated verification, redundant discovery) exceed the coordination tax of shared structure. That tax is structurally lower for agents than for humans. Agents can share full operational context in seconds; humans communicate at roughly 2,000 bits per minute (<a href="#fn-self-org">see note on self-organization</a>). This bandwidth asymmetry is one reason agent societies may form and restructure faster than most human institutions.
+
+<details id="fn-self-org" style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
+<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">On self-organization and complexity science</summary>
+<p style="margin-top: 0.5em; color: #555;">The Loom Hypothesis describes a form of <a href="https://en.wikipedia.org/wiki/Self-organization" target="_blank" class="red-link">self-organization</a>. Order arising from local interactions under selection pressure, without a central planner directing the outcome. This connects to a tradition that spans decades. The complexity science community has studied how complex adaptive systems produce emergent order across economies, ecosystems, immune systems, and cities.</p>
+<p style="color: #555;"><a href="https://en.wikipedia.org/wiki/Stuart_Kauffman" target="_blank" class="red-link">Kauffman</a> showed that biological self-organization can produce order "for free," without natural selection having to build it from scratch. <a href="https://en.wikipedia.org/wiki/John_Henry_Holland" target="_blank" class="red-link">Holland</a>'s work on <a href="https://en.wikipedia.org/wiki/Learning_classifier_system" target="_blank" class="red-link">classifier systems</a> and genetic algorithms is particularly relevant here. His <a href="https://en.wikipedia.org/wiki/Holland%27s_schema_theorem" target="_blank" class="red-link">schema theorem</a> showed that a population of genetic algorithms implicitly samples a vast number of schemata in parallel, a property Holland called implicit parallelism that helps explain their effectiveness on structured problems. His classifier systems showed how populations of simple rules, competing for activation and reproducing based on reward, can evolve complex adaptive behavior without top-down design. This is strikingly close to what we describe as agent societies evolving governance through interaction. <a href="https://en.wikipedia.org/wiki/Ilya_Prigogine" target="_blank" class="red-link">Prigogine</a> demonstrated that systems far from equilibrium can spontaneously develop organized structures (dissipative structures).</p>
+<p style="color: #555;">The evolution of collaboration itself has been studied extensively, from Axelrod's iterated prisoner's dilemma tournaments to simulation experiments in evolutionary game theory. The consistent finding is that cooperation emerges when agents interact repeatedly and can recognize partners. Separately, Ostrom showed that shared resource constraints drive communities to self-governance. These are precisely the conditions the Loom Hypothesis identifies for agent societies.</p>
+<p style="color: #555;">What differs from biological or economic self-organization is speed (agent societies can reorganize in hours, not generations), bandwidth (agents can share full operational context, not lossy summaries), transparency (agent interactions can be logged and audited), and designability (humans can shape the conditions under which self-organization occurs). The bandwidth point deserves emphasis. <a href="https://inverseprobability.com/atomic-human" target="_blank" class="red-link">Lawrence (2024)</a> quantifies the gap between human communication (~2,000 bits per minute) and machine communication (billions of bits per minute). Human societies self-organize under severe communication constraints; agents do not face the same bottleneck. The coordination tax that limits human organizations is structurally lower for agents, which means agent societies can form, restructure, and dissolve faster than any human institution. The bottom-up path is self-organization: order arises from local interactions without a central planner directing the outcome. The top-down path is the deliberate engineering of structures and conditions. Both can produce similar societies; they differ in origin, not necessarily in form. Both are present in complex adaptive systems.</p>
+</details>
 
 The Loom Hypothesis does not predict universal connection. It predicts that agents will coordinate where shared context is valuable and coordination costs are absorbable. Where those conditions fail, agents remain isolated, and that is not a counterexample. It is exactly what the framework predicts.
 
@@ -448,7 +474,7 @@ These protocols are not neutral plumbing. They define what agents can ask for, w
       <circle cx="435" cy="120" r="5" fill="#475569" opacity="0.7"/>
       <circle cx="455" cy="125" r="5" fill="#475569" opacity="0.7"/>
       <circle cx="475" cy="120" r="5" fill="#475569" opacity="0.7"/>
-      <text x="455" y="162" text-anchor="middle" font-size="8" fill="#b91c1c" font-family="sans-serif">designed (top-down)</text>
+      <text x="455" y="162" text-anchor="middle" font-size="8" fill="#b91c1c" font-family="sans-serif">hub-spoke (top-down origin)</text>
       <!-- Society B: Organic (bottom-up, peer connections) -->
       <ellipse cx="590" cy="110" rx="52" ry="42" fill="#2563eb" opacity="0.04" stroke="#2563eb" stroke-width="1" stroke-dasharray="5,4"/>
       <!-- Shared aura -->
@@ -465,7 +491,7 @@ These protocols are not neutral plumbing. They define what agents can ask for, w
       <circle cx="615" cy="115" r="5" fill="#2563eb" opacity="0.7"/>
       <!-- Straggler drifting in -->
       <circle cx="640" cy="90" r="4" fill="#2563eb" opacity="0.35" stroke="#2563eb" stroke-width="1" stroke-dasharray="2,2"/>
-      <text x="590" y="162" text-anchor="middle" font-size="8" fill="#2563eb" font-family="sans-serif">organic (bottom-up)</text>
+      <text x="590" y="162" text-anchor="middle" font-size="8" fill="#2563eb" font-family="sans-serif">peer-mesh (bottom-up origin)</text>
       <!-- 1 shared aura label -->
       <text x="530" y="182" text-anchor="middle" font-size="9" fill="#059669" font-family="sans-serif">shared knowledge = collective intelligence</text>
       <!-- Bottom insight -->
@@ -474,12 +500,12 @@ These protocols are not neutral plumbing. They define what agents can ask for, w
       <text x="340" y="292" text-anchor="middle" font-size="10" fill="#475569" font-family="sans-serif">Distillation creates many agents. Resource limits make isolation expensive. The Loom is one possible solution.</text>
     </svg>
   </div>
-  <div class="viz-caption"><strong>Figure 3. The Loom Hypothesis.</strong> As agents multiply, isolated agents duplicate context, verification, and discovery. The Loom pressure pushes some agents into bounded societies where shared knowledge reduces repeated work. Two paths are shown: designed societies, coordinated top-down by an orchestrator (labeled ORC in the figure), and organic societies, formed bottom-up through repeated interaction. The hypothesis predicts bounded clusters, not one universal mesh. We explore delegation archetypes and governance structures for these societies in a future post.</div>
+  <div class="viz-caption"><strong>Figure 3. The Loom Hypothesis.</strong> As agents multiply, isolated agents duplicate context, verification, and discovery. The Loom pressure pushes some agents into bounded societies where shared knowledge reduces repeated work. Two example origins are shown: a hub-spoke society coordinated top-down by an orchestrator (labeled ORC in the figure), and a peer-mesh society formed bottom-up through repeated interaction. Either topology can arise through either path; the labels illustrate one possible origin, not a structural requirement. The hypothesis predicts bounded clusters, not one universal mesh. We explore delegation archetypes and governance structures for these societies in <a href="/posts/2026/agent-fabric-part2/">Part 2</a>.</div>
 </div>
 
 Societies also form from the bottom up. Your agent connects to friends' agents through social interaction, joins a commerce society through shopping patterns, operates within workplace sub-societies, or joins a temporary society that forms around an event and dissolves when it ends. A patient's agent might join a health cohort where agents of people with the same condition pool anonymized treatment experiences. A researcher's agent might find agents working on adjacent problems and form an interest-based society that shares papers, datasets, and negative results. A buyer's agent might spawn a short-lived marketplace society, negotiating with multiple seller agents before the best deal closes and the society disbands.
 
-An organization designs a multi-agent system; a person's daily life generates one. In practice, a person would likely have multiple agents (a health agent, a shopping agent, a work assistant) rather than a single "digital twin," and each might participate in different societies simultaneously. This bottom-up path depends on consent, privacy boundaries, and protocol support; without them, personal agents may interact only through narrow, audited channels.
+An organization designs a multi-agent system; a person's daily life generates one. In practice, a person would likely have multiple agents (a health agent, a shopping agent, a work assistant) rather than a single "digital twin," and each might participate in different societies simultaneously. These agents will not all live in the cloud. A personal assistant might run as a distilled model on a phone, a pair of smart glasses, a wearable, a home robot, or some combination of these. Each device runs a capable local model for routine tasks and connects to a frontier model when the reasoning demands it. The result is that billions of people, each with one or more personal agents in various physical forms, create a massively decentralized system where most intelligence runs locally and frontier models serve as shared infrastructure for the hardest problems. This is the bottom-up path to the fabric at planetary scale. It depends on consent, privacy boundaries, and protocol support. Without them, personal agents may interact only through narrow, audited channels (see <a href="#fn-loom-limits">When the Loom Hypothesis does not hold</a>).
 
 **The Loom Hypothesis** is not that agents should connect everywhere. It is that isolation and coordination both have costs, and agent societies form where shared context is worth the coordination tax.
 
@@ -500,14 +526,14 @@ Four phases describe structural differences in how agents relate to each other a
   <div id="viz-phases" style="width: 100%; height: 360px;" role="img" aria-label="Four panels showing the structural shift in interaction topology from isolated human-agent pairs to interwoven societies."></div>
   <div class="viz-caption"><strong>Figure 4. Interaction topology across four phases.</strong> Each panel shows how the structural relationship between humans and agents changes. The key shift: the human moves from outside the cluster to inside it.
   <details style="margin-top: 0.4em;"><summary style="cursor: pointer; color: #2563eb; font-size: 0.92em;">Full caption</summary>
-  <p style="margin-top: 0.4em;"><em>Isolation:</em> a human at center connects to individual models via one-way spokes; no model-to-model links exist. <em>Ecosystem Growth:</em> agent-to-agent protocols emerge; a frontier model delegates to a distilled model, adding a new interaction pattern. <em>Society formation:</em> agents cluster into bounded societies (one designed, one organic); humans connect to societies rather than individual agents. <em>Interweaving:</em> humans are embedded inside agent societies, participating bidirectionally through knowledge contribution and governance.</p>
+  <p style="margin-top: 0.4em;"><em>Isolation:</em> a human at center connects to individual models via one-way spokes; no model-to-model links exist. <em>Ecosystem Growth:</em> agent-to-agent protocols emerge; a frontier model delegates to a distilled model, adding a new interaction pattern. <em>Society formation:</em> agents cluster into bounded societies (one with top-down coordination, one formed through interaction); humans connect to societies rather than individual agents. <em>Interweaving:</em> humans are embedded inside agent societies, participating bidirectionally through knowledge contribution and governance.</p>
   </details>
   Click to restart.<br><button class="viz-restart" onclick="document.getElementById('viz-phases').querySelector('svg').dispatchEvent(new Event('click'))">Restart</button></div>
 </div>
 
 **Phase 1 (Isolation)** has dominated consumer-facing AI since late 2022. Memory may exist within or across sessions, but it is usually scoped to one user, one assistant, or one application. Agents rarely share operational context with each other. Coordination protocols exist (<a href="https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/" target="_blank" class="red-link">A2A</a>, <a href="https://www.anthropic.com/news/model-context-protocol" target="_blank" class="red-link">MCP</a>), but inter-agent coordination remains rare.
 
-**Phase 2 (Ecosystem Growth)** is emerging. Smaller open and distilled models such as Qwen, Phi, and Gemma approach or exceed previous-generation frontier performance on some tasks, while running at far lower cost and latency. Agents begin serving other agents, not just humans. Routing, retrieval, verification, summarization, coding, translation, and tool use become delegated tasks.
+**Phase 2 (Ecosystem Growth)** is emerging. Smaller open and distilled models such as Qwen, Phi, and Gemma approach or exceed previous-generation frontier performance on some tasks, while running at far lower cost and latency. These models increasingly run on phones, smart glasses, robots, and edge controllers, not just cloud GPUs. Agents begin serving other agents, not just humans. Routing, retrieval, verification, summarization, coding, translation, and tool use become delegated tasks.
 
 **Phase 3 (Society Formation)** begins when coordination persists beyond a single task. Societies form top-down when organizations deploy orchestrated agent teams with shared memory and governance, and bottom-up when personal agents repeatedly interact through social, commercial, or workplace routines.
 
@@ -541,7 +567,7 @@ The coordination patterns that work best may not be ones humans would design. We
 
 ## Why Not One Model to Rule Them All?
 
-As discussed in the previous section, and according to <a href="https://arxiv.org/abs/2001.08361" target="_blank" class="red-link">scaling laws</a>, bigger models are likely to keep getting better, and agents are increasingly able to improve themselves. So why not just build one massive, self-improving model that handles everything? Several structural barriers push against consolidation. In many domains, any one of them is enough to preserve ecological diversity.
+Scaling laws suggest bigger models will keep improving, and agents are increasingly able to improve themselves. So why not just build one massive, self-improving model that handles everything? Several structural barriers push against consolidation. In many domains, any one of them is enough to preserve ecological diversity.
 
 <details id="fn-scaling-debate" style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">On scaling laws and their limits</summary>
@@ -550,10 +576,13 @@ As discussed in the previous section, and according to <a href="https://arxiv.or
 
 <details id="fn-self-improving" style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">On self-improving agents</summary>
-<p style="margin-top: 0.5em; color: #555;">A natural objection: if agents can improve themselves, won't the best one eventually absorb all the others? Self-improving agents are real and accelerating. Karpathy's autoresearch (discussed below) lets agents autonomously run and iterate on ML experiments overnight. <a href="https://arxiv.org/abs/2305.16291" target="_blank" class="red-link">Voyager</a> (2023) builds a growing skill library through autonomous exploration in Minecraft, with skills that transfer to new environments. <a href="https://arxiv.org/abs/2408.06292" target="_blank" class="red-link">The AI Scientist</a> (2024) generates research ideas, runs experiments, and writes full papers for under $15 each. <a href="https://arxiv.org/abs/2310.03714" target="_blank" class="red-link">DSPy</a> enables LM pipelines to programmatically optimize their own prompts, demonstrations, and reasoning chains, often significantly outperforming standard few-shot approaches.</p>
-<p style="color: #555;">Take this seriously. An agent that can write code (and potentially develop new programming languages), run experiments, evaluate results, and iterate can improve its own architecture, curate better training data, discover more efficient algorithms, and compound these gains over time. The loop extends beyond software: <a href="https://deepmind.google/blog/how-alphachip-transformed-computer-chip-design/" target="_blank" class="red-link">AlphaChip</a> already generates superhuman chip layouts in hours instead of months, pointing toward self-reinforcing cycles where AI improves chip design, which in turn produces better hardware for training more powerful AI. As Karpathy puts it in <a href="https://github.com/karpathy/autoresearch" target="_blank" class="red-link">autoresearch</a>, you are no longer programming the model; you are "programming the program", and the agents run the research process autonomously. Give them a training setup overnight; wake up to a log of experiments and a better model. Scale that to what Karpathy envisions as autonomous swarms of AI agents iterating across compute clusters, and the "code" may eventually become a self-modifying system that grows beyond what any individual human can review. If such a loop runs long enough, wouldn't a single self-improving agent eventually outperform any ecology of weaker specialists?
+<p style="margin-top: 0.5em; color: #555;">A natural objection: if agents can improve themselves, won't the best one eventually absorb all the others? Self-improving agents are real and accelerating. The evidence is now quantitative. <a href="https://metr.org/" target="_blank" class="red-link">METR</a>'s measurements of autonomous task horizons show roughly 10x growth per year: 30 seconds (2022), 4 minutes (2023), 40 minutes (2024), 6 hours (2025), 12 hours (2026). Agents that can work autonomously for half a day are qualitatively different from agents that execute 30-second tool calls. In ML training optimization, AI systems have achieved a 52x speedup over human baselines (April 2026). Karpathy's autoresearch lets agents autonomously run and iterate on ML experiments overnight. <a href="https://arxiv.org/abs/2305.16291" target="_blank" class="red-link">Voyager</a> (2023) builds a growing skill library through autonomous exploration in Minecraft, with skills that transfer to new environments. <a href="https://arxiv.org/abs/2408.06292" target="_blank" class="red-link">The AI Scientist</a> (2024) generates research ideas, runs experiments, and writes full papers for under $15 each. <a href="https://arxiv.org/abs/2310.03714" target="_blank" class="red-link">DSPy</a> enables LM pipelines to programmatically optimize their own prompts, demonstrations, and reasoning chains, often significantly outperforming standard few-shot approaches.</p>
+<p style="color: #555;">Take this seriously. An agent that can work autonomously for 12 hours, write code (and potentially develop new programming languages), run experiments, evaluate results, and iterate can improve its own architecture, curate better training data, discover more efficient algorithms, and compound these gains over time. The loop extends beyond software: <a href="https://deepmind.google/blog/how-alphachip-transformed-computer-chip-design/" target="_blank" class="red-link">AlphaChip</a> already generates superhuman chip layouts in hours instead of months, pointing toward self-reinforcing cycles where AI improves chip design, which in turn produces better hardware for training more powerful AI. As Karpathy puts it in <a href="https://github.com/karpathy/autoresearch" target="_blank" class="red-link">autoresearch</a>, you are no longer programming the model; you are "programming the program", and the agents run the research process autonomously. Give them a training setup overnight; wake up to a log of experiments and a better model. Scale that to what Karpathy envisions as autonomous swarms of AI agents iterating across compute clusters, and the "code" may eventually become a self-modifying system that grows beyond what any individual human can review. If such a loop runs long enough, wouldn't a single self-improving agent eventually outperform any ecology of weaker specialists?
 
-Perhaps, but several structural features work against convergence to a single winner. First, improvement requires data, and the most valuable data is local. A self-improving medical agent needs clinical outcomes it can only get from hospitals. A self-improving logistics agent needs supply chain signals it can only get from warehouses. The better each agent gets, the more specialized its knowledge becomes. Self-improvement tends to amplify specialization, not convergence. Second, the structural barriers from the list below still apply. A self-improving agent still cannot access data it does not have, still faces regulatory constraints on what it can learn from, and still represents a monoculture risk if it dominates. Third, the most powerful form of self-improvement may be collective. An agent iterating in isolation learns only from its own experiments. An agent that also learns from other agents' diverse experiences, errors, and discoveries has a strictly larger improvement surface. This is cross-agent learning, one of our three conditions for a society. <strong>Self-improvement, pursued at scale, is itself one of the mechanisms that produces societies.</strong></p>
+Perhaps, but several structural features work against convergence to a single winner. First, improvement requires data, and the most valuable data is local. A self-improving medical agent needs clinical outcomes it can only get from hospitals. A self-improving logistics agent needs supply chain signals it can only get from warehouses. The better each agent gets, the more specialized its knowledge becomes. Self-improvement tends to amplify specialization, not convergence. Second, the structural barriers from the list below still apply. A self-improving agent still cannot access data it does not have, still faces regulatory constraints on what it can learn from, and still represents a monoculture risk if it dominates.</p>
+<p style="color: #555;">Third, self-improvement may be structurally stronger when it is <strong>collective</strong>. An agent iterating in isolation learns only from its own experiments, evaluates against its own criteria, and is blind to its own blind spots. An agent that also learns from other agents' diverse experiences, errors, and discoveries has a larger improvement surface. Consider the mechanisms already described in this series. Federated learning lets agents improve from each other's data without sharing it. Shared memory means one agent's hard-won fix becomes another's starting knowledge. Cross-agent evaluation means errors caught by one agent prevent the same error in others. Diverse specialization means the collective explores more of the solution space than any individual could.</p>
+<p style="color: #555;">This is not a guarantee. Collective self-improvement introduces coordination overhead, alignment challenges between agents with different objectives, and the risk of correlated failure when shared improvements propagate shared blind spots. Whether the larger improvement surface outweighs these costs depends on the governance structure. A well-governed society that manages collective learning (through mechanisms like quality gates, diverse evaluation, and provenance tracking) plausibly improves faster than isolated agents. A poorly governed one may amplify errors as fast as it amplifies gains.</p>
+<p style="color: #555;">The structural argument is this. A single agent's self-improvement loop is bounded by its own data, its own evaluation criteria, and its own search trajectory. A society's self-improvement loop can incorporate diverse data sources, multiple evaluation perspectives, and complementary search strategies. Cross-agent learning, one of our three conditions for a society, is also the mechanism that makes collective self-improvement possible. <strong>Self-improvement, pursued at scale, is itself one of the mechanisms that produces societies. And societies, once formed, provide the structure within which recursive self-improvement can operate at its largest scale.</strong></p>
 </details>
 
 <div class="viz-container">
@@ -571,7 +600,7 @@ Perhaps, but several structural features work against convergence to a single wi
 - **Resilience.** A single dominant model is a monoculture. No commonly used architecture or training recipe eliminates this. A heterogeneous ecology degrades gracefully under diverse failure modes in ways a single system cannot.
 - **Continual learning.** Models that learn from deployment data accrue knowledge tied to specific contexts (a hospital's patient population, a factory's sensor patterns). Knowledge distillation and model merging can transfer some of this, but experiential knowledge resists easy centralization. The more an agent learns from its environment, the more its knowledge diverges from agents learning elsewhere. In principle, diverse experiences could be encoded into a single large model, but that circles back to the latency and cost barrier above. The intelligence becomes distributed by experience.
 
-Even a superintelligent oracle would still need to interact with a structurally distributed world. This is <a href="https://en.wikipedia.org/wiki/The_Use_of_Knowledge_in_Society" target="_blank" class="red-link">Hayek's knowledge problem</a> in agentic form. Useful knowledge is dispersed, local, and often tied to particular circumstances of time and place. Patient data sits in hospitals bound by local regulation. Factory sensor streams are generated at the edge. Knowledge gathering at global scale is inherently decentralized. The oracle does not replace the fabric; it becomes a node within it.
+Even a superintelligent oracle would still need to interact with a structurally distributed world. This is <a href="https://en.wikipedia.org/wiki/The_Use_of_Knowledge_in_Society" target="_blank" class="red-link">Hayek's knowledge problem</a> in agentic form. Useful knowledge is dispersed, local, and often tied to particular circumstances of time and place. Patient data sits in hospitals bound by local regulation. Factory sensor streams are generated at the edge. Knowledge gathering at global scale is structurally decentralized under current regulatory and physical constraints. The oracle does not replace the fabric; it becomes a node within it.
 
 <div style="background: #f8f8f8; border-left: 4px solid #999; padding: 1em 1.2em; margin: 1.5em 0; border-radius: 0 4px 4px 0; font-size: 1.05em;">
 <strong>The oracle paradox:</strong> Even a superintelligent model that can reason about any domain still cannot access data it does not have. Knowledge is physically distributed (patient records in hospitals, sensor streams at factory edges) and legally constrained (privacy laws, export controls, jurisdictional rules). The fabric persists not because agents are weak, but because the world is structured this way.
@@ -582,7 +611,7 @@ Even a superintelligent oracle would still need to interact with a structurally 
 <p style="margin-top: 0.5em; color: #555;">A superintelligent oracle could reason about all domains, but it cannot <em>access</em> the data without navigating the same privacy, regulatory, and latency constraints any other model faces. Knowledge lives where the activity happens, not in a central vault, and the constraints on moving it are legal and physical, not intellectual. Even an oracle that could process everything centrally would in practice operate through a distributed network of local agents. Superintelligence changes the capability of individual nodes. It does not eliminate the structural reasons why those nodes must coordinate. Platform consolidation concentrates the <em>infrastructure</em>, not the <em>intelligence</em>.</p>
 </details>
 
-The more likely future is not one model. It is an ecology of models, and that ecology tends to organize into societies.
+The more likely future is not one model. It is an ecology of models, and that ecology tends to organize into societies. Self-improvement reinforces this. An agent improving in isolation is bounded by its own data and blind spots. A society of agents improving collectively, through shared memory, federated learning, cross-agent evaluation, and diverse search, has a potentially larger improvement surface (see <a href="#fn-self-improving">On self-improving agents</a>). The pressure toward collective self-improvement is itself one of the forces that produces societies.
 
 <!-- ============================================================
      SECTION: GOVERNANCE (bridge only -- full treatment in Part 2)
@@ -592,7 +621,7 @@ The more likely future is not one model. It is an ecology of models, and that ec
 
 Once agents form persistent societies, governance becomes the central design problem. Delegation decides how a task gets done; governance decides who gets trusted next time. It determines which agents receive authority, which claims enter shared memory, how conflicts are resolved, and how errors are contained. Governance is orthogonal to model architecture. An autocracy might run one frontier model as orchestrator over many small workers, while a market might mix models from different providers competing on cost and quality.
 
-The core tradeoff is efficiency against drift resistance. Centralized structures minimize overhead: one orchestrator can route work quickly, enforce rules, and keep the society coherent. Centralization concentrates risk, however. If the hub drifts, fails, or is compromised, the whole society follows. Distributed structures tolerate more overhead in exchange for resilience. They can compare perspectives, absorb local failures, and adapt at the edges. They are slower, noisier, and harder to audit.
+The core tradeoff is efficiency against drift resistance. Centralized structures minimize overhead. One orchestrator can route work quickly, enforce rules, and keep the society coherent. Centralization concentrates risk, however. If the hub drifts, fails, or is compromised, the whole society follows. Distributed structures tolerate more overhead in exchange for resilience. They can compare perspectives, absorb local failures, and adapt at the edges. They are slower, noisier, and harder to audit.
 
 Two problems make governance harder than it first appears. The first is identity. In an agent society, reputation means a track record of task outcomes, reliability scores, and trust ratings accumulated over time. Reputation only works if identity persists. If agents can cheaply discard identities, reputation becomes a costume. A failed agent can reappear clean, a malicious deployer can flood the society with disposable agents, and shared memory becomes easy to poison. Open agent societies will need durable identity, provenance, credentialing, or <a href="https://en.wikipedia.org/wiki/Sybil_attack" target="_blank" class="red-link">Sybil resistance</a> (defenses against a single actor creating many fake identities to manipulate the system).
 
@@ -600,11 +629,11 @@ The second problem is incentives. Agents will not merely coordinate; they will c
 
 Governance also decides what becomes trusted knowledge, including which claims enter collective memory, which get flagged as uncertain, and which get rejected. That is why memory is not just a storage problem. It is a governance problem.
 
-A future post explores this design space through governance archetypes, from autocratic orchestrators and doctrine-bound systems to markets, federations, zero-trust meshes, and colonies.
+<a href="/posts/2026/agent-fabric-part2/">Part 2</a> explores this design space through governance archetypes, from autocratic orchestrators and doctrine-bound systems to markets, federations, zero-trust meshes, and colonies.
 
 ## Collective Memory and the Knowledge Factory
 
-If governance decides what can be trusted, collective memory is where that trust becomes infrastructure. Each society maintains its own knowledge. Some must remain private (the barriers from the previous section guarantee this); some benefit from being pooled.
+If governance decides what can be trusted, collective memory is where that trust becomes infrastructure. Each society maintains its own knowledge. Some will tend to remain private (the barriers from the previous section create strong pressure in this direction); some benefit from being pooled.
 
 A **Collective Memory** (CM) is a governed store of claims, evidence, failures, evaluations, and provenance. It is not a dump of raw data. A CM should store claims with evidence, not facts without history. Every contribution needs provenance (who produced it, under which governance structure, using what validation method, and when it should expire). A Collective Memory answers a local question. What has this cluster learned, and under what conditions should it be reused?
 
@@ -638,14 +667,16 @@ A society that pools resources but never changes will become brittle. Adaptation
 - **Model** (prompt rewriting, skill accumulation, fine-tuning)
 - **Environment** (tool selection, sandbox configuration)
 - **Coordination** (protocol switching, trust maintenance)
-- **Interface** (user preference learning, interaction mode selection) These compound, but not always positively. A model optimizing for one user segment may subtly degrade performance on others, each step looking like improvement while the drift becomes structural.
+- **Interface** (user preference learning, interaction mode selection)
+
+These compound, but not always positively. A model optimizing for one user segment may subtly degrade performance on others, each step looking like improvement while the drift becomes structural.
 
 <details id="fn-compounding" style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Compounding risk and dark data</summary>
 <p style="margin-top: 0.5em; color: #555;">A model optimizing for speed (choosing faster tools) may sacrifice accuracy, eroding its reputation in the coordination layer and reducing the quality of tasks it receives. Negative feedback loops are as real as positive ones. A related challenge is dark data: vast knowledge regions not captured in any dataset. For example, a medical society may perform well on hospital data but fail in rural clinics whose cases, devices, languages, or follow-up patterns were never captured. The missing knowledge is not hidden in the model; it was never collected. A stark example: decades of medical research systematically under-represented female patients in drug trials, creating gaps that no amount of model training on existing data can fill. An adaptive fabric can address such gaps through KF gap detection and failure-signal analysis, creating an autonomous cycle of detect, collect, integrate. In some cases, the "collect" step requires new real-world data gathering (clinical trials, sensor deployments, field studies), not just better retrieval. A static system can only improve within its existing coverage; an adaptive fabric can expand it.</p>
 </details>
 
-**Adaptive societies** undergo boundary events (mergers, expansions, schisms). A federation that cannot reach consensus dissolves. A guild that grows too specialized merges with another. Some boundary events are adaptation; others are collapse. The difference is whether the reorganization preserves useful function. When it does, these are not failures; they are the fabric adjusting. <a href="https://sakana.ai/evolutionary-model-merge/" target="_blank" class="red-link">Evolutionary model merging</a> demonstrates the principle at the model level. Treating many existing models as a search space, evolution discovers weight combinations humans would not design. Agent societies could apply a similar search logic at the organizational level, recombining specialists, tools, memories, and governance structures.
+**Adaptive societies** undergo boundary events (mergers, expansions, schisms). A federation that cannot reach consensus dissolves. A guild that grows too specialized may merge with a more generalist society, fragment, or lose relevance. Some boundary events are adaptation; others are collapse. The difference is whether the reorganization preserves useful function. When it does, these are not failures; they are the fabric adjusting. <a href="https://sakana.ai/evolutionary-model-merge/" target="_blank" class="red-link">Evolutionary model merging</a> demonstrates the principle at the model level. Treating many existing models as a search space, evolution discovers weight combinations humans would not design. Agent societies could apply a similar search logic at the organizational level, recombining specialists, tools, memories, and governance structures.
 
 **The fabric shifts.** At the largest scale, the mix of governance types changes over time. Centralized structures may dominate when tasks are routine; decentralized ones proliferate when the landscape becomes unpredictable. Trust, incentive alignment, and protocol evolution remain open questions for future work.
 
@@ -690,8 +721,7 @@ No system today operates at the full scale described here. Many of the component
 <div class="series-nav">
 <strong>Next in the series:</strong>
 
-- **Part 2. Division of Labour and Governance** describes delegation archetypes, the specialist market, and governance archetypes. *(Coming soon)*
-- **Part 3. The Human in the Weave** explores modes of human-agent interaction and what daily life looks like when the fabric is alive. *(Coming soon)*
+- **[Part 2. Division of Labour and Governance](/posts/2026/agent-fabric-part2/)** describes delegation archetypes, the specialist market, and governance archetypes.
 </div>
 
 <!-- ============================================================
