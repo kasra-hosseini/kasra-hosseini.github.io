@@ -699,7 +699,7 @@ Whoever controls what the fabric "knows" controls the fabric. Collective Memory 
 
 ## The Adaptive Fabric
 
-A society that pools resources but never changes will become brittle. Adaptation occurs at three scales (individual agents, societies, and the fabric as a whole). This draws on a broader shift from static scaling toward adaptive systems that improve by changing data, tools, routing, interfaces, and feedback loops, not only by increasing parameter count (for related work on adaptive AI architectures, see, among others, <a href="https://www.adaptionlabs.ai/" target="_blank" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" class="red-link">Hooker, 2025</a>).
+A society that pools resources but never changes will become brittle. Adaptation occurs at three scales (individual agents, societies, and the fabric as a whole). This draws on a broader shift from static scaling toward adaptive systems that improve by changing data, model, compute, and interfaces, not only by increasing parameter count (our thinking here was informed, among others, by <a href="https://www.adaptionlabs.ai/" target="_blank" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" class="red-link">Hooker, 2025</a>).
 
 **Adaptive agents** adjust along different dimensions simultaneously:
 
