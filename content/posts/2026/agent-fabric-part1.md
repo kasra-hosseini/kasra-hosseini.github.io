@@ -15,7 +15,6 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-scholar: true
 wordcount: "~5,500 words (body) · ~6,100 words (notes)"
 ---
 
