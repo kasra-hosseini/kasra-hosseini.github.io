@@ -8,7 +8,7 @@ paper_url: "https://doi.org/10.1093/astrogeo/atag007"
 paper_label: "Astronomy & Geophysics"
 paper_categories: ["Natural Sciences"]
 cover:
-  image: "/images/papers/charting-the-mantle/charting-the-mantle-teaser.png"
+  image: "/images/papers/charting-the-mantle/charting-the-mantle-teaser.webp"
   hidden: true
 draft: false
 bibtex: |
@@ -27,7 +27,7 @@ bibtex: |
 ---
 
 <div style="text-align: center;">
-<img src="/images/papers/charting-the-mantle/charting-the-mantle-teaser.png" alt="UPFLOW ocean-bottom seismometer recordings" style="max-width: 100%; display: block; margin: 0 auto;">
+<img src="/images/papers/charting-the-mantle/charting-the-mantle-teaser.webp" alt="UPFLOW ocean-bottom seismometer recordings" style="max-width: 100%; display: block; margin: 0 auto;">
 </div>
 
 <div style="text-align: center; font-size: 0.9em; color: #666; margin: 0.5em 0 1.5em 0;">

@@ -8,7 +8,7 @@ paper_url: "https://nbn-resolving.de/urn:nbn:de:bvb:19-195973"
 paper_label: "PhD Thesis"
 paper_categories: ["Natural Sciences", "Computational Science"]
 cover:
-  image: "/images/papers/phd-thesis/phd-thesis-teaser.png"
+  image: "/images/papers/phd-thesis/phd-thesis-teaser.webp"
   hidden: true
 draft: false
 bibtex: |
@@ -24,7 +24,7 @@ bibtex: |
 ---
 
 <div style="text-align: center;">
-<img src="/images/papers/phd-thesis/phd-thesis-teaser.png" alt="PhD Thesis Global Tomography" style="max-width: 100%; display: block; margin: 0 auto;">
+<img src="/images/papers/phd-thesis/phd-thesis-teaser.webp" alt="PhD Thesis Global Tomography" style="max-width: 100%; display: block; margin: 0 auto;">
 </div>
 
 <div style="text-align: center; font-size: 0.9em; color: #666; margin: 0.5em 0 1.5em 0;">

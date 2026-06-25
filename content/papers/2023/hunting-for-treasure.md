@@ -9,7 +9,7 @@ paper_label: "De Gruyter"
 github_url: "https://github.com/Living-with-machines/PressPicker_public"
 paper_categories: ["AI", "NLP", "Data Visualization"]
 cover:
-  image: "/images/papers/hunting-for-treasure/hunting-for-treasure-teaser.png"
+  image: "/images/papers/hunting-for-treasure/hunting-for-treasure-teaser.webp"
   hidden: true
 draft: false
 bibtex: |
@@ -28,7 +28,7 @@ bibtex: |
 ---
 
 <div style="text-align: center;">
-<img src="/images/papers/hunting-for-treasure/hunting-for-treasure-teaser.png" alt="Press Picker visualisation" style="max-width: 100%; display: block; margin: 0 auto;">
+<img src="/images/papers/hunting-for-treasure/hunting-for-treasure-teaser.webp" alt="Press Picker visualisation" style="max-width: 100%; display: block; margin: 0 auto;">
 </div>
 
 <div style="text-align: center; font-size: 0.9em; color: #666; margin: 0.5em 0 1.5em 0;">

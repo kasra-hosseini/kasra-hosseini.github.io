@@ -9,7 +9,7 @@ paper_label: "Solid Earth"
 github_url: "https://github.com/kasra-hosseini/obspyDMT"
 paper_categories: ["Software Engineering", "Computational Science", "Natural Sciences"]
 cover:
-  image: "/images/papers/obspydmt/obspydmt-teaser.png"
+  image: "/images/papers/obspydmt/obspydmt-teaser.webp"
   hidden: true
 draft: false
 bibtex: |
@@ -27,7 +27,7 @@ bibtex: |
 ---
 
 <div style="text-align: center;">
-<img src="/images/papers/obspydmt/obspydmt-teaser.png" alt="ObspyDMT Data Growth" style="max-width: 100%; display: block; margin: 0 auto;">
+<img src="/images/papers/obspydmt/obspydmt-teaser.webp" alt="ObspyDMT Data Growth" style="max-width: 100%; display: block; margin: 0 auto;">
 </div>
 
 <div style="text-align: center; font-size: 0.9em; color: #666; margin: 0.5em 0 1.5em 0;">
