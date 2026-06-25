@@ -53,7 +53,7 @@
     {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
     {{- end }}
   ],
-  "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
+  "articleBody": {{ .Content | safeJS | htmlUnescape | plainify | truncate 500 }},
   "wordCount" : "{{ .WordCount }}",
   "inLanguage": {{ .Language.Lang | default "en-us" }},
   {{ if .Params.cover.image -}}
