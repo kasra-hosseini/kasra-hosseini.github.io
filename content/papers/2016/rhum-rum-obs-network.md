@@ -8,7 +8,7 @@ paper_url: "https://adgeo.copernicus.org/articles/41/43/2016/"
 paper_label: "Advances in Geosciences"
 paper_categories: ["Natural Sciences"]
 cover:
-  image: "/images/papers/rhum-rum-obs-network/rhum-rum-teaser.png"
+  image: "/images/papers/rhum-rum-obs-network/rhum-rum-teaser.webp"
   hidden: true
 draft: false
 bibtex: |
@@ -25,7 +25,7 @@ bibtex: |
 ---
 
 <div style="text-align: center;">
-<img src="/images/papers/rhum-rum-obs-network/rhum-rum-teaser.png" alt="RHUM-RUM Ocean Bottom Seismometers" style="max-width: 100%; display: block; margin: 0 auto;">
+<img src="/images/papers/rhum-rum-obs-network/rhum-rum-teaser.webp" alt="RHUM-RUM Ocean Bottom Seismometers" style="max-width: 100%; display: block; margin: 0 auto;">
 </div>
 
 <div style="text-align: center; font-size: 0.9em; color: #666; margin: 0.5em 0 1.5em 0;">

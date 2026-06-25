@@ -8,7 +8,7 @@ paper_url: "https://doi.org/10.1038/s41598-017-11039-w"
 paper_label: "Scientific Reports"
 paper_categories: ["Natural Sciences", "Computational Science"]
 cover:
-  image: "/images/papers/lower-mantle-slabs/lower-mantle-slabs-teaser.png"
+  image: "/images/papers/lower-mantle-slabs/lower-mantle-slabs-teaser.webp"
   hidden: true
 draft: false
 bibtex: |
@@ -30,7 +30,7 @@ bibtex: |
 ---
 
 <div style="text-align: center;">
-<img src="/images/papers/lower-mantle-slabs/lower-mantle-slabs-teaser.png" alt="Vote Map Workflow" style="max-width: 100%; display: block; margin: 0 auto;">
+<img src="/images/papers/lower-mantle-slabs/lower-mantle-slabs-teaser.webp" alt="Vote Map Workflow" style="max-width: 100%; display: block; margin: 0 auto;">
 </div>
 
 <div style="text-align: center; font-size: 0.9em; color: #666; margin: 0.5em 0 1.5em 0;">

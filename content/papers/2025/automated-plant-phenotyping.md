@@ -8,7 +8,7 @@ paper_url: "https://www.frontiersin.org/journals/plant-science/articles/10.3389/
 paper_label: "Frontiers in Plant Science"
 paper_categories: ["AI", "Computer Vision", "Natural Sciences"]
 cover:
-  image: "/images/papers/automated-plant-phenotyping/automated-plant-phenotyping-teaser.png"
+  image: "/images/papers/automated-plant-phenotyping/automated-plant-phenotyping-teaser.webp"
   hidden: true
 draft: false
 bibtex: |
@@ -25,7 +25,7 @@ bibtex: |
 ---
 
 <div style="text-align: center;">
-<img src="/images/papers/automated-plant-phenotyping/automated-plant-phenotyping-teaser.png" alt="Automated Plant Phenotyping Classification" style="max-width: 100%; display: block; margin: 0 auto;">
+<img src="/images/papers/automated-plant-phenotyping/automated-plant-phenotyping-teaser.webp" alt="Automated Plant Phenotyping Classification" style="max-width: 100%; display: block; margin: 0 auto;">
 </div>
 
 <div style="text-align: center; font-size: 0.9em; color: #666; margin: 0.5em 0 1.5em 0;">

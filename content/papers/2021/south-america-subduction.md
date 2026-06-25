@@ -8,7 +8,7 @@ paper_url: "https://doi.org/10.1029/2020JB020704"
 paper_label: "JGR: Solid Earth"
 paper_categories: ["Natural Sciences", "Computational Science"]
 cover:
-  image: "/images/papers/south-america-subduction/south-america-teaser.png"
+  image: "/images/papers/south-america-subduction/south-america-teaser.webp"
   hidden: true
 draft: false
 bibtex: |
@@ -28,7 +28,7 @@ bibtex: |
 ---
 
 <div style="text-align: center;">
-<img src="/images/papers/south-america-subduction/south-america-teaser.png" alt="South America Subduction Reconstruction" style="max-width: 70%; display: block; margin: 0 auto;">
+<img src="/images/papers/south-america-subduction/south-america-teaser.webp" alt="South America Subduction Reconstruction" style="max-width: 70%; display: block; margin: 0 auto;">
 </div>
 
 <div style="text-align: center; font-size: 0.9em; color: #666; margin: 0.5em 0 1.5em 0;">

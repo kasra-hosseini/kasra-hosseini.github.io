@@ -8,7 +8,7 @@ paper_url: "https://doi.org/10.1145/3371140.3371143"
 paper_label: "GIR 2019"
 paper_categories: ["AI", "NLP"]
 cover:
-  image: "/images/papers/resolving-places-past-present/resolving-places-teaser.png"
+  image: "/images/papers/resolving-places-past-present/resolving-places-teaser.webp"
   hidden: true
 draft: false
 bibtex: |
@@ -31,7 +31,7 @@ bibtex: |
 ---
 
 <div style="text-align: center;">
-<img src="/images/papers/resolving-places-past-present/resolving-places-teaser.png" alt="Global Distribution of Geotagged Articles" style="max-width: 100%; display: block; margin: 0 auto;">
+<img src="/images/papers/resolving-places-past-present/resolving-places-teaser.webp" alt="Global Distribution of Geotagged Articles" style="max-width: 100%; display: block; margin: 0 auto;">
 </div>
 
 <div style="text-align: center; font-size: 0.9em; color: #666; margin: 0.5em 0 1.5em 0;">
