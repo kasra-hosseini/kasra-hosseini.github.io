@@ -104,7 +104,11 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     if (foundCount === 0) {
-      searchResults.innerHTML = '<p style="padding: 2em; text-align: center; color: #666;">No posts found matching "' + searchTerm + '"</p>';
+      var noResults = document.createElement('p');
+      noResults.style.cssText = 'padding: 2em; text-align: center; color: #666;';
+      noResults.textContent = 'No posts found matching "' + searchTerm + '"';
+      searchResults.innerHTML = '';
+      searchResults.appendChild(noResults);
     } else {
       searchResults.innerHTML = '<p style="padding: 0.5em 0; color: #666; font-size: 0.9em;">Found ' + foundCount + ' post(s)</p>';
     }
