@@ -19,22 +19,22 @@
     {{- if or .Params.paper_url .Params.arxiv_url .Params.blogpost_url .Params.github_url .Params.webtool_url .Params.project_url }}
     <div style="margin-top: 1em;">
       {{- if .Params.paper_url }}
-      <a href="{{ .Params.paper_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">{{ .Params.paper_label | default "Read Paper" }}</a>
+      <a href="{{ .Params.paper_url }}" target="_blank" rel="noopener noreferrer" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">{{ .Params.paper_label | default "Read Paper" }}</a>
       {{- end }}
       {{- if .Params.arxiv_url }}
-      <a href="{{ .Params.arxiv_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">arXiv</a>
+      <a href="{{ .Params.arxiv_url }}" target="_blank" rel="noopener noreferrer" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">arXiv</a>
       {{- end }}
       {{- if .Params.blogpost_url }}
-      <a href="{{ .Params.blogpost_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">Blogpost</a>
+      <a href="{{ .Params.blogpost_url }}" target="_blank" rel="noopener noreferrer" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">Blogpost</a>
       {{- end }}
       {{- if .Params.github_url }}
-      <a href="{{ .Params.github_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">GitHub</a>
+      <a href="{{ .Params.github_url }}" target="_blank" rel="noopener noreferrer" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">GitHub</a>
       {{- end }}
       {{- if .Params.webtool_url }}
-      <a href="{{ .Params.webtool_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">Web Tool</a>
+      <a href="{{ .Params.webtool_url }}" target="_blank" rel="noopener noreferrer" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">Web Tool</a>
       {{- end }}
       {{- if .Params.project_url }}
-      <a href="{{ .Params.project_url }}" target="_blank" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">Project Page</a>
+      <a href="{{ .Params.project_url }}" target="_blank" rel="noopener noreferrer" style="padding: 0.5em 1em; background-color: #b91c1c; color: white; border-radius: 3px; text-decoration: none; display: inline-block; margin-right: 0.5em; margin-bottom: 0.5em;">Project Page</a>
       {{- end }}
     </div>
     {{- end }}
