@@ -16,6 +16,14 @@ wordcount: "~1,300 words"
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** The anatomy of a single agent: a foundation model wrapped in scaffolding. The model operates in a recursive loop with an environment, acting on it and observing the result. Inside: capabilities that let it act (tools, skills, memory) and constraints that direct it (planning, identity, self-evaluation)." >}}
 
+<div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
+<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
+
+- **Prologue: The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
+- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis, and the path from isolation to interweaving
+- **[Part 2: Division of Labour and Governance](/posts/2026/agent-fabric-part2/)**: delegation archetypes, trust and authority, the specialist market, and governance archetypes
+</div>
+
 ## From Model Call to Agent
 
 When you ask Claude to answer a question, that is a model call. One input, one output, done. Ask a bare model to "run train.py and put the results in the output folder" and the honest answer is that it cannot: it can only produce text about doing so. A foundation model on its own is a static function. It cannot perceive the external environment or alter it. When you ask Claude Code to refactor a module, it reads files, forms a plan, edits code, runs tests, sees the tests fail, edits again, runs again, and stops when the tests pass. Same model underneath. Completely different behaviour, because now it can act on the world and see the consequences.
