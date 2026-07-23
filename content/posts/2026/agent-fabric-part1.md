@@ -223,11 +223,11 @@ Some threads in this fabric are built top-down by engineers who assign roles and
 
 <!-- Series navigation -->
 <div class="series-nav">
-<strong>The Agent Fabric</strong>, a multi-part series on why and how AI agents may form societies and what it means for us.
+<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
 
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
-- **Part 1. Why Agents May Form Societies** (you are here). Two observations, the Loom Hypothesis, and the path from isolation to interweaving
-- **[Part 2. Division of Labour and Governance](/posts/2026/agent-fabric-part2/)**: delegation archetypes, trust and authority, the specialist market, and governance archetypes
+- **Part 1: Why Agents May Form Societies** (you are here): two observations, the Loom Hypothesis, and the path from isolation to interweaving
+- **[Part 2: Division of Labour and Governance](/posts/2026/agent-fabric-part2/)**: delegation archetypes, trust and authority, the specialist market, and governance archetypes
 </div>
 
 <details class="series-nav" style="cursor: pointer;">

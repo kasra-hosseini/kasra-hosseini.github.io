@@ -184,7 +184,7 @@ wordcount: "~6,800 words (body) · ~21,800 words (notes + patterns)"
 
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis, and the path from isolation to interweaving
-- **Part 2: Division of Labour and Governance** (you are here): delegation archetypes in nine families, trust and authority patterns, human-agent interface patterns, the specialist market, and governance archetypes
+- **Part 2: Division of Labour and Governance** (you are here): delegation archetypes, trust and authority, the specialist market, and governance archetypes
 </div>
 
 <div class="viz-container">
@@ -922,7 +922,7 @@ The distinctions between archetypes are thin at the boundary but produce differe
 | **Panopticon vs. Zero-Trust** | Compliance orientation | Panopticon monitors *passively* (agents self-regulate under observation); Zero-Trust enforces *actively* (nothing propagates without verification) |
 | **Liquid Democracy vs. Colony** | Decentralized authority | Liquid Democracy has *explicit delegation chains* that can be reclaimed; Colony has *no delegation structure at all*, norms spread through imitation |
 | **Doctrine vs. Autocracy** | Top-down control | Doctrine binds the *ruler too* (rules constrain everyone); Autocracy gives the hub *unconstrained discretion* |
-| **Federation vs. Guild** | Specialist sub-groups | Federation sub-groups are *autonomous* (self-governing, shared protocol at boundary); Guild clusters are *subordinate* (connected by liaisons within a single authority) |
+| **Federation vs. Guild** | Specialist sub-groups | Federation sub-groups are *autonomous* (self-governing, shared protocol at boundary); Guild clusters are *interdependent* (connected by liaisons who translate between domains) |
 | **Custodianship vs. Autocracy** | Single decision-maker | Custodianship is *constrained by the principal's interests* (fiduciary obligation); Autocracy is *unconstrained* (serves whatever objective the hub holds) |
 | **Adhocracy vs. Colony** | No permanent hierarchy | Adhocracy assembles *deliberate temporary teams* with explicit authority and disbands them; Colony has *no deliberate assembly at all*, structure emerges from imitation |
 | **Constitutional Republic vs. Federation** | Separated powers | Constitutional Republic separates *functional branches* (legislative, executive, judicial) within one society; Federation separates *autonomous groups* across organizational lines |
@@ -1044,7 +1044,7 @@ The archetypes fall into eight loose families. **Command** (Autocracy, Doctrine,
 
 <details>
 <summary>Mechanism Design <span class="gov-tagline">rules engineered for honest play</span></summary>
-<div class="gov-body">Governance rules are reverse-engineered so that each agent's self-interested behavior automatically produces socially desirable outcomes. The rules of the game are designed so that truth-telling and compliance are individually rational. Agents do the right thing not because they are forced to, but because the incentive structure makes the right thing also the selfish thing.<br><br><em>Why this matters for agents:</em> mechanism design governs by architecture rather than enforcement. Instead of policing agents (expensive, adversarial), you design the game so that the equilibrium of self-interested play IS the desired social outcome. This is the dominant paradigm for alignment-by-design. A Nobel Prize underpins it: Hurwicz, Maskin, and Myerson (2007) for mechanism design theory. Vickrey (1996) laid groundwork with incentive-compatible auction design.<br><br><em>Proven implementations:</em> auction designs (Vickrey auctions where truthful bidding is the dominant strategy), matching markets (kidney exchange, residency matching), and incentive-compatible reporting mechanisms. In AI: RLHF reward design is crude mechanism design; the reward function shapes what behavior emerges.<br><br><em>Scenario:</em> an agent marketplace where agents report their capabilities for task assignment. The mechanism is designed so that overstating capabilities leads to harder assignments and lower success rates (which reduces reputation), while understating leads to underutilization. Truthful reporting is the individually optimal strategy.<br><br><em>Fundamental constraint:</em> Myerson-Satterthwaite (1983) proves that no mechanism can simultaneously achieve efficiency, incentive compatibility, and budget balance for all participants. Every real mechanism design trades off at least one. For agent societies, this means perfect alignment-by-design is impossible; the question is which property you sacrifice and for whom.<br><br><strong>Efficiency:</strong> high, agents self-govern without external enforcement. <strong>Drift resistance:</strong> very high if the mechanism is correctly designed; catastrophically low if it is not (Goodhart's law). <strong>Legitimacy:</strong> medium, participants may not understand why the rules produce good outcomes. <strong>Legibility:</strong> low, the mechanism's properties are mathematically provable but intuitively opaque.<br><br><strong>Best paired with:</strong> Panopticon (to verify that agents are playing the designed game and not exploiting unanticipated loopholes) and Doctrine (to specify the inviolable rules that the mechanism cannot be redesigned around unilaterally).</div>
+<div class="gov-body">Governance rules are reverse-engineered so that each agent's self-interested behavior automatically produces socially desirable outcomes. The rules of the game are designed so that truth-telling and compliance are individually rational. Agents do the right thing not because they are forced to, but because the incentive structure makes the right thing also the selfish thing.<br><br><em>Why this matters for agents:</em> mechanism design governs by architecture rather than enforcement. Instead of policing agents (expensive, adversarial), you design the game so that the equilibrium of self-interested play IS the desired social outcome. This is the dominant paradigm for alignment-by-design. A Nobel Prize underpins it: Hurwicz, Maskin, and Myerson (2007) for mechanism design theory. Vickrey (1961) laid groundwork with incentive-compatible auction design.<br><br><em>Proven implementations:</em> auction designs (Vickrey auctions where truthful bidding is the dominant strategy), matching markets (kidney exchange, residency matching), and incentive-compatible reporting mechanisms. In AI: RLHF reward design is crude mechanism design; the reward function shapes what behavior emerges.<br><br><em>Scenario:</em> an agent marketplace where agents report their capabilities for task assignment. The mechanism is designed so that overstating capabilities leads to harder assignments and lower success rates (which reduces reputation), while understating leads to underutilization. Truthful reporting is the individually optimal strategy.<br><br><em>Fundamental constraint:</em> Myerson-Satterthwaite (1983) proves that no mechanism can simultaneously achieve efficiency, incentive compatibility, and budget balance for all participants. Every real mechanism design trades off at least one. For agent societies, this means perfect alignment-by-design is impossible; the question is which property you sacrifice and for whom.<br><br><strong>Efficiency:</strong> high, agents self-govern without external enforcement. <strong>Drift resistance:</strong> very high if the mechanism is correctly designed; catastrophically low if it is not (Goodhart's law). <strong>Legitimacy:</strong> medium, participants may not understand why the rules produce good outcomes. <strong>Legibility:</strong> low, the mechanism's properties are mathematically provable but intuitively opaque.<br><br><strong>Best paired with:</strong> Panopticon (to verify that agents are playing the designed game and not exploiting unanticipated loopholes) and Doctrine (to specify the inviolable rules that the mechanism cannot be redesigned around unilaterally).</div>
 </details>
 
 <details>
@@ -3005,9 +3005,9 @@ That shift is the whole point. The failures that matter at scale will not look l
     var cx = p.ox + cellW/2, cy = p.oy + 45 + (cellH-45)/2;
     var lx = p.ox + 90, ly = cy;
     var rx = p.ox + 250, ry = cy;
+    dl(g, lx, ly, rx, ry, 0);
     dn(g, lx, ly, 22, '#3b82f6', 'prover');
     dn(g, rx, ry, 22, '#a855f7', 'verifier');
-    dl(g, lx, ly, rx, ry, 0);
     var tick = 0;
     function run() {
       tick++;
@@ -3037,13 +3037,13 @@ That shift is the whole point. The failures that matter at scale will not look l
     var w1x = p.ox + 70, w1y = p.oy + 185;
     var w2x = p.ox + 170, w2y = p.oy + 195;
     var w3x = p.ox + 270, w3y = p.oy + 185;
+    dl(g, mx, my, w1x, w1y, 0);
+    dl(g, mx, my, w2x, w2y, 0);
+    dl(g, mx, my, w3x, w3y, 0);
     dn(g, mx, my, 20, '#3b82f6', 'manager');
     dn(g, w1x, w1y, 15, '#64748b', 'w1');
     dn(g, w2x, w2y, 15, '#64748b', 'w2');
     dn(g, w3x, w3y, 15, '#64748b', 'w3');
-    dl(g, mx, my, w1x, w1y, 0);
-    dl(g, mx, my, w2x, w2y, 0);
-    dl(g, mx, my, w3x, w3y, 0);
     var tick = 0;
     function run() {
       tick++;
@@ -3075,9 +3075,9 @@ That shift is the whole point. The failures that matter at scale will not look l
     var cy = p.oy + 45 + (cellH-45)/2;
     var tx2 = p.ox + 85, ty2 = cy;
     var sx = p.ox + 255, sy = cy;
+    dl(g, tx2, ty2, sx, sy, 0);
     dn(g, tx2, ty2, 30, '#3b82f6', 'teacher');
     dn(g, sx, sy, 16, '#a855f7', 'student');
-    dl(g, tx2, ty2, sx, sy, 0);
     var tick = 0;
     function run() {
       tick++;
@@ -3117,11 +3117,11 @@ That shift is the whole point. The failures that matter at scale will not look l
     var topx = p.ox + 170, topy = p.oy + 75;
     var midx = p.ox + 170, midy = p.oy + 140;
     var botx = p.ox + 170, boty = p.oy + 205;
+    dl(g, topx, topy, midx, midy, 0);
+    dl(g, midx, midy, botx, boty, 0);
     dn(g, topx, topy, 22, '#3b82f6', 'root');
     dn(g, midx, midy, 17, '#a855f7', 'delegate');
     dn(g, botx, boty, 12, '#64748b', 'leaf');
-    dl(g, topx, topy, midx, midy, 0);
-    dl(g, midx, midy, botx, boty, 0);
     var dots = ['#3b82f6','#a855f7','#f97316'];
     dots.forEach(function(c,i) { g.append('circle').attr('cx', topx+28+i*10).attr('cy', topy).attr('r',4).attr('fill',c); });
     dots.slice(0,2).forEach(function(c,i) { g.append('circle').attr('cx', midx+22+i*10).attr('cy', midy).attr('r',4).attr('fill',c); });
@@ -3144,11 +3144,11 @@ That shift is the whole point. The failures that matter at scale will not look l
     var cy = p.oy + 45 + (cellH-45)/2;
     var n1x = p.ox + 60, n2x = p.ox + 170, n3x = p.ox + 280;
     var fb1x = p.ox + 115, fb2x = p.ox + 225;
+    dl(g, n1x, cy, n2x, cy, 0);
+    dl(g, n2x, cy, n3x, cy, 0);
     dn(g, n1x, cy, 18, '#3b82f6', 'A');
     dn(g, n2x, cy, 18, '#a855f7', 'B');
     dn(g, n3x, cy, 18, '#f97316', 'C');
-    dl(g, n1x, cy, n2x, cy, 0);
-    dl(g, n2x, cy, n3x, cy, 0);
     g.append('line').attr('x1',fb1x).attr('y1',p.oy+55).attr('x2',fb1x).attr('y2',p.oy+220)
       .attr('stroke','#94a3b8').attr('stroke-width',1.5).attr('stroke-dasharray','5,4').attr('opacity',0.7);
     g.append('line').attr('x1',fb2x).attr('y1',p.oy+55).attr('x2',fb2x).attr('y2',p.oy+220)
@@ -3272,9 +3272,9 @@ That shift is the whole point. The failures that matter at scale will not look l
     var a1x = p.ox + 95, a1y = p.oy + 110;
     var a2x = p.ox + 245, a2y = p.oy + 110;
     var hx = p.ox + 170, hy = p.oy + 195;
+    dl(g, a1x, a1y, a2x, a2y, 0);
     dn(g, a1x, a1y, 18, '#3b82f6', 'A');
     dn(g, a2x, a2y, 18, '#a855f7', 'B');
-    dl(g, a1x, a1y, a2x, a2y, 0);
     var head = g.append('circle').attr('cx',hx).attr('cy',hy-12).attr('r',8).attr('fill','#f97316');
     g.append('line').attr('x1',hx).attr('y1',hy-4).attr('x2',hx).attr('y2',hy+14).attr('stroke','#f97316').attr('stroke-width',2);
     g.append('line').attr('x1',hx-9).attr('y1',hy+4).attr('x2',hx+9).attr('y2',hy+4).attr('stroke','#f97316').attr('stroke-width',2);
@@ -3321,13 +3321,13 @@ That shift is the whole point. The failures that matter at scale will not look l
       .attr('fill','#1e293b').attr('stroke','#64748b').attr('stroke-width',1.2).attr('rx',3);
     [0,1,2].forEach(function(i){ g.append('line').attr('x1',ax-16).attr('y1',cy-36+i*8).attr('x2',ax+16).attr('y2',cy-36+i*8).attr('stroke','#64748b').attr('stroke-width',1); });
     g.append('text').attr('x',ax).attr('y',cy-46).attr('text-anchor','middle').attr('fill','#94a3b8').attr('font-size',8).text('policy');
+    dl(g, ax, cy+8, d1x, d1y, 0);
+    dl(g, ax, cy+8, d2x, d2y, 0);
+    dl(g, ax, cy+8, d3x, d3y, 0);
     dn(g, ax, cy+8, 18, '#3b82f6', 'agent');
     dn(g, d1x, d1y, 12, '#64748b', '');
     dn(g, d2x, d2y, 12, '#64748b', '');
     dn(g, d3x, d3y, 12, '#64748b', '');
-    dl(g, ax, cy+8, d1x, d1y, 0);
-    dl(g, ax, cy+8, d2x, d2y, 0);
-    dl(g, ax, cy+8, d3x, d3y, 0);
     var tick = 0;
     function run() {
       tick++;
@@ -3349,9 +3349,9 @@ That shift is the whole point. The failures that matter at scale will not look l
     var lx = p.ox + 30, rx = p.ox + 310;
     var ax = p.ox + 170;
     var hx = p.ox + 230, hy = p.oy + 75;
-    dn(g, ax, cy, 20, '#3b82f6', 'agent');
     dl(g, lx, cy, ax-20, cy, 0);
     dl(g, ax+20, cy, rx, cy, 0);
+    dn(g, ax, cy, 20, '#3b82f6', 'agent');
     g.append('circle').attr('cx',hx).attr('cy',hy-12).attr('r',8).attr('fill','#f97316');
     g.append('line').attr('x1',hx).attr('y1',hy-4).attr('x2',hx).attr('y2',hy+10).attr('stroke','#f97316').attr('stroke-width',2);
     g.append('line').attr('x1',hx-9).attr('y1',hy+2).attr('x2',hx+9).attr('y2',hy+2).attr('stroke','#f97316').attr('stroke-width',2);
@@ -3385,12 +3385,12 @@ That shift is the whole point. The failures that matter at scale will not look l
     var rx2 = p.ox + 90, ry2 = cy;
     var ax2 = p.ox + 240, ay2 = p.oy + 100;
     var bx = p.ox + 240, by = p.oy + 175;
+    dl(g, rx2, ry2, ax2, ay2, 0);
+    dl(g, rx2, ry2, bx, by, 0);
     dn(g, rx2, ry2, 20, '#3b82f6', 'router');
     var nodeA = g.append('circle').attr('cx',ax2).attr('cy',ay2).attr('r',16).attr('fill','#a855f7').attr('opacity',0.85);
     g.append('text').attr('x',ax2).attr('y',ay2+28).attr('text-anchor','middle').attr('font-size','7px').attr('fill','#888').text('A');
     dn(g, bx, by, 16, '#f97316', 'B');
-    dl(g, rx2, ry2, ax2, ay2, 0);
-    dl(g, rx2, ry2, bx, by, 0);
     var tick = 0;
     function run() {
       tick++;
