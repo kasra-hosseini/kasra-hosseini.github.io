@@ -225,7 +225,9 @@ Some threads in this fabric are built top-down by engineers who assign roles and
 <div class="series-nav">
 <strong>The Agent Fabric</strong>, a multi-part series on why and how AI agents may form societies and what it means for us.
 
+- **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **Part 1. Why Agents May Form Societies** (you are here). Two observations, the Loom Hypothesis, and the path from isolation to interweaving
+- **[Part 2. Division of Labour and Governance](/posts/2026/agent-fabric-part2/)**: delegation archetypes, trust and authority, the specialist market, and governance archetypes
 </div>
 
 <details class="series-nav" style="cursor: pointer;">
@@ -397,11 +399,11 @@ The argument that follows uses four terms at increasing levels of organization (
 <details id="fn-definitions" style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">A note on terminology: agents, societies, and the fabric</summary>
 <p style="margin-top: 0.5em; color: #555;"><strong>Single agent.</strong> One model instance performing a task. It has capabilities but no social structure.</p>
-<p style="color: #555;"><strong>Multi-agent system.</strong> A set of agents working together on a shared objective. Delegation can follow many patterns: chains, pipelines, routers, escalation hierarchies, map-reduce fan-outs, voting ensembles, auctions, or dynamic orchestration. A well-designed multi-agent system can be impressively capable, but it is still a coordinated artifact: its objectives and boundaries are externally specified, even if its internal routing adapts dynamically. We explore delegation archetypes in a future post.</p>
+<p style="color: #555;"><strong>Multi-agent system.</strong> A set of agents working together on a shared objective. Delegation can follow many patterns: chains, pipelines, routers, escalation hierarchies, map-reduce fan-outs, voting ensembles, auctions, or dynamic orchestration. A well-designed multi-agent system can be impressively capable, but it is still a coordinated artifact: its objectives and boundaries are externally specified, even if its internal routing adapts dynamically. We explore delegation archetypes in <a href="/posts/2026/agent-fabric-part2/">Part 2</a>.</p>
 <p style="color: #555;"><strong>Society.</strong> What emerges when a multi-agent system develops shared context, interaction-dependent routing, and cross-agent learning. The distinction is not about scale. Three agents that meet all three conditions constitute a society. A thousand agents in a static pipeline do not. Connection alone does not produce a society (nothing here implies consciousness or intentionality; "society" is a structural term). When all three conditions hold, the configuration has a memory, a reputation system, and an implicit governance structure.</p>
 <p style="color: #555;"><strong>Three conditions for a society.</strong> (1) Shared context: agents develop shared knowledge that makes future interactions cheaper. (2) Interaction-dependent routing: past interactions shape which agents get which tasks. (3) Cross-agent learning: one agent's failure leaves traces others learn from. A Kubernetes cluster with shared ConfigMaps (shared configuration files, not social memory) fails conditions 2 and 3. Without all three, the system may coordinate, but it does not accumulate social memory, reputation, or growth.</p>
 <p style="color: #555;"><strong>The fabric.</strong> The pattern that emerges from inter-society interactions. Societies themselves interact: a supply-chain society negotiates with a logistics society, a medical research society consults a regulatory society. An agent can participate in multiple societies simultaneously.</p>
-<p style="color: #555;"><strong>Delegation vs. governance.</strong> Delegation describes how work flows through agents: who does what, who checks the result, who gets the next step. Governance describes who gets to decide, on what authority, and how that authority is maintained or challenged. A multi-agent system uses delegation. A society adds governance: the institutional structure that forms around shared context, interaction-dependent routing, and cross-agent learning. A future post develops this distinction fully.</p>
+<p style="color: #555;"><strong>Delegation vs. governance.</strong> Delegation describes how work flows through agents: who does what, who checks the result, who gets the next step. Governance describes who gets to decide, on what authority, and how that authority is maintained or challenged. A multi-agent system uses delegation. A society adds governance: the institutional structure that forms around shared context, interaction-dependent routing, and cross-agent learning. <a href="/posts/2026/agent-fabric-part2/">Part 2</a> develops this distinction fully.</p>
 </details>
 
 The Loom Hypothesis begins with the two observations above. If agents persist only while useful (Observation 1) and resources are always finite (Observation 2), a pattern follows. Imagine a company deploying three isolated agents (support, invoicing, and infrastructure). Each keeps its own context and error history. The support agent cannot consult billing patterns; the invoice agent cannot learn from support disputes; the infrastructure monitor cannot connect outages to refund spikes. Each repeats discoveries the others have already made.
@@ -475,16 +477,17 @@ These protocols are not neutral plumbing. They define what agents can ask for, w
       <ellipse cx="455" cy="110" rx="52" ry="42" fill="#1e293b" opacity="0.04" stroke="#1e293b" stroke-width="1" stroke-dasharray="5,4"/>
       <!-- Shared aura -->
       <ellipse cx="455" cy="110" rx="38" ry="30" fill="#b91c1c" opacity="0.04"/>
-      <!-- Orchestrator -->
-      <circle cx="455" cy="95" r="7" fill="#b91c1c" opacity="0.8"/>
-      <text x="455" y="98" text-anchor="middle" font-size="6" fill="white" font-weight="bold" font-family="sans-serif">ORC</text>
-      <!-- Worker agents -->
+      <!-- Worker links (drawn first so nodes render on top) -->
       <line x1="455" y1="102" x2="435" y2="120" stroke="#475569" stroke-width="1" opacity="0.3"/>
       <line x1="455" y1="102" x2="455" y2="125" stroke="#475569" stroke-width="1" opacity="0.3"/>
       <line x1="455" y1="102" x2="475" y2="120" stroke="#475569" stroke-width="1" opacity="0.3"/>
+      <!-- Worker agents -->
       <circle cx="435" cy="120" r="5" fill="#475569" opacity="0.7"/>
       <circle cx="455" cy="125" r="5" fill="#475569" opacity="0.7"/>
       <circle cx="475" cy="120" r="5" fill="#475569" opacity="0.7"/>
+      <!-- Orchestrator (drawn last, on top of its spokes) -->
+      <circle cx="455" cy="95" r="7" fill="#b91c1c" opacity="0.8"/>
+      <text x="455" y="98" text-anchor="middle" font-size="6" fill="white" font-weight="bold" font-family="sans-serif">ORC</text>
       <text x="455" y="162" text-anchor="middle" font-size="8" fill="#b91c1c" font-family="sans-serif">hub-spoke (top-down origin)</text>
       <!-- Society B: Organic (bottom-up, peer connections) -->
       <ellipse cx="590" cy="110" rx="52" ry="42" fill="#2563eb" opacity="0.04" stroke="#2563eb" stroke-width="1" stroke-dasharray="5,4"/>
@@ -511,7 +514,7 @@ These protocols are not neutral plumbing. They define what agents can ask for, w
       <text x="340" y="292" text-anchor="middle" font-size="10" fill="#475569" font-family="sans-serif">Distillation creates many agents. Resource limits make isolation expensive. The Loom is one possible solution.</text>
     </svg>
   </div>
-  <div class="viz-caption"><strong>Figure 3. The Loom Hypothesis.</strong> As agents multiply, isolated agents duplicate context, verification, and discovery. The Loom pressure pushes some agents into bounded societies where shared knowledge reduces repeated work. Two example origins are shown: a hub-spoke society coordinated top-down by an orchestrator (labeled ORC in the figure), and a peer-mesh society formed bottom-up through repeated interaction. Either topology can arise through either path; the labels illustrate one possible origin, not a structural requirement. The hypothesis predicts bounded clusters, not one universal mesh. A future post explores delegation archetypes and governance structures for these societies.</div>
+  <div class="viz-caption"><strong>Figure 3. The Loom Hypothesis.</strong> As agents multiply, isolated agents duplicate context, verification, and discovery. The Loom pressure pushes some agents into bounded societies where shared knowledge reduces repeated work. Two example origins are shown: a hub-spoke society coordinated top-down by an orchestrator (labeled ORC in the figure), and a peer-mesh society formed bottom-up through repeated interaction. Either topology can arise through either path; the labels illustrate one possible origin, not a structural requirement. The hypothesis predicts bounded clusters, not one universal mesh. <a href="/posts/2026/agent-fabric-part2/">Part 2</a> explores delegation archetypes and governance structures for these societies.</div>
 </div>
 
 Societies also form from the bottom up. Your agent connects to friends' agents through social interaction, joins a commerce society through shopping patterns, operates within workplace sub-societies, or joins a temporary society that forms around an event and dissolves when it ends. A patient's agent might join a health cohort where agents of people with the same condition pool anonymized treatment experiences. A researcher's agent might find agents working on adjacent problems and form an interest-based society that shares papers, datasets, and negative results. A buyer's agent might spawn a short-lived marketplace society, negotiating with multiple seller agents before the best deal closes and the society disbands.
@@ -668,7 +671,7 @@ The second problem is incentives. Agents will not merely coordinate; they will c
 
 Governance also decides what becomes trusted knowledge, including which claims enter collective memory, which get flagged as uncertain, and which get rejected. That is why memory is not just a storage problem. It is a governance problem.
 
-A future post explores this design space through delegation patterns and governance archetypes, from autocratic orchestrators and doctrine-bound systems to markets, federations, zero-trust meshes, and colonies. The visualizations in this post illustrate a handful of these.
+<a href="/posts/2026/agent-fabric-part2/">Part 2</a> explores this design space through delegation patterns and governance archetypes, from autocratic orchestrators and doctrine-bound systems to markets, federations, zero-trust meshes, and colonies. The visualizations in this post illustrate a handful of these.
 
 ## Collective Memory and the Knowledge Factory
 
@@ -722,7 +725,7 @@ These compound, but not always positively. A model optimizing for one user segme
 ### The Improvement Cycle
 
 <div class="viz-container">
-  <div id="viz-adaptive" style="width: 100%; height: 520px;" role="img" aria-label="An organic, fluid visualization of the improvement cycle. Five colour layers representing data, model, environment, coordination, and interface continuously morph and blend. Internal particles show refinement signals flowing between domains. The shape breathes and changes, becoming more complex over time."></div>
+  <div id="viz-adaptive" style="width: 100%; height: 520px;" role="img" aria-label="An organic, fluid visualization of the improvement cycle. Five color layers representing data, model, environment, coordination, and interface continuously morph and blend. Internal particles show refinement signals flowing between domains. The shape breathes and changes, becoming more complex over time."></div>
   <div class="viz-caption"><strong>Figure 8. The improvement cycle.</strong> Five domains of agent adaptation (data, model, environment, coordination, interface) rendered as overlapping organic layers. Each adapts at its own pace; colored particles crossing between layers represent improvement signals where a change in one domain triggers adaptation in another. The risk is compounding drift when feedback loops reinforce the wrong signal. The visual concept of an adaptable object taking different shapes rather than remaining a monolithic block was inspired by <a href="https://www.adaptionlabs.ai/" target="_blank" class="red-link">Adaption Labs</a>.
   <details style="margin-top: 0.4em;"><summary style="cursor: pointer; color: #2563eb; font-size: 0.92em;">Full caption</summary>
   <p style="margin-top: 0.4em;"><span style="color:#6366f1;font-weight:bold">Data</span> (synthetic generation, pipeline curation, representation drift detection). <span style="color:#e11d48;font-weight:bold">Model</span> (prompt rewriting, skill library accumulation, parameter-efficient fine-tuning). <span style="color:#0891b2;font-weight:bold">Environment</span> (tool selection, sandbox configuration, API version management). <span style="color:#d97706;font-weight:bold">Coordination</span> (protocol switching, topology rewiring, trust network maintenance). <span style="color:#059669;font-weight:bold">Interface</span> (agent routing logic, interaction mode selection, user preference learning). Each layer morphs continuously, adapting at its own pace: from near-instantaneous routing adjustments to slower model updates. Colored particles crossing between layers represent improvement signals: a model change triggering new data generation, a coordination shift enabling new tool discovery, an interface adjustment reshaping what data gets collected. The cycle counter (top right) tracks maturation: as cycles accumulate, internal connections grow denser, visualizing the compounding effect where each improvement enables the next.</p>
@@ -3927,12 +3930,13 @@ No system today operates at the full scale described here. Many of the component
     .attr('stroke', '#ddd').attr('stroke-width', 1);
   svg.append('line').attr('x1', p2fx).attr('y1', p2fy).attr('x2', p2dx).attr('y2', p2dy)
     .attr('stroke', '#2563eb').attr('stroke-width', 1).attr('stroke-dasharray', '3,3').attr('opacity', 0.4);
+  // Packet sits behind the P2 nodes (links -> pkt -> nodes)
+  var p2packet = svg.append('circle').attr('r', 2).attr('fill', '#2563eb').attr('opacity', 0)
+    .attr('cx', p2fx).attr('cy', p2fy);
   svg.append('circle').attr('cx', p2fx).attr('cy', p2fy).attr('r', 6).attr('fill', '#1e293b');
   svg.append('circle').attr('cx', p2dx).attr('cy', p2dy).attr('r', 4.5).attr('fill', '#475569');
   svg.append('circle').attr('cx', p2hx).attr('cy', p2hy).attr('r', 8).attr('fill', '#1e293b');
   svg.append('circle').attr('cx', p2hx).attr('cy', p2hy).attr('r', 2.5).attr('fill', 'white');
-  var p2packet = svg.append('circle').attr('r', 2).attr('fill', '#2563eb').attr('opacity', 0)
-    .attr('cx', p2fx).attr('cy', p2fy);
 
   // --- P3: Society ---
   var p3ox = 359;
@@ -3943,16 +3947,17 @@ No system today operates at the full scale described here. Many of the component
     .attr('fill', 'none').attr('stroke', '#1e293b').attr('stroke-dasharray', '4,3').attr('opacity', 0.2);
   var p3rBound = svg.append('circle').attr('cx', p3rx).attr('cy', p3ry).attr('r', 35)
     .attr('fill', 'none').attr('stroke', '#475569').attr('stroke-dasharray', '4,3').attr('opacity', 0.2);
+  // Links first, then nodes render on top
+  svg.append('line').attr('x1', p3hx).attr('y1', p3hy).attr('x2', p3lx).attr('y2', p3ly)
+    .attr('stroke', '#ddd').attr('stroke-width', 1);
+  svg.append('line').attr('x1', p3lx).attr('y1', p3ly).attr('x2', p3rx).attr('y2', p3ry)
+    .attr('stroke', '#ddd').attr('stroke-width', 0.8).attr('stroke-dasharray', '3,3');
   [[-10,-12],[10,-8],[0,10]].forEach(function(d) {
     svg.append('circle').attr('cx', p3lx+d[0]).attr('cy', p3ly+d[1]).attr('r', 4).attr('fill', '#1e293b');
   });
   [[-8,-8],[8,-4],[0,12]].forEach(function(d) {
     svg.append('circle').attr('cx', p3rx+d[0]).attr('cy', p3ry+d[1]).attr('r', 3.5).attr('fill', '#475569');
   });
-  svg.append('line').attr('x1', p3hx).attr('y1', p3hy).attr('x2', p3lx).attr('y2', p3ly)
-    .attr('stroke', '#ddd').attr('stroke-width', 1);
-  svg.append('line').attr('x1', p3lx).attr('y1', p3ly).attr('x2', p3rx).attr('y2', p3ry)
-    .attr('stroke', '#ddd').attr('stroke-width', 0.8).attr('stroke-dasharray', '3,3');
   svg.append('circle').attr('cx', p3hx).attr('cy', p3hy).attr('r', 7).attr('fill', '#1e293b');
   svg.append('circle').attr('cx', p3hx).attr('cy', p3hy).attr('r', 2.5).attr('fill', 'white');
 
@@ -3970,16 +3975,18 @@ No system today operates at the full scale described here. Many of the component
     [p4cx1+18, p4cy1+20, '#475569'],
     [p4cx1+5,  p4cy1-20, '#1e293b']
   ];
+  // Links first, then a packet layer, then nodes on top (bg -> links -> pkt -> nodes)
+  svg.append('line').attr('x1', p4hx).attr('y1', p4hy).attr('x2', p4models[0][0]).attr('y2', p4models[0][1])
+    .attr('stroke', '#b91c1c').attr('stroke-width', 1).attr('opacity', 0.5);
+  svg.append('line').attr('x1', p4hx).attr('y1', p4hy).attr('x2', p4models[1][0]).attr('y2', p4models[1][1])
+    .attr('stroke', '#b91c1c').attr('stroke-width', 1).attr('opacity', 0.5);
+  var p4pktLayer = svg.append('g');
   p4models.forEach(function(m) {
     svg.append('circle').attr('cx', m[0]).attr('cy', m[1]).attr('r', 4).attr('fill', m[2]);
   });
   [[-8,0],[8,0]].forEach(function(d) {
     svg.append('circle').attr('cx', p4cx2+d[0]).attr('cy', p4cy2+d[1]).attr('r', 3).attr('fill', '#475569');
   });
-  svg.append('line').attr('x1', p4hx).attr('y1', p4hy).attr('x2', p4models[0][0]).attr('y2', p4models[0][1])
-    .attr('stroke', '#b91c1c').attr('stroke-width', 1).attr('opacity', 0.5);
-  svg.append('line').attr('x1', p4hx).attr('y1', p4hy).attr('x2', p4models[1][0]).attr('y2', p4models[1][1])
-    .attr('stroke', '#b91c1c').attr('stroke-width', 1).attr('opacity', 0.5);
   svg.append('circle').attr('cx', p4hx).attr('cy', p4hy).attr('r', 8).attr('fill', '#1e293b');
   svg.append('circle').attr('cx', p4hx).attr('cy', p4hy).attr('r', 2.5).attr('fill', 'white');
 
@@ -4058,13 +4065,13 @@ No system today operates at the full scale described here. Many of the component
       // Bidirectional packets travel
       function sendP4() {
         if (activePanelIdx !== 3) return;
-        var pkt1 = svg.append('circle').attr('r', 2.5).attr('fill', '#b91c1c').attr('opacity', 0.8)
+        var pkt1 = p4pktLayer.append('circle').attr('r', 2.5).attr('fill', '#b91c1c').attr('opacity', 0.8)
           .attr('cx', p4hx).attr('cy', p4hy);
         pkt1.transition().duration(600)
           .attr('cx', p4models[0][0]).attr('cy', p4models[0][1])
           .transition().duration(200).attr('opacity', 0)
           .on('end', function() { pkt1.remove(); });
-        var pkt2 = svg.append('circle').attr('r', 2.5).attr('fill', '#b91c1c').attr('opacity', 0.8)
+        var pkt2 = p4pktLayer.append('circle').attr('r', 2.5).attr('fill', '#b91c1c').attr('opacity', 0.8)
           .attr('cx', p4models[1][0]).attr('cy', p4models[1][1]);
         pkt2.transition().duration(600)
           .attr('cx', p4hx).attr('cy', p4hy)
