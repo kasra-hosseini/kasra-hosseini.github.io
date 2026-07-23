@@ -1550,9 +1550,9 @@ That shift is the whole point. The failures that matter at scale will not look l
     for (var i = 0; i < 5; i++) {
       var x = cx - 2 * gap + i * gap, y = by + (i % 2 === 0 ? 0 : 14);
       nodes.push({x: x, y: y});
-      dn(g, x, y, sizes[i], cols[i], names[i]);
-      if (i > 0) dl(g, nodes[i-1].x, nodes[i-1].y, x, y, i * 180);
     }
+    for (var i = 1; i < 5; i++) dl(g, nodes[i-1].x, nodes[i-1].y, nodes[i].x, nodes[i].y, i * 180);
+    for (var i = 0; i < 5; i++) dn(g, nodes[i].x, nodes[i].y, sizes[i], cols[i], names[i]);
     var tick = 0;
     function anim() {
       tick++;
@@ -1574,6 +1574,14 @@ That shift is the whole point. The failures that matter at scale will not look l
     for (var i = 0; i < 5; i++) {
       var x = cx - 2 * gap + i * gap, y = by;
       nodes.push({x: x, y: y});
+    }
+    for (var i = 1; i < 5; i++) {
+      dl(g, nodes[i-1].x + 10, nodes[i-1].y, nodes[i].x - 10, nodes[i].y, i * 150);
+      g.append('text').attr('x', (nodes[i-1].x + nodes[i].x) / 2).attr('y', by - 16)
+        .attr('text-anchor', 'middle').attr('font-size', '6px').attr('fill', '#bbb').text('transform');
+    }
+    for (var i = 0; i < 5; i++) {
+      var x = nodes[i].x, y = nodes[i].y;
       if (shapes[i] === 'rect') {
         g.append('rect').attr('x', x-8).attr('y', y-8).attr('width', 16).attr('height', 16).attr('rx', 3)
           .attr('fill', cols[i]).attr('stroke', 'white').attr('stroke-width', 1.2).attr('opacity', 0.85);
@@ -1585,11 +1593,6 @@ That shift is the whole point. The failures that matter at scale will not look l
       }
       g.append('text').attr('x', x).attr('y', y + 20).attr('text-anchor', 'middle')
         .attr('font-size', '7px').attr('fill', '#888').text(stages[i]);
-      if (i > 0) {
-        dl(g, nodes[i-1].x + 10, nodes[i-1].y, x - 10, y, i * 150);
-        g.append('text').attr('x', (nodes[i-1].x + x) / 2).attr('y', y - 16)
-          .attr('text-anchor', 'middle').attr('font-size', '6px').attr('fill', '#bbb').text('transform');
-      }
     }
     var tick = 0;
     function anim() {
@@ -1620,12 +1623,14 @@ That shift is the whole point. The failures that matter at scale will not look l
       {x: cx + 80, y: ty + 60, label: 'Math', color: '#d97706'},
       {x: cx + 80, y: ty + 100, label: 'Creative', color: '#7c3aed'}
     ];
-    dn(g, input.x, input.y, 8, '#6b7280', 'Input');
-    dn(g, router.x, router.y, 12, '#b91c1c', 'Router');
     dl(g, input.x, input.y, router.x - 12, router.y, 200);
     specialists.forEach(function(s, i) {
-      dn(g, s.x, s.y, 8, s.color, s.label);
       dl(g, router.x + 12, router.y, s.x - 8, s.y, 400 + i * 100);
+    });
+    dn(g, input.x, input.y, 8, '#6b7280', 'Input');
+    dn(g, router.x, router.y, 12, '#b91c1c', 'Router');
+    specialists.forEach(function(s, i) {
+      dn(g, s.x, s.y, 8, s.color, s.label);
     });
     var classLabel = g.append('text').attr('x', router.x).attr('y', router.y - 20)
       .attr('text-anchor', 'middle').attr('font-size', '8px').attr('fill', '#b91c1c').attr('font-weight', 'bold').text('');
@@ -1662,9 +1667,9 @@ That shift is the whole point. The failures that matter at scale will not look l
       {x: cx + 100, y: ty, r: 13, label: 'Frontier', color: '#7f1d1d'}
     ];
     models.forEach(function(m, i) {
-      dn(g, m.x, m.y, m.r, m.color, m.label);
       if (i > 0) dld(g, models[i-1].x, models[i-1].y, m.x, m.y, i * 200);
     });
+    models.forEach(function(m) { dn(g, m.x, m.y, m.r, m.color, m.label); });
     for (var i = 0; i < models.length - 1; i++) {
       var mx = (models[i].x + models[i+1].x) / 2, my = (models[i].y + models[i+1].y) / 2;
       g.append('text').attr('x', mx).attr('y', my + 20)
@@ -1713,9 +1718,11 @@ That shift is the whole point. The failures that matter at scale will not look l
       leaves.push({x: m.x-16, y: ty+120, pi: mi});
       leaves.push({x: m.x+16, y: ty+120, pi: mi});
     });
+    mids.forEach(function(m) { dl(g, root.x, root.y, m.x, m.y, 300); });
+    leaves.forEach(function(l) { dl(g, mids[l.pi].x, mids[l.pi].y, l.x, l.y, 600); });
     dn(g, root.x, root.y, 12, '#7f1d1d', 'Root');
-    mids.forEach(function(m, i) { dn(g, m.x, m.y, 8, '#b91c1c', 'Plan ' + (i+1)); dl(g, root.x, root.y, m.x, m.y, 300); });
-    leaves.forEach(function(l) { dn(g, l.x, l.y, 4, '#ef4444', ''); dl(g, mids[l.pi].x, mids[l.pi].y, l.x, l.y, 600); });
+    mids.forEach(function(m, i) { dn(g, m.x, m.y, 8, '#b91c1c', 'Plan ' + (i+1)); });
+    leaves.forEach(function(l) { dn(g, l.x, l.y, 4, '#ef4444', ''); });
     var tick = 0;
     function anim() {
       tick++;
@@ -1740,13 +1747,13 @@ That shift is the whole point. The failures that matter at scale will not look l
       var a = -Math.PI * 0.35 + Math.PI * 0.7 * i / 6;
       wk.push({x: cx + Math.cos(a) * 60, y: ty + 65 + Math.sin(a) * 70});
     }
-    dn(g, disp.x, disp.y, 10, '#7f1d1d', 'Dispatch');
-    dn(g, agg.x, agg.y, 10, '#065f46', 'Merge');
     wk.forEach(function(w, i) {
-      dn(g, w.x, w.y, 6, '#ef4444', '');
       dl(g, disp.x, disp.y, w.x, w.y, 250 + i * 50);
       dl(g, w.x, w.y, agg.x, agg.y, 400 + i * 50);
     });
+    dn(g, disp.x, disp.y, 10, '#7f1d1d', 'Dispatch');
+    dn(g, agg.x, agg.y, 10, '#065f46', 'Merge');
+    wk.forEach(function(w) { dn(g, w.x, w.y, 6, '#ef4444', ''); });
     var fbTop = p.oy + 18;
     var fbRight = agg.x + 30, fbLeft = disp.x - 30;
     g.append('path')
@@ -1780,13 +1787,13 @@ That shift is the whole point. The failures that matter at scale will not look l
     for (var i = 0; i < 5; i++) {
       voters.push({x: cx, y: ty + 10 + i * 22});
     }
-    dn(g, source.x, source.y, 10, '#6b7280', 'Task');
-    dn(g, judge.x, judge.y, 10, '#7f1d1d', 'Judge');
     voters.forEach(function(v, i) {
-      dn(g, v.x, v.y, 7, '#2563eb', 'Agent ' + (i+1));
       dl(g, source.x, source.y, v.x - 8, v.y, 200 + i * 60);
       dl(g, v.x + 8, v.y, judge.x, judge.y, 400 + i * 60);
     });
+    dn(g, source.x, source.y, 10, '#6b7280', 'Task');
+    dn(g, judge.x, judge.y, 10, '#7f1d1d', 'Judge');
+    voters.forEach(function(v, i) { dn(g, v.x, v.y, 7, '#2563eb', 'Agent ' + (i+1)); });
     var voteLabels = [];
     voters.forEach(function(v) {
       voteLabels.push(g.append('text').attr('x', v.x + 30).attr('y', v.y + 4)
@@ -1832,11 +1839,13 @@ That shift is the whole point. The failures that matter at scale will not look l
       var a = Math.PI * 0.15 + Math.PI * 0.7 * i / 5;
       bidders.push({x: cx + Math.cos(a) * 80, y: ty + 15 + Math.sin(a) * 70});
     }
+    bidders.forEach(function(b, i) {
+      dld(g, auctioneer.x, auctioneer.y, b.x, b.y, 200 + i * 80);
+    });
     dn(g, auctioneer.x, auctioneer.y, 11, '#7f1d1d', 'Auctioneer');
     var bidLabels = [];
     bidders.forEach(function(b, i) {
       dn(g, b.x, b.y, 7, '#6b7280', 'Agent ' + (i+1));
-      dld(g, auctioneer.x, auctioneer.y, b.x, b.y, 200 + i * 80);
       bidLabels.push(g.append('text').attr('x', b.x).attr('y', b.y - 14)
         .attr('text-anchor', 'middle').attr('font-size', '8px').attr('font-weight', 'bold').attr('fill', '#aaa').text(''));
     });
@@ -2175,10 +2184,10 @@ That shift is the whole point. The failures that matter at scale will not look l
     var cx = p.ox + cellW / 2, ty = p.oy + 65;
     var generator = {x: cx - 80, y: ty + 40};
     var evaluator = {x: cx + 80, y: ty + 40};
-    dn(g, generator.x, generator.y, 12, '#2563eb', 'Generator');
-    dn(g, evaluator.x, evaluator.y, 12, '#d97706', 'Evaluator');
     dl(g, generator.x + 12, generator.y - 8, evaluator.x - 12, evaluator.y - 8, 300);
     dld(g, evaluator.x - 12, evaluator.y + 8, generator.x + 12, generator.y + 8, 500);
+    dn(g, generator.x, generator.y, 12, '#2563eb', 'Generator');
+    dn(g, evaluator.x, evaluator.y, 12, '#d97706', 'Evaluator');
     g.append('text').attr('x', cx).attr('y', ty + 22).attr('text-anchor', 'middle')
       .attr('font-size', '7px').attr('fill', '#888').text('output');
     g.append('text').attr('x', cx).attr('y', ty + 66).attr('text-anchor', 'middle')
@@ -2929,9 +2938,9 @@ That shift is the whole point. The failures that matter at scale will not look l
     var cx = p.ox + cellW/2, cy = p.oy + 45 + (cellH-45)/2;
     var ax = p.ox + 100, ay = cy;
     var tx = p.ox + 250, ty = cy;
+    dl(g, ax, ay, tx, ty, 0);
     dn(g, ax, ay, 22, '#3b82f6', 'agent');
     dn(g, tx, ty, 18, '#64748b', 'target');
-    dl(g, ax, ay, tx, ty, 0);
     var tick = 0;
     function run() {
       tick++;
@@ -2964,6 +2973,12 @@ That shift is the whole point. The failures that matter at scale will not look l
     var l2x = p.ox + 130, l2y = p.oy + 195;
     var l3x = p.ox + 215, l3y = p.oy + 195;
     var l4x = p.ox + 285, l4y = p.oy + 195;
+    dl(g, px2, py2, m1x, m1y, 0);
+    dl(g, px2, py2, m2x, m2y, 0);
+    dld(g, m1x, m1y, l1x, l1y, 0);
+    dld(g, m1x, m1y, l2x, l2y, 0);
+    dld(g, m2x, m2y, l3x, l3y, 0);
+    dld(g, m2x, m2y, l4x, l4y, 0);
     dn(g, px2, py2, 20, '#3b82f6', 'principal');
     dn(g, m1x, m1y, 16, '#a855f7', 'mid-1');
     dn(g, m2x, m2y, 16, '#a855f7', 'mid-2');
@@ -2971,12 +2986,6 @@ That shift is the whole point. The failures that matter at scale will not look l
     dn(g, l2x, l2y, 11, '#64748b', '');
     dn(g, l3x, l3y, 11, '#64748b', '');
     dn(g, l4x, l4y, 11, '#64748b', '');
-    dl(g, px2, py2, m1x, m1y, 0);
-    dl(g, px2, py2, m2x, m2y, 0);
-    dld(g, m1x, m1y, l1x, l1y, 0);
-    dld(g, m1x, m1y, l2x, l2y, 0);
-    dld(g, m2x, m2y, l3x, l3y, 0);
-    dld(g, m2x, m2y, l4x, l4y, 0);
     var tick = 0;
     function run() {
       tick++;
