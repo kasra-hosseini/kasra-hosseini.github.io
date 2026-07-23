@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 380" font-family="system-ui, -apple-system, sans-serif">
+<rect width="860" height="380" fill="#ffffff"/>
+
+<!-- Left panel: Single agent doing it all -->
+<rect x="30" y="30" width="250" height="300" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="155" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Single Agent</text>
+
+<!-- The agent box -->
+<rect x="80" y="85" width="150" height="50" rx="8" fill="#e0e7ff" stroke="#334155" stroke-width="1.8"/>
+<text x="155" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e1b4b">Agent</text>
+
+<!-- Loop arrow -->
+<path d="M 155 135 L 155 165 L 105 165 L 105 135" fill="none" stroke="#0d9488" stroke-width="1.8"/>
+<polygon points="105,135 99,145 111,145" fill="#0d9488"/>
+<text x="155" y="180" text-anchor="middle" font-size="9" fill="#0d9488">loop until done</text>
+
+<!-- Task items -->
+<rect x="70" y="200" width="80" height="28" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+<text x="110" y="219" text-anchor="middle" font-size="9.5" fill="#374151">read files</text>
+<rect x="160" y="200" width="80" height="28" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+<text x="200" y="219" text-anchor="middle" font-size="9.5" fill="#374151">edit code</text>
+<rect x="70" y="238" width="80" height="28" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+<text x="110" y="257" text-anchor="middle" font-size="9.5" fill="#374151">run tests</text>
+<rect x="160" y="238" width="80" height="28" rx="5" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+<text x="200" y="257" text-anchor="middle" font-size="9.5" fill="#374151">fix errors</text>
+
+<text x="155" y="295" text-anchor="middle" font-size="9.5" fill="#6b7280" font-style="italic">one context, one loop</text>
+
+<!-- Right panel: Orchestrator + sub-agents -->
+<rect x="310" y="30" width="280" height="300" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="450" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">Orchestrator + Specialists</text>
+
+<!-- Orchestrator -->
+<rect x="390" y="80" width="120" height="45" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+<text x="450" y="107" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400e">Orchestrator</text>
+
+<!-- Sub-agents -->
+<line x1="420" y1="125" x2="370" y2="160" stroke="#334155" stroke-width="1.5"/>
+<line x1="450" y1="125" x2="450" y2="160" stroke="#334155" stroke-width="1.5"/>
+<line x1="480" y1="125" x2="530" y2="160" stroke="#334155" stroke-width="1.5"/>
+
+<rect x="330" y="160" width="80" height="40" rx="6" fill="#e0e7ff" stroke="#334155" stroke-width="1.5"/>
+<text x="370" y="178" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#1e1b4b">Research</text>
+<text x="370" y="192" text-anchor="middle" font-size="8" fill="#6b7280">agent</text>
+
+<rect x="420" y="160" width="80" height="40" rx="6" fill="#e0e7ff" stroke="#334155" stroke-width="1.5"/>
+<text x="460" y="178" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#1e1b4b">Coding</text>
+<text x="460" y="192" text-anchor="middle" font-size="8" fill="#6b7280">agent</text>
+
+<rect x="510" y="160" width="80" height="40" rx="6" fill="#e0e7ff" stroke="#334155" stroke-width="1.5"/>
+<text x="550" y="178" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#1e1b4b">Review</text>
+<text x="550" y="192" text-anchor="middle" font-size="8" fill="#6b7280">agent</text>
+
+<!-- Return arrows -->
+<line x1="370" y1="200" x2="420" y2="230" stroke="#6b7280" stroke-width="1" stroke-dasharray="3 2"/>
+<line x1="460" y1="200" x2="450" y2="230" stroke="#6b7280" stroke-width="1" stroke-dasharray="3 2"/>
+<line x1="550" y1="200" x2="480" y2="230" stroke="#6b7280" stroke-width="1" stroke-dasharray="3 2"/>
+
+<!-- Result merge -->
+<rect x="400" y="230" width="100" height="30" rx="5" fill="#f0fdf4" stroke="#059669" stroke-width="1.2"/>
+<text x="450" y="250" text-anchor="middle" font-size="9.5" fill="#065f46">synthesize</text>
+
+<text x="450" y="295" text-anchor="middle" font-size="9.5" fill="#6b7280" font-style="italic">divide, delegate, merge</text>
+
+<!-- Third panel: "and many more..." teaser -->
+<rect x="620" y="30" width="210" height="300" rx="12" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="725" y="60" text-anchor="middle" font-size="13" font-weight="bold" fill="#334155">And many more...</text>
+
+<!-- Faded example patterns -->
+<text x="725" y="100" text-anchor="middle" font-size="10.5" fill="#6b7280">peer-to-peer networks</text>
+<text x="725" y="125" text-anchor="middle" font-size="10.5" fill="#9ca3af">voting panels</text>
+<text x="725" y="150" text-anchor="middle" font-size="10.5" fill="#9ca3af">specialist markets</text>
+<text x="725" y="175" text-anchor="middle" font-size="10.5" fill="#d1d5db">hierarchical chains</text>
+<text x="725" y="200" text-anchor="middle" font-size="10.5" fill="#d1d5db">blackboard systems</text>
+<text x="725" y="225" text-anchor="middle" font-size="10.5" fill="#e5e7eb">debate protocols</text>
+<text x="725" y="250" text-anchor="middle" font-size="10.5" fill="#e5e7eb">...</text>
+
+<!-- Link hint -->
+<text x="725" y="295" text-anchor="middle" font-size="9.5" fill="#7c3aed" font-style="italic">explored in Part 2</text>
+
+<!-- Bottom: labels -->
+<text x="430" y="365" text-anchor="middle" font-size="11" fill="#6b7280">From a single loop to multi-agent delegation: the structure determines the behaviour.</text>
+
+</svg>
