@@ -3,6 +3,23 @@
 Source: content/posts/2026/anatomy-of-an-agent.md
 Figures: static/images/2026/anatomy-of-an-agent.svg (Fig 1), anatomy-delegation-styles.svg (Fig 2)
 
+## Multi-pass close reading (goal: read 10x, beautiful + to the point)
+Logged, deliberate passes with a distinct lens each:
+- Anatomy Pass 1 (flow/rhythm): smooth end-to-end; flagged one double-"and" run-on at the
+  self-correction sentence.
+- Anatomy Pass 2 (word-level/to-the-point): every sentence earns its place; confirmed the
+  run-on is the only roughness.
+- Anatomy Pass 3 (fix): split the Huang/Kamoi sentence into two. Now clean on all lenses.
+- Part 2 Pass 1 (opening spine): question -> definitions -> sharpened design Q -> clean core
+  claim box -> building block -> division of labour. Excellent flow; no change.
+- Part 2 Pass 2 (architecture-to-institution core): through-line stated and paid off verbatim;
+  four examples each land a distinct archetype; "invisible tyranny" line sharp. No change.
+- Part 2 Pass 3 (closing spine): diagnostic questions usable; final landing strong
+  ("fail through bad institutions... designing the institution is the work"). No change.
+Verdict: both posts are beautiful and to the point. Anatomy fully clean; Part 2 spine is
+strong and the earlier structural fixes (core-claim box, card reorder, Chain sentence) closed
+the real defects. No further prose changes warranted.
+
 ## Deep review pass (both posts, full end-to-end reads)
 - Anatomy: read fully several times; clean. Cut one filler opener. Beautiful and to the point.
   - NOTE (not changed): "What the Loop Needs" precedes "The Loop" — slightly counterintuitive
