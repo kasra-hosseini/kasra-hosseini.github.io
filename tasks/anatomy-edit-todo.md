@@ -3,6 +3,20 @@
 Source: content/posts/2026/anatomy-of-an-agent.md
 Figures: static/images/2026/anatomy-of-an-agent.svg (Fig 1), anatomy-delegation-styles.svg (Fig 2)
 
+## Deep review pass (both posts, full end-to-end reads)
+- Anatomy: read fully several times; clean. Cut one filler opener. Beautiful and to the point.
+  - NOTE (not changed): "What the Loop Needs" precedes "The Loop" — slightly counterintuitive
+    ordering but works via the "layers around a single loop" opener. Flagged, left as-is.
+- Part 2: read full prose spine + all 43 delegation cards + governance intro/cards/closing.
+  - Removed contested 99%/13% math from headline Core Claim box (kept in Adversarial Dynamics).
+  - Reframed top-down/bottom-up governance distinction as Part 2's own (was misattributed to Part 1).
+  - Fixed broken sentence in Chain card.
+  - MAJOR: reordered all 43 delegation cards to match the nine-family summary table.
+    Card layout had drifted (Voting/Critic/Debate were under Reliability; Knowledge Transfer
+    divider held cards from 5 families). Done via deterministic script; verified 43 cards
+    preserved, details balance 86/86, hugo builds clean. Removed now-stale "(Includes Relay/
+    Handoff and Loop/Retry below.)" aside from Sequential divider.
+
 ## Decisions (from user + research)
 - Scaffolding vs harness: NOT distinct/formalized in canonical sources (Anthropic BEA, Weng, smolagents all use neither prominently). Used loosely as synonyms. -> Lead with "scaffolding", simplify, DROP the "(sometimes called the harness)" aside since it's not really standard. Verify: yes, drop it.
 - Codex IS a real current coding agent (CLI Apr 2025; comparable to Claude Code; merged into ChatGPT desktop Jul 2026). -> Add alongside Claude Code.
