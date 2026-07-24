@@ -739,7 +739,7 @@ Now that the patterns are in view, here are the structural traps that emerge fro
 
 </div>
 
-The most natural starting point is **agents that spawn other agents**. A user asks a question. The primary agent realizes it needs help. A web search, a code execution, a document summary. It delegates. The sub-agent might delegate further. A tree forms.
+With the patterns and their failure modes in view, we can turn to how they combine at scale. The most natural starting point is **agents that spawn other agents**. A user asks a question. The primary agent realizes it needs help. A web search, a code execution, a document summary. It delegates. The sub-agent might delegate further. A tree forms.
 
 This is already happening. Multi-agent frameworks like <a href="https://arxiv.org/abs/2308.08155" target="_blank" class="red-link">AutoGen</a>, <a href="https://arxiv.org/abs/2303.17760" target="_blank" class="red-link">CAMEL</a>, and <a href="https://arxiv.org/abs/2308.00352" target="_blank" class="red-link">MetaGPT</a> assign distinct roles to agents and coordinate them through structured workflows. Production systems, from <a href="https://corporate.zalando.com/en/technology/more-personal-and-smarter-zalando-assistant-enhanced-capabilities-inspire-customers" target="_blank" class="red-link">Zalando Assistant</a> to Microsoft's <a href="https://arxiv.org/abs/2411.04468" target="_blank" class="red-link">Magentic-One</a>, use orchestrator agents that plan, track progress, and re-plan when sub-agents fail. Today's production trees, however, are shallow. Typically two or three levels deep.
 
