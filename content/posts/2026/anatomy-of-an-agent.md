@@ -58,7 +58,7 @@ This generate, filter, and validate rhythm is already producing real results, th
 
 ## Where Single-Agent Recursion Breaks
 
-This is where the interesting problems live. Recursive self-improvement is clean in theory, but in practice it runs into a handful of structural failure modes, and better prompting alone does not fix them.
+Recursive self-improvement is clean in theory. In practice it runs into a handful of structural failure modes, and better prompting alone does not fix them.
 
 The first is that errors compound. On realistic, multi-step computer and web tasks, today's best agents still fall well short of human reliability (<a href="https://arxiv.org/abs/2404.07972" target="_blank">OSWorld</a>, Xie et al., 2024; <a href="https://arxiv.org/abs/2406.12045" target="_blank">tau-bench</a>, Yao et al., 2024). The reason is simple arithmetic: a task that takes many steps only succeeds if most of them do, so small per-step error rates multiply into large failures over a long chain. Worse, each mistake tends to narrow the options for recovering on the steps that follow.
 
