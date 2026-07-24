@@ -45,7 +45,7 @@
 <!-- === SECTION 2: Inside the Agent === -->
 <rect x="70" y="235" width="600" height="315" rx="14" fill="#fafafe" stroke="#1e1b4b" stroke-width="2"/>
 <text x="90" y="260" font-size="13" font-weight="bold" fill="#1e1b4b">Inside the Agent</text>
-<text x="90" y="276" font-size="10" fill="#6b7280" font-style="italic">the scaffolding (harness) wraps the foundation model</text>
+<text x="90" y="276" font-size="10" fill="#6b7280" font-style="italic">the scaffolding wraps the foundation model</text>
 
 <!-- Foundation Model (centered, the reasoning core) -->
 <rect x="195" y="288" width="310" height="66" rx="10" fill="#ede9fe" stroke="#1e1b4b" stroke-width="2.2"/>
@@ -53,7 +53,7 @@
 <text x="350" y="337" text-anchor="middle" font-size="11.5" fill="#5b21b6">the reasoning core</text>
 
 <!-- Scaffolding label -->
-<text x="90" y="378" font-size="10" fill="#2563eb" font-style="italic">Scaffolding (the harness)</text>
+<text x="90" y="378" font-size="10" fill="#2563eb" font-style="italic">Scaffolding</text>
 
 <!-- Row 1: Prompt (first-class) + Tools & Skills + Memory -->
 <rect x="90" y="386" width="180" height="50" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.6"/>

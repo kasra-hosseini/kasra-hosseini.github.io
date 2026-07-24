@@ -3,6 +3,18 @@
 Source: content/posts/2026/anatomy-of-an-agent.md
 Figures: static/images/2026/anatomy-of-an-agent.svg (Fig 1), anatomy-delegation-styles.svg (Fig 2)
 
+## Another detailed review pass (adversarial lens, figures + least-read sections)
+- FOUND + FIXED: Anatomy Figure 1 SVG still said "(harness)" twice, contradicting the body
+  prose I'd cleaned (body + caption say only "scaffolding" now). Removed both from the SVG.
+- FOUND + FIXED: Part 2 flow snag. "The most natural starting point is agents that spawn
+  other agents" read like a cold section opener but lands right after the anti-patterns box.
+  Added a one-clause bridge ("With the patterns and their failure modes in view...").
+- CHECKED, no change needed: anti-patterns box (12 traps, clean); Societies-in-the-Wild
+  tables (scenarios map cleanly to governance+delegation); Figure 2 family labels consistent
+  with Part 2 after the card reorder; Figure 1 component split (6 boxes) matches the body's
+  7 named components (tools+skills folded); capabilities/constraints color split matches caption.
+- Verified: harness gone from SVG (0); em dashes 0; hugo builds clean.
+
 ## Multi-pass close reading (goal: read 10x, beautiful + to the point)
 Logged, deliberate passes with a distinct lens each:
 - Anatomy Pass 1 (flow/rhythm): smooth end-to-end; flagged one double-"and" run-on at the
