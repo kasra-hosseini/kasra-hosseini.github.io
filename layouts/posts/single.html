@@ -1,5 +1,13 @@
 {{- define "main" }}
 
+{{- /* Shared citation values, defined once and reused by the Cite popup and the Citation block below */ -}}
+{{- $citeAuthor := .Params.author | default "Kasra Hosseini" }}
+{{- $citeJournal := "Zad's Notes" }}
+{{- $citeMonthYear := .Date.Format "January 2006" }}
+{{- $citeYear := .Date.Format "2006" }}
+{{- $citeMonth := .Date.Format "January" }}
+{{- $citeKey := .File.BaseFileName }}
+
 <div style="margin-bottom: 1.5em;">
   <a href="/posts/" style="color: #333; text-decoration: none; font-size: 1.5em;">←</a>
 </div>
@@ -31,14 +39,14 @@
         <button onclick="var box=this.parentElement.querySelector('.cite-popup'); box.style.display = box.style.display==='none'?'block':'none';" style="background: none; border: 1px solid #ccc; border-radius: 4px; padding: 2px 10px; font-size: 0.8em; color: #666; cursor: pointer;">Cite</button>
         <div class="cite-popup" style="display:none; position:absolute; top:28px; left:0; z-index:100; background:#fff; border:1px solid #ddd; border-radius:6px; box-shadow:0 4px 16px rgba(0,0,0,0.12); padding:12px 14px; width:420px; max-width:85vw;">
           <div style="font-size:0.75em; color:#666; margin-bottom:6px; font-weight:bold;">Plain text:</div>
-          <div style="background:#f5f5f5; padding:8px; border-radius:4px; font-family:monospace; font-size:0.75em; color:#333; margin-bottom:10px; line-height:1.4;">{{ .Params.author | default "Kasra Hosseini" }}. "{{ .Title }}". Zad's Notes ({{ .Date.Format "January 2006" }}). {{ .Permalink }}</div>
+          <div style="background:#f5f5f5; padding:8px; border-radius:4px; font-family:monospace; font-size:0.75em; color:#333; margin-bottom:10px; line-height:1.4;">{{ $citeAuthor }}. "{{ .Title }}". {{ $citeJournal }} ({{ $citeMonthYear }}). {{ .Permalink }}</div>
           <div style="font-size:0.75em; color:#666; margin-bottom:6px; font-weight:bold;">BibTeX:</div>
-          <pre style="background:#f5f5f5; padding:8px; border-radius:4px; font-size:0.7em; color:#333; margin:0; overflow-x:auto; line-height:1.4;">@article{{ printf "{" }}{{ .File.BaseFileName }},
+          <pre style="background:#f5f5f5; padding:8px; border-radius:4px; font-size:0.7em; color:#333; margin:0; overflow-x:auto; line-height:1.4;">@article{{ printf "{" }}{{ $citeKey }},
   title = {{ printf "{" }}{{ .Title }}{{ printf "}" }},
-  author = {{ printf "{" }}{{ .Params.author | default "Kasra Hosseini" }}{{ printf "}" }},
-  journal = {{ printf "{" }}Zad's Notes{{ printf "}" }},
-  year = {{ printf "{" }}{{ .Date.Format "2006" }}{{ printf "}" }},
-  month = {{ printf "{" }}{{ .Date.Format "January" }}{{ printf "}" }},
+  author = {{ printf "{" }}{{ $citeAuthor }}{{ printf "}" }},
+  journal = {{ printf "{" }}{{ $citeJournal }}{{ printf "}" }},
+  year = {{ printf "{" }}{{ $citeYear }}{{ printf "}" }},
+  month = {{ printf "{" }}{{ $citeMonth }}{{ printf "}" }},
   url = {{ printf "{" }}{{ .Permalink }}{{ printf "}" }}
 {{ printf "}" }}</pre>
         </div>
@@ -71,16 +79,16 @@
     <h2 style="font-size: 1.4em;">Citation</h2>
     <p>If you find this article useful, you can cite it as:</p>
     <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 1em; border-radius: 5px; overflow-x: auto; font-family: monospace; font-size: 0.9em; margin: 1em 0;">
-      <span style="color: #f92672;">{{ .Params.author | default "Kasra Hosseini" }}</span>. <span style="color: #a6e22e;">"{{ .Title }}"</span>. Zad's Notes ({{ .Date.Format "January 2006" }}). {{ .Permalink }}
+      <span style="color: #f92672;">{{ $citeAuthor }}</span>. <span style="color: #a6e22e;">"{{ .Title }}"</span>. {{ $citeJournal }} ({{ $citeMonthYear }}). {{ .Permalink }}
     </div>
     <p style="margin-top: 1em;">Or use the BibTeX citation:</p>
     <div style="background-color: #2d2d2d; color: #f8f8f2; padding: 1em; border-radius: 5px; overflow-x: auto; font-family: monospace; font-size: 0.9em;">
-@article{{ printf "{" }}{{ .File.BaseFileName }},<br>
+@article{{ printf "{" }}{{ $citeKey }},<br>
 &nbsp;&nbsp;title = {{ printf "{" }}<span style="color: #a6e22e;">{{ .Title }}</span>{{ printf "}" }},<br>
-&nbsp;&nbsp;author = {{ printf "{" }}<span style="color: #f92672;">{{ .Params.author | default "Kasra Hosseini" }}</span>{{ printf "}" }},<br>
-&nbsp;&nbsp;journal = {{ printf "{" }}<span style="color: #66d9ef;">Zad's Notes</span>{{ printf "}" }},<br>
-&nbsp;&nbsp;year = {{ printf "{" }}<span style="color: #ae81ff;">{{ .Date.Format "2006" }}</span>{{ printf "}" }},<br>
-&nbsp;&nbsp;month = {{ printf "{" }}<span style="color: #ae81ff;">{{ .Date.Format "January" }}</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;author = {{ printf "{" }}<span style="color: #f92672;">{{ $citeAuthor }}</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;journal = {{ printf "{" }}<span style="color: #66d9ef;">{{ $citeJournal }}</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;year = {{ printf "{" }}<span style="color: #ae81ff;">{{ $citeYear }}</span>{{ printf "}" }},<br>
+&nbsp;&nbsp;month = {{ printf "{" }}<span style="color: #ae81ff;">{{ $citeMonth }}</span>{{ printf "}" }},<br>
 &nbsp;&nbsp;url = <span style="color: #e6db74;">"{{ .Permalink }}"</span><br>
 {{ printf "}" }}
     </div>
