@@ -546,7 +546,7 @@ Any pattern can be deliberately designed or can emerge from agent interaction. T
 </details>
 
 <details>
-<summary>Checkpoint / Saga <span class="gov-tagline">rollback on failure</span></summary>
+<summary>Checkpoint / Saga <span class="gov-tagline">recover or compensate on failure</span></summary>
 <div class="gov-body">A multi-step workflow where each step has an explicit compensating action. If a later step fails, the system runs those compensating actions in reverse order to undo the prior steps (there is no saved state to revert to; each undo is a new forward action). Borrowed from the Saga pattern in distributed transaction design.<br><br><em>When to use:</em> long-running workflows where partial failure must not corrupt the overall result. Multi-file code refactors, multi-step data migrations, workflows involving external side effects that may need reversal.<br><br><em>Example:</em> an agent refactors a database schema: step 1 creates the new table, step 2 migrates data, step 3 updates the API, step 4 drops the old table. If step 3 fails, the saga compensates by reverting steps 2 and 1.<br><br><em>Failure mode:</em> rollback storms when many steps need compensation simultaneously. Checkpoint overhead on fast, short tasks where the cost of checkpointing exceeds the cost of restarting.<br><br><em>Relation to other patterns:</em> Checkpoint/Saga adds reliability to any sequential pattern (Chain, Pipeline). It is the delegation-level primitive that enables Timeout at the system level.</div>
 </details>
 

@@ -658,7 +658,7 @@ Even a superintelligent oracle would still need to interact with a structurally 
 The more likely future is not one model. It is an ecology of models, and that ecology tends to organize into societies. Self-improvement reinforces this. An agent improving in isolation is bounded by its own data and blind spots. A society of agents improving collectively, through shared memory, federated learning, cross-agent evaluation, and diverse search, has a potentially larger improvement surface (see <a href="#fn-self-improving">On self-improving agents</a>). The pressure toward collective self-improvement is itself one of the forces that produces societies.
 
 <!-- ============================================================
-     SECTION: GOVERNANCE (bridge only -- full treatment in Part 2)
+     SECTION: GOVERNANCE (bridge only, full treatment in Part 2)
      ============================================================ -->
 
 ## Governance: How Agent Societies Are Ruled
@@ -4091,7 +4091,7 @@ No system today operates at the full scale described here. Many of the component
     function next() {
       cur++;
       if (cur >= panels.length) {
-        // Full round complete -- restart after brief pause
+        // Full round complete: restart after brief pause
         cycleTimer = setTimeout(function() { init(); }, 2500);
         return;
       }
@@ -4182,7 +4182,7 @@ No system today operates at the full scale described here. Many of the component
       .attr('stroke', b.color).attr('stroke-width', 1).attr('opacity', 0.08);
   });
 
-  // Barrier circles -- pastel fill with dark text
+  // Barrier circles: pastel fill with dark text
   var BR = 24;
   var barrierCircles = barriers.map(function(b) {
     var g = svg.append('g');
