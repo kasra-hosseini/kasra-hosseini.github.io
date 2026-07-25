@@ -5,7 +5,7 @@ date: 2026-06-27
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "LLM", "agent fabric"]
-description: "The loop at the heart of an agent, the components that make each iteration effective, and where single-agent recursion hits structural limits that point toward collective intelligence."
+description: "The loop at the heart of an agent, the components that make each iteration effective, and where single-agent recursion hits structural limits that point toward the collective capability of many agents."
 draft: true
 math: false
 ShowToc: false
