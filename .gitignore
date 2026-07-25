@@ -20,3 +20,10 @@ content/posts/2025/sample-post.md
 # Local archive — backups and old drafts, never push
 archive/
 archive_images/
+archive_20260426/
+
+# Substack republishing material — local only, never push
+substack/
+
+# Internal planning and review docs — local only, never push
+tasks/
