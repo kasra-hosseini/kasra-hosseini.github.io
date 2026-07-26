@@ -24,7 +24,7 @@ wordcount: "~2,000 words"
 - **[Part 2: Division of Labour and Governance](/posts/2026/agent-fabric-part2/)**: delegation archetypes, trust and authority, the specialist market, and governance archetypes
 </div>
 
-Before we get to societies of agents, it helps to be clear about what a single agent actually is. That is what this prologue is for. In Part 1 and Part 2 of this series, the agent is the basic unit, the thing that gets connected, delegated to, and governed. Here we open up that unit and look at what makes it tick, so that when later posts talk about many agents working together, we already share a picture of the one.
+Everything the rest of this series builds on, the societies, the delegation, the governance, rests on a single unit: the agent. Before wiring many of them together, it is worth being precise about what one actually is. This prologue opens up that unit and looks at what makes it tick, so that when later posts talk about many agents working together, we already share a picture of the one.
 
 ## From Model Call to Agent
 
