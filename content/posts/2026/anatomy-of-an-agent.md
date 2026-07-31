@@ -28,9 +28,7 @@ wordcount: "~2,000 words"
 
 Ask a bare language model to "run train.py and put the results in the output folder" and the honest answer is that it cannot. It can only produce text about doing so. On its own a foundation model is a static function: it can neither perceive the world nor change it. Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. The model underneath is the same. The behaviour is not, because now it can act on the world and see what happens.
 
-That gap is what this whole series rests on, so it is worth being precise about what closes it. Everything later posts say about societies, delegation, and governance assumes a picture of the single agent, and this is that picture.
-
-What turns the one into the other is architecture. An agent is a foundation model plus the **scaffolding** built around it: a prompt telling it what it is doing, tools letting it act, memory carrying lessons from one step to the next, and a loop that keeps it going until its own judgement says the work is done. The model is the reasoning core, and the scaffolding is what converts reasoning into action.
+What closes that gap is not a better model. It is architecture. An agent is a foundation model plus the **scaffolding** built around it: a prompt telling it what it is doing, tools letting it act, memory carrying lessons from one step to the next, and a loop that keeps going until its own judgement says the work is done. The model is the reasoning core, and the scaffolding is what converts reasoning into action. Everything the rest of this series claims about societies and governance is built on this one unit, which is why it is worth taking apart properly.
 
 Every piece of that is load-bearing, which is easiest to see by removing them. Take away the loop and you have a chatbot again. Take away the tools and you have something that can think but never touch anything. Memory is the interesting one: strip it out and the agent stays fully capable while losing the ability to learn from the last five minutes, so it walks into the same dead end all afternoon.
 
@@ -44,7 +42,7 @@ Acting is only useful if something carries forward, which is what memory does. T
 
 What keeps the loop pointed somewhere is a mix of intent and self-restraint. The prompt is where a human's goal enters, carrying instructions and constraints. Planning breaks the work down and looks a few moves ahead. Identity, meaning both the character a model is trained with and the persona it is deployed as, narrows what the agent will even consider doing: a coding assistant and a customer-service agent can run on the same model and behave nothing alike. And self-evaluation decides whether to try again, accept the result, or hand the problem to a human. That last one turns out to be where single agents break, in a way worth its own section below.
 
-These are not separate boxes to tick. Skills are built from tools and remembered as procedural memory, grounding is just where tools meet the world, and planning shapes self-evaluation, which reshapes the plan.
+None of these are separate boxes to tick. They are the same few capabilities seen from different angles: a skill is built out of tools and then stored as procedural memory, and planning shapes the self-evaluation that turns around and reshapes the plan.
 
 ## The Loop
 
