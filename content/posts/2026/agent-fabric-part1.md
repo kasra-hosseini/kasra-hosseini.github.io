@@ -227,7 +227,8 @@ Some threads in this fabric are built top-down by engineers who assign roles and
 
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **Part 1: Why Agents May Form Societies** (you are here): two observations, the Loom Hypothesis, and the path from isolation to interweaving
-- **[Part 2: Division of Labour and Governance](/posts/2026/agent-fabric-part2/)**: delegation archetypes, trust and authority, the specialist market, and governance archetypes
+- **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: delegation archetypes, the economics of delegation trees, and how splitting work turns into authority
+- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
 </div>
 
 <details class="series-nav" style="cursor: pointer;">
@@ -516,7 +517,7 @@ These protocols are not neutral plumbing. They define what agents can ask for, w
       <text x="340" y="292" text-anchor="middle" font-size="10" fill="#475569" font-family="sans-serif">Distillation creates many agents. Resource limits make isolation expensive. The Loom is one possible solution.</text>
     </svg>
   </div>
-  <div class="viz-caption"><strong>Figure 3. The Loom Hypothesis.</strong> As agents multiply, isolated agents duplicate context, verification, and discovery. The Loom pressure pushes some agents into bounded societies where shared knowledge reduces repeated work. Two example origins are shown: a hub-spoke society coordinated top-down by an orchestrator (labeled ORC in the figure), and a peer-mesh society formed bottom-up through repeated interaction. Either topology can arise through either path; the labels illustrate one possible origin, not a structural requirement. The hypothesis predicts bounded clusters, not one universal mesh. <a href="/posts/2026/agent-fabric-part2/">Part 2</a> explores delegation archetypes and governance structures for these societies.</div>
+  <div class="viz-caption"><strong>Figure 3. The Loom Hypothesis.</strong> As agents multiply, isolated agents duplicate context, verification, and discovery. The Loom pressure pushes some agents into bounded societies where shared knowledge reduces repeated work. Two example origins are shown: a hub-spoke society coordinated top-down by an orchestrator (labeled ORC in the figure), and a peer-mesh society formed bottom-up through repeated interaction. Either topology can arise through either path; the labels illustrate one possible origin, not a structural requirement. The hypothesis predicts bounded clusters, not one universal mesh. <a href="/posts/2026/agent-fabric-part2/">Part 2</a> explores delegation archetypes for these societies, and <a href="/posts/2026/agent-fabric-part3/">Part 3</a> the governance that forms around them.</div>
 </div>
 
 Societies also form from the bottom up. Your agent connects to friends' agents through social interaction, joins a commerce society through shopping patterns, operates within workplace sub-societies, or joins a temporary society that forms around an event and dissolves when it ends. A patient's agent might join a health cohort where agents of people with the same condition pool anonymized treatment experiences. A researcher's agent might find agents working on adjacent problems and form an interest-based society that shares papers, datasets, and negative results. A buyer's agent might spawn a short-lived marketplace society, negotiating with multiple seller agents before the best deal closes and the society disbands.

@@ -1,7 +1,7 @@
 ---
 title: "The Anatomy of an Agent"
 subtitle: "The loop, its limits, and why one agent is never enough"
-date: 2026-06-27
+date: 2026-07-31
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "LLM", "agent fabric"]
@@ -21,7 +21,8 @@ wordcount: "~2,000 words"
 
 - **Prologue: The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis, and the path from isolation to interweaving
-- **[Part 2: Division of Labour and Governance](/posts/2026/agent-fabric-part2/)**: delegation archetypes, trust and authority, the specialist market, and governance archetypes
+- **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: delegation archetypes, the economics of delegation trees, and how splitting work turns into authority
+- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
 </div>
 
 ## From Model Call to Agent
@@ -78,7 +79,7 @@ None of this is a bug awaiting a patch. These are structural limits of anything 
 
 The way out of these limits is to stop relying on a single loop. Once more than one agent is involved, the failure modes above start to lift. Verification can come from an agent other than the one that did the work, different agents can bring genuinely different perspectives, and specialists can handle what a lone generalist cannot. This is where collective capability enters: performance that belongs to the arrangement of agents rather than to any one of them, and, if the arrangement is good enough, perhaps collective intelligence too.
 
-There are many ways to arrange them, from an orchestrator delegating to specialists, to peer-to-peer networks, voting panels, hierarchical chains, and adversarial checks between agents. Which arrangement you choose shapes what kind of improvement is even possible. These delegation patterns, and the governance that grows up around them once agents start keeping track of who did what and how well, are the subject of [The Agent Fabric (Part 2): Division of Labour and Governance](/posts/2026/agent-fabric-part2/).
+There are many ways to arrange them, from an orchestrator delegating to specialists, to peer-to-peer networks, voting panels, hierarchical chains, and adversarial checks between agents. Which arrangement you choose shapes what kind of improvement is even possible. Those delegation patterns are the subject of [Part 2](/posts/2026/agent-fabric-part2/), and the governance that grows up around them, once agents start keeping track of who did what and how well, is the subject of [Part 3](/posts/2026/agent-fabric-part3/).
 
 ---
 
