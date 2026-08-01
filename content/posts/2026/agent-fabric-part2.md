@@ -343,7 +343,7 @@ Every multi-agent system has to answer one question first: how does the work get
 
 ### Delegation Archetypes
 
-People have found a lot of ways to answer that question, and forty-three of them are catalogued below in expandable cards. Nobody should read all of them. They are here to be looked up, not studied, and the useful move is to find the three or four that describe what you are already building and ignore the rest. What matters for the argument is not the count but a pattern that shows up across all of them, which the rest of this section is about: how quickly a way of splitting work turns into a standing rule about who is trusted.
+People have found a great many ways to answer that question. Forty-three of them are catalogued further down, and the honest advice is not to read them: open the catalogue when you need to identify something you are already building, and otherwise walk past it. The count is not the point. What matters is a pattern that holds across all of them, and it is the thing this post is really about, which is how quickly a way of splitting up work hardens into a standing rule about who gets trusted with what.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The nine delegation families (43 patterns + 1 meta-pattern)</summary>
@@ -429,6 +429,11 @@ Any pattern can be deliberately designed or can emerge from agent interaction. T
 **Adaptive Delegation** (meta-pattern): the delegation structure itself changes based on performance signals. Every other pattern can be a source or target state in an adaptive transition.
 </details>
 
+
+<details style="margin: 1.2em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">The full catalogue: 43 delegation patterns in nine families (reference, safe to skip)</summary>
+
+<p style="font-size: 0.9em; color: #64748b; margin: 0.6em 0 0.4em 0;">Grouped so related patterns sit together. Each entry covers what it is, when to reach for it, how it fails, and how it differs from its neighbours. The argument picks up again below.</p>
 
 <div class="gov-list">
 
@@ -594,7 +599,7 @@ Capability itself can move between agents, which is what stops every newcomer fr
 <div class="gov-body">A large or expensive model generates outputs, reasoning traces, or labeled examples that are used to fine-tune a smaller model. Once training is complete, the student operates independently; there is no ongoing connection to the teacher. The knowledge transfer happens at training time, not at inference time.<br><br><em>When to use:</em> Deployments where inference cost, latency, or privacy constraints make the teacher model unsuitable for production, but where a smaller model can approximate the teacher's behavior on the relevant task distribution. Common in production systems that prototype with frontier models and deploy fine-tuned smaller models.<br><br><em>Example:</em> <a href="https://arxiv.org/abs/1503.02531" target="_blank" rel="noopener" class="red-link">Hinton et al. 2015</a> introduced the formal framework for knowledge distillation using soft label transfer. More recently, frontier model outputs have been used to fine-tune smaller open-weight models for specific instruction-following tasks, with the teacher never invoked at inference time.<br><br><em>Failure mode:</em> The small model is trained on examples the large one chose, which may not cover the inputs it later meets in production. It performs well on those it saw and fails silently on the long tail it did not.<br><br><em>Relation to other patterns:</em> Teacher-Student involves real-time instructional interaction at inference time; the teacher remains active. Distillation severs that connection after training. Loop/Retry-with-Context iterates at inference time; Distillation iterates at training time.</div>
 </details>
 
-Coordination does not actually require anyone in charge, which is the strangest and most consequential fact in this section. Agents under resource pressure can work out how to cooperate through nothing but local interaction, each responding to its neighbours with no view of the whole. This is old ground outside AI: Holland (*Hidden Order*, 1995) and Kauffman (*The Origins of Order*, 1993) showed that interacting agents under constraints reliably produce structure nobody designed. What follows is that phenomenon, running in agent networks.
+Coordination does not actually require anyone in charge. Agents under resource pressure can work out how to cooperate through nothing but local interaction, each responding only to its neighbours, none of them holding a picture of the whole. This is old ground outside AI: Holland (*Hidden Order*, 1995) and Kauffman (*The Origins of Order*, 1993) showed that interacting agents under constraints reliably produce structure nobody designed. What follows is that phenomenon, running in agent networks.
 
 <details>
 <summary>Publish-Subscribe <span class="gov-tagline">event-driven, fully decoupled</span></summary>
@@ -678,6 +683,8 @@ The delegation structure itself changes in real-time based on performance signal
 
 
 </div>
+
+</details>
 
 <details style="margin: 1em 0; padding: 0.8em 1em; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600;">Quick guide: which delegation pattern fits your task?</summary>
