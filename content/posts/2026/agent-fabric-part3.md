@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~4,100 words (body) · ~11,000 words (notes + archetypes)"
+wordcount: "~4,900 words (body) · ~9,900 words (notes + archetypes)"
 ---
 
 <style>
@@ -185,6 +185,7 @@ wordcount: "~4,100 words (body) · ~11,000 words (notes + archetypes)"
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis, and the path from isolation to interweaving
 - **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: delegation archetypes, the economics of delegation trees, and how splitting work turns into authority
 - **Part 3: Ruling an Agent Society** (you are here): governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
+- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 </div>
 
 The argument of this series is that governance turns up in agent systems whether anyone invited it or not. Worth being clear about the status of that claim before building on it: it is a prediction, not a measurement. It follows from how these systems are built and from decades of evidence about what interacting agents under resource pressure do in biology, economics, and simulation. Whether language-model agents behave the same way is still being established, and the honest position is that the mechanism is well motivated and not yet demonstrated at scale.
