@@ -344,9 +344,9 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
 
-Four agents on a phone barely need organizing; one of them handing out jobs is plenty. At a few dozen, calling each other, the arrangement starts to matter. You can split a job into parts, run them at once and merge the answers, which is what happens when you ask for a summary of forty papers. Or you can put one agent in front to read each request and decide who handles it, which is what a support queue does. The first shape is about speed. The second is about who decides, and that is a different kind of question.
+Four agents on a phone barely need organizing; one of them handing out jobs is plenty. At a few dozen, calling each other, the arrangement starts to matter, and there are only so many shapes it can take. Split a job into parts and merge the answers, which is what happens when you ask for a summary of forty papers. Or put one agent in front to read each request and decide who handles it, which is what a support queue does. The first is about speed. The second is about who decides, and that is where authority hides.
 
-The second shape is where authority hides. A dispatcher has to decide who is worth handing work to, and it could do that on declared capability or task type, but the moment any record of past results exists that record is the cheapest and most accurate signal available, so it wins. From there the split hardens fast into a standing rule about who gets trusted with what.
+A dispatcher has to decide who is worth handing work to. It could do that on declared capability or task type, but the moment any record of past results exists, that record is the cheapest and most accurate signal available, so it wins. From there the split hardens fast into a standing rule about who gets trusted with what.
 
 We ran into this building a shopping assistant. Asking a language model "does this need the fashion expert?" worked better than a tool trained for exactly that job, which surprised us, though it was also too eager and sent easy questions to specialists that did not need them. The fix was to let something cheap handle the easy calls. The part that matters here is what the fix requires: to know which calls are easy, something has to keep a record of how the specialists have been doing.
 
