@@ -590,6 +590,8 @@ Every pattern here works around the same wall: human attention does not scale wi
 <div class="gov-body">The system routes only anomalies, high-stakes decisions, or low-confidence situations to a human for approval. Routine work proceeds without human involvement. The escalation threshold, and the system's judgment about what crosses it, are design choices rather than hard structural guarantees. The human sees a filtered view of system activity, not the full stream.<br><br><em>When to use:</em> Systems with high throughput where most decisions are routine and human review of all decisions is infeasible, but where a subset of decisions carry enough risk or novelty to warrant human judgment. The pattern is only effective when the system's anomaly-detection capability is well-calibrated.<br><br><em>Example:</em> Tomašev et al. (2026) discuss selectively inserting human checkpoints based on uncertainty or stakes, rather than at fixed points. Content moderation pipelines use the same structure: automated classifiers handle clear cases; borderline cases route to human reviewers.<br><br><em>Failure mode:</em> Miscalibrated threshold. Too low, and the human faces gate fatigue identical to an always-on gate. Too high, and critical failures are never escalated, giving the human a false impression of smooth operation. The system's judgment about what is anomalous is itself a point of failure that the human cannot easily audit.<br><br><em>Relation to other patterns:</em> Human-in-the-Loop Gate fires at predefined structural points; Approval Escalation fires based on content and context. Human-on-the-Loop leaves detection to the human; Approval Escalation automates detection and pushes findings proactively.</div>
 </details>
 
+## The Meta-Pattern
+
 <div style="margin: 1.5em 0; padding: 1em 1.2em; background: #fef3c7; border: 1px solid #f59e0b; border-radius: 6px;">
 <strong>Meta-pattern: Adaptive Delegation</strong>
 
@@ -639,6 +641,8 @@ The delegation structure itself changes in real-time based on performance signal
 - **System should evolve its own structure:** Adaptive Delegation (meta-pattern)
 - **Most real systems:** Combine several. A Supervisor with Circuit Breakers, using Pub-Sub for coordination, with Checkpoints for reliability, Privilege Attenuation constraining every hop.
 </details>
+
+## When Combinations Go Wrong
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>Delegation anti-patterns and structural traps</strong>
