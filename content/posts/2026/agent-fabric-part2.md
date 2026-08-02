@@ -334,21 +334,17 @@ And each of those agents is already doing the same thing internally. Ask the res
 
 None of that is new. Delegation is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
 
-Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose. That is the whole threshold: **delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records, and the phone crossed it by accident.
+Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose. That is the whole threshold: **delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records, and the phone crossed it by accident. Notice that you cannot easily undo it either, because undoing it means overriding every dismissal you ever made.
 
 So the design question was never how many agents to use. It is what those records add up to, and the rest of this post is about how that accumulates while nobody is looking.
 
 ## The Division of Labour
 
-Go back to your phone, because that pile of agents had to answer one question before anything else: who does what? With three or four of them a single coordinator handing out jobs is plenty. Add a few dozen, let them call each other, and the shape of who-hands-work-to-whom stops being an implementation detail and starts being the politics.
+Four agents on a phone barely need organising; one of them handing out jobs is plenty. The question gets interesting at a few dozen, calling each other, where the shape of who-hands-work-to-whom stops being an implementation detail and starts being the politics.
 
 ### Delegation Archetypes
 
 People have found a great many ways to answer that question, and the individual answers matter less than what they share: however you split the work, the split hardens surprisingly fast into a standing rule about who gets trusted with what. Your calendar agent winning scheduling disputes is one instance of a pattern that shows up at every scale. (Forty-three of the named arrangements live in a companion [field guide](/posts/2026/delegation-patterns-field-guide/), with what each is for and how each fails. Nothing here depends on having read it.)
-
-It is Tuesday. Your calendar agent has held a two-hour block because your research agent said you needed it, and your messages agent is sitting on something from your manager marked urgent. It interrupts. You are annoyed, and you dismiss it.
-
-Nothing dramatic has happened. But something was written down. Next Tuesday the messages agent is a fraction more reluctant, and the calendar agent's block is a fraction more solid, and neither of them consulted you about the adjustment because from the inside it is not an adjustment, it is just what the data says. Do that for three months and the calendar agent has authority over your attention that you never granted and cannot easily revoke, because revoking it means overriding every dismissal you ever made.
 
 Naming the arrangements is the easy part. What a catalogue cannot tell you is what happens when they nest, and nesting is where the authority question sharpens, because each layer decides what the layer below is allowed to attempt. The fetcher your research agent hired can hire further, a tree forms, you never see it, and every node in it is quietly deciding who gets trusted with what. One line from the [field guide](/posts/2026/delegation-patterns-field-guide/) matters here: every extra agent multiplies cost and latency, so budgets push relentlessly toward the shallowest arrangement that works, and that arrangement also happens to have the fewest places for standing to accumulate. Frugality and accountability turn out to be accidental allies.
 
@@ -463,7 +459,9 @@ This has a practical consequence. If governance arrives out of delegation histor
 
 So this is the real cost of delegating. The obvious bill is the one you can measure: every hop multiplies compute, latency, and the chance that intent leaks a little further from what was asked. That bill is why delegation trees stay shallow, why specialists beat generalists on narrow work, and why the shape of a production system is set as much by budget as by design.
 
-The bill that arrives later is authority. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork. It will have preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it. Which raises the question this post has now earned and cannot answer: what kinds of governance are there, which one are you accidentally running, and who exactly enforces it? That is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
+The bill that arrives later is authority. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork. It will have preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it. That is the part worth being uncomfortable about. Nobody has to decide to build an institution for one to end up governing your attention, and the cheapest, most sensible engineering decisions are exactly the ones that build it.
+
+Which leaves the questions this post cannot answer: what kinds of governance are there, which one are you accidentally running, and who enforces it when it fails? That is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
 
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
