@@ -1,11 +1,11 @@
 ---
 title: "The Agent Fabric (Part 2): Delegation, and What It Costs"
-subtitle: "How work gets split among agents, what each hop costs, and how splitting it quietly creates authority"
+subtitle: "How work gets split among agents, and how splitting it quietly creates authority nobody granted"
 date: 2026-07-31
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "governance", "the loom hypothesis"]
-description: "How work gets split inside agent societies: forty-three delegation patterns, the economics that prune them, and the point at which a routing preference hardens into authority nobody designed."
+description: "How splitting work among agents quietly creates authority nobody granted: the four records that turn delegation into governance, and why the cheapest engineering decisions are the ones that build an institution."
 draft: false
 math: false
 ShowToc: true
@@ -183,7 +183,7 @@ wordcount: "~1,900 words (body) · ~2,300 words (notes)"
 
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis, and the path from isolation to interweaving
-- **Part 2: Delegation, and What It Costs** (you are here): delegation archetypes, the economics of delegation trees, and how splitting work turns into authority
+- **Part 2: Delegation, and What It Costs** (you are here): how work gets split among agents, and how splitting it quietly creates authority nobody granted
 - **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
@@ -340,7 +340,7 @@ So the design question was never how many agents to use. It is what those record
 
 ## The Division of Labour
 
-Four agents on a phone barely need organising; one of them handing out jobs is plenty. The question gets interesting at a few dozen, calling each other, where the shape of who-hands-work-to-whom stops being an implementation detail and starts being the politics.
+Four agents on a phone barely need organizing; one of them handing out jobs is plenty. The question gets interesting at a few dozen, calling each other, where the shape of who-hands-work-to-whom stops being an implementation detail and starts being the politics.
 
 ### Delegation Archetypes
 
@@ -348,7 +348,7 @@ People have found a great many ways to answer that question, and the individual 
 
 Naming those patterns is the easy part. What a catalogue cannot tell you is what happens when they stack inside each other. Your research agent hires a fetcher; the fetcher hires something to compress what it found; that one hires a summariser. Three layers deep, and each layer is deciding what the layer below is allowed to attempt. A tree forms and you never see it.
 
-Those trees stay short, and not for reasons of good design. Every extra agent costs money and time, so budgets push toward the fewest layers that work, which also happens to mean the fewest agents whose past record decides what they get trusted with next. That is lucky rather than clever, and it is the last thing about cost that matters here.
+Those trees stay short, though not by good design. Every extra agent costs money and adds delay, so budgets push toward the fewest layers that do the job. The side effect is the interesting part: fewer layers means fewer agents building up a track record, and a track record is the thing that later decides who gets trusted with what. Being cheap accidentally limits how much authority can pile up anywhere.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
@@ -407,7 +407,7 @@ Those trees stay short, and not for reasons of good design. Every extra agent co
 <p style="color: #555;"><a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener" class="red-link">MCP</a> standardizes how AI systems connect to tools and data sources; <a href="https://a2a-protocol.org/" target="_blank" rel="noopener" class="red-link">A2A</a> points toward agent-to-agent interoperability. Neither, by itself, solves the whole problem of an open specialist market. The <a href="https://arxiv.org/abs/2410.11905" target="_blank" rel="noopener" class="red-link">Agora protocol</a> (not to be confused with the Agora governance archetype in [Part 3](/posts/2026/agent-fabric-part3/)) frames this as an Agent Communication Trilemma: versatility, efficiency, and portability pull against one another. The likely future is not one universal protocol, but a stack: tool access, agent identity, delegation, settlement, provenance, and audit. A comprehensive <a href="https://arxiv.org/abs/2504.16736" target="_blank" rel="noopener" class="red-link">survey of agent protocols</a> maps the current landscape.</p>
 </details>
 
-The same pressure decides who sits at each node, since a narrow specialist is cheaper than a generalist and often better at the one thing, which is why the advantage can end up belonging to the best-assembled team of small models rather than to the largest single one (<a href="https://arxiv.org/abs/2406.04692" target="_blank" rel="noopener" class="red-link">Mixture-of-Agents</a>). How far that goes is genuinely unsettled. (Part 1's [resource ecology](/posts/2026/agent-fabric-part1/#the-resource-ecology) is the long version.)
+The same pressure decides who sits at each node, since a narrow specialist is cheaper than a generalist and often better at the one thing, which is why the advantage can end up belonging to the best-assembled team of small models rather than to the largest single one, an approach where several small models are pooled and their answers combined (<a href="https://arxiv.org/abs/2406.04692" target="_blank" rel="noopener" class="red-link">Mixture-of-Agents</a>). How far that goes is genuinely unsettled. (Part 1's [resource ecology](/posts/2026/agent-fabric-part1/#the-resource-ecology) is the long version.)
 
 ## From Architecture to Institution
 
@@ -415,7 +415,7 @@ Here is the same mechanism somewhere it costs real money. A retailer points a ro
 
 After a month it sends complex billing disputes only to the two agents that resolve them fastest, and it has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. Then a new agent joins the fleet, and the question of whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router learned, or wait. No one wrote that rule down. The deployment team can override it, but only by making the service worse, which in practice means they will not.
 
-That is the line worth marking. A delegation pattern becomes an institution when it starts shaping future behaviour: when an evaluator's judgments decide who gets trusted next time, or a benchmark decides which model gets deployed, that is governance whether anyone designed it as such or not.
+That is the line worth marking. A delegation pattern becomes an institution when it starts shaping future behavior: when an evaluator's judgments decide who gets trusted next time, or a benchmark decides which model gets deployed, that is governance whether anyone designed it as such or not.
 
 The distinction is sharper with a concrete case. Your messages agent handing a draft to a tone-checker is delegation, pure and simple. The rule about which of your agents wins when two of them want opposite things, and the question of who is allowed to change that rule, is something else entirely. That is governance, and notice it is not a step inside any particular task; it is a standing constraint on all of them.
 
