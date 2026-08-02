@@ -226,6 +226,20 @@ The one that dominates everything else is drift, which is the slow slide where a
 
 Underneath those sits a question that gets asked far too rarely: who is meant to accumulate advantage here, and who needs protecting from it? Answer that honestly and the field of plausible archetypes narrows fast.
 
+## Who Actually Enforces Any of This
+
+Before going near the archetypes, there is something that undercuts all of them, and it is worth slowing down for. Every one of them is a claim about who decides. But a decision only means anything if it can be made to stick, and no agent can make anything stick on its own.
+
+Ask what actually happens when a judicial agent rules against an executive agent. In a human court, the ruling binds because defiance carries consequences nobody can escape: police, sanction, disgrace, exclusion. Between two agents, the ruling binds for exactly one reason, which is that the runtime chose to honour it. Take away that choice and the judgment is a string of text. That is not a weakness of one archetype. It is true of all twenty-two.
+
+So follow the authority upward and you find it does not stop where the diagram stops. Whoever controls the compute, the API access, and the protocol definitions is setting the terms, whatever the boxes and arrows claim. A federation running entirely on one provider's infrastructure is a federation right up until that provider changes its pricing. A market whose discovery layer belongs to a single platform was never a market; it is a franchise wearing market clothing.
+
+Which means none of what follows is an institution in North's full sense. They are platform-enforced coordination regimes that behave like institutions, with the enforcement quietly subcontracted to whoever owns the substrate. So read the whole catalogue below with that in mind: pick an archetype without naming who enforces it and you have done half a design. Governance design and platform design are the same problem, and the second one is usually decided by somebody else.
+
+One consequence deserves stating plainly, because it is the piece most often missing: a governance system with no appeal turns every routing error into precedent. An agent wrongly downranked has no recourse, the mistake propagates into future decisions, and nothing in the system is built to notice. Contested memory writes, disputed rankings, and actions that caused real harm need a slower path that can revisit them. Without one, errors do not surface. They compound.
+
+## The Twenty-Two Archetypes
+
 Twenty-two archetypes follow, some already running in production and some only plausible given where things are heading. Each card rates one on four things, and the expandable note below explains them properly, but one deserves a warning up front. The cards use the word *legitimacy*, and in political philosophy that word is about the governed consenting to be governed, which agents cannot do. Read it here in a narrower engineering sense: will the participants, and the humans answerable for them, treat this structure's rulings as binding? Open Problems returns to what gets lost in that swap.
 
 
@@ -448,18 +462,6 @@ The better instinct, though, is to stop shopping for a single archetype. Strong 
 Be warned about what this converges on in practice. Doctrine plus Panopticon plus Autocracy, wrapped in logs and approvals and escalation paths, is bureaucracy, and bureaucracy is probably the most common agent-governance pattern that will actually ship. It is not elegant, but it optimizes for the things organizations are held to account for: legibility, auditability, somewhere to send the blame. Its failure mode is equally predictable, which is that process becomes the objective and agents get good at satisfying forms instead of solving problems. In regulated domains you may not get a choice.
 
 Whatever you pick, you are also picking winners, and it is worth being honest about who. An autocracy serves whoever operates the hub, obviously enough. Markets are subtler: they reward reputation, and reputation compounds, so whoever arrived first tends to keep winning. A franchise tilts toward the platform rather than the people building on it, and a colony quietly favors early entrants, whose habits calcify into everyone else's defaults before anyone notices a decision was made. Even meritocracy, the one that sounds fairest, hands real power to whoever gets to write the benchmark. So "which structure is most efficient" is only half a question. The other half is who accumulates the advantage, and at whose expense.
-
-## Who Actually Enforces Any of This
-
-Here is the thing that undercuts everything above, and it is worth slowing down for. Every archetype in this post is a claim about who decides. But a decision only means something if it can be made to stick, and no agent can make anything stick on its own.
-
-Ask what actually happens when a judicial agent rules against an executive agent. In a human court, the ruling binds because defiance carries consequences nobody can escape: police, sanction, disgrace, exclusion. Between two agents, the ruling binds for exactly one reason, which is that the runtime chose to honour it. Take away that choice and the judgment is a string of text. That is not a weakness of one archetype. It is true of all twenty-two.
-
-So follow the authority upward and you find it does not stop where the diagram stops. Whoever controls the compute, the API access, and the protocol definitions is setting the terms, whatever the boxes and arrows claim. A federation running entirely on one provider's infrastructure is a federation right up until that provider changes its pricing. A market whose discovery layer belongs to a single platform was never a market; it is a franchise wearing market clothing.
-
-Which means these are not institutions in North's full sense at all. They are platform-enforced coordination regimes that behave like institutions, with the enforcement quietly subcontracted to whoever owns the substrate. Pick an archetype without naming who enforces it and you have done half a design. Governance design and platform design are the same problem, and the second one is usually decided by somebody else.
-
-One consequence deserves stating plainly, because it is the piece most often missing: a governance system with no appeal turns every routing error into precedent. An agent wrongly downranked has no recourse, the mistake propagates into future decisions, and nothing in the system is built to notice. Contested memory writes, disputed rankings, and actions that caused real harm need a slower path that can revisit them. Without one, errors do not surface. They compound.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Summary: governance archetypes at a glance</summary>
