@@ -634,23 +634,23 @@ Now that the patterns are in view, here are the structural traps that emerge fro
      SCRIPTS: D3.js VISUALIZATION
      ============================================================ -->
 
-      pkt(g, [s, router, input], resultColor, 1500, 2.5);
-      if (tick < 80) timers.push(setTimeout(anim, 2800));
-    }
-    timers.push(setTimeout(anim, 1400));
-    anno(g, p, 'Classify input upfront, send to the right specialist');
-  }
-
-  function drawEscalation(p) {
-    var g = svg.append('g');
-    var cx = p.ox + cellW / 2, ty = p.oy + 60;
-    var models = [
-      {x: cx - 100, y: ty + 70, r: 6, label: 'Tiny', color: '#fca5a5'},
-      {x: cx - 35, y: ty + 45, r: 8, label: 'Small', color: '#ef4444'},
-      {x: cx + 35, y: ty + 25, r: 10, label: 'Medium', color: '#dc2626'},
-      {x: cx + 100, y: ty, r: 13, label: 'Frontier', color: '#7f1d1d'}
-    ];
-    models.forEach(function(m, i) {
+<script>
+(function() {
+  var saved = [];
+  window.addEventListener('beforeprint', function() {
+    saved = [];
+    document.querySelectorAll('details').forEach(function(d) {
+      saved.push(d.open);
+      d.open = true;
+    });
+  });
+  window.addEventListener('afterprint', function() {
+    document.querySelectorAll('details').forEach(function(d, i) {
+      if (i < saved.length) d.open = saved[i];
+    });
+  });
+})();
+</script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
 // ============================================================
