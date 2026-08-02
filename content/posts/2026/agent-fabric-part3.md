@@ -236,7 +236,7 @@ One consequence deserves stating plainly, because it is the piece most often mis
 
 ## Where Authority Comes From
 
-What separates one of these structures from another is where each one thinks authority comes from. Some concentrate it in a hub or a rulebook. Some hand it to whoever performs best and then spend their lives defending the scoreboard. Some derive it from participation, some from verification, some from an obligation owed to a person, and one refuses to locate authority anywhere at all and lets norms accumulate instead. Carry that question through what follows, along with the one from the last section: who would actually make this stick? Some answer it well. Most answer it by quietly assuming somebody else will.
+What separates one of these structures from another is where each thinks authority comes from, and the easiest way through them is to keep that support desk from the opening in mind. It will pass through most of these arrangements without anybody filing a change request. Right now it is the simplest kind: one router decides everything, and if the router is wrong then everyone downstream is wrong with it.
 
 These structures are not a layer bolted on above delegation; they are built out of delegation patterns, which is why a few names appear in both vocabularies. The cards rate each on four axes, explained below.
 
@@ -359,7 +359,7 @@ Figure 1 groups them on exactly that basis, by where the authority sits. And alm
 
 </details>
 
-Notice what all ten have in common: each one puts authority *somewhere*, in a hub or a rulebook or a leaderboard or a platform's terms of service, and the only question is where. You already live under several of these. A school timetable is a rulebook nobody negotiates with. An app store is a platform whose terms you accept by existing. The next two abandon the whole approach and derive authority from an obligation owed to somebody, which is a genuinely different foundation, and the one that matters most to you personally: any agent acting on your behalf is one of these, or it should be.
+Notice what all ten have in common: each puts authority *somewhere*, in a hub or a rulebook or a leaderboard, and the only question is where. Our support desk has already drifted across three of them. It began as a single router deciding everything. Once it started scoring agents it became a leaderboard, and once the retailer wrote hard rules about refunds above a threshold it acquired a constitution the router itself cannot override. Nobody announced any of these transitions. The next two archetypes abandon the whole approach, deriving authority from an obligation owed to somebody, which is the foundation that matters most to you personally: any agent acting on your behalf is one of these, or it should be.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600; color: #334155;">Two that derive authority from an obligation instead of from power, including the one your personal agent already is</summary>
@@ -381,7 +381,7 @@ Notice what all ten have in common: each one puts authority *somewhere*, in a hu
 
 </details>
 
-Then the harder question: what happens when nobody is in charge on purpose? You know the answer from the group chat that cannot pick a restaurant. Refusing to locate authority sounds more attractive, and it is, until you count the bill. Deliberation eats time a hub would never have spent. Chains of delegated trust grow long enough that nobody can trace where a decision came from. And norms that emerged from nothing in particular can drift toward anything at all, with not one agent in the system positioned to notice.
+Then the harder question: what happens when nobody is in charge on purpose? You know the answer from the group chat that cannot pick a restaurant. Imagine the support desk pushed that way, with no router at all and agents simply claiming tickets they think they can handle. It would adapt faster than any central dispatcher could. It would also become impossible to say why a particular customer waited nine days, because no one decided that they should. Deliberation eats time a hub would never spend, chains of delegated trust grow too long to trace, and norms that came from nowhere in particular can drift toward anything at all with nobody positioned to notice.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600; color: #334155;">Four that refuse to put anyone in charge, and what that costs them</summary>
@@ -413,7 +413,7 @@ Then the harder question: what happens when nobody is in charge on purpose? You 
 
 </details>
 
-Which leaves the most deliberate group of all. Every one of these was built backwards from a failure somebody had already suffered: power that went unchecked, a structure that went stale, incentives that got gamed, an intrusion nobody caught. They are less elegant than the others and considerably more likely to save you, for the same reason a building code is less elegant than a blueprint. These are the archetypes designed by people who had already been burned.
+Which leaves the most deliberate group of all, and this is where the support desk would end up after its first serious incident. Every one of these was built backwards from a failure somebody had already suffered: power that went unchecked, a structure that went stale, incentives that got gamed, an intrusion nobody caught. They are less elegant than the others and considerably more likely to save you, for the same reason a building code is less elegant than a blueprint. These are the archetypes designed by people who had already been burned.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600; color: #334155;">Six designed by people who had already been burned, each aimed at one specific failure</summary>
@@ -600,7 +600,7 @@ The other set cannot be engineered away at all, because each needs somebody to m
 
 There is one question none of this answers, which is what becomes of the person at the top of the chain. As delegation deepens and these structures pile up, checking the work yourself stops being possible, not because you lack the skill but because there is too much of it. What you are left asking changes shape entirely. Not "did this agent get it right," which you can no longer verify, but "is this thing producing outcomes I would stand behind," which is a question about an institution rather than an answer.
 
-Which brings this back to where it started, with a router that acquired a policy nobody wrote. Nothing in that story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. That is the uncomfortable part: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else. Designing the institution is the work.
+Which brings this back to the support desk, which by now has been an autocracy, a leaderboard, and a constitution, and will be a tribunal the first time somebody demands to know why their complaint was ignored. Nothing in that story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. That is the uncomfortable part: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else. Designing the institution is the work.
 
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
