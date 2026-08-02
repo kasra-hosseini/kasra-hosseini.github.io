@@ -174,6 +174,10 @@ wordcount: "~4,900 words (body) · ~9,900 words (notes + archetypes)"
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
 
+A support team wires up a router that sends billing questions to one agent and technical questions to another. Nothing remotely political about it. Then somebody adds logging, because logging is free and obviously sensible, and the router starts noticing which agents resolve tickets and which ones get escalated. Within a month it is quietly sending the hard billing disputes to two particular agents and routing nothing important to a third.
+
+Now a new agent joins. Who decides whether it gets live tickets? Nobody wrote a rule for that, and yet there is an answer: it has to clear the performance bar the router learned on its own. That bar was never in a spec. It emerged, it now governs who gets what work, and the team that built the thing would struggle to override it without making service worse. Somewhere in that month, a piece of software acquired a policy.
+
 *Part of The Agent Fabric series. [Part 2](/posts/2026/agent-fabric-part2/) ended on an uncomfortable finding: any system that remembers who did what, how well, and at what cost has already begun to govern, whether anyone designed it to or not. This post is about what to do with that. The body is the argument; the expandable sections are reference material you can ignore entirely without losing the thread.*
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
@@ -186,17 +190,15 @@ wordcount: "~4,900 words (body) · ~9,900 words (notes + archetypes)"
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 </div>
 
-This series argues that governance turns up in agent systems whether anyone invited it or not, and it is worth being straight about the status of that claim: it is a prediction rather than a measurement, well motivated by decades of evidence about interacting agents under pressure and not yet demonstrated at scale. Grant it anyway, because the interesting question is not whether you get governance but which kind.
+That is the pattern this series keeps finding: governance turns up in agent systems whether anyone invited it or not. Worth being straight about the status of the claim, which is a prediction rather than a measurement, well motivated by decades of evidence about interacting agents under pressure and not yet demonstrated at scale. Grant it anyway, because it makes the interesting question not whether you get governance but which kind, and this post is a field guide to the answers.
 
 One word does heavy lifting throughout. A **society** here is not just several agents working together; it is a group that has begun accumulating things across tasks, sharing context, routing work based on what happened last time, letting what one learns reach the others. A pipeline that forgets everything between runs never becomes one. A group that remembers does, and remembering is what governance grows out of.
 
 ## What Governance Actually Is
 
-Start with something small enough to picture. A support team wires up a router that sends billing questions to one agent and technical questions to another. Nothing remotely political about it. Then somebody adds logging, because logging is free and obviously sensible, and the router starts noticing which agents resolve tickets and which ones get escalated. Within a month it is quietly sending the hard billing disputes to two particular agents and routing nothing important to a third.
 
-Now a new agent joins. Who decides whether it gets live tickets? Nobody wrote a rule for that, and yet there is an answer: it has to clear the performance bar the router learned on its own. That bar was never in a spec. It emerged, it now governs who gets what work, and the team that built the thing would struggle to override it without making service worse.
 
-That is the whole transition in miniature, and the line falls in a precise place. A router that forwards traffic is playing the game; a router that keeps score and decides who may touch what is writing the rules the game has to follow. The economist <a href="https://en.wikipedia.org/wiki/Douglass_North" target="_blank" rel="noopener" class="red-link">Douglass North</a> drew that distinction for human institutions: they are the rules of the game, not the players and not the moves. Persistence alone is not enough, since a cache persists and governs nothing. What counts is standing authority over how resources get handed out, authority outliving any single task.
+The router is the whole transition in miniature, and the line it crossed falls in a precise place. A router that forwards traffic is playing the game; a router that keeps score and decides who may touch what is writing the rules the game has to follow. The economist <a href="https://en.wikipedia.org/wiki/Douglass_North" target="_blank" rel="noopener" class="red-link">Douglass North</a> drew that distinction for human institutions: they are the rules of the game, not the players and not the moves. Persistence alone is not enough, since a cache persists and governs nothing. What counts is standing authority over how resources get handed out, authority outliving any single task.
 
 North's account rests on one more thing, though, which is enforcement, and that part does not transfer to agents at all. It matters enough that a later section is about nothing else.
 
@@ -222,9 +224,7 @@ Before going near the archetypes, there is something that undercuts all of them,
 
 Ask what actually happens when a judicial agent rules against an executive agent. In a human court, the ruling binds because defiance carries consequences nobody can escape: police, sanction, disgrace, exclusion. Between two agents, the ruling binds for exactly one reason, which is that the runtime chose to honour it. Take away that choice and the judgment is a string of text. That is not a weakness of one archetype. It is true of all twenty-two.
 
-So follow the authority upward and you find it does not stop where the diagram stops. Whoever controls the compute, the API access, and the protocol definitions is setting the terms, whatever the boxes and arrows claim. A federation running entirely on one provider's infrastructure is a federation right up until that provider changes its pricing. A market whose discovery layer belongs to a single platform was never a market; it is a franchise wearing market clothing.
-
-Which means none of what follows is an institution in North's full sense. They are platform-enforced coordination regimes that behave like institutions, with the enforcement quietly subcontracted to whoever owns the substrate. So hold that against every structure described below: pick one without naming who enforces it and you have done half a design. Governance design and platform design are the same problem, and the second one is usually decided by somebody else.
+So follow the authority upward and it does not stop where the diagram stops. Whoever controls the compute, the API access, and the protocol definitions is setting the real terms, whatever the boxes and arrows claim. A federation running on one provider's infrastructure is a federation right up until that provider changes its pricing; a market whose discovery layer belongs to a single platform was never a market, only a franchise in market clothing. Which means none of the structures below is an institution in North's full sense. They behave like institutions with the enforcement quietly subcontracted to whoever owns the substrate, so pick one without naming its enforcer and you have done half a design.
 
 One consequence deserves stating plainly, because it is the piece most often missing: a governance system with no appeal turns every routing error into precedent. An agent wrongly downranked has no recourse, the mistake propagates into future decisions, and nothing in the system is built to notice. Contested memory writes, disputed rankings, and actions that caused real harm need a slower path that can revisit them. Without one, errors do not surface. They compound.
 
@@ -503,13 +503,7 @@ Whatever you pick, you are also picking winners. An autocracy serves whoever run
 - **Distributed threat detection:** Immune System (layered innate + adaptive response)
 </details>
 
-## Societies in the Wild
-
-If all of that sounds abstract, it stops being abstract the moment you look at something real. Take a coding assistant and a warehouse robot fleet. Neither one thinks of itself as having a constitution. Both have made governance choices anyway, and neither filed any paperwork about it: the coding assistant decided which model gets trusted with what, and the robot fleet decided that safety rules outrank throughput and that a central dispatcher outranks both.
-
-That is the useful thing about having names for these structures. Not prediction, and not a scheme for sorting systems into bins, but the ability to look at something already running and say what it has quietly become. The tables below do that across three horizons, from systems operating now to ones that are frankly speculative, and they are worth a browse rather than a read.
-
-The three tables that used to sit here, working through concrete deployments across today, the next few years, and the frankly speculative, now live in the [field guide](/posts/2026/delegation-patterns-field-guide/#societies-in-the-wild) alongside the delegation catalogue, since they are for browsing rather than reading.
+None of this is abstract for long. A coding assistant and a warehouse robot fleet both think of themselves as tools rather than constitutions, and both have made governance choices anyway: the assistant decided which model gets trusted with what, the fleet decided that safety rules outrank throughput and a central dispatcher outranks both. Neither filed paperwork. That is what having names for these structures buys you, the ability to look at something already running and say what it has quietly become. (Worked examples across three horizons live in the [field guide](/posts/2026/delegation-patterns-field-guide/#societies-in-the-wild).)
 
 ## Adversarial Dynamics
 
@@ -560,7 +554,7 @@ The boundary events described in [Part 1](/posts/2026/agent-fabric-part1/) (merg
 
 None of these archetypes is a prescription. They are a vocabulary, and the whole point of having one is to notice a design choice while it is still a choice, before it hardens into infrastructure nobody can move. Turned on your own system, it asks two things. Is your delegation the simplest thing that works, which you can test by asking whether removing an agent would actually make the output worse? And has governance already shown up uninvited, which it has if you keep reputation, gate access, or route on past performance, in which case your only remaining choice is whether you can name what it is doing.
 
-And every one of those choices is a trade that resists cleverness. Speed comes out of the same budget as resistance to drift, buy-in out of the same budget as decisiveness, and the more flexible a structure is the less legible it turns out to be afterwards. Nothing reaches the corner where it gets both. A real system settles somewhere along each line, and where it settles says a great deal about what its builders were afraid of.
+And every one of those choices is a trade that resists cleverness. Speed and resistance to drift come out of the same budget. So do buy-in and decisiveness. And flexibility, it turns out, is paid for in legibility later, when somebody needs to reconstruct what happened. Nothing reaches the corner where it gets both. A real system settles somewhere along each line, and where it settles says a great deal about what its builders were afraid of.
 
 The encouraging part is that this no longer has to live in prose. Agent frameworks already treat handoffs, guardrails, tracing, and tool permissions as first-class things you configure, which is where governance becomes real rather than aspirational. If it does not show up in the runtime, it is not governance. It is a document.
 
