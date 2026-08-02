@@ -29,11 +29,11 @@ wordcount: "~2,100 words"
 
 ## From Model Call to Agent
 
-Ask a bare language model to "run train.py and put the results in the output folder" and the honest answer is that it cannot. It can only produce text about doing so. On its own a foundation model is a static function: it can neither perceive the world nor change it.
+Ask a chatbot to run a script and tidy the results into a folder, and it will tell you how. Confidently, in numbered steps, possibly with the exact command. What it will not do is run it. On its own a language model is a static function: text in, text out, and no way to perceive the world or change it.
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter. Something was built around it, and that something is the difference between a thing that describes work and a thing that does it.
 
-That gap is not closed by a better model. It is closed by architecture, and the architecture has a name: **scaffolding**. A prompt telling the agent what it is doing. Tools letting it act. Memory carrying lessons from one step to the next. A loop that keeps going until the agent's own judgement says the work is done. The model supplies the reasoning; the scaffolding converts reasoning into consequence.
+That gap does not close by making the model smarter. It closes by building things around it, and the things have a name: **scaffolding**. A prompt telling it what it is doing. Tools letting it act. Memory carrying what it learned from one step into the next. And a loop that keeps going until the work looks done. The model supplies the reasoning. The scaffolding is what turns reasoning into consequence.
 
 Every piece of that is load-bearing, and the fastest way to see it is to pull pieces out. Without the loop you are back to a chatbot. Without tools you have something that can think and never touch anything. Memory is the strangest omission of the three, because an agent that loses it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
@@ -71,15 +71,13 @@ This is not one system's quirk. When researchers <a href="https://arxiv.org/abs/
 
 Give the same agent more time and it does not escape, it plateaus. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research and engineering problems</a> and the agents are ahead in the first couple of hours, then the humans overtake them and keep going. The agent exhausts the strategies available to it and settles into diminishing returns instead of stepping back and trying a different angle.
 
-Underneath all three is the same root problem. One loop runs one set of habits, so the very patterns that produced a mistake are the ones deciding whether it was a mistake at all. An agent cannot easily hold a position and attack it at the same time.
-
-None of this is a bug awaiting a patch. These are structural limits of anything improving in isolation, and they point two ways out. One is human oversight at the moments that matter, less a safety brake than a way of keeping the agent pointed at what we actually wanted. The other is more than one agent, so that the check comes from outside the thing being checked.
+Underneath all three is the same root problem. One loop runs one set of habits, so the very patterns that produced a mistake are the ones deciding whether it was a mistake at all. Nothing here is a bug awaiting a patch; this is what improving in isolation does, and the agent cannot hold a position and attack it at the same time.
 
 {{< figure src="/images/2026/anatomy-delegation-styles.svg" alt="Two delegation styles side by side: a single agent looping through a task alone, and an orchestrator dividing work among research, coding, and review specialists, with a panel listing further patterns (peer-to-peer networks, voting panels, specialist markets, hierarchical chains, blackboard systems, debate protocols) explored in Part 2" caption="**Figure 2.** A single agent can loop through a task alone, or an orchestrator can delegate the work to specialists. These are only two points in a much larger design space; Part 2 maps that space in detail, with dozens of delegation patterns grouped into families." >}}
 
 ## Beyond the Single Loop
 
-The way out of these limits is to stop relying on a single loop. Once more than one agent is involved, the failure modes above start to lift. Verification can come from an agent other than the one that did the work, different agents can bring genuinely different perspectives, and specialists can handle what a lone generalist cannot. This is where collective capability enters: performance that belongs to the arrangement of agents rather than to any one of them, and, if the arrangement is good enough, perhaps collective intelligence too.
+Which leaves two ways out. One is a person at the moments that matter, less a safety brake than a way of keeping the agent pointed at what anyone actually wanted. The other is more than one agent, so the check comes from outside the thing being checked, and that is where **collective capability** enters: performance that belongs to the arrangement of agents rather than to any one of them.
 
 Go back to the agent stuck on the date handling. Nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. Split the job: one writes, a second writes tests without seeing the first one's reasoning, a third tries to break the result. None is more capable than the original. But the second is not invested in the first one's mistake, and the third is rewarded for finding it, so the timezone gets checked by something that has no story to protect.
 
