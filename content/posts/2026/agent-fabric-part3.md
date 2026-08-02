@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~4,800 words"
+wordcount: "~4,900 words"
 ---
 
 <style>
@@ -342,7 +342,11 @@ It also means that making one agent behave well is not the same problem as makin
 
 ## What Is Still Unsolved
 
-A fair amount of this is unsolved, and the hardest part is not technical. Go back to the customer whose refund was refused. Suppose she does get somebody to look. Which agent owes her an explanation? By then the one that scored her has been copied, retrained, and copied again, and each copy carries the record without the history. No login system ever built answers that, because the question is not who signed in. It is which thing is continuous with the one that decided.
+A fair amount of this is unsolved, and the hardest part is not technical. Go back to the customer whose refund was refused. Suppose she pushes, and somebody agrees to look. Which agent owes her an explanation?
+
+The one that scored her has been retrained twice since, on data that now includes her case. There are four copies of it running, one of them rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. Ask which one decided and there is no answer that survives contact with how these systems actually work, because the thing that decided was a configuration that existed for six weeks and no longer exists anywhere.
+
+Every mechanism we have for holding somebody accountable assumes the somebody stays put. People can be found later. Companies can be sued years after the fact. An agent can be copied, merged, or rolled back to last Tuesday before lunch, and no login system ever built answers the question, because the question is not who signed in. It is which thing is continuous with the one that made the decision. Nobody has a good answer, and the same gap breaks record-keeping, since an agent working across several societies leaves a trail that snaps at every boundary it crosses.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
