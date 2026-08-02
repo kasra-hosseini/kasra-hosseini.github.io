@@ -336,9 +336,11 @@ None of that is new. Delegation is already everywhere. What is not yet everywher
 
 Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose.
 
-Look at what the phone is now keeping. Who did what: the messages agent asked to interrupt. How well it went: you dismissed it. What it cost: eleven minutes of a protected block. And under whose authority: nobody's, which is exactly the problem. Those four records are the whole threshold. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** The phone crossed that line by accident, and you cannot easily walk it back, because walking it back means overriding every dismissal you ever made.
+Look at what the phone is now keeping. Who did what: the messages agent asked to interrupt. How well it went: you dismissed it. What it cost: eleven minutes of a protected block. And under whose authority: nobody's, which is exactly the problem.
 
-So the design question was never how many agents to use. It is what those records add up to, and the rest of this post is about how that accumulates while nobody is looking.
+Those four records are the whole threshold. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** The phone crossed that line by accident, and it cannot easily be walked back, since walking it back means overriding every dismissal you ever made. So the real question was never how many agents to use. It is what those records add up to.
+
+The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
 
