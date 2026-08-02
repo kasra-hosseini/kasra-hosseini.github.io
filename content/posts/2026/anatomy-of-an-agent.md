@@ -37,13 +37,13 @@ That last one deserves suspicion, because an agent judging its own work is the o
 
 ## The Loop
 
-The loop itself is simple. Perceive, reason, act, observe, go round again. What makes it powerful is not the shape but what the shape does to time: the agent's own output becomes its input next time round. When that coding agent runs the tests, the failures it reads are the ones its own last edit produced. It is not solving a problem, it is negotiating with a situation it keeps changing. That feedback is the whole trick, and it has been wrapped a hundred ways since <a href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">the plainest version</a> was written down, but the cycle underneath never changes.
+The loop itself is simple. Perceive, reason, act, observe, go round again. What makes it powerful is not the shape but what the shape does to time: the agent's own output becomes its input next time round. When that coding agent runs the tests, the failures it reads are the ones its own last edit produced. It is not solving a problem so much as negotiating with a situation it keeps changing, and that feedback is the whole trick, however many ways it has been <a href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">dressed up</a> since.
 
 ## When the Loop Improves Itself
 
 An agent fails at a task, writes itself a note about why, and reads that note the next time it faces something similar. Not a memory of the conversation, a lesson. Say it spent forty minutes convinced a test was broken when the database simply was not running, and the note it keeps is: check the database before believing a test. Fifty tasks later it is working from a file of those, and the agent that started has effectively been replaced. <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">This has been built</a>, and the procedures that keep working get saved as <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">tools the agent can call by name</a>.
 
-That is **recursive self-improvement**: not repeating a task, but doing it on top of the last attempt. An agent that emails a news digest every morning runs its loop faithfully for years and is no more capable on the last day than the first, because nothing it produces comes back to it. Once output does come back, capability compounds. So does everything else, which is where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
+Which is where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
 
 ## Where Single-Agent Recursion Breaks
 
