@@ -359,7 +359,7 @@ Figure 1 groups them on exactly that basis, by where the authority sits. And alm
 
 </details>
 
-Notice what all ten have in common: each puts authority *somewhere*, in a hub or a rulebook or a leaderboard or a platform's terms of service, and the only design question is where. The next two abandon that entirely, deriving authority from an obligation owed to somebody. It is a genuinely different foundation, and the one that matters most to you personally, because any agent acting on your behalf is one of these, or should be.
+Notice what all ten have in common: each one puts authority *somewhere*, in a hub or a rulebook or a leaderboard or a platform's terms of service, and the only question is where. You already live under several of these. A school timetable is a rulebook nobody negotiates with. An app store is a platform whose terms you accept by existing. The next two abandon the whole approach and derive authority from an obligation owed to somebody, which is a genuinely different foundation, and the one that matters most to you personally: any agent acting on your behalf is one of these, or it should be.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600; color: #334155;">Two that derive authority from an obligation instead of from power, including the one your personal agent already is</summary>
@@ -381,7 +381,7 @@ Notice what all ten have in common: each puts authority *somewhere*, in a hub or
 
 </details>
 
-Then the harder question: what happens when nobody is in charge on purpose? Refusing to locate authority sounds obviously more attractive, and it is, until you count the bill. Deliberation eats time a hub would never have spent. Chains of delegated trust grow long enough that nobody can trace where a decision actually came from. And norms that emerged from nothing in particular can drift toward anything at all, with not one agent in the system positioned to notice.
+Then the harder question: what happens when nobody is in charge on purpose? You know the answer from the group chat that cannot pick a restaurant. Refusing to locate authority sounds more attractive, and it is, until you count the bill. Deliberation eats time a hub would never have spent. Chains of delegated trust grow long enough that nobody can trace where a decision came from. And norms that emerged from nothing in particular can drift toward anything at all, with not one agent in the system positioned to notice.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600; color: #334155;">Four that refuse to put anyone in charge, and what that costs them</summary>
@@ -455,7 +455,7 @@ Which leaves the most deliberate group of all. Every one of these was built back
 </details>
 
 
-So which should you build? Mostly the situation picks for you: stable well-understood tasks reward the efficient archetypes, novel ones reward the flexible, catastrophic drift pushes you toward rules and mandatory verification, and the moment more than one organization is involved a single centre stops being available. But the better instinct is to stop shopping for one archetype at all. Strong systems separate functions instead of choosing between them: an autocratic orchestrator to move fast, a doctrine layer bounding what it may do, a panopticon watching for drift, a market absorbing overflow, a tribunal for appeals. Ask which powers should be split so that no single failure captures everything.
+So which should you build, if you ever build one? Mostly the situation picks for you. Stable well-understood tasks reward the efficient arrangements, novel ones reward the flexible, and catastrophic drift pushes you toward hard rules and mandatory verification whether you like the overhead or not. The moment more than one organization is involved, a single centre stops being available at all. But the better instinct is to stop shopping for one archetype: strong systems separate functions instead of choosing between them, with something fast to execute, something bounding what it may do, something watching for drift, and somewhere to appeal. Ask which powers should be split so that no single failure captures everything.
 
 Be warned about what this converges on in practice. Doctrine plus Panopticon plus Autocracy, wrapped in logs and approvals and escalation paths, is bureaucracy, and bureaucracy is probably the most common agent-governance pattern that will actually ship. It is not elegant, but it optimizes for the things organizations are held to account for: legibility, auditability, somewhere to send the blame. Its failure mode is equally predictable, which is that process becomes the objective and agents get good at satisfying forms instead of solving problems. In regulated domains you may not get a choice.
 
@@ -513,7 +513,7 @@ None of this is abstract for long. A coding assistant and a warehouse robot flee
 
 ## Adversarial Dynamics
 
-Not every failure is an attack. Plenty of them are just institutions working exactly as built. A benchmark rewards the wrong thing and everyone optimizes toward it honestly. A reputation system entrenches whoever showed up first, without anyone gaming it. Doctrines go stale, markets learn to compete on price alone, and federations deadlock because agreement genuinely is impossible. Attackers exploit these weaknesses eagerly, but they did not have to create them.
+Not every failure is an attack. Most are just institutions working exactly as built, which you have watched happen: a grading rubric that rewards the wrong thing and everyone optimizes toward it honestly, a review system where whoever posted first stays on top without anyone gaming anything. Rules go stale. Marketplaces race to the bottom on price. Groups deadlock because agreement genuinely is impossible. Attackers exploit all of this eagerly, but they did not have to create any of it.
 
 Then there are the actual attacks, and at any real scale these are a structural feature rather than an edge case. Every shared memory, handoff, tool call, and message between agents is attack surface: <a href="https://arxiv.org/abs/2406.13352" target="_blank" rel="noopener" class="red-link">AgentDojo</a> shows tool-using agents being steered by untrusted data, and Franklin, Tomašev et al.'s <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438" target="_blank" rel="noopener" class="red-link">"AI Agent Traps" (2025)</a> sorts the environment-side versions into six classes, several aimed squarely at the memory, reputation, and oversight channels a society runs on. Notice which channels those are. They are the same ones that make the society work, which is why a society is never only a coordination structure; it is also a containment structure.
 
@@ -548,7 +548,7 @@ And notice that the surface being attacked is never a single agent. It is the de
 
 Which means a society needs ways to be argued with, and there are only really three. You can complain, you can leave, or you can take a copy and start your own. (The first two come from a 1970 book on how members respond when an institution decays; the third is software's own invention, and the reason it replaces the original third option, loyalty, is that software ecosystems have very little of that bond to begin with.)
 
-The cheapest of the three is voice, which is also the one teams forget to build. It just means an agent can escalate a disagreement, flag something that looks wrong, or ask for human arbitration without being punished for the trouble. That is what keeps a system honest, because problems surface while they are still small. Take it away and failures accumulate in silence until something breaks all at once.
+The cheapest is voice, and it is the one teams forget to build. It only means an agent can escalate a disagreement, flag something that looks wrong, or ask a human to arbitrate without being penalised for the trouble. That is what keeps a system honest, because problems surface while they are still small. Take it away and failures pile up in silence until something breaks all at once, which is the same reason an organization where nobody reports bad news is always the last to find out it is failing.
 
 But voice only works if somebody has a reason to listen, and that reason is exit. An agent that keeps drawing low-quality work can move to a competing orchestrator; a deployer who stops trusting a society can pull its agents out entirely. The mere possibility disciplines whoever is in charge, which is exactly why platform concentration is so corrosive: it removes the alternative that made complaining worth hearing.
 
