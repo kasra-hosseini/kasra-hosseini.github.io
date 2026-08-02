@@ -299,6 +299,11 @@ The distinctions between archetypes are thin at the boundary but produce differe
 
 Figure 1 groups them on exactly that basis, by where the authority sits. And almost no real deployment picks one and stops there; the interesting systems borrow from several at once, which is why the failure modes matter far more than the labels do.
 
+<details style="margin: 1.2em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">Show all twenty-two archetypes (reference; the argument continues below)</summary>
+
+<p style="font-size: 0.9em; color: #64748b; margin: 0.6em 0 0.4em 0;">Grouped by where each one locates authority. Each card covers what it is, where you see it today, how it fails, and what it pairs with.</p>
+
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600; color: #334155;">The ten structures almost everyone builds first, and where each one concentrates the risk</summary>
 
@@ -451,6 +456,8 @@ Which leaves the most deliberate group of all, and this is where the support des
 </details>
 
 </div>
+
+</details>
 
 </details>
 
