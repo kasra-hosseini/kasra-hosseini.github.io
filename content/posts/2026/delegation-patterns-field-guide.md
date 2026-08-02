@@ -281,9 +281,6 @@ Any pattern can be deliberately designed or can emerge from agent interaction. T
 **Adaptive Delegation** (meta-pattern): the delegation structure itself changes based on performance signals. Every other pattern can be a source or target state in an adaptive transition.
 </details>
 
-
-
-
 <div class="gov-list">
 
 </div>
@@ -604,9 +601,7 @@ The delegation structure itself changes in real-time based on performance signal
 <div class="gov-body">A meta-pattern in which the delegation structure changes in real-time based on performance signals, without requiring human reconfiguration. Routing shifts as agents demonstrate competence. Agents are promoted to harder tasks or demoted when performance drops. New specialist slots are created when the system detects unserved query types. The system transitions between delegation patterns, from Escalation to Router, from Supervisor to Market, without human intervention. The adaptation mechanism operates on the architecture, not on individual task plans.<br><br><em>When to use:</em> Long-running systems where the task distribution is non-stationary and where no fixed delegation structure will remain optimal over time. Requires sufficient volume of performance signal to distinguish genuine improvement from noise, and a stable enough objective to define what "better" means across structure changes.<br><br><em>Example:</em> DSPy optimizers modify prompt and routing configurations based on downstream metrics, instantiating this pattern at the prompt level. <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> explores similar ideas at the agent orchestration level. Part 1 of this series describes the <a href="/posts/2026/agent-fabric-part1/#the-adaptive-fabric">Adaptive Fabric</a> as the mechanism that makes a society self-organizing rather than statically configured.<br><br><em>Failure mode:</em> Oscillation: the system switches patterns without settling, thrashing between structures as noisy signals flip the adaptation criterion. Premature optimization: a structure is locked in before enough data exists to justify it. The architecture-to-institution trap: the adaptation mechanism itself becomes a governance structure, with its own authority, its own failure modes, and its own need for oversight, whether or not any of that was intended (see "From architecture to institution" above).<br><br><em>Relation to other patterns:</em> Orchestrator re-plans individual tasks dynamically within a fixed structure; Adaptive Delegation changes the structure itself across tasks over time. Every other pattern in this taxonomy can be a target or a source state in an Adaptive Delegation transition. This is the delegation-level manifestation of Part 1's five adaptation surfaces (data, model, environment, coordination, interface).</div>
 </details>
 
-
 </div>
-
 
 <details style="margin: 1em 0; padding: 0.8em 1em; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600;">Quick guide: which delegation pattern fits your task?</summary>
