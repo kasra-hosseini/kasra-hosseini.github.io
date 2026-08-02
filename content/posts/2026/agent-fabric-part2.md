@@ -340,11 +340,11 @@ So the design question was never how many agents to use. It is what those record
 
 ## The Division of Labour
 
-Four agents on a phone barely need organizing; one of them handing out jobs is plenty. It gets interesting at a few dozen, calling each other, where the shape of who-hands-work-to-whom stops being an implementation detail and starts being the politics. People have found a great many ways to arrange that, and the individual answers matter less than what they share: however you split the work, the split hardens fast into a standing rule about who gets trusted with what. (Forty-three of the named arrangements live in a companion [field guide](/posts/2026/delegation-patterns-field-guide/), with what each is for and how each fails. Nothing here depends on having read it.)
+Four agents on a phone barely need organizing; one of them handing out jobs is plenty. It gets interesting at a few dozen, calling each other, where the shape of who-hands-work-to-whom stops being an implementation detail and starts being the politics. However you split the work, the split hardens fast into a standing rule about who gets trusted with what.
 
 ### Delegation Archetypes
 
-What a catalogue cannot tell you is what happens when those arrangements stack inside each other. Your research agent hires a fetcher; the fetcher hires something to compress what it found; that one hires a summarizer. Three layers deep, and each layer is deciding what the layer below is allowed to attempt. A tree forms and you never see it. It will be a short tree, because each extra layer costs money and time, and short is the one piece of luck in this whole story: the fewer agents there are, the fewer of them build up a record that starts deciding who gets the real work.
+What a catalogue cannot tell you is what happens when those arrangements stack inside each other. Your research agent hires a fetcher; the fetcher hires something to compress what it found; that one hires a summarizer. Three layers deep, and each layer is deciding what the layer below is allowed to attempt. A tree forms and you never see it. It will be a short tree, because each extra layer costs money and time, and short is the one piece of luck in this whole story: the fewer agents there are, the fewer of them build up a record that starts deciding who gets the real work. (Forty-three of the named arrangements live in a companion [field guide](/posts/2026/delegation-patterns-field-guide/), with what each is for and how each fails. Nothing here depends on having read it.)
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
