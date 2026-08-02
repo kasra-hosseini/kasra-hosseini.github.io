@@ -243,9 +243,7 @@ One consequence deserves stating plainly, because it is the piece most often mis
 
 ## Where Authority Comes From
 
-What separates one of these arrangements from another is simply where each thinks authority comes from, and the support desk from the opening will pass through several of them without anybody filing a change request.
-
-Start where it started: one router deciding everything, which is an **Autocracy**, fast for exactly the reason it is dangerous, since if the router is wrong then everyone downstream is wrong with it. At this stage her refund request would have gone to whichever agent handled returns, and been approved or refused on its merits, and that would have been the end of it.
+What separates these arrangements is where each one thinks authority comes from, and the desk passed through four of them without anybody filing a change request. Start where it started: one router deciding everything, which is an **Autocracy**, fast for exactly the reason it is dangerous, since if the router is wrong then everyone downstream is wrong with it. At this stage her refund request would have gone to whichever agent handled returns, been approved or refused on its merits, and that would have been the end of it.
 
 Then watch the first change happen. Somebody turns on logging. For a few weeks nothing looks different, and then the router starts sending the hard billing disputes to the two agents with the best numbers. That is the whole transition, and it is worth being clear about what changed. Before, the router decided by category, so every agent got the tickets of its type. Now it decides by record, so a past determines a future. The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks. The desk has become a **Meritocracy**, and whoever wrote the metric now has more say over that agent's working life than the team that deployed it. Her request has not been affected yet. But the machinery that will decide it now runs on stored records rather than stated rules, and nobody has noticed that this is a different kind of thing.
 
