@@ -239,7 +239,7 @@ Play the pricing-page problem out on the desk. The retailer's rule says refunds 
 
 Generalize that and something uncomfortable follows. If enforcement always lives one layer below your design, then none of these arrangements is quite an institution in the usual sense. They behave like institutions while the actual enforcing is quietly subcontracted to whoever owns the machines. A market whose discovery layer belongs to a single platform was never really a market, only a franchise wearing market clothing. Which means choosing a governance structure without naming who enforces it is half a design, and the half you skipped gets decided by somebody who has never heard of your project.
 
-One consequence deserves stating plainly, because it is the piece most often missing: a governance system with no appeal turns every routing error into precedent. An agent wrongly downranked has no recourse, the mistake propagates into future decisions, and nothing in the system is built to notice. Contested memory writes, disputed rankings, and actions that caused real harm need a slower path that can revisit them. Without one, errors do not surface. They compound.
+One consequence deserves stating plainly, because it is the piece most often missing: in a system with no way to appeal, every mistake becomes the rule. An agent wrongly downranked has no recourse, the mistake propagates into future decisions, and nothing in the system is built to notice. Contested memory writes, disputed rankings, and actions that caused real harm need a slower path that can revisit them. Without one, errors do not surface. They compound.
 
 ## Where Authority Comes From
 
