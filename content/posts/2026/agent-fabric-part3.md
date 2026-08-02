@@ -331,11 +331,11 @@ This framework shares territory with several concurrent research programmes and 
 
 This framework weakens if agent systems remain short-lived workflows with no persistent memory, if protocol fragmentation prevents cross-agent coordination, or if frontier inference becomes cheap enough to make specialization irrelevant. In those worlds, delegation still matters, but governance remains an internal engineering problem.
 
-If it holds, it is uncomfortable in a different way depending on where you sit. If you build these things, the lesson is that nobody on that desk's team did anything wrong and the desk still ended up governed by a metric nobody chose, so governance is not a feature you schedule for later; it arrives on its own schedule.
+If it holds, it is uncomfortable in a specific way, and not only for the people who build these things. Nobody on that desk's team did anything wrong, and the desk still ended up governed by a metric nobody chose, which means governance is not a feature anyone schedules for later. It arrives on its own schedule.
 
-Regulators have a harder adjustment to make, because auditing individual model outputs turns out to be looking at the wrong object entirely. What needs examining is the society: how it delegates, how well it resists drift, and whose interests its power distribution quietly serves.
+That changes what there is to check, and this is the part worth caring about even if you never build one of these. Auditing what an individual model says turns out to be looking at the wrong object. What matters is the society: how it delegates, how well it resists drift, and whose interests its arrangement of power quietly serves. That applies to whoever regulates these systems, and it applies to you as somebody whose calendar, messages, and refunds will be decided inside one.
 
-And for researchers the news is worse still, because multi-agent safety does not reduce to single-agent alignment. Collusion, norm drift, reputation gaming, and governance capture are population-level phenomena, and the tools that describe them look a great deal more like institutional economics than like loss functions.
+It also means that making one agent behave well is not the same problem as making a group of them behave well. Collusion, norm drift, reputation gaming, and capture are things that happen to populations, not to individuals, and the tools that describe them look far more like the study of institutions than like the mathematics of training a single model.
 
 ## Open Problems
 
