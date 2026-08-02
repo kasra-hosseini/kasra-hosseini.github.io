@@ -19,7 +19,7 @@ wordcount: "~2,100 words"
 
 ## From Model Call to Agent
 
-Ask a chatbot to run a script and tidy the results into a folder, and it will tell you how. Confidently, in numbered steps, possibly with the exact command. What it will not do is run it. On its own a language model is a static function: text in, text out, and no way to perceive the world or change it.
+Ask a chatbot to run a script and tidy the results into a folder, and it will tell you how. Confidently, in numbered steps, possibly with the exact command. What it will not do is run it. A language model on its own is a very well-read person locked in a room with no hands: text in, text out, and no way to touch the thing being discussed.
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter. Something was built around it, and that something is the difference between a thing that describes work and a thing that does it.
 
@@ -31,13 +31,13 @@ Every piece of that is load-bearing, and the fastest way to see it is to pull pi
 
 Start with the acting. Not all of it is equally recoverable, and that turns out to matter more than how clever the agent is. A deleted file comes back from backup. A robot arm that has already swung cannot be unswung. In between sits everything else: reading and writing files is solved, calling a well-behaved service through something like <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">MCP</a> is solved, driving a browser is messy because pages change under you, and moving something physical is hardest of all. The same loop with the same model is a different proposition depending on which of those it can reach.
 
-Everything else in the scaffolding exists to keep the loop pointed somewhere. A prompt is how a human's goal gets in. Planning looks more than one move ahead. Identity narrows what the agent will even consider, which is why a coding assistant and a customer-service agent can run on the same model and behave nothing alike. And the loop does not have to wait to be called: it can watch a system and step in when something looks wrong, pause to ask a person to approve a plan, or run for an hour with nobody looking.
+Everything else in the scaffolding exists to keep the loop pointed somewhere. The prompt is how a person's goal gets in. Planning is what stops it solving the step in front of it at the expense of the one after. Identity is why a coding assistant and a customer-service agent can run on the same model and behave nothing alike: one has been told it is careful and terse, the other that it is patient and kind, and that is most of the difference. And the loop does not wait to be called. It can watch something and step in when it looks wrong, stop to ask a person to approve a plan, or run for an hour with nobody looking.
 
 That last one deserves suspicion, because an agent judging its own work is the one component whose failure is invisible from the inside. It is also where single agents break, which the rest of this post is largely about.
 
 ## The Loop
 
-The loop itself is simple. Perceive, reason, act, observe, go round again. What makes it powerful is not the shape but a property of it: the agent's own output becomes its input next time. When that coding agent runs the tests, the failures it reads are the ones its own last edit produced, so every pass is reacting to a world it just changed. That feedback is the whole trick, and it has been wrapped a hundred ways since <a href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">the plainest version</a> was written down, but the cycle underneath never changes.
+The loop itself is simple. Perceive, reason, act, observe, go round again. What makes it powerful is not the shape but what the shape does to time: the agent's own output becomes its input next time round. When that coding agent runs the tests, the failures it reads are the ones its own last edit produced. It is not solving a problem, it is negotiating with a situation it keeps changing. That feedback is the whole trick, and it has been wrapped a hundred ways since <a href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">the plainest version</a> was written down, but the cycle underneath never changes.
 
 ## When the Loop Improves Itself
 
@@ -45,7 +45,7 @@ Here is the version that matters. An agent fails at a task, writes itself a note
 
 That is **recursive self-improvement**, and it is worth separating from mere repetition. An agent that emails a news digest every morning runs its loop faithfully for years and is no more capable on the last day than the first. The difference is whether the output of one pass becomes the input to the next.
 
-The tightest version of this happens inside one task, where a coding agent runs the tests, reads the failures, and fixes the code, so every edit knows what the last one broke. <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">The wider version has been built too</a>, and pushed further still: procedures that keep working stop being notes and become <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">tools the agent can call</a>, so what it figured out in hour one is still paying off in hour fifty. The same loop has even been pointed at <a href="https://arxiv.org/abs/2304.05376" target="_blank" rel="noopener">chemistry</a> and at <a href="https://arxiv.org/abs/2408.06292" target="_blank" rel="noopener">research itself</a>.
+The tightest version of this happens inside one task, where a coding agent runs the tests, reads the failures, and fixes the code, so every edit knows what the last one broke. <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">The wider version has been built too</a>. Push it far enough and the notes stop being notes: a procedure the agent worked out once and keeps reusing gets saved as <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">something it can call by name</a>, the way you stop thinking through how to tie a shoelace. The same loop has been pointed at <a href="https://arxiv.org/abs/2304.05376" target="_blank" rel="noopener">chemistry</a> and at <a href="https://arxiv.org/abs/2408.06292" target="_blank" rel="noopener">research</a> too.
 
 ## Where Single-Agent Recursion Breaks
 
