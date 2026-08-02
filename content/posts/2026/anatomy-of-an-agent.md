@@ -41,15 +41,11 @@ The loop itself is simple. Perceive, reason, act, observe, go round again. What 
 
 ## When the Loop Improves Itself
 
-Here is the version that matters. An agent fails at a task, writes itself a note about why, and reads that note the next time it faces something similar. Not a memory of the conversation, a lesson: this codebase's tests need the database running first, so check that before assuming the code is broken. Fifty tasks later it is working from a file of things it learned the hard way, and the agent that started has effectively been replaced.
+Now the part that matters, because it is where the trouble starts. An agent fails at a task, writes itself a note about why, and reads that note the next time it faces something similar. Not a memory of the conversation, a lesson: this codebase's tests need the database running first, so check that before assuming the code is broken. Fifty tasks later it is working from a file of things it learned the hard way, and the agent that started has effectively been replaced. <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">This has been built</a>, and the procedures that keep working get saved as <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">tools the agent can call by name</a>.
 
-That is **recursive self-improvement**, and it is worth separating from mere repetition. An agent that emails a news digest every morning runs its loop faithfully for years and is no more capable on the last day than the first. The difference is whether the output of one pass becomes the input to the next.
-
-The tightest version of this happens inside one task, where a coding agent runs the tests, reads the failures, and fixes the code, so every edit knows what the last one broke. <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">The wider version has been built</a>, and the procedures that keep working stop being notes and turn into <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">things the agent can simply call</a>.
+That is **recursive self-improvement**, and it is not the same thing as running the loop a lot. An agent that emails a news digest every morning runs its loop faithfully for years and is no more capable on the last day than the first. The difference is whether the output of one pass becomes the input to the next. Which sounds like pure upside, and is where a lone loop runs into three kinds of trouble that better prompting does not fix. They compound in a particular order.
 
 ## Where Single-Agent Recursion Breaks
-
-Recursive self-improvement is clean in theory. In practice a lone loop runs into three kinds of trouble that better prompting does not fix, and they compound in a particular order.
 
 It begins with arithmetic, and the arithmetic is brutal. Give an agent a task with twenty steps and let it be right ninety-five percent of the time at each one, which sounds good. It finishes the whole task correctly about a third of the time. Worse, mistakes are not independent: a wrong turn at step four narrows what step five can even attempt. Which is why agents still fall short of people on <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">realistic computer and web tasks</a>, and why the <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">gap widens as the tasks get longer</a>.
 
