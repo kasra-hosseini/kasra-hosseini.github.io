@@ -411,7 +411,11 @@ That same pressure decides who sits at each node. Today's frontier models are ge
 
 ## From Architecture to Institution
 
-A delegation pattern becomes an institution when it shapes future behavior. When an evaluator's judgments affect who gets trusted next time, that is governance. When a benchmark determines which model gets deployed, that too is governance, whether anyone designed it as such or not.
+Here is the same mechanism somewhere it costs real money. A retailer points a router at its support queue: it classifies each ticket as billing, returns, or technical, and hands it to whichever agent handles that kind. Pure delegation. But the router logs how long each agent takes, how often customers come back angry, how often a ticket has to be escalated, because those numbers are cheap to collect and obviously useful.
+
+After a month it sends complex billing disputes only to the two agents that resolve them fastest, and it has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. Then a new agent joins the fleet, and the question of whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router learned, or wait. No one wrote that rule down. The deployment team can override it, but only by making the service worse, which in practice means they will not.
+
+That is the line worth marking. A delegation pattern becomes an institution when it starts shaping future behaviour: when an evaluator's judgments decide who gets trusted next time, or a benchmark decides which model gets deployed, that is governance whether anyone designed it as such or not.
 
 The distinction is sharper with a concrete case. Your messages agent handing a draft to a tone-checker is delegation, pure and simple. The rule about which of your agents wins when two of them want opposite things, and the question of who is allowed to change that rule, is something else entirely. That is governance, and notice it is not a step inside any particular task; it is a standing constraint on all of them.
 
@@ -419,17 +423,9 @@ Mostly this has not happened yet, and it is worth saying so plainly. Production 
 
 Two things are now true of your phone at once. Every scheduling decision still funnels through one agent, and standing among the others, meaning how much weight an agent's word carries, is earned by track record. Part 3 has names for both arrangements, though the names matter less than the fact that nobody chose either, and that the same thing happens anywhere performance gets logged: a support desk, a code pipeline, a warehouse.
 
-It is worth being precise about why that last step counts as authority rather than just good optimization. A load balancer forgets last week's latencies, which is why nobody would call it a governing body. But a fleet that will not route real work to an unproven agent until it clears a threshold it learned on its own is enforcing a standing rule that no human wrote down, and it will keep enforcing it tomorrow. The preference has outlived the task that produced it.
+Why does that count as authority rather than just good optimization? Because a load balancer forgets last week's latencies, which is why nobody would call it a governing body, and the support router does not forget. Its preference outlived the tasks that produced it, and it will still be enforcing that preference tomorrow.
 
-Three more cases below trace the same arc in settings with more at stake than your calendar. They show where current trajectories point rather than documenting deployed systems, since the transition needs persistence infrastructure that is still arriving.
-
-<details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
-<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Customer support fleet</summary>
-
-A retailer deploys a Router that classifies incoming tickets (billing, returns, technical) and dispatches to specialist agents. Pure delegation: classify, route, respond. But the router logs resolution times, customer satisfaction scores, and escalation rates per agent. After a month, it routes complex billing disputes only to the two agents with the highest resolution rates. It stops sending fragile-item returns to an agent that repeatedly misapplies the policy. The router has not been reprogrammed. It has developed preferential access rules from performance data.
-
-Now a new agent joins the fleet. Who decides whether it handles live tickets or shadow-runs first? The accumulated routing preferences answer that question: the new agent must match the performance threshold before it gets real traffic. That threshold was never specified as a governance rule. It crystallized from the router's learned distribution. The fleet has become a **Guild** (specialist clusters with implicit apprenticeship) without anyone designing it as one. The moment the deployment team cannot override the routing preferences without degrading service, the institution has become load-bearing.
-</details>
+Two more cases below trace the same arc, in a research pipeline and in the network of agents on your own phone. Both show where current trajectories point rather than documenting deployed systems, since the transition needs persistence infrastructure that is still arriving.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
