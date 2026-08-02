@@ -331,23 +331,17 @@ Suppose you end up with a handful of personal agents, as most people probably wi
 
 Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
-Here is the uncomfortable thing, stated up front so the rest of this post has something to hang on. Your agents will end up holding authority you never granted them. Not because anyone designed it that way, but because keeping records of how things went is useful and acting on those records is obvious, and those two habits are all it takes. By the time you notice, the authority is load-bearing: overriding it makes the service worse. Everything below is about how that happens and what it costs.
-
 None of that required anyone to build a system. It happened because you installed four things. And notice how much delegation was already going on inside each of them: ask the research agent for a summary and it quietly hires something to fetch the paper and something else to compress it. You talked to one agent. Several did the work, and you never saw the org chart.
 
 All of that is just delegation, and it is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
 
 So watch the records accumulate. Every time you dismiss a notification, accept a suggested time, or override a hold, something logs it, because logging is free and obviously useful. Nobody sat down to build a reputation system. But after a few weeks the calendar agent has better data about which of its guesses you accept than it has about anything else, and it starts acting on that data, because acting on it is the entire point.
 
-Nothing was reprogrammed. No rule was written. And yet if a new model joins next month, the question of whether it gets real work already has an answer, and the answer is a threshold nobody chose. Try to override it and service gets worse.
+Nothing was reprogrammed and no rule was written, yet the question of whether a new agent gets real work already has an answer, and the answer is a threshold nobody chose. Two habits were enough to produce it: keeping records, and acting on them.
 
-Which is the claim stated precisely. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records. That is the whole threshold.
+Stated precisely: **delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records. That is the whole threshold.
 
-Nothing has to be designed for that to happen, which is the uncomfortable part. A pipeline that forgets everything between runs is pure delegation and will never be anything else. But start keeping those four records and acting on them, and the drift runs one way: operational data hardens into a routing preference, the preference becomes standing, and standing quietly constrains what can be decided later. You can break the ratchet by resetting the memory, staying stateless, or redeploying from scratch, except that each of those is something a person has to decide to do, and nobody puts it on a roadmap.
-
-So the design question was never how many agents to use. It is whether the governance you end up with is one you can name, inspect, and overrule.
-
-Everything below is built from one unit: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output. This thing loops, remembers, and acts, and left on its own it hits a ceiling that [The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/) works through in detail. That is the atom. This post is the chemistry.
+So the design question was never how many agents to use. It is whether the governance you end up with is one you can name, inspect, and overrule, and the rest of this post is about how it forms while nobody is looking.
 
 ## The Division of Labour
 
@@ -364,7 +358,7 @@ Nothing dramatic has happened. But something was written down. Next Tuesday the 
 
 Naming the arrangements is the easy part. What a catalogue cannot tell you is what happens when they nest inside each other, and nesting is where the authority question gets sharper, because each layer decides what the layer below is allowed to attempt. Your research agent needs a paper summarised, so it hires something to fetch and something to compress, and each of those may hire further. A tree forms, you never see it, and every node in it is quietly deciding who gets trusted with what.
 
-The machinery underneath is real but not the interesting part, and it is all in the [field guide](/posts/2026/delegation-patterns-field-guide/): the frameworks that assign roles, the way trees nest across hardware until something tiny on your phone is deciding whether to interrupt you, the recipes that combine patterns, and the reason production systems stay two or three levels deep rather than twenty. One line of it matters here. Every extra agent multiplies cost and latency, so budgets push relentlessly toward the shallowest arrangement that works, and that arrangement also happens to have the fewest places for standing to accumulate. Frugality and accountability turn out to be accidental allies.
+The machinery underneath is real but not the interesting part, and the [field guide](/posts/2026/delegation-patterns-field-guide/) has all of it. One line of it matters here. Every extra agent multiplies cost and latency, so budgets push relentlessly toward the shallowest arrangement that works, and that arrangement also happens to have the fewest places for standing to accumulate. Frugality and accountability turn out to be accidental allies.
 
 
 
