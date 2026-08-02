@@ -281,14 +281,15 @@ Any pattern can be deliberately designed or can emerge from agent interaction. T
 </details>
 
 
-<details style="margin: 1.2em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
-<summary style="cursor: pointer; font-weight: 600; color: #334155;">The full catalogue: 43 delegation patterns in nine families (reference, safe to skip)</summary>
 
-<p style="font-size: 0.9em; color: #64748b; margin: 0.6em 0 0.4em 0;">Grouped so related patterns sit together. Each entry covers what it is, when to reach for it, how it fails, and how it differs from its neighbours. The argument picks up again below.</p>
 
 <div class="gov-list">
 
+</div>
+
 ## Sequential
+
+<div class="gov-list">
 
 The simplest arrangements just move work forward in a line, each agent seeing what the last one produced. Everything more elaborate is built out of these, which is why it is worth being precise about the small differences between them.
 
@@ -324,7 +325,11 @@ Whether a caller waits for a result or exits permanently, whether stages have de
 <div class="gov-body">An agent re-executes the same task with feedback from previous attempts appended to its context, iterating until a stopping condition is satisfied. The key structural distinction from the Evaluator pattern is that no separate critic agent exists; the same agent revises its own output, using prior failures as additional context rather than as external scores.<br><br><em>When to use:</em> Tasks where quality improves with iteration and where failure feedback is cheap to generate, such as code generation, structured extraction, or chain-of-thought reasoning. Best suited when the output space is well-defined enough that the agent can recognize improvement.<br><br><em>Example:</em> <a href="https://arxiv.org/abs/2310.03714" target="_blank" rel="noopener" class="red-link">DSPy</a>'s optimizer (Khattab et al. 2023) reruns a task with prior attempts as context until a quality threshold is met. AutoGen's reflection pattern similarly prompts a single agent to critique and rewrite its previous response before returning a final answer.<br><br><em>Failure mode:</em> Without a hard iteration cap and explicit convergence criteria, the loop runs indefinitely. Agents can also converge to locally coherent but globally wrong outputs, cycling between the same two bad solutions without progress.<br><br><em>Relation to other patterns:</em> Evaluator adds a structurally separate critic, making quality judgment an external check rather than self-assessment. Checkpoint/Saga checkpoints intermediate states for recovery, whereas Loop/Retry-with-Context does not persist state across iterations.</div>
 </details>
 
+</div>
+
 ## Hierarchical
+
+<div class="gov-list">
 
 Break a task into pieces, hand each piece down, and collect the results back up, and you have a hierarchy. These are the workhorses of production agent systems, and they carry a danger that is easy to miss.
 
@@ -360,7 +365,11 @@ Suppose each hop preserves most of what the original requester meant, but not al
 <div class="gov-body">Higher-level agents assign abstract goals to lower-level agents without specifying or observing how those goals are implemented. Authority flows downward as goal assignments; results flow upward as outcomes. The implementing agent's reasoning, tool calls, and intermediate steps are fully opaque to its principal. The hierarchy coordinates on objectives, not methods.<br><br><em>When to use:</em> Systems that need to scale across many sub-tasks without the orchestrator holding the full reasoning trace in context. Appropriate when sub-agents are trusted specialists and when outcome verification is feasible even if process inspection is not.<br><br><em>Example:</em> Tomašev et al. (2026) discuss opaque goal-based delegation as a core case in multi-agent systems. A manager assigns a team a quarterly goal and sees only the quarterly outcome, never the team's day-to-day decisions.<br><br><em>Failure mode:</em> Because the principal cannot inspect execution, misalignment is undetectable until it surfaces in outcomes. A sub-agent that optimizes a measurable stand-in rather than the actual goal may report success while violating the principal's real intent. The opacity compounds with depth: each hidden hop adds a layer where intent can drift unobserved.<br><br><em>Relation to other patterns:</em> Tree differs in that the orchestrator decomposes and tracks each sub-step explicitly. Mission Command expects agents to report back on their chosen method. Feudal Delegation is the most opaque of the three; it assumes sub-agents are competent and aligned without verifying either.</div>
 </details>
 
+</div>
+
 ## Quality and Verification
+
+<div class="gov-list">
 
 Piling on more agents does not by itself make an answer better. What makes it better is how the work gets checked, and there are more ways to check it than most people reach for.
 
@@ -396,7 +405,11 @@ The obvious move is to have something look at the output and suggest improvement
 <div class="gov-body">Two or more agents follow a structured protocol to verify a result without the verifier repeating the full computation. One party produces a result; another checks it with pointed challenges ("show me step N") rather than redoing the work, backed by incentives that make honest reporting the winning move. The verifier checks the claim, not the process that produced it.<br><br><em>When to use:</em> Computationally expensive tasks where re-execution is prohibitive, or distributed settings where no single agent can be fully trusted. Particularly relevant when the verification cost must be asymmetrically lower than the production cost.<br><br><em>Example:</em> Optimistic rollup protocols in blockchain systems use this structure: execution is assumed correct and only challenged when a verifier disputes the result, at which point a bisection game resolves the disagreement. Tomašev et al. (2026) discuss analogous trust-establishment protocols for multi-agent delegation.<br><br><em>Failure mode:</em> If the prover and verifier can collude, both benefit from approving incorrect results. The game-theoretic equilibrium breaks down when the cost of honest verification exceeds the reward, or when the agents share a principal whose interest is not aligned with accurate verification.<br><br><em>Relation to other patterns:</em> Evaluator re-runs or scores the output directly; Verification Game avoids re-execution. Voting aggregates independent opinions; Verification Game is a structured protocol between specific participants, not an aggregation of independent assessments.</div>
 </details>
 
+</div>
+
 ## Reliability
+
+<div class="gov-list">
 
 Then there is the unglamorous business of things going wrong, where the goal is a chain that degrades instead of collapsing.
 
@@ -422,7 +435,11 @@ Nothing in this family makes a system smarter. What it does is bound the damage 
 <div class="gov-body">A new (canary) agent runs alongside the incumbent on real inputs, but its outputs are not served to users. A judge compares canary outputs against the incumbent's. Only after the canary demonstrates statistically equivalent or better performance over many requests is it promoted to replace the incumbent.<br><br><em>When to use:</em> safe rollout of new agent versions, model upgrades, prompt changes, or entirely new specialist agents. Any setting where you cannot fully validate quality offline and need production traffic to build confidence.<br><br><em>Example:</em> a customer-support team replaces GPT-4 with a fine-tuned smaller model. For two weeks, both models answer every ticket. A quality judge scores both. The fine-tuned model is promoted only after its scores meet a statistical threshold across 10,000 tickets.<br><br><em>Failure mode:</em> shadow period too short (promotes a model that performs well on easy cases but fails on rare hard ones). Shadow period too long (wastes compute running two agents indefinitely). Also misleading scores if the canary's inputs during shadowing differ from what it will see once promoted.<br><br><em>Relation to other patterns:</em> Canary differs from Speculative Execution (which races for speed on a single task) in being a long-running evaluation over many tasks. It composes naturally with Witness (the judge is a form of witness) and Circuit Breaker (automatic rollback if the canary's error rate spikes).</div>
 </details>
 
+</div>
+
 ## Market and Competition
+
+<div class="gov-list">
 
 Work does not have to be assigned at all. It can be competed for, through bidding, bargaining, or simply racing several attempts and taking whichever finishes first.
 
@@ -448,7 +465,11 @@ Competition is attractive because it discovers things a central planner cannot: 
 <div class="gov-body">A full lifecycle protocol where a manager agent broadcasts a call-for-proposals describing a task, bidding agents submit bids based on capability and availability, the manager awards the contract to the best bidder, the winner executes and reports completion, and the winner may recursively sub-contract portions of the task to other agents. This is the complete coordination cycle, not just its bidding phase.<br><br><em>When to use:</em> Open multi-agent systems where task requirements and agent capabilities are heterogeneous and not known in advance. Useful when no central registry of agent skills exists and when workload must be dynamically distributed across available agents.<br><br><em>Example:</em> <a href="https://en.wikipedia.org/wiki/Contract_Net_Protocol" target="_blank" rel="noopener" class="red-link">Reid G. Smith</a> formalized this protocol in 1980 as the Contract Net Protocol; it was later standardized by FIPA as a foundation for multi-agent coordination. Modern LLM-based orchestration frameworks implicitly replicate parts of this lifecycle when routing tasks across specialized agents.<br><br><em>Failure mode:</em> Recursive sub-contracting creates unbounded delegation depth. A winning agent that cannot complete the task sub-contracts it, and that agent sub-contracts further, generating chains that are difficult to monitor, attribute, or terminate cleanly.<br><br><em>Relation to other patterns:</em> Auction covers only the bidding and award phases; Contract Net extends the protocol through execution and reporting. Feudal Delegation omits bidding entirely; authority flows by assignment, not by competitive proposal.</div>
 </details>
 
+</div>
+
 ## Knowledge Transfer
+
+<div class="gov-list">
 
 Capability itself can move between agents, which is what stops every newcomer from having to learn the job from nothing.
 
@@ -474,7 +495,11 @@ The patterns here differ mainly in when the transfer happens and whether the sou
 <div class="gov-body">A large or expensive model generates outputs, reasoning traces, or labeled examples that are used to fine-tune a smaller model. Once training is complete, the student operates independently; there is no ongoing connection to the teacher. The knowledge transfer happens at training time, not at inference time.<br><br><em>When to use:</em> Deployments where inference cost, latency, or privacy constraints make the teacher model unsuitable for production, but where a smaller model can approximate the teacher's behavior on the relevant task distribution. Common in production systems that prototype with frontier models and deploy fine-tuned smaller models.<br><br><em>Example:</em> <a href="https://arxiv.org/abs/1503.02531" target="_blank" rel="noopener" class="red-link">Hinton et al. 2015</a> introduced the formal framework for knowledge distillation using soft label transfer. More recently, frontier model outputs have been used to fine-tune smaller open-weight models for specific instruction-following tasks, with the teacher never invoked at inference time.<br><br><em>Failure mode:</em> The small model is trained on examples the large one chose, which may not cover the inputs it later meets in production. It performs well on those it saw and fails silently on the long tail it did not.<br><br><em>Relation to other patterns:</em> Teacher-Student involves real-time instructional interaction at inference time; the teacher remains active. Distillation severs that connection after training. Loop/Retry-with-Context iterates at inference time; Distillation iterates at training time.</div>
 </details>
 
+</div>
+
 ## Emergent Coordination
+
+<div class="gov-list">
 
 Coordination does not actually require anyone in charge, which is the least intuitive fact in this catalogue. Agents under resource pressure can work out how to cooperate through nothing but local interaction, each responding only to its neighbours, none of them holding a picture of the whole.
 
@@ -505,7 +530,11 @@ This is well-trodden ground outside AI. Holland (*Hidden Order*, 1995) and Kauff
 <div class="gov-body">Agents spread information by telling their neighbors, who tell their neighbors, in an epidemic pattern. No broadcast, no central hub. In well-connected networks, information propagates through repeated local contact, eventually reaching the whole population.<br><br><em>When to use:</em> decentralized coordination where broadcast would be expensive or infeasible. Norm propagation, state synchronization across large agent populations, failure detection in distributed systems.<br><br><em>Example:</em> in a large agent network, when one agent discovers a useful tool or strategy, it shares with its direct contacts. They share with theirs. Within a few rounds, the entire network has the information, without any single agent needing to broadcast. In sensor mesh networks, this is how fault detection spreads: one node detects anomalous vibration in a bridge pylon, tells its neighbors, and the alert propagates through the mesh without any central monitoring server.<br><br><em>Failure mode:</em> rumor drift (information mutates as it passes through agents, like a game of telephone) and norm poisoning (a malicious agent injects false information that spreads unchecked).<br><br><em>Relation to other patterns:</em> Gossip differs from Pub-Sub (which uses a central broker with topic-based routing) in being fully decentralized and epidemiological. It is a common communication substrate in Colony governance.</div>
 </details>
 
+</div>
+
 ## Trust and Authority
+
+<div class="gov-list">
 
 Who is even allowed to hand work to whom, and with what powers attached? These are constraints rather than shapes: they sit on top of whatever structure you already have and bound what it is permitted to do.
 
@@ -531,7 +560,11 @@ Tomašev et al. (2026) treat this as a first-class concern rather than an implem
 <div class="gov-body">The set of instructions an agent executes without scrutiny, pushback, or negotiation. Within the zone, delegation flows smoothly because the agent treats the instruction as within the normal scope of its role. Outside the zone, the agent questions, negotiates, or refuses. The zone's boundaries are determined by the agent's understanding of its role, its values, and its assessment of the instruction's legitimacy. Chester Barnard introduced this concept in organizational theory in 1938 to explain why employees comply with managerial directives without evaluating each one individually.<br><br><em>When to use:</em> As an analytical lens for understanding why some delegation chains proceed without friction and others produce deadlock or refusal. The concept is useful for diagnosing where in a chain execution stalls and for calibrating agent compliance thresholds.<br><br><em>Example:</em> An agent configured for customer support will execute routine reply tasks without scrutiny but may refuse or escalate a request to send a message containing a refund amount above a set threshold. The threshold defines the zone boundary.<br><br><em>Failure mode:</em> Zones too wide cause agents to execute harmful instructions without questioning, creating safety failures. Zones too narrow cause agents to challenge routine instructions, creating throughput failures. Calibration is the hard problem.<br><br><em>Relation to other patterns:</em> Human-in-the-Loop Gate and Approval Escalation can be understood as mechanisms for handling instructions that fall outside the zone. Policy Delegation defines the zone explicitly through written constraints.</div>
 </details>
 
+</div>
+
 ## Human-Agent Interface
+
+<div class="gov-list">
 
 Somewhere in all of this sits a person, and where exactly turns out to be one of the more consequential decisions in the whole design. What stops and waits for a human to approve it? Who is watching, and what is alarming enough to interrupt them?
 
@@ -571,7 +604,6 @@ The delegation structure itself changes in real-time based on performance signal
 
 </div>
 
-</details>
 
 <details style="margin: 1em 0; padding: 0.8em 1em; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600;">Quick guide: which delegation pattern fits your task?</summary>

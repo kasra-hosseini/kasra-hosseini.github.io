@@ -663,7 +663,7 @@ The more likely future is not one model. It is an ecology of models, and that ec
      SECTION: GOVERNANCE (bridge only, full treatment in Part 2)
      ============================================================ -->
 
-## Governance: How Agent Societies Are Ruled
+## Why Governance Becomes Unavoidable
 
 Once agents form persistent societies, governance becomes the central design problem. Delegation decides how a task gets done; governance decides who gets trusted next time. It determines which agents receive authority, which claims enter shared memory, how conflicts are resolved, and how errors are contained. Governance is orthogonal to model architecture. An autocracy might run one frontier model as orchestrator over many small workers, while a market might mix models from different providers competing on cost and quality.
 
