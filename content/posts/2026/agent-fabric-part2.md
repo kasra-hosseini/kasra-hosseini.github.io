@@ -326,9 +326,15 @@ wordcount: "~2,400 words (body) · ~2,300 words (notes)"
   </details></div>
 </div>
 
+Suppose you end up with a handful of personal agents, as most people probably will: something managing your calendar, something triaging your messages, something tracking your sleep. Nobody wires them together. But the calendar agent notices you decline meetings during focused work, the messages agent learns to hold non-urgent things until a gap opens, and the sleep data starts nudging when hard tasks get scheduled.
+
+Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
+
+That is what this post is about, and the machinery underneath it is duller than the result.
+
 Ask a coding agent to refactor something and it quietly splits the job across a planner, a code writer, a test runner, and a security scanner. You talked to one agent. Several did the work, and you never saw the org chart. Ask a personal agent to book travel and it goes out to an airline agent, a hotel agent, a payment agent. You did not design that structure either; the task demanded it.
 
-That is delegation, and it is already ordinary. What is not yet ordinary is what happens when those arrangements start to remember how they went.
+All of that is just delegation, and it is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
 
 So watch one do it. The refactoring agent keeps working, and somebody sensibly adds logging, because logging is free. Now the orchestrator can see which code writer produces fewer bugs, which test runner catches more regressions, which scanner flags real vulnerabilities instead of noise. Nobody asked it to act on any of that, but acting on it is obviously useful, so within a few weeks the risky refactors go to two particular models and one gets quietly stopped from touching anything security-adjacent.
 
@@ -339,10 +345,6 @@ Which is the claim this post is built on. **Delegation becomes governance when t
 Nothing has to be designed for that to happen, which is the uncomfortable part. A pipeline that forgets everything between runs is pure delegation and will never be anything else. But start keeping those four records and acting on them, and the drift runs one way: operational data hardens into a routing preference, the preference becomes standing, and standing quietly constrains what can be decided later. You can break the ratchet by resetting the memory, staying stateless, or redeploying from scratch, except that each of those is something a person has to decide to do, and nobody puts it on a roadmap.
 
 So the design question was never how many agents to use. It is whether the governance you end up with is one you can name, inspect, and overrule.
-
-None of which stays abstract for long, because the same thing is about to happen to you rather than to a server farm. Suppose you end up with a handful of personal agents, as most people probably will: something managing your calendar, something triaging messages, something tracking sleep. Nobody wires them together. But the calendar agent notices you decline meetings during focused work, the messages agent learns to hold non-urgent things until a gap opens, and the sleep data starts nudging when hard tasks get scheduled.
-
-Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
 Everything below is built from one unit: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output. This thing loops, remembers, and acts, and left on its own it hits a ceiling that [The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/) works through in detail. That is the atom. This post is the chemistry.
 
