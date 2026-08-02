@@ -11,7 +11,7 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,650 words"
+wordcount: "~1,500 words"
 ---
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** The anatomy of a single agent, a foundation model wrapped in scaffolding. The model operates in an iterative loop with an environment, acting on it and observing the result. The scaffolding gives it capabilities that let it act (prompt, tools, skills, memory) and constraints that direct it (planning, identity, self-evaluation)." >}}
@@ -63,9 +63,7 @@ Underneath all three is the same root problem. One loop runs one set of habits, 
 
 ## Beyond the Single Loop
 
-Which leaves two ways out. One is a person at the moments that matter, less a safety brake than a way of keeping the agent pointed at what anyone actually wanted. The other is more than one agent, so the check comes from outside the thing being checked, and that is where **collective capability** enters: performance that belongs to the arrangement of agents rather than to any one of them.
-
-Go back to the agent stuck on the date handling. Nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. Split the job: one writes, a second writes tests without seeing the first one's reasoning, a third tries to break the result. None is more capable than the original. But the second is not invested in the first one's mistake, and the third is rewarded for finding it, so the timezone gets checked by something that has no story to protect.
+There are only two ways out of this, and one of them is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. Split the job, so one writes, a second writes tests without seeing the first one's reasoning, and a third tries to break the result. None is more capable than the original. But the second is not invested in the first one's mistake, and the third is rewarded for finding it, so the timezone gets checked by something with no story to protect.
 
 Which is where this stops being about one agent. The moment there are several, somebody has to decide who does what, who checks whom, and whose judgement wins when two of them disagree. Those are questions about power, and they answer themselves whether or not anyone is paying attention.
 
