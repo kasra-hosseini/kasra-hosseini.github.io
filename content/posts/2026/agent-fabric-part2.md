@@ -340,6 +340,10 @@ Nothing has to be designed for that to happen, which is the uncomfortable part. 
 
 So the design question was never how many agents to use. It is whether the governance you end up with is one you can name, inspect, and overrule.
 
+None of which stays abstract for long, because the same thing is about to happen to you rather than to a server farm. Suppose you end up with a handful of personal agents, as most people probably will: something managing your calendar, something triaging messages, something tracking sleep. Nobody wires them together. But the calendar agent notices you decline meetings during focused work, the messages agent learns to hold non-urgent things until a gap opens, and the sleep data starts nudging when hard tasks get scheduled.
+
+Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
+
 Everything below is built from one unit: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output. This thing loops, remembers, and acts, and left on its own it hits a ceiling that [The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/) works through in detail. That is the atom. This post is the chemistry.
 
 ## The Division of Labour
@@ -442,11 +446,8 @@ The coding agent is not a special case; the same thing happens wherever performa
 
 It is worth being precise about why that last step counts as authority rather than just good optimization. A load balancer forgets last week's latencies, which is why nobody would call it a governing body. But a fleet that will not route real work to an unproven agent until it clears a threshold it learned on its own is enforcing a standing rule that no human wrote down, and it will keep enforcing it tomorrow. The preference has outlived the task that produced it.
 
-Which stops being an engineering curiosity the moment it happens to you rather than to a server farm. Suppose you end up with a handful of personal agents, as most people probably will: something managing your calendar, something triaging messages, something tracking sleep. Nobody wires them together. But the calendar agent notices you decline meetings during focused work, the messages agent learns to hold non-urgent things until a gap opens, and the sleep data starts nudging when hard tasks get scheduled.
 
-Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
-
-Three further examples below trace the same arc in other settings. They illustrate where current trajectories point rather than documenting deployed systems, since the transition depends on persistence infrastructure that is still arriving.
+The same arc shows up in other settings, and three further examples below trace it. They illustrate where current trajectories point rather than documenting deployed systems, since the transition depends on persistence infrastructure that is still arriving.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Customer support fleet</summary>
