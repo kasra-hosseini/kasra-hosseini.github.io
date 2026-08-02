@@ -1,17 +1,17 @@
 ---
 title: "The Agent Fabric (Part 3): Ruling an Agent Society"
-subtitle: "Governance archetypes, who they serve, and who actually enforces them"
+subtitle: "How authority forms when nobody designs it, and who actually enforces it"
 date: 2026-07-31
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "governance", "the loom hypothesis"]
-description: "How agent societies are governed: twenty-two governance archetypes, the failure modes each one invites, and why every structure is ultimately enforced by whoever owns the compute."
+description: "How agent societies end up governed by rules nobody wrote, why every governance structure is ultimately enforced by whoever owns the compute, and how these systems fail."
 draft: false
 math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,500 words"
+wordcount: "~4,300 words"
 ---
 
 <style>
