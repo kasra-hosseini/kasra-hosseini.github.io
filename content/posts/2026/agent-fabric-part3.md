@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~4,900 words (body) · ~9,900 words (notes + archetypes)"
+wordcount: "~4,200 words (body) · ~7,700 words (notes + archetypes)"
 ---
 
 <style>

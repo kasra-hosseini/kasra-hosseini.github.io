@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,100 words (guide) · ~10,900 words (pattern cards)"
+wordcount: "~2,200 words (guide) · ~13,100 words (pattern cards)"
 ---
 
 <style>

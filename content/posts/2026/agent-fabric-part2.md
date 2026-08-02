@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,800 words (body) · ~2,100 words (notes)"
+wordcount: "~2,400 words (body) · ~2,300 words (notes)"
 ---
 
 <style>
@@ -344,7 +344,7 @@ Every multi-agent system has to answer one question first: how does the work get
 
 ### Delegation Archetypes
 
-People have found a great many ways to answer that question, and forty-three of them are catalogued in a companion page, [Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/), which covers what each one is for and how each one fails. Go there when you need to name something you are already building. You do not need it to follow this post, because the count was never the point. What matters is the pattern that holds across all of them, which is how quickly a way of splitting up work hardens into a standing rule about who gets trusted with what.
+People have found a great many ways to answer it, and the individual answers matter less than something they all share: however you split the work, the split hardens surprisingly fast into a standing rule about who gets trusted with what. That is the thing to watch for. (If you do want the individual answers, forty-three of them live in a companion [field guide](/posts/2026/delegation-patterns-field-guide/), with what each is for and how each fails. Nothing here depends on having read it.)
 
 
 A catalogue only gives you vocabulary, though. What it cannot tell you is what happens once these patterns start nesting inside each other, which is where the interesting behaviour and nearly all of the cost lives. Start with the simplest version of nesting, which is **agents that spawn other agents**. A user asks a question. The primary agent realizes it needs help: a web search, a code execution, a document summary. It delegates. The sub-agent might delegate further. A tree forms.
