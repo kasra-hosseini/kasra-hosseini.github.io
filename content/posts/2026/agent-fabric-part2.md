@@ -330,7 +330,11 @@ Ask a coding agent to refactor something and it quietly splits the job across a 
 
 That is delegation, and it is already ordinary. What is not yet ordinary is what happens when those arrangements start to remember how they went.
 
-Here is the claim this post is built on. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.**
+So watch one do it. The refactoring agent keeps working, and somebody sensibly adds logging, because logging is free. Now the orchestrator can see which code writer produces fewer bugs, which test runner catches more regressions, which scanner flags real vulnerabilities instead of noise. Nobody asked it to act on any of that, but acting on it is obviously useful, so within a few weeks the risky refactors go to two particular models and one gets quietly stopped from touching anything security-adjacent.
+
+Nothing was reprogrammed. No rule was written. And yet if a new model joins next month, the question of whether it gets real work already has an answer, and the answer is a threshold nobody chose. Try to override it and service gets worse.
+
+Which is the claim this post is built on. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.**
 
 Nothing has to be designed for that to happen, which is the uncomfortable part. A pipeline that forgets everything between runs is pure delegation and will never be anything else. But start keeping those four records and acting on them, and the drift runs one way: operational data hardens into a routing preference, the preference becomes standing, and standing quietly constrains what can be decided later. You can break the ratchet by resetting the memory, staying stateless, or redeploying from scratch, except that each of those is something a person has to decide to do, and nobody puts it on a roadmap.
 
@@ -430,11 +434,9 @@ A delegation pattern becomes an institution when it shapes future behavior. When
 
 A concrete case makes the difference sharp. Passing a code review down a chain of agents is delegation, pure and simple. But the rule about which model is trusted with security-sensitive refactors, and the question of who is allowed to change that rule, is something else. That is governance, and notice it is not a step in any particular task; it is a standing constraint on all of them.
 
-Mostly this has not happened yet, and it is worth saying so plainly. Production agent systems are still largely stateless between sessions, which means they never accumulate the performance history that would harden into anything. But the pieces are arriving: long-term memory, evaluation logs, routing analytics. Once a system remembers across sessions, what follows is not speculation so much as arithmetic.
+Mostly this has not happened yet, and it is worth saying so plainly. Production agent systems are still largely stateless between sessions, which means they never accumulate the performance history that would harden into anything. But the pieces are arriving, in the unremarkable form of long-term memory and evaluation logs and routing analytics, and once a system remembers across sessions what follows is less speculation than arithmetic.
 
-Watch it happen to a coding agent. It starts about as simply as possible, with an orchestrator dispatching to a code writer, the code writer handing off to a test runner, results flowing back. Nothing resembling governance anywhere. Then the orchestrator starts keeping score, because keeping score is useful: which model produces fewer bugs, which test runner catches more regressions, which scanner flags real vulnerabilities instead of noise. That score becomes a reputation, and the reputation starts deciding who gets trusted with what.
-
-Two things are now true of that system at once. Every decision still funnels through one central orchestrator, and standing among the workers is earned by track record. Part 3 has names for both arrangements, though the names matter less than the fact that nobody chose either. They condensed out of accumulated experience while the team was busy shipping features.
+And the coding agent from the opening is only the mildest version. Two things are true of it at once. Every decision still funnels through one central orchestrator, and standing among the workers is earned by track record. Part 3 has names for both arrangements, though the names matter less than the fact that nobody chose either. They condensed out of accumulated experience while the team was busy shipping features.
 
 The coding agent is not a special case; the same thing happens wherever performance gets logged.
 
