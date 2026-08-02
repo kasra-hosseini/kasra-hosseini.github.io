@@ -796,9 +796,9 @@ No system today operates at the full scale described here. Many of the component
 </script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
-// viz-observations is now a static inline SVG -- no script needed
+// viz-observations is now a static inline SVG, no script needed
 
-// viz-loom is now a static inline SVG -- no script needed
+// viz-loom is now a static inline SVG, no script needed
 
 // ============================================================
 // Visualization: Two Societies (Phase 0-4 temporal evolution)
@@ -3882,7 +3882,7 @@ No system today operates at the full scale described here. Many of the component
   });
 })();
 
-// viz-forces is now a static inline SVG -- no script needed
+// viz-forces is now a static inline SVG, no script needed
 
 // ============================================================
 // Visualization: viz-phases (Four Interaction Phases)
@@ -4136,7 +4136,7 @@ No system today operates at the full scale described here. Many of the component
 
   var CX = 360, CY = 165;
 
-  // Center circle -- slightly larger, softer
+  // Center circle: slightly larger, softer
   svg.append('circle').attr('cx', CX).attr('cy', CY).attr('r', 40)
     .attr('fill', '#e2e8f0').attr('opacity', 0.5);
   svg.append('text').attr('x', CX).attr('y', CY - 5)

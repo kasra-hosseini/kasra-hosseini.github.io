@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,250 words (body) · ~2,000 words (notes)"
+wordcount: "~1,800 words (body) · ~2,000 words (notes)"
 ---
 
 <style>

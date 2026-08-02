@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~4,900 words"
+wordcount: "~4,500 words"
 ---
 
 <style>

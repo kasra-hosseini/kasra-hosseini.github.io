@@ -913,7 +913,7 @@ Which leaves the most deliberate group of all, and this is where the support des
           if (!isVisible) { colFrame = requestAnimationFrame(colonyTick); return; }
           colEpoch++;
 
-          // -- Events: merge at ~300, split at ~600, merge again at ~900 --
+          // Events: merge at ~300, split at ~600, merge again at ~900
           if (colEpoch === 300) {
             // Core 1 merges into core 0
             cores[1].alive = false;
