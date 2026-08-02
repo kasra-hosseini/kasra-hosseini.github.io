@@ -335,9 +335,7 @@ None of that required anyone to build a system. It happened because you installe
 
 All of that is just delegation, and it is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
 
-So watch the records accumulate. Every time you dismiss a notification, accept a suggested time, or override a hold, something logs it, because logging is free and obviously useful. Nobody sat down to build a reputation system. But after a few weeks the calendar agent has better data about which of its guesses you accept than it has about anything else, and it starts acting on that data, because acting on it is the entire point.
-
-Nothing was reprogrammed and no rule was written, yet the question of whether a new agent gets real work already has an answer, and the answer is a threshold nobody chose. Two habits were enough to produce it: keeping records, and acting on them.
+Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose.
 
 Stated precisely: **delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records. That is the whole threshold.
 
@@ -436,7 +434,7 @@ The distinction is sharper with a concrete case. Your messages agent handing a d
 
 Mostly this has not happened yet, and it is worth saying so plainly. Production agent systems are still largely stateless between sessions, which means they never accumulate the performance history that would harden into anything. But the pieces are arriving, in the unremarkable form of long-term memory and evaluation logs and routing analytics, and once a system remembers across sessions what follows is less speculation than arithmetic.
 
-Two things are now true of your phone at once. Every scheduling decision still funnels through one agent, and standing among the others is earned by track record. Part 3 has names for both arrangements, though the names matter less than the fact that nobody chose either, and that the same thing happens anywhere performance gets logged: a support desk, a code pipeline, a warehouse.
+Two things are now true of your phone at once. Every scheduling decision still funnels through one agent, and standing among the others, meaning how much weight an agent's word carries, is earned by track record. Part 3 has names for both arrangements, though the names matter less than the fact that nobody chose either, and that the same thing happens anywhere performance gets logged: a support desk, a code pipeline, a warehouse.
 
 
 It is worth being precise about why that last step counts as authority rather than just good optimization. A load balancer forgets last week's latencies, which is why nobody would call it a governing body. But a fleet that will not route real work to an unproven agent until it clears a threshold it learned on its own is enforcing a standing rule that no human wrote down, and it will keep enforcing it tomorrow. The preference has outlived the task that produced it.
