@@ -443,7 +443,7 @@ The bill that arrives later is authority. Split work among agents, keep records 
 
 Which is why the phone is the right place to have started. Nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud.
 
-So here is the thing worth doing with all of this. Take any system you actually use that has more than one model behind it, and ask which of the four records it keeps. Does anything store who handled your request? Whether it went well? What it cost? Whose authority it acted under? One or two of those is a product. Three or four is an institution, and if you cannot find where the fourth one lives, that is not because nobody has it. It is because nobody wrote it down.
+The four records are the thing to look for, and they are not hard to find. Most systems already log who handled a request and whether it went well. Plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight. It is what makes the other three feel like engineering instead of politics.
 
 Which this post cannot answer. What kinds of governance are there, which one are you accidentally running, and who enforces it when it fails, is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
 
