@@ -191,7 +191,7 @@ Twenty-two archetypes follow, grouped by where each one locates authority. Some 
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
 
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
-- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis, and the path from isolation to interweaving
+- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
 - **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: how work gets split among agents, and how splitting it quietly creates authority nobody granted
 - **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance, who enforces it, and how it fails
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the forty-three delegation patterns behind Part 2

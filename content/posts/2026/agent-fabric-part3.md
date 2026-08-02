@@ -174,9 +174,9 @@ wordcount: "~4,300 words"
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
 
-A support team wires up a router that sends billing questions to one agent and technical questions to another. Nothing remotely political about it. Then somebody adds logging, because logging is free and obviously sensible, and the router starts noticing which agents resolve tickets and which ones get escalated. Within a month it is quietly sending the hard billing disputes to two particular agents and routing nothing important to a third.
+Take the support desk from [Part 2](/posts/2026/agent-fabric-part2/) and let it keep running. A router sends billing questions to one agent and technical ones to another, somebody adds logging because logging is free and obviously sensible, and within a month the hard billing disputes go to two particular agents and nothing important goes to a third. Nobody wrote that rule. When a new agent joins, the question of whether it gets live tickets already has an answer: clear the bar the router taught itself, or wait.
 
-Now a new agent joins. Who decides whether it gets live tickets? Nobody wrote a rule for that, and yet there is an answer: it has to clear the performance bar the router learned on its own. That bar was never in a spec. It emerged, it now governs who gets what work, and the team that built the thing would struggle to override it without making service worse. Somewhere in that month, a piece of software acquired a policy.
+That bar was never in a spec, it now governs who gets what work, and the team that built the desk would struggle to override it without making service worse. Somewhere in that month a piece of software acquired a policy.
 
 So that desk now has rules. Here is the part that should bother you: it does not really have authority over them, and neither does the team that built it.
 
@@ -190,7 +190,7 @@ That is the bet this post is making. Agent systems will fail through bad institu
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
 
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
-- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis, and the path from isolation to interweaving
+- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
 - **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: how work gets split among agents, and how splitting it quietly creates authority nobody granted
 - **Part 3: Ruling an Agent Society** (you are here): governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
