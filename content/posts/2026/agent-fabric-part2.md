@@ -330,15 +330,11 @@ Ask a coding agent to refactor something and it quietly splits the job across a 
 
 That is delegation, and it is already ordinary. What is not yet ordinary is what happens when those arrangements start to remember how they went.
 
-Delegation is the easy half. It is a question about flow: how a task moves through a group of agents, who does what, who checks the result, and who pays the compute and latency bill at each step. A data-processing pipeline that forgets everything between runs is pure delegation, and it will never be anything more than that.
+Here is the claim this post is built on. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.**
 
-Governance is the harder half, because it is a question about authority rather than flow. Who gets to decide? On what basis? And how can that decision be challenged? The two look identical from outside for a while, and what separates them is memory. Part 1 reserved the word *society* for a group of agents that has started accumulating things across tasks rather than starting fresh each time. They build up context they share. Where work gets sent begins to depend on how it went last time. What one of them learns can reach the others. Governance is what grows on top of that accumulation, whether or not anybody planted it.
+Nothing has to be designed for that to happen, which is the uncomfortable part. A pipeline that forgets everything between runs is pure delegation and will never be anything else. But start keeping those four records and acting on them, and the drift runs one way: operational data hardens into a routing preference, the preference becomes standing, and standing quietly constrains what can be decided later. You can break the ratchet by resetting the memory, staying stateless, or redeploying from scratch, except that each of those is something a person has to decide to do, and nobody puts it on a roadmap.
 
-Which brings us to the claim this post is built on. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.**
-
-Nothing has to be designed for this to happen, which is the uncomfortable part. Keep those four records, act on them, and the system has started to govern. And it drifts one way rather than wandering: operational data hardens into a routing preference, the preference becomes standing, and standing quietly constrains what can be decided afterwards.
-
-You can break that ratchet. Reset the memory, keep the system stateless, redeploy from scratch. But notice that each of those is something a person has to decide to do, and nobody puts it on a roadmap. Skip them all and the system begins governing before anyone chooses that it should, which reframes the design question entirely. It was never how many agents to use. It is whether the governance you end up with is one you can name, inspect, and overrule.
+So the design question was never how many agents to use. It is whether the governance you end up with is one you can name, inspect, and overrule.
 
 Everything below is built from one unit: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output. This thing loops, remembers, and acts, and left on its own it hits a ceiling that [The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/) works through in detail. That is the atom. This post is the chemistry.
 
@@ -438,7 +434,7 @@ Watch it happen to a coding agent. It starts about as simply as possible, with a
 
 Look at what that system now is. Every decision still funnels through one central orchestrator, and standing among the workers is earned by track record. Part 3 has names for both of those arrangements, but the names matter less than this: nobody chose either one. They condensed out of accumulated experience while the team was busy shipping features.
 
-The coding agent is not unique, and the path is the same wherever you look: operational data accumulates, the data shapes routing, and routing with a memory becomes authority.
+The coding agent is not a special case; the same thing happens wherever performance gets logged.
 
 It is worth being precise about why that last step counts as authority rather than just good optimization. A load balancer forgets last week's latencies, which is why nobody would call it a governing body. But a fleet that will not route real work to an unproven agent until it clears a threshold it learned on its own is enforcing a standing rule that no human wrote down, and it will keep enforcing it tomorrow. The preference has outlived the task that produced it.
 
@@ -470,7 +466,7 @@ Over months, the agents develop implicit coordination. The calendar agent learns
 The institutional moment arrives when these implicit norms conflict. The communication agent has an urgent message, but the calendar agent's deep-work block says "no interruptions." Who wins? There is no designed authority. But one has formed: whichever agent's preferences have historically been overridden less by the user has *de facto* higher standing. The network has developed an **emergent Meritocracy** where authority flows from the user's past choices: whichever agent's judgment the user has historically upheld in a domain carries higher standing there (the user trusts calendar > communication for scheduling, but communication > calendar for social obligations). This is not Liquid Democracy in the strict sense (there are no explicit, recallable delegations); it is standing accreted from behavior. The institution is invisible until it produces a decision the user disagrees with, at which point "correcting" it means overriding an accumulated structure, not flipping a switch.
 </details>
 
-All four examples trace the same arc the core claim named: **operational data hardens into routing preference, routing preference becomes standing, and standing constrains future decisions.** Seen across cases, the institution is not a separate layer added on top. It is the delegation pattern viewed over time, after enough history has accumulated to make the pattern self-reinforcing. Any system that remembers performance and acts on that memory is already governing, whether its designers intended governance or not.
+What all four cases show is that the institution is not a layer somebody added on top. It is the delegation pattern itself, seen over a long enough stretch of time that its own history has started feeding back into it.
 
 Whether this crystallization is reversible depends on what is remembering. A routing table can be reset. A fine-tuned model that internalized the routing preference cannot. The form of memory determines whether the institution can be reformed or only replaced.
 
