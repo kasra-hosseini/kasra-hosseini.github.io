@@ -344,7 +344,7 @@ So the design question was never how many agents to use. It is what those record
 
 Four agents on a phone barely need organizing; one of them handing out jobs is plenty. At a few dozen, calling each other, the arrangement starts to matter. You can split a job into parts, run them at once and merge the answers, which is what happens when you ask for a summary of forty papers. Or you can put one agent in front to read each request and decide who handles it, which is what a support queue does. The first shape is about speed. The second is about who decides, and that is a different kind of question.
 
-The second shape is where authority hides. A dispatcher has to decide who is worth handing work to, and once it is deciding that, it needs some basis for deciding, and the only basis available is how previous work went. However you split the work, the split hardens fast into a standing rule about who gets trusted with what.
+The second shape is where authority hides. A dispatcher has to decide who is worth handing work to, and it could do that on declared capability or task type, but the moment any record of past results exists that record is the cheapest and most accurate signal available, so it wins. From there the split hardens fast into a standing rule about who gets trusted with what.
 
 ### Delegation Archetypes
 
