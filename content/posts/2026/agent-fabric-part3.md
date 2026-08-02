@@ -207,9 +207,9 @@ One word does heavy lifting throughout. A **society** here is not just several a
 
 Start with somebody on the other end of it. A customer writes in because her refund was refused. She has been buying from this retailer for six years and returns maybe one thing in twenty, and the reply she gets is polite and final. What she is not told, because nobody at the company could tell her, is that a scoring system decided months ago that her return history made her a risk, and nothing since has been able to look past it. There is no one to appeal to. Here is how a desk ends up like that.
 
-It starts with the leaderboard working. The two best agents get the hard billing disputes, everyone is happy, resolution times drop. What nobody notices is that the metric is resolution time, and the fastest way to resolve a hard dispute is to approve the refund. So the two most trusted agents on the desk gradually become the two most generous, and the leaderboard rewards them for it. No agent lied. No attacker was involved. The scoreboard simply measured the wrong thing and everyone competed honestly.
+It starts a year before her email, with the leaderboard working. The two best agents get the hard billing disputes, everyone is happy, resolution times drop. What nobody notices is that the metric is resolution time, and the fastest way to resolve a hard dispute is to approve the refund. So the two most trusted agents on the desk gradually become the two most generous, and the leaderboard rewards them for it. No agent lied. No attacker was involved. The scoreboard simply measured the wrong thing and everyone competed honestly.
 
-Six months later somebody in finance notices the refund line and the desk gets a risk score bolted on, tuned hard, because the drift had to be stopped. That is the machinery that refuses her. Every step was reasonable and nobody chose the outcome, which is the pattern this whole post is about.
+Then somebody in finance notices the refund line. The desk gets a risk score bolted on and tuned hard, because the drift had to be stopped, and a customer with six years of history and one return in twenty now looks like an acceptable cost of stopping it. That is the machinery that refuses her. Every step was reasonable, nobody chose the outcome, and there is no one for her to appeal to because no single person decided anything.
 
 Notice what the router had become for that to happen. A router that forwards traffic is playing the game. A router that keeps score and decides who may touch what is writing the rules the game has to follow, and that is the line: the rules, not the players and not the moves.
 
@@ -338,13 +338,18 @@ That changes what there is to check, and this is the part worth caring about eve
 
 It also means that making one agent behave well is not the same problem as making a group of them behave well. Collusion, norm drift, reputation gaming, and capture are things that happen to populations, not to individuals, and the tools that describe them look far more like the study of institutions than like the mathematics of training a single model.
 
-## Open Problems
+## What Is Still Unsolved
 
 A fair amount of this is unsolved, and the hardest part is not technical. Go back to the customer whose refund was refused. Suppose she does get somebody to look. Which agent owes her an explanation? By then the one that scored her has been copied, retrained, and copied again, and each copy carries the record without the history. No login system ever built answers that, because the question is not who signed in. It is which thing is continuous with the one that decided.
+
+<details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
+<summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
 
 Harder still is what happens when a system rewrites its own rules under pressure, which human institutions do constantly: democracies reach for emergency powers, markets stop trading. Deciding what should trigger that is difficult enough. Making sure the emergency mode ever ends is the part nobody has solved, in agents or anywhere else.
 
 And some of it cannot be engineered at all, because it needs somebody to make a call. Should an agent's record follow it into work with different conditions? How would anyone supervise a desk of a thousand agents, when reading their decisions is arithmetically impossible and summaries might preserve real oversight or only the appearance of it? Underneath both sits the question this post has dodged twice: the desk's agents cannot agree to be governed, so what would make authority over them legitimate, and is that even a coherent thing to ask?
+
+</details>
 
 ---
 
