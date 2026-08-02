@@ -178,6 +178,8 @@ Take the support desk from [Part 2](/posts/2026/agent-fabric-part2/) and let it 
 
 That bar was never in a spec, it now governs who gets what work, and the team that built the desk would struggle to override it without making service worse. Somewhere in that month a piece of software acquired a policy.
 
+Run that desk a year forward. Forty agents, nine thousand tickets a week, and every one of them passed through decisions you did not make and could not review, not because you lack the skill but because there is too much of it. The question you are left with has changed shape. Not whether this particular refund was right, which you can no longer check, but whether the whole thing is producing outcomes you would defend. That is a question about an institution, and this post is about the institutions that show up whether or not anybody meant to build one.
+
 So that desk now has rules. Here is the part that should bother you: it does not really have authority over them, and neither does the team that built it.
 
 Ask what happens when the desk's own policy says one thing and the company's cloud provider says another. A human court's ruling binds because defiance carries costs nobody escapes. Between software components, a rule binds for exactly one reason, which is that the runtime chose to honour it. Follow authority upward in any agent system and it does not stop where your architecture diagram stops. It stops at whoever controls the compute, the API access, and the protocol definitions. A federation of a dozen companies running on one provider's infrastructure is a federation right up until that provider changes its pricing, at which point everyone discovers the constitution was a pricing page all along.
@@ -217,7 +219,7 @@ Three options, after all of recorded history trying. You have lived inside all o
 
 Why any of this is needed comes down to something anyone who has ever delegated a chore already knows: whenever one party acts on another's behalf, their interests drift apart. Economists call this the principal-agent problem, the gap between what the person asking wants and what the person doing it is actually rewarded for. Every hop in a delegation chain is one more chance for those to come apart, and governance is the machinery for holding them together.
 
-It is worth being sober about how well that machinery works. Decades of research on human groups found something deflating: a group is not automatically smarter than the people in it. More agents can mean more insight or just more noise, and the structure is what decides which.
+It is worth being sober about how well that machinery works. Decades of research on human groups found that a group is not automatically smarter than the people in it; whether more agents means more insight or just more noise is decided by the structure.
 
 One warning about the market option, since it is the one people reach for. Real markets work because a price carries information nobody could have gathered centrally: it quietly sums up what thousands of people know. What agents trade in is mostly compute and latency, and those numbers say almost nothing about whether the work was any good. A leaderboard that looks like a market may be pricing the wrong thing entirely, which is how the desk ended up rewarding fast refunds.
 
@@ -330,15 +332,13 @@ It also means that making one agent behave well is not the same problem as makin
 
 ## Open Problems
 
-A fair amount of this is unsolved, and the hard-but-tractable problems share one root: nearly every tool we have for holding something accountable assumes it stays put. Agents do not. Copy the desk's best agent, tweak it, run both, and no login system ever built can say which one owes you an explanation for last month's refunds. The same problem breaks record-keeping, because an agent working in several societies at once leaves a trail that snaps at every boundary it crosses.
+A fair amount of this is unsolved, and the hard-but-tractable problems share one root: nearly every tool we have for holding something accountable assumes it stays put. Agents do not. Copy the desk's best agent, tweak its instructions, run both, and a month later a customer asks why their refund was denied. Which one owes them an explanation? The copy has the original's record and none of its history. No login system ever built has an answer, because the question is not who signed in. It is who is continuous with the thing that made the decision. The same problem breaks record-keeping, since an agent working in several societies at once leaves a trail that snaps at every boundary it crosses.
 
 A harder version is what happens when a system rewrites its own rules under pressure, which human institutions do constantly: democracies reach for emergency powers, markets stop trading. Deciding what should trigger that is difficult enough. Making sure the emergency mode ever ends is the part nobody has solved, in agents or anywhere else.
 
 The rest cannot be engineered away, because each one needs somebody to make a call. Should an agent's record follow it into a job with different conditions? How would anyone actually supervise a desk of a thousand agents, when reading their decisions is arithmetically impossible and summaries might preserve real oversight or only its appearance? And underneath both, the question this post has now dodged twice: the desk's agents cannot agree to be governed, so what would make authority over them legitimate, and is that even a coherent thing to ask?
 
 ---
-
-One question none of this answers is what becomes of the person at the top. Imagine running that desk a year in. There are forty agents, they handle nine thousand tickets a week, and every one of those tickets passed through decisions you did not make and cannot review, not because you lack the skill but because there is too much of it. The question you are left with changes shape. Not whether this particular refund was right, which you can no longer check, but whether the thing as a whole is producing outcomes you would defend. That is a question about an institution, not about an answer.
 
 Which brings this back to the support desk, which by now has been an autocracy, a leaderboard, and a constitution, and will be a tribunal the first time somebody demands to know why their complaint was ignored. Nothing in that story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. That is the uncomfortable part: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else. Designing the institution is the work.
 
