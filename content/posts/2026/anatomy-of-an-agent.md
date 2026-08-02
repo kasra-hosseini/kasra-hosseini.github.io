@@ -85,7 +85,7 @@ The way out of these limits is to stop relying on a single loop. Once more than 
 
 Here is what that buys, concretely. Take a coding task and give it to one capable agent, and it will write something plausible, convince itself the tests it wrote are the right tests, and hand you work that fails in a way it cannot see. Now split the job: one agent writes, a second writes tests without seeing the first one's reasoning, a third tries to break the result. None of them is smarter than the original. But the second one is not invested in the first one's mistake, and the third one is rewarded for finding it, and suddenly the blind spot has somewhere to be caught.
 
-That is the whole idea, and it generalizes uncomfortably far. Verification stops being something the author does to their own work. Different agents bring genuinely different failure modes, which means their errors stop lining up. And the thing that could not check itself is now checked by something that has no stake in the answer.
+That is the whole idea, and it generalizes uncomfortably far: the thing that could not check itself is now checked by something with no stake in the answer.
 
 Which raises the question the rest of the series is about: once you have several agents, somebody has to decide who does what, who checks whom, and whose judgement wins when two of them disagree. Those are questions about power, and they turn out to answer themselves whether or not anyone is paying attention. [Part 2](/posts/2026/agent-fabric-part2/) is how the work gets split. [Part 3](/posts/2026/agent-fabric-part3/) is who ends up in charge.
 
