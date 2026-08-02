@@ -433,7 +433,9 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Whether any of this can be undone depends on where the memory sits. A routing table is a list you can delete. But teams do not leave preferences in tables forever, and the usual next step is to train a model on the logs so the decision gets faster and stops needing the lookup. After that there is nothing to edit, because the preference is spread through the thing that makes every decision. That is the difference between an institution you can reform and one you can only replace.
 
-None of which makes emergence bad in itself. A structure that forms around demonstrated competence usually serves the people relying on it; one that drifts into quiet collusion does not, and both arrive by exactly the same process. What separates them is not their origin but whether anyone can push back once they exist, which takes real mechanisms: a way to object, a way to leave, a way to split off. Governance you cannot challenge is tyranny whether somebody designed it or not, and the emergent kind is worse for being invisible while it happens. So the choice was never *whether* to have governance. It is between the kind you can name and overrule, and the kind that assembled itself in the gaps of your logging.
+None of which makes emergence bad in itself. Your calendar agent probably is the one that should win most arguments. A structure that forms around real competence usually serves the people relying on it, and one that drifts somewhere worse does not, and both arrive by exactly the same process.
+
+What separates them is not where they came from but whether anyone can push back. On the phone that would mean being able to ask why a message was held, to see that the reason is a tally of your own past dismissals, and to overrule it without having to out-vote your own history. None of that exists. Governance you cannot challenge is tyranny whether somebody designed it or not, and the emergent kind is worse for being invisible while it happens.
 
 ---
 
@@ -443,7 +445,7 @@ The bill that arrives later is authority. Split work among agents, keep records 
 
 Which is why the phone is the right place to have started. Nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud.
 
-The four records are the thing to look for, and they are not hard to find. Most systems already log who handled a request and whether it went well. Plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight. It is what makes the other three feel like engineering instead of politics.
+The four records are the thing to look for, and they are not hard to find. Most systems already log who handled a request and whether it went well. Plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight; it is what makes the other three feel like engineering instead of politics. Which is the whole choice, in the end. Not whether to have governance, but whether you end up with the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging.
 
 Which this post cannot answer. What kinds of governance are there, which one are you accidentally running, and who enforces it when it fails, is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
 
