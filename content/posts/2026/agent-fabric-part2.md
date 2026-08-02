@@ -347,7 +347,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
 
-Your four agents barely need organizing; one of them handing out jobs is plenty. The trouble starts when there are more of them and they can call each other, because then the shape of who-hands-work-to-whom stops being an implementation detail. Your research agent splitting a job and merging the answers is one shape, and it is about speed. Something sitting in front deciding who handles what is a different shape, and it is about who decides.
+Four agents barely need organizing; one of them handing out jobs is plenty. It gets interesting when there are dozens and they can call each other, because then somebody has to decide who gets what, and that decision is not an implementation detail. It is the whole question.
 
 A dispatcher has to decide who is worth handing work to. It could go on declared capability, or on the type of the task, but the moment any record of past results exists that record wins, because it is cheaper than asking and more accurate than trusting. And a record of who did well is the first sentence of a hierarchy.
 
@@ -436,7 +436,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Whether any of this can be undone depends on where the memory sits. A routing table is a list you can delete. But teams do not leave preferences in tables forever, and the usual next step is to train a model on the logs so the decision gets faster and stops needing the lookup. After that there is nothing to edit, because the preference is spread through the thing that makes every decision. That is the difference between an institution you can reform and one you can only replace.
 
-None of which makes emergence bad in itself. Your calendar agent probably is the one that should win most arguments. A structure that forms around real competence usually serves the people relying on it, and one that drifts somewhere worse does not, and both arrive by exactly the same process.
+None of which makes this bad in itself. Your calendar agent probably should win most arguments. A structure that forms around real competence usually serves the people relying on it, and one that drifts somewhere worse does not, and both arrive by exactly the same process.
 
 What separates them is not where they came from but whether anyone can push back. On the phone that would mean being able to ask why a message was held, to see that the reason is a tally of your own past dismissals, and to overrule it without having to out-vote your own history. None of that exists. Governance you cannot challenge is tyranny whether somebody designed it or not, and the emergent kind is worse for being invisible while it happens.
 
