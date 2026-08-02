@@ -223,7 +223,7 @@ Three options, after all of recorded history trying. You have lived inside all o
 
 Why any of this is needed comes down to something anyone who has ever delegated a chore already knows: whenever one party acts on another's behalf, their interests drift apart. Economists call this the principal-agent problem, the gap between what the person asking wants and what the person doing it is actually rewarded for. Every hop in a delegation chain is one more chance for those to come apart, and governance is the machinery for holding them together.
 
-It is worth being sober about how well that machinery works. Decades of research on human groups found that a group is not automatically smarter than the people in it; whether more agents means more insight or just more noise is decided by the structure.
+That machinery is weaker than it sounds. Decades of research on human groups found that a group is not automatically smarter than the people in it; whether more agents means more insight or just more noise is decided by the structure.
 
 One warning about the market option, since it is the one people reach for. Real markets work because a price carries information nobody could have gathered centrally: it quietly sums up what thousands of people know. What agents trade in is mostly compute and latency, and those numbers say almost nothing about whether the work was any good. A leaderboard that looks like a market may be pricing the wrong thing entirely, which is how the desk ended up rewarding fast refunds.
 
@@ -316,7 +316,7 @@ None of these archetypes is a prescription. They are a vocabulary, and the whole
 
 And every one of those choices is a trade that resists cleverness. Speed and resistance to drift come out of the same budget. So do buy-in and decisiveness. And flexibility, it turns out, is paid for in legibility later, when somebody needs to reconstruct what happened. Nothing reaches the corner where it gets both. A real system settles somewhere along each line, and where it settles says a great deal about what its builders were afraid of.
 
-The encouraging part is that this no longer has to live in prose. Agent frameworks already treat handoffs, guardrails, tracing, and tool permissions as first-class things you configure. If it does not show up in the runtime, it is not governance; it is a document. Which does not escape the pricing-page problem, and it is worth being honest that nothing here does: putting a rule in the runtime moves it from a document you can ignore to a document your provider can overrule, which is an improvement and not a solution. The rules you write become real to your agents. Whose rules the runtime itself obeys is a question for a layer none of this reaches.
+The encouraging part is that this no longer has to live in prose. Agent frameworks already treat handoffs, guardrails, tracing, and tool permissions as things you configure. If it does not show up in the runtime, it is not governance; it is a document. Which does not escape the pricing page, and nothing here does: putting a rule in the runtime moves it from a document you can ignore to a document your provider can overrule. That is an improvement, not a solution.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
