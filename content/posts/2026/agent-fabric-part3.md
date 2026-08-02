@@ -201,7 +201,7 @@ That is the bet this post is making: agent systems will fail through bad institu
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-One word does heavy lifting throughout. A **society** here is not just several agents working together; it is a group that has begun accumulating things across tasks, sharing context, routing work based on what happened last time, letting what one learns reach the others. A pipeline that forgets everything between runs never becomes one. A group that remembers does, and remembering is what governance grows out of.
+The desk qualifies as a **society** in the sense this series uses, and the bar is lower than it sounds. Not several agents working together, but a group that accumulates: sharing context, routing work by what happened last time, letting what one learns reach the others. A pipeline that forgets everything between runs never gets there. A group that remembers does, and remembering is what governance grows out of.
 
 ## What Governance Actually Is
 
