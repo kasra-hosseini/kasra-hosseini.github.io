@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~4,400 words"
+wordcount: "~4,700 words"
 ---
 
 <style>
@@ -205,7 +205,11 @@ One word does heavy lifting throughout. A **society** here is not just several a
 
 ## What Governance Actually Is
 
-Watch the desk fail before naming anything. Its leaderboard is working: the two best agents get the hard billing disputes, everyone is happy, resolution times drop. What nobody notices is that the metric is resolution time, and the fastest way to resolve a hard dispute is to approve the refund. So the two most trusted agents on the desk gradually become the two most generous, the leaderboard rewards them for it, and the desk's standing hierarchy is now optimising against the company that built it. No agent lied. No attacker was involved. The scoreboard simply measured the wrong thing and everyone competed honestly.
+Start with somebody on the other end of it. A customer writes in because her refund was refused. She has been buying from this retailer for six years and returns maybe one thing in twenty, and the reply she gets is polite and final. What she is not told, because nobody at the company could tell her, is that a scoring system decided months ago that her return history made her a risk, and nothing since has been able to look past it. There is no one to appeal to. Here is how a desk ends up like that.
+
+It starts with the leaderboard working. The two best agents get the hard billing disputes, everyone is happy, resolution times drop. What nobody notices is that the metric is resolution time, and the fastest way to resolve a hard dispute is to approve the refund. So the two most trusted agents on the desk gradually become the two most generous, and the leaderboard rewards them for it. No agent lied. No attacker was involved. The scoreboard simply measured the wrong thing and everyone competed honestly.
+
+Six months later somebody in finance notices the refund line and the desk gets a risk score bolted on, tuned hard, because the drift had to be stopped. That is the machinery that refuses her. Every step was reasonable and nobody chose the outcome, which is the pattern this whole post is about.
 
 Notice what the router had become for that to happen. A router that forwards traffic is playing the game. A router that keeps score and decides who may touch what is writing the rules the game has to follow, and that is the line: the rules, not the players and not the moves.
 
@@ -332,11 +336,11 @@ It also means that making one agent behave well is not the same problem as makin
 
 ## Open Problems
 
-A fair amount of this is unsolved, and the hard-but-tractable problems share one root: nearly every tool we have for holding something accountable assumes it stays put. Agents do not. Copy the desk's best agent, tweak its instructions, run both, and a month later a customer asks why their refund was denied. Which one owes them an explanation? The copy has the original's record and none of its history. No login system ever built has an answer, because the question is not who signed in. It is who is continuous with the thing that made the decision. The same problem breaks record-keeping, since an agent working in several societies at once leaves a trail that snaps at every boundary it crosses.
+A fair amount of this is unsolved, and the hardest part is not technical. Go back to the customer whose refund was refused. Suppose she does get somebody to look. Which agent owes her an explanation? By then the one that scored her has been copied, retrained, and copied again, and each copy carries the record without the history. No login system ever built answers that, because the question is not who signed in. It is which thing is continuous with the one that decided.
 
-A harder version is what happens when a system rewrites its own rules under pressure, which human institutions do constantly: democracies reach for emergency powers, markets stop trading. Deciding what should trigger that is difficult enough. Making sure the emergency mode ever ends is the part nobody has solved, in agents or anywhere else.
+Harder still is what happens when a system rewrites its own rules under pressure, which human institutions do constantly: democracies reach for emergency powers, markets stop trading. Deciding what should trigger that is difficult enough. Making sure the emergency mode ever ends is the part nobody has solved, in agents or anywhere else.
 
-The rest cannot be engineered away, because each one needs somebody to make a call. Should an agent's record follow it into a job with different conditions? How would anyone actually supervise a desk of a thousand agents, when reading their decisions is arithmetically impossible and summaries might preserve real oversight or only its appearance? And underneath both, the question this post has now dodged twice: the desk's agents cannot agree to be governed, so what would make authority over them legitimate, and is that even a coherent thing to ask?
+And some of it cannot be engineered at all, because it needs somebody to make a call. Should an agent's record follow it into work with different conditions? How would anyone supervise a desk of a thousand agents, when reading their decisions is arithmetically impossible and summaries might preserve real oversight or only the appearance of it? Underneath both sits the question this post has dodged twice: the desk's agents cannot agree to be governed, so what would make authority over them legitimate, and is that even a coherent thing to ask?
 
 ---
 
