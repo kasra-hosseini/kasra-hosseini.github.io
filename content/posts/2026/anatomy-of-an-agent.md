@@ -25,22 +25,11 @@ Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. I
 
 That gap does not close by making the model smarter. It closes by building things around it, and the things have a name: **scaffolding**. A prompt telling it what it is doing. Tools letting it act. Memory carrying what it learned from one step into the next. And a loop that keeps going until the work looks done. The model supplies the reasoning. The scaffolding is what turns reasoning into consequence.
 
-<div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
-
-- **Prologue: The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
-- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
-- **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: how work gets split among agents, and how splitting it quietly creates authority nobody granted
-- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
-- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
-- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
-</div>
-
 Every piece of that is load-bearing, and the fastest way to see it is to pull pieces out. Without the loop you are back to a chatbot. Without tools you have something that can think and never touch anything. Memory is the strangest omission of the three, because an agent that loses it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
 ## What the Loop Needs
 
-Start with the acting. Not all of it is equally recoverable, and that turns out to matter more than how clever the agent is. A deleted file comes back from backup. A robot arm that has already swung cannot be unswung. In between sits everything else: reading and writing files is solved, calling a well-behaved service through something like <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">MCP</a> is solved, driving a browser is messy because pages change under you, and moving something physical is hardest of all. The same loop with the same model is a different proposition depending on which of those it can reach. (The primitives are called tools; the reusable procedures built from them are skills.)
+Start with the acting. Not all of it is equally recoverable, and that turns out to matter more than how clever the agent is. A deleted file comes back from backup. A robot arm that has already swung cannot be unswung. In between sits everything else: reading and writing files is solved, calling a well-behaved service through something like <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">MCP</a> is solved, driving a browser is messy because pages change under you, and moving something physical is hardest of all. The same loop with the same model is a different proposition depending on which of those it can reach.
 
 Everything else in the scaffolding exists to keep the loop pointed somewhere. A prompt is how a human's goal gets in. Planning looks more than one move ahead. Identity narrows what the agent will even consider, which is why a coding assistant and a customer-service agent can run on the same model and behave nothing alike. And the loop does not have to wait to be called: it can watch a system and step in when something looks wrong, pause to ask a person to approve a plan, or run for an hour with nobody looking.
 
@@ -89,3 +78,15 @@ Which raises the question the rest of the series is about: once you have several
 ---
 
 One line is worth carrying away from all of this. A loop cannot audit itself: an agent left alone with its own judgement does not converge on the truth, it converges on whatever it already believed, only louder. Everything else in this series follows from trying to fix that, and from what the fix costs.
+
+
+<div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
+<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
+
+- **Prologue: The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
+- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
+- **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: how work gets split among agents, and how splitting it quietly creates authority nobody granted
+- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
+- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
+- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
+</div>
