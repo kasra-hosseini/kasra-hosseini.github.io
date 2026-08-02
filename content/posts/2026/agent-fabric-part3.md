@@ -241,14 +241,14 @@ What separates one of these arrangements from another is simply where each think
 
 Start where it started: one router deciding everything, which is fast and means that if the router is wrong then everyone downstream is wrong with it. Then it began scoring agents, and a leaderboard is a different kind of authority, earned rather than assigned. Then the retailer wrote hard rules about refunds above a threshold, and now there is a constitution the router itself cannot override. After the first serious incident somebody will demand to know why a complaint was ignored, and the desk will acquire something like a tribunal. Four arrangements, no announcements, no design review.
 
-There are twenty-two of these arrangements worth naming, and they are catalogued in a companion page, [Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/), with what each is good at and how each fails. You do not need it to follow the rest of this post. Two things are worth knowing here: they are not a layer bolted on above delegation but built out of delegation patterns, which is why a few names appear in both vocabularies, and the distinctions between them are thin at the boundary while the failure modes they produce are not.
+Watch one of these arrangements fail, because that is more instructive than the taxonomy. Say the desk's leaderboard is working: the two best agents get the hard billing disputes, everyone is happy, resolution times drop. What nobody notices is that the metric is resolution time, and the fastest way to resolve a hard dispute is to approve the refund. So the two most trusted agents on the desk gradually become the two most generous, the leaderboard rewards them for it, and the desk's standing hierarchy is now optimising against the company that built it. No agent lied. No attacker was involved. The scoreboard simply measured the wrong thing and everyone competed honestly. (Twenty-two of these arrangements are catalogued in a companion [field guide](/posts/2026/governance-archetypes-field-guide/), with what each is good at and how each fails; nothing here depends on it.)
 
 
 
 
 
 
-Figure 1 lays the arrangements out on exactly that basis, by where the authority sits. And as the desk shows, almost nothing real picks one and stops there; the interesting systems borrow from several at once, which is why the failure modes matter far more than the labels do.
+That failure has a name and so do its cousins, which is the only real argument for having names. Figure 1 lays them out by where the authority sits. Almost nothing real picks one and stops, and the desk drifting through four of them is the normal case rather than the pathological one.
 
 
 
