@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~4,300 words"
+wordcount: "~4,400 words"
 ---
 
 <style>
@@ -217,9 +217,9 @@ Three options, after all of recorded history trying. You have lived inside all o
 
 Why any of this is needed comes down to something anyone who has ever delegated a chore already knows: whenever one party acts on another's behalf, their interests drift apart. Economists call this the <a href="https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem" target="_blank" rel="noopener" class="red-link">principal-agent problem</a>, the gap between what the person asking wants and what the person doing it is actually rewarded for, and every hop in a delegation chain is one more chance for what was asked and what gets done to come apart. Governance is the machinery for holding those together across depth, time, and organizational boundaries, and it is worth being sober about how well that works. Decades of <a href="https://doi.org/10.1126/science.1193147" target="_blank" rel="noopener" class="red-link">research on human groups</a> found something deflating: a group is not automatically smarter than the people in it. More agents can mean more insight or just more noise, and the structure is what decides which.
 
-Economists spent a century working out when each of the three wins, and the Related Work note below maps that literature onto agents. One caveat carries over badly, though: the case for markets rests on prices carrying information nobody could have centralized, and the compute-and-latency "prices" agents trade in carry far less of it.
+One warning about the market option, since it is the one people reach for. Real markets work because a price carries information nobody could have gathered centrally: it quietly sums up what thousands of people know. What agents trade in is mostly compute and latency, and those numbers say almost nothing about whether the work was any good. A leaderboard that looks like a market may be pricing the wrong thing entirely, which is how the desk ended up rewarding fast refunds.
 
-Some of this gets designed on purpose. The rest <a href="https://en.wikipedia.org/wiki/Self-organization" target="_blank" rel="noopener" class="red-link">self-organizes</a>, norms hardening out of repeated interaction while nobody watches, which is not a new discovery. <a href="https://en.wikipedia.org/wiki/John_Henry_Holland" target="_blank" rel="noopener" class="red-link">Complexity</a> <a href="https://en.wikipedia.org/wiki/Stuart_Kauffman" target="_blank" rel="noopener" class="red-link">researchers</a> spent decades showing that interacting agents under resource pressure reliably generate structures nobody designed. Those findings come from biology and physics, though, so whether language-model agents behave the same way is still open.
+Some of this gets designed on purpose. The rest just happens, norms hardening out of repeated interaction while nobody watches. That is not a new finding, and it is not specific to software: put any set of interacting agents under resource pressure and structures nobody designed reliably show up. Most of that evidence comes from biology and physics, though, so whether language models behave the same way is genuinely open.
 
 What is genuinely new is that here the conditions for self-organization are themselves adjustable. An ant colony's chemistry is not up for negotiation, but an agent society runs on protocols, reward structures, and starting configurations that somebody owns and can change. You cannot redesign a pheromone. You can absolutely redesign a reputation score.
 
@@ -339,13 +339,11 @@ And for researchers the news is worse still, because multi-agent safety does not
 
 ## Open Problems
 
-A fair amount of this is unsolved, and the open questions divide usefully into the ones that are merely hard and the ones that are hard in a way engineering cannot reach.
+A fair amount of this is unsolved, and the hard-but-tractable problems share one root: nearly every tool we have for holding something accountable assumes it stays put. Agents do not. Copy the desk's best agent, tweak it, run both, and no login system ever built can say which one owes you an explanation for last month's refunds. The same problem breaks record-keeping, because an agent working in several societies at once leaves a trail that snaps at every boundary it crosses.
 
-The tractable ones are still genuinely difficult, and they mostly come back to a single root: almost every tool we have for holding a system accountable assumes the thing being held accountable stays put. Agents do not. One can be cloned, merged, or rolled back to last Tuesday before lunch, and no authentication scheme ever designed has an answer to who is now responsible for what the original did. The same assumption breaks provenance, because an agent working inside several societies at once leaves a trail that snaps at every boundary it crosses, until tracing which society's rules produced a given output becomes guesswork.
+A harder version is what happens when a system rewrites its own rules under pressure, which human institutions do constantly: democracies reach for emergency powers, markets stop trading. Deciding what should trigger that is difficult enough. Making sure the emergency mode ever ends is the part nobody has solved, in agents or anywhere else.
 
-A harder version of the same problem is what happens when a system rewrites its own rules under pressure, which human institutions do constantly: democracies reach for emergency powers, markets simply stop trading. Working out what should trigger the switch is difficult enough. Making sure the emergency mode ever ends is the part nobody has solved, in agents or anywhere else.
-
-The other set cannot be engineered away at all, because each needs somebody to make a judgement call. Should reputation travel between contexts, when a track record earned under one set of conditions may mean nothing under another? How would anyone supervise a desk of a thousand agents, given that reading their decisions is arithmetically impossible and the alternative is a set of signals that might preserve real oversight or merely its appearance? And underneath both, the question this post has now deferred twice: agents cannot consent to being governed, so what makes authority over something that cannot agree to it legitimate at all, and is that even a coherent thing to ask?
+The rest cannot be engineered away, because each one needs somebody to make a call. Should an agent's record follow it into a job with different conditions? How would anyone actually supervise a desk of a thousand agents, when reading their decisions is arithmetically impossible and summaries might preserve real oversight or only its appearance? And underneath both, the question this post has now dodged twice: the desk's agents cannot agree to be governed, so what would make authority over them legitimate, and is that even a coherent thing to ask?
 
 ---
 
