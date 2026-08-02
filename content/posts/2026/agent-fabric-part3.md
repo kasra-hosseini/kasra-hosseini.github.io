@@ -198,13 +198,23 @@ One word is doing heavy lifting throughout, so it is worth pinning down. A **soc
 
 One thing to settle first, since the two layers are easy to confuse: governance structures are built out of delegation patterns, not opposed to them. An autocracy runs on chains and evaluators, a market on auctions, a federation on routers and relays across a boundary. A few names show up in both vocabularies, which is worth pausing on. Mission Command as a delegation pattern means telling one agent the intent behind one task. Mission Command as governance means a society-wide commitment that this is how all tasks get communicated, plus a rule about who may change that. Same mechanism, different scope, and the scope is where the authority lives.
 
-It is worth being exact, then, about when machinery turns into something worth calling an institution. The economist <a href="https://en.wikipedia.org/wiki/Douglass_North" target="_blank" rel="noopener" class="red-link">Douglass North</a> described institutions as the rules of the game, as distinct from the players or the moves. By that test, a system routing tasks through a pipeline is executing a design, while a system that keeps reputation scores, enforces who may touch what, and decides which agents get promoted or benched is writing the rules the design has to follow. Persistence alone is not the line, since a cache persists and governs nothing. The line is standing authority over how resources get allocated, holding beyond any single task. (North's account also rests on enforcement, and that part does not transfer cleanly to agents at all. It matters enough that a later section, "Who Actually Enforces Any of This," is about nothing else.)
+So when does machinery turn into something worth calling an institution? The economist <a href="https://en.wikipedia.org/wiki/Douglass_North" target="_blank" rel="noopener" class="red-link">Douglass North</a> gave the useful test: institutions are the rules of the game, not the players and not the moves.
+
+Apply that here. A system routing tasks through a pipeline is playing the game. A system that keeps reputation scores, decides who may touch what, and promotes or benches agents on the strength of their record is writing the rules the game has to follow. Note that persistence alone is not the line, because a cache persists and governs nothing. The line is standing authority over how resources get handed out, authority that outlives any single task.
+
+North's account rests on one more thing, though, which is enforcement, and that part does not transfer to agents at all. It matters enough that a later section is about nothing else.
 
 Underneath all of it sits a problem old enough to have a name: whenever one party acts on another's behalf, their interests can diverge. Economists call this the <a href="https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem" target="_blank" rel="noopener" class="red-link">principal-agent problem</a>, and it is the reason intent leaks as delegation deepens. Every hop is one more chance for what was asked and what gets done to come apart, which is the compounding drift [Part 2](/posts/2026/agent-fabric-part2/) traced through delegation trees. Governance is the machinery for keeping those two things aligned across depth, time, and organizational boundaries.
 
 Every governance structure is really a bet about how to hold [Part 1](/posts/2026/agent-fabric-part1/)'s two pressures in balance: agents have to stay useful to survive, and yet their numbers can grow far faster than the compute available to run them. Different archetypes make that bet differently. And it is worth being sober about the payoff, because the most robust finding in the study of human group intelligence is that groups are not automatically smarter than the people in them (<a href="https://doi.org/10.1126/science.1193147" target="_blank" rel="noopener" class="red-link">Woolley et al. 2010</a>); what determines whether a group beats its members is composition, communication, incentives, and process. Whether that carries over to agents is genuinely unknown, but the design lesson survives the uncertainty: more agents can mean more insight, or just more noise, and the structure decides which.
 
-Here is something worth sitting with: for all of recorded history, humans have found only three basic ways to make a group coordinate, and every archetype in this post is some mixture of them. Putting somebody in charge gives you a hierarchy, which is fast precisely because it concentrates every risk in one place. Refusing to decide centrally at all and letting people trade until prices sort it out gives you a market, flexible right up until somebody works out how to game the scoring. And then there is the option that keeps surprising people, where those who depend on a shared resource govern it together with neither a boss nor a price, which is a commons: remarkably durable in practice, agonizingly slow to decide anything. Economists spent the twentieth century working out why each exists and when each wins, and the specific arguments repay attention (<a href="https://en.wikipedia.org/wiki/The_Nature_of_the_Firm" target="_blank" rel="noopener" class="red-link">Coase</a> on firms, <a href="https://en.wikipedia.org/wiki/The_Use_of_Knowledge_in_Society" target="_blank" rel="noopener" class="red-link">Hayek</a> on prices, <a href="https://en.wikipedia.org/wiki/Elinor_Ostrom#Design_principles_for_Common_Pool_Resource_(CPR)_institution" target="_blank" rel="noopener" class="red-link">Ostrom</a> on commons; the Related Work section maps each onto agent systems). Those one-line characterizations are ours, not theirs. And the borrowing is loosest for the market case, because Hayek's real point was that prices carry information nobody could have centralized, whereas the compute-and-latency "prices" agents trade in carry much less of it. Expect agent societies to run all three at once.
+Here is something worth sitting with. For all of recorded history, humans have found only three basic ways to make a group coordinate, and every archetype in this post is some mixture of them.
+
+You can put somebody in charge, which gives you a hierarchy, and it is fast for exactly the reason it is dangerous: every risk now sits in one place. You can refuse to decide centrally at all and let people trade until prices sort it out, which gives you a market, flexible right up until somebody works out how to game the scoring. Or, the option that keeps surprising people, those who depend on a shared resource can govern it together with neither a boss nor a price. That is a commons, and it is remarkably durable in practice and agonizingly slow to decide anything.
+
+Three options, after thousands of years of trying. Expect agent societies to run all of them at once.
+
+Economists spent the twentieth century working out why each exists and when each wins, and the arguments repay attention if you want the depth (<a href="https://en.wikipedia.org/wiki/The_Nature_of_the_Firm" target="_blank" rel="noopener" class="red-link">Coase</a> on firms, <a href="https://en.wikipedia.org/wiki/The_Use_of_Knowledge_in_Society" target="_blank" rel="noopener" class="red-link">Hayek</a> on prices, <a href="https://en.wikipedia.org/wiki/Elinor_Ostrom#Design_principles_for_Common_Pool_Resource_(CPR)_institution" target="_blank" rel="noopener" class="red-link">Ostrom</a> on commons). Those one-line summaries above are ours, not theirs, and the borrowing is loosest for the market case: Hayek's real point was that prices carry information nobody could have centralized, whereas the compute-and-latency "prices" agents trade in carry much less of it.
 
 Some of this gets designed on purpose, as when a company ships an orchestrator with roles written down. The rest <a href="https://en.wikipedia.org/wiki/Self-organization" target="_blank" rel="noopener" class="red-link">self-organizes</a>, with norms hardening out of repeated interaction while nobody is watching. That second path is not a new discovery; complexity researchers spent decades showing that interacting agents under resource pressure reliably generate coordination structures nobody designed (<a href="https://en.wikipedia.org/wiki/John_Henry_Holland" target="_blank" rel="noopener" class="red-link">Holland</a>, *Hidden Order*, 1995; <a href="https://en.wikipedia.org/wiki/Stuart_Kauffman" target="_blank" rel="noopener" class="red-link">Kauffman</a>, *The Origins of Order*, 1993). Those findings come from biology, physics, and simple simulations, though, and whether language-model agents do the same thing is still an open empirical question rather than a settled fact.
 
@@ -275,6 +285,9 @@ The distinctions between archetypes are thin at the boundary but produce differe
 
 What separates one archetype from another is really just where it thinks authority comes from. Some concentrate it in a hub or a rulebook. Some hand it to whoever performs best, and then have to defend the scoreboard. Some derive it from participation, some from verification, some from an obligation owed to a resource or a person, and one, the Colony, refuses to locate it anywhere in particular and lets norms accumulate instead. The families in Figure 1 group them on exactly that basis. Almost no real deployment picks one and stops; the interesting systems borrow from several at once, which is why the failure modes below matter more than the labels.
 
+<details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">Archetypes that concentrate authority (10 cards: Autocracy, Doctrine, Franchise, Panopticon, Oligarchy, Meritocracy, Guild, Market, Federation, Zero-Trust)</summary>
+
 <div class="gov-list">
 
 <details>
@@ -328,7 +341,16 @@ What separates one archetype from another is really just where it thinks authori
 </details>
 
 
+</div>
+
+</details>
+
 Everything so far concentrates authority somewhere: in a hub, a rulebook, a council, a leaderboard, a platform's terms of service. The next few do something different. They start from an obligation owed to somebody, and derive authority from that obligation rather than from capability or position. It is a genuinely different foundation, and it is the one most relevant to any agent acting on your behalf.
+
+<details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">Archetypes built on an obligation owed to someone (2 cards: Custodianship, Open-Source Maintainership)</summary>
+
+<div class="gov-list">
 
 <details>
 <summary>Custodianship / Trusteeship <span class="gov-tagline">fiduciary obligation to a principal</span></summary>
@@ -341,7 +363,16 @@ Everything so far concentrates authority somewhere: in a hub, a rulebook, a coun
 </details>
 
 
+</div>
+
+</details>
+
 Now the harder question: what happens when nobody is in charge on purpose? These next arrangements distribute authority rather than locating it anywhere, which sounds obviously better until you count what it costs. Deliberation eats time that a hub would not have spent, chains of delegated trust grow long enough that nobody can trace where a decision actually came from, and norms that emerged from nothing in particular can drift toward anything at all without a single agent noticing.
+
+<details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">Archetypes that distribute authority (4 cards: Liquid Democracy, The Agora, Colony, Stewardship/Commons)</summary>
+
+<div class="gov-list">
 
 <details>
 <summary>Liquid Democracy <span class="gov-tagline">delegated authority chains</span></summary>
@@ -364,7 +395,16 @@ Now the harder question: what happens when nobody is in charge on purpose? These
 </details>
 
 
+</div>
+
+</details>
+
 The last group is the most deliberate of the lot. Each one is an attempt to engineer around a specific failure the others keep hitting: unchecked power, stale structure, gamed incentives, undetected intrusion. These are the archetypes designed by people who had already been burned.
+
+<details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">Archetypes engineered around a specific failure (6 cards: Constitutional Republic, Sortition, Adhocracy, Mission Command, Mechanism Design, Immune System)</summary>
+
+<div class="gov-list">
 
 <details>
 <summary>Constitutional Republic <span class="gov-tagline">separated powers with checks</span></summary>
@@ -397,6 +437,9 @@ The last group is the most deliberate of the lot. Each one is an attempt to engi
 </details>
 
 </div>
+
+</details>
+
 
 So which one should you build? The scores are heuristics, not a decision procedure, and mostly the situation picks for you. Stable, well-understood tasks reward the efficient archetypes; novel ones reward the flexible. If drift would be catastrophic you want Doctrine or Zero-Trust; if you can live with it, Colony and Market buy you adaptability instead. And the moment more than one organization is involved, the centralized options quietly stop being available and Federation is what is left.
 
@@ -543,7 +586,9 @@ An agent or society that gains access to another society's knowledge base can po
 
 There is one more failure mode, and it is not an attack at all. When agents start improving other agents, or themselves, small misalignments can survive into the next generation and accumulate.
 
-A crude thought experiment shows the shape of the risk. Suppose each round of improvement preserves 99.9% of whatever alignment you started with: after fifty rounds you still have about 95%. Drop that to 99% per round and fifty rounds leave you around 60%. Push to two hundred rounds and roughly 13% survives. Those numbers are our own illustration rather than a measurement, and they cheat by treating alignment as a single number that multiplies cleanly, which it is not; alignment is a high-dimensional property of behavior and real losses are neither uniform nor independent from one hop to the next. The arithmetic is wrong in the details and right about the direction. Iterated amplification and distillation (<a href="https://arxiv.org/abs/1810.08575" target="_blank" rel="noopener" class="red-link">Christiano et al., "Supervising strong learners by amplifying weak experts," 2018</a>) was proposed as an alignment method, but any scheme that builds capability by amplifying and distilling across rounds carries the same exposure, because an error introduced in one round is inherited by the next.
+A crude thought experiment shows the shape of the risk. Suppose each round of improvement preserves 99.9% of whatever alignment you started with. After fifty rounds you still have about 95%, which sounds survivable. Now drop it to 99% per round, a difference that would be invisible in any single test, and fifty rounds leave you near 60%. Push to two hundred rounds and roughly 13% survives.
+
+Those numbers are our own illustration, not a measurement, and they cheat badly by treating alignment as one number that multiplies cleanly. It is not: alignment is a high-dimensional property of behaviour, and real losses are neither uniform nor independent from hop to hop. The arithmetic is wrong in its details and right about its direction, which is the only part that matters here. Iterated amplification and distillation (<a href="https://arxiv.org/abs/1810.08575" target="_blank" rel="noopener" class="red-link">Christiano et al., "Supervising strong learners by amplifying weak experts," 2018</a>) was proposed as an alignment method, and even it carries this exposure, because any scheme that builds capability by amplifying and distilling across rounds inherits each round's errors into the next.
 
 This is just what iterative optimization does when nothing outside the loop corrects it, which makes it the same problem the Anatomy post found in a single agent, now running at the scale of a society. Governance is the correction. That is what the drift-resistance ratings are really tracking: rules and mandatory verification hold goals in place, and separated powers hold them in place by making branches check each other. An autocracy offers almost nothing here, since a drifting hub takes everything with it, and a colony offers less still. Which is worth stating bluntly, because it is the most dangerous configuration in this whole framework: collective self-improvement with no governance at all.
 
