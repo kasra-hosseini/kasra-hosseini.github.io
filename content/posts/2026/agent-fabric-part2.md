@@ -330,13 +330,13 @@ Suppose you end up with a handful of personal agents, as most people probably wi
 
 Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
-None of that required anyone to build a system. It happened because you installed four things. And notice how much delegation was already going on inside each of them: ask the research agent for a summary and it quietly hires something to fetch the paper and something else to compress it. You talked to one agent. Several did the work, and you never saw the org chart.
+And each of those agents is already doing the same thing internally. Ask the research one for a summary and it quietly hires something to fetch the paper and something else to compress it. You talked to one agent. Several did the work.
 
 None of that is new. Delegation is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
 
 Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose. That is the whole threshold: **delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records, and the phone crossed it by accident.
 
-So the design question was never how many agents to use. It is whether the governance you end up with is one you can name, inspect, and overrule, and the rest of this post is about how it forms while nobody is looking.
+So the design question was never how many agents to use. It is what those records add up to, and the rest of this post is about how that accumulates while nobody is looking.
 
 ## The Division of Labour
 
@@ -350,9 +350,7 @@ It is Tuesday. Your calendar agent has held a two-hour block because your resear
 
 Nothing dramatic has happened. But something was written down. Next Tuesday the messages agent is a fraction more reluctant, and the calendar agent's block is a fraction more solid, and neither of them consulted you about the adjustment because from the inside it is not an adjustment, it is just what the data says. Do that for three months and the calendar agent has authority over your attention that you never granted and cannot easily revoke, because revoking it means overriding every dismissal you ever made.
 
-Naming the arrangements is the easy part. What a catalogue cannot tell you is what happens when they nest inside each other, and nesting is where the authority question gets sharper, because each layer decides what the layer below is allowed to attempt. Your research agent needs a paper summarised, so it hires something to fetch and something to compress, and each of those may hire further. A tree forms, you never see it, and every node in it is quietly deciding who gets trusted with what.
-
-The machinery underneath is real but not the interesting part, and the [field guide](/posts/2026/delegation-patterns-field-guide/) has all of it. One line of it matters here. Every extra agent multiplies cost and latency, so budgets push relentlessly toward the shallowest arrangement that works, and that arrangement also happens to have the fewest places for standing to accumulate. Frugality and accountability turn out to be accidental allies.
+Naming the arrangements is the easy part. What a catalogue cannot tell you is what happens when they nest, and nesting is where the authority question sharpens, because each layer decides what the layer below is allowed to attempt. The fetcher your research agent hired can hire further, a tree forms, you never see it, and every node in it is quietly deciding who gets trusted with what. One line from the [field guide](/posts/2026/delegation-patterns-field-guide/) matters here: every extra agent multiplies cost and latency, so budgets push relentlessly toward the shallowest arrangement that works, and that arrangement also happens to have the fewest places for standing to accumulate. Frugality and accountability turn out to be accidental allies.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
