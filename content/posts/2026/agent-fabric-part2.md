@@ -344,9 +344,7 @@ Four agents on a phone barely need organizing; one of them handing out jobs is p
 
 ### Delegation Archetypes
 
-What a catalogue cannot tell you is what happens when those arrangements stack inside each other. Your research agent hires a fetcher; the fetcher hires something to compress what it found; that one hires a summarizer. Three layers deep, and each layer is deciding what the layer below is allowed to attempt. A tree forms and you never see it.
-
-It stays a short tree, though, and not by good design: every extra agent costs money and adds delay, so budgets push toward the fewest layers that do the job. Cheapness turns out to be an accidental safeguard, because a track record is just a stored number, and fewer layers means fewer agents carrying one. The same pressure decides who sits at each node, since a narrow specialist is cheaper than a generalist and often better at its one job. (Part 1's [resource ecology](/posts/2026/agent-fabric-part1/#the-resource-ecology) is the long version.)
+What a catalogue cannot tell you is what happens when those arrangements stack inside each other. Your research agent hires a fetcher; the fetcher hires something to compress what it found; that one hires a summarizer. Three layers deep, and each layer is deciding what the layer below is allowed to attempt. A tree forms and you never see it. It will be a short tree, because each extra layer costs money and time, and short is the one piece of luck in this whole story: the fewer agents there are, the fewer of them build up a record that starts deciding who gets the real work.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
