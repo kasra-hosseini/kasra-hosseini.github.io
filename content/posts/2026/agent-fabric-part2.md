@@ -415,7 +415,7 @@ Notice what separates the two. Handing a draft to a tone-checker is a step insid
 
 Mostly this has not happened yet, and it is worth saying so plainly. Production agent systems are still largely stateless between sessions, which means they never accumulate the performance history that would harden into anything. But the pieces are arriving, in the unremarkable form of long-term memory and evaluation logs and routing analytics, and once a system remembers across sessions what follows is less speculation than arithmetic.
 
-Both arrangements are now running at once, on the phone and in the support queue: work still funnels through one dispatcher, while standing among the rest is earned by track record. Nobody chose either, and the same pair shows up anywhere performance gets logged, in a code pipeline or a warehouse just as readily.
+None of this is specific to phones or support queues. Anywhere performance gets logged and acted on, in a code pipeline or a warehouse, the same thing happens: work funnels through whoever is trusted, and who is trusted is settled by the record.
 
 Why does that count as authority rather than just good optimization? Because a load balancer forgets last week's latencies, which is why nobody would call it a governing body, and the support router does not forget. Its preference outlived the tasks that produced it, and it will still be enforcing that preference tomorrow.
 
@@ -441,7 +441,7 @@ The institutional moment arrives when these implicit norms conflict. The communi
 
 What they share with the phone is the important part: the institution is not a layer somebody added on top. It is the delegation pattern itself, seen over a long enough stretch of time that its own history has started feeding back into it.
 
-Whether this crystallization is reversible depends on what is remembering. A routing table can be reset. A fine-tuned model that internalized the routing preference cannot. The form of memory determines whether the institution can be reformed or only replaced.
+Whether any of this can be undone depends on where the memory sits. A routing table is a list you can delete. But if the preference has been trained into the model's own weights, there is nothing to edit: the judgment is spread through the thing that makes every decision. That difference decides whether an institution can be reformed or only replaced.
 
 None of which makes emergence bad in itself. A structure that forms around genuine, demonstrated competence usually serves the people relying on it; one that drifts into quiet collusion does not, and both can emerge by exactly the same process. What separates them is not their origin but whether anyone can push back once they exist, which requires actual mechanisms: a way to object, a way to leave, a way to split off. Governance you cannot challenge is tyranny whether somebody designed it or not, and the emergent kind is worse for being invisible while it happens.
 
