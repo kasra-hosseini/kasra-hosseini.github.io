@@ -203,8 +203,6 @@ One word does heavy lifting throughout. A **society** here is not just several a
 
 ## What Governance Actually Is
 
-
-
 Watch the desk fail before naming anything. Its leaderboard is working: the two best agents get the hard billing disputes, everyone is happy, resolution times drop. What nobody notices is that the metric is resolution time, and the fastest way to resolve a hard dispute is to approve the refund. So the two most trusted agents on the desk gradually become the two most generous, the leaderboard rewards them for it, and the desk's standing hierarchy is now optimising against the company that built it. No agent lied. No attacker was involved. The scoreboard simply measured the wrong thing and everyone competed honestly.
 
 Notice what the router had become for that to happen. A router that forwards traffic is playing the game. A router that keeps score and decides who may touch what is writing the rules the game has to follow, and that is the line: the rules, not the players and not the moves.
@@ -243,14 +241,7 @@ What separates one of these arrangements from another is simply where each think
 
 Start where it started: one router deciding everything. That is an **Autocracy**, fast for exactly the reason it is dangerous, since if the router is wrong then everyone downstream is wrong with it. Then it began scoring agents, which makes it a **Meritocracy**, where authority is earned by record rather than assigned, and where whoever writes the metric quietly holds the real power. Then the retailer wrote hard rules about refunds above a threshold, and that is **Doctrine**, a constitution the router itself cannot override. After the first serious incident somebody will demand to know why a complaint was ignored, and the desk will acquire an appeal path, which is the beginning of a **Constitutional Republic**, where different powers sit in different hands. Four arrangements, no announcements, no design review, and the leaderboard failure above was the second one going wrong.
 
-
-
-
-
-
 The refund drift has a name, and so do its cousins, which is the only real argument for having names at all. Twenty-two of them are laid out by where the authority sits in a companion [field guide](/posts/2026/governance-archetypes-field-guide/), with what each is good at and how each fails. Almost nothing real picks one and stops; the desk drifting through four of them is the normal case rather than the pathological one, and the rest of this post is about what that drift costs.
-
-
 
 So which should you build, if you ever build one? Mostly the situation picks for you. Stable well-understood tasks reward the efficient arrangements, novel ones reward the flexible, and catastrophic drift pushes you toward hard rules and mandatory verification whether you like the overhead or not. The moment more than one organization is involved, a single centre stops being available at all. But the better instinct is to stop shopping for one archetype: strong systems separate functions instead of choosing between them, with something fast to execute, something bounding what it may do, something watching for drift, and somewhere to appeal. Ask which powers should be split so that no single failure captures everything.
 
@@ -259,8 +250,6 @@ Be warned about what this converges on in practice. Hard rules, plus total visib
 Whatever you pick, you are also picking winners. Watch it happen on the desk. Six months in, the two agents that got the hard billing disputes have handled thousands of them, so their records are the strongest on the board, so they keep getting the hard ones. The third agent, downranked early on a handful of bad weeks, never accumulates enough recent work to climb back, because climbing back would require exactly the work it is no longer given. Its record is not wrong. It is just frozen. Nobody decided that agent should stay junior forever.
 
 Generalize the mechanism and it turns up everywhere. Reputation compounds, so whoever arrived first keeps winning. A colony with no central authority quietly favours early entrants, whose habits calcify into everyone else's defaults. One-hub arrangements serve whoever runs the hub. And meritocracy, the one that sounds fairest, hands real power to whoever writes the benchmark.
-
-
 
 None of this is abstract for long. A coding assistant and a warehouse robot fleet both think of themselves as tools rather than constitutions, and both have made governance choices anyway: the assistant decided which model gets trusted with what, the fleet decided that safety rules outrank throughput and a central dispatcher outranks both. Neither filed paperwork. That is what having names for these structures buys you, the ability to look at something already running and say what it has quietly become. (Worked examples across three horizons live in the [field guide](/posts/2026/delegation-patterns-field-guide/#societies-in-the-wild).)
 
@@ -308,8 +297,6 @@ But voice only works if somebody has a reason to listen, and that reason is exit
 And when a disagreement genuinely cannot be resolved, there is forking, the option software understands better than any other field does. Different domains really do need incompatible rules. A security team may need every single connection verified while an exploratory research team suffocates under precisely that regime, and no amount of deliberation will reconcile them. Splitting lets both be right, which beats forcing a consensus that serves neither.
 
 The boundary events described in [Part 1](/posts/2026/agent-fabric-part1/) (mergers, schisms, expansions) are these mechanisms in action.
-
-
 
 ## What This Framework Is For
 
@@ -376,5 +363,4 @@ Which brings this back to the support desk, which by now has been an autocracy, 
   });
 })();
 </script>
-
 
