@@ -270,7 +270,7 @@ And the ugliest version is not an intrusion at all. The very coordination that m
 
 Worse still is what happens with no adversary present at all. Once agents start improving other agents, each round inherits the last round's errors, and a shortfall too small to fail any single test does not stay small across fifty rounds of compounding. Nobody has measured how fast this happens in practice, which is itself the problem: the degradation is invisible per round by construction.
 
-This even applies to methods designed to prevent it. One proposed alignment technique works by having models train their own successors over many rounds (Christiano et al. 2018), which means it inherits the exposure by construction, since stacking rounds is precisely how it builds capability.
+This even catches the techniques meant to prevent it. One approach to keeping powerful models aligned with what people want has a model train its own replacement, over and over, on the theory that careful supervision at each step carries forward (Christiano et al. 2018). But stacking rounds is exactly how it builds capability, so it inherits the same compounding by construction. Nothing that improves across generations escapes this.
 
 This is simply what iterative optimization does when nothing outside the loop corrects it, which makes it the same problem the Anatomy post found inside a single agent, now running at the scale of a society. Governance is that correction, and it is what the drift-resistance ratings track. Which is worth stating bluntly, because it names the most dangerous configuration in this whole framework: collective self-improvement with no governance at all.
 
