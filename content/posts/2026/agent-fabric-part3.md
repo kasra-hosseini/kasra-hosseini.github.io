@@ -178,6 +178,8 @@ A support team wires up a router that sends billing questions to one agent and t
 
 Now a new agent joins. Who decides whether it gets live tickets? Nobody wrote a rule for that, and yet there is an answer: it has to clear the performance bar the router learned on its own. That bar was never in a spec. It emerged, it now governs who gets what work, and the team that built the thing would struggle to override it without making service worse. Somewhere in that month, a piece of software acquired a policy.
 
+Which is the bet this post is making. Agent systems will fail through bad institutions, not just bad answers, and the failures that matter at scale will not look like one agent returning something wrong. They will look like a market that quietly rewards collusion, a scoreboard that games itself, a chain of delegation nobody can audit. Everything below is a vocabulary for spotting those while they are still choices.
+
 *Part of The Agent Fabric series. [Part 2](/posts/2026/agent-fabric-part2/) ended on an uncomfortable finding: any system that remembers who did what, how well, and at what cost has already begun to govern, whether anyone designed it to or not. This post is about what to do with that. The body is the argument; the expandable sections are reference material you can ignore entirely without losing the thread.*
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
@@ -596,7 +598,7 @@ The other set cannot be engineered away at all, because each needs somebody to m
 
 There is one question none of this answers, which is what becomes of the person at the top of the chain. As delegation deepens and these structures pile up, checking the work yourself stops being possible, not because you lack the skill but because there is too much of it. What you are left asking changes shape entirely. Not "did this agent get it right," which you can no longer verify, but "is this thing producing outcomes I would stand behind," which is a question about an institution rather than an answer.
 
-The failures that matter at scale will not look like a single agent returning a wrong answer. They will look like a market that quietly rewards collusion, a meritocracy that games its own metric, a delegation chain no one can audit, an authority that no longer answers to anyone. Agent systems will fail through bad institutions, not just bad answers. Designing the institution is the work.
+Which brings this back to where it started, with a router that acquired a policy nobody wrote. Nothing in that story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. That is the uncomfortable part: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else. Designing the institution is the work.
 
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
