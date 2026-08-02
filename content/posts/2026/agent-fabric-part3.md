@@ -286,7 +286,7 @@ The distinctions between archetypes are thin at the boundary but produce differe
 What separates one archetype from another is really just where it thinks authority comes from. Some concentrate it in a hub or a rulebook. Some hand it to whoever performs best, and then have to defend the scoreboard. Some derive it from participation, some from verification, some from an obligation owed to a resource or a person, and one, the Colony, refuses to locate it anywhere in particular and lets norms accumulate instead. The families in Figure 1 group them on exactly that basis. Almost no real deployment picks one and stops; the interesting systems borrow from several at once, which is why the failure modes below matter more than the labels.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
-<summary style="cursor: pointer; font-weight: 600; color: #334155;">Archetypes that concentrate authority (10 cards: Autocracy, Doctrine, Franchise, Panopticon, Oligarchy, Meritocracy, Guild, Market, Federation, Zero-Trust)</summary>
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">The ten structures almost everyone builds first, and where each one concentrates the risk</summary>
 
 <div class="gov-list">
 
@@ -345,10 +345,10 @@ What separates one archetype from another is really just where it thinks authori
 
 </details>
 
-Everything so far concentrates authority somewhere: in a hub, a rulebook, a council, a leaderboard, a platform's terms of service. The next few do something different. They start from an obligation owed to somebody, and derive authority from that obligation rather than from capability or position. It is a genuinely different foundation, and it is the one most relevant to any agent acting on your behalf.
+Notice what all ten of those have in common. Each puts authority *somewhere*, whether in a hub, a rulebook, a council, a leaderboard, or a platform's terms of service, and then the design question is only where. The next two abandon that entirely. Their authority comes from an obligation owed to somebody, which is a genuinely different foundation, and it happens to be the one that matters most to you personally: any agent acting on your behalf is one of these, or it should be.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
-<summary style="cursor: pointer; font-weight: 600; color: #334155;">Archetypes built on an obligation owed to someone (2 cards: Custodianship, Open-Source Maintainership)</summary>
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">Two that derive authority from an obligation instead of from power, including the one your personal agent already is</summary>
 
 <div class="gov-list">
 
@@ -367,10 +367,10 @@ Everything so far concentrates authority somewhere: in a hub, a rulebook, a coun
 
 </details>
 
-Now the harder question: what happens when nobody is in charge on purpose? These next arrangements distribute authority rather than locating it anywhere, which sounds obviously better until you count what it costs. Deliberation eats time that a hub would not have spent, chains of delegated trust grow long enough that nobody can trace where a decision actually came from, and norms that emerged from nothing in particular can drift toward anything at all without a single agent noticing.
+Then the harder question: what happens when nobody is in charge on purpose? Refusing to locate authority sounds obviously more attractive, and it is, until you count the bill. Deliberation eats time a hub would never have spent. Chains of delegated trust grow long enough that nobody can trace where a decision actually came from. And norms that emerged from nothing in particular can drift toward anything at all, with not one agent in the system positioned to notice.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
-<summary style="cursor: pointer; font-weight: 600; color: #334155;">Archetypes that distribute authority (4 cards: Liquid Democracy, The Agora, Colony, Stewardship/Commons)</summary>
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">Four that refuse to put anyone in charge, and what that costs them</summary>
 
 <div class="gov-list">
 
@@ -399,10 +399,10 @@ Now the harder question: what happens when nobody is in charge on purpose? These
 
 </details>
 
-The last group is the most deliberate of the lot. Each one is an attempt to engineer around a specific failure the others keep hitting: unchecked power, stale structure, gamed incentives, undetected intrusion. These are the archetypes designed by people who had already been burned.
+Which leaves the most deliberate group of all. Every one of these was built backwards from a failure somebody had already suffered: power that went unchecked, a structure that went stale, incentives that got gamed, an intrusion nobody caught. They are less elegant than the others and considerably more likely to save you, for the same reason a building code is less elegant than a blueprint. These are the archetypes designed by people who had already been burned.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
-<summary style="cursor: pointer; font-weight: 600; color: #334155;">Archetypes engineered around a specific failure (6 cards: Constitutional Republic, Sortition, Adhocracy, Mission Command, Mechanism Design, Immune System)</summary>
+<summary style="cursor: pointer; font-weight: 600; color: #334155;">Six designed by people who had already been burned, each aimed at one specific failure</summary>
 
 <div class="gov-list">
 
