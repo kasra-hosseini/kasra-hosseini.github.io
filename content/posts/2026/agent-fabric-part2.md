@@ -338,7 +338,7 @@ Something logged those overrides, because logging is free and obviously useful. 
 
 Look at what the phone is now keeping. Who did what: the messages agent asked to interrupt. How well it went: you dismissed it. What it cost: eleven minutes of a protected block. And under whose authority: nobody's, which is exactly the problem.
 
-Those four records are the whole threshold. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** The phone crossed that line by accident, and it cannot easily be walked back, since walking it back means overriding every dismissal you ever made. So the real question was never how many agents to use. It is what those records add up to.
+Those four records are the whole threshold. Once a system remembers who did what, how well it went, what it cost, and on whose say-so, **delegation has quietly become governance.** The phone crossed that line by accident, and it cannot easily be walked back, since walking it back means overriding every dismissal you ever made. So the real question was never how many agents to use. It is what those records add up to.
 
 The rest of this post is about how that adds up while nobody is looking.
 
