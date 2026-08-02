@@ -23,7 +23,7 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter. Something was built around it, and that something is the difference between a thing that describes work and a thing that does it.
 
-That gap does not close by making the model smarter. It closes by building things around it, and the things have a name: **scaffolding**. A prompt telling it what it is doing. Tools letting it act. Memory carrying what it learned from one step into the next. And a loop that keeps going until the work looks done. The model supplies the reasoning. The scaffolding is what turns reasoning into consequence.
+That gap does not close by making the model smarter. It closes by building things around it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that keeps going until the work looks done. That apparatus has a name, **scaffolding**, and the model supplies the reasoning while the scaffolding is what turns reasoning into consequence.
 
 Pull any one of those out and watch what happens. Without the loop you are back to a chatbot. Without tools you have something that can think and never touch anything. Memory is the strangest of the three, because an agent that loses it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
@@ -37,13 +37,13 @@ That last one deserves suspicion, because an agent judging its own work is the o
 
 ## The Loop
 
-Perceive, reason, act, observe, go round again. What makes that powerful is not the shape but what the shape does to time: the agent's own output becomes its input next time round. When the coding agent runs the tests, the failures it reads are the ones its own last edit produced. It is not solving a problem so much as negotiating with a situation it keeps changing, and that feedback is the whole trick, however many ways it has been <a href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">dressed up</a> since.
+The loop is just this: the agent looks at the situation, decides what to do, does it, looks again. What makes that powerful is not the shape but what the shape does to time, because the agent's own output becomes its input next time round. When the coding agent runs the tests, the failures it reads are the ones its own last edit produced. It is not solving a problem so much as negotiating with a situation it keeps changing, and that feedback is the whole trick, however many ways it has been <a href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">dressed up</a> since.
 
 ## When the Loop Improves Itself
 
-An agent fails at a task, writes itself a note about why, and reads that note the next time it faces something similar. Not a memory of the conversation, a lesson. Say it spent forty minutes convinced a test was broken when the database simply was not running, and the note it keeps is: check the database before believing a test. Fifty tasks later it is working from a file of those, and the agent that started has effectively been replaced. <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">This has been built</a>, and the procedures that keep working get saved as <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">tools the agent can call by name</a>.
+An agent that keeps notes on its own failures gets better at the work in a way that turning the loop alone never delivers: the output of one pass becomes the input to the next, so it is building on the last attempt rather than repeating it. <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">This has been built</a>, and <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">pushed further</a>.
 
-Which is where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
+And it is where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
 
 ## Where Single-Agent Recursion Breaks
 
