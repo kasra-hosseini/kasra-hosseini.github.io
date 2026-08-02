@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,850 words (body) · ~2,000 words (notes)"
+wordcount: "~2,200 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -338,7 +338,9 @@ Something logged those overrides, because logging is free and obviously useful. 
 
 Look at what the phone is now keeping. Who did what: the messages agent asked to interrupt. How well it went: you dismissed it. What it cost: eleven minutes of a protected block. And under whose authority: nobody's, which is exactly the problem.
 
-Those four records are the whole threshold. Once a system remembers who did what, how well it went, what it cost, and on whose say-so, **delegation has quietly become governance.** The phone crossed that line by accident, and it cannot easily be walked back, since walking it back means overriding every dismissal you ever made. So the real question was never how many agents to use. It is what those records add up to.
+Those four records are the whole threshold. Once a system remembers who did what, how well it went, what it cost, and on whose say-so, **delegation has quietly become governance.**
+
+Watch what that means on your phone specifically. Three months in, you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway, because the record says interruptions get dismissed, and the record is more consistent than you are. You are now arguing with a policy you wrote by accident, and the only way to overturn it is to be wrong about your own preferences often enough to shift the average.
 
 The rest of this post is about how that adds up while nobody is looking.
 
@@ -437,9 +439,11 @@ None of which makes emergence bad in itself. A structure that forms around demon
 
 So this is the real cost of delegating. The obvious bill is the one you can measure: every hop multiplies compute, latency, and the chance that intent leaks a little further from what was asked. That bill is why delegation trees stay shallow, why specialists beat generalists on narrow work, and why the shape of a production system is set as much by budget as by design.
 
-The bill that arrives later is authority. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork. It will have preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it. That is the part worth being uncomfortable about. Nobody has to decide to build an institution for one to end up governing your attention, and the cheapest, most sensible engineering decisions are exactly the ones that build it.
+The bill that arrives later is authority. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork. It will have preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it. Nobody has to decide to build one, and the cheapest, most sensible engineering decisions are exactly the ones that do it.
 
-Which leaves the questions this post cannot answer: what kinds of governance are there, which one are you accidentally running, and who enforces it when it fails? That is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
+Which is why the phone is the right place to have started. Nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud. Scale that from four agents to four thousand and the question stops being what they can do and becomes who they answer to.
+
+Which this post cannot answer. What kinds of governance are there, which one are you accidentally running, and who enforces it when it fails, is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
 
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
