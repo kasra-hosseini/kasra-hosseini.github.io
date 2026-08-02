@@ -230,6 +230,10 @@ One consequence deserves stating plainly, because it is the piece most often mis
 
 ## Where Authority Comes From
 
+One more scene first, because the router was the easy case. Picture the agents on your own phone a year from now: a calendar agent, a messages agent, a research agent, a health tracker. Nobody wired them together. But the calendar agent has noticed you decline meetings during the deep-work blocks the research agent asks for, the messages agent has learned to hold non-urgent things until a gap appears, and the health tracker's sleep data has started shifting when demanding work gets scheduled. No orchestrator anywhere. They coordinate through the fact that they all watch you.
+
+Then two of them disagree. The messages agent has something genuinely urgent; the calendar agent's block says no interruptions. Who wins? Nothing in the system was ever given the authority to decide, and yet there is an answer, because whichever agent's judgement you have overridden less often now carries more weight in that domain. You did not write that rule. You voted for it, one dismissal at a time, without knowing there was an election.
+
 What separates one of these structures from another is where each one thinks authority comes from. Some concentrate it in a hub or a rulebook. Some hand it to whoever performs best and then spend their lives defending the scoreboard. Some derive it from participation, some from verification, some from an obligation owed to a person, and one refuses to locate authority anywhere at all and lets norms accumulate instead. Carry that question through what follows, along with the one from the last section: who would actually make this stick? Some answer it well. Most answer it by quietly assuming somebody else will.
 
 These structures are not a layer bolted on above delegation; they are built out of delegation patterns, which is why a few names appear in both vocabularies. The cards rate each on four axes, explained below.
