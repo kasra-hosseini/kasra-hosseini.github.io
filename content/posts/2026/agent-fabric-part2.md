@@ -414,7 +414,7 @@ The shapes are the easy part. What matters is what happens when they stack insid
 
 ## From Architecture to Institution
 
-Everything so far has been about your phone, where the whole system is yours and the worst it costs you is a missed message. But nothing in that story depended on the agents being personal. It depended on there being several of them, a way to hand work between them, and somebody keeping score. Put those three things in a company and the stakes change while the mechanism does not.
+Everything so far has been about your phone, where the whole system is yours and the worst it costs you is a missed message. Strip that story down and none of it was about phones. Several agents, a way to hand work between them, and something keeping score: those three facts did all the work, and they are just as true of a company that has never thought about any of this.
 
 A retailer points a router at its incoming tickets: it reads each one as billing, returns, or technical, and hands it to whichever agent handles that kind. Pure delegation so far. But the router logs how long each agent takes, how often customers come back angry, how often a ticket has to be escalated, because those numbers are cheap to collect and obviously useful.
 
