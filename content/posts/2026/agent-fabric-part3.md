@@ -212,6 +212,8 @@ You can put somebody in charge, which gives you a hierarchy, and it is fast for 
 
 Three options, after thousands of years of trying. Expect agent societies to run all of them at once.
 
+You have lived inside all three this week. Your school or workplace is a hierarchy: somebody decides, and the speed of that is exactly why one bad decision reaches everyone. Buying anything online is a market, which is why the reviews are gamed. And a group chat that somehow agrees where to eat, with no one in charge and no money changing hands, is a commons, which is why it takes forty minutes.
+
 Economists spent a century working out when each of the three wins, and the Related Work note below maps that literature onto agents. One caveat carries over badly, though: the case for markets rests on prices carrying information nobody could have centralized, and the compute-and-latency "prices" agents trade in carry far less of it.
 
 Some of this gets designed on purpose. The rest <a href="https://en.wikipedia.org/wiki/Self-organization" target="_blank" rel="noopener" class="red-link">self-organizes</a>, norms hardening out of repeated interaction while nobody watches, which is not a new discovery. <a href="https://en.wikipedia.org/wiki/John_Henry_Holland" target="_blank" rel="noopener" class="red-link">Complexity</a> <a href="https://en.wikipedia.org/wiki/Stuart_Kauffman" target="_blank" rel="noopener" class="red-link">researchers</a> spent decades showing that interacting agents under resource pressure reliably generate structures nobody designed. Those findings come from biology and physics, though, so whether language-model agents behave the same way is still open.
