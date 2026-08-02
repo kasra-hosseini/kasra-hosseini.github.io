@@ -1375,7 +1375,7 @@ The patterns and archetypes above are parts. What they look like assembled is mo
       }, 3200));
     }
     timers.push(setTimeout(anim, 1400));
-    anno(g, p, 'Control transfers fully \u2014 caller exits after handoff');
+    anno(g, p, 'Control transfers fully: caller exits after handoff');
   }
 
   function drawNegotiation(p) {
@@ -1461,7 +1461,7 @@ The patterns and archetypes above are parts. What they look like assembled is mo
       if (tick < 80) timers.push(setTimeout(anim, 1600));
     }
     timers.push(setTimeout(anim, 1400));
-    anno(g, p, 'Adversarial verification \u2014 output must survive attack');
+    anno(g, p, 'Adversarial verification: output must survive attack');
   }
 
   function drawSpeculative(p) {
@@ -1505,7 +1505,7 @@ The patterns and archetypes above are parts. What they look like assembled is mo
       if (tick < 80) timers.push(setTimeout(anim, 2800));
     }
     timers.push(setTimeout(anim, 1400));
-    anno(g, p, 'Race to first valid result \u2014 losers discarded');
+    anno(g, p, 'Race to first valid result: losers discarded');
   }
 
   function drawTeacherStudent(p) {
