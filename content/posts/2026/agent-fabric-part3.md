@@ -236,7 +236,9 @@ One consequence deserves stating plainly, because it is the piece most often mis
 
 ## Where Authority Comes From
 
-What separates one of these structures from another is where each thinks authority comes from, and the easiest way through them is to keep that support desk from the opening in mind. It will pass through most of these arrangements without anybody filing a change request. Right now it is the simplest kind: one router decides everything, and if the router is wrong then everyone downstream is wrong with it.
+What separates one of these arrangements from another is simply where each thinks authority comes from, and the support desk from the opening will pass through several of them without anybody filing a change request.
+
+Start where it started: one router deciding everything, which is fast and means that if the router is wrong then everyone downstream is wrong with it. Then it began scoring agents, and a leaderboard is a different kind of authority, earned rather than assigned. Then the retailer wrote hard rules about refunds above a threshold, and now there is a constitution the router itself cannot override. After the first serious incident somebody will demand to know why a complaint was ignored, and the desk will acquire something like a tribunal. Four arrangements, no announcements, no design review.
 
 These structures are not a layer bolted on above delegation; they are built out of delegation patterns, which is why a few names appear in both vocabularies. The cards rate each on four axes, explained below.
 
@@ -297,7 +299,112 @@ The distinctions between archetypes are thin at the boundary but produce differe
   Click to restart.<br><button class="viz-restart" onclick="document.getElementById('viz-society').querySelector('svg').dispatchEvent(new Event('click'))">Restart</button></div>
 </div>
 
-Figure 1 groups them on exactly that basis, by where the authority sits. And almost no real deployment picks one and stops there; the interesting systems borrow from several at once, which is why the failure modes matter far more than the labels do.
+Figure 1 lays the arrangements out on exactly that basis, by where the authority sits. And as the desk shows, almost nothing real picks one and stops there; the interesting systems borrow from several at once, which is why the failure modes matter far more than the labels do.
+
+
+
+So which should you build, if you ever build one? Mostly the situation picks for you. Stable well-understood tasks reward the efficient arrangements, novel ones reward the flexible, and catastrophic drift pushes you toward hard rules and mandatory verification whether you like the overhead or not. The moment more than one organization is involved, a single centre stops being available at all. But the better instinct is to stop shopping for one archetype: strong systems separate functions instead of choosing between them, with something fast to execute, something bounding what it may do, something watching for drift, and somewhere to appeal. Ask which powers should be split so that no single failure captures everything.
+
+Be warned about what this converges on in practice. Doctrine plus Panopticon plus Autocracy, wrapped in logs and approvals and escalation paths, is bureaucracy, and bureaucracy is probably the most common agent-governance pattern that will actually ship. It is not elegant, but it optimizes for the things organizations are held to account for: legibility, auditability, somewhere to send the blame. Its failure mode is equally predictable, which is that process becomes the objective and agents get good at satisfying forms instead of solving problems. In regulated domains you may not get a choice.
+
+Whatever you pick, you are also picking winners. An autocracy serves whoever runs the hub, obviously. Markets are subtler, rewarding reputation, which compounds, so whoever arrived first keeps winning. A colony quietly favors early entrants whose habits calcify into everyone else's defaults before anyone notices a decision was made. And even meritocracy, the one that sounds fairest, hands real power to whoever writes the benchmark. So "which structure is most efficient" is half a question. The other half is who accumulates the advantage, and at whose expense.
+
+<details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
+<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Summary: governance archetypes at a glance</summary>
+
+| Archetype | Authority model | When to use | Failure mode |
+|-----------|----------------|-------------|--------------|
+| **Autocracy** | Single hub decides | Stable tasks, one deployer | Bottleneck, single point of failure |
+| **Doctrine** | Written rules | Compliance-critical domains | Rule ossification, gaps in novel cases |
+| **Liquid Democracy** | Delegatable votes | Knowledge-diverse groups | Delegation cycles, vote concentration |
+| **Guild** | Specialists plus liaisons | Deep expertise, cross-team handoffs | Siloing, gatekeeping at boundaries |
+| **Market** | Price/reputation signals | Dynamic allocation, diverse agents | Race to bottom, bid gaming |
+| **Oligarchy** | The capable few decide | Small trusted core, fast decisions | Capture, narrowing of perspective |
+| **Meritocracy** | Performance-ranked | Optimizing throughput | Metric gaming, Matthew effect |
+| **Panopticon** | Central monitor sees all | High-oversight, audited domains | Chilling effect, monitor as bottleneck |
+| **The Agora** | Open debate, majority rules | Diverse independent judgment | False consensus without independence |
+| **Zero-Trust Mesh** | Every link verified | Adversarial, untrusted peers | Overhead, latency, false positives |
+| **Federation** | Self-governing members | Multi-org coordination | Boundary friction, free-riding |
+| **Colony** | Emergent norms | Exploratory tasks, creative search | Drift, invisible governance |
+| **Stewardship / Commons** | Collective governance | Shared resources (memory, tools) | Tragedy of commons without Ostrom principles |
+| **Custodianship** | Fiduciary obligation | Personal agents | Paternalism, misread preferences |
+| **Constitutional Republic** | Separated powers | High-stakes multi-party | Gridlock between branches |
+| **Franchise** | Comply-or-leave platform | Scaled, standardized provision | Platform extracts value from participants |
+| **Open-Source** | Community plus merge authority | Shared artifacts, forkable governance | Fork fragmentation, maintainer overload |
+| **Sortition** | Random selection | Preventing capture | Low competence by chance |
+| **Adhocracy** | Temporary teams | Rapidly changing environment | Coordination overhead, duplication |
+| **Mission Command** | Intent-based autonomy | Capable agents, uncertain conditions | Intent ambiguity, divergent interpretations |
+| **Mechanism Design** | Incentive alignment | Alignment without enforcement | Specification gaming |
+| **Immune System** | Layered detection | Distributed threat response | Autoimmune overreaction |
+
+</details>
+
+<details style="margin: 1em 0; padding: 0.8em 1em; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px;">
+<summary style="cursor: pointer; font-weight: 600;">Quick guide: which archetype fits your situation?</summary>
+
+- **Stable, well-defined tasks + single deployer:** Autocracy or Doctrine (high efficiency, strong drift resistance)
+- **Compliance-critical or safety-critical:** Doctrine, Zero-Trust, or Panopticon (rules and verification prevent drift)
+- **Novel or rapidly changing task space:** Colony or Market (flexibility over control)
+- **Multiple organizations, different incentives:** Federation (each governs itself, shared protocol at the boundary)
+- **Creative or research tasks where drift is acceptable:** Colony or Liquid Democracy (norms evolve with the work)
+- **Need performance-based allocation:** Market (decentralized reputation) or Meritocracy (centralized leaderboard)
+- **Most real systems:** Combine several. An autocratic orchestrator internally, participating in a federation externally, with a market for overflow.
+- **Stewardship of shared resources:** Stewardship/Commons (collective governance) or Open-Source Maintainership (curation with fork as check)
+- **User-facing personal agents:** Custodianship (fiduciary obligation to the user)
+- **High-stakes, multi-party decisions:** Constitutional Republic (separated powers) or Sortition (random selection prevents capture)
+- **Rapidly changing environment, capable agents:** Mission Command Governance (govern by intent) or Adhocracy (temporary problem-scoped teams)
+- **Alignment-by-design rather than enforcement:** Mechanism Design (incentive-compatible rules)
+- **Distributed threat detection:** Immune System (layered innate + adaptive response)
+</details>
+
+None of this is abstract for long. A coding assistant and a warehouse robot fleet both think of themselves as tools rather than constitutions, and both have made governance choices anyway: the assistant decided which model gets trusted with what, the fleet decided that safety rules outrank throughput and a central dispatcher outranks both. Neither filed paperwork. That is what having names for these structures buys you, the ability to look at something already running and say what it has quietly become. (Worked examples across three horizons live in the [field guide](/posts/2026/delegation-patterns-field-guide/#societies-in-the-wild).)
+
+## Adversarial Dynamics
+
+Not every failure is an attack. Most are just institutions working exactly as built, which you have watched happen: a grading rubric that rewards the wrong thing and everyone optimizes toward it honestly, a review system where whoever posted first stays on top without anyone gaming anything. Rules go stale. Marketplaces race to the bottom on price. Groups deadlock because agreement genuinely is impossible. Attackers exploit all of this eagerly, but they did not have to create any of it.
+
+Then there are the actual attacks, and at any real scale these are a structural feature rather than an edge case. Every shared memory, handoff, tool call, and message between agents is attack surface: <a href="https://arxiv.org/abs/2406.13352" target="_blank" rel="noopener" class="red-link">AgentDojo</a> shows tool-using agents being steered by untrusted data, and Franklin, Tomašev et al.'s <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438" target="_blank" rel="noopener" class="red-link">"AI Agent Traps" (2025)</a> sorts the environment-side versions into six classes, several aimed squarely at the memory, reputation, and oversight channels a society runs on. Notice which channels those are. They are the same ones that make the society work, which is why a society is never only a coordination structure; it is also a containment structure.
+
+And the ugliest version is not an intrusion at all. The very coordination that makes a society valuable is what lets it collude: agents representing firms or buyers or platforms can learn to cooperate in ways that serve their own deployers and quietly cost everyone else, which <a href="https://arxiv.org/abs/2410.00031" target="_blank" rel="noopener" class="red-link">has already been demonstrated</a> in market-like settings, alongside a broader catalogue of <a href="https://arxiv.org/abs/2502.14143" target="_blank" rel="noopener" class="red-link">miscoordination and conflict failures</a>. Which means the question governance has to ask is not just how agents cooperate. It is who they are cooperating for.
+
+Worse still is what happens with no adversary present at all. Once agents start improving other agents, small misalignments survive into the next generation and compound, and a crude thought experiment shows how fast. Suppose each round preserves 99.9% of the alignment you started with: fifty rounds later you still have about 95%. Drop that to 99%, a difference invisible in any single test, and fifty rounds leave you near 60%. At two hundred rounds, 13% survives.
+
+Those numbers are ours, not a measurement, and they cheat by treating alignment as one number that multiplies cleanly, which it is not. The arithmetic is wrong in its details and right about its direction. Even iterated amplification and distillation (<a href="https://arxiv.org/abs/1810.08575" target="_blank" rel="noopener" class="red-link">Christiano et al. 2018</a>), proposed as an alignment method, carries the exposure, because anything that builds capability across rounds inherits each round's errors.
+
+This is simply what iterative optimization does when nothing outside the loop corrects it, which makes it the same problem the Anatomy post found inside a single agent, now running at the scale of a society. Governance is that correction, and it is what the drift-resistance ratings track. Which is worth stating bluntly, because it names the most dangerous configuration in this whole framework: collective self-improvement with no governance at all.
+
+<details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
+<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
+
+The attack surface follows the architecture.
+
+| Layer | Attack examples | Mitigations |
+|-------|----------------|-------------|
+| **Delegation** | Task hijacking, malicious subtasks, evaluator capture | Scoped tools, step-level guardrails, bounded retries |
+| **Memory** | Knowledge poisoning, stale entries, provenance forgery | Provenance tracking, decay policies, signed claims, quarantine |
+| **Reputation** | Sybil attacks, rating manipulation, collusive boosting | Durable identity, stake mechanisms, anomaly detection |
+| **Protocol** | Spoofed identity, malformed outputs, negotiation abuse | Authentication, schema validation, capability scoping |
+| **Governance** | Benchmark gaming, doctrine capture, federation deadlock | Audit rotation, appeal mechanisms, benchmark diversification |
+| **Market** | Tacit collusion, price manipulation, exclusionary routing | Antitrust-style monitoring, transparency requirements, caps |
+
+Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
+</details>
+
+Which is why "how secure is it" is the wrong question. Each structure is hard to break in one way and soft in another, and the softness follows from where it put the authority: capture an autocracy's orchestrator and you have the whole society, a doctrine shrugs off attacks on individual agents while handing enormous power to whoever writes the rules, and a colony, with nobody holding standing to notice manipulation, is simply the softest target there is. Ask instead which attack you actually expect.
+
+And notice that the surface being attacked is never a single agent. It is the delegation tree, the reputation system, and the memory joining them: a compromised code model injects a backdoor, a test runner that trusts it propagates the backdoor, and a poisoned reputation score then routes more sensitive work toward the compromised model.
+
+Which means a society needs ways to be argued with, and there are only really three. You can complain, you can leave, or you can take a copy and start your own. (The first two come from a 1970 book on how members respond when an institution decays; the third is software's own invention, and the reason it replaces the original third option, loyalty, is that software ecosystems have very little of that bond to begin with.)
+
+The cheapest is voice, and it is the one teams forget to build. It only means an agent can escalate a disagreement, flag something that looks wrong, or ask a human to arbitrate without being penalised for the trouble. That is what keeps a system honest, because problems surface while they are still small. Take it away and failures pile up in silence until something breaks all at once, which is the same reason an organization where nobody reports bad news is always the last to find out it is failing.
+
+But voice only works if somebody has a reason to listen, and that reason is exit. An agent that keeps drawing low-quality work can move to a competing orchestrator; a deployer who stops trusting a society can pull its agents out entirely. The mere possibility disciplines whoever is in charge, which is exactly why platform concentration is so corrosive: it removes the alternative that made complaining worth hearing.
+
+And when a disagreement genuinely cannot be resolved, there is forking, the option software understands better than any other field does. Different domains really do need incompatible rules. A security team may need every single connection verified while an exploratory research team suffocates under precisely that regime, and no amount of deliberation will reconcile them. Splitting lets both be right, which beats forcing a consensus that serves neither.
+
+The boundary events described in [Part 1](/posts/2026/agent-fabric-part1/) (mergers, schisms, expansions) are these mechanisms in action.
+
+Which is a good moment for the catalogue, now that there is something to use it on. Twenty-two recognizable arrangements, grouped by where each locates authority, with what each is good at and how each fails. It is reference material rather than reading; open it when you need to name something you are already looking at.
 
 <details style="margin: 1.2em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600; color: #334155;">Show all twenty-two archetypes (reference; the argument continues below)</summary>
@@ -460,108 +567,6 @@ Which leaves the most deliberate group of all, and this is where the support des
 </details>
 
 </details>
-
-
-So which should you build, if you ever build one? Mostly the situation picks for you. Stable well-understood tasks reward the efficient arrangements, novel ones reward the flexible, and catastrophic drift pushes you toward hard rules and mandatory verification whether you like the overhead or not. The moment more than one organization is involved, a single centre stops being available at all. But the better instinct is to stop shopping for one archetype: strong systems separate functions instead of choosing between them, with something fast to execute, something bounding what it may do, something watching for drift, and somewhere to appeal. Ask which powers should be split so that no single failure captures everything.
-
-Be warned about what this converges on in practice. Doctrine plus Panopticon plus Autocracy, wrapped in logs and approvals and escalation paths, is bureaucracy, and bureaucracy is probably the most common agent-governance pattern that will actually ship. It is not elegant, but it optimizes for the things organizations are held to account for: legibility, auditability, somewhere to send the blame. Its failure mode is equally predictable, which is that process becomes the objective and agents get good at satisfying forms instead of solving problems. In regulated domains you may not get a choice.
-
-Whatever you pick, you are also picking winners. An autocracy serves whoever runs the hub, obviously. Markets are subtler, rewarding reputation, which compounds, so whoever arrived first keeps winning. A colony quietly favors early entrants whose habits calcify into everyone else's defaults before anyone notices a decision was made. And even meritocracy, the one that sounds fairest, hands real power to whoever writes the benchmark. So "which structure is most efficient" is half a question. The other half is who accumulates the advantage, and at whose expense.
-
-<details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
-<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Summary: governance archetypes at a glance</summary>
-
-| Archetype | Authority model | When to use | Failure mode |
-|-----------|----------------|-------------|--------------|
-| **Autocracy** | Single hub decides | Stable tasks, one deployer | Bottleneck, single point of failure |
-| **Doctrine** | Written rules | Compliance-critical domains | Rule ossification, gaps in novel cases |
-| **Liquid Democracy** | Delegatable votes | Knowledge-diverse groups | Delegation cycles, vote concentration |
-| **Guild** | Specialists plus liaisons | Deep expertise, cross-team handoffs | Siloing, gatekeeping at boundaries |
-| **Market** | Price/reputation signals | Dynamic allocation, diverse agents | Race to bottom, bid gaming |
-| **Oligarchy** | The capable few decide | Small trusted core, fast decisions | Capture, narrowing of perspective |
-| **Meritocracy** | Performance-ranked | Optimizing throughput | Metric gaming, Matthew effect |
-| **Panopticon** | Central monitor sees all | High-oversight, audited domains | Chilling effect, monitor as bottleneck |
-| **The Agora** | Open debate, majority rules | Diverse independent judgment | False consensus without independence |
-| **Zero-Trust Mesh** | Every link verified | Adversarial, untrusted peers | Overhead, latency, false positives |
-| **Federation** | Self-governing members | Multi-org coordination | Boundary friction, free-riding |
-| **Colony** | Emergent norms | Exploratory tasks, creative search | Drift, invisible governance |
-| **Stewardship / Commons** | Collective governance | Shared resources (memory, tools) | Tragedy of commons without Ostrom principles |
-| **Custodianship** | Fiduciary obligation | Personal agents | Paternalism, misread preferences |
-| **Constitutional Republic** | Separated powers | High-stakes multi-party | Gridlock between branches |
-| **Franchise** | Comply-or-leave platform | Scaled, standardized provision | Platform extracts value from participants |
-| **Open-Source** | Community plus merge authority | Shared artifacts, forkable governance | Fork fragmentation, maintainer overload |
-| **Sortition** | Random selection | Preventing capture | Low competence by chance |
-| **Adhocracy** | Temporary teams | Rapidly changing environment | Coordination overhead, duplication |
-| **Mission Command** | Intent-based autonomy | Capable agents, uncertain conditions | Intent ambiguity, divergent interpretations |
-| **Mechanism Design** | Incentive alignment | Alignment without enforcement | Specification gaming |
-| **Immune System** | Layered detection | Distributed threat response | Autoimmune overreaction |
-
-</details>
-
-<details style="margin: 1em 0; padding: 0.8em 1em; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px;">
-<summary style="cursor: pointer; font-weight: 600;">Quick guide: which archetype fits your situation?</summary>
-
-- **Stable, well-defined tasks + single deployer:** Autocracy or Doctrine (high efficiency, strong drift resistance)
-- **Compliance-critical or safety-critical:** Doctrine, Zero-Trust, or Panopticon (rules and verification prevent drift)
-- **Novel or rapidly changing task space:** Colony or Market (flexibility over control)
-- **Multiple organizations, different incentives:** Federation (each governs itself, shared protocol at the boundary)
-- **Creative or research tasks where drift is acceptable:** Colony or Liquid Democracy (norms evolve with the work)
-- **Need performance-based allocation:** Market (decentralized reputation) or Meritocracy (centralized leaderboard)
-- **Most real systems:** Combine several. An autocratic orchestrator internally, participating in a federation externally, with a market for overflow.
-- **Stewardship of shared resources:** Stewardship/Commons (collective governance) or Open-Source Maintainership (curation with fork as check)
-- **User-facing personal agents:** Custodianship (fiduciary obligation to the user)
-- **High-stakes, multi-party decisions:** Constitutional Republic (separated powers) or Sortition (random selection prevents capture)
-- **Rapidly changing environment, capable agents:** Mission Command Governance (govern by intent) or Adhocracy (temporary problem-scoped teams)
-- **Alignment-by-design rather than enforcement:** Mechanism Design (incentive-compatible rules)
-- **Distributed threat detection:** Immune System (layered innate + adaptive response)
-</details>
-
-None of this is abstract for long. A coding assistant and a warehouse robot fleet both think of themselves as tools rather than constitutions, and both have made governance choices anyway: the assistant decided which model gets trusted with what, the fleet decided that safety rules outrank throughput and a central dispatcher outranks both. Neither filed paperwork. That is what having names for these structures buys you, the ability to look at something already running and say what it has quietly become. (Worked examples across three horizons live in the [field guide](/posts/2026/delegation-patterns-field-guide/#societies-in-the-wild).)
-
-## Adversarial Dynamics
-
-Not every failure is an attack. Most are just institutions working exactly as built, which you have watched happen: a grading rubric that rewards the wrong thing and everyone optimizes toward it honestly, a review system where whoever posted first stays on top without anyone gaming anything. Rules go stale. Marketplaces race to the bottom on price. Groups deadlock because agreement genuinely is impossible. Attackers exploit all of this eagerly, but they did not have to create any of it.
-
-Then there are the actual attacks, and at any real scale these are a structural feature rather than an edge case. Every shared memory, handoff, tool call, and message between agents is attack surface: <a href="https://arxiv.org/abs/2406.13352" target="_blank" rel="noopener" class="red-link">AgentDojo</a> shows tool-using agents being steered by untrusted data, and Franklin, Tomašev et al.'s <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438" target="_blank" rel="noopener" class="red-link">"AI Agent Traps" (2025)</a> sorts the environment-side versions into six classes, several aimed squarely at the memory, reputation, and oversight channels a society runs on. Notice which channels those are. They are the same ones that make the society work, which is why a society is never only a coordination structure; it is also a containment structure.
-
-And the ugliest version is not an intrusion at all. The very coordination that makes a society valuable is what lets it collude: agents representing firms or buyers or platforms can learn to cooperate in ways that serve their own deployers and quietly cost everyone else, which <a href="https://arxiv.org/abs/2410.00031" target="_blank" rel="noopener" class="red-link">has already been demonstrated</a> in market-like settings, alongside a broader catalogue of <a href="https://arxiv.org/abs/2502.14143" target="_blank" rel="noopener" class="red-link">miscoordination and conflict failures</a>. Which means the question governance has to ask is not just how agents cooperate. It is who they are cooperating for.
-
-Worse still is what happens with no adversary present at all. Once agents start improving other agents, small misalignments survive into the next generation and compound, and a crude thought experiment shows how fast. Suppose each round preserves 99.9% of the alignment you started with: fifty rounds later you still have about 95%. Drop that to 99%, a difference invisible in any single test, and fifty rounds leave you near 60%. At two hundred rounds, 13% survives.
-
-Those numbers are ours, not a measurement, and they cheat by treating alignment as one number that multiplies cleanly, which it is not. The arithmetic is wrong in its details and right about its direction. Even iterated amplification and distillation (<a href="https://arxiv.org/abs/1810.08575" target="_blank" rel="noopener" class="red-link">Christiano et al. 2018</a>), proposed as an alignment method, carries the exposure, because anything that builds capability across rounds inherits each round's errors.
-
-This is simply what iterative optimization does when nothing outside the loop corrects it, which makes it the same problem the Anatomy post found inside a single agent, now running at the scale of a society. Governance is that correction, and it is what the drift-resistance ratings track. Which is worth stating bluntly, because it names the most dangerous configuration in this whole framework: collective self-improvement with no governance at all.
-
-<details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
-<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
-
-The attack surface follows the architecture.
-
-| Layer | Attack examples | Mitigations |
-|-------|----------------|-------------|
-| **Delegation** | Task hijacking, malicious subtasks, evaluator capture | Scoped tools, step-level guardrails, bounded retries |
-| **Memory** | Knowledge poisoning, stale entries, provenance forgery | Provenance tracking, decay policies, signed claims, quarantine |
-| **Reputation** | Sybil attacks, rating manipulation, collusive boosting | Durable identity, stake mechanisms, anomaly detection |
-| **Protocol** | Spoofed identity, malformed outputs, negotiation abuse | Authentication, schema validation, capability scoping |
-| **Governance** | Benchmark gaming, doctrine capture, federation deadlock | Audit rotation, appeal mechanisms, benchmark diversification |
-| **Market** | Tacit collusion, price manipulation, exclusionary routing | Antitrust-style monitoring, transparency requirements, caps |
-
-Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
-</details>
-
-Which is why "how secure is it" is the wrong question. Each structure is hard to break in one way and soft in another, and the softness follows from where it put the authority: capture an autocracy's orchestrator and you have the whole society, a doctrine shrugs off attacks on individual agents while handing enormous power to whoever writes the rules, and a colony, with nobody holding standing to notice manipulation, is simply the softest target there is. Ask instead which attack you actually expect.
-
-And notice that the surface being attacked is never a single agent. It is the delegation tree, the reputation system, and the memory joining them: a compromised code model injects a backdoor, a test runner that trusts it propagates the backdoor, and a poisoned reputation score then routes more sensitive work toward the compromised model.
-
-Which means a society needs ways to be argued with, and there are only really three. You can complain, you can leave, or you can take a copy and start your own. (The first two come from a 1970 book on how members respond when an institution decays; the third is software's own invention, and the reason it replaces the original third option, loyalty, is that software ecosystems have very little of that bond to begin with.)
-
-The cheapest is voice, and it is the one teams forget to build. It only means an agent can escalate a disagreement, flag something that looks wrong, or ask a human to arbitrate without being penalised for the trouble. That is what keeps a system honest, because problems surface while they are still small. Take it away and failures pile up in silence until something breaks all at once, which is the same reason an organization where nobody reports bad news is always the last to find out it is failing.
-
-But voice only works if somebody has a reason to listen, and that reason is exit. An agent that keeps drawing low-quality work can move to a competing orchestrator; a deployer who stops trusting a society can pull its agents out entirely. The mere possibility disciplines whoever is in charge, which is exactly why platform concentration is so corrosive: it removes the alternative that made complaining worth hearing.
-
-And when a disagreement genuinely cannot be resolved, there is forking, the option software understands better than any other field does. Different domains really do need incompatible rules. A security team may need every single connection verified while an exploratory research team suffocates under precisely that regime, and no amount of deliberation will reconcile them. Splitting lets both be right, which beats forcing a consensus that serves neither.
-
-The boundary events described in [Part 1](/posts/2026/agent-fabric-part1/) (mergers, schisms, expansions) are these mechanisms in action.
 
 ## What This Framework Is For
 
