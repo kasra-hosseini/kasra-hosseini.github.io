@@ -331,7 +331,7 @@ Suppose you end up with a handful of personal agents, as most people probably wi
 
 Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
-That is what this post is about, and the machinery underneath it is duller than the result.
+Here is the uncomfortable thing, stated up front so the rest of this post has something to hang on. Your agents will end up holding authority you never granted them. Not because anyone designed it that way, but because keeping records of how things went is useful and acting on those records is obvious, and those two habits are all it takes. By the time you notice, the authority is load-bearing: overriding it makes the service worse. Everything below is about how that happens and what it costs.
 
 Ask a coding agent to refactor something and it quietly splits the job across a planner, a code writer, a test runner, and a security scanner. You talked to one agent. Several did the work, and you never saw the org chart. Ask a personal agent to book travel and it goes out to an airline agent, a hotel agent, a payment agent. You did not design that structure either; the task demanded it.
 
@@ -341,7 +341,7 @@ So watch one do it. The refactoring agent keeps working, and somebody sensibly a
 
 Nothing was reprogrammed. No rule was written. And yet if a new model joins next month, the question of whether it gets real work already has an answer, and the answer is a threshold nobody chose. Try to override it and service gets worse.
 
-Which is the claim this post is built on. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.**
+Which is the claim stated precisely. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records. That is the whole threshold.
 
 Nothing has to be designed for that to happen, which is the uncomfortable part. A pipeline that forgets everything between runs is pure delegation and will never be anything else. But start keeping those four records and acting on them, and the drift runs one way: operational data hardens into a routing preference, the preference becomes standing, and standing quietly constrains what can be decided later. You can break the ratchet by resetting the memory, staying stateless, or redeploying from scratch, except that each of those is something a person has to decide to do, and nobody puts it on a roadmap.
 
