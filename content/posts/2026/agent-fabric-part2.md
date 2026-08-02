@@ -334,13 +334,17 @@ And each of those agents is already doing the same thing internally. Ask the res
 
 None of that is new. Delegation is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
 
-Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose. That is the whole threshold: **delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records, and the phone crossed it by accident. Notice that you cannot easily undo it either, because undoing it means overriding every dismissal you ever made.
+Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose.
+
+Look at what the phone is now keeping. Who did what: the messages agent asked to interrupt. How well it went: you dismissed it. What it cost: eleven minutes of a protected block. And under whose authority: nobody's, which is exactly the problem. Those four records are the whole threshold. **Delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** The phone crossed that line by accident, and you cannot easily walk it back, because walking it back means overriding every dismissal you ever made.
 
 So the design question was never how many agents to use. It is what those records add up to, and the rest of this post is about how that accumulates while nobody is looking.
 
 ## The Division of Labour
 
-Four agents on a phone barely need organizing; one of them handing out jobs is plenty. It gets interesting at a few dozen, calling each other, where the shape of who-hands-work-to-whom stops being an implementation detail and starts being the politics. However you split the work, the split hardens fast into a standing rule about who gets trusted with what.
+Four agents on a phone barely need organizing; one of them handing out jobs is plenty. It gets interesting at a few dozen, calling each other, and the arrangements people reach for are mostly unsurprising. Split a job into parts, run them at once, and merge the answers: that is what happens when you ask for a summary of forty papers. Or put one agent in front as a dispatcher that reads each request and decides who handles it, which is what a support queue does.
+
+The second shape is where authority hides. A dispatcher has to decide who is worth handing work to, and once it is deciding that, it needs some basis for deciding, and the only basis available is how previous work went. However you split the work, the split hardens fast into a standing rule about who gets trusted with what.
 
 ### Delegation Archetypes
 
@@ -405,7 +409,7 @@ What a catalogue cannot tell you is what happens when those arrangements stack i
 
 ## From Architecture to Institution
 
-Here is the same mechanism somewhere it costs real money. A retailer points a router at its support queue: it classifies each ticket as billing, returns, or technical, and hands it to whichever agent handles that kind. Pure delegation. But the router logs how long each agent takes, how often customers come back angry, how often a ticket has to be escalated, because those numbers are cheap to collect and obviously useful.
+So take that support queue somewhere it costs real money. A retailer points a router at its incoming tickets: it reads each one as billing, returns, or technical, and hands it to whichever agent handles that kind. Pure delegation so far. But the router logs how long each agent takes, how often customers come back angry, how often a ticket has to be escalated, because those numbers are cheap to collect and obviously useful.
 
 After a month it sends complex billing disputes only to the two agents that resolve them fastest, and it has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. Then a new agent joins the fleet, and the question of whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router learned, or wait. No one wrote that rule down. The deployment team can override it, but only by making the service worse, which in practice means they will not.
 
