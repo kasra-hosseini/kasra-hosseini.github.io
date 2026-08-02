@@ -174,20 +174,6 @@ wordcount: "~2,250 words (body) · ~2,000 words (notes)"
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
 
-*Part of The Agent Fabric series. [Part 1](/posts/2026/agent-fabric-part1/) argued that agents survive only while they are useful to someone, that compute is finite while agent populations are not, and that the squeeze between those two facts pushes agents toward connected, coordinated arrangements. Some of those arrangements get designed by a company; others just accrete around whatever tools a person happens to own. Either way, this post is about what they turn into.*
-
-*Two ways to read it. The body is the argument. The expandable sections are a reference manual of pattern cards, examples, and scenarios, and you can ignore all of them without losing the thread.*
-
-<div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
-
-- **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
-- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
-- **Part 2: Delegation, and What It Costs** (you are here): how work gets split among agents, and how splitting it quietly creates authority nobody granted
-- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
-- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
-- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
-</div>
 
 <div class="viz-container">
   <div id="viz-scale" style="width: 100%; max-width: 720px; margin: 0 auto;" role="img" aria-label="Four panels in a 2x2 grid showing the progression from a single agent to a multi-agent team to a society to the fabric where societies interconnect.">
@@ -329,6 +315,21 @@ wordcount: "~2,250 words (body) · ~2,000 words (notes)"
 Suppose you end up with a handful of personal agents, as most people probably will: something managing your calendar, something triaging your messages, something tracking your sleep. Nobody wires them together. But the calendar agent notices you decline meetings during focused work, the messages agent learns to hold non-urgent things until a gap opens, and the sleep data starts nudging when hard tasks get scheduled.
 
 Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
+
+*Part of The Agent Fabric series. [Part 1](/posts/2026/agent-fabric-part1/) argued that agents survive only while they are useful to someone, that compute is finite while agent populations are not, and that the squeeze between those two facts pushes agents toward connected, coordinated arrangements. Some of those arrangements get designed by a company; others just accrete around whatever tools a person happens to own. Either way, this post is about what they turn into.*
+
+*Two ways to read it. The body is the argument. The expandable sections are a reference manual of pattern cards, examples, and scenarios, and you can ignore all of them without losing the thread.*
+
+<div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
+<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
+
+- **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
+- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
+- **Part 2: Delegation, and What It Costs** (you are here): how work gets split among agents, and how splitting it quietly creates authority nobody granted
+- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
+- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
+- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
+</div>
 
 And each of those agents is already doing the same thing internally. Ask the research one for a summary and it quietly hires something to fetch the paper and something else to compress it. You talked to one agent. Several did the work.
 

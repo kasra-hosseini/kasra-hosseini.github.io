@@ -16,6 +16,15 @@ wordcount: "~2,100 words"
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** The anatomy of a single agent, a foundation model wrapped in scaffolding. The model operates in an iterative loop with an environment, acting on it and observing the result. The scaffolding gives it capabilities that let it act (prompt, tools, skills, memory) and constraints that direct it (planning, identity, self-evaluation)." >}}
 
+
+## From Model Call to Agent
+
+Ask a chatbot to run a script and tidy the results into a folder, and it will tell you how. Confidently, in numbered steps, possibly with the exact command. What it will not do is run it. On its own a language model is a static function: text in, text out, and no way to perceive the world or change it.
+
+Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter. Something was built around it, and that something is the difference between a thing that describes work and a thing that does it.
+
+That gap does not close by making the model smarter. It closes by building things around it, and the things have a name: **scaffolding**. A prompt telling it what it is doing. Tools letting it act. Memory carrying what it learned from one step into the next. And a loop that keeps going until the work looks done. The model supplies the reasoning. The scaffolding is what turns reasoning into consequence.
+
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
 
@@ -26,14 +35,6 @@ wordcount: "~2,100 words"
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
-
-## From Model Call to Agent
-
-Ask a chatbot to run a script and tidy the results into a folder, and it will tell you how. Confidently, in numbered steps, possibly with the exact command. What it will not do is run it. On its own a language model is a static function: text in, text out, and no way to perceive the world or change it.
-
-Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter. Something was built around it, and that something is the difference between a thing that describes work and a thing that does it.
-
-That gap does not close by making the model smarter. It closes by building things around it, and the things have a name: **scaffolding**. A prompt telling it what it is doing. Tools letting it act. Memory carrying what it learned from one step into the next. And a loop that keeps going until the work looks done. The model supplies the reasoning. The scaffolding is what turns reasoning into consequence.
 
 Every piece of that is load-bearing, and the fastest way to see it is to pull pieces out. Without the loop you are back to a chatbot. Without tools you have something that can think and never touch anything. Memory is the strangest omission of the three, because an agent that loses it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
