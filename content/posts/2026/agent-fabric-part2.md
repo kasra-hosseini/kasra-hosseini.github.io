@@ -170,7 +170,6 @@ wordcount: "~2,400 words (body) · ~2,300 words (notes)"
 
 <p style="font-size: 0.82em; color: #999; margin-top: 1em;"><a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener" style="color: #999;">Claude Code</a> was used for editing and visualizations. All ideas and arguments are the authors' own.</p>
 
-
 <div style="background: #fffbeb; border: 1px solid #f59e0b; border-radius: 6px; padding: 0.6em 1em; margin: 1.5em 0; font-size: 0.88em; color: #92400e;">
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
@@ -333,34 +332,27 @@ Then two of them want opposite things. The messages agent has something urgent; 
 
 None of that required anyone to build a system. It happened because you installed four things. And notice how much delegation was already going on inside each of them: ask the research agent for a summary and it quietly hires something to fetch the paper and something else to compress it. You talked to one agent. Several did the work, and you never saw the org chart.
 
-All of that is just delegation, and it is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
+None of that is new. Delegation is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
 
-Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose.
-
-Stated precisely: **delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records. That is the whole threshold.
+Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose. That is the whole threshold: **delegation becomes governance when the system remembers who did what, how well, at what cost, and under whose authority.** Four records, and the phone crossed it by accident.
 
 So the design question was never how many agents to use. It is whether the governance you end up with is one you can name, inspect, and overrule, and the rest of this post is about how it forms while nobody is looking.
 
 ## The Division of Labour
 
-Go back to your phone for a second, because that pile of agents had to answer one question before anything else: who does what? With three or four of them a single coordinator handing out jobs is plenty. But add a few dozen, give them the ability to call each other, and the shape of who-hands-work-to-whom stops being an implementation detail. It becomes the architecture, and eventually it becomes the politics.
+Go back to your phone, because that pile of agents had to answer one question before anything else: who does what? With three or four of them a single coordinator handing out jobs is plenty. Add a few dozen, let them call each other, and the shape of who-hands-work-to-whom stops being an implementation detail and starts being the politics.
 
 ### Delegation Archetypes
 
 People have found a great many ways to answer that question, and the individual answers matter less than what they share: however you split the work, the split hardens surprisingly fast into a standing rule about who gets trusted with what. Your calendar agent winning scheduling disputes is one instance of a pattern that shows up at every scale. (Forty-three of the named arrangements live in a companion [field guide](/posts/2026/delegation-patterns-field-guide/), with what each is for and how each fails. Nothing here depends on having read it.)
 
-
-Watch the ratchet turn once, in one specific case. It is Tuesday, your calendar agent has held a two-hour block because your research agent said you needed it, and your messages agent is sitting on something from your manager marked urgent. It interrupts. You are annoyed, and you dismiss it.
+It is Tuesday. Your calendar agent has held a two-hour block because your research agent said you needed it, and your messages agent is sitting on something from your manager marked urgent. It interrupts. You are annoyed, and you dismiss it.
 
 Nothing dramatic has happened. But something was written down. Next Tuesday the messages agent is a fraction more reluctant, and the calendar agent's block is a fraction more solid, and neither of them consulted you about the adjustment because from the inside it is not an adjustment, it is just what the data says. Do that for three months and the calendar agent has authority over your attention that you never granted and cannot easily revoke, because revoking it means overriding every dismissal you ever made.
 
 Naming the arrangements is the easy part. What a catalogue cannot tell you is what happens when they nest inside each other, and nesting is where the authority question gets sharper, because each layer decides what the layer below is allowed to attempt. Your research agent needs a paper summarised, so it hires something to fetch and something to compress, and each of those may hire further. A tree forms, you never see it, and every node in it is quietly deciding who gets trusted with what.
 
 The machinery underneath is real but not the interesting part, and the [field guide](/posts/2026/delegation-patterns-field-guide/) has all of it. One line of it matters here. Every extra agent multiplies cost and latency, so budgets push relentlessly toward the shallowest arrangement that works, and that arrangement also happens to have the fewest places for standing to accumulate. Frugality and accountability turn out to be accidental allies.
-
-
-
-
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
@@ -370,11 +362,6 @@ The machinery underneath is real but not the interesting part, and the [field gu
   </details>
   Click to restart.<br><button class="viz-restart" onclick="document.getElementById('viz-combo').parentElement.querySelector('svg').dispatchEvent(new Event('click'))">Restart</button></div>
 </div>
-
-
-
-
-
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The specialist market: routing, evidence, and infrastructure</summary>
@@ -436,9 +423,7 @@ Mostly this has not happened yet, and it is worth saying so plainly. Production 
 
 Two things are now true of your phone at once. Every scheduling decision still funnels through one agent, and standing among the others, meaning how much weight an agent's word carries, is earned by track record. Part 3 has names for both arrangements, though the names matter less than the fact that nobody chose either, and that the same thing happens anywhere performance gets logged: a support desk, a code pipeline, a warehouse.
 
-
 It is worth being precise about why that last step counts as authority rather than just good optimization. A load balancer forgets last week's latencies, which is why nobody would call it a governing body. But a fleet that will not route real work to an unproven agent until it clears a threshold it learned on its own is enforcing a standing rule that no human wrote down, and it will keep enforcing it tomorrow. The preference has outlived the task that produced it.
-
 
 Three more cases below trace the same arc in settings with more at stake than your calendar. They show where current trajectories point rather than documenting deployed systems, since the transition needs persistence infrastructure that is still arriving.
 
@@ -481,8 +466,6 @@ This has a practical consequence. If governance arrives out of delegation histor
 So this is the real cost of delegating. The obvious bill is the one you can measure: every hop multiplies compute, latency, and the chance that intent leaks a little further from what was asked. That bill is why delegation trees stay shallow, why specialists beat generalists on narrow work, and why the shape of a production system is set as much by budget as by design.
 
 The bill that arrives later is authority. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork. It will have preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it. Which raises the question this post has now earned and cannot answer: what kinds of governance are there, which one are you accidentally running, and who exactly enforces it? That is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
-
-
 
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
