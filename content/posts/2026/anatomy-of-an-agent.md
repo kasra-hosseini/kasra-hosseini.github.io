@@ -24,6 +24,7 @@ wordcount: "~2,000 words"
 - **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: delegation archetypes, the economics of delegation trees, and how splitting work turns into authority
 - **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
+- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
 ## From Model Call to Agent

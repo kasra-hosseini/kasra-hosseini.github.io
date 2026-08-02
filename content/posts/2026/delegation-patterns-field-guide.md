@@ -194,6 +194,7 @@ One piece of vocabulary before the catalogue. Everything here is built from a si
 - **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: how work gets split, what each hop costs, and how splitting it creates authority
 - **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, and who enforces the rules
 - **Delegation Patterns: A Field Guide** (you are here): the full catalogue behind Part 2
+- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
