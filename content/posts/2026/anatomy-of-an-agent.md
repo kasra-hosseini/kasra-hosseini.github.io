@@ -11,7 +11,7 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~2,000 words"
+wordcount: "~2,100 words"
 ---
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** The anatomy of a single agent, a foundation model wrapped in scaffolding. The model operates in an iterative loop with an environment, acting on it and observing the result. The scaffolding gives it capabilities that let it act (prompt, tools, skills, memory) and constraints that direct it (planning, identity, self-evaluation)." >}}
@@ -67,7 +67,9 @@ Recursive self-improvement is clean in theory. In practice a lone loop runs into
 
 It begins with arithmetic. A long task only succeeds if nearly every step does, so a small per-step error rate turns into a large failure over a long chain, and each mistake tends to narrow the options for recovering from it. That is why today's best agents still fall short of human reliability on realistic computer and web tasks, and why the gap widens as tasks lengthen (<a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">OSWorld</a>, Xie et al., 2024; <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">tau-bench</a>, Yao et al., 2024).
 
-The obvious fix is to have the agent check its own work, and this is where things get strange. When an agent reflects on its performance with nothing external to check against, it often does not correct course. It grows more confident in the answer it already has. Language models struggle to self-correct their reasoning without outside feedback and can come out worse after a round of purely introspective revision (<a href="https://arxiv.org/abs/2310.01798" target="_blank" rel="noopener">Huang et al., 2023</a>); a broader survey finds no convincing case of reliable self-correction that does not draw on some external signal (<a href="https://arxiv.org/abs/2406.01297" target="_blank" rel="noopener">Kamoi et al., 2024</a>). The mechanism meant to catch mistakes ends up laundering them into certainty.
+The obvious fix is to have the agent check its own work, and this is where things get strange. Picture it debugging a failing test. It decides the bug is in the date handling, rewrites that, and the test still fails. Asked to review its own reasoning, it does not conclude that it looked in the wrong place. It concludes that its fix was correct but incomplete, and goes deeper into the date handling, writing a more elaborate version of the same wrong answer. The bug was in the timezone the test ran under, which it never considered and now never will, because every pass through the loop adds more reasons to believe the story it already has.
+
+This is not a quirk of one system. Language models struggle to self-correct their reasoning without outside feedback and can come out worse after a round of purely introspective revision (<a href="https://arxiv.org/abs/2310.01798" target="_blank" rel="noopener">Huang et al., 2023</a>); a broader survey finds no convincing case of reliable self-correction that does not draw on some external signal (<a href="https://arxiv.org/abs/2406.01297" target="_blank" rel="noopener">Kamoi et al., 2024</a>). The mechanism meant to catch mistakes ends up laundering them into certainty.
 
 Give the same agent more time and it does not escape, it plateaus. On long, open-ended research and engineering work, agents lead early and then fall behind as the horizon stretches, while humans keep making headway (<a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">RE-Bench</a>, Wijk et al., 2024). The agent exhausts the strategies available to it and settles into diminishing returns instead of stepping back and trying a different angle.
 

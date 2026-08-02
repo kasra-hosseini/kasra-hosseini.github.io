@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~4,700 words"
+wordcount: "~4,800 words"
 ---
 
 <style>
@@ -245,7 +245,11 @@ One consequence deserves stating plainly, because it is the piece most often mis
 
 What separates one of these arrangements from another is simply where each thinks authority comes from, and the support desk from the opening will pass through several of them without anybody filing a change request.
 
-Start where it started: one router deciding everything. That is an **Autocracy**, fast for exactly the reason it is dangerous, since if the router is wrong then everyone downstream is wrong with it. Then it began scoring agents, which makes it a **Meritocracy**, where authority is earned by record rather than assigned, and where whoever writes the metric quietly holds the real power. Then the retailer wrote hard rules about refunds above a threshold, and that is **Doctrine**, a constitution the router itself cannot override. After the first serious incident somebody will demand to know why a complaint was ignored, and the desk will acquire an appeal path, which is the beginning of a **Constitutional Republic**, where different powers sit in different hands. Four arrangements, no announcements, no design review, and the leaderboard failure above was the second one going wrong.
+Start where it started: one router deciding everything, which is an **Autocracy**, fast for exactly the reason it is dangerous, since if the router is wrong then everyone downstream is wrong with it.
+
+Then watch the first change happen. Somebody turns on logging. For a few weeks nothing looks different, and then the router starts sending the hard billing disputes to the two agents with the best numbers. That is the whole transition, and it is worth being clear about what changed. Before, the router decided by category, so every agent got the tickets of its type. Now it decides by record, so an agent's past determines its future. The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks. The desk has become a **Meritocracy**, and whoever wrote the metric now has more say over that agent's working life than the team that deployed it.
+
+The rest arrives the same way. The retailer writes hard rules about refunds above a threshold, which is **Doctrine**, a constitution the router itself cannot override. After the first serious incident somebody demands to know why a complaint was ignored, and the desk acquires an appeal path, which is the beginning of a **Constitutional Republic**, where different powers sit in different hands. Four arrangements, no announcements, no design review, and the leaderboard failure above was the second one going wrong.
 
 The refund drift has a name, and so do its cousins, which is the only real argument for having names at all. Twenty-two of them are laid out by where the authority sits in a companion [field guide](/posts/2026/governance-archetypes-field-guide/), with what each is good at and how each fails. Almost nothing real picks one and stops; the desk drifting through four of them is the normal case rather than the pathological one, and the rest of this post is about what that drift costs.
 
