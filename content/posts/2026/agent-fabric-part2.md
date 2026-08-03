@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,800 words (body) · ~2,000 words (notes)"
+wordcount: "~1,750 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -387,7 +387,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 On a phone that record is an inconvenience. You lose an argument with your own calendar and miss a message you wanted, and the worst case is your own afternoon. Now put the identical mechanism, an agent in front picking who handles what and learning from how it went, inside a company, where the person on the other end is a stranger who cannot see the record, did not agree to it, and will be the one it is wrong about. You have been on that end of one this year. Probably several.
 
-Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
+So watch it happen somewhere the record is not yours. Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
 
 After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and it has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The next person whose delivery goes missing gets routed by a record rather than by a category, and neither they nor anyone at the company could tell you that changed. Then a new agent joins the fleet, and whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router learned, or wait. No one wrote that rule down. The deployment team can override it, but only by making the service worse, which in practice means they will not.
 
@@ -411,9 +411,9 @@ None of which makes any of this bad in itself. A structure that forms around rea
 
 ---
 
-Most systems already log who handled a request and whether it went well, and plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight: it is what lets the other three pass for engineering. Which kinds of governance there are, which one you are accidentally running, and who enforces it when it fails, is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
+Most systems already log who handled a request and whether it went well, and plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight: it is what lets the other three pass for engineering.
 
-What that post cannot change is that nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging. Priya lost that argument to a spreadsheet. On your phone there was never an argument at all: nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud.
+Nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging. Priya lost that argument to a spreadsheet. On your phone there was never an argument at all: nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
