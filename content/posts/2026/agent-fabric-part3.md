@@ -180,7 +180,7 @@ That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), 
 
 That desk changed how it governed itself four times inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen.
 
-By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
+By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules that nobody at the desk can change, and neither can the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
 Nothing any agent told her was untrue. That is the whole point: the failure was not in any answer, it was in the arrangement that produced them, which is where these systems will fail long before they start lying. Which means the question was never whether this desk would end up with rules. It was which rules, decided by whom.
 
@@ -213,7 +213,7 @@ It works, too. The refund line stops climbing inside a month, which is why nobod
 
 So the same letter reaches a judgement, then a winner, then a rule, then someone who can overrule the rule. Four arrangements in a year, no announcements and no design review, and she happened to write in under the only one with no way back in.
 
-Every one of those desks needed the same thing to exist: a record. Plenty of software remembers things. This record decided who would read her letter.
+Every one of those desks needed a record to exist at all. Plenty of software remembers things; this record decided who would read her letter.
 
 Her refusal started long before she wrote in. Somebody set the leaderboard to reward speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
 
@@ -255,8 +255,6 @@ The third exit exists only on paper: run your own version of the shop, with the 
 Of the three, the only one she can actually do is the one that reports to the thing she is arguing with.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. Complaints get heard where leaving is possible, which is the part nobody designs for, because it is the part nobody notices they removed.
-
-## What Nobody's Job It Was
 
 The rule that refused her did not have to live nowhere. It could have sat where the system actually looks, with a line beside it naming who may change it and what happens when somebody disputes it. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
