@@ -417,8 +417,6 @@ She knows what it would have taken, and it is cheap enough to be insulting. A se
 
 Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
-The second column would have changed less than it sounds like. The router would still have chosen the fast agent for most tickets, and the third agent would still have been slower, but the table would have carried the reason, so the choice would have been somebody's to defend rather than the log's to make.
-
 She was right the whole time, and being right was worth nothing.
 
 

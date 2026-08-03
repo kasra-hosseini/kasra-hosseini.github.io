@@ -63,7 +63,7 @@ That is the whole fix. It was available the entire time, and the writer could no
 
 Nobody on that team decided the tester should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The breaker never had to be clever either. Its whole job was breaking things, on a test it had no reason to defend.
 
-The arrangement costs something too. The writer says the test was unfair. The breaker says it was not. Somebody has to settle that, and nobody built anything to settle it.
+The arrangement costs something of its own. The writer says the test was unfair. The breaker says it was not. Somebody has to settle that, and nobody built anything to settle it.
 
 So it gets settled by whatever is already there. What is already there is a count of how often each agent has had to be retried, which somebody added to decide which one to run again first. The breaker has been retried less, so the test stands. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
 
