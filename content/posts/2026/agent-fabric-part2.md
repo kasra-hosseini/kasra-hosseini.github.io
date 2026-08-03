@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,150 words (body) · ~2,000 words (notes)"
+wordcount: "~1,100 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -312,7 +312,7 @@ wordcount: "~1,150 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-You will probably end up with a handful of personal agents: one managing your calendar, one triaging your messages. Nobody wires them together. Then two of them want opposite things, because the messages agent has something urgent and the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election. Try to give the messages agent more room later and it hesitates anyway, because the record of those dismissals is more consistent than you are. You are now arguing with a policy you wrote by accident.
+Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
 
 
 
@@ -375,7 +375,7 @@ You will probably end up with a handful of personal agents: one managing your ca
 
 ## From Architecture to Institution
 
-On a phone the worst this costs is your own afternoon. Move the same arrangement into a company and one thing changes: the record is no longer about the person reading it. It is about a stranger who will never see it, never agreed to it, and has no dismissal to register. You have been that stranger this year, probably several times, and the version below is where it happens.
+On a phone the worst this costs is your own afternoon. What follows is the same arrangement inside a company, where the record is no longer about the person reading it but about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
