@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Your phone buzzes in the middle of a meeting you told it to protect. One assistant judged the message urgent; another had been told to hold everything for the hour. Both were following instructions, only one could win, and nothing in your phone was granted the authority to settle it. It got settled anyway, by whichever assistant you have overridden less often. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
+Think of an assistant on your phone that has stopped offering you things. Not because you switched it off, but because you dismissed it a few times in a row when you were busy, and something in there is keeping score. It now suggests less, so you dismiss it less, so it suggests less again. Nothing in your phone was granted the authority to demote it. You never wrote that rule either. You voted for it, one dismissal at a time, without knowing there was an election.
 
 
 
@@ -375,13 +375,13 @@ Your phone buzzes in the middle of a meeting you told it to protect. One assista
 
 ## From Architecture to Institution
 
-On a phone the worst this costs is your own afternoon. Change one thing about that arrangement, though, and it costs somebody else theirs: keep the record, but make it about a stranger who will never see it and has no dismissal to register. Somebody has to build that, and it does not feel like building an institution at the time. It feels like adding logging.
+On a phone the worst this costs is a suggestion you might have wanted. Change one thing, though, and it costs somebody their work: keep the same scorekeeping, but point it at agents doing a job, in a company, where the one being quietly stopped from working is not you and has no dismissals to register. Somebody builds that on a Tuesday. It does not feel like building an institution. It feels like adding logging.
 
 Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one. Somebody added logging a year ago, and the router started reading it, sending the hard tickets to whoever closed them fastest. Nobody reprogrammed anything. The third agent had one slow month in March and has not been asked since.
+Every step she finds is a sensible one. Logging went in a year ago. The router started reading it. Hard tickets went to whoever closed them fastest. She can see the exact week the third agent slipped, one slow March, and she can see that nothing has been asked of it since.
 
 
 
@@ -391,7 +391,7 @@ Every step she finds is a sensible one. Somebody added logging a year ago, and t
 
 So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table records close times and nothing else, so it reads the delay as fresh evidence the agent should not be given hard tickets. She has made it worse by trying.
 
-There is no rule to delete and no way to add a fact the table has no column for. She leaves it, the way you left your calendar alone.
+There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet.
 
 By October that agent is retired for underperformance, which leaves two. In November one of the survivors tells a customer her fragile-item return does not qualify, and it is wrong, and there is nothing left to check it against. The one agent that might have answered differently was retired for never being given the chance.
 
@@ -412,6 +412,8 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Nobody gave the routing table authority over which agent had a career. It got that by being the only thing anyone wrote down, and she cannot argue with it because there is no argument to have: the table is accurate, and being accurate is all it was ever asked to be.
 
 She never lacked skill or evidence. She lacked anywhere to take them. She was right the whole time, and being right was worth nothing.
+
+If you have shipped anything that keeps a record and acts on it, you have built one of these. The question is not whether your system has rules. It is whether anybody can find them.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
