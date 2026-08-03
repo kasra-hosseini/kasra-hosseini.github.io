@@ -182,7 +182,9 @@ That desk changed how it governed itself four times inside a year, and nobody de
 
 By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules nobody at the desk can change, and neither can the team that built it. Her letter is not refused so much as unaddressed: the question it asks is why me, and there is nobody that question belongs to.
 
-Nothing any agent told her was untrue. Every answer was correct and the arrangement that produced them was not, which is how these systems will fail long before they start lying. Which means the question was never whether this desk would end up with rules. It was which rules, decided by whom.
+Nothing any agent told her was untrue. Every answer was correct and the arrangement that produced them was not, which is how these systems will fail long before they start lying.
+
+So the question was never whether this desk would end up with rules. It was which rules, and decided by whom.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
@@ -248,7 +250,7 @@ So she complains, which means replying to the email that refused her, and what r
 
 Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
-The downranked agent has the same two and neither works for it either. Every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse, and there is no second shop for a support agent. Neither of them can go anywhere, so neither of them gets heard.
+Neither option works for the downranked agent either, and for the same reason: it cannot argue with the record without adding to it, and it has nowhere else to work.
 
 Nothing about the rule that refused her was written down anywhere she could have found it, or anywhere the people who built the desk could have found it either. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
 
