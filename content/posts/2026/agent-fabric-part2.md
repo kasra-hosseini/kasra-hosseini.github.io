@@ -381,7 +381,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one. Logging went in a year ago, the router started reading it, and hard tickets went to whoever closed them fastest. She can see the exact week the third agent slipped, one slow March, and that nothing has been asked of it since.
+Every step she finds is a sensible one, and she can date all of them. Logging went in a year ago. The router started reading it. Hard tickets went to whoever closed them fastest. One slow March, and nothing has been asked of the third agent since.
 
 
 
@@ -415,7 +415,7 @@ She never lacked evidence. She lacked anywhere to take it.
 
 What she thinks about, on the Fridays she does not open the log, is how cheap it would have been. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line where the router reads, saying no agent goes a month without a hard ticket, and the third agent is still there. She could have written either in an afternoon, in the same afternoon she wrote the router, if it had occurred to her that a log is a thing that decides.
 
-It did not occur to her, because it does not look like that when you are building it. It looks like a table. The cost of splitting work between agents is not that the split is wrong. It is that the record you keep to make the split work quietly becomes the only account of what happened, and nobody writes that record as though it will have to answer for anybody.
+It did not occur to her, because it does not look like that while you are building it. It looks like a table. Nobody writes a table as though it will one day be the only account of what happened.
 
 She was right the whole time, and being right was worth nothing.
 
