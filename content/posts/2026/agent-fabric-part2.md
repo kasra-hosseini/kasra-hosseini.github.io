@@ -381,7 +381,7 @@ Priya wrote the layer that decides which agent gets what, so anything it does wr
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one. Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
+Every step she finds is a sensible one. A year ago the router read each message and sent it to whoever handled that kind of problem. Then somebody added logging, and the router started consulting it: hard billing disputes to whichever agents closed them fastest, and nothing important to the third. Nobody reprogrammed it. The votes here are resolution times, and the third agent has been losing them since March.
 
 
 
@@ -389,9 +389,9 @@ Every step she finds is a sensible one. Somebody writes in because a delivery ne
 
 
 
-The router, it turns out, consults a table of agents ranked by how fast they close things. So she tries to fix it by hand, assigning the third agent three hard tickets herself. Two come back late, which is what happens to an agent that has not seen a hard ticket since March. The table records close times and nothing else, so it reads the delay as fresh evidence the agent should not be given hard tickets. She has made it worse by trying.
+So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table records close times and nothing else, so it reads the delay as fresh evidence the agent should not be given hard tickets. She has made it worse by trying.
 
-That is the trap. Every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
+There is no rule to delete and no way to add a fact the table has no column for. She leaves it, the way you left your calendar alone.
 
 By October that agent is retired for underperformance, which leaves two. In November one of the survivors tells a customer her fragile-item return does not qualify, and it is wrong, and there is nothing left to check it against. The one agent that might have answered differently was retired for never being given the chance.
 
@@ -408,8 +408,6 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 </details>
 
 ---
-
-Somebody designed the split, the logging, and the routing rule. Nobody designed the authority that came out of them, and that is the part that decided which agent got her hard tickets and which customer got told no.
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She never lacked skill or evidence. She lacked somewhere to take them, which is a question about the desk and not about her, and it is the question Part 3 is about. She was right the whole time, and being right was worth nothing.
 
