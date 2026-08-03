@@ -180,7 +180,7 @@ That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), 
 
 Run it a year forward and it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
-So the bet here is that agent systems will fail through bad institutions rather than wrong answers. Nothing any agent told her was untrue. That is a bet, not a measurement. Decades of evidence about interacting agents sit behind it and nothing at this scale sits in front of it, and taking it changes the question from whether you get governance to which kind.
+Nothing any agent told her was untrue. That is the bet this post is making: agent systems will fail through bad institutions rather than wrong answers. That is a bet, not a measurement. Decades of evidence about interacting agents sit behind it and nothing at this scale sits in front of it, and taking it changes the question from whether you get governance to which kind.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
@@ -250,7 +250,7 @@ Once drift has cost real money, fixed rules are what get bought, and this desk b
 
 Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and the reason she had stayed six years is that she had not found one. The third option, the one software has that other institutions do not, is to copy the whole arrangement and change the rule you object to. Nobody does that to a shop. That is the entire repertoire, and her letter was safe to refuse because she had none of it.
 
-The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it. Complaints get heard where leaving is possible, which is what platform concentration takes away, from the agent and from her equally.
+The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it. Both of them are stuck for the same reason: complaints get heard where leaving is possible, and neither of them could leave.
 
 ## What This Framework Is For
 
@@ -258,7 +258,7 @@ Somebody at that retailer could have said out loud, in the week the risk score w
 
 And every one of those choices is a trade that resists cleverness. Letting one router decide made the desk fast until the month that router was wrong about everything downstream. Scoring the agents made it accurate and produced drift nobody could see. Writing fixed rules made it safe, and the safety cost her the refund. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
 
-None of this has to live in a document nobody reads. The rule that refused her could have been written where the system actually looks, with a note beside it saying who may change it and what happens when somebody disputes it. A rule that does not show up there is not governance, it is a wish. It is also still not hers to appeal to.
+The rule that refused her did not have to live in a document nobody reads. It could have been written where the system actually looks, with a note beside it naming who may change it and what happens when somebody disputes it. A rule that does not show up there is not governance, it is a wish, and it is still not hers to appeal to.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>

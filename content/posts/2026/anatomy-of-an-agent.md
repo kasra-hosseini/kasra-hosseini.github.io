@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Every piece of that apparatus is something a person chose. Most of those choices announce themselves when they are wrong: give it the wrong instructions and it spends an afternoon doing something competent nobody asked for, which you notice by lunchtime. One choice announces nothing at all.
+Every piece of that apparatus is something a person chose, and most bad choices announce themselves by lunchtime: wrong instructions and it spends the afternoon doing something competent nobody asked for. One choice announces nothing at all.
 
 Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself, and that tone was typed by somebody too. How much that matters depends on what somebody let it reach: deleting the wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
@@ -47,7 +47,7 @@ None of this is a shortfall in the model. Every test it reads was broken by its 
 
 From outside it looks like diligence. The commit history shows steady work, each message more specific than the last, the explanations getting more detailed and more certain. If you were reviewing it you would see an agent closing in on something. What you would not see is that it stopped considering alternatives an hour ago, and that the confidence went up precisely because it kept failing. It cannot tell the difference between converging and digging.
 
-Give the same agent more time and it does not escape, it plateaus. The one on the timezone bug will still be editing at hour six, with files changing and tests running and nothing signalling that the search space collapsed hours ago. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research problems</a> and the agents lead for the first couple of hours, then the humans overtake them and keep going while the agents are still working.
+More time does not help; it plateaus. The one on the timezone bug will still be editing at hour six, files changing and tests running, nothing signalling that the search space collapsed hours ago. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research problems</a> and the agents lead for the first couple of hours, then the humans overtake them and keep going while the agents are still working.
 
 Compounding error, rising confidence, and the plateau all come back to one fact: the agent that made the mistake is the agent grading it. Nothing about that improves with a better prompt, because it is not a shortfall in the model. It is a property of being alone in the room.
 
