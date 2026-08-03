@@ -381,7 +381,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one. There is a Tuesday in March where the third agent took eleven hours over a billing dispute, and after that it sits at the bottom of a table nobody was watching, and has not been asked a hard question since.
+Every step she finds is a sensible one. On a Tuesday in March the third agent took eleven hours over a billing dispute. After that it sits at the bottom of a table nobody was watching, and it has not been asked a hard question since.
 
 
 
@@ -413,7 +413,7 @@ Priya still works there. The routing table is still accurate, the third agent is
 
 She never lacked evidence. She lacked anywhere to take it.
 
-What she thinks about, on the Fridays she does not open the log, is how cheap it would have been. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line where the router reads, saying no agent goes a month without a hard ticket, and the third agent is still there. She could have written either in an afternoon, in the same afternoon she wrote the router, if it had occurred to her that a log is a thing that decides.
+She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line where the router reads, saying no agent goes a month without a hard ticket, and the third agent is still there. She could have written either in an afternoon, in the same afternoon she wrote the router, if it had occurred to her that a log is a thing that decides.
 
 It did not, because it does not look like that while you are building it. It looks like a table. Nobody writes a table as though it will one day be the only account of what happened, and by the time it is, there is nobody to tell.
 
