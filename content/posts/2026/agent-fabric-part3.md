@@ -244,7 +244,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## What She Can Do About It
 
-She does the two things anyone can do. First she complains, which means replying to the email that refused her, and what reads her second letter is what wrote the first one. It has already decided what her return history means. An appeal heard by the party you are appealing against is not an appeal.
+So she tries. Everyone gets the same two options, and she takes them in order. First she complains, which means replying to the email that refused her, and what reads her second letter is what wrote the first one. It has already decided what her return history means. An appeal heard by the party you are appealing against is not an appeal.
 
 Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
