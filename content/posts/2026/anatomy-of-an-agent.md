@@ -11,7 +11,7 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,450 words"
+wordcount: "~1,700 words"
 ---
 
 
@@ -35,7 +35,7 @@ Start with the acting, because not all of it is equally recoverable and that mat
 
 The other pieces fail in more ordinary ways. Take away the prompt and a capable agent does something competent that nobody asked for. Take away planning and it solves the step in front of it at the expense of the one after, cheerfully deleting the file it needs in twenty minutes. Those are annoying. The self-grading failure is different in kind, because it is the only one the agent cannot notice from the inside.
 
-Identity deserves a note, because it is doing more than it looks like. Tell one agent it is careful and terse, tell another it is patient and kind, run both on the same model, and put the same angry customer in front of them. They behave like different species. Most of what feels like an agent's character is a sentence somebody typed, which means most of what an agent will refuse to do is also a sentence somebody typed, and somebody can change it.
+Identity does more work than it looks like. Tell one agent it is careful and terse, tell another it is patient and kind, run both on the same model, and put the same angry customer in front of them. They behave like different species. Most of what feels like an agent's character is a sentence somebody typed, which means most of what it will refuse to do is also a sentence somebody typed, and somebody can change it.
 
 ## Where Single-Agent Recursion Breaks
 
@@ -51,9 +51,9 @@ Sit with that, because it is worse than being wrong. A person who cannot find a 
 
 From outside it looks like diligence. The commit history shows steady work, each message more specific than the last, the explanations getting more detailed and more certain. If you were reviewing it you would see an agent closing in on something. What you would not see is that it stopped considering alternatives an hour ago, and that the confidence went up precisely because it kept failing. That is the shape of the problem: not an agent that gives up, but one that cannot tell the difference between converging and digging.
 
-This is not one system's quirk. When researchers <a href="https://arxiv.org/abs/2310.01798" target="_blank" rel="noopener">asked models to revise their own reasoning</a> with nothing external to check against, the revisions often came out worse than the originals. Nobody has found a way around it either: <a href="https://arxiv.org/abs/2406.01297" target="_blank" rel="noopener">every case of self-correction that actually works</a> turns out to be leaning on something from outside. The mechanism meant to catch mistakes ends up laundering them into certainty.
+And it is not one system's quirk. Researchers have <a href="https://arxiv.org/abs/2310.01798" target="_blank" rel="noopener">handed models their own reasoning to revise</a> with nothing external to check against, and the revisions came out worse than the originals often enough to matter. Anyone looking for a case of self-correction that works without an outside signal has <a href="https://arxiv.org/abs/2406.01297" target="_blank" rel="noopener">not found one</a>.
 
-Give the same agent more time and it does not escape, it plateaus. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research and engineering problems</a> and the agents are ahead in the first couple of hours, then the humans overtake them and keep going. The agent exhausts the strategies available to it and settles into diminishing returns instead of stepping back and trying a different angle.
+Give the same agent more time and it does not escape, it plateaus, and the plateau has a texture worth knowing. Hour one it tries three approaches. Hour four it is trying variations on the approach it liked best. Hour eight it is adjusting parameters inside a variation, and the work still looks like work: files changing, tests running, output accumulating. Nothing signals that the search space collapsed six hours ago. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research and engineering problems</a> and the agents are ahead in the first couple of hours, then the humans overtake them and keep going.
 
 All three come back to the same thing. One loop runs one set of habits, so the patterns that produced a mistake are the patterns judging whether it was a mistake. The agent cannot hold a position and attack it at the same time, and no amount of prompting changes that, because it is not a shortfall in the model. It is a property of being alone.
 
