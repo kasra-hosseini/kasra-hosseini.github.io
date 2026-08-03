@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. Somebody decided what it could reach, and that kind of mistake shows up fast.
+Give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. Somebody spends the afternoon putting the files back, and everyone agrees it should not have had that tool. That kind of mistake shows up fast, and it gets fixed.
 
 Somebody also decided when it is allowed to stop, and that one never shows up at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
@@ -47,7 +47,7 @@ From outside it looks like diligence. The commit history shows steady work, each
 
 The model is not being stupid. Every test it reads was broken by its own last edit, so it is arguing with a situation it keeps changing, and the wrong turn it took first narrows everything it can attempt after. No agent yet <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">works a full day at a computer unsupervised</a>, and <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">the longer a job runs the further behind a person it falls</a>.
 
-The one on the timezone bug is still editing at hour six, nothing signalling that the search space collapsed before lunch. That is the shape of it on every long job: on a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> an agent beats a human expert for the first couple of hours, and then the expert pulls ahead and keeps pulling.
+The one on the timezone bug is still editing at hour six, nothing signalling that the search space collapsed before lunch. Give an agent a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> and it will beat a human expert for the first couple of hours, and then the expert pulls ahead and keeps pulling.
 
 The agent that made the mistake is the agent grading it. No prompt fixes that, because it is not a flaw in the prompt. It is a property of being alone in the room.
 
