@@ -424,7 +424,9 @@ Same four records, same threshold, and this time somebody's refund is on the oth
 
 You could call that good optimization rather than authority. The difference is memory. Plenty of systems already spread work across machines by whichever is least busy right now, and nobody calls that a governing body, because the moment the work is done the numbers are forgotten. The support router does not forget.
 
-Its preference outlived the tasks that produced it and will still be enforcing itself tomorrow, which is why the institution is never a layer somebody added on top. It is the delegation pattern itself, seen over a long enough stretch that its own history feeds back into it. Mostly that has not happened yet, since production systems still forget everything between sessions, but long-term memory and evaluation logs and routing analytics are all arriving, and memory does not force this outcome so much as remove what was preventing it.
+Its preference outlived the tasks that produced it, and it will still be enforcing that preference tomorrow. Which is why an institution is never a layer somebody adds on top. It is the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it.
+
+Mostly that has not happened yet, because production systems still forget everything between sessions. But long-term memory, evaluation logs, and routing analytics are all arriving, and memory does not force this outcome so much as remove the thing that was preventing it.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
