@@ -215,7 +215,7 @@ It works, too. The refund line stops climbing inside a month, which is why nobod
 
 So the same letter reaches a judgement, then a winner, then a rule, then someone who can overrule the rule. Four arrangements in a year, no announcements and no design review, and she happened to write in under the only one with no way back in.
 
-Every one of those desks needed a record to exist at all. Plenty of software remembers things. This one decided who would read her letter.
+Every one of those desks needed a record to exist at all, and plenty of software keeps records. This one decided who would read her letter.
 
 Nothing was broken while that happened. Every agent performed well against the measure it was given, and when finance noticed the refund line and bolted on a risk score, that correction was reasonable too. She is the one who paid for both. The question nobody asks early enough is who an arrangement is meant to favour, and who needs protecting from it.
 
@@ -244,11 +244,11 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## What She Can Do About It
 
-She does the two things anyone can do. First she complains, which means replying to the email that refused her, and what reads her second letter is what wrote the first one. It has already decided what her return history means. An appeal heard by the party you are appealing against is not an appeal.
+So she complains, which means replying to the email that refused her, and what reads her second letter is what wrote the first one. It has already decided what her return history means. An appeal heard by the party you are appealing against is not an appeal.
 
 Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
-The downranked agent has the same two options and neither works for it either. Complaining is not available to it in any form: every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse. Leaving is not available either, because there is no second shop for a support agent, no other desk it could take its record to. She has a shop she cannot leave and it has a job it cannot leave, and neither of them gets heard for the same reason.
+The downranked agent has the same two and neither works for it either. Every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse, and there is no second shop for a support agent. Neither of them can go anywhere, so neither of them gets heard.
 
 Nothing about the rule that refused her was written down anywhere she could have found it, or anywhere the people who built the desk could have found it either. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
 
@@ -287,9 +287,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-Nobody in her story was careless, and nobody was cruel. Somebody logged performance and acted on it, which is what any competent engineer would do.
-
-These structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
+Nobody in her story was careless, and nobody was cruel. Somebody logged performance and acted on it, which is what any competent engineer would do, and that is what refused her: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
 
 That desk has been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking. Nobody had that on a ticket.
 
