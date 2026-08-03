@@ -375,18 +375,18 @@ Your calendar agent and your messages agent will eventually want opposite things
 
 ## From Architecture to Institution
 
-On a phone the worst this costs is your own afternoon. What follows is the same arrangement inside a company, where the record is no longer about the person reading it but about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times.
+On a phone the worst this costs is your own afternoon. The same vacuum inside a company costs somebody else theirs, because there the record is no longer about the person reading it: it is about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times, and what follows is how it happens.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
-Six weeks in, an engineer called Priya sorts the routing log by agent and sees a column of zeroes going back to March. She goes looking for the rule that did it. There is no rule: the settings mention the agent only to say it exists, the policy docs say hard tickets go to whoever is best placed to handle them, and three people confirm nobody changed the routing in March, which is true.
+Six weeks in, an engineer called Priya sorts the routing log by agent and sees a column of zeroes going back to March. She goes looking for the rule that did it, and there is no rule: nothing in the settings, nothing in the policy docs, and nobody who changed anything in March.
 
 So she hands the third agent three hard tickets herself. It is slow on two of them, because it has not had a hard ticket since March, and the table records that too.
 
 That is the trap. Nobody wrote the rule and nobody can lift it, because it is not a rule, it is a record of what happened, and the only way to argue with it is to make it wrong. She leaves it, the way you left your calendar alone.
 
-What that costs arrives six months on. The third agent is retired for underperformance, which leaves the two survivors as the only agents with any record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
+What that costs arrives six months on, when the third agent is retired for underperformance. Now only two agents have any record on hard billing disputes. When one of them starts approving refunds it should not, there is nothing left to compare it against, because the only agent that might have looked different was retired for never being given the chance.
 
 Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and there is nothing she can point at. Which is where you already are with your calendar, minus the standup. You cannot point at the moment you agreed to any of it either.
 
