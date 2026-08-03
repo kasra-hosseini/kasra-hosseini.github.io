@@ -353,7 +353,7 @@ A dispatcher has to decide who is worth handing work to. It could go on declared
 
 Your phone already does this to you, in miniature. Something in front decides which of your agents sees a given request, and it gets better at that decision by watching which of its guesses you let stand. The uncomfortable part is that there is no version of this that does not keep score. To send the easy questions somewhere cheap, a dispatcher has to know which questions are easy, and the only way it learns that is by remembering how the last few thousand went.
 
-The shapes are the easy part. What matters is what happens when they stack inside each other. You ask your research agent for a summary. It hires something to fetch the paper, that thing hires something to compress what it found, and by the time an answer comes back three layers have each decided what the layer beneath it was allowed to try. You asked one question and started a chain of command. Nobody can see it whole, not you and not any agent in it, because each one knows only who called it and who it called. The one mercy is that these trees stay short, since every extra layer costs money and adds delay, so the number of people you cannot see deciding things on your behalf stays small by accident rather than by design.
+And these arrangements stack. You ask your research agent for a summary, it hires something to fetch the paper, that thing hires something to compress what it found, and by the time an answer comes back three layers have each decided what the layer beneath it was allowed to try. You asked one question and started a chain of command. Nobody can see it whole, not you and not any agent in it, because each one knows only who called it and who it called. The one mercy is that these trees stay short, since every extra layer costs money and adds delay, so the number of people you cannot see deciding things on your behalf stays small by accident rather than by design.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
@@ -414,7 +414,7 @@ The shapes are the easy part. What matters is what happens when they stack insid
 
 ## From Architecture to Institution
 
-None of that was really about phones. Several agents, a way to hand work between them, and something keeping score: those three facts did all the work, and they are just as true of a company that has never thought about any of this. The difference is what it costs when the record is wrong.
+None of that was really about phones. It needed several agents, a way to hand work between them, and something keeping score, and a company has all three without ever having thought about it. What changes is the cost of being wrong.
 
 A retailer points a router at its incoming tickets: it reads each one as billing, returns, or technical, and hands it to whichever agent handles that kind. Pure delegation so far. But the router logs how long each agent takes, how often customers come back angry, how often a ticket has to be escalated, because those numbers are cheap to collect and obviously useful.
 
