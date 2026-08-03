@@ -248,7 +248,7 @@ Which arrangement a desk ends up in is mostly decided for it, and drift that has
 
 ## How a Society Gets Argued With
 
-She could have complained, if there had been anywhere to complain to that was not the thing that refused her. She could have left, if six years of orders bought her a shop that wanted them. She could have taken the retailer's whole arrangement, changed the rule she objected to, and run that version instead, which is what software people mean by forking, except that nobody forks a shop. Those three are the whole repertoire, and she had none of them, which is why her letter was safe to refuse.
+Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and the reason she had stayed six years is that she had not found one. Forking, which is what software people call copying the whole arrangement and changing the rule you object to, does not apply to shops. That is the entire repertoire, and her letter was safe to refuse because she had none of it.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to go, so nothing obliges anyone to listen. Complaints get heard where leaving is possible, which is what platform concentration takes away, from the agent and from her equally.
 
@@ -258,7 +258,7 @@ Somebody at that retailer could have said out loud, in the week the risk score w
 
 And every one of those choices is a trade that resists cleverness. Letting one router decide made the desk fast until the month that router was wrong about everything downstream. Scoring the agents made it accurate and produced drift nobody could see. Writing fixed rules made it safe, and the safety cost her the refund. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
 
-The encouraging part is that none of this has to live in a document nobody reads. The rule that refused her could have been written where the system actually looks, with a note beside it saying who may change it and what happens when somebody disputes it. A rule that does not show up there is not governance, it is a wish. It is also still not hers to appeal to.
+None of this has to live in a document nobody reads. The rule that refused her could have been written where the system actually looks, with a note beside it saying who may change it and what happens when somebody disputes it. A rule that does not show up there is not governance, it is a wish. It is also still not hers to appeal to.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
@@ -274,7 +274,7 @@ This framework shares territory with several concurrent research programmes and 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
 
-The discomfort in that is specific. Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Audit the model that answered her and you would find nothing, because an agent cannot collude with itself and no individual model drifts the way a scoreboard does. The thing to audit is the desk: who it lets decide, how fast its measures go stale, and whose interests its arrangement of power quietly serves.
+Here is the uncomfortable part. Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Audit the model that answered her and you would find nothing, because an agent cannot collude with itself and no individual model drifts the way a scoreboard does. The thing to audit is the desk: who it lets decide, how fast its measures go stale, and whose interests its arrangement of power quietly serves.
 
 ## What Is Still Unsolved
 
