@@ -314,7 +314,7 @@ wordcount: "~1,200 words (body) · ~2,000 words (notes)"
 
 You will probably end up with a handful of personal agents: one managing your calendar, one triaging your messages. Nobody wires them together. Then two of them want opposite things, because the messages agent has something urgent and the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
-Try to give the messages agent more room later and it hesitates anyway, because something logged every one of those dismissals and the record is more consistent than you are. You are now arguing with a policy you wrote by accident.
+Try to give the messages agent more room later and it hesitates anyway, because something logged every one of those dismissals and the record is more consistent than you are. You are now arguing with a policy you wrote by accident. Hold onto that feeling, because the rest of this post is the same thing happening where the record is about somebody else.
 
 
 <div class="viz-container">
@@ -382,7 +382,7 @@ Somebody writes in because a delivery never arrived. A router reads the message,
 
 After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it.
 
-Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. She raises it at standup, and nobody can find the decision. There is no config flag and no policy document, only a table of resolution times that everybody agrees is accurate.
+Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. Nobody can find the decision. There is no config flag and no policy document, only a table of resolution times that everybody agrees is accurate.
 
 Here is what she is looking at. Somewhere in the queue is a customer whose fragile-item return will be handled by whichever agent the table prefers, and nobody in the room can say why that is the one. She can hand the third agent any single ticket herself and nobody will stop her. She cannot touch the standing preference about who gets the hard ones at all, and she cannot find anyone who is allowed to change it, because there is nobody: the preference is the table, and the table is just a record of what happened.
 
