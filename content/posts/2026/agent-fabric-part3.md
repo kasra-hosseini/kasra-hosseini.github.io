@@ -296,7 +296,7 @@ The hardest part of this is not technical. Suppose she pushes, somebody agrees t
 
 The one that scored her has been retrained twice since, on data that now includes her case. There are four copies of it running, one of them rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. Ask which one decided and there is no answer that survives contact with how these systems actually work, because the thing that decided was a configuration that existed for six weeks and no longer exists anywhere.
 
-Accountability assumes the accountable party stays put. People can be found later, companies can be sued years after the fact, and the question here is not who signed in but which thing is continuous with the one that decided. For her case, nothing is.
+You can find a person years later. You can sue a company a decade on. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
