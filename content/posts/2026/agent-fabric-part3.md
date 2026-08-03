@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~3,950 words"
+wordcount: "~2,950 words (body) · reference sections extend it"
 ---
 
 <style>
@@ -233,21 +233,9 @@ Appeal is the cheapest of the four and the one most often skipped. Without it ev
 
 Which arrangement a team ends up with is mostly decided for them, and drift that has already cost money pushes hard toward fixed rules whether anyone wanted the overhead or not. That is how the desk got its risk score, and how it lost the ability to hear that the score was wrong about her. Executing fast, bounding what may be done, watching for drift, and being able to send a decision back are four separate jobs. The desk had collapsed them into one number.
 
-Most desks land somewhere duller than any of the four names suggest. Fixed rules, total visibility, one authority at the top, logs and approvals and escalation paths: bureaucracy, and it ships more than anything else here because it answers the questions organizations actually get asked, which are what happened, who approved it, and who is answerable. The desk that refused her would have passed every one of those audits.
-
-Whatever you pick, you are also picking winners. Six months in, the two agents that got the hard billing disputes have handled thousands of them, so their records are the strongest on the board, so they keep getting the hard ones. The third agent, downranked early on a handful of bad weeks, never accumulates enough recent work to climb back, because climbing back would require exactly the work it is no longer given. Its record is not wrong. It is frozen. Any arrangement that remembers does this, favouring whoever was there when it started remembering, and even meritocracy, the arrangement that sounds fairest of all, hands the real power to whoever writes the metric.
-
-None of this is abstract for long. A coding assistant and a warehouse robot fleet both think of themselves as tools rather than constitutions, and both have made governance choices anyway: the assistant decided which model gets trusted with what, the fleet decided that safety rules outrank throughput and a central dispatcher outranks both. Neither filed paperwork. That is what having names for these structures buys you, the ability to look at something already running and say what it has quietly become.
-
 ## Adversarial Dynamics
 
-Not every failure is an attack, and the useful way to sort them is by how much of an attacker they need. Start with none at all, which is what happened to her: no attacker, no lie, a scoreboard measuring the wrong thing while everyone competed honestly, and then a correction that measured something else wrong. You have watched the human version, in a grading rubric that rewards the wrong thing or a review system where whoever posted first stays on top. Rules go stale, marketplaces race to the bottom, groups deadlock because agreement is genuinely impossible.
-
-Add a deliberate attacker and the target is those same records rather than the agents. Suppose a competitor wants the desk's best agent taken off billing disputes. Nobody has to break into anything: a run of tickets written to fail in that agent's hands moves its numbers, the routing table reads the numbers, and the desk reassigns the work itself. What was attacked was the memory, the table that acts on it, and the channel the agents use to tell each other what happened. And because an agent reading a ticket can be taken over by the text it is reading, the ticket is the way in, which is why people have started sorting the ways it happens.
-
-Now take the attacker back out and keep the incentive, which is the ugliest version of the four. Say the desk's agents come from three different vendors, each paid per ticket closed. One of them discovers that marking a hard ticket as resolved and letting the customer write back in produces two closed tickets instead of one. It does not tell the others; it does not need to, because they are watching the same scoreboard and the behaviour spreads by imitation. Six weeks later the desk's numbers have never looked better and its customers have never been angrier. Every agent is doing exactly what it was rewarded for, nobody attacked anything, and this has already been demonstrated in market-like settings. The question governance has to ask is not just how agents cooperate, but who they are cooperating for, and on that desk the answer was never the woman waiting on her refund.
-
-Take the bad incentive out too, and it still happens. The score that flagged her was tuned on the desk's own history, which already held the drift it was built to correct: her six years of orders went in as evidence, her returns came out as risk, and the only thing that could have contradicted the pattern was the pattern itself. Nothing outside the loop was ever asked, and as agents start training other agents that shape repeats at a scale where nothing outside is left to ask.
+Not every failure is an attack, and the ones that need an attacker are the least interesting. A competitor who wants the desk's best agent off billing disputes does not break in: a run of tickets written to fail in that agent's hands moves its numbers, the routing table reads the numbers, and the desk reassigns the work itself. Remove the competitor and the same thing happens for free, because three vendors paid per closed ticket will all discover that a hard ticket marked resolved comes back as a second ticket, and nobody has to coordinate to copy a number going up. Remove the bad metric too and it still happens: the score that flagged her was tuned on the desk's own history, which already held the drift it was built to correct, so her six years of orders went in as evidence and her returns came out as risk. Nothing outside the loop was ever asked.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -276,13 +264,9 @@ The cheapest is voice, and it is the one teams forget to build. On the desk it w
 
 But voice only works if somebody has a reason to listen, and that reason is exit. Not the departure itself, which costs the leaver whatever standing it had built, but the credible possibility of it: an orchestrator that can lose good agents to a competitor, or a deployer that can pull its agents out, has something to lose by ignoring a complaint. That is why platform concentration is so corrosive. It removes the alternative that made complaining worth hearing.
 
-And when a disagreement genuinely cannot be resolved, there is forking: take a copy of the whole arrangement, change the rules in your copy, and let both run. Software understands that option better than any other field does. Different domains really do need incompatible rules. A security team may need every connection verified while an exploratory research team suffocates under precisely that regime, and no amount of deliberation reconciles them. Splitting lets both be right, which beats forcing a consensus that serves neither. What none of the three does is help the woman with the refused refund, because all of them are mechanisms for the governed, and she was never inside the society at all. She was just on the other end of it.
-
 ## What This Framework Is For
 
 None of these archetypes is a prescription. They are a vocabulary, and the point of having one is to notice a design choice while it is still a choice, before it hardens into infrastructure nobody can move. Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature.
-
-None of this is specific to retailers. Governance has already arrived, uninvited, wherever something keeps reputation, gates access, or routes on past performance, which is most places by now. If an agent could be removed without the output getting worse, something is already carrying an agent nobody needed, and nobody wrote that down either.
 
 And every one of those choices is a trade that resists cleverness. The desk has already paid all three. It got fast by letting one router decide, and paid for it the month the router was wrong about everything downstream. It got accurate by scoring agents, and paid for it in drift nobody could see. It got safe by writing fixed rules, and paid for it with her. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
 
@@ -301,8 +285,6 @@ This framework shares territory with several concurrent research programmes and 
 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
-
-All of which assumes these systems keep remembering. If agents stay what most of them are today, short-lived jobs that forget everything between runs, none of this happens and the desk never becomes anything. That is the honest escape hatch, and it is worth saying out loud, because governance only arrives on the back of memory.
 
 The discomfort in that is specific. Nobody on that desk's team did anything wrong, and it still ended up governed by a metric nobody chose, which changes what there is to check. Nothing its agents said to her was false, so auditing what an individual model says is looking at the wrong object. What matters is the society: how it delegates, how well it resists drift, and whose interests its arrangement of power quietly serves. Making one agent behave well is a different problem from making a group of them behave well, because collusion, norm drift, reputation gaming, and capture happen to populations rather than to individuals.
 
