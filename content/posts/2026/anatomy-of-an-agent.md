@@ -55,7 +55,7 @@ The agent that made the mistake is the agent grading it. No prompt fixes that, b
 
 ## Beyond the Single Loop
 
-There are only two ways out of this, and one of them is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways, with no more capability in any of them than the original had. One writes the code. A second, the tester, gets the failing test and none of the writer's reasoning. A third, the breaker, spends its day trying to break whatever comes out.
+There are only two ways out of this. One is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways, with no more capability in any of them than the original had. One writes the code. A second, the tester, gets the failing test and none of the writer's reasoning. A third, the breaker, spends its day trying to break whatever comes out.
 
 The tester does the obvious thing nobody had done in six hours: it runs the test twice, in two timezones, and watches it pass once.
 
@@ -63,7 +63,7 @@ That is the whole fix. It was available the entire time, and the writer could no
 
 Nobody on that team decided the tester should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The breaker never had to be clever either. Its whole job was breaking things, on a test it had no reason to defend.
 
-The arrangement costs something of its own. The writer says the test was unfair. The breaker says it was not. Somebody has to settle that, and nobody built anything to settle it.
+The arrangement costs something of its own, and the cost is that three agents can disagree and nobody assigned anyone to settle it. The writer says the test was unfair. The breaker says it was not. Somebody has to settle that, and nobody built anything to settle it.
 
 So it gets settled by whatever is already there. What is already there is a count of how often each agent has had to be retried, which somebody added to decide which one to run again first. The breaker has been retried less, so the test stands. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
 

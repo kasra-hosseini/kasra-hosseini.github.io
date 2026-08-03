@@ -238,7 +238,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-The second reader is the part that should have caught her case. On a Tuesday the company providing it switched the service off. The rule was not repealed, or voted down, or argued about; it just stopped applying. Her letter arrived on the Thursday and got one reader, and nobody at the retailer knew the difference, because the rule was still there in the policy document where they had written it.
+The second reader is the part that should have caught her case, and it is the part that stopped existing. On a Tuesday the company providing it switched the service off. The rule was not repealed, or voted down, or argued about; it just stopped applying. Her letter arrived on the Thursday and got one reader, and nobody at the retailer knew the difference, because the rule was still there in the policy document where they had written it.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled. It was a number in a config file with her name nowhere near it. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
 
