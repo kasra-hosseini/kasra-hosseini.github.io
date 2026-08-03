@@ -21,11 +21,11 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter. Something was built around it, and that something is the difference between a thing that describes work and a thing that does it.
 
-The gap does not close by making the model smarter. It closes by building things around it, and the apparatus has a name: **scaffolding**. Something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that keeps going until the work looks done. None of that is the model. All of it is what turns a thing that describes work into a thing that does it.
+The gap does not close by making the model smarter. It closes by building things around it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that runs until the work looks done. That apparatus is called **scaffolding**, and none of it is the model.
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything outside the model in the middle is scaffolding. None of it makes the model smarter, and all of it is what lets the model act." >}}
 
-Take any one of those away and the character changes. Without the loop it is a chatbot again. Without tools it can think and never touch anything. And an agent that loses its memory does not get dumber in any measurable way: it stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
+Remove the loop and it is a chatbot again. Remove the tools and it can think without touching anything. But remove its memory and something stranger happens: it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
 ## What the Loop Needs
 
