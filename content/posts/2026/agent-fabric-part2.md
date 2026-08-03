@@ -377,14 +377,18 @@ Start with the smallest version of this, the one already sitting in your pocket.
 
 On a phone the worst this costs is your own afternoon. Now hold that same arrangement still and change one thing about it: who the record is about. On your phone it was about you, and you could always override it. Inside a company the record is about somebody who is not in the room: it is about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times.
 
-Split work among agents, keep records of how it went, and act on those records, and you have built something that governs, whether or not anybody meant to. Rules nobody wrote, authority nobody granted, and no way to appeal, because nobody ever needed to appeal a log. What follows is one desk acquiring exactly that, in the ordinary course of working properly.
+What follows is a support desk acquiring rules nobody wrote, authority nobody granted, and no way to appeal, because nobody ever needed to appeal a log. It happens through three steps that are each obviously correct: split work among agents, keep records of how it went, act on the records.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
 There is one person at that company who would notice, and it is not a manager. Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
-She goes looking for the rule that did, and there is no rule anywhere: not in the settings, not in the policy docs, not in anyone's memory, only a pattern that has been running long enough to look like one. So she hands the agent three hard tickets herself. The table has no way to tell rusty from incapable, so when two come back late it reads that as fresh evidence the agent should not be given hard tickets. That is the trap: every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
+She goes looking for the rule that did, and there is no rule anywhere: not in the settings, not in the policy docs, not in anyone's memory, only a pattern that has been running long enough to look like one.
+
+So she tries to break it, and hands the agent three hard tickets herself. The table has no way to tell rusty from incapable, so when two come back late it reads that as fresh evidence the agent should not be given hard tickets.
+
+That is the trap. Every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
 
 By October that agent is retired for underperformance, which leaves two. In November one of the survivors tells a customer her fragile-item return does not qualify, and it is wrong, and there is nothing left to check it against. The one agent that might have answered differently was retired for never being given the chance.
 
