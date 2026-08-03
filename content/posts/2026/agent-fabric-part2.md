@@ -387,7 +387,7 @@ Every step she can find is a defensible one. One Tuesday the third agent took el
 
 
 
-So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table has one column, close time, and no column for why. Two more slow tickets is all it sees, so the agent drops further and the router asks it for even less. Trying to help was itself evidence against it.
+So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table has one column, close time, and no column for why, so what it records is not that she gave a rusty agent three hard tickets. What it records is two more slow tickets. The agent drops further, the router asks it for even less, and trying to help was itself evidence against it.
 
 There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet.
 

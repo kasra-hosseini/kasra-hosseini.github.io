@@ -30,7 +30,11 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Give an agent a filesystem tool it did not need and it will reorganise a directory nobody asked it to touch by lunchtime. Somebody notices, and it loses the tool. The decision about when it is allowed to stop is the one nobody notices at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
+Give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. That kind of wrong is loud. Somebody notices by the afternoon, the agent loses the tool, and the mistake is over.
+
+The quiet one is the decision about when it is allowed to stop. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself.
+
+Nothing announces that. How much it costs depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
 
 
@@ -53,7 +57,7 @@ The agent that made the mistake is the agent grading it. No prompt fixes that, b
 
 ## Beyond the Single Loop
 
-There are only two ways out of this. One is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways, with no more capability in any of them than the original had. One writes the code. A second, the tester, gets the failing test and none of the writer's reasoning. A third, the breaker, spends its day trying to break whatever comes out.
+There are only two ways out of this. One is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways, with no more capability in any of them than the original had. One writes the code. The tester gets the failing test and none of the writer's reasoning, which is the whole point of it. The breaker spends its day trying to break whatever comes out.
 
 The tester does the obvious thing nobody had done in six hours: it runs the test twice, in two timezones, and watches it pass once.
 
