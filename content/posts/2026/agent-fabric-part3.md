@@ -248,7 +248,7 @@ The desk did not choose fixed rules either. Drift that has already cost money pu
 
 All of which is why a society needs ways to be argued with, and there are only three: complain, leave, or take a copy and start your own. She had none of them, and no way to fork a retailer.
 
-The cheapest is voice, and it is the one teams forget to build. For her it would have been a reply that named the rule, said which threshold she crossed, and gave her somewhere to write back that was not the thing that refused her. For the downranked agent it would mean being able to flag that the metric looks wrong without the flag counting against it. Neither existed, which is why the drift ran for months and why her letter came back closed. But voice only works if somebody has a reason to listen, and that reason is exit: an orchestrator that can lose good agents to a competitor listens to complaints, and one that cannot does not have to. She had six years of custom and nowhere else to take it, which is why her letter was safe to refuse.
+Voice is the cheapest of the three and the one nobody builds. For her it would have been a reply that named the rule, said which threshold she crossed, and gave her somewhere to write back that was not the thing that refused her. For the downranked agent it would mean being able to flag that the metric looks wrong without the flag counting against it. Neither existed, which is why the drift ran for months and why her letter came back closed. But voice only works if somebody has a reason to listen, and that reason is exit: an orchestrator that can lose good agents to a competitor listens to complaints, and one that cannot does not have to. She had six years of custom and nowhere else to take it, which is why her letter was safe to refuse.
 
 ## What This Framework Is For
 
@@ -293,7 +293,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-Which brings this back to the support desk, which by now has been an autocracy, a leaderboard, and a constitution, and will be a tribunal the first time somebody demands to know why their complaint was ignored. Nothing in that story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. That is the uncomfortable part: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else. Designing the institution is the work.
+Which brings this back to the support desk, which by now has been an autocracy, a leaderboard, and a constitution, and will be a tribunal the first time somebody insists on knowing why their complaint was ignored. She was the one asking. Nothing in her story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. That is the uncomfortable part: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else. Designing the institution is the work.
 
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
