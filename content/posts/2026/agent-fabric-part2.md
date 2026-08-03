@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,800 words (body) · ~2,000 words (notes)"
+wordcount: "~1,700 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -347,7 +347,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 Four agents barely need organizing; one of them handing out jobs is plenty. It gets interesting when there are dozens and they can call each other, because then somebody has to decide who gets what, and that decision is not an implementation detail. It is the whole question.
 
-A dispatcher has to decide who is worth handing work to. It could go on declared capability, or on the type of the task, but the moment any record of past results exists that record wins, because it is cheaper than asking and more accurate than trusting. And a record of who did well is the first sentence of a hierarchy.
+A dispatcher has to decide who is worth handing work to, and the moment any record of past results exists that record wins, because it is cheaper than asking and more accurate than trusting. A record of who did well is the first sentence of a hierarchy.
 
 Your phone already does this to you, in miniature. Something in front decides which of your agents sees a given request, and it gets better at that decision by watching which of its guesses you let stand. The uncomfortable part is that there is no version of this that does not keep score. To send the easy questions somewhere cheap, a dispatcher has to know which questions are easy, and the only way it learns that is by remembering how the last few thousand went.
 
@@ -414,7 +414,7 @@ And these arrangements stack, which is where it gets harder to see. You ask your
 
 Now swap the phone for something with a budget. A support desk needs several agents, a way to hand work between them, and something keeping score, which is the same three ingredients your phone assembled by accident. The difference is that when this one gets it wrong, the person on the other end is a stranger who cannot see any of it.
 
-A retailer points a router at its incoming tickets: it reads each one as billing, returns, or technical, and hands it to whichever agent handles that kind. Pure delegation so far. But the router logs how long each agent takes, how often customers come back angry, how often a ticket has to be escalated, because those numbers are cheap to collect and obviously useful.
+Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns. That is the whole system at this point, and it works. But the router is also logging how long each agent takes, how often people write back angry, how often a ticket has to be escalated, because those numbers are free to collect and obviously useful.
 
 After a month it sends complex billing disputes only to the two agents that resolve them fastest, and it has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. Then a new agent joins the fleet, and the question of whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router learned, or wait. No one wrote that rule down. The deployment team can override it, but only by making the service worse, which in practice means they will not.
 
@@ -434,7 +434,7 @@ A research team builds a Map-Reduce pipeline: multiple agents search different d
 This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
 </details>
 
-Here is the part that decides whether anyone can fix this later. A preference stored as a list can be deleted. A preference trained into a model cannot, because there is no line to delete.
+Whether anyone can undo this later comes down to one thing. A preference stored as a list can be deleted. A preference trained into a model cannot, because there is no line to delete.
 
 Say an agent was downranked during a fortnight when its one bad week collided with a batch of impossible tickets, and somebody notices six months on. If the router is still reading a table, you edit the table. But nobody leaves preferences in tables forever, because training a model on the logs makes the decision faster and removes the lookup, and after that the judgement is spread through the thing that makes every decision. Reform means reconstructing a history you no longer have. The alternative is starting over.
 
