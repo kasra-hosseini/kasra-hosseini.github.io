@@ -176,7 +176,7 @@ wordcount: "~2,850 words (body) · reference sections extend it"
 
 A woman writes to a shop she has used for six years to ask why her refund was refused. She returns maybe one thing in twenty. The reply is polite and final. What nobody tells her, because nobody at the company can, is that a scoring system decided months ago that her return history made her a risk, and nothing since has been able to look past it. There is no one to appeal to, and no one chose this.
 
-Take the support desk from [Part 2](/posts/2026/agent-fabric-part2/) and let it keep running. A router sends billing questions to one agent and technical ones to another, somebody adds logging because logging is free and obviously sensible, and within a month the hard billing disputes go to two particular agents and nothing important goes to a third. Nobody wrote that rule. It was never in a spec, it now governs who gets what work, and when a new agent joins, whether it gets live tickets already has an answer: clear the bar the router taught itself, or wait. The team that built the desk would struggle to override any of it without making service worse.
+That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), where a router learned within a month to send the hard billing disputes to two particular agents and nothing important to a third, and nobody wrote that rule or could override it without making service worse.
 
 Run it a year forward and it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
@@ -193,7 +193,7 @@ So the bet here is that agent systems will fail through bad institutions rather 
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-The bar for calling that a society is lower than it sounds: not several agents working together, but a group that accumulates. A pipeline that forgets everything between runs never gets there, because governance grows out of what gets remembered. In one year that desk will pass through four recognisable ways of being governed, an autocracy, a meritocracy, a doctrine, and a constitutional republic, and nobody at the retailer will decide on any of them.
+A group that remembers like that is a society in the only sense that matters here, because governance grows out of what gets remembered. In one year that desk will pass through four recognisable ways of being governed, an autocracy, a meritocracy, a doctrine, and a constitutional republic, and nobody at the retailer will decide on any of them.
 
 ## What Governance Actually Is
 
@@ -284,7 +284,7 @@ This framework shares territory with several concurrent research programmes and 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
 
-The discomfort in that is specific. Nobody on that desk's team did anything wrong, and it still ended up governed by a metric nobody chose, which changes what there is to check. Nothing its agents said to her was false, so auditing what an individual model says is looking at the wrong object. What matters is the society: how it delegates, how well it resists drift, and whose interests its arrangement of power quietly serves. Making one agent behave well is a different problem from making a group behave well. An agent cannot collude with itself, and no single model drifts the way a scoreboard does.
+The discomfort in that is specific. Nobody on that desk's team did anything wrong, and nothing its agents said to her was false, and she was still refused by a metric nobody chose. So checking what an individual model says is checking the wrong thing. An agent cannot collude with itself, and no single model drifts the way a scoreboard does. What has to be audited is the society: how it delegates, how well it resists drift, and whose interests its arrangement of power quietly serves.
 
 ## What Is Still Unsolved
 
