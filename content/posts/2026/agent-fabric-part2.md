@@ -383,9 +383,11 @@ Somebody writes in because a delivery never arrived. A router reads the message,
 
 Six weeks in, an engineer called Priya notices that the third agent has not been given a hard ticket since March, and goes looking for the rule that did it. There is no rule. The settings mention the agent only to say it exists, the policy docs say hard tickets go to whoever is best placed to handle them, and three people confirm that nobody changed the routing in March, which is true.
 
-What exists is a table of resolution times. Nobody wrote it and nobody maintains it; it is just what happened, recorded, which is exactly why the team treats it as the one thing in the room that cannot be argued with. The only thing in it she could change is a number, and changing that would be falsifying a record. So she is arguing with something that is not wrong, on behalf of a piece of software, and she can hear how that sounds.
+So she tries the direct route and reassigns three hard tickets to the third agent by hand. Two come back slower than the average, which is what happens when an agent has not seen a hard ticket since March, and the table absorbs both results and rates it lower than before.
 
-She leaves it. Overriding the routing would make the numbers worse and her the person who made them worse, and nobody there would call the table a rule, which is exactly what makes it one.
+That is the trap. The table is not a rule anyone wrote; it is what happened, recorded, which is why the team treats it as the one thing in the room that cannot be argued with. Her only options are to falsify it or to feed it more evidence that it was right.
+
+She leaves it. Meanwhile a customer with a cracked vase is in the queue, waiting for whichever agent the table prefers rather than the one who knows the fragile-item policy.
 
 What that costs arrives six months on, when the third agent is retired for underperformance. The two survivors are now the only agents with a record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
 
