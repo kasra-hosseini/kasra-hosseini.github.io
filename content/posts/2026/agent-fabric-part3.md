@@ -238,11 +238,11 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 Her case was supposed to have a second reader. That is what the written rule said: refunds above her amount get checked by a second agent, which the retailer did by paying another company for one.
 
-That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying, because the thing enforcing it was never the retailer's. Her letter arrived on the Thursday and got one reader.
-
-The rule that would have caught her case was never really the retailer's to keep. It held for as long as somebody else's machines kept enforcing it, and not one day longer.
+That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying, because the thing enforcing it was never the retailer's. Her letter arrived on the Thursday and got one reader, and the rule that would have caught her case had lasted exactly as long as somebody else's machines kept enforcing it.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled. It was a number in a config file with her name nowhere near it. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
+
+## What She Can Do About It
 
 There are two things she can do about any of this, and she does both. Complaining means replying to the email that refused her, so she replies. What reads her second letter is what wrote the first one, and it has already decided what her return history means. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
 
@@ -274,9 +274,7 @@ She writes again, and this time somebody at the retailer agrees to look. The har
 
 The obvious place to look is the model that scored her. It has been replaced twice since, and each replacement learned from what happened to her, so the thing that made the decision is not there to be asked.
 
-A person can be found years later. A company can be sued a decade on. What actually refused her was a configuration that lasted six weeks, and it is not deleted or overturned, just superseded by the next version of the desk.
-
-So there is nothing left that made her decision. Not a missing record: a missing thing. That is why nobody can unmake it, and why an apology would have nowhere to come from even if somebody wanted to give her one.
+A person can be found years later. A company can be sued a decade on. What refused her was a configuration that lasted six weeks, not deleted or overturned but superseded, so there is nothing left that made the decision. Not a missing record: a missing thing. That is why nobody can unmake it, and why an apology would have nowhere to come from even if somebody wanted to give her one.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
