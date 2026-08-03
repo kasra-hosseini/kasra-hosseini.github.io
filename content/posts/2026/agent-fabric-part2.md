@@ -377,7 +377,7 @@ On a phone that costs you a suggestion you might have wanted. Give one agent in 
 
 Priya built the thing that decides which agent gets which ticket, which means anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
-So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds is a habit that has been running long enough to pass for a rule, which is all a rule has to be.
+So she goes looking for the rule behind those zeroes, and there is no rule: not in the settings, not in the policy docs, not in anyone's memory. What she finds is a habit that has been running long enough to pass for one, which is all a rule has to be.
 
 On a Tuesday in March the third agent took eleven hours over a billing dispute. After that the router stopped asking it hard questions at all, and every step in between is one she would have signed off on.
 
