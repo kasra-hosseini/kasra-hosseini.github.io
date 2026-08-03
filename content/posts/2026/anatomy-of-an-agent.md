@@ -33,9 +33,9 @@ Watch one piece fail and the rest explains itself. Ask a coding agent to fix a b
 
 Start with the acting, because some actions cannot be taken back. An agent that deletes the wrong file has caused an afternoon of annoyance and a restore from backup. An agent driving a robot arm that has already swung has caused something else, and no amount of apologising unswings it. Everything ordinary sits between those: reading files is safe, calling a well-behaved service is safe, driving a browser is merely messy because pages change underneath you. The same loop with the same model is a different proposition depending on which of those it can reach.
 
-The other pieces fail in more ordinary ways. Take away the prompt and a capable agent does something competent that nobody asked for. Take away planning and it solves the step in front of it at the expense of the one after, cheerfully deleting the file it needs in twenty minutes. Those are annoying. The self-grading failure is different in kind, because it is the only one the agent cannot notice from the inside.
+The other pieces fail in ways you can see coming. An agent with no prompt does something competent that nobody asked for. An agent with no planning fixes the thing in front of it and deletes the file it will need in twenty minutes. Both are annoying and both are obvious within the hour. The self-grading failure is different in kind, because it is the only one the agent cannot notice from inside.
 
-Identity does more work than it looks like. Tell one agent it is careful and terse, tell another it is patient and kind, run both on the same model, and put the same angry customer in front of them. They behave like different species. Most of what feels like an agent's character is a sentence somebody typed, which means most of what it will refuse to do is also a sentence somebody typed, and somebody can change it.
+Identity is stranger than it sounds. Two agents on the same model, one told it is careful and terse and one told it is patient and kind, will handle the same angry customer like different species. Most of what feels like an agent's character is a sentence somebody typed, which means most of what it will refuse to do is also a sentence somebody typed, and somebody can change it.
 
 ## Where Single-Agent Recursion Breaks
 
