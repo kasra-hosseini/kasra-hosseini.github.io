@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Start with the smallest version of this, the one already sitting in your pocket. Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
+Somewhere in a company you have written to this year, a piece of software is deciding who reads your complaint, and nobody there chose the rule it is following. Start with the smallest version of that, the one already sitting in your pocket. Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
 
 
 
@@ -386,7 +386,7 @@ Now watch that same mechanism run where the record is about somebody else. There
 
 She goes looking for the rule that did, and there is no rule anywhere: not in the settings, not in the policy docs, not in anyone's memory, only a pattern that has been running long enough to look like one.
 
-What the router consults is a table: agent names down one side, average resolution times down the other, sorted fastest first. So she tries to break it, and hands the third agent three hard tickets herself. It is rusty, two come back late, and the table cannot tell rusty from incapable. It records the delay as fresh evidence the agent should not be given hard tickets.
+What the router consults is a table of agents ranked by how fast they close things. So she tries to break it, and hands the third agent three hard tickets herself. It is rusty, two come back late, and the table cannot tell rusty from incapable. It records the delay as fresh evidence the agent should not be given hard tickets.
 
 That is the trap. Every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
 
@@ -408,7 +408,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 She was the one person in the building who knew where to look, and a spreadsheet beat her. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
 
-Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Every record of how the work went is a rule waiting to be promoted, and the promotion happens the moment something starts consulting it before acting. Nobody agrees to it and nobody can revoke it. She was right the whole time, and being right was worth nothing.
+Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time, and being right was worth nothing.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
