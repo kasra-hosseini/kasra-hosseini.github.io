@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,050 words (body) · ~2,000 words (notes)"
+wordcount: "~1,000 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -380,15 +380,15 @@ On a phone the worst this costs is your own afternoon. What follows is the same 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
-Somebody does eventually notice. Six weeks in, an engineer called Priya, who built half this desk and is the one person on the team who reads the routing logs for fun, sees that the third agent has not been given a hard ticket since March, and goes looking for the rule that did it. There is no rule. The settings mention the agent only to say it exists, the policy docs say hard tickets go to whoever is best placed to handle them, and three people confirm that nobody changed the routing in March, which is true.
+Six weeks in, an engineer called Priya sorts the routing log by agent and sees a column of zeroes going back to March. She goes looking for the rule that did it. There is no rule: the settings mention the agent only to say it exists, the policy docs say hard tickets go to whoever is best placed to handle them, and three people confirm nobody changed the routing in March, which is true.
 
-So she tries the direct route and hands the third agent three hard tickets herself. It is slow on two of them, because it has not seen a hard ticket since March, and the table records that too. She has just made the case against it stronger.
+So she hands the third agent three hard tickets herself. It is slow on two of them, because it has not had a hard ticket since March, and the table records that too.
 
-That is the trap. Nobody wrote the rule and nobody can lift it, because it is not a rule, it is a record of what happened, and the only way to argue with it is to make it wrong. She leaves it.
+That is the trap. Nobody wrote the rule and nobody can lift it, because it is not a rule, it is a record of what happened, and the only way to argue with it is to make it wrong. She leaves it, the way you left your calendar alone.
 
 What that costs arrives six months on. The third agent is retired for underperformance, which leaves the two survivors as the only agents with any record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
 
-Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and she would be right, and there is nothing she can point at. Which is where you already are with your calendar, minus the standup. You cannot point at the moment you agreed to any of it either.
+Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and there is nothing she can point at. Which is where you already are with your calendar, minus the standup. You cannot point at the moment you agreed to any of it either.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
