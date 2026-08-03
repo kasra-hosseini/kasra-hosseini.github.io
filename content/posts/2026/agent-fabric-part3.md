@@ -193,7 +193,7 @@ So the bet here is that agent systems will fail through bad institutions rather 
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-Governance grows out of what gets remembered, and in one year that desk will pass through four recognisable ways of being governed, without anyone at the retailer deciding on a single one of them.
+Governance grows out of what gets remembered. Inside a year that desk went through four recognisable ways of being governed, and nobody at the retailer decided on any of them.
 
 ## What Governance Actually Is
 
@@ -242,7 +242,7 @@ Her case was supposed to have a second reader. The retailer's rule says refunds 
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that, which is the oldest problem in delegation: what you asked for and what you rewarded were not the same thing. What makes that fixable rather than tragic is that somebody owns the conditions. The score that made her a risk was a number in a config file, and any Tuesday somebody could have decided it was wrong.
 
-The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Appeal is the cheapest thing a desk can build and the first thing left out, and without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
+The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nobody built her a way to dispute it, which is the cheapest thing a desk can have and the first thing left out. Without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
 Drift that has already cost money pushes hard toward fixed rules, which is how the risk score arrived. Nobody chose it: finance saw a number going the wrong way and the desk acquired a threshold. After that the same score set how fast the desk ran, what it was allowed to approve, and whether anything could be sent back. It was also the number that refused her.
 
