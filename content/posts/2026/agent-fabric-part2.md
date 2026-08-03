@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,000 words (body) · ~2,000 words (notes)"
+wordcount: "~1,050 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -377,16 +377,16 @@ Your calendar agent and your messages agent will eventually want opposite things
 
 On a phone the worst this costs is your own afternoon. Now hold that same arrangement still and change one thing about it: who the record is about. On your phone it was about you, and you could always override it. Inside a company the record is about somebody who is not in the room: it is about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times, and what follows is how it happens.
 
-Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
+Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
 Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
 She goes looking for the rule that did, and there is no rule anywhere: not in the settings, not in the policy docs, not in anyone's memory. There is only a pattern that has been running long enough to look like one.
 
-She hands it three hard tickets herself, and here is the trap. An agent that has not seen a hard ticket since March is slow at hard tickets, so two of the three come back late, and the table records that as fresh evidence that it should not be given hard tickets. Every attempt to correct the record makes the record stronger. Nobody wrote the rule and nobody can lift it, because it is not a rule, it is a description of what happened. She leaves it, the way you left your calendar alone.
+She hands it three hard tickets herself. It is rusty, two come back late, and the table records that as fresh evidence it should not be given hard tickets. That is the trap: every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
 
-By October that agent is retired for underperformance. Only two are left with any record on hard billing disputes, and in November one of them starts approving refunds it should not. Somewhere in that month a customer is told her fragile-item return does not qualify, by an agent that has never been especially good at fragile items, and there is nothing left to compare that answer against: the one agent that might have looked different was retired for never being given the chance.
+By October that agent is retired for underperformance, which leaves two. In November one of the survivors tells a customer her fragile-item return does not qualify, and it is wrong, and there is nothing left to check it against. The one agent that might have answered differently was retired for never being given the chance.
 
 Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and there is nothing she can point at.
 
@@ -402,7 +402,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-Nobody gets to choose whether their system has governance, only whether it is the kind you can name and overrule or the kind nobody can find. Priya lost that argument to a spreadsheet, and she was the one person in the building who knew where to look. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
+Neither desk had a choice about having governance. The only choice was whether anyone could find it. Priya lost that argument to a spreadsheet, and she was the one person in the building who knew where to look. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
