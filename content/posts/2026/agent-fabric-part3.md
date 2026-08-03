@@ -197,7 +197,7 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 ## What Governance Actually Is
 
-She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. The flag on her account was a standing rule about who may do what. That is an **institution**. Everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
+She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. What she hit was a standing rule about who may do what, which is all an **institution** ever is, and what she could not reach was the **governance** around it: the deciding of who may change the rule. The desk did not start out capable of either.
 
 ## Where Authority Comes From
 
@@ -246,21 +246,17 @@ Her case was supposed to have a second reader, because refunds above a threshold
 
 On a Tuesday morning the provider retired the interface. Nobody at the retailer voted to drop the second check, nobody noticed the rule had become unenforceable, and the rule itself was never repealed: it simply stopped applying, because the thing that made it apply belonged to somebody else. Her letter arrived on the Thursday and got one reader. So the rule that refused her was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
 
-Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. What the desk was asked for and what it was rewarded for were never the same thing. The score that made her a risk was a number in a config file, and on any Tuesday somebody could have opened that file and decided it was wrong. Nobody did, because nobody was looking for it.
-
-The flag on her account was one judgement, made once, by something scoring return rates. Every decision after it treated that judgement as settled fact, and because a dispute route is the cheapest thing a desk can have and the first thing left out, nobody ever looked at it twice.
-
-Once drift has cost real money, fixed rules are what get bought, and this desk bought a single score to carry all of it: how fast it ran, what it could approve, whether anything could be sent back. Her refusal was that score doing three jobs at once, and doing the third one badly.
+Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. It was a number in a config file. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
 
 ## How a Society Gets Argued With
 
 Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third only exists in software: copy the whole arrangement, change the rule you object to, run your version instead. She could not do that to a shop. Those are the only three things anyone has ever been able to do about an institution, and she had none of them.
 
-The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it. Both of them are stuck for the same reason: complaints get heard where leaving is possible, and neither of them could leave.
+The downranked agent has no more recourse than she does, and for the same reason. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to work. Complaints get heard where leaving is possible, and neither of them could leave.
 
 ## What This Framework Is For
 
-Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. The four names are not a recommendation. They are just enough vocabulary to notice a choice while it is still a choice.
+Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. Those four are not a menu to choose from. They are just enough vocabulary to notice a choice while it is still a choice.
 
 This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Where a system settles says a great deal about what its builders were afraid of.
 
