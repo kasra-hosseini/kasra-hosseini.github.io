@@ -280,7 +280,7 @@ Here is the uncomfortable part. Nobody on that desk's team did anything wrong, n
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-Start with the obvious candidate, the model that scored her. The trouble is that a model is not a thing that sits in a drawer: teams retrain them on newer data every few months and keep older versions running alongside. This one has been retrained twice since her refusal, on data that now includes her case, and four copies of it are live, one rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+Start with the obvious candidate, the model that scored her. The trouble is that a model is not a thing that sits in a drawer: teams retrain them on newer data every few months and keep older versions running alongside. This one has been retrained twice since her refusal, on data that now includes her case, and several versions of it are still live, including one from before the risk score existed. Every one of them carries her record. Not one carries the reasoning that produced it, because what actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 You can find a person years later. You can sue a company a decade on. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
