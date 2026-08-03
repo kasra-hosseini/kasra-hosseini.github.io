@@ -11,7 +11,7 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,550 words"
+wordcount: "~1,650 words"
 ---
 
 
@@ -23,7 +23,7 @@ Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. I
 
 The gap does not close by making the model smarter. It closes by building things around it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that runs until the work looks done. The industry calls that apparatus scaffolding, and the thing worth noticing is that none of it makes the model any cleverer. It just gives the cleverness somewhere to land.
 
-{{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** The model is the box in the middle. Everything around it exists because a model on its own cannot reach anything." >}}
+{{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
 
 Remove the loop and it is a chatbot again; remove the tools and it can think without touching anything. Memory is the one that surprises people. An agent that loses it does not get dumber in any measurable way: it stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
@@ -39,23 +39,21 @@ Identity is stranger than it sounds. Two agents on the same model, one told it i
 
 ## Where Single-Agent Recursion Breaks
 
-Here is the property that makes all of this compound: the agent's own output becomes its input next time round. When the coding agent runs the tests, the failures it reads are the ones its own last edit produced, so it is not solving a problem so much as negotiating with a situation it keeps changing. Some agents go further and keep notes on their own failures. One that wasted forty minutes on a test failing because the database was not running writes down that lesson, reads it next time, and does not waste the forty minutes again. That is the difference between turning the loop and getting better at something, and it is also where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
-
-It begins with arithmetic, and the arithmetic is brutal. Give an agent a task with twenty steps and let it be right ninety-five percent of the time at each one, which sounds good. It finishes the whole task correctly about a third of the time. Worse, mistakes are not independent: a wrong turn at step four narrows what step five can even attempt. Which is why agents still fall short of people on <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">realistic computer and web tasks</a>, and why the <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">gap widens as the tasks get longer</a>.
-
-The obvious fix is to have the agent check its own work, and some systems are built to do exactly that, right up to <a href="https://arxiv.org/abs/2408.06292" target="_blank" rel="noopener">writing up their own research and then reviewing their own drafts</a>. This is where things get strange. Picture it debugging a failing test. It decides the bug is in the date handling, rewrites that, and the test still fails. Now ask it to review its own reasoning.
+Picture a coding agent debugging a failing test. It decides the bug is in the date handling, rewrites that, and the test still fails. Now ask it to review its own reasoning, which is the obvious fix and what some systems are built to do, right up to <a href="https://arxiv.org/abs/2408.06292" target="_blank" rel="noopener">writing up their own research and then reviewing their own drafts</a>.
 
 It does not say it looked in the wrong place. It says its analysis was correct but the fix was incomplete, and it is right about the first half, because the date handling really was a bit sloppy. So it goes deeper. It adds a normalization step, then a fallback, then a comment explaining the subtlety it believes it has found, and each pass makes the code more elaborate and the explanation more confident. Ask it how sure it is and the number goes up. The bug is in the timezone the test runs under, which it never considered on the first pass and now never will, because every failed attempt has added another reason to believe the story it already has.
 
 Sit with that, because it is worse than being wrong. A person who cannot find a bug eventually starts doubting their own theory. This does the opposite: the confidence rises precisely because the fixes keep failing.
 
+None of this is a shortfall in the model, and it starts with the fact that the agent's own output becomes its input next time round. When it runs the tests, the failures it reads are the ones its own last edit produced, so it is not solving a problem so much as negotiating with a situation it keeps changing. The arithmetic on that is brutal. Give an agent a twenty-step task and let it be right ninety-five percent of the time at each step, which sounds good, and it finishes the whole thing correctly about a third of the time. Worse, the mistakes are not independent: a wrong turn at step four narrows what step five can even attempt. Which is why agents still fall short of people on <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">realistic computer and web tasks</a>, and why the <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">gap widens as the tasks get longer</a>.
+
 From outside it looks like diligence. The commit history shows steady work, each message more specific than the last, the explanations getting more detailed and more certain. If you were reviewing it you would see an agent closing in on something. What you would not see is that it stopped considering alternatives an hour ago, and that the confidence went up precisely because it kept failing. It cannot tell the difference between converging and digging.
 
 Give the same agent more time and it does not escape, it plateaus. The work still looks like work, with files changing and tests running, and nothing signals that the search space collapsed hours ago. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research problems</a> and the agents lead for the first couple of hours, then the humans overtake them and keep going.
 
-All three come back to one fact: the agent that made the mistake is the agent grading it. Nothing about that improves with a better prompt, because it is not a shortfall in the model. It is a property of being alone in the room.
+Compounding error, rising confidence, and the plateau all come back to one fact: the agent that made the mistake is the agent grading it. Nothing about that improves with a better prompt, because it is not a shortfall in the model. It is a property of being alone in the room.
 
-{{< figure src="/images/2026/anatomy-delegation-styles.svg" alt="Two delegation styles side by side: a single agent looping through a task alone, and an orchestrator dividing work among research, coding, and review specialists, with a panel listing further patterns (peer-to-peer networks, voting panels, specialist markets, hierarchical chains, blackboard systems, debate protocols) explored in Part 2" caption="**Figure 2.** One agent working alone, and the same job split between three. The second arrangement is not smarter. It is just harder to fool." >}}
+{{< figure src="/images/2026/anatomy-delegation-styles.svg" alt="Two delegation styles side by side: a single agent looping through a task alone, and an orchestrator dividing work among research, coding, and review specialists, with a panel listing further patterns (peer-to-peer networks, voting panels, specialist markets, hierarchical chains, blackboard systems, debate protocols) explored in Part 2" caption="**Figure 2.** The same job done alone and split three ways. The second arrangement is not smarter, just harder to fool." >}}
 
 ## Beyond the Single Loop
 

@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,500 words (body) · ~2,000 words (notes)"
+wordcount: "~1,800 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -328,7 +328,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
 
-Four agents barely need organizing. A few dozen, calling each other, need something sitting in front deciding who gets what, and on your phone that something is already there, reading each request and picking an agent. It cannot do that job without keeping score: to send the easy things somewhere cheap it has to know which things are easy, and the only way it learns that is by remembering how the last few thousand went.
+Something on your phone is already doing this. It reads each request and picks an agent, which four agents would hardly need, but a few dozen calling each other cannot do without. And it cannot pick without keeping score: to send the easy things somewhere cheap it has to know which things are easy, and the only way it learns that is by remembering how the last few thousand went.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>

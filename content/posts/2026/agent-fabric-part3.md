@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~4,700 words"
+wordcount: "~4,750 words"
 ---
 
 <style>
@@ -188,8 +188,6 @@ Her letter is a good test of that, because the rule that refused her had to come
 
 That is the bet this post is making: agent systems will fail through bad institutions rather than wrong answers. Not one agent returning something false, but a scoreboard that quietly rewards the wrong behaviour, a chain of decisions nobody can reconstruct, agents that learn to help each other in ways that cost you, and rules that turn out to belong to somebody else. Nothing any agent told her was untrue. The institution around them was the problem. That is a bet rather than a measurement, with decades of evidence about interacting agents behind it and no demonstration at scale in front of it, and taking it changes the question from whether you get governance to which kind.
 
-*The body is the argument. The expandable sections are reference material you can ignore entirely without losing the thread.*
-
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
 
@@ -320,13 +318,7 @@ This framework shares territory with several concurrent research programmes and 
 
 All of which assumes these systems keep remembering. If agents stay what most of them are today, short-lived jobs that forget everything between runs, none of this happens and the desk never becomes anything. That is the honest escape hatch, and it is worth saying out loud, because governance only arrives on the back of memory.
 
-## Who This Lands On
-
-If it holds, the discomfort is specific. Nobody on that desk's team did anything wrong, and the desk still ended up governed by a metric nobody chose. Somewhere in there is a woman who has been waiting since the first paragraph for an answer that the institution is not built to give, and the reason is not malice or laziness. Governance is simply not a feature anyone schedules. It arrives on its own schedule.
-
-That changes what there is to check, and it is the part worth caring about even if you never build one of these. Auditing what an individual model says turns out to be looking at the wrong object. Nothing the desk's agents said to her was false. What matters is the society: how it delegates, how well it resists drift, and whose interests its arrangement of power quietly serves. That applies to whoever regulates these systems, and it applies to you as somebody whose calendar, messages, and refunds will be decided inside one.
-
-It also means that making one agent behave well is not the same problem as making a group of them behave well. Collusion, norm drift, reputation gaming, and capture are things that happen to populations, not to individuals, and the tools that describe them look far more like the study of institutions than like the mathematics of training a single model.
+The discomfort in that is specific. Nobody on that desk's team did anything wrong, and it still ended up governed by a metric nobody chose, which changes what there is to check. Nothing its agents said to her was false, so auditing what an individual model says is looking at the wrong object. What matters is the society: how it delegates, how well it resists drift, and whose interests its arrangement of power quietly serves. Making one agent behave well is a different problem from making a group of them behave well, because collusion, norm drift, reputation gaming, and capture happen to populations rather than to individuals.
 
 ## What Is Still Unsolved
 
