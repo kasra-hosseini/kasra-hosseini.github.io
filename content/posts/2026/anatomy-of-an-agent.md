@@ -26,11 +26,11 @@ Something was built around it, and that something is the difference between a th
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
 
-Take away the loop and it is a chatbot again. Take away memory and something stranger happens: it does not get dumber in any measurable way, it stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
+That apparatus is worth understanding in detail, because one piece of it fails in a way you cannot see from outside, and the rest of this series follows from that. Take away the loop and it is a chatbot again. Take away memory and something stranger happens: it does not get dumber in any measurable way, it stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
 ## What the Loop Needs
 
-Every part of that apparatus is a decision somebody made: which tools it gets, what it is told to do, when it is allowed to stop. Get most of them wrong and you find out by lunchtime; one of them announces nothing at all.
+Somebody chose every part of that apparatus: which tools it gets, what it is told to do, when it is allowed to stop. Get most of those wrong and you find out by lunchtime. One of them tells you nothing, ever.
 
 Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself, and that tone was typed by somebody too. How much that matters depends on what somebody let it reach: deleting the wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
