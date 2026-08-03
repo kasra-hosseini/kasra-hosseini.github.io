@@ -217,7 +217,7 @@ So the same letter reaches a judgement under the first desk, a winner under the 
 
 None of that could have happened while the router was only forwarding traffic. Once it keeps score and decides who may touch what on the strength of it, it has stopped playing the game and started writing the rules. Plenty of software remembers things; what makes these records different is that they decide who gets work tomorrow.
 
-The desk's leaderboard priced speed, and the fastest way to close a return is to refuse it. What follows is **drift**: the system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while it happened. Every agent performed well against the measure it was given, and the correction that followed is what refused her. How much drift a design can survive decides most of the rest of it. And underneath sits a question asked far too rarely: who is meant to accumulate advantage here, and who needs protecting from it?
+The desk's leaderboard priced speed, and the fastest way to close a return is to refuse it. What follows is **drift**: the system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while it happened. Every agent performed well against the measure it was given, and the correction that followed is what refused her. How much drift a design can survive decides most of the rest of it, and underneath that sits the question nobody asks early enough: who is this arrangement meant to favour, and who needs protecting from it?
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -246,7 +246,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nobody built her a way to dispute it, which is the cheapest thing a desk can have and the first thing left out. Without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-Once drift has cost real money, fixed rules are what get bought. This desk bought one score and made it do everything: how fast the desk ran, what it could approve, whether anything could be sent back. That same score refused her.
+Once drift has cost real money, fixed rules are what get bought, and this desk bought a single score to carry all of it: speed, approval limits, whether anything could be sent back. That same score refused her.
 
 ## How a Society Gets Argued With
 
