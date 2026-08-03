@@ -238,13 +238,11 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 ## Who Actually Enforces Any of This
 
-Her case was supposed to have a second reader. Refunds above a threshold need a second agent to check them, and for a while every refund got one. The second agent was not the retailer's; it was a service they paid for, reached through an interface owned by somebody else.
+Her case was supposed to have a second reader. Refunds above her amount need a second agent to check them, and for a while every one got one, using a service the retailer paid another company to provide.
 
-On the Tuesday morning, the provider retired that interface. Nobody at the retailer voted to drop the second check on her refund or on anybody else's. Nobody noticed the rule had become unenforceable. It was never repealed, it simply stopped applying, because the thing that made it apply belonged to a company with its own release schedule.
+That company switched the service off on a Tuesday. Nobody voted to drop the second check, nobody repealed the rule, and nobody noticed it had stopped applying. Her letter arrived on the Thursday and got one reader.
 
-Her letter arrived on the Thursday and got one reader.
-
-So the rule that would have caught her case was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
+The rule that would have caught her case was never really the retailer's to keep. It held for as long as somebody else's machines went on enforcing it.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. It was a number in a config file. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
 
@@ -254,7 +252,7 @@ She does try. Complaining means replying to the email that refused her, so she r
 
 Leaving is what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
-The third exit exists only on paper: run your own version of the shop, with the rule changed. She does not want her own retailer. She wants forty pounds back from this one.
+There is a third exit that works for software and not for shops: run your own copy with the rule changed. She does not want her own retailer, she wants forty pounds back from this one.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. Complaints get heard where leaving is possible, which is the part nobody designs for, because it is the part nobody notices they removed.
 
