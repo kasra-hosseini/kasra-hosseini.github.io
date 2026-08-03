@@ -211,7 +211,7 @@ The agent that would have read her letter properly is the one that had a slow mo
 
 **The third desk, half a year in: the rule decides.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead. One rule flagged certain return histories no matter what any agent thought, and hers was one of them.
 
-Another rule said refunds above her amount get a second reader, and hers qualified. The second reader was rented from another company, and that company switched the service off on the Tuesday. Her letter arrived on the Thursday. Nobody repealed the rule; it just stopped being true. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
+Another rule said refunds above her amount get a second reader, and hers qualified. It never got one, because the service that provided the second reader had been switched off two days before her letter arrived, by the company the retailer rented it from. Nobody repealed the rule. It just stopped being true. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
