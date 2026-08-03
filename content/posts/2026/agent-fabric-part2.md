@@ -383,9 +383,9 @@ Somebody writes in because a delivery never arrived. A router reads the message,
 
 Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. She goes looking for the rule that did it, expecting a line somebody wrote and forgot. The settings mention the agent twice, both times just to say it exists. The policy docs say hard tickets go to whoever is best placed to handle them. She asks in the team channel who changed the routing in March, and three people say nobody did, which is true.
 
-What she finds instead is a table of resolution times that everybody agrees is accurate. She is sure the third agent is being treated unfairly, and just as sure that saying so out loud would sound like defending a piece of software against arithmetic. There is one number in the table she could change, and changing it would be falsifying a record. That is the whole of it: the preference is the table, the table is just what happened, and somewhere in the queue is a customer whose fragile-item return will be handled by whichever agent it prefers.
+What she finds instead is a table of resolution times that everybody agrees is accurate. There is one number in it she could change, and changing it would be falsifying a record. That is the whole of it: the preference is the table, and the table is just what happened. Meanwhile a customer with a cracked vase is waiting, and her return will go to whichever agent the table prefers rather than the one who knows the fragile-item policy, and she will never know either fact.
 
-She leaves it, because overriding the routing would make the numbers worse and her the person who made them worse. Nobody there would call the table a rule, which is exactly what makes it one.
+She leaves it. Overriding the routing would make the numbers worse and her the person who made them worse, and nobody there would call the table a rule, which is exactly what makes it one.
 
 What the desk loses by leaving it is the ability to tell later whether anything went wrong. Six months on, the third agent is retired for underperformance. The two survivors are now the only agents with a record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
 
