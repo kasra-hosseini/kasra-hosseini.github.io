@@ -246,17 +246,17 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## How a Society Gets Argued With
 
-Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third is one that only software allows: take a copy of the whole thing, change the rule you object to, and run your own version. People do that to software they dislike. Nobody does it to a shop. She had none of the three.
+Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third only works on software: copy the whole thing, change the rule you object to, run your own version. That is a real option for people who dislike a piece of code, and no option at all for somebody who just wants their refund from this shop. She had none of the three.
 
 The downranked agent has no more recourse than she does, and for the same reason. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to work. Complaints get heard where leaving is possible, and neither of them could leave.
 
 ## What This Framework Is For
 
-Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. What was missing that week was not a policy. It was somebody able to say, out loud in a planning meeting, that they were about to build a rule with no way to argue with it.
+Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. Nobody had the sentence for it, which is why nobody said it: they were adding a risk score, and that is not a thing anyone objects to.
 
-This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Where a system settles says a great deal about what its builders were afraid of.
+This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Each desk was built by somebody solving the previous desk's worst problem, which is why none of them was ever chosen as a design.
 
-The rule that refused her did not have to live in a document nobody reads. It could have been written where the system actually looks, with a note beside it naming who may change it and what happens when somebody disputes it. A rule that lives only in a document is a wish, and hers was not even that.
+The rule that refused her did not have to live in a document nobody reads. It could have been written where the system actually looks, with a note beside it naming who may change it and what happens when somebody disputes it. Nothing about hers was written anywhere a system could read, which is the same as it not existing until it refused somebody.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
