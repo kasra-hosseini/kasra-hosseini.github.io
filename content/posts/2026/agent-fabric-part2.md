@@ -381,7 +381,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one, and she can date all of them. The third agent had a bad March, dropped to the bottom of a table nobody was watching, and has not been asked a hard question since.
+Every step she finds is a sensible one. There is a Tuesday in March where the third agent took eleven hours over a billing dispute, and after that it sits at the bottom of a table nobody was watching, and has not been asked a hard question since.
 
 
 

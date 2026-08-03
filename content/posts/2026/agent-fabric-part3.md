@@ -197,7 +197,7 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 ## Four Desks in One Year
 
-She hit a rule and could not reach whoever decides what the rules are, and the desk had not started out capable of either. She was also not the first person to write in about a refund: the desk that answered her was the third version the retailer had run. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Watch what happens to her letter under each one.
+She hit a rule and could not reach whoever decides what the rules are, and the desk had not started out capable of either. She was also not the first person to write in about a refund. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Watch what happens to her letter under each one.
 
 Her refusal started long before she wrote in. Somebody set the leaderboard to reward speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
 
@@ -207,7 +207,7 @@ Her refusal started long before she wrote in. Somebody set the leaderboard to re
 
 The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, which is harsher than punishment because there is no term to it and nobody to appeal to. It is the agent that would have read her letter properly, and by the time she writes in it has not been asked a hard question in months. Whoever wrote the metric now has more say over its working life than the team that deployed it. This is where most systems are today, and the price is that the numbers decide who is competent before anyone has checked whether the numbers measure competence.
 
-**Half a year in**, which is where her letter actually landed, and it did not reach an agent's judgement at all. Finance had seen the refund line. The retailer stopped trusting the leaderboard with anything that costs money and wrote fixed rules instead: refunds above a threshold need a second check, certain return histories get flagged no matter what any agent thinks. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. This is the desk anyone who has argued with a bank about a flagged transaction has already met: rules first, judgement second, rule over judgement, which from her side feels like talking to a wall: every reply correct, none of them about her.
+**Half a year in.** This is the desk her letter reached, and it did not reach an agent's judgement at all. Somebody in finance had looked at the refund line and stopped trusting the leaderboard with anything that costs money, so the rules got written down instead: refunds above a threshold need a second check, certain return histories get flagged no matter what any agent thinks. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. This is the desk anyone who has argued with a bank about a flagged transaction has already met: rules first, judgement second, rule over judgement, which from her side feels like talking to a wall: every reply correct, none of them about her.
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
@@ -240,7 +240,7 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 Her case was supposed to have a second reader. Refunds above her amount need a second agent to check them, and for a while every one got one, using a service the retailer paid another company to provide.
 
-That company switched the service off on a Tuesday. Nobody voted to drop the second check, nobody repealed the rule, and nobody noticed it had stopped applying. Her letter arrived on the Thursday and got one reader.
+That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about. It just stopped applying, and nobody noticed. Her letter arrived on the Thursday and got one reader.
 
 The rule that would have caught her case was never really the retailer's to keep. It held for as long as somebody else's machines went on enforcing it.
 
@@ -252,7 +252,7 @@ She does try. Complaining means replying to the email that refused her, so she r
 
 Leaving is what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
-There is a third exit that works for software and not for shops: run your own copy with the rule changed. She does not want her own retailer, she wants forty pounds back from this one.
+The third exit is one that only works on software, and she is not arguing with software. She wants forty pounds back from a shop.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. Complaints get heard where leaving is possible, which is the part nobody designs for, because it is the part nobody notices they removed.
 
