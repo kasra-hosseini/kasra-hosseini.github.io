@@ -215,7 +215,7 @@ It works, too. The refund line stops climbing inside a month, which is why nobod
 
 So the same letter reaches a judgement, then a winner, then a rule, then someone who can overrule the rule. Four arrangements in a year, no announcements and no design review, and she happened to write in under the only one with no way back in.
 
-Every one of those desks needed a record to exist at all. Plenty of software remembers things; this record decided who would read her letter.
+Every one of those desks needed a record to exist at all. Plenty of software remembers things. This one decided who would read her letter.
 
 Nothing was broken while that happened. Every agent performed well against the measure it was given, and when finance noticed the refund line and bolted on a risk score, that correction was reasonable too. She is the one who paid for both. The question nobody asks early enough is who an arrangement is meant to favour, and who needs protecting from it.
 
@@ -248,7 +248,7 @@ There are two things she can do about any of this, and she does both. Complainin
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
-The agent dropped to the bottom of the leaderboard back at the second desk has the same two, and it has already tried the first. Every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse. There is no second shop for it either. Neither of them can leave, so neither of them gets heard.
+The agent has no more than she does. It cannot complain: every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse. It cannot leave either, because there is no second shop for a support agent. Neither of them can go anywhere, so neither of them gets heard.
 
 Nothing about the rule that refused her was written down anywhere a person could find it. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
 
