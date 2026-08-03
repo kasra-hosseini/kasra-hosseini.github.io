@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,600 words (body) · ~2,000 words (notes)"
+wordcount: "~1,500 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -332,9 +332,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
 
-Four agents barely need organizing, but the moment there are dozens and they can call each other, somebody has to decide who gets what. Your phone already does this to you. Something in front decides which agent sees a given request, and it gets better at that decision by watching which of its guesses you let stand. There is no version of this that does not keep score, because to send the easy questions somewhere cheap it has to know which questions are easy, and the only way it learns that is by remembering how the last few thousand went. A record of who did well is the first sentence of a hierarchy.
-
-And these arrangements stack, which is where it gets harder to see. You ask your research agent for a summary. It hires something to fetch the paper, that thing hires something to compress what it found, and the answer comes back forty seconds later looking like one clean response. Three layers each decided what the layer beneath was allowed to try, and you saw none of it. Nobody saw all of it, either, because each agent knows only who called it and who it called.
+Four agents barely need organizing, but the moment there are dozens and they can call each other, something has to decide who gets what. That something gets better at deciding by watching which of its guesses you let stand, which means it has to keep score, and there is no version of this that does not. And the arrangements stack: ask your research agent for a summary and it hires a fetcher, which hires something to compress, and three layers each decide what the layer beneath is allowed to try. You asked one question and started a chain of command that nobody can see whole, because each agent knows only who called it and who it called.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
@@ -403,9 +401,7 @@ After a month the router sends complex billing disputes only to the two agents t
 
 Notice what separates the two halves of that story, because it is not the four records; those are identical. Handing a ticket to a specialist is a step inside one task. A rule about who gets the hard tickets at all, plus the question of who may change that rule, is a standing constraint on every task there will ever be. The first is delegation. The second is governance, and nobody wrote it.
 
-You could call that good optimization rather than authority. The difference is memory. Plenty of systems already spread work across machines by whichever is least busy right now, and nobody calls that a governing body, because the moment the work is done the numbers are forgotten. The support router does not forget.
-
-Six months on, that router is still routing by a preference it formed in its first month, and nobody at the retailer would describe it as a rule. It outlived the tickets that produced it and it will still be there tomorrow. Which is what an institution actually is: not a layer somebody added on top, but the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it. Mostly this has not arrived yet, since production systems still forget everything between sessions, but long-term memory and evaluation logs and routing analytics are all on their way.
+You could call that good optimization rather than authority, except that plenty of systems already spread work by whichever machine is least busy and nobody calls those governing bodies, because the moment the work is done the numbers are forgotten. This router does not forget. Six months on it is still routing by a preference it formed in its first month, and nobody at the retailer would describe it as a rule. It outlived the tickets that produced it. Which is what an institution actually is: not a layer somebody added on top, but the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
@@ -419,7 +415,7 @@ Now suppose an agent was downranked during a fortnight when its one bad week col
 
 None of which makes any of this bad in itself. The calendar agent winning most arguments may well be the right outcome, and a structure that forms around real competence usually serves the people relying on it. One that drifts somewhere worse does not, and both arrive by exactly the same process.
 
-What separates them is not where they came from but whether anyone can push back. On the phone that would mean being able to ask why a message was held, to see that the reason is a tally of your own past dismissals, and to overrule it without having to out-vote your own history. None of that exists. Governance you cannot challenge is tyranny whether somebody designed it or not, and the emergent kind is worse for being invisible while it happens.
+What decides which one you got is not its origin but whether anyone can push back. On the phone that would mean asking why a message was held, seeing that the answer is a tally of your own dismissals, and being able to overrule it without out-voting your own history. None of that exists. Governance you cannot challenge is tyranny whether somebody designed it or not, and the emergent kind is worse for being invisible while it happens.
 
 ---
 

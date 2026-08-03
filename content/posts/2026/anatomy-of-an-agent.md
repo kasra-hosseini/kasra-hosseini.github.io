@@ -35,7 +35,7 @@ Start with the acting, because some actions cannot be taken back. An agent that 
 
 The other pieces fail in ways you can see coming. An agent with no prompt does something competent that nobody asked for. An agent with no planning fixes the thing in front of it and deletes the file it will need in twenty minutes. Both are annoying and both are obvious within the hour. The self-grading failure is different in kind, because it is the only one the agent cannot notice from inside.
 
-Identity is stranger than it sounds. Two agents on the same model, one told it is careful and terse and one told it is patient and kind, will handle the same angry customer like different species. Most of what feels like an agent's character is a sentence somebody typed, which means most of what it will refuse to do is also a sentence somebody typed, and somebody can change it.
+Identity is stranger than it sounds. Two agents on the same model, one told it is careful and terse and one told it is patient and kind, will handle the same angry customer like different species: the first sends three sentences and a refund policy link, the second asks what happened and takes four exchanges to get there. Neither is more capable. Most of what feels like an agent's character is a sentence somebody typed, which means most of what it will refuse to do is also a sentence somebody typed, and somebody can change it.
 
 ## Where Single-Agent Recursion Breaks
 
