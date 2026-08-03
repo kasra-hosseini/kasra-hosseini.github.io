@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,500 words (body) · ~2,000 words (notes)"
+wordcount: "~1,450 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -312,9 +312,7 @@ wordcount: "~1,500 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-An engineer called Priya is going to spot an injustice in a system she helped build, and leave it alone, because the spreadsheet that caused it will be correct. Getting to why starts on your own phone. Suppose you end up with a handful of personal agents, as most people probably will: something managing your calendar, something triaging your messages, something tracking your sleep. Nobody wires them together. But the calendar agent notices you decline meetings during focused work, the messages agent learns to hold non-urgent things until a gap opens, and the sleep data starts nudging when hard tasks get scheduled.
-
-Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
+You will probably end up with a handful of personal agents: something managing your calendar, something triaging your messages, something tracking your sleep. Nobody wires them together, but the calendar agent notices you decline meetings during focused work and the messages agent learns to hold things until a gap opens. Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
 Three months in you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway. Something logged every one of those dismissals, because logging is free and obviously useful, and the record is more consistent than you are, so you are now arguing with a policy you wrote by accident. Your phone can tell you who asked, what happened, and what it cost. It cannot tell you who authorised any of it, because nobody did, and that missing fourth answer is the difference between a log and a rule.
 
@@ -385,11 +383,11 @@ So watch it happen somewhere the record is not yours. Somebody writes in because
 
 After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The next person whose delivery goes missing is routed by a record rather than by a category, and neither they nor anyone at the company could tell you that changed. When a new agent joins, whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router taught itself, or wait. The deployment team can override that, but only by making the service worse, which in practice means they will not.
 
-Six weeks in, Priya notices that the third agent has not handled a hard ticket since March, and raises it at standup. Everyone agrees it looks wrong. Nobody can find the decision. There is no config flag, no policy document, no ticket where anyone chose this, and the only artefact is a table of resolution times that everybody agrees is accurate. Priya can override the routing, and she knows what will happen if she does: the numbers will get worse, and she will be the person who made them worse.
+Six weeks in, an engineer called Priya notices that the third agent has not handled a hard ticket since March, and raises it at standup. Everyone agrees it looks wrong. Nobody can find the decision. There is no config flag, no policy document, no ticket where anyone chose this, and the only artefact is a table of resolution times that everybody agrees is accurate. Priya can override the routing, and she knows what will happen if she does: the numbers will get worse, and she will be the person who made them worse.
 
 She leaves it. Not out of cowardice: she has no argument to make, because the routing table is not wrong about anything. It faithfully records that one agent had a bad month in a job where bad months are remembered. She could say that at the next standup and everyone would nod, and the tickets would keep going to the other two. You have done the same thing on a smaller scale: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too.
 
-Notice what she could not do. She could have taken any single ticket and handed it to the third agent herself; nobody would have stopped her, and that is delegation, a step inside one task. What she could not touch was the standing preference about who gets the hard tickets at all, or the question of who is allowed to change it. That is governance, and nobody at that retailer would call it that, or call the routing table a rule, which is exactly what makes it one. Six months on the router is still acting on a preference it formed in its first month, and it will outlast Priya, the tickets that produced it, and anyone who remembers the month it formed.
+Notice what she could not do. She could have taken any single ticket and handed it to the third agent herself, and nobody would have stopped her. What she could not touch was the standing preference about who gets the hard tickets at all, or the question of who is allowed to change it. Nobody at that retailer would call the routing table a rule, which is exactly what makes it one: six months on it is still acting on a preference it formed in its first month, and it will outlast Priya, the tickets that produced it, and anyone who remembers the month it formed.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
@@ -401,7 +399,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Priya at least had a table to look at. That is temporary: training a model on the logs makes the routing faster and removes the lookup, and then the preference is spread through the thing that makes every decision, with no line left to delete. She walked away from a spreadsheet. A year later there would be no spreadsheet to walk away from.
 
-None of which makes any of this bad in itself. A structure that forms around real competence often serves the people relying on it, and the difference between that and the desk she wrote to is not how it started but whether anyone can push back. That is the part nobody builds. Every system here logs who did the work, how it went, and what it cost. None of them logs who said it could.
+None of this is bad in itself. A structure that forms around real competence often serves the people relying on it, and what separates that from the desk she wrote to is not how it started but whether anyone can push back. Every system here logs who did the work, how it went, and what it cost. None of them logs who said it could.
 
 ---
 
