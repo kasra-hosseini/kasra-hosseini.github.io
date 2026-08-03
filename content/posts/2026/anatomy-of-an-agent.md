@@ -21,7 +21,7 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter.
 
-Something was built around it, and that something is the difference between describing work and doing it: it was told what it was doing, given tools to act with, allowed to carry what it learned from one step into the next, and left running until the work looked done. All of that together is called scaffolding. None of it makes the model better at reasoning; it gives the reasoning something to act on.
+Something was built around it, and that something is the difference between describing work and doing it. It was told what it was doing. It was given tools. It was allowed to carry what it learned from one step into the next, and left running until the work looked done. All of that together is called scaffolding. None of it makes the model better at reasoning; it gives the reasoning something to act on.
 
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. Somebody spends the afternoon putting the files back, and by Friday it does not have that tool.
+Give an agent a filesystem tool it did not need and it will reorganise a directory nobody asked it to touch, which somebody notices by lunchtime and fixes by Friday.
 
 Somebody also decided when it is allowed to stop, and that one never shows up at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
