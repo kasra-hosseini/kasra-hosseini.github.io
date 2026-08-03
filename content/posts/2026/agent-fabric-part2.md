@@ -397,11 +397,9 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 You have done the same thing on a smaller scale: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too. Priya at least had a table to look at. That will not last. Nobody keeps routing rules in a table forever, because a model trained on the logs decides faster and skips the lookup entirely. After that there is no line to delete. She walked away from a spreadsheet; a year later there would be no spreadsheet to walk away from.
 
-Every system here logs who did the work, how it went, and what it cost. None of them logs who said it could.
-
 ---
 
-Nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging. Priya lost that argument to a spreadsheet. On your phone there was never an argument at all: nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud. Nobody held an election. Nobody had to.
+Nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging. Every system in this post recorded who did the work, how it went, and what it cost, and not one of them recorded who said it could. Priya lost that argument to a spreadsheet. On your phone there was never an argument: nobody at any company decided your calendar agent should win, and neither did you, exactly. You just kept voting, a hundred times, in one-second increments, and the winner of that election now governs your attention more reliably than any intention you could state out loud.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
