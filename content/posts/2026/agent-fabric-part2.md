@@ -387,7 +387,7 @@ Nothing she finds is a mistake. One Tuesday in March the third agent took eleven
 
 
 
-So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table has one column, close time, and no column for why. Two more slow tickets is all it sees. She has made it worse by trying.
+So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table has one column, close time, and no column for why. Two more slow tickets is all it sees, so the agent drops further, and the router asks it for even less. She has made it worse by trying.
 
 There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet.
 
