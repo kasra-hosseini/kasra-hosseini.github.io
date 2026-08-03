@@ -199,11 +199,11 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 She hit a rule and could not reach whoever decides what the rules are, and the desk had not started out capable of either. She was also not the first person to write in about a refund. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Watch what happens to her letter under each one.
 
-Her refusal started long before she wrote in. Somebody set the leaderboard to reward speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
-
 **The first desk, day one.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. One router is the simplest thing that works, which is why the desk started here, and the price is that on the day it is wrong about her there is nothing else in the room.
 
 **The second desk, a month in.** Somebody turns on logging, and the same letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, and her letter goes to the one at four. The reply still reads like a decision, and it might even be the same decision, but it came from whichever agent was winning that week rather than the one that knows what a return pattern looks like. 
+
+Nobody told any agent to refuse returns. The leaderboard rewarded speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
 
 The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, which is harsher than punishment because there is no term to it and nobody to appeal to. It is the agent that would have read her letter properly, and by the time she writes in it has not been asked a hard question in months. Whoever wrote the metric now has more say over its working life than the team that deployed it. This is where most systems are today, and the price is that the numbers decide who is competent before anyone has checked whether the numbers measure competence.
 
