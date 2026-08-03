@@ -180,7 +180,7 @@ That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), 
 
 Run it a year forward and it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
-Nothing any agent told her was untrue. That is the bet this post is making: agent systems will fail through bad institutions rather than wrong answers, and taking that bet changes the question from whether you get governance to which kind you get. It is a bet and not a measurement, with decades of evidence about interacting agents behind it and nothing at this scale in front of it.
+Nothing any agent told her was untrue. That is the whole point: the failure was not in any answer, it was in the arrangement that produced them, which is where these systems will fail long before they start lying. Nobody has run the experiment at this scale, so take that as a bet rather than a measurement, but it is the bet the rest of this post is built on, and it changes the question from whether you get governance to which kind.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
