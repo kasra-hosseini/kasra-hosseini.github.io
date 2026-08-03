@@ -26,7 +26,7 @@ Something was built around it, and that something is the difference between a th
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
 
-That apparatus is worth understanding in detail, because one piece of it fails in a way you cannot see from outside, and the rest of this series follows from that. Take away the loop and it is a chatbot again. Take away memory and something stranger happens: it does not get dumber in any measurable way, it stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
+Take away the loop and it is a chatbot again. Take away memory and something stranger happens: it does not get dumber in any measurable way, it stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
 ## What the Loop Needs
 
