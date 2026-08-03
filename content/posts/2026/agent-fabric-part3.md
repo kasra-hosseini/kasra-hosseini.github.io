@@ -195,7 +195,7 @@ So the bet here is that agent systems will fail through bad institutions rather 
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-That desk is now a **society**, and the bar for that word is lower than it sounds: not several agents working together, but a group that accumulates. A pipeline that forgets everything between runs never gets there. A group that remembers does, and remembering is what governance grows out of. It will pass through four recognisable ways of being governed before this post is finished, and nobody at the retailer will decide on any of them.
+The bar for calling that a society is lower than it sounds: not several agents working together, but a group that accumulates. A pipeline that forgets everything between runs never gets there. A group that remembers does, and remembering is what governance grows out of. That desk will pass through four recognisable ways of being governed before this post is finished, and nobody at the retailer will decide on any of them.
 
 ## What Governance Actually Is
 
@@ -209,7 +209,7 @@ Notice what the router had become for that to happen, because the line it crosse
 
 ## Where Authority Comes From
 
-She was not the first person to write in about a refund, and the desk that answered her was the third one the retailer had run in a year. Nobody filed a change request for any of it. Follow her letter into each of them.
+One desk, one year, four different answers to the same letter, and nobody chose a single one of the transitions. She was not the first person to write in about a refund, and the desk that answered her was the third version the retailer had run. Follow her letter into each of them.
 
 On day one her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so she gets an answer that afternoon from something that actually read her case. That is an **Autocracy**: if it decides wrong, everyone downstream is wrong with it, and it is the only one of the four where she could name what decided.
 
@@ -219,7 +219,7 @@ The third desk is where her letter actually landed, and it did not reach an agen
 
 It works, too. The refund line stops climbing inside a month. Under the desk before it an agent could look at six years of history and decide she was fine; under this one there is nothing to decide, and nobody has anywhere to put the fact that the answer is obviously wrong.
 
-A fourth desk exists, but only after somebody complains loudly enough that a shrug will not do. Then the letter reaches something that can overrule the rule: different powers in different hands, an appeal that does not report to the thing being appealed. That is a **Constitutional Republic**, the only one of the four under which her letter goes anywhere other than back to the rule that refused it, and the reason nothing gets here sooner is that it is slower. Four arrangements, no announcements, no design review, and she happened to write in under the third.
+A fourth desk exists, but only after somebody complains loudly enough that a shrug will not do. Then the letter reaches something that can overrule the rule: different powers in different hands, an appeal that does not report to the thing being appealed. That is a **Constitutional Republic**, the only one of the four under which her letter goes anywhere other than back to the rule that refused it, and the reason nothing gets here sooner is that it is slower. So the same letter reaches a judgement under the first, a winner under the second, a rule under the third, and someone who can overrule the rule under the fourth. Four arrangements, no announcements, no design review, and she happened to write in under the third.
 
 A leaderboard is the arrangement people reach for, and it disappoints because a price in a real market carries what thousands of people know about a thing while a leaderboard carries compute and latency. The desk's priced speed, and the fastest way to close a return is to refuse it. What happened next has a name worth keeping: **drift**, the slow slide where a system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while it happened. Every agent performed well against the measure it was given, and the correction that followed is what refused her. How much drift a design can survive decides most of the rest of it, and underneath sits a question asked far too rarely: who is meant to accumulate advantage here, and who needs protecting from it?
 

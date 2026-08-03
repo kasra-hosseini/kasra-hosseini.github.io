@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,700 words (body) · ~2,000 words (notes)"
+wordcount: "~1,650 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -405,11 +405,9 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Priya at least had a table to look at. That is temporary: training a model on the logs makes the routing faster and removes the lookup, and then the preference is spread through the thing that makes every decision, with no line left to delete. She walked away from a spreadsheet. A year later there would be no spreadsheet to walk away from.
 
-None of which makes any of this bad in itself. A structure that forms around real competence usually serves the people relying on it, one that drifts somewhere worse does not, and both arrive by exactly the same process. What separates them is not their origin but whether anyone can push back, and pushing back is the one thing neither the desk nor the phone was built for. Governance you cannot challenge is tyranny whether somebody designed it or not, and the emergent kind is worse for being invisible while it happens.
+None of which makes any of this bad in itself. A structure that forms around real competence often serves the people relying on it, and the difference between that and the desk she wrote to is not how it started but whether anyone can push back. That is the part nobody builds. Most systems log who handled a request, how it went, and what it cost; almost none can say whose authority anything acted under, and that missing record is what lets the other three pass for engineering.
 
 ---
-
-Most systems already log who handled a request and whether it went well, and plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight: it is what lets the other three pass for engineering.
 
 Nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging. Priya lost that argument to a spreadsheet. On your phone there was never an argument at all: nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud.
 
