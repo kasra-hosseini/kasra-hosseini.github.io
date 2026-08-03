@@ -209,7 +209,7 @@ Nobody told any agent to refuse returns. The leaderboard rewarded speed, the fas
 
 The agent that would have read her letter properly is the one that had a slow month and never recovered. It is not being punished. It is simply never again the best answer to any question the router asks, and nobody checked whether closing time was the right thing to measure before it started deciding who was good at the job.
 
-**The third desk, half a year in.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead, and one of those rules was that certain return histories get flagged no matter what any agent thinks. Hers was one of them. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
+**The third desk, half a year in.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead. One of them said certain return histories get flagged no matter what any agent thinks, and hers was one of those. Another said refunds above her amount get a second reader, which the retailer did not have and rented from another company. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
@@ -238,9 +238,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-There was supposed to be a check on exactly this: the written rule said refunds above her amount get read by a second agent, which the retailer rented from another company.
-
-That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying. Her letter arrived on the Thursday and got one reader, and nobody at the retailer knew the difference, because the rule was still there in the policy document where they had written it.
+That second reader is the part that should have caught her case, and the company providing it switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying. Her letter arrived on the Thursday and got one reader, and nobody at the retailer knew the difference, because the rule was still there in the policy document where they had written it.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled. It was a number in a config file with her name nowhere near it. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
 
@@ -250,7 +248,7 @@ So she complains, which means replying to the email that refused her, and what r
 
 Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
-Neither option works for the downranked agent either, and for the same reason: it cannot argue with the record without adding to it, and it has nowhere else to work.
+Neither option works for the downranked agent either. It cannot argue with the record without adding to it, and it has nowhere else to work, which is the same shape her problem has and the reason both of them stay unheard.
 
 Nothing about the rule that refused her was written down anywhere she could have found it, and nowhere the people who built the desk could have found it either. There was no line naming who was allowed to change it, and none saying what happens when somebody says it is wrong, because nobody had ever needed those lines until she wrote in.
 
@@ -276,7 +274,7 @@ She writes again, and this time somebody at the retailer agrees to look. The har
 
 The obvious place to look is the model that scored her. It has been replaced twice since, and each replacement learned from what happened to her, so the thing that made the decision is not there to be asked.
 
-A person can be found years later. A company can be sued a decade on. What refused her was a configuration that lasted six weeks, not deleted or overturned but superseded, so there is nothing left that made the decision. Not a missing record: a missing thing. That is why nobody can unmake it, and why an apology would have nowhere to come from even if somebody wanted to give her one.
+A person can be found years later, and a company can be sued a decade on. What refused her was a configuration that lasted six weeks, not deleted or overturned but superseded, so there is nothing left that made the decision. Not a missing record: a missing thing. That is why nobody can unmake it, and why an apology would have nowhere to come from even if somebody wanted to give her one.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
