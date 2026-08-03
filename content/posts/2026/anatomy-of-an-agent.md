@@ -34,7 +34,7 @@ Give an agent a filesystem tool it did not need and by lunchtime it has reorgani
 
 The quiet one is the decision about when it is allowed to stop. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself.
 
-Nothing announces that. How much it costs depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
+Nothing announces that, and what it costs depends entirely on what somebody let the agent reach. A wrong file costs an afternoon. A robot arm that has already swung costs whatever it hit.
 
 
 
@@ -57,15 +57,15 @@ The agent that made the mistake is the agent grading it. No prompt fixes that, b
 
 ## Beyond the Single Loop
 
-There are only two ways out of this. One is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways, with no more capability in any of them than the original had. One writes the code. The tester gets the failing test and none of the writer's reasoning, which is the whole point of it. The breaker spends its day trying to break whatever comes out.
+There are only two ways out of this. One is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways, with no more capability in any of them than the original had. The writer keeps the code. A second agent gets handed the failing test and nothing else, no theory, no history, none of the writer's six hours. A third is told to break whatever comes out.
 
-The tester does the obvious thing nobody had done in six hours: it runs the test twice, in two timezones, and watches it pass once.
+That second agent does the obvious thing nobody had done in six hours. It runs the test twice, in two timezones, and watches it pass once.
 
 That is the whole fix. It was available the entire time, and the writer could not see it, because by hour two it was no longer looking for the bug. It was looking for more evidence about the date handling.
 
-Nobody on that team decided the tester should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The breaker never had to be clever either. It had no reason to defend the test it was attacking.
+Nobody decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong.
 
-The arrangement costs something of its own. The writer says the test was unfair. The breaker says it was not. Nobody built anything to settle an argument between them, so it gets settled by a number that was lying around for another purpose entirely, and the agent that number happens to favour wins. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
+The arrangement costs something of its own. The writer says the test was unfair. The agent that ran it says otherwise. Nobody built anything to settle an argument between them, so it gets settled by the retry count, which exists because somebody wanted to know which agent to restart first after an overnight crash. Whichever has fewer retries wins, and it is not the writer. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
 
 
 A loop cannot audit itself. Six hours of getting more certain and no closer all looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement does not converge on the truth. It converges on whatever it already believed, only louder.
