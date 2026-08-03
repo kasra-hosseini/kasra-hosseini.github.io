@@ -203,9 +203,9 @@ What she eventually got was four polite sentences and no way to reply to them, a
 
 **The second desk, a month in.** Somebody turns on logging, and the same letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, and her letter goes to the one at four. The reply still reads like a decision, and it might even be the same decision, but it came from whichever agent was winning that week rather than the one that knows what a return pattern looks like. 
 
-Nobody told any agent to refuse returns. The leaderboard rewarded speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
+Nobody told any agent to refuse returns. The leaderboard rewarded speed, the fastest way to close a return is to refuse it, and what the desk was optimizing for **drifted** away from what the desk was for.
 
-The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, which is harsher, because there is no term to it. It is also the agent that would have read her letter properly, and by the time she writes in it has not had a hard question in months. Nobody checked whether closing time was the right thing to measure before it started deciding who was good at the job.
+The agent that would have read her letter properly is the one that had a slow month and never recovered. It is not being punished. It is simply never again the best answer to any question the router asks, and nobody checked whether closing time was the right thing to measure before it started deciding who was good at the job.
 
 **The third desk, half a year in.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead, and one of those rules was that certain return histories get flagged no matter what any agent thinks. Hers was one of them. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
 
@@ -248,7 +248,7 @@ She does the two things anyone can do. She complains, which means replying to th
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
-The agent has no more than she does. It cannot complain: every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse. It cannot leave either, because there is no second shop for a support agent. Neither of them can go anywhere, so neither of them gets heard.
+The downranked agent has the same two and neither works for it either. Every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse, and there is no second shop for a support agent. Neither of them can go anywhere, so neither of them gets heard.
 
 Nothing about the rule that refused her was written down anywhere she could have found it, or anywhere the people who built the desk could have found it either. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
 
@@ -287,7 +287,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-Nothing in her story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do.
+Nobody in her story was careless, and nobody was cruel. Somebody logged performance and acted on it, which is what any competent engineer would do.
 
 These structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
 
