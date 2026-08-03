@@ -205,7 +205,7 @@ She hit a rule and could not reach whoever decides what the rules are, and the d
 
 Nobody told any agent to refuse returns. The leaderboard rewarded speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
 
-The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, which is harsher than punishment because there is no term to it and nobody to appeal to. It is the agent that would have read her letter properly, and by the time she writes in it has not been asked a hard question in months. Whoever wrote the metric now has more say over its working life than the team that deployed it. This is where most systems are today, and the price is that the numbers decide who is competent before anyone has checked whether the numbers measure competence.
+The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, which is harsher, because there is no term to it. It is also the agent that would have read her letter properly, and by the time she writes in it has not had a hard question in months. This is where most systems are today, and the price is that the numbers decide who is competent before anyone has checked whether the numbers measure competence.
 
 **The third desk, half a year in.** This is the one her letter reached, and it did not reach an agent's judgement at all. Somebody in finance had looked at the refund line and stopped trusting the leaderboard with anything that costs money, so the rules got written down instead: refunds above a threshold need a second check, certain return histories get flagged no matter what any agent thinks. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Rules first, judgement second, rule over judgement: every reply correct, and none of them about her. It is the same wall anyone gets from a bank about a flagged transaction.
 
@@ -240,7 +240,7 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 Her case was supposed to have a second reader. That is what the written rule said: refunds above her amount get checked by a second agent, which the retailer did by paying another company for one.
 
-That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about. It just stopped applying, and nobody noticed. Her letter arrived on the Thursday and got one reader.
+That company switched the service off on a Tuesday, having told the retailer months earlier in a changelog nobody at the desk was reading. The rule was not repealed, or voted down, or argued about. It just stopped applying. Her letter arrived on the Thursday and got one reader.
 
 The rule that would have caught her case was never really the retailer's to keep. It held for as long as somebody else's machines went on enforcing it.
 
@@ -248,13 +248,11 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## How a Society Gets Argued With
 
-She has three ways to argue with any of this, and she tries them in order. The first is to complain, which means replying to the email that refused her. She replies. What reads her second letter is what wrote the first one, and it has already decided what her return history means. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
+She has two ways to argue with any of this, and she tries them both. The first is to complain, which means replying to the email that refused her. She replies. What reads her second letter is what wrote the first one, and it has already decided what her return history means. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
-The third only works on software, and she is not arguing with software. She wants forty pounds back from a shop.
-
-The third agent, the one downranked back in March, has exactly the same three and exactly the same result. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. A customer and a piece of software, stuck for the same reason: a complaint carries weight only where walking out is possible, and neither of them can walk out.
+The third agent has the same options and gets the same nowhere: it cannot say the metric is wrong, because saying so is itself a mark against it. A complaint carries weight only where walking out is possible, and neither of them can walk out.
 
 The rule that refused her did not have to live nowhere. It could have sat in the same file the system reads, with two lines under it: who may change this, and what happens when somebody says it is wrong. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
