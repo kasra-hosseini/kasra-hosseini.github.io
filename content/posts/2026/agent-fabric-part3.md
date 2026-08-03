@@ -258,9 +258,7 @@ The downranked agent has no more recourse than she does. It cannot say the metri
 
 ## What Nobody's Job It Was
 
-Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
-
-The rule that refused her did not have to live in a document nobody reads. It could have sat where the system actually looks, with a line beside it naming who may change it and what happens when somebody disputes it. Instead it existed nowhere until the moment it refused her.
+The rule that refused her did not have to live nowhere. It could have sat where the system actually looks, with a line beside it naming who may change it and what happens when somebody disputes it. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
@@ -275,10 +273,6 @@ This framework shares territory with several concurrent research programmes and 
 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
-
-Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Test the agent that answered her and it answers correctly every time.
-
-Nothing that happened to her is inside any agent. It is in the desk: who it lets decide, and how long a stale number keeps deciding for it.
 
 ## What Is Still Unsolved
 

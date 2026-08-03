@@ -381,7 +381,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one, and she can date all of them. Logging went in a year ago. The router started reading it. Hard tickets went to whoever closed them fastest. One slow March, and nothing has been asked of the third agent since.
+Every step she finds is a sensible one, and she can date all of them. Logging went in a year ago. The router started reading it. Hard tickets went to whoever closed them fastest. The third agent had a bad March, dropped to the bottom of the table, and has not been asked since.
 
 
 
@@ -417,7 +417,7 @@ What she thinks about, on the Fridays she does not open the log, is how cheap it
 
 It did not occur to her, because it does not look like that while you are building it. It looks like a table. Nobody writes a table as though it will one day be the only account of what happened.
 
-She was right the whole time, and being right was worth nothing.
+What she never had was a route from what she knew to whoever could act on it. She was right the whole time, and being right was worth nothing.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
