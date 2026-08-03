@@ -238,19 +238,19 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 ## Who Actually Enforces Any of This
 
-Her case was supposed to have a second reader. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while every refund got one. Then the cloud provider retired the interface that checking agent depended on. Nobody repealed the rule and nobody at the retailer voted on anything; it simply stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday, and got one reader. So the rule that refused her was never really the retailer's. Between pieces of software, a rule holds for exactly as long as the machines keep enforcing it. The retailer does not own the machines.
+Her case was supposed to have a second reader. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while every refund got one. Then the cloud provider retired the interface that checking agent depended on. Nobody repealed the rule and nobody at the retailer voted on anything; it simply stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday, and got one reader. So the rule that refused her was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. What the desk was asked for and what it was rewarded for were never the same thing. What makes that fixable rather than tragic is that somebody owns the conditions. The score that made her a risk was a number in a config file, and any Tuesday somebody could have decided it was wrong.
 
 The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nobody built her a way to dispute it, which is the cheapest thing a desk can have and the first thing left out. Without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-No desk chooses this either. Drift that has already cost money pushes hard toward fixed rules, which is how one score ended up setting how fast this desk ran, what it could approve, and whether anything could be sent back. It was also the number that refused her.
+No desk chooses this either. Once drift has cost real money, fixed rules are what get bought, and this desk bought one score to do everything: how fast it ran, what it could approve, whether anything could be sent back. That same score refused her.
 
 ## How a Society Gets Argued With
 
 Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and the reason she had stayed six years is that she had not found one. The third option, the one software has that other institutions do not, is to copy the whole arrangement and change the rule you object to. Nobody does that to a shop. That is the entire repertoire, and her letter was safe to refuse because she had none of it.
 
-The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to go, so nothing obliges anyone to listen. Complaints get heard where leaving is possible, which is what platform concentration takes away, from the agent and from her equally.
+The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it. Complaints get heard where leaving is possible, which is what platform concentration takes away, from the agent and from her equally.
 
 ## What This Framework Is For
 
@@ -280,7 +280,7 @@ Here is the uncomfortable part. Nobody on that desk's team did anything wrong, n
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-Somebody has to own the answer, so start with the obvious candidate: the model that scored her. The trouble is that a model is not a thing that sits in a drawer: teams retrain them on newer data every few months and keep older versions running alongside. This one has been retrained twice since her refusal, on data that now includes her case, and several versions of it are still live, including one from before the risk score existed. Every one of them carries her record. Not one carries the reasoning that produced it, because what actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+Somebody has to answer for it, so start with the obvious candidate: the model that scored her. It cannot. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 You can find a person years later. You can sue a company a decade on. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
