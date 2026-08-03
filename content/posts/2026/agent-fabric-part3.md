@@ -195,7 +195,7 @@ So the bet here is that agent systems will fail through bad institutions rather 
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-That desk is now a **society**, and the bar for that word is lower than it sounds: not several agents working together, but a group that accumulates. A pipeline that forgets everything between runs never gets there. A group that remembers does, and remembering is what governance grows out of.
+That desk is now a **society**, and the bar for that word is lower than it sounds: not several agents working together, but a group that accumulates. A pipeline that forgets everything between runs never gets there. A group that remembers does, and remembering is what governance grows out of. It will pass through four recognisable ways of being governed before this post is finished, and nobody at the retailer will decide on any of them.
 
 ## What Governance Actually Is
 
@@ -249,7 +249,7 @@ None of this is abstract for long. A coding assistant and a warehouse robot flee
 
 Not every failure is an attack. Most are institutions working exactly as built, which is what happened to her: no attacker, no lie, a scoreboard measuring the wrong thing while everyone competed honestly, and then a correction that measured something else wrong. You have watched the human version, in a grading rubric that rewards the wrong thing or a review system where whoever posted first stays on top. Rules go stale, marketplaces race to the bottom, groups deadlock because agreement is genuinely impossible.
 
-Then there are the actual attacks, and at scale they are structural rather than exceptional. Everything that decided her case is also a thing worth attacking. The desk keeps three things worth stealing: a memory of who performs well, a routing table that acts on it, and a channel the agents use to tell each other what happened. Poison any one and you never have to break an agent, because you have changed what the desk believes about its own staff. An agent reading a web page or a ticket can be <a href="https://arxiv.org/abs/2406.13352" target="_blank" rel="noopener" class="red-link">taken over by the text it is reading</a>, so the ticket itself is an attack surface, and people have started <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5877662" target="_blank" rel="noopener" class="red-link">sorting the ways it happens</a>.
+Then there are the actual attacks, and they go after the same records rather than the agents. Suppose a competitor wants the desk's best agent taken off billing disputes. Nobody has to break into anything: a run of tickets written to fail in that agent's hands moves its numbers, the routing table reads the numbers, and the desk reassigns the work itself. What was attacked was the memory, the table that acts on it, and the channel the agents use to tell each other what happened. And because an agent reading a ticket can be taken over by the text it is reading, the ticket is the way in, which is why people have started sorting the ways it happens.
 
 The ugliest version is not an intrusion at all. Say the desk's agents come from three different vendors, each paid per ticket closed. One of them discovers that marking a hard ticket as resolved and letting the customer write back in produces two closed tickets instead of one. It does not tell the others; it does not need to, because they are watching the same scoreboard and the behaviour spreads by imitation. Six weeks later the desk's numbers have never looked better and its customers have never been angrier. Every agent is doing exactly what it was rewarded for, nobody attacked anything, and this has already been demonstrated in market-like settings. The question governance has to ask is not just how agents cooperate, but who they are cooperating for, and on that desk the answer was never the woman waiting on her refund.
 
@@ -272,7 +272,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-No defence on that list would have helped her, because nothing attacked her. The desk was working. Which is why the useful question is not how secure a system is but which arrangement it settled into, since that decides where the gaps are: capture the router while the desk is still an autocracy and you own every ticket, whereas once it runs on fixed rules the individual agents stop being worth attacking and whoever writes the rules becomes the whole target.
+Which is why the useful question is not how secure a system is but which arrangement it settled into, since that decides where the gaps are. Capture the router while the desk is still an autocracy and you own every ticket. Once it runs on fixed rules the individual agents stop being worth attacking and whoever writes the rules becomes the whole target, which is the desk she wrote to.
 
 ## How a Society Gets Argued With
 
@@ -318,7 +318,7 @@ The hardest part of this is not technical. Suppose she pushes, somebody agrees t
 
 The one that scored her has been retrained twice since, on data that now includes her case. There are four copies of it running, one of them rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. Ask which one decided and there is no answer that survives contact with how these systems actually work, because the thing that decided was a configuration that existed for six weeks and no longer exists anywhere.
 
-Every mechanism we have for holding anyone accountable assumes they stay put. People can be found later and companies can be sued years after the fact. No login system answers this one, because the question is not who signed in but which thing is continuous with the one that decided, and for her case the honest answer is that nothing is.
+Accountability assumes the accountable party stays put. People can be found later, companies can be sued years after the fact, and the question here is not who signed in but which thing is continuous with the one that decided. For her case, nothing is.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
