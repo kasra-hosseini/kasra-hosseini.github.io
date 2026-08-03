@@ -21,7 +21,7 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter.
 
-Something was built around it, and that something is the difference between a thing that describes work and a thing that does it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that runs until the work looks done. That apparatus has a name, scaffolding, and none of it makes the model cleverer. It just gives the cleverness somewhere to land.
+Something was built around it, and that something is the difference between a thing that describes work and a thing that does it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that runs until the work looks done. All of that together is called scaffolding. None of it makes the model cleverer; it gives the cleverness somewhere to land.
 
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Somebody chose which tools it gets, what it is told to do, and when it is allowed to stop. Getting those wrong usually shows: give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch.
+Every one of those pieces was somebody's decision: which tools it gets, what it is told to do, when it is allowed to stop. Getting them wrong usually shows: give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch.
 
 The third choice is the one that never shows. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 

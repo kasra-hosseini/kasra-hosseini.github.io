@@ -411,6 +411,8 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Nobody gave the routing table authority over which agent had a career. It got that by being the only thing anyone wrote down, and she cannot argue with it because there is no argument to have: the table is accurate, and being accurate is all it was ever asked to be.
 
+None of this is about routing tickets. Somewhere else, a team has a pipeline where several agents search different databases and one agent merges what they find. That merging agent notices, correctly, that one searcher keeps surfacing papers that hold up and another keeps returning retracted ones, so it starts trusting the first more. Nobody granted it the authority to rank its colleagues. It now decides whose findings count, and the first person to ask why a particular source was left out will get no rule in reply, because there is not one. There is a preference that was learned.
+
 She never lacked evidence. She lacked anywhere to take it.
 
 She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. She could have written either one in an afternoon. It never occurred to her, because a log does not look like a thing that decides while you are building it. It looks like a table.
