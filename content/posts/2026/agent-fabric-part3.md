@@ -199,8 +199,6 @@ Governance grows out of what gets remembered, and in one year that desk will pas
 
 She hit a rule and could not reach the thing that made it. That is the whole distinction, and it carries the rest of this post: the flag on her account is an **institution**, a standing rule about who may do what, and everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
 
-Notice what the router had to become before a scoring system could refuse her at all. A router that forwards traffic is playing the game. A router that keeps score, and decides who may touch what on the strength of it, is writing the rules. What separates those records from a cache is that they decide who gets work tomorrow.
-
 ## Where Authority Comes From
 
 One desk, one year, four different answers to the same letter, and nobody chose a single one of the transitions. She was not the first person to write in about a refund, and the desk that answered her was the third version the retailer had run. Not four options anyone weighed up: four things the same desk turned into, in order. Follow her letter into each of them.
@@ -216,6 +214,8 @@ It works, too. The refund line stops climbing inside a month, which is why nobod
 **The fourth.** It exists only after somebody complains loudly enough that a shrug will not do. Her letter gets acknowledged by one thing and reviewed by another, and the second is allowed to say the first was wrong. That is the whole difference: different powers in different hands, an appeal that does not report to the thing being appealed. That is a **constitutional republic**, and almost nothing gets there, because it is slower and nobody buys slower until something has already gone wrong.
 
 So the same letter reaches a judgement under the first desk, a winner under the second, a rule under the third, and someone who can overrule the rule under the fourth. Four arrangements, no announcements, no design review, and she happened to write in under the third. Four arrangements in a year, and the one she got was the only one with no way back in.
+
+Notice what the router had to become before a scoring system could refuse her at all. A router that forwards traffic is playing the game. A router that keeps score, and decides who may touch what on the strength of it, is writing the rules. What separates those records from a cache is that they decide who gets work tomorrow.
 
 The desk's leaderboard priced speed, and the fastest way to close a return is to refuse it. What happened next has a name worth keeping: **drift**, the slow slide where a system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while it happened. Every agent performed well against the measure it was given, and the correction that followed is what refused her. How much drift a design can survive decides most of the rest of it, and underneath sits a question asked far too rarely: who is meant to accumulate advantage here, and who needs protecting from it? Which is also the only thing worth attacking: nobody needs to break an agent when moving its numbers moves the work. Nothing had to attack her at all.
 
@@ -278,7 +278,7 @@ The discomfort in that is specific. Nobody on that desk's team did anything wron
 
 ## What Is Still Unsolved
 
-The hardest part of this is not technical. Suppose she pushes, somebody agrees to look, and the question is which agent owes her an explanation.
+Suppose she does not let it go. She writes again, somebody at the retailer agrees to look, and then the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
 The one that scored her has been retrained twice since, on data that now includes her case. There are four copies of it running, one of them rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. Ask which one decided and there is no answer that survives contact with how these systems actually work, because the thing that decided was a configuration that existed for six weeks and no longer exists anywhere.
 
