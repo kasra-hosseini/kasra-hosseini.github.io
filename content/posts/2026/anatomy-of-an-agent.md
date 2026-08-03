@@ -63,7 +63,7 @@ That is the whole fix. It was available the entire time, and the writer could no
 
 Nobody decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong.
 
-The arrangement costs something of its own. The writer insists the test was unfair; the agent that ran it insists otherwise. Both are waiting for something to decide, and nobody ever built anything that decides. So it gets settled by whichever of them the system has had to restart less often, because that number happens to exist. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
+The arrangement costs something of its own. The writer insists the test was unfair; the agent that ran it insists otherwise. Nothing in the setup can settle that, because nobody built anything to settle it. What settles it is which of the two the system has had to restart less often, because that number happens to exist. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
 
 
 A loop cannot audit itself. Six hours of getting more certain and no closer all looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement does not converge on the truth. It converges on whatever it already believed, only louder.
