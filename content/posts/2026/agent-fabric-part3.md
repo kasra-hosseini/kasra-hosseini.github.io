@@ -290,7 +290,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-Which is why asking how secure it is turns out to be the wrong question. The thing being attacked is never one agent. On that desk it is the scoreboard, the routing table that reads it, and the memory joining them, so a poisoned score breaks nothing: it simply sends the sensitive work toward whichever agent arranged to look good. Three components each behaving correctly, and the failure living in the gaps between them. And which arrangement you chose decides where those gaps are. Capture the router while the desk is still an autocracy and you own every ticket. Once it runs on fixed rules, individual agents stop being worth attacking and whoever writes the rules becomes the whole target. Ask which attack you actually expect, not how strong the walls are. And notice that none of these defences would have helped her, because nothing attacked her. The desk was working.
+So the useful question is not how secure it is but which arrangement you chose, because that decides where the gaps are. Capture the router while the desk is still an autocracy and you own every ticket. Once it runs on fixed rules, individual agents stop being worth attacking and whoever writes the rules becomes the whole target. Ask which attack you actually expect, not how strong the walls are. Then notice that no defence on that list would have helped her, because nothing attacked her. The desk was working.
 
 ## How a Society Gets Argued With
 
