@@ -256,7 +256,7 @@ The downranked agent has no more recourse than she does, and for the same reason
 
 ## What This Framework Is For
 
-Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. The point of naming those arrangements is not to pick one. It is to have words for what you are building while there is still time to build it differently.
+Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. Naming these arrangements is not about picking one. It is so that somebody in that week has a sentence to say out loud.
 
 This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Where a system settles says a great deal about what its builders were afraid of.
 
@@ -284,7 +284,7 @@ She writes again. This time somebody at the retailer agrees to look, and the har
 
 Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
-A person can be found years later. A company can be sued a decade on. Here there is nothing to find at all. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
+A person can be found years later. A company can be sued a decade on. The thing that refused her existed for six weeks and is gone: not deleted, not overturned, just superseded by the next version of the desk. There is no longer anything that made her decision, which is why nobody can unmake it.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
