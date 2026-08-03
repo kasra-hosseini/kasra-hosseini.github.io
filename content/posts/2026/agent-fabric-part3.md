@@ -199,6 +199,8 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 She hit a rule and could not reach whoever decides what the rules are, and the desk had not started out capable of either. She was also not the first person to write in about a refund: the desk that answered her was the third version the retailer had run. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Watch what happens to her letter under each one.
 
+Her refusal started long before she wrote in. Somebody set the leaderboard to reward speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
+
 **Day one.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. Most systems start here, because one router is the simplest thing that works, and the price is that when it is wrong there is nothing else in the room.
 
 **A month in.** Somebody turns on logging, and the same letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, and her letter goes to the one at four. The reply still reads like a decision, and it might even be the same decision, but it came from whichever agent was winning that week rather than the one that knows what a return pattern looks like. 
@@ -214,8 +216,6 @@ It works, too. The refund line stops climbing inside a month, which is why nobod
 So the same letter reaches a judgement, then a winner, then a rule, then someone who can overrule the rule. Four arrangements in a year, no announcements and no design review, and she happened to write in under the only one with no way back in.
 
 Every one of those desks needed a record to exist at all. Plenty of software remembers things; this record decided who would read her letter.
-
-Her refusal started long before she wrote in. Somebody set the leaderboard to reward speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
 
 Nothing was broken while that happened. Every agent performed well against the measure it was given, and when finance noticed the refund line and bolted on a risk score, that correction was reasonable too. She is the one who paid for both. The question nobody asks early enough is who an arrangement is meant to favour, and who needs protecting from it.
 
@@ -238,9 +238,13 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 ## Who Actually Enforces Any of This
 
-Her case was supposed to have a second reader, because refunds above a threshold need a second agent to check them, and for a while every refund got one.
+Her case was supposed to have a second reader. Refunds above a threshold need a second agent to check them, and for a while every refund got one. The second agent was not the retailer's; it was a service they paid for, reached through an interface owned by somebody else.
 
-On a Tuesday morning the provider retired the interface. Nobody at the retailer voted to drop the second check, nobody noticed the rule had become unenforceable, and the rule itself was never repealed: it simply stopped applying, because the thing that made it apply belonged to somebody else. Her letter arrived on the Thursday and got one reader. So the rule that refused her was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
+On the Tuesday morning, the provider retired that interface. Nobody at the retailer voted to drop the second check. Nobody noticed the rule had become unenforceable. The rule was never repealed, it simply stopped applying, because the thing that made it apply belonged to a company with its own release schedule.
+
+Her letter arrived on the Thursday and got one reader.
+
+So the rule that would have caught her case was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. It was a number in a config file. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
 
