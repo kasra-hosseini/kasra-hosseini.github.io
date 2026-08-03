@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,600 words (body) · ~2,000 words (notes)"
+wordcount: "~1,500 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -316,9 +316,7 @@ An engineer called Priya is going to spot an injustice in a system she helped bu
 
 Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
-None of that is new. What is new is that something logged those overrides, because logging is free and obviously useful, and then the calendar agent started acting on the log, because acting on it is the entire point. Two steps, both reasonable, and whether a new agent gets real work now has an answer nobody chose. Your phone can tell you who asked, what happened, and what it cost. It cannot tell you who authorised it, because nobody did, and that missing fourth answer is the difference between a log and a rule.
-
-Three months in you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway. The record says interruptions get dismissed, and the record is more consistent than you are, so you are now arguing with a policy you wrote by accident.
+Three months in you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway. Something logged every one of those dismissals, because logging is free and obviously useful, and the record is more consistent than you are, so you are now arguing with a policy you wrote by accident. Your phone can tell you who asked, what happened, and what it cost. It cannot tell you who authorised any of it, because nobody did, and that missing fourth answer is the difference between a log and a rule.
 
 The rest of this post is about how that adds up while nobody is looking.
 
