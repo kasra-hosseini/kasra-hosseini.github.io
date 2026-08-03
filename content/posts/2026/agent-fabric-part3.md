@@ -244,7 +244,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Appeal is the cheapest thing a desk can build and the first thing left out, and without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-The desk did not choose fixed rules either. Drift that has already cost money pushes hard toward them, whether or not anyone wanted the overhead, and that is how the risk score arrived. One number then decided how fast the desk ran, what it was allowed to do, whether it was drifting, and whether anything could be reversed. It was also the number that refused her.
+Drift that has already cost money pushes hard toward fixed rules, whether or not anyone wanted the overhead. That is how the risk score arrived, and nobody chose it either. One number then decided how fast the desk ran, what it was allowed to do, whether it was drifting, and whether anything could be reversed. It was also the number that refused her.
 
 ## How a Society Gets Argued With
 
@@ -258,7 +258,7 @@ Somebody at that retailer could have said out loud, in the week the risk score w
 
 And every one of those choices is a trade that resists cleverness. The desk has already paid all three. It got fast by letting one router decide, and paid for it the month the router was wrong about everything downstream. It got accurate by scoring agents, and paid for it in drift nobody could see. It got safe by writing fixed rules, and paid for it with her. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
 
-The encouraging part is that none of this has to live in a document nobody reads. Who may hand work to whom, what an agent may touch, what gets recorded: all of that can be written where the system will actually consult it. A rule that does not show up there is not governance, it is a wish. That does not escape the provider, and nothing here does. Writing the rule where the system consults it moves the rule from something a team can ignore to something a provider can overrule, which is better than a document nobody reads and still not hers to appeal to.
+The encouraging part is that none of this has to live in a document nobody reads. The rule that refused her could have been written where the system actually looks, with a note beside it saying who may change it and what happens when somebody disputes it. A rule that does not show up there is not governance, it is a wish. That does not escape the provider, and nothing here does. Writing the rule where the system consults it moves the rule from something a team can ignore to something a provider can overrule, which is better than a document nobody reads and still not hers to appeal to.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
@@ -274,7 +274,7 @@ This framework shares territory with several concurrent research programmes and 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
 
-The discomfort in that is specific. Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Audit any single model and you will find nothing: an agent cannot collude with itself, and no individual model drifts the way a scoreboard does. So the thing to audit is not the model that answered her. It is the desk: who it lets decide, how fast its measures go stale, and whose interests its arrangement of power quietly serves.
+The discomfort in that is specific. Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Auditing any single model would have found nothing wrong with it. An agent cannot collude with itself, and no individual model drifts the way a scoreboard does. So the thing to audit is not the model that answered her. It is the desk: who it lets decide, how fast its measures go stale, and whose interests its arrangement of power quietly serves.
 
 ## What Is Still Unsolved
 
