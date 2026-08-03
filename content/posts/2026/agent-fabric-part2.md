@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Your phone buzzes in the middle of a meeting you told it to protect. Something arrived that one assistant judged urgent enough to interrupt you, and another had been told to hold everything for the next hour. Both were following instructions. Only one could win. Nothing in your phone was granted the authority to settle that, and yet it got settled, because whichever assistant you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
+Your phone buzzes in the middle of a meeting you told it to protect. One assistant judged the message urgent; another had been told to hold everything for the hour. Both were following instructions, only one could win, and nothing in your phone was granted the authority to settle it. It got settled anyway, by whichever assistant you have overridden less often. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
 
 
@@ -375,7 +375,7 @@ Your phone buzzes in the middle of a meeting you told it to protect. Something a
 
 ## From Architecture to Institution
 
-On a phone the worst this costs is your own afternoon. Now hold that same arrangement still and change one thing about it: who the record is about. On your phone it was about you, and you could always override it. Inside a company the record is about somebody who is not in the room: it is about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times.
+On a phone the worst this costs is your own afternoon. Change one thing about that arrangement, though, and it costs somebody else theirs: keep the record, but make it about a stranger who will never see it and has no dismissal to register.
 
 Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
@@ -409,7 +409,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-Every arrangement at that desk was designed by somebody: the split, the logging, the routing rule. What nobody designed was the authority that came out of them, and that is the part that decided which agent got her hard tickets and which customer got told no. You can review a design. Nobody schedules a review for a side effect.
+Somebody designed the split, the logging, and the routing rule. Nobody designed the authority that came out of them, and that is the part that decided which agent got her hard tickets and which customer got told no. You can review a design. Nobody schedules a review for a side effect.
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time, and being right was worth nothing.
 

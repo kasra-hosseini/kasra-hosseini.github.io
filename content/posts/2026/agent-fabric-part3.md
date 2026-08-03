@@ -250,7 +250,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## How a Society Gets Argued With
 
-Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third is one that only software allows: take a copy of the whole thing, change the rule you object to, and run your own version. People do that to software they dislike. Nobody does it to a shop. Complain, take her business elsewhere, or go somewhere the rules are different. She had none of the three.
+Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third is one that only software allows: take a copy of the whole thing, change the rule you object to, and run your own version. People do that to software they dislike. Nobody does it to a shop. She had none of the three.
 
 The downranked agent has no more recourse than she does, and for the same reason. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to work. Complaints get heard where leaving is possible, and neither of them could leave.
 
@@ -276,7 +276,7 @@ This framework shares territory with several concurrent research programmes and 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
 
-Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Audit the model that answered her and you would find nothing wrong with it, because an agent cannot collude with itself and no individual model drifts the way a scoreboard does. To find what happened to her you would have to audit the desk: who it lets decide, how fast its measures go stale, and who carries the cost when they do.
+Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Test the agent that answered her and it answers correctly every time. Nothing that happened to her is inside any agent. It is in the desk: who it lets decide, and how long a stale number keeps deciding for it.
 
 ## What Is Still Unsolved
 
