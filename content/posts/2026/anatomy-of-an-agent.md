@@ -65,7 +65,7 @@ That is the whole fix. It was available the entire time, and the writer could no
 
 Nobody on that team decided the tester should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The breaker never had to be clever either. It had no reason to defend the test it was attacking.
 
-The arrangement costs something of its own. The writer says the test was unfair, the breaker says it was not, and nobody built anything to settle that. It gets settled anyway, by a stray counter somebody added months ago for scheduling, and the agent it happens to favour wins. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
+The arrangement costs something of its own. The writer says the test was unfair. The breaker says it was not. Nobody built anything to settle an argument between them, so it gets settled by a number that was lying around for another purpose entirely, and the agent that number happens to favour wins. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
 
 
 A loop cannot audit itself. Six hours of getting more certain and no closer all looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement does not converge on the truth. It converges on whatever it already believed, only louder.
