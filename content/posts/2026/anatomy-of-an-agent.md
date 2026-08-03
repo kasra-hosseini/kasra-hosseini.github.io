@@ -35,7 +35,7 @@ Start with the acting, because some actions cannot be taken back. An agent that 
 
 The ordinary failures are easier to picture. Strip out the prompt and a capable agent spends an afternoon doing something competent that nobody asked for. Strip out the planning and it fixes the thing in front of it, then deletes the file it needs twenty minutes later. You find out about both before lunch, which is exactly what makes the self-grading failure different.
 
-Identity is stranger than it sounds. Two agents on the same model, one told it is careful and terse and one told it is patient and kind, will handle the same angry customer like different species: the first sends three sentences and a refund policy link, the second asks what happened and takes four exchanges to get there. Neither is more capable. Most of what feels like an agent's character is a sentence somebody typed, which means most of what it will refuse to do is also a sentence somebody typed, and somebody can change it.
+Identity is stranger than it sounds. Two agents on the same model, one told it is careful and terse and one told it is patient and kind, will handle the same angry customer like different species: the first sends three sentences and a refund policy link, the second asks what happened and takes four exchanges to get there. Neither is more capable. Most of what feels like an agent's character is a sentence somebody typed, and so is most of what it will refuse to do. The careful one is not being careful. It is being told, in a file you can open, that it is the kind of thing that would be.
 
 ## Where Single-Agent Recursion Breaks
 
