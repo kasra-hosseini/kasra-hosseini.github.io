@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Think of an assistant on your phone that has stopped offering you things. Not because you switched it off, but because you dismissed it a few times in a row when you were busy, and something in there is keeping score. It now suggests less, so you dismiss it less, so it suggests less again. Nothing in your phone was granted the authority to demote it. You never wrote that rule either. You voted for it, one dismissal at a time, without knowing there was an election.
+Think of an assistant on your phone that has stopped offering you things, not because you switched it off but because you dismissed it a few times when you were busy and something in there is keeping score. It suggests less, so you dismiss it less, so it suggests less again. Nothing in your phone was granted the authority to demote it. You voted for it, one dismissal at a time, without knowing there was an election.
 
 
 
@@ -379,7 +379,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Nothing she finds is a mistake. There is a Tuesday in March where the third agent took eleven hours over a billing dispute. After that it sits at the bottom of a table nobody was watching, and it has not been asked a hard question since.
+Nothing she finds is a mistake. On one Tuesday in March the third agent took eleven hours over a billing dispute, and that is the last hard question it was ever asked.
 
 
 
