@@ -320,7 +320,7 @@ Then two of them want opposite things. The messages agent has something urgent; 
 
 And each of those agents is already doing the same thing internally. Ask the research one for a summary and it quietly hires something to fetch the paper and something else to compress it, and that one may hire further. You asked one question and started a chain of command that nobody can see whole, because each agent knows only who called it and who it called.
 
-None of that is new. Delegation is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
+Delegation itself is old news and already everywhere. What is new is what happens when these arrangements start remembering how they went.
 
 Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose.
 
@@ -399,11 +399,11 @@ Somebody writes in because a delivery never arrived. A router reads the message,
 
 After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and it has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The next person whose delivery goes missing gets routed by a record rather than by a category, and neither they nor anyone at the company could tell you that changed. Then a new agent joins the fleet, and whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router learned, or wait. No one wrote that rule down. The deployment team can override it, but only by making the service worse, which in practice means they will not.
 
-Six weeks in, somebody on the deployment team notices that the third agent has not handled a hard ticket since March and raises it in standup. Everyone agrees it looks wrong. Nobody can find the decision. There is no config flag, no policy document, no ticket where anyone chose this, and the only artefact is a table of resolution times that everybody agrees is accurate.
+Six weeks in, an engineer called Priya notices that the third agent has not handled a hard ticket since March, and raises it at standup. Everyone agrees it looks wrong. Nobody can find the decision. There is no config flag, no policy document, no ticket where anyone chose this, and the only artefact is a table of resolution times that everybody agrees is accurate. Priya can override the routing, and she knows what will happen if she does: the numbers will get worse, and she will be the person who made them worse.
 
 Notice what separates the two halves of that story, because it is not the four records; those are identical. Handing a ticket to a specialist is a step inside one task. A rule about who gets the hard tickets at all, plus the question of who may change that rule, is a standing constraint on every task there will ever be. The first is delegation. The second is governance, and nobody wrote it.
 
-You could call that good optimization rather than authority, except that plenty of systems already spread work by whichever machine is least busy and nobody calls those governing bodies, because the moment the work is done the numbers are forgotten. This router does not forget. Six months on it is still routing by a preference it formed in its first month, and nobody at the retailer would describe it as a rule. It outlived the tickets that produced it. Which is what an institution actually is: not a layer somebody added on top, but the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it.
+Plenty of systems already spread work by whichever machine is least busy, and nobody calls those governing bodies, because the moment the work is done the numbers are forgotten. This router does not forget.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
@@ -421,7 +421,7 @@ What decides which one you got is not its origin but whether anyone can push bac
 
 ---
 
-Delegating costs you twice, and only one of the bills is itemised. Every hop burns compute and time, and every hop is another chance for what you asked for to drift from what gets done, which is why nobody builds twenty layers deep when three will do.
+The measurable cost of delegating is the boring one. Every hop burns compute and time, and every hop is another chance for what you asked for to drift from what gets done, which is why nobody builds twenty layers deep when three will do.
 
 The second cost is authority, and it is easiest to see in what the router will not do. Ask it to send a hard billing dispute to the third agent and it will comply, once, and then go back to the two it trusts, because nothing you said changed the record and the record is what it consults. Nobody granted it that power. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork: preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it.
 

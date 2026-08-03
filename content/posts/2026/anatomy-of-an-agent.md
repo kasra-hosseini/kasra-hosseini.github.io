@@ -23,7 +23,7 @@ Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. I
 
 The gap does not close by making the model smarter. It closes by building things around it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that runs until the work looks done. The industry calls that apparatus scaffolding, and the thing worth noticing is that none of it makes the model any cleverer. It just gives the cleverness somewhere to land.
 
-{{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything outside the model in the middle is scaffolding. None of it makes the model smarter, and all of it is what lets the model act." >}}
+{{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** The model is the box in the middle. Everything around it exists because a model on its own cannot reach anything." >}}
 
 Remove the loop and it is a chatbot again. Remove the tools and it can think without touching anything. But remove its memory and something stranger happens: it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
@@ -31,7 +31,7 @@ Remove the loop and it is a chatbot again. Remove the tools and it can think wit
 
 One piece of that apparatus fails differently from the others, and it is worth naming before the tour. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not. It has no way to check that judgement except the judgement itself. Everything else in the scaffolding can be wrong in ways you notice by lunchtime.
 
-Start with the acting, because some actions cannot be taken back. An agent that deletes the wrong file has caused an afternoon of annoyance and a restore from backup. An agent driving a robot arm that has already swung has caused something else, and no amount of apologising unswings it. Everything ordinary sits between those: reading files is safe, calling a well-behaved service is safe, driving a browser is merely messy because pages change underneath you. The same loop with the same model is a different proposition depending on which of those it can reach.
+Start with the acting, because some actions cannot be taken back. An agent that deletes the wrong file has caused an afternoon of annoyance and a restore from backup. An agent driving a robot arm that has already swung has caused something else, and no amount of apologising unswings it. Everything ordinary sits between those: reading files is safe, calling a well-behaved service is safe, driving a browser is merely messy because pages change underneath you. Same loop, same model, and the question of how much you should worry depends entirely on which of those it can reach.
 
 The ordinary failures are easier to picture. Strip out the prompt and a capable agent spends an afternoon doing something competent that nobody asked for. Strip out the planning and it fixes the thing in front of it, then deletes the file it needs twenty minutes later. You find out about both before lunch, which is exactly what makes the self-grading failure different.
 
@@ -65,7 +65,7 @@ Which is where this stops being a question about agents and becomes a question a
 
 ---
 
-So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
-
 The rest of this series is about what it takes to fix that, and what the fix costs. [Part 1](/posts/2026/agent-fabric-part1/) is why agents end up in groups. [Part 2](/posts/2026/agent-fabric-part2/) is how the work gets split, and [Part 3](/posts/2026/agent-fabric-part3/) is who ends up in charge. Each has a companion field guide: [delegation patterns](/posts/2026/delegation-patterns-field-guide/) and [governance archetypes](/posts/2026/governance-archetypes-field-guide/).
+
+So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
 
