@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,650 words (body) · ~2,000 words (notes)"
+wordcount: "~1,600 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -316,9 +316,7 @@ An engineer called Priya is going to spot an injustice in a system she helped bu
 
 Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
-Each of those agents is already doing this internally too, hiring something to fetch a paper and something else to compress it, so one question starts a chain of command nobody can see whole. None of which is new. What is new is that the chain remembers how each call went.
-
-Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. So the phone now knows who asked, what happened, and what it cost, and has no way to record who authorised any of it, because nobody did. Two steps, both reasonable, and whether a new agent gets real work has an answer nobody chose. That is the threshold: once a system keeps those records, **delegation has quietly become governance.**
+None of that is new. What is new is that something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. So the phone now knows who asked, what happened, and what it cost, and has no way to record who authorised any of it, because nobody did. Two steps, both reasonable, and whether a new agent gets real work has an answer nobody chose. That is the threshold: once a system keeps those records, **delegation has quietly become governance.**
 
 Three months in you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway. The record says interruptions get dismissed, and the record is more consistent than you are, so you are now arguing with a policy you wrote by accident.
 
