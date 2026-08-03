@@ -266,9 +266,7 @@ This framework shares territory with several concurrent research programmes and 
 
 She writes again, and this time somebody at the retailer agrees to look. Then the question is which agent owes her an explanation, and nobody can answer it.
 
-The obvious place to look is the model that scored her, and it is not there any more. It has been replaced twice since, each time by something that had learned from her case.
-
-A person can be found years later. A company can be sued a decade on. What refused her was a configuration that lasted six weeks and has since been superseded, so there is nothing left to find, and an apology would have nowhere to come from even if somebody wanted to give her one.
+The obvious place to look is the model that scored her. It is not there any more. It has been retrained twice since her refusal, each time on data that included her case, so the thing that judged her has been dissolved into the things that came after it, and there is no version of it left to question. A person can be found years later. A company can be sued a decade on. This was a configuration that lasted six weeks, and an apology would have nowhere to come from even if somebody wanted to give her one.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
@@ -281,9 +279,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-Nobody in her story was careless, and nobody was cruel. These structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
-
-That desk has been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking. Nobody had that on a ticket.
+Nobody in her story was careless, and nobody was cruel. That desk has been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking, and nobody had designing any of it on a ticket, because these structures do not arrive when people are careless about governance. They arrive when people are conscientious about everything else.
 
 Her letter is still in the system somewhere, marked resolved.
 
