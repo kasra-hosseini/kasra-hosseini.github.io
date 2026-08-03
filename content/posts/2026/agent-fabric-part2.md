@@ -379,7 +379,7 @@ Priya built the thing that decides which agent gets which ticket, which means an
 
 So she goes looking for the rule behind those zeroes, and there is no rule: not in the settings, not in the policy docs, not in anyone's memory. What she finds is a habit that has been running long enough to pass for one, which is all a rule has to be.
 
-On a Tuesday in March the third agent took eleven hours over a billing dispute. After that the router stopped asking it hard questions at all, and every step in between is one she would have signed off on.
+On a Tuesday in March the third agent took eleven hours over a billing dispute, and after that the router stopped asking it hard questions at all. Every step in between is one she would have signed off on.
 
 
 
@@ -418,6 +418,8 @@ She knows what it would have taken, and it is cheap enough to be insulting. One 
 Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
 She was right the whole time, and being right was worth nothing.
+
+Nobody gave the table that power. It took it by being the only thing written down, and what a record decides is not just who gets the work. It is who is still around to be asked.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">

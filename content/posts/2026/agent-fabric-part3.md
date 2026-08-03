@@ -197,7 +197,7 @@ The desk was always going to end up with rules. The only open questions were whi
 
 ## Four Desks in One Year
 
-What she eventually got was four polite sentences and no way to reply to them, and the reason is that the desk had already been three other things by the time her letter arrived. Not four options anyone weighed up: four things the same desk turned into, in order. Watch what happens to her letter under each one.
+What she eventually got was four polite sentences and no way to reply to them. By the time her letter arrived, the desk had already been three other things. Not four options anyone weighed up: four things the same desk turned into, in order. Watch what happens to her letter under each one.
 
 **The first desk: one agent decides.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. One router is the simplest thing that works, which is why the desk started here, and the price is that on the day it is wrong about her there is nothing else in the room.
 
@@ -211,7 +211,7 @@ The agent that would have read her letter properly is the one that had a slow mo
 
 **The third desk, half a year in: the rule decides.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead. One rule flagged certain return histories no matter what any agent thought, and hers was one of them.
 
-Another rule said refunds above her amount get a second reader, and hers qualified. It never got one, because the service that provided the second reader had been switched off two days before her letter arrived, by the company the retailer rented it from. Nobody repealed the rule. It just stopped being true. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
+Another rule said refunds above her amount get a second reader, and hers qualified. It never got one. Two days before her letter arrived, the company the retailer rented that second reader from had switched the service off. Nobody repealed the rule. It just stopped being true. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
