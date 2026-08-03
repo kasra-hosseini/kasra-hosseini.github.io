@@ -408,7 +408,9 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 She was the one person in the building who knew where to look, and a spreadsheet beat her. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
 
-Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time. What beat her was a record of what happened, promoted to a rule the moment something started consulting it before acting. Nobody agrees to that promotion, and nobody can revoke it.
+Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time, and being right was worth nothing.
+
+This is what delegating to agents actually costs. Not the compute, and not the mistakes, which are visible and fixable. It costs you the ability to say who decided, because every record you keep of how the work went is a rule waiting to be promoted, and the promotion happens the moment something starts consulting it before acting. Nobody agrees to it and nobody can revoke it. What you can still do is choose which arrangement is doing the deciding, which means knowing what the arrangements are, which is where this goes next.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">

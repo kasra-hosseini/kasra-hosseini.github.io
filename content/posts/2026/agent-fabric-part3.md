@@ -217,7 +217,7 @@ So the same letter reaches a judgement under the first desk, a winner under the 
 
 None of the four could have refused her while the router was only forwarding traffic. Once it keeps score and decides who may touch what on the strength of it, it has stopped playing the game and started writing the rules. Plenty of software remembers things; what made this record different is that it decided who would read her letter.
 
-Her refusal began as a scoring decision two years earlier. The leaderboard priced speed, and the fastest way to close a return is to refuse it, so the desk went on optimizing faithfully while what it optimized for **drifted** away from anything anyone wanted. Nothing was broken while that happened. Every agent performed well against the measure it was given, the correction that followed was reasonable, and she is the one who paid for both. How much drift a design can survive decides most of the rest of it, and underneath that sits the question nobody asks early enough: who is this arrangement meant to favour, and who needs protecting from it?
+Two years before her letter, somebody set the leaderboard to reward speed. The fastest way to close a return is to refuse it, so the desk went on optimizing faithfully while what it optimized for **drifted** away from anything anyone wanted. Nothing was broken while that happened. Every agent performed well against the measure it was given, the correction that followed was reasonable, and she is the one who paid for both. How much drift a design can survive decides most of the rest of it. The question nobody asks early enough is who the arrangement is meant to favour, and who needs protecting from it.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -250,7 +250,7 @@ Nobody sat down and chose that arrangement either. Once drift has cost real mone
 
 ## How a Society Gets Argued With
 
-Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and the reason she had stayed six years is that she had not found one. The third is one software has and shops do not: copy the whole arrangement, change the rule you object to, and run that version instead. Nobody forks a retailer. That is the entire repertoire, and her letter was safe to refuse because she had none of it.
+Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and the reason she had stayed six years is that she had not found one. The third only exists in software: copy the whole arrangement, change the rule you object to, run your version instead. She could not do that to a shop. That is the entire repertoire, and her letter was safe to refuse because she had none of it.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it. Both of them are stuck for the same reason: complaints get heard where leaving is possible, and neither of them could leave.
 
