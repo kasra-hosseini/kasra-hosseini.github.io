@@ -197,7 +197,7 @@ That desk went through four recognisable versions of governance inside a year, a
 
 ## What Governance Actually Is
 
-She hit a rule and could not reach the thing that made it, and that gap is what the rest of this post is about: the flag on her account is an **institution**, a standing rule about who may do what, and everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
+She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. The flag on her account was a standing rule about who may do what, which is what an **institution** is, and everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
 
 ## Where Authority Comes From
 
