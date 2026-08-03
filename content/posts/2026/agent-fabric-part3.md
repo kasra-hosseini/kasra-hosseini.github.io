@@ -180,7 +180,7 @@ Take the support desk from [Part 2](/posts/2026/agent-fabric-part2/) and let it 
 
 That bar was never in a spec, it now governs who gets what work, and the team that built the desk would struggle to override it without making service worse. Somewhere in that month a piece of software acquired a policy.
 
-Run that desk a year forward. Forty agents, nine thousand tickets a week, and every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. That is how her letter goes unanswered in any real sense. Not because anyone read it and declined, but because the question it asks, why me, has no addressee.
+Run that desk a year forward and it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
 So that desk now has rules. Here is the part that should bother you: it does not really have authority over them, and neither does the team that built it.
 
@@ -229,7 +229,7 @@ What happened to that leaderboard has a name worth keeping: **drift**, the slow 
 
 Her refund is a good place to see that, because the rule that refused her had to be enforced by something. The retailer's rule says refunds above a threshold need a second agent to check them, and that rule holds because the runtime honours it. Then the cloud provider deprecates the API the checking agent depends on, or reprices it past what the desk can afford. The rule does not get repealed. It stops being enforceable one Tuesday morning, nobody at the retailer voted on that, and the next person in her position gets a different answer for reasons no one at the company chose.
 
-Which means none of these arrangements is quite an institution in the usual sense. They behave like one while the actual enforcing is quietly subcontracted to whoever owns the machines. A market whose discovery layer belongs to one platform is not really a market; it is a shop with the platform's name over the door. So choosing a governance structure without naming who enforces it is half a design, and the half you skipped gets decided by somebody who has never heard of your project.
+Which means none of these arrangements is quite an institution in the usual sense. They behave like one while the actual enforcing is quietly subcontracted to whoever owns the machines. Call a thing a market when one platform decides who is allowed to appear in it, and what you have is that platform's shop with your name on the receipts. So choosing a governance structure without naming who enforces it is half a design, and the half you skipped gets decided by somebody who has never heard of your project.
 
 Appeal is the cheapest of the four and the one most often skipped. Without it every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
