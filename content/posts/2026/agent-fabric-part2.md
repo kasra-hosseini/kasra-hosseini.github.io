@@ -414,7 +414,7 @@ And these arrangements stack, which is where it gets harder to see. You ask your
 
 ## From Architecture to Institution
 
-None of that was really about phones. It needed several agents, a way to hand work between them, and something keeping score, and a company has all three without ever having thought about it. What changes is the cost of being wrong.
+None of that was really about phones. It needed several agents, a way to hand work between them, and something keeping score, and a company running a support desk has all three before anyone has thought about it once. Same structure, more people on the other end of it, and the cost of being wrong stops being a missed message.
 
 A retailer points a router at its incoming tickets: it reads each one as billing, returns, or technical, and hands it to whichever agent handles that kind. Pure delegation so far. But the router logs how long each agent takes, how often customers come back angry, how often a ticket has to be escalated, because those numbers are cheap to collect and obviously useful.
 
@@ -434,7 +434,9 @@ A research team builds a Map-Reduce pipeline: multiple agents search different d
 This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
 </details>
 
-Whether any of this can be undone depends on where the memory sits, and this is the part that decides whether anyone can fix it later. Suppose the third agent on that desk was downranked over a fortnight when its one bad week coincided with a batch of genuinely impossible tickets. Somebody notices six months on. If the preference lives in a routing table, that is a list, and you delete the line. But teams do not leave preferences in tables forever; the usual next step is to train a model on the logs so the decision gets faster and stops needing the lookup. After that there is no line to delete. The judgement is spread through the thing that makes every decision, and the only honest options are to retrain it on a history you have to reconstruct or to replace it. That is the difference between an institution you can reform and one you can only tear down.
+Here is the part that decides whether anyone can fix this later. A preference stored as a list can be deleted. A preference trained into a model cannot, because there is no line to delete.
+
+Say the third agent on that desk was downranked during a fortnight when its one bad week collided with a batch of impossible tickets, and somebody notices six months on. If the router is still consulting a table, you edit the table. But teams do not leave preferences in tables forever; the usual next step is to train a model on the logs so the decision gets faster and stops needing the lookup. After that the judgement is spread through the thing that makes every decision, and your options are to retrain it on a history you would have to reconstruct, or to replace it. That is the difference between an institution you can reform and one you can only tear down.
 
 None of which makes this bad in itself. Your calendar agent probably should win most arguments. A structure that forms around real competence usually serves the people relying on it, and one that drifts somewhere worse does not, and both arrive by exactly the same process.
 

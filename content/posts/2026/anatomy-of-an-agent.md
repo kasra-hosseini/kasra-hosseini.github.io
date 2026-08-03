@@ -25,7 +25,7 @@ That gap does not close by making the model smarter. It closes by building thing
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything outside the model in the middle is scaffolding. None of it makes the model smarter, and all of it is what lets the model act." >}}
 
-Take any one of those away and the whole thing changes character. Without the loop it is a chatbot again. Without tools it can think and never touch anything. Memory is the strangest of the three, because an agent that loses it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
+Take any one of those away and the character changes. Without the loop it is a chatbot again. Without tools it can think and never touch anything. And an agent that loses its memory does not get dumber in any measurable way: it stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
 ## What the Loop Needs
 
