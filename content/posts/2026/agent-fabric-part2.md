@@ -328,7 +328,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
 
-Four agents barely need organizing. At a few dozen, calling each other, something has to sit in front and decide who gets what, and on your phone that something is already there: it reads each request and picks an agent. It gets better at picking by watching which of its choices you let stand. There is no version of it that does not keep score, because to send the easy things somewhere cheap it has to know which things are easy, and the only way it learns that is by remembering how the last few thousand went.
+Four agents barely need organizing. A few dozen, calling each other, need something sitting in front deciding who gets what, and on your phone that something is already there, reading each request and picking an agent. It cannot do that job without keeping score: to send the easy things somewhere cheap it has to know which things are easy, and the only way it learns that is by remembering how the last few thousand went.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
@@ -399,9 +399,7 @@ Six weeks in, an engineer called Priya notices that the third agent has not hand
 
 She leaves it. Not out of cowardice: she has no argument to make, because the routing table is not wrong about anything. It faithfully records what happened, and what happened is that one agent had a bad month in a job where bad months are remembered. She could say that out loud at the next standup and everyone would nod, and the tickets would keep going to the other two. The only thing standing in her way is a spreadsheet that is technically correct.
 
-Nobody at that retailer would call the routing table a rule, and that is exactly what makes it one. A load balancer spreading work by whichever machine is least busy forgets its numbers the moment the job is done. This one does not: six months on it is still routing by a preference it formed in its first month, and it will outlast Priya, the tickets that produced it, and anyone who remembers the month it was formed. That is what an institution actually is, not a layer somebody added on top but the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it.
-
-Notice what separates the two halves of that story, because it is not the four records; those are identical. Handing a ticket to a specialist is a step inside one task. A rule about who gets the hard tickets at all, plus the question of who may change that rule, is a standing constraint on every task there will ever be. The first is delegation. The second is governance, and nobody wrote it.
+Nobody at that retailer would call the routing table a rule, and that is exactly what makes it one. Handing one ticket to a specialist is a step inside a task. A standing preference about who gets the hard tickets at all, plus the question of who may change it, is a constraint on every task there will ever be, and six months on the router is still acting on one it formed in its first month. It will outlast Priya, the tickets that produced it, and anyone who remembers the month it formed. The first thing is delegation. The second is governance, and nobody wrote it.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
