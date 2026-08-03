@@ -193,7 +193,7 @@ So the bet here is that agent systems will fail through bad institutions rather 
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-The bar for calling that a society is lower than it sounds: not several agents working together, but a group that accumulates. A pipeline that forgets everything between runs never gets there. A group that remembers does, and remembering is what governance grows out of. That desk will pass through four recognisable ways of being governed before this post is finished, and nobody at the retailer will decide on any of them.
+The bar for calling that a society is lower than it sounds: not several agents working together, but a group that accumulates. A pipeline that forgets everything between runs never gets there. A group that remembers does, and remembering is what governance grows out of. In one year that desk will pass through four recognisable ways of being governed, an autocracy, a meritocracy, a doctrine, and a constitutional republic, and nobody at the retailer will decide on any of them.
 
 ## What Governance Actually Is
 
@@ -227,13 +227,13 @@ Her case had a second reader, briefly. The retailer's rule says refunds above a 
 
 So the rule that refused her was never really the retailer's. Between pieces of software a rule binds for exactly one reason, that the runtime chose to honour it, which means the enforcing was subcontracted to whoever owns the machines before anyone wrote it down.
 
-Follow authority upward in any agent system and it does not stop where the architecture diagram stops. A federation of a dozen companies running on one provider's infrastructure is a federation right up until that provider changes its pricing, at which point everyone discovers the constitution was a pricing page all along.
+Which is why a federation of a dozen companies running on one provider's infrastructure is a federation right up until that provider changes its pricing, at which point everyone discovers the constitution was a pricing page all along.
 
 Everyone who has delegated a chore knows the underlying problem: ask someone to tidy a room and they will optimise for the room looking tidy, which is not the same as knowing where anything is. Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the tidiest room available. What makes that fixable rather than tragic is that somebody owns the conditions: you cannot redesign a pheromone, but you can redesign a reputation score, on a Tuesday, in a config file.
 
 Appeal is the cheapest of the four and the one most often skipped. Without it every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-Which arrangement a team ends up with is mostly decided for them, and drift that has already cost money pushes hard toward fixed rules whether anyone wanted the overhead or not. That is how the desk got its risk score, and how it lost the ability to hear that the score was wrong about her. Executing fast, bounding what may be done, watching for drift, and being able to send a decision back are four separate jobs. The desk had collapsed them into one number.
+Which arrangement a team ends up with is mostly decided for them, and drift that has already cost money pushes hard toward fixed rules whether anyone wanted the overhead or not. That is how the desk got its risk score, and how it lost the ability to hear that the score was wrong about her. But going fast, staying inside limits, noticing drift, and being able to reverse a decision are four different jobs, and the desk was doing all four with one number.
 
 ## Adversarial Dynamics
 
@@ -256,7 +256,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-Which is why the useful question is not how secure a system is but which arrangement it settled into, since that decides where the gaps are. Capture the router while the desk is still an autocracy and you own every ticket. Once it runs on fixed rules the individual agents stop being worth attacking and whoever writes the rules becomes the whole target, which is the desk she wrote to.
+Which is why the useful question is not how secure a system is but which arrangement it settled into, because that decides what is worth attacking. When one router decides everything, take the router and you have everything. When fixed rules decide, the agents stop being worth the trouble and whoever writes the rules is the only target left. That was the desk she wrote to.
 
 ## How a Society Gets Argued With
 
