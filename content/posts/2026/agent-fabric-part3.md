@@ -178,11 +178,11 @@ A woman writes to a shop she has used for six years to ask why her refund was re
 
 That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), where a router learned within a month to send the hard billing disputes to two particular agents and nothing important to a third. Nobody wrote that rule, nobody could override it without making service worse, and by the time she wrote in it had been running for a year.
 
-That desk went through four recognisable versions of governance inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen. First one agent decided, then a scoreboard decided, then a fixed rule decided, and finally, after enough complaints, something existed that could overrule the rule.
+That desk changed how it governed itself four times inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen.
 
 By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
-Nothing any agent told her was untrue. That is the whole point: the failure was not in any answer, it was in the arrangement that produced them, which is where these systems will fail long before they start lying. That is a bet rather than a measurement, and it changes the question from whether you get governance to which kind you get.
+Nothing any agent told her was untrue. That is the whole point: the failure was not in any answer, it was in the arrangement that produced them, which is where these systems will fail long before they start lying. Which means the question was never whether this desk would end up with rules. It was which rules, decided by whom.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
@@ -197,11 +197,11 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 ## What Governance Actually Is
 
-She hit a rule and could not reach whoever decides what the rules are. That is what the rest of this post is about: not the agents, but the rules they inherit and who gets to change them. The desk did not start out capable of either.
+She hit a rule and could not reach whoever decides what the rules are. The desk did not start out capable of either.
 
 ## Where Authority Comes From
 
-One desk, one year, four different answers to the same letter, and nobody chose a single one of the transitions. She was not the first person to write in about a refund, and the desk that answered her was the third version the retailer had run. Not four options anyone weighed up: four things the same desk turned into, in order. Follow her letter into each of them.
+She was not the first person to write in about a refund, and the desk that answered her was the third version the retailer had run. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Follow her letter into each of them.
 
 **Day one.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. Most systems start here, because one router is the simplest thing that works, and the price is that when it is wrong there is nothing else in the room.
 
@@ -256,7 +256,7 @@ The downranked agent has no more recourse than she does, and for the same reason
 
 ## What This Framework Is For
 
-Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. Naming these arrangements is not about picking one. It is so that somebody in that week has a sentence to say out loud.
+Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. What was missing that week was not a policy. It was a sentence somebody could say out loud.
 
 This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Where a system settles says a great deal about what its builders were afraid of.
 

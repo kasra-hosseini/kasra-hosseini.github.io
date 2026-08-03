@@ -381,7 +381,7 @@ Priya wrote the layer that decides which agent gets what, so anything it does wr
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-What she reconstructs is a year of small, sensible steps. Somebody writes in because a delivery never arrived, and a router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
+Every step she finds is a sensible one. Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
 
@@ -411,9 +411,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Somebody designed the split, the logging, and the routing rule. Nobody designed the authority that came out of them, and that is the part that decided which agent got her hard tickets and which customer got told no.
 
-Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time, and being right was worth nothing.
-
-She did not lack skill, evidence, or good intentions. She lacked somewhere to take them. You can review a design; nobody schedules a review for a side effect, and once a side effect is deciding things, the question stops being how to build better agents. It becomes who gets to change the rules they run under.
+Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She never lacked skill or evidence. She lacked somewhere to take them, which is a question about the desk and not about her, and it is the question Part 3 is about. She was right the whole time, and being right was worth nothing.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
