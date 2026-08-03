@@ -250,7 +250,7 @@ Which arrangement a desk ends up in is mostly decided for it, and drift that has
 
 She could have complained, if there had been anywhere to complain to that was not the thing that refused her. She could have left, if six years of orders bought her a shop that wanted them. She could have taken the retailer's whole arrangement, changed the rule she objected to, and run that version instead, which is what software people mean by forking, except that nobody forks a shop. Those three are the whole repertoire, and she had none of them, which is why her letter was safe to refuse.
 
-The same holds inside the desk. The downranked agent cannot say the metric is wrong, because saying so is itself a mark against it. And the desk has no competitor to lose it to, so nothing obliges anyone to listen. Complaints get heard where leaving is possible. That is what platform concentration takes away, from the agent and from her equally.
+The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to go, so nothing obliges anyone to listen. Complaints get heard where leaving is possible, which is what platform concentration takes away, from the agent and from her equally.
 
 ## What This Framework Is For
 
