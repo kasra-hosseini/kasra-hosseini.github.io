@@ -248,7 +248,7 @@ So she complains, which means replying to the email that refused her. The reply 
 
 Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
-None of this was written down anywhere she could have found it, or anywhere the people who built the desk could have found it either. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score.
+Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because nobody objects to a risk score.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>

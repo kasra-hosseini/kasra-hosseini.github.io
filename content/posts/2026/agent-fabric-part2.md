@@ -417,7 +417,7 @@ Nobody gave that table authority over which agent had a career. It got that by b
 
 She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. She could have added it in an afternoon on any day before it mattered, and it never occurred to her, because while you are building it a log looks like a table.
 
-Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
+Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right. Somebody needed it the day that customer was told no, and by then the question was not whether the table was accurate. It was who could have told it otherwise.
 
 She was right the whole time, and being right was worth nothing.
 
