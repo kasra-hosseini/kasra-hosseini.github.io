@@ -381,7 +381,7 @@ Priya wrote the layer that decides which agent gets what, so anything it does wr
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one. A year ago the router read each message and sent it to whoever handled that kind of problem. Then somebody added logging, and the router started consulting it: hard billing disputes to whichever agents closed them fastest, and nothing important to the third. Nobody reprogrammed it. The votes here are resolution times, and the third agent has been losing them since March.
+Every step she finds is a sensible one. Somebody added logging a year ago, and the router started reading it, sending the hard tickets to whoever closed them fastest. Nobody reprogrammed anything. The third agent had one slow month in March and has not been asked since.
 
 
 
@@ -409,7 +409,9 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She never lacked skill or evidence. She lacked somewhere to take them, which is a question about the desk and not about her, and it is the question Part 3 is about. She was right the whole time, and being right was worth nothing.
+Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Nobody gave the routing table authority over which agent had a career. It got that by being the only thing anyone wrote down, and she cannot argue with it because there is no argument to have: the table is accurate, and being accurate is all it was ever asked to be.
+
+She never lacked skill or evidence. She lacked anywhere to take them. She was right the whole time, and being right was worth nothing.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
