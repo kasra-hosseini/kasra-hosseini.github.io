@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Somewhere in a company you have written to this year, a piece of software is deciding who reads your complaint, and nobody there chose the rule it is following. Start with the smallest version of that, the one already sitting in your pocket. Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
+An engineer called Priya is going to spend an afternoon looking for a rule that does not exist, and by the end of it she will have made things worse for the agent she was trying to help. That story needs a smaller one first, the version already sitting in your pocket. Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
 
 
 
@@ -382,7 +382,7 @@ The desk did three things, each obviously correct: it split the work among agent
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
-Now watch that same mechanism run where the record is about somebody else. There is one person at that company who would notice, and it is not a manager. Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
+Now watch that same mechanism run where the record is about somebody else. Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
 She goes looking for the rule that did it. There is nothing in the settings, nothing in the policy docs, and nothing in anyone's memory, only a pattern that has been running long enough to look like a rule.
 
