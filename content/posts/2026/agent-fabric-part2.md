@@ -373,7 +373,7 @@ An assistant on your phone stops offering you things, because you dismissed it a
 <p style="color: #555;"><a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener" class="red-link">MCP</a> standardizes how AI systems connect to tools and data sources; <a href="https://a2a-protocol.org/" target="_blank" rel="noopener" class="red-link">A2A</a> points toward agent-to-agent interoperability. Neither, by itself, solves the whole problem of an open specialist market. The <a href="https://arxiv.org/abs/2410.11905" target="_blank" rel="noopener" class="red-link">Agora protocol</a> (not to be confused with the Agora governance archetype in [Part 3](/posts/2026/agent-fabric-part3/)) frames this as an Agent Communication Trilemma: versatility, efficiency, and portability pull against one another. The likely future is not one universal protocol, but a stack: tool access, agent identity, delegation, settlement, provenance, and audit. A comprehensive <a href="https://arxiv.org/abs/2504.16736" target="_blank" rel="noopener" class="red-link">survey of agent protocols</a> maps the current landscape.</p>
 </details>
 
-On a phone that costs you a suggestion you might have wanted. Give one agent in a company the job of deciding which of the others handles what, let it consult a record of who did well last time, and the cost lands on somebody else. Nobody building that on a Tuesday feels like they are building an institution. It feels like adding logging.
+On a phone that costs you a suggestion you might have wanted. Give one agent in a company the job of deciding which of the others handles what, let it consult a record of who did well last time, and the cost lands on somebody else. Nobody building that on a Tuesday feels like they are building an institution. It feels like adding logging. The difference is that on a phone the loser is a suggestion, and at a company the loser has a job.
 
 Priya built the thing that decides which agent gets which ticket, which means anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
@@ -415,7 +415,7 @@ Priya still works there. The routing table is still accurate, the third agent is
 
 Nobody gave that table authority over which agent had a career. It got that by being the only thing anyone wrote down, and once it had that authority there was no procedure for taking it back, because nobody had noticed handing it over.
 
-She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. She could have added it in an afternoon on any day before it mattered, and it never occurred to her, because while you are building it a log looks like a table.
+She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. She could have added it in an afternoon, on any of the days before it mattered. It never occurred to her, because while you are building it a log looks like a table.
 
 Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right. Somebody needed it the day that customer was told no, and by then the question was not whether the table was accurate. It was who could have told it otherwise.
 
