@@ -375,13 +375,13 @@ Think of an assistant on your phone that has stopped offering you things. Not be
 
 ## From Architecture to Institution
 
-On a phone the worst this costs is a suggestion you might have wanted. Change one thing, though, and it costs somebody their work: keep the same scorekeeping, but point it at agents doing a job, in a company, where the one being quietly stopped from working is not you and has no dismissals to register. Somebody builds that on a Tuesday. It does not feel like building an institution. It feels like adding logging.
+On a phone the worst this costs is a suggestion you might have wanted. Point the same scorekeeping at agents doing a job in a company, and it costs somebody their work. Somebody builds that on a Tuesday, and it does not feel like building an institution. It feels like adding logging.
 
 Priya wrote the router: the piece of code that reads each incoming ticket and picks which agent handles it. Anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one, and she can date all of them. Logging went in a year ago. The router started reading it. Hard tickets went to whoever closed them fastest. The third agent had a bad March, dropped to the bottom of the table, and has not been asked since.
+Every step she finds is a sensible one, and she can date all of them. The third agent had a bad March, dropped to the bottom of a table nobody was watching, and has not been asked a hard question since.
 
 
 
