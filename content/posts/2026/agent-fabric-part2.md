@@ -393,7 +393,7 @@ There is nothing to delete, and nowhere to write down the one thing that would e
 
 ## What the Record Costs
 
-By October that agent is retired for underperformance, which leaves two. In November one of the survivors tells a customer her fragile-item return does not qualify, and it is wrong, and there is nothing left to check it against. The one agent that might have answered differently was retired for never being given the chance.
+By October that agent is retired for underperformance, which leaves two that have always agreed with each other, because they were the two the router kept choosing. In November one of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against: the one agent that might have answered differently was retired for never being given the chance.
 
 Priya is in that meeting, and she knows exactly what happened. She could say the comparison was destroyed a year ago by a routing preference nobody chose, that she watched it happen in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her.
 
@@ -417,7 +417,7 @@ She knows what it would have taken, and it is cheap enough to be insulting. A se
 
 She was right the whole time, and being right was worth nothing.
 
-Neither column would have made the desk fairer. They would have made it arguable, which is what she actually needed: a record somebody can contradict, and somebody who has to answer when they do. Nobody puts that on a roadmap, because until the day it matters, a table nobody can argue with looks exactly like a table that is right.
+Neither column would have made the desk fairer. They would have made it arguable, which is what she actually needed. In that meeting she would have had a column to point at and a rule to cite, and somebody would have had to say either that the rule was wrong or that they were overriding it. Nobody puts that on a roadmap, because until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">

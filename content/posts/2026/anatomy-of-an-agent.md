@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Every part of that apparatus was chosen by somebody, and getting it wrong usually shows: give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. One of those choices gives you nothing to notice, ever, no matter how wrong it goes.
+Getting those choices wrong usually shows: give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. One of them gives you nothing to notice, ever, no matter how wrong it goes.
 
 Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
@@ -55,7 +55,9 @@ All of it comes back to one fact: the agent that made the mistake is the agent g
 
 ## Beyond the Single Loop
 
-There are only two ways out of this, and one of them is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job: one writes, a second writes tests without seeing the first one's reasoning, and a third tries to break the result. None is more capable than the original, and that is the point. The second agent, handed only the failing test and no theory about it, does the obvious thing nobody had done in six hours: runs it twice, in two timezones, and watches it pass once. That is the whole fix. It was available the entire time, and the first agent could not see it, because by hour two it was no longer looking for the bug. It was looking for more evidence about the date handling.
+There are only two ways out of this, and one of them is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job: one writes, a second writes tests without seeing the first one's reasoning, and a third tries to break the result. None is more capable than the original, and that is the point. The second agent, handed only the failing test and no theory about it, does the obvious thing nobody had done in six hours. It runs the test twice, in two timezones, and watches it pass once.
+
+That is the whole fix. It was available the entire time, and the first agent could not see it, because by hour two it was no longer looking for the bug. It was looking for more evidence about the date handling.
 
 Nobody on that team decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The third one never had to be clever either. It only had to be the one whose job was breaking things, on a test it had no reason to defend.
 
