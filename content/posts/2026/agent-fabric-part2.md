@@ -332,7 +332,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
 
-Four agents barely need organizing. The question gets interesting at a few dozen, calling each other, because then something has to decide who gets what, and there are only a handful of shapes that decision can take. Split a job into parts and merge the answers, which is what happens when you ask for a summary of forty papers. Or put one agent in front to read each request and hand it to whoever handles that kind. The first shape is about speed. The second is about who decides, and the moment any record of past results exists, that record decides, because it is cheaper than asking and more accurate than trusting.
+Four agents barely need organizing. At a few dozen, calling each other, something has to sit in front and decide who gets what, and on your phone that something is already there: it reads each request and picks an agent. It gets better at picking by watching which of its choices you let stand. There is no version of it that does not keep score, because to send the easy things somewhere cheap it has to know which things are easy, and the only way it learns that is by remembering how the last few thousand went.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
@@ -393,7 +393,7 @@ Four agents barely need organizing. The question gets interesting at a few dozen
 
 ## From Architecture to Institution
 
-Everything so far happened on a phone, where the stakes are forgiving. The system is yours, the worst it costs is a missed message, and you could throw the whole thing away and start again. Keep the mechanism exactly as it is and change only two things, that somebody else pays for the mistakes and that you cannot start again, and the same accumulating record stops being an inconvenience and becomes an institution. That is the entire difference between the story you have just read and the one that follows.
+On a phone that record is an inconvenience. You lose an argument with your own calendar and miss a message you wanted. Move the identical mechanism, an agent in front picking who handles what and learning from how it went, into a company where the person on the other end is a stranger and cannot see any of it, and the same record stops being an inconvenience.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
 
@@ -421,7 +421,7 @@ What decides which one you got is not its origin but whether anyone can push bac
 
 ---
 
-Delegating costs you twice. The first cost is obvious and you can measure it: every hop burns compute and time, and every hop is another chance for what you asked for to drift from what gets done, which is why nobody builds twenty layers deep when three will do.
+Delegating costs you twice, and only one of the bills is itemised. Every hop burns compute and time, and every hop is another chance for what you asked for to drift from what gets done, which is why nobody builds twenty layers deep when three will do.
 
 The second cost is authority, and it is easiest to see in what the router will not do. Ask it to send a hard billing dispute to the third agent and it will comply, once, and then go back to the two it trusts, because nothing you said changed the record and the record is what it consults. Nobody granted it that power. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork: preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it.
 
