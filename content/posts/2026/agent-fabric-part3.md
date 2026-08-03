@@ -201,7 +201,7 @@ What she eventually got was four polite sentences and no way to reply to them, a
 
 **The first desk, day one.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. One router is the simplest thing that works, which is why the desk started here, and the price is that on the day it is wrong about her there is nothing else in the room.
 
-**The second desk, a month in.** Somebody turns on logging, and the same letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, and her letter goes to the one at four. The reply still reads like a decision, and it might even be the same decision, but it came from whichever agent was winning that week rather than the one that knows what a return pattern looks like. 
+**The second desk, a month in.** Somebody turns on logging, and now her letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, and her letter goes to the one at four. The reply still reads like a decision, and it came from whichever agent was winning that week. 
 
 Nobody told any agent to refuse returns. The leaderboard rewarded speed, the fastest way to close a return is to refuse it, and what the desk was optimizing for **drifted** away from what the desk was for.
 
@@ -236,7 +236,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-There was supposed to be a check on exactly this. The written rule said refunds above her amount get read by a second agent, and the retailer did not have a second agent, so it rented one from another company.
+There was supposed to be a check on exactly this: the written rule said refunds above her amount get read by a second agent, which the retailer rented from another company.
 
 That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying, because the thing enforcing it was never the retailer's. Her letter arrived on the Thursday and got one reader, and the rule that would have caught her case had lasted exactly as long as somebody else's machines kept enforcing it.
 
@@ -244,9 +244,9 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## What She Can Do About It
 
-She does the two things anyone can do. She complains, which means replying to the email that refused her. What reads her second letter is what wrote the first one, and it has already decided what her return history means. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
+She does the two things anyone can do. First she complains, which means replying to the email that refused her, and what reads her second letter is what wrote the first one. It has already decided what her return history means. An appeal heard by the party you are appealing against is not an appeal.
 
-Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
+Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
 The downranked agent has the same two and neither works for it either. Every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse, and there is no second shop for a support agent. Neither of them can go anywhere, so neither of them gets heard.
 
