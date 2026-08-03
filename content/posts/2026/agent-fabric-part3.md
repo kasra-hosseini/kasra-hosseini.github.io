@@ -205,7 +205,7 @@ Her refusal started long before she wrote in. Somebody set the leaderboard to re
 
 **A month in.** Somebody turns on logging, and the same letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, and her letter goes to the one at four. The reply still reads like a decision, and it might even be the same decision, but it came from whichever agent was winning that week rather than the one that knows what a return pattern looks like. 
 
-The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, which is harsher than punishment because there is no term to it and nobody to appeal to. So whoever wrote the metric now has more say over its working life than the team that deployed it. This is where most systems are today, and the price is that the numbers decide who is competent before anyone has checked whether the numbers measure competence.
+The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, which is harsher than punishment because there is no term to it and nobody to appeal to. It is the agent that would have read her letter properly, and by the time she writes in it has not been asked a hard question in months. Whoever wrote the metric now has more say over its working life than the team that deployed it. This is where most systems are today, and the price is that the numbers decide who is competent before anyone has checked whether the numbers measure competence.
 
 **Half a year in**, which is where her letter actually landed, and it did not reach an agent's judgement at all. Finance had seen the refund line. The retailer stopped trusting the leaderboard with anything that costs money and wrote fixed rules instead: refunds above a threshold need a second check, certain return histories get flagged no matter what any agent thinks. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. This is the desk anyone who has argued with a bank about a flagged transaction has already met: rules first, judgement second, rule over judgement, which from her side feels like talking to a wall: every reply correct, none of them about her.
 
@@ -240,7 +240,7 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 Her case was supposed to have a second reader. Refunds above a threshold need a second agent to check them, and for a while every refund got one. The second agent was not the retailer's; it was a service they paid for, reached through an interface owned by somebody else.
 
-On the Tuesday morning, the provider retired that interface. Nobody at the retailer voted to drop the second check. Nobody noticed the rule had become unenforceable. The rule was never repealed, it simply stopped applying, because the thing that made it apply belonged to a company with its own release schedule.
+On the Tuesday morning, the provider retired that interface. Nobody at the retailer voted to drop the second check on her refund or on anybody else's. Nobody noticed the rule had become unenforceable. It was never repealed, it simply stopped applying, because the thing that made it apply belonged to a company with its own release schedule.
 
 Her letter arrived on the Thursday and got one reader.
 
@@ -258,7 +258,7 @@ The third exit exists only on paper: run your own version of the shop, with the 
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. Complaints get heard where leaving is possible, which is the part nobody designs for, because it is the part nobody notices they removed.
 
-The rule that refused her did not have to live nowhere. It could have sat where the system actually looks, with a line beside it naming who may change it and what happens when somebody disputes it. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
+The rule that refused her did not have to live nowhere. It could have sat in the same file the system reads, with two lines under it: who may change this, and what happens when somebody says it is wrong. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
@@ -282,7 +282,7 @@ Somebody owes her an explanation. The obvious place to look is the model that sc
 
 A person can be found years later. A company can be sued a decade on. The thing that refused her existed for six weeks and is gone: not deleted, not overturned, just superseded by the next version of the desk.
 
-So there is nothing left that made her decision. That is not a records problem. It is the reason nobody can unmake it, and the reason an apology would have nowhere to come from even if somebody wanted to give her one.
+So there is nothing left that made her decision. Not a missing record: a missing thing. That is why nobody can unmake it, and why an apology would have nowhere to come from even if somebody wanted to give her one.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
