@@ -35,13 +35,9 @@ The rest of the scaffolding keeps the loop pointed somewhere. A prompt is how a 
 
 The loop is just this: the agent looks at the situation, decides what to do, does it, looks again. What makes that powerful is not the shape but what the shape does to time, because the agent's own output becomes its input next time round. When the coding agent runs the tests, the failures it reads are the ones its own last edit produced. It is not solving a problem so much as negotiating with a situation it keeps changing, and that feedback is the whole trick, however many ways it has been <a href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">dressed up</a> since.
 
-## When the Loop Improves Itself
-
-Some agents keep notes on their own failures. One that wasted forty minutes on a test that was failing because the database was not running writes down that lesson, reads it next time, and does not waste the forty minutes again. Do that across fifty tasks and it is working from a file of hard-won rules; keep going and the ones that keep working stop being notes and become <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">tools it can call by name</a>. This is the difference between turning the loop and getting better at something.
-
-And it is where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
-
 ## Where Single-Agent Recursion Breaks
+
+Some agents keep notes on their own failures. One that wasted forty minutes on a test that was failing because the database was not running writes down that lesson, reads it next time, and does not waste the forty minutes again. Do that across fifty tasks and it is working from a file of hard-won rules; keep going and the ones that keep working stop being notes and become <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">tools it can call by name</a>. That is the difference between turning the loop and getting better at something, and it is also where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
 
 It begins with arithmetic, and the arithmetic is brutal. Give an agent a task with twenty steps and let it be right ninety-five percent of the time at each one, which sounds good. It finishes the whole task correctly about a third of the time. Worse, mistakes are not independent: a wrong turn at step four narrows what step five can even attempt. Which is why agents still fall short of people on <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">realistic computer and web tasks</a>, and why the <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">gap widens as the tasks get longer</a>.
 
