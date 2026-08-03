@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,850 words (body) · reference sections extend it"
+wordcount: "~2,700 words (body) · reference sections extend it"
 ---
 
 <style>
@@ -233,7 +233,7 @@ The desk did not choose fixed rules either. Drift that has already cost money pu
 
 ## Adversarial Dynamics
 
-Nothing attacked her, and the failures that need an attacker turn out to be the least interesting ones anyway. Three vendors paid per closed ticket will each notice, separately, that a hard ticket marked resolved comes back as a second ticket, and copying a number that is going up requires no coordination at all. Six weeks later the desk's figures have never looked better and its customers have never been angrier. Take even that away and her case still happens, because the score that flagged her was tuned on the desk's own history, which already held the drift it was built to correct. Her six years of orders went in as evidence and her returns came out as risk.
+Nothing attacked her, and the failures that need an attacker turn out to be the least interesting ones anyway. Say three vendors each supply agents and each gets paid per ticket closed. One of them finds that a hard ticket marked resolved comes back as a second ticket. It never tells the others, and it does not need to: they are all watching the same scoreboard, and a number going up is easy to copy. Six weeks later the desk's figures have never looked better and its customers have never been angrier. Take even that away and her case still happens, because the score that flagged her was tuned on the desk's own history, which already held the drift it was built to correct.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -252,15 +252,13 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-Which is why the useful question is not how secure a system is but which arrangement it settled into, because that decides what is worth attacking. When one router decides everything, take the router and you have everything. When fixed rules decide, the agents stop being worth the trouble and whoever writes the rules is the only target left. That was the desk she wrote to.
+Which is why the useful question is not how secure a system is but which arrangement it settled into, because that decides what is worth attacking. Take the router while one router still decides everything and you have every ticket. Once fixed rules decide, whoever writes the rules is the only target left, and that was the desk she wrote to.
 
 ## How a Society Gets Argued With
 
-All of which is why a society needs ways to be argued with, and there are only really three. You can complain, you can leave, or you can take a copy and start your own. The woman with the refused refund had none of them: no way to reach the rule, nowhere else to take six years of custom, and obviously no way to fork a retailer. The first two are how people have always responded when an institution decays. The third is software's own invention, and it replaces what used to be the third option, loyalty, because software ecosystems have very little of that bond to begin with.
+All of which is why a society needs ways to be argued with, and there are only three: complain, leave, or take a copy and start your own. She had none of them, and no way to fork a retailer.
 
-The cheapest is voice, and it is the one teams forget to build. On the desk it would mean an agent that has been quietly downranked can say so, flag that the metric looks wrong, or ask a human to look, without being penalised for the trouble. It would also mean her letter reaching something other than the rule that generated the refusal. Nobody built either, which is why the refund drift ran for months. Take voice away and failures pile up in silence until something breaks at once, the same reason an organization where nobody reports bad news is always last to learn it is failing.
-
-But voice only works if somebody has a reason to listen, and that reason is exit. Not leaving, which costs the leaver whatever standing it had built, but being able to: an orchestrator that can lose good agents to a competitor listens to complaints, and one that cannot does not have to. She had six years of custom and nowhere else to take it, which is why her letter was safe to refuse.
+The cheapest is voice, and it is the one teams forget to build. On the desk it would mean an agent that has been quietly downranked can say so, or ask a human to look, without being penalised for the trouble, and it would mean her letter reaching something other than the rule that refused it. Nobody built either, which is why the drift ran for months. But voice only works if somebody has a reason to listen, and that reason is exit: an orchestrator that can lose good agents to a competitor listens to complaints, and one that cannot does not have to. She had six years of custom and nowhere else to take it, which is why her letter was safe to refuse.
 
 ## What This Framework Is For
 
