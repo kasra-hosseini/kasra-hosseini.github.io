@@ -180,7 +180,7 @@ That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), 
 
 Run it a year forward and it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
-So the bet here is that agent systems will fail through bad institutions rather than wrong answers. Nothing any agent told her was untrue. That is a bet rather than a measurement, with decades of evidence about interacting agents behind it and no demonstration at scale in front of it, and it changes the question from whether you get governance to which kind you get.
+So the bet here is that agent systems will fail through bad institutions rather than wrong answers. Nothing any agent told her was untrue. That is a bet, not a measurement. Decades of evidence about interacting agents sit behind it and nothing at this scale sits in front of it, and taking it changes the question from whether you get governance to which kind.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
@@ -244,7 +244,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nobody built her a way to dispute it, which is the cheapest thing a desk can have and the first thing left out. Without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-No desk chooses this either. Once drift has cost real money, fixed rules are what get bought, and this desk bought one score to do everything: how fast it ran, what it could approve, whether anything could be sent back. That same score refused her.
+Once drift has cost real money, fixed rules are what get bought, and this desk bought one score to do everything: how fast it ran, what it could approve, whether anything could be sent back. That same score refused her.
 
 ## How a Society Gets Argued With
 
