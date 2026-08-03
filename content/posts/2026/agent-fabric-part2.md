@@ -407,6 +407,7 @@ You could call that good optimization rather than authority. The difference is m
 
 Six months on, that router is still routing by a preference it formed in its first month, and nobody at the retailer would describe it as a rule. It outlived the tickets that produced it and it will still be there tomorrow. Which is what an institution actually is: not a layer somebody added on top, but the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it. Mostly this has not arrived yet, since production systems still forget everything between sessions, but long-term memory and evaluation logs and routing analytics are all on their way.
 
+<details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
 
 A research team builds a Map-Reduce pipeline: multiple agents search different databases, extract claims, and a synthesis agent merges findings into a report. Delegation is explicit: fan out, gather, merge. Over time the synthesis agent notices that one search agent consistently surfaces papers that survive critical review, while another frequently returns retracted or low-impact sources. The synthesis agent begins weighting contributions differently. It gives higher confidence to claims sourced by the reliable agent and flags claims from the unreliable one for manual verification.
