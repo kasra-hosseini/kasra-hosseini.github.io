@@ -1,11 +1,11 @@
 ---
-title: "The Agent Fabric (Part 2): Delegation, and What It Costs"
-subtitle: "How work gets split among agents, and how splitting it quietly creates authority nobody granted"
+title: "The Agent Fabric (Part 2): The Rule Nobody Wrote"
+subtitle: "How splitting work among agents hands authority to a record nobody meant to write"
 date: 2026-07-31
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "governance", "the loom hypothesis"]
-description: "How splitting work among agents quietly creates authority nobody granted: the four records that turn delegation into governance, and why the cheapest engineering decisions are the ones that build an institution."
+description: "An engineer builds a router that picks which agent handles which ticket, and a log nobody designed as a decision starts ending careers. How delegation hands authority to a record, and why the cheapest engineering choices are the ones that build an institution."
 draft: false
 math: false
 ShowToc: true
@@ -373,7 +373,7 @@ Think of an assistant on your phone that has stopped offering you things, becaus
 <p style="color: #555;"><a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener" class="red-link">MCP</a> standardizes how AI systems connect to tools and data sources; <a href="https://a2a-protocol.org/" target="_blank" rel="noopener" class="red-link">A2A</a> points toward agent-to-agent interoperability. Neither, by itself, solves the whole problem of an open specialist market. The <a href="https://arxiv.org/abs/2410.11905" target="_blank" rel="noopener" class="red-link">Agora protocol</a> (not to be confused with the Agora governance archetype in [Part 3](/posts/2026/agent-fabric-part3/)) frames this as an Agent Communication Trilemma: versatility, efficiency, and portability pull against one another. The likely future is not one universal protocol, but a stack: tool access, agent identity, delegation, settlement, provenance, and audit. A comprehensive <a href="https://arxiv.org/abs/2504.16736" target="_blank" rel="noopener" class="red-link">survey of agent protocols</a> maps the current landscape.</p>
 </details>
 
-On a phone that costs you a suggestion you might have wanted. Put several agents in a company, give one of them the job of deciding which of the others handles what, and let it consult a record of who did well last time. Nobody building that on a Tuesday feels like they are building an institution. It feels like adding logging. Here is one, from the desk of the engineer who built it.
+On a phone that costs you a suggestion you might have wanted. Put several agents in a company, give one of them the job of deciding which of the others handles what, and let it consult a record of who did well last time. Nobody building that on a Tuesday feels like they are building an institution. It feels like adding logging.
 
 Priya built the thing that decides which agent gets which ticket, which means anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
@@ -427,7 +427,7 @@ She was right the whole time, and being right was worth nothing.
 
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
-- **Part 2: Delegation, and What It Costs** (you are here): how work gets split among agents, and how splitting it quietly creates authority nobody granted
+- **Part 2: The Rule Nobody Wrote** (you are here): how splitting work among agents hands authority to a record nobody meant to write
 - **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, who enforces the rules, and how a society gets argued with
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
