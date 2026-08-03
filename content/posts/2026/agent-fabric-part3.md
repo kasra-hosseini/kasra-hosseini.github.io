@@ -248,7 +248,7 @@ The desk did not choose fixed rules either. Drift that has already cost money pu
 
 All of which is why a society needs ways to be argued with, and there are only three: complain, leave, or take a copy and start your own. She had none of them, and no way to fork a retailer.
 
-The cheapest is voice, and it is the one teams forget to build. On the desk it would mean an agent that has been quietly downranked can say so, or ask a human to look, without being penalised for the trouble, and it would mean her letter reaching something other than the rule that refused it. Nobody built either, which is why the drift ran for months. But voice only works if somebody has a reason to listen, and that reason is exit: an orchestrator that can lose good agents to a competitor listens to complaints, and one that cannot does not have to. She had six years of custom and nowhere else to take it, which is why her letter was safe to refuse.
+The cheapest is voice, and it is the one teams forget to build. For her it would have been a reply that named the rule, said which threshold she crossed, and gave her somewhere to write back that was not the thing that refused her. For the downranked agent it would mean being able to flag that the metric looks wrong without the flag counting against it. Neither existed, which is why the drift ran for months and why her letter came back closed. But voice only works if somebody has a reason to listen, and that reason is exit: an orchestrator that can lose good agents to a competitor listens to complaints, and one that cannot does not have to. She had six years of custom and nowhere else to take it, which is why her letter was safe to refuse.
 
 ## What This Framework Is For
 

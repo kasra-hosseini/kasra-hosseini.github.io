@@ -395,13 +395,13 @@ A research team builds a Map-Reduce pipeline: multiple agents search different d
 This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
 </details>
 
-You have done the same thing on a smaller scale: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too. Priya at least had a table to look at, and that is temporary, because training a model on the logs makes the routing faster and removes the lookup, and then the preference is spread through the thing that makes every decision with no line left to delete. She walked away from a spreadsheet. A year later there would be no spreadsheet to walk away from.
+You have done the same thing on a smaller scale: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too. Priya at least had a table to look at. That will not last. Nobody keeps routing rules in a table forever, because a model trained on the logs decides faster and skips the lookup entirely. After that there is no line to delete. She walked away from a spreadsheet; a year later there would be no spreadsheet to walk away from.
 
 Every system here logs who did the work, how it went, and what it cost. None of them logs who said it could.
 
 ---
 
-Nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging. Priya lost that argument to a spreadsheet. On your phone there was never an argument at all: nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud.
+Nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging. Priya lost that argument to a spreadsheet. On your phone there was never an argument at all: nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud. Nobody held an election. Nobody had to.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
