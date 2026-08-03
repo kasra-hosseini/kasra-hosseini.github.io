@@ -178,7 +178,9 @@ A woman writes to a shop she has used for six years to ask why her refund was re
 
 That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), where a router learned within a month to send the hard billing disputes to two particular agents and nothing important to a third, and nobody wrote that rule or could override it without making service worse.
 
-Run it a year forward and it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
+That desk went through four recognisable versions of governance inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen. First one agent decided, then a scoreboard decided, then a fixed rule decided, and finally, after enough complaints, something existed that could overrule the rule.
+
+By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
 Nothing any agent told her was untrue. That is the whole point: the failure was not in any answer, it was in the arrangement that produced them, which is where these systems will fail long before they start lying. Nobody has run the experiment at this scale, so take that as a bet rather than a measurement, but it is the bet the rest of this post is built on, and it changes the question from whether you get governance to which kind.
 
@@ -192,8 +194,6 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
-
-That desk went through four recognisable versions of governance inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen. First one agent decided, then a scoreboard decided, then a fixed rule decided, and finally, after enough complaints, something existed that could overrule the rule.
 
 ## What Governance Actually Is
 
@@ -250,7 +250,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 The flag on her account was one judgement, made once, by something scoring return rates. Every decision after it treated that judgement as settled fact, and because a dispute route is the cheapest thing a desk can have and the first thing left out, nobody ever looked at it twice.
 
-Nobody sat down and chose that arrangement either. Once drift has cost real money, fixed rules are what get bought, and this desk bought a single score to carry all of it: speed, approval limits, whether anything could be sent back. That same score refused her.
+Once drift has cost real money, fixed rules are what get bought, and this desk bought a single score to carry all of it: speed, approval limits, whether anything could be sent back. That same score refused her.
 
 ## How a Society Gets Argued With
 

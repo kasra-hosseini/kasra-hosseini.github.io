@@ -386,7 +386,7 @@ Now watch that same mechanism run where the record is about somebody else. There
 
 She goes looking for the rule that did it. There is nothing in the settings, nothing in the policy docs, and nothing in anyone's memory, only a pattern that has been running long enough to look like a rule.
 
-What the router consults is a table of agents ranked by how fast they close things. So she tries to break it, and hands the third agent three hard tickets herself. It is rusty, two come back late, and the table cannot tell rusty from incapable. It records the delay as fresh evidence the agent should not be given hard tickets.
+What the router consults is a table of agents ranked by how fast they close things. So she tries to break it. She hands the third agent three hard tickets herself, deliberately, to get some recent numbers on the board in its favour. It is rusty and two come back late, and the table has no way to tell rusty from incapable, so it records the delay as fresh evidence the agent should not be given hard tickets. She has made it worse by trying.
 
 That is the trap. Every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
 
@@ -406,7 +406,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-She was the one person in the building who knew where to look, and a spreadsheet beat her. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
+On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time, and being right was worth nothing.
 
