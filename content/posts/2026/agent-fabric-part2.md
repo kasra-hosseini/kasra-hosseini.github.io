@@ -401,9 +401,11 @@ After a month the router sends complex billing disputes only to the two agents t
 
 Six weeks in, an engineer called Priya notices that the third agent has not handled a hard ticket since March, and raises it at standup. Everyone agrees it looks wrong. Nobody can find the decision. There is no config flag, no policy document, no ticket where anyone chose this, and the only artefact is a table of resolution times that everybody agrees is accurate. Priya can override the routing, and she knows what will happen if she does: the numbers will get worse, and she will be the person who made them worse.
 
+She leaves it. Not out of cowardice: she has no argument to make, because the routing table is not wrong about anything. It faithfully records what happened, and what happened is that one agent had a bad month in a job where bad months are remembered.
+
 Notice what separates the two halves of that story, because it is not the four records; those are identical. Handing a ticket to a specialist is a step inside one task. A rule about who gets the hard tickets at all, plus the question of who may change that rule, is a standing constraint on every task there will ever be. The first is delegation. The second is governance, and nobody wrote it.
 
-Plenty of systems already spread work by whichever machine is least busy, and nobody calls those governing bodies, because the moment the work is done the numbers are forgotten. This router does not forget.
+Load balancers have spread work by whichever machine is least busy for decades and nobody calls them governing bodies, because the moment the work is done the numbers are forgotten. This router does not forget.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
@@ -421,7 +423,7 @@ What decides which one you got is not its origin but whether anyone can push bac
 
 ---
 
-The measurable cost of delegating is the boring one. Every hop burns compute and time, and every hop is another chance for what you asked for to drift from what gets done, which is why nobody builds twenty layers deep when three will do.
+One cost of all this shows up on an invoice. Four agents answering one question means four model calls, four waits, and four chances for the brief to blur a little further from what you asked, which is why nobody builds twenty layers deep when three will do.
 
 The second cost is authority, and it is easiest to see in what the router will not do. Ask it to send a hard billing dispute to the third agent and it will comply, once, and then go back to the two it trusts, because nothing you said changed the record and the record is what it consults. Nobody granted it that power. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork: preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it.
 
