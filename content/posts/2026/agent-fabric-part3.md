@@ -197,7 +197,7 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 ## What Governance Actually Is
 
-She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. What she hit was a standing rule about who may do what, which is all an **institution** ever is, and what she could not reach was the **governance** around it: the deciding of who may change the rule. The desk did not start out capable of either.
+She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. She hit a rule and could not reach whoever decides what the rule is. That gap has a name on each side: the rule is an **institution**, and the deciding is **governance**. The desk did not start out capable of either.
 
 ## Where Authority Comes From
 
@@ -219,7 +219,7 @@ So the same letter reaches a judgement under the first desk, a winner under the 
 
 None of those four desks could have existed while the router was only forwarding traffic. Once it keeps score and decides who may touch what on the strength of it, it has stopped playing the game and started writing the rules. Plenty of software remembers things; this record decided who would read her letter.
 
-Two years before her letter, somebody set the leaderboard to reward speed. Every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted**.
+Her refusal was two years in the making. Somebody set the leaderboard to reward speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
 
 Nothing was broken while that happened. Every agent performed well against the measure it was given, and when finance noticed the refund line and bolted on a risk score, that correction was reasonable too. She is the one who paid for both. The question nobody asks early enough is who an arrangement is meant to favour, and who needs protecting from it.
 
@@ -250,7 +250,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## How a Society Gets Argued With
 
-Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third only exists in software: copy the whole arrangement, change the rule you object to, run your version instead. She could not do that to a shop. Those are the only three things anyone has ever been able to do about an institution, and she had none of them.
+Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third is one that only software allows: take a copy of the whole thing, change the rule you object to, and run your own version. People do that to software they dislike. Nobody does it to a shop. Those are the only three things anyone has ever been able to do about an institution, and she had none of them.
 
 The downranked agent has no more recourse than she does, and for the same reason. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to work. Complaints get heard where leaving is possible, and neither of them could leave.
 
@@ -284,7 +284,7 @@ She writes again. This time somebody at the retailer agrees to look, and the har
 
 Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
-You can find a person years later, and sue a company a decade on. There is nothing here to find. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
+A person can be found years later. A company can be sued a decade on. Here there is nothing to find at all. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
