@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,700 words (body) · ~2,000 words (notes)"
+wordcount: "~1,600 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -335,9 +335,7 @@ None of that is new. Delegation is already everywhere. What is not yet everywher
 
 Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose.
 
-Look at what the phone is now keeping. Who did what: the messages agent asked to interrupt. How well it went: you dismissed it. What it cost: eleven minutes of a protected block. And under whose authority: nobody's, which is exactly the problem.
-
-Those four records are the whole threshold. Once a system remembers who did what, how well it went, what it cost, and on whose say-so, **delegation has quietly become governance.**
+Look at what the phone is now keeping. Who did what: the messages agent asked to interrupt. How well it went: you dismissed it. What it cost: eleven minutes of a protected block. And under whose authority: nobody's, which is exactly the problem. Those four records are the whole threshold, because once a system remembers them, **delegation has quietly become governance.**
 
 Three months in you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway. The record says interruptions get dismissed, and the record is more consistent than you are, so you are now arguing with a policy you wrote by accident.
 
@@ -420,9 +418,7 @@ Same four records, same threshold, and this time somebody's refund is on the oth
 
 You could call that good optimization rather than authority. The difference is memory. Plenty of systems already spread work across machines by whichever is least busy right now, and nobody calls that a governing body, because the moment the work is done the numbers are forgotten. The support router does not forget.
 
-Its preference outlived the tasks that produced it, and it will still be enforcing that preference tomorrow. Which is why an institution is never a layer somebody adds on top. It is the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it.
-
-Mostly that has not happened yet, because production systems still forget everything between sessions. But long-term memory, evaluation logs, and routing analytics are all arriving, and memory does not force this outcome so much as remove the thing that was preventing it.
+Its preference outlived the tasks that produced it, and it will still be enforcing that preference tomorrow. Which is why an institution is never a layer somebody adds on top. It is the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it. Mostly that has not happened yet, because production systems still forget everything between sessions, but long-term memory and evaluation logs and routing analytics are all arriving, and memory does not force this outcome so much as remove what was preventing it.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
@@ -432,9 +428,7 @@ A research team builds a Map-Reduce pipeline: multiple agents search different d
 This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
 </details>
 
-Whether anyone can undo this later comes down to one thing. A preference stored as a list can be deleted. A preference trained into a model cannot, because there is no line to delete.
-
-Say an agent was downranked during a fortnight when its one bad week collided with a batch of impossible tickets, and somebody notices six months on. If the router is still reading a table, you edit the table. But nobody leaves preferences in tables forever, because training a model on the logs makes the decision faster and removes the lookup, and after that the judgement is spread through the thing that makes every decision. Reform means reconstructing a history you no longer have. The alternative is starting over.
+Whether any of it can be undone depends on where the preference is kept. Say an agent was downranked during a fortnight when its one bad week collided with a batch of impossible tickets, and somebody notices six months on. If the router is still reading a table, you edit the table. But nobody leaves preferences in tables forever, because training a model on the logs makes the decision faster and removes the lookup, and after that there is no line to delete. The judgement is spread through the thing that makes every decision, so reform means reconstructing a history you no longer have, and the alternative is starting over.
 
 None of which makes this bad in itself. Your calendar agent probably should win most arguments. A structure that forms around real competence usually serves the people relying on it, and one that drifts somewhere worse does not, and both arrive by exactly the same process.
 
