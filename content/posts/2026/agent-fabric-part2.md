@@ -393,7 +393,7 @@ There is nothing to delete, and nowhere to write down the one thing that would e
 
 ## What the Record Costs
 
-In October somebody retires that agent for underperformance, which is what the table says it is. That leaves two, and they have always agreed with each other, because they were the two the router kept choosing. In November one of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
+By October that agent is retired for underperformance. That leaves two, and they have always agreed with each other, because they were the two the router kept choosing. In November one of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
 
 Priya is in that meeting, and she knows exactly what happened. She could say the comparison was destroyed a year ago by a routing preference nobody chose, that she watched it happen in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her.
 
