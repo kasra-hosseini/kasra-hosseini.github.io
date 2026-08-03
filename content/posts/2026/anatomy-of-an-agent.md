@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. That kind of wrong is loud. Somebody notices by the afternoon, the agent loses the tool, and the mistake is over.
+Give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. That kind of wrong is loud: somebody notices by the afternoon, the agent loses the tool, and the mistake is over.
 
 The quiet one is the decision about when it is allowed to stop. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself.
 
@@ -67,10 +67,12 @@ Nobody on that team decided the tester should be the one to catch it. It caught 
 
 The arrangement costs something of its own, and the cost is that three agents can disagree and nobody assigned anyone to settle it. The writer says the test was unfair. The breaker says it was not. Somebody has to settle that, and nobody built anything to settle it.
 
-So the test stands, and it stands because the breaker has needed fewer retries this week than the writer. Somebody had been counting retries to decide which agent to run again first, and that count is now the thing that decides which agent is believed. Nobody wrote it down as a decision about whose judgement counts. It is one anyway.
+So the test stands, because the breaker has needed fewer retries this week than the writer. Somebody started that count to decide which agent to run again first, and it is now deciding which agent is believed. Nobody wrote it down as a decision about whose judgement counts. It is one anyway.
 
 
-A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
+A loop cannot audit itself. The one on the timezone bug spent six hours getting more certain and no closer, and every hour of it looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement does not converge on the truth. It converges on whatever it already believed, only louder.
+
+Giving it hands did not fix that. It raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
