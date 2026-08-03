@@ -201,7 +201,7 @@ She hit a rule and could not reach the thing that made it, and that gap is what 
 
 ## Where Authority Comes From
 
-One desk, one year, four different answers to the same letter, and nobody chose a single one of the transitions. Political theory has names for all four, catalogued in the [field guide](/posts/2026/governance-archetypes-field-guide/); what matters here is what each one does to her. She was not the first person to write in about a refund, and the desk that answered her was the third version the retailer had run. Not four options anyone weighed up: four things the same desk turned into, in order. Follow her letter into each of them.
+One desk, one year, four different answers to the same letter, and nobody chose a single one of the transitions. She was not the first person to write in about a refund, and the desk that answered her was the third version the retailer had run. Not four options anyone weighed up: four things the same desk turned into, in order. Follow her letter into each of them.
 
 **The first desk.** On day one her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. Most systems start here, because one router is the simplest thing that works, and the price is that when it is wrong there is nothing else in the room.
 
@@ -299,7 +299,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-Which brings this back to the support desk, which has now been run by one agent, by a scoreboard, and by a rule, and will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking. Nothing in her story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. That is the uncomfortable part: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else. Designing the institution is the work, and nobody at that desk had it on a ticket. Her letter is still in the system somewhere, marked resolved.
+That support desk has now been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking. Nothing in her story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. That is the uncomfortable part: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else. Designing the institution is the work, and nobody at that desk had it on a ticket. Her letter is still in the system somewhere, marked resolved.
 
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
