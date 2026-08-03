@@ -248,7 +248,7 @@ So she complains, which means replying to the email that refused her, and what r
 
 Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
-Neither option works for the downranked agent either. It cannot argue with the record without adding to it, and it has nowhere else to work, which is the same shape her problem has and the reason both of them stay unheard.
+The agent that lost its hard tickets has no more than she does. It cannot argue with the record without adding to it, and there is nowhere else for a support agent to work.
 
 Nothing about the rule that refused her was written down anywhere she could have found it, and nowhere the people who built the desk could have found it either. There was no line naming who was allowed to change it, and none saying what happens when somebody says it is wrong, because nobody had ever needed those lines until she wrote in.
 
