@@ -55,7 +55,9 @@ The agent that made the mistake is the agent grading it. No prompt fixes that, b
 
 ## Beyond the Single Loop
 
-There are only two ways out of this, and one of them is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways. The writer edits the code. The tester writes tests without seeing the writer's reasoning. The breaker tries to break whatever comes out. None of them is more capable than the original, and that is the point. The tester, handed only the failing test and no theory about it, does the obvious thing nobody had done in six hours. It runs the test twice, in two timezones, and watches it pass once.
+There are only two ways out of this, and one of them is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways, and give none of them more capability than the original had. One writes the code. A second, the tester, gets the failing test and none of the writer's reasoning. A third, the breaker, spends its day trying to break whatever comes out.
+
+The tester does the obvious thing nobody had done in six hours: it runs the test twice, in two timezones, and watches it pass once.
 
 That is the whole fix. It was available the entire time, and the writer could not see it, because by hour two it was no longer looking for the bug. It was looking for more evidence about the date handling.
 
