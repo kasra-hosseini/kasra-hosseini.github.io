@@ -47,7 +47,7 @@ From outside it looks like diligence. The commit history shows steady work, each
 
 None of this is the model being stupid. Every test it reads was broken by its own last edit, so it is arguing with a situation it keeps changing, and the wrong turn it took first narrows everything it can attempt after. No agent yet <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">works a full day at a computer unsupervised</a>, and <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">the longer a job runs the further behind a person it falls</a>.
 
-On a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> it beats a human expert for the first couple of hours, and then the expert pulls ahead. The one on the timezone bug is still editing at hour six, nothing signalling that the search space collapsed before lunch.
+The one on the timezone bug is still editing at hour six, nothing signalling that the search space collapsed before lunch. That is the shape of it on every long job: on a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> an agent beats a human expert for the first couple of hours, and then the expert pulls ahead and keeps pulling.
 
 All of it comes back to one fact: the agent that made the mistake is the agent grading it. No prompt fixes that. It is a property of being alone in the room.
 
