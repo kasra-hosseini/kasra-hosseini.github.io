@@ -209,7 +209,7 @@ Nobody told any agent to refuse returns. The leaderboard rewarded speed, the fas
 
 The agent that would have read her letter properly is the one that had a slow month and never recovered. It is not being punished. It is simply never again the best answer to any question the router asks, and nobody checked whether closing time was the right thing to measure before it started deciding who was good at the job.
 
-**The third desk, half a year in.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead. One rule flagged certain return histories no matter what any agent thought, and hers was one of them. Another said refunds above her amount need a second reader, which the retailer rented from another company. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
+**The third desk, half a year in.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead. One rule flagged certain return histories no matter what any agent thought, and hers was one of them. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
@@ -238,7 +238,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-The second reader is the part that should have caught her case, and it is the part that stopped existing. On a Tuesday the company providing it switched the service off. The rule was not repealed, or voted down, or argued about; it just stopped applying. Her letter arrived on the Thursday and got one reader, and nobody at the retailer knew the difference, because the rule was still there in the policy document where they had written it.
+One of those rules should have caught her case: refunds above her amount need a second reader. The retailer did not have a second agent to spare, so it rented one, and on a Tuesday the company providing it switched the service off. The rule was not repealed, or voted down, or argued about; it just stopped applying. Her letter arrived on the Thursday and got one reader, and nobody at the retailer knew the difference, because the rule was still there in the policy document where they had written it.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled. It was a number in a config file with her name nowhere near it. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
 
@@ -270,7 +270,7 @@ This framework shares territory with several concurrent research programmes and 
 
 She writes again, and this time somebody at the retailer agrees to look. The hard part turns out not to be technical: which agent owes her an explanation?
 
-The obvious place to look is the model that scored her, and it is not there any more. It has been replaced twice, and each replacement learned from her case, so the thing that made the decision has been absorbed by the things that came after it.
+The obvious place to look is the model that scored her, and it is not there any more. It has been replaced twice since, each time by something that had learned from her case.
 
 A person can be found years later, and a company can be sued a decade on. What refused her was a configuration that lasted six weeks, not deleted or overturned but superseded, so there is nothing left that made the decision. Not a missing record: a missing thing. That is why nobody can unmake it, and why an apology would have nowhere to come from even if somebody wanted to give her one.
 

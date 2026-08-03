@@ -45,7 +45,7 @@ From outside it looks like diligence. The commit history shows steady work, each
 
 The model is not being stupid. Every test it reads was broken by its own last edit, so it is arguing with a situation it keeps changing, and the wrong turn it took first narrows everything it can attempt after. No agent yet <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">works a full day at a computer unsupervised</a>, and <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">the longer a job runs the further behind a person it falls</a>.
 
-The one on the timezone bug is still editing at hour six, nothing signalling that the search space collapsed before lunch. Give an agent a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> and it will beat a human expert for the first couple of hours, and then the expert pulls ahead and keeps pulling.
+The one on the timezone bug is still editing at hour six, nothing signalling that the search space collapsed before lunch. On a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> it leads a human expert for the first couple of hours, and then never catches up again.
 
 The agent that made the mistake is the agent grading it. No prompt fixes that, because it is not a flaw in the prompt. It is a property of being alone in the room.
 
@@ -59,7 +59,7 @@ The tester does the obvious thing nobody had done in six hours: it runs the test
 
 That is the whole fix. It was available the entire time, and the writer could not see it, because by hour two it was no longer looking for the bug. It was looking for more evidence about the date handling.
 
-Nobody on that team decided the tester should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The breaker never had to be clever either. Its whole job was breaking things, on a test it had no reason to defend.
+Nobody on that team decided the tester should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The breaker never had to be clever either. It had no reason to defend the test it was attacking.
 
 The arrangement costs something of its own, and the cost is that three agents can disagree and nobody assigned anyone to settle it. The writer says the test was unfair. The breaker says it was not. Somebody has to settle that, and nobody built anything to settle it.
 
