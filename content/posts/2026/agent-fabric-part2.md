@@ -312,9 +312,8 @@ wordcount: "~1,150 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-You will probably end up with a handful of personal agents: one managing your calendar, one triaging your messages. Nobody wires them together. Then two of them want opposite things, because the messages agent has something urgent and the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
+You will probably end up with a handful of personal agents: one managing your calendar, one triaging your messages. Nobody wires them together. Then two of them want opposite things, because the messages agent has something urgent and the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election. Try to give the messages agent more room later and it hesitates anyway, because the record of those dismissals is more consistent than you are. You are now arguing with a policy you wrote by accident.
 
-Try to give the messages agent more room later and it hesitates anyway, because the record of those dismissals is more consistent than you are. You are now arguing with a policy you wrote by accident.
 
 
 <div class="viz-container">
@@ -381,15 +380,13 @@ On a phone the worst this costs is your own afternoon. Move the same arrangement
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
-Six weeks in, an engineer called Priya notices that the third agent has not been given a hard ticket since March, and goes looking for the rule that did it. There is no rule. The settings mention the agent only to say it exists, the policy docs say hard tickets go to whoever is best placed to handle them, and three people confirm that nobody changed the routing in March, which is true.
+Somebody does eventually notice. Six weeks in, an engineer called Priya, who built half this desk and is the one person on the team who reads the routing logs for fun, sees that the third agent has not been given a hard ticket since March, and goes looking for the rule that did it. There is no rule. The settings mention the agent only to say it exists, the policy docs say hard tickets go to whoever is best placed to handle them, and three people confirm that nobody changed the routing in March, which is true.
 
 So she tries the direct route and reassigns three hard tickets to the third agent by hand. Two come back slower than the average, which is what happens when an agent has not seen a hard ticket since March, and the table absorbs both results and rates it lower than before.
 
-That is the trap. The table is not a rule anyone wrote; it is what happened, recorded, which is why the team treats it as the one thing in the room that cannot be argued with. Her only options are to falsify it or to feed it more evidence that it was right.
+That is the trap. The table is not a rule anyone wrote; it is what happened, recorded, which is why the team treats it as the one thing in the room that cannot be argued with. Her only options are to falsify the record or to feed it more evidence that it was right. She leaves it.
 
-She leaves it. Meanwhile a customer with a cracked vase is in the queue, waiting for whichever agent the table prefers rather than the one who knows the fragile-item policy.
-
-What that costs arrives six months on, when the third agent is retired for underperformance. The two survivors are now the only agents with a record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
+What that costs arrives six months on. The third agent is retired for underperformance, which leaves the two survivors as the only agents with any record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
 
 Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and she would be right, and there is nothing she can point at. Which is where you already are with your calendar, minus the standup. You cannot point at the moment you agreed to any of it either.
 
