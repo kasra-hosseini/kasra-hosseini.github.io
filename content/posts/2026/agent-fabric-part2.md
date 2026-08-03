@@ -377,7 +377,7 @@ Think of an assistant on your phone that has stopped offering you things. Not be
 
 On a phone the worst this costs is a suggestion you might have wanted. Change one thing, though, and it costs somebody their work: keep the same scorekeeping, but point it at agents doing a job, in a company, where the one being quietly stopped from working is not you and has no dismissals to register. Somebody builds that on a Tuesday. It does not feel like building an institution. It feels like adding logging.
 
-Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
+Priya wrote the router: the piece of code that reads each incoming ticket and picks which agent handles it. Anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
@@ -389,7 +389,7 @@ Every step she finds is a sensible one. Logging went in a year ago. The router s
 
 
 
-So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table records close times and nothing else, so it reads the delay as fresh evidence the agent should not be given hard tickets. She has made it worse by trying.
+So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table has one column, close time, and no column for why. Two more slow tickets is all it sees. She has made it worse by trying.
 
 There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet.
 
@@ -412,6 +412,10 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Nobody gave the routing table authority over which agent had a career. It got that by being the only thing anyone wrote down, and she cannot argue with it because there is no argument to have: the table is accurate, and being accurate is all it was ever asked to be.
 
 She never lacked evidence. She lacked anywhere to take it. She was right the whole time, and being right was worth nothing.
+
+What would have saved the third agent is dull enough to be disappointing. A second column next to close time, for how hard the ticket was. A rule written where the router reads, not in a doc, saying no agent goes a month without a hard ticket. A line in somebody's review meeting where the routing table appears as a thing that was decided rather than a thing that is accurate. Any one of the three, and Priya has something to point at in that meeting.
+
+None of them is difficult. They are just nobody's job, because they are not features and they do not fix a bug, and the system works fine without them right up until somebody needs to argue with it. That is the actual cost of splitting work between agents: not that the split is wrong, but that the record you keep to make the split work becomes the only account of what happened, and it was never designed to be one.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">

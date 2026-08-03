@@ -256,13 +256,11 @@ So she had none of the three.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. Complaints get heard where leaving is possible, which is the part nobody designs for, because it is the part nobody notices they removed.
 
-## What This Framework Is For
+## What Nobody's Job It Was
 
 Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
-This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Each desk was built by somebody solving the previous desk's worst problem, which is why none of them was ever chosen as a design.
-
-The rule that refused her did not have to live in a document nobody reads. It could have been written where the system actually looks, with a note beside it naming who may change it and what happens when somebody disputes it. Nothing about hers was written anywhere a system could read, which is the same as it not existing until it refused somebody.
+The rule that refused her did not have to live in a document nobody reads. It could have sat where the system actually looks, with a line beside it naming who may change it and what happens when somebody disputes it. Instead it existed nowhere until the moment it refused her.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
