@@ -67,10 +67,10 @@ Nobody on that team decided the tester should be the one to catch it. It caught 
 
 The arrangement costs something of its own, and the cost is that three agents can disagree and nobody assigned anyone to settle it. The writer says the test was unfair. The breaker says it was not. Somebody has to settle that, and nobody built anything to settle it.
 
-So the test stands, because the breaker has needed fewer retries this week than the writer. Somebody started that count to decide which agent to run again first, and it is now deciding which agent is believed. Nobody wrote it down as a decision about whose judgement counts. It is one anyway.
+So the test stands, because the breaker has needed fewer retries this week than the writer. That count exists because somebody wanted to know which agent to run again first when a job died overnight. Nobody wrote it down as a rule about whose word beats whose. It is one anyway.
 
 
-A loop cannot audit itself. The one on the timezone bug spent six hours getting more certain and no closer, and every hour of it looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement does not converge on the truth. It converges on whatever it already believed, only louder.
+A loop cannot audit itself. Six hours of getting more certain and no closer all looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement does not converge on the truth. It converges on whatever it already believed, only louder.
 
 Giving it hands did not fix that. It raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
 
