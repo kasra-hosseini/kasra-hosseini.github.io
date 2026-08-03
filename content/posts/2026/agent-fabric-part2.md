@@ -395,7 +395,7 @@ There is nothing to delete, and nowhere to write down the one thing that would e
 
 Then she opens the log and the third agent is not in it. Not downranked, not flagged: gone. Somebody has retired it for underperformance, which the table supports, and nobody thought the decision worth mentioning to her. That leaves two that have always agreed with each other, because they were the two the router kept choosing. One of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
 
-Priya is in that meeting, and she knows exactly what happened. She could say that the router quietly stopped sending hard tickets to one of the three, that she watched the column go to zeroes in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her.
+Priya is in that meeting, and she knows exactly what happened. She could say that the router quietly stopped sending hard tickets to one of the three, that she watched the column go to zeroes in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her. She never lacked evidence. She lacked anywhere to take it.
 
 
 
@@ -412,8 +412,6 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use.
 
 Nobody gave that table authority over which agent had a career. It got that by being the only thing anyone wrote down, and once it had that authority there was no procedure for taking it back, because nobody had noticed handing it over.
-
-She never lacked evidence. She lacked anywhere to take it.
 
 She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. She could have added it in an afternoon on any day before it mattered, and it never occurred to her, because while you are building it a log looks like a table.
 

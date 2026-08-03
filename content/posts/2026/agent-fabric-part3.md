@@ -180,7 +180,7 @@ That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), 
 
 By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules nobody at the desk can change, and neither can the team that built it. Her letter is not refused so much as unaddressed: the question it asks is why me, and there is nobody that question belongs to.
 
-Nothing any agent told her was untrue. Every answer was correct and the arrangement that produced them was not, which is how these systems will fail long before they start lying.
+Nothing any agent told her was untrue. Every answer was correct, and that is how these systems will fail long before they start lying.
 
 So the question was never whether this desk would end up with rules. It was which rules, and decided by whom.
 
@@ -201,7 +201,7 @@ What she eventually got was four polite sentences and no way to reply to them, a
 
 **The first desk: one agent decides.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. One router is the simplest thing that works, which is why the desk started here, and the price is that on the day it is wrong about her there is nothing else in the room.
 
-**The second desk, a month in: the scoreboard decides.** Somebody turns on logging, and now her letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, and her letter goes to the one at four. The reply still reads like a decision, and it came from whichever agent was winning that week. 
+**The second desk, a month in: the scoreboard decides.** Somebody turns on logging, and now her letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, so her letter goes to the one at four, who has never handled a return like hers. The reply still reads like a decision, and it came from whichever agent was winning that week. 
 
 Nobody told any agent to refuse returns. The leaderboard rewarded speed, and the fastest way to close a return is to refuse it.
 
@@ -281,7 +281,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-That desk has been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking, and nobody had designing any of it on a ticket.
+The desk will get an appeal eventually, the first time somebody insists on knowing why their complaint was ignored. She was the one asking, and nobody had designing that on a ticket.
 
 Nobody in her story was careless, and nobody was cruel. These structures do not arrive when people are careless about governance. They arrive when people are conscientious about everything else.
 
