@@ -205,15 +205,17 @@ What she eventually got was four polite sentences and no way to reply to them, a
 
 **The second desk, a month in: the scoreboard decides.** Somebody turns on logging, and now her letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, and her letter goes to the one at four. The reply still reads like a decision, and it came from whichever agent was winning that week. 
 
-Nobody told any agent to refuse returns. The leaderboard rewarded speed, the fastest way to close a return is to refuse it, and what the desk was optimizing for **drifted** away from what the desk was for.
+Nobody told any agent to refuse returns. The leaderboard rewarded speed, and the fastest way to close a return is to refuse it.
+
+Nobody had to say that out loud. What the desk was optimizing for **drifted** away from what the desk was for.
 
 The agent that would have read her letter properly is the one that had a slow month and never recovered. It is not being punished. It is simply never again the best answer to any question the router asks, and nobody checked whether closing time was the right thing to measure before it started deciding who was good at the job.
 
-**The third desk, half a year in: the rule decides.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead. One rule flagged certain return histories no matter what any agent thought, and hers was one of them. Another said refunds above her amount get a second reader, which was true until the company renting them that second reader switched it off on a Tuesday. Nobody repealed the rule. It simply stopped applying, and her letter arrived on the Thursday. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
+**The third desk, half a year in: the rule decides.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead. One rule flagged certain return histories no matter what any agent thought, and hers was one of them. Another said refunds above her amount get a second reader, and on the Tuesday before her letter arrived, the company renting them that second reader switched it off. Nobody repealed anything. The rule just stopped being true. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
-**The fourth desk, the one she needed:** it exists only after somebody complains loudly enough that a shrug will not do. Here one thing answers her letter and something else can be asked to look again, and that second thing is allowed to say the first got it wrong. What she gets back names the rule, names the threshold she crossed, and gives her an address that is not the thing that refused her. The refund may still be denied. The difference is that a person could now find out why, and so could she. Whatever hears the appeal does not report to the thing being appealed. That is the whole trick, and it is slow to build, which is why it tends to arrive one letter too late for the person who prompted it.
+**The fourth desk, the one she needed:** it exists only after somebody complains loudly enough that a shrug will not do. Here one thing answers her letter and something else can be asked to look again, and that second thing is allowed to say the first got it wrong. What she gets back names the rule, names the threshold she crossed, and gives her an address that is not the thing that refused her. The refund may still be denied. The difference is that a person could now find out why, and so could she. The thing that hears her appeal does not answer to the thing that refused her. That is the whole trick, and it is slow to build, which is why it usually arrives one letter too late.
 
 So the same letter reaches a judgement, then a winner, then a rule, then someone who can overrule the rule. Four arrangements in a year, no announcements and no design review, and she happened to write in under the only one with no way back in.
 
@@ -242,7 +244,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## What She Can Do About It
 
-So she complains, which means replying to the email that refused her. The reply comes back in four minutes, thanks her for the additional information, and repeats the second paragraph of the first one. Whatever read her letter is what wrote the letter, and it had already decided what her return history means. An appeal heard by the party you are appealing against is not an appeal.
+So she complains, which means replying to the email that refused her. The reply comes back in four minutes, thanks her for the additional information, and repeats the second paragraph of the first one. An appeal heard by the party you are appealing against is not an appeal.
 
 Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years. She stops with the cursor in the box, because she has no way of knowing what six years is worth at this shop either.
 
