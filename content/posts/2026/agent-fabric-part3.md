@@ -193,7 +193,7 @@ Nothing any agent told her was untrue. That is the bet this post is making: agen
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-Governance grows out of what gets remembered, and inside a year that desk went through four recognisable versions of it without anyone deciding to.
+That desk went through four recognisable versions of governance inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen. First one agent decided, then a scoreboard decided, then a fixed rule decided, and finally, after enough complaints, something existed that could overrule the rule. Political theory has names for all four, and they will turn up below, but the desk is the thing to watch.
 
 ## What Governance Actually Is
 
@@ -217,7 +217,7 @@ So the same letter reaches a judgement under the first desk, a winner under the 
 
 None of the four could have refused her while the router was only forwarding traffic. Once it keeps score and decides who may touch what on the strength of it, it has stopped playing the game and started writing the rules. Plenty of software remembers things; what made this record different is that it decided who would read her letter.
 
-Her refusal began as a scoring decision two years earlier. The leaderboard priced speed, and the fastest way to close a return is to refuse it, so the desk drifted: **drift** being the slow slide where a system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while that happened. Every agent performed well against the measure it was given, the correction that followed was reasonable, and she is the one who paid for both. How much drift a design can survive decides most of the rest of it, and underneath that sits the question nobody asks early enough: who is this arrangement meant to favour, and who needs protecting from it?
+Her refusal began as a scoring decision two years earlier. The leaderboard priced speed, and the fastest way to close a return is to refuse it, so the desk kept optimizing faithfully while what it optimized for stopped matching what anyone wanted. The name for that is **drift**. Nothing was broken while that happened. Every agent performed well against the measure it was given, the correction that followed was reasonable, and she is the one who paid for both. How much drift a design can survive decides most of the rest of it, and underneath that sits the question nobody asks early enough: who is this arrangement meant to favour, and who needs protecting from it?
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -258,7 +258,7 @@ The downranked agent has no more recourse than she does. It cannot say the metri
 
 Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. That is what the four names are for: not a recommendation, just enough vocabulary to notice a choice while it is still a choice.
 
-Every one of those choices is a trade, and this desk paid for all three: fast until the month one router was wrong about everything downstream, accurate until the scoring drifted where nobody could see, safe at the price of her refund. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
+Every one of those choices is a trade, and this desk paid three times. One router deciding made it fast, until the month that router was wrong about everything downstream. Scoring the agents made it accurate, until the scores drifted somewhere nobody was looking. Fixed rules made it safe, and the price of that safety was her refund. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
 
 The rule that refused her did not have to live in a document nobody reads. It could have been written where the system actually looks, with a note beside it naming who may change it and what happens when somebody disputes it. A rule that does not show up there is not governance, it is a wish, and it is still not hers to appeal to.
 
