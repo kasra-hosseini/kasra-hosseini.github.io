@@ -11,7 +11,7 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,700 words"
+wordcount: "~1,550 words"
 ---
 
 
@@ -47,13 +47,11 @@ The obvious fix is to have the agent check its own work, and some systems are bu
 
 It does not say it looked in the wrong place. It says its analysis was correct but the fix was incomplete, and it is right about the first half, because the date handling really was a bit sloppy. So it goes deeper. It adds a normalization step, then a fallback, then a comment explaining the subtlety it believes it has found, and each pass makes the code more elaborate and the explanation more confident. Ask it how sure it is and the number goes up. The bug is in the timezone the test runs under, which it never considered on the first pass and now never will.
 
-Sit with that, because it is worse than being wrong. A person who cannot find a bug eventually starts doubting their own theory. This does the opposite: every failed pass gets absorbed as evidence that the problem is deeper than it thought, and the theory comes out stronger. There is no number of failed attempts that would make it look somewhere else.
+Sit with that, because it is worse than being wrong. A person who cannot find a bug eventually starts doubting their own theory. This does the opposite: every failed pass gets absorbed as evidence that the problem is deeper than it thought, and the theory comes out stronger. There is no number of failed attempts that would make it look somewhere else, and this is not one system's quirk: <a href="https://arxiv.org/abs/2310.01798" target="_blank" rel="noopener">models asked to revise their own reasoning</a> with nothing external to check against tend to come out worse, and nobody has <a href="https://arxiv.org/abs/2406.01297" target="_blank" rel="noopener">found an exception</a> that does not lean on an outside signal.
 
 From outside it looks like diligence. The commit history shows steady work, each message more specific than the last, the explanations getting more detailed and more certain. If you were reviewing it you would see an agent closing in on something. What you would not see is that it stopped considering alternatives an hour ago, and that the confidence went up precisely because it kept failing. That is the shape of the problem: not an agent that gives up, but one that cannot tell the difference between converging and digging.
 
-And it is not one system's quirk. Researchers have <a href="https://arxiv.org/abs/2310.01798" target="_blank" rel="noopener">handed models their own reasoning to revise</a> with nothing external to check against, and the revisions came out worse than the originals often enough to matter. Anyone looking for a case of self-correction that works without an outside signal has <a href="https://arxiv.org/abs/2406.01297" target="_blank" rel="noopener">not found one</a>.
-
-Give the same agent more time and it does not escape, it plateaus, and the plateau has a texture worth knowing. Hour one it tries three approaches. Hour four it is trying variations on the approach it liked best. Hour eight it is adjusting parameters inside a variation, and the work still looks like work: files changing, tests running, output accumulating. Nothing signals that the search space collapsed six hours ago. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research and engineering problems</a> and the agents are ahead in the first couple of hours, then the humans overtake them and keep going.
+Give the same agent more time and it does not escape, it plateaus. Hour one it tries three approaches; hour eight it is adjusting parameters inside a variation of the one it liked, and the work still looks like work. Files change, tests run, output accumulates, and nothing signals that the search space collapsed six hours ago. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research problems</a> and the agents lead for the first couple of hours, then the humans overtake them and keep going.
 
 All three come back to the same thing. One loop runs one set of habits, so the patterns that produced a mistake are the patterns judging whether it was a mistake. The agent cannot hold a position and attack it at the same time, and no amount of prompting changes that, because it is not a shortfall in the model. It is a property of being alone.
 
@@ -69,16 +67,5 @@ Which is where this stops being a question about agents and becomes a question a
 
 So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
 
-Everything that follows in this series is an attempt to fix that by putting more than one agent in the room, and every fix charges for it. [Part 2](/posts/2026/agent-fabric-part2/) is how the work gets split. [Part 3](/posts/2026/agent-fabric-part3/) is who ends up in charge.
+Everything that follows in this series is an attempt to fix that by putting more than one agent in the room, and every fix charges for it. [Part 1](/posts/2026/agent-fabric-part1/) is why they end up in groups at all. [Part 2](/posts/2026/agent-fabric-part2/) is how the work gets split, with a [field guide](/posts/2026/delegation-patterns-field-guide/) to the arrangements. [Part 3](/posts/2026/agent-fabric-part3/) is who ends up in charge, with [its own](/posts/2026/governance-archetypes-field-guide/).
 
-
-<div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
-
-- **Prologue: The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
-- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
-- **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: how work gets split among agents, and how splitting it quietly creates authority nobody granted
-- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
-- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
-- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
-</div>
