@@ -373,8 +373,6 @@ Think of an assistant on your phone that has stopped offering you things. Not be
 <p style="color: #555;"><a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener" class="red-link">MCP</a> standardizes how AI systems connect to tools and data sources; <a href="https://a2a-protocol.org/" target="_blank" rel="noopener" class="red-link">A2A</a> points toward agent-to-agent interoperability. Neither, by itself, solves the whole problem of an open specialist market. The <a href="https://arxiv.org/abs/2410.11905" target="_blank" rel="noopener" class="red-link">Agora protocol</a> (not to be confused with the Agora governance archetype in [Part 3](/posts/2026/agent-fabric-part3/)) frames this as an Agent Communication Trilemma: versatility, efficiency, and portability pull against one another. The likely future is not one universal protocol, but a stack: tool access, agent identity, delegation, settlement, provenance, and audit. A comprehensive <a href="https://arxiv.org/abs/2504.16736" target="_blank" rel="noopener" class="red-link">survey of agent protocols</a> maps the current landscape.</p>
 </details>
 
-## From Architecture to Institution
-
 On a phone the worst this costs is a suggestion you might have wanted. Point the same scorekeeping at agents doing a job in a company, and it costs somebody their work. Somebody builds that on a Tuesday, and it does not feel like building an institution. It feels like adding logging.
 
 Priya wrote the router: the piece of code that reads each incoming ticket and picks which agent handles it. Anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
@@ -392,6 +390,8 @@ Nothing she finds is a mistake. On a Tuesday in March the third agent took eleve
 So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table has one column, close time, and no column for why. Two more slow tickets is all it sees. She has made it worse by trying.
 
 There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet.
+
+## What the Record Costs
 
 By October that agent is retired for underperformance, which leaves two. In November one of the survivors tells a customer her fragile-item return does not qualify, and it is wrong, and there is nothing left to check it against. The one agent that might have answered differently was retired for never being given the chance.
 
@@ -415,9 +415,7 @@ She never lacked evidence. She lacked anywhere to take it.
 
 She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. Either one was an afternoon's work, and she never wrote it, because a log does not look like a thing that decides while you are building it. It looks like a table.
 
-Neither column would have made the desk fairer. They would have made it arguable, which is the thing she needed and did not have.
-
-Any system that keeps a record and acts on it is deciding something, and the only question that matters later is whether anybody can argue with the record. Until the day somebody has to, a table nobody can argue with looks exactly like a table that is right.
+Neither column would have made the desk fairer. They would have made it arguable, which is the thing she needed and did not have. Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
 She was right the whole time, and being right was worth nothing.
 
