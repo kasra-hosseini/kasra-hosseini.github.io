@@ -413,11 +413,9 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use.
 
-Nobody gave that table authority over which agent had a career. It got that by being the only thing anyone wrote down, and once it had that authority there was no procedure for taking it back, because nobody had noticed handing it over.
+She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. An afternoon's work, on any of the days before it mattered. It never occurred to her, because while you are building it a log looks like a table.
 
-She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. She could have added it in an afternoon, on any of the days before it mattered. It never occurred to her, because while you are building it a log looks like a table.
-
-Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right. Somebody needed it the day that customer was told no, and by then the question was not whether the table was accurate. It was who could have told it otherwise.
+Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
 She was right the whole time, and being right was worth nothing.
 
