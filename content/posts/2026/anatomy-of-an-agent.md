@@ -25,7 +25,7 @@ Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. I
 
 That gap does not close by making the model smarter. It closes by building things around it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that keeps going until the work looks done. That apparatus has a name, **scaffolding**, and the model supplies the reasoning while the scaffolding is what turns reasoning into consequence.
 
-Pull any one of those out and watch what happens. Without the loop you are back to a chatbot. Without tools you have something that can think and never touch anything. Memory is the strangest of the three, because an agent that loses it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
+Take any one of those away and the whole thing changes character. Without the loop it is a chatbot again. Without tools it can think and never touch anything. Memory is the strangest of the three, because an agent that loses it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
 ## What the Loop Needs
 
@@ -37,7 +37,7 @@ The loop is just this: the agent looks at the situation, decides what to do, doe
 
 ## When the Loop Improves Itself
 
-An agent that keeps notes on its own failures gets better at the work in a way that turning the loop alone never delivers: the output of one pass becomes the input to the next, so it is building on the last attempt rather than repeating it. <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">This has been built</a>, and <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">pushed further</a>.
+An agent that keeps notes on its own failures gets better at the work in a way that turning the loop alone never delivers, because the output of one pass becomes the input to the next and it is building on the last attempt rather than repeating it. Systems that <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">keep their own critiques</a> and turn the procedures that keep working into <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">reusable skills</a> already exist.
 
 And it is where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
 
