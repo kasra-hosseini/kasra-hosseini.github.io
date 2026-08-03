@@ -378,9 +378,8 @@ Try to give the messages agent more room later and it hesitates anyway, because 
 
 On a phone the worst this costs is your own afternoon. Move the same arrangement into a company and one thing changes: the record is no longer about the person reading it. It is about a stranger who will never see it, never agreed to it, and has no dismissal to register. You have been that stranger this year, probably several times, and the version below is where it happens.
 
-Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
+Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
-After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it.
 
 Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. Nobody can find the decision. There is no config flag and no policy document, only a table of resolution times that everybody agrees is accurate.
 
