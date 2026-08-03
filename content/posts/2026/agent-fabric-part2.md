@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,750 words (body) · ~2,000 words (notes)"
+wordcount: "~1,700 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -318,9 +318,7 @@ Then two of them want opposite things. The messages agent has something urgent; 
 
 And each of those agents is already doing the same thing internally. Ask the research one for a summary and it quietly hires something to fetch the paper and something else to compress it, and that one may hire further. Nobody stacks that twenty layers deep when three will do, because every extra agent is another model call, another wait, another chance for the brief to blur. Even at three you asked one question and started a chain of command that nobody can see whole, because each agent knows only who called it and who it called. Delegation like that is old news and already everywhere. What is new is what happens when these arrangements start remembering how it went.
 
-Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose.
-
-Look at what the phone is now keeping. It knows the messages agent asked to interrupt, that you dismissed it, and that the interruption would have cost eleven minutes of a protected block. What it does not know, and cannot, is who authorised any of it, because nobody did. Those are the four records, and once a system keeps them, **delegation has quietly become governance.**
+Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. So the phone now knows who asked, what happened, and what it cost, and has no way to record who authorised any of it, because nobody did. Two steps, both reasonable, and whether a new agent gets real work has an answer nobody chose. That is the threshold: once a system keeps those records, **delegation has quietly become governance.**
 
 Three months in you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway. The record says interruptions get dismissed, and the record is more consistent than you are, so you are now arguing with a policy you wrote by accident.
 
