@@ -53,7 +53,7 @@ From outside it looks like diligence. The commit history shows steady work, each
 
 Give the same agent more time and it does not escape, it plateaus. The work still looks like work, with files changing and tests running, and nothing signals that the search space collapsed hours ago. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research problems</a> and the agents lead for the first couple of hours, then the humans overtake them and keep going.
 
-All three come back to the same thing. One loop runs one set of habits, so the patterns that produced a mistake are the patterns judging whether it was a mistake. The agent cannot hold a position and attack it at the same time, and no amount of prompting changes that, because it is not a shortfall in the model. It is a property of being alone.
+All three come back to one fact: the agent that made the mistake is the agent grading it. Nothing about that improves with a better prompt, because it is not a shortfall in the model. It is a property of being alone in the room.
 
 {{< figure src="/images/2026/anatomy-delegation-styles.svg" alt="Two delegation styles side by side: a single agent looping through a task alone, and an orchestrator dividing work among research, coding, and review specialists, with a panel listing further patterns (peer-to-peer networks, voting panels, specialist markets, hierarchical chains, blackboard systems, debate protocols) explored in Part 2" caption="**Figure 2.** One agent working alone, and the same job split between three. The second arrangement is not smarter. It is just harder to fool." >}}
 

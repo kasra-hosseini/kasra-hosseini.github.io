@@ -395,13 +395,13 @@ And these arrangements stack, which is where it gets harder to see. You ask your
 
 ## From Architecture to Institution
 
-That is the whole shape of it on a phone, where the system is yours and the worst it costs you is a missed message. Now give the same three ingredients a budget and a stranger on the other end.
+On a phone all of this is survivable. The system is yours, the worst it costs is a missed message, and you could in principle throw the whole thing away and start again. Two changes break that. Somebody else pays, and you cannot start again.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
 
 After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and it has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The next person whose delivery goes missing gets routed by a record rather than by a category, and neither they nor anyone at the company could tell you that changed. Then a new agent joins the fleet, and whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router learned, or wait. No one wrote that rule down. The deployment team can override it, but only by making the service worse, which in practice means they will not.
 
-Same four records, same threshold, and this time somebody's refund is on the other side of it. Notice what separates the two halves of that story. Handing a ticket to a specialist is a step inside one task. A rule about who gets the hard tickets at all, plus the question of who is allowed to change that rule, is a standing constraint on every task there will ever be. The first is delegation. The second is governance, and nobody wrote it.
+Notice what separates the two halves of that story, because it is not the four records; those are identical. Handing a ticket to a specialist is a step inside one task. A rule about who gets the hard tickets at all, plus the question of who may change that rule, is a standing constraint on every task there will ever be. The first is delegation. The second is governance, and nobody wrote it.
 
 You could call that good optimization rather than authority. The difference is memory. Plenty of systems already spread work across machines by whichever is least busy right now, and nobody calls that a governing body, because the moment the work is done the numbers are forgotten. The support router does not forget.
 
