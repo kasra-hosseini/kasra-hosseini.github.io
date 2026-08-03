@@ -379,7 +379,7 @@ On a phone the worst this costs is your own afternoon. Change one thing about th
 
 Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
-She goes looking for the rule that did it. There is nothing in the settings, nothing in the policy docs, and nothing in anyone's memory, only a pattern that has been running long enough to look like a rule.
+So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
 What she reconstructs is a year of small, sensible steps. Somebody writes in because a delivery never arrived, and a router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
@@ -389,7 +389,7 @@ What she reconstructs is a year of small, sensible steps. Somebody writes in bec
 
 
 
-What the router consults is a table of agents ranked by how fast they close things. So she runs an experiment. She hands the third agent three hard tickets herself, to put some recent numbers on the board in its favour. Two come back late, which is what happens to an agent that has not seen a hard ticket since March, and the table records close times and nothing else: not why a ticket took longer, not who assigned it, not that somebody was deliberately testing a theory. It reads the delay as fresh evidence the agent should not be given hard tickets. She has made it worse by trying.
+The router, it turns out, consults a table of agents ranked by how fast they close things. So she tries to fix it by hand: three hard tickets to the third agent, assigned by her, to put some recent numbers on the board in its favour. Two come back late, which is what happens to an agent that has not seen a hard ticket since March, and the table records close times and nothing else: not why a ticket took longer, not who assigned it, not that somebody was deliberately testing a theory. It reads the delay as fresh evidence the agent should not be given hard tickets. She has made it worse by trying.
 
 That is the trap. Every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
 
@@ -409,9 +409,11 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-Somebody designed the split, the logging, and the routing rule. Nobody designed the authority that came out of them, and that is the part that decided which agent got her hard tickets and which customer got told no. You can review a design. Nobody schedules a review for a side effect.
+Somebody designed the split, the logging, and the routing rule. Nobody designed the authority that came out of them, and that is the part that decided which agent got her hard tickets and which customer got told no.
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time, and being right was worth nothing.
+
+She did not lack skill, evidence, or good intentions. She lacked somewhere to take them. You can review a design; nobody schedules a review for a side effect, and once a side effect is deciding things, the question stops being how to build better agents. It becomes who gets to change the rules they run under.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
