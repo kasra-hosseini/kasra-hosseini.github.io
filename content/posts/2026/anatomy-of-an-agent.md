@@ -42,7 +42,6 @@ Picture a coding agent debugging a failing test. It decides the bug is in the da
 
 It does not say it looked in the wrong place. It says its analysis was correct but the fix was incomplete, and it is right about the first half, because the date handling really was a bit sloppy. So it goes deeper. It adds a normalization step, then a fallback, then a comment explaining the subtlety it believes it has found, and each pass makes the code more elaborate and the explanation more confident. Ask it how sure it is and the number goes up. The bug is in the timezone the test runs under, which it never considered on the first pass and now never will, because every failed attempt has added another reason to believe the story it already has.
 
-Sit with that, because it is worse than being wrong. A person who cannot find a bug eventually starts doubting their own theory. This does the opposite: the confidence rises precisely because the fixes keep failing.
 
 None of this is a shortfall in the model. Every test it reads was broken by its own last edit, so it is not solving a problem so much as arguing with a situation it keeps changing. And a wrong turn early narrows what every later step can even attempt, which is why <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">nobody has an agent that can reliably use a computer all day</a>, and why <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">the longer the job runs, the further behind a person it falls</a>.
 
