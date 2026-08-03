@@ -30,9 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Give an agent a filesystem tool it did not need and it will reorganise a directory nobody asked it to touch. Somebody notices that by lunchtime.
-
-The other decision, when it is allowed to stop, is the one nobody notices at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
+Give an agent a filesystem tool it did not need and it will reorganise a directory nobody asked it to touch by lunchtime, which is the kind of mistake that gets noticed and fixed. The decision about when it is allowed to stop is the one nobody notices at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
 
 
@@ -65,7 +63,7 @@ Nobody on that team decided the tester should be the one to catch it. It caught 
 
 The arrangement costs something of its own, and the cost is that three agents can disagree and nobody assigned anyone to settle it. The writer says the test was unfair. The breaker says it was not. Somebody has to settle that, and nobody built anything to settle it.
 
-So it gets settled by whatever is already there. What is already there is a count of how often each agent has had to be retried, which somebody added to decide which one to run again first. The breaker has been retried less, so the test stands. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
+So the test stands, and it stands because the breaker has needed fewer retries this week than the writer. Somebody had been counting retries to decide which agent to run again first, and that count is now the thing that decides which agent is believed. Nobody wrote it down as a decision about whose judgement counts. It is one anyway.
 
 
 A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
