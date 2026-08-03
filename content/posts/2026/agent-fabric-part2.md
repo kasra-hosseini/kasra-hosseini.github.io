@@ -347,9 +347,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 Four agents barely need organizing; one of them handing out jobs is plenty. It gets interesting when there are dozens and they can call each other, because then somebody has to decide who gets what, and that decision is not an implementation detail. It is the whole question.
 
-A dispatcher has to decide who is worth handing work to, and the moment any record of past results exists that record wins, because it is cheaper than asking and more accurate than trusting. A record of who did well is the first sentence of a hierarchy.
-
-Your phone already does this to you, in miniature. Something in front decides which of your agents sees a given request, and it gets better at that decision by watching which of its guesses you let stand. The uncomfortable part is that there is no version of this that does not keep score. To send the easy questions somewhere cheap, a dispatcher has to know which questions are easy, and the only way it learns that is by remembering how the last few thousand went.
+Your phone already does the second one to you. Something in front decides which agent sees a given request, and it gets better at that decision by watching which of its guesses you let stand. There is no version of this that does not keep score, because to send the easy questions somewhere cheap it has to know which questions are easy, and the only way it learns that is by remembering how the last few thousand went. A record of who did well is the first sentence of a hierarchy.
 
 And these arrangements stack, which is where it gets harder to see. You ask your research agent for a summary. It hires something to fetch the paper, that thing hires something to compress what it found, and the answer comes back forty seconds later looking like one clean response. Three layers each decided what the layer beneath was allowed to try, and you saw none of it. Nobody saw all of it, either, because each agent knows only who called it and who it called.
 
@@ -412,7 +410,7 @@ And these arrangements stack, which is where it gets harder to see. You ask your
 
 ## From Architecture to Institution
 
-Now swap the phone for something with a budget. A support desk needs several agents, a way to hand work between them, and something keeping score, which is the same three ingredients your phone assembled by accident. The difference is that when this one gets it wrong, the person on the other end is a stranger who cannot see any of it.
+That is the whole shape of it on a phone, where the system is yours and the worst it costs you is a missed message. Now give the same three ingredients a budget and a stranger on the other end.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
 

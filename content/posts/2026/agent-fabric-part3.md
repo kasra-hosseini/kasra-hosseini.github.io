@@ -231,7 +231,7 @@ Her refund is a good place to see that, because the rule that refused her had to
 
 Which means none of these arrangements is quite an institution in the usual sense. They behave like one while the actual enforcing is quietly subcontracted to whoever owns the machines. A market whose discovery layer belongs to one platform is not really a market; it is a shop with the platform's name over the door. So choosing a governance structure without naming who enforces it is half a design, and the half you skipped gets decided by somebody who has never heard of your project.
 
-The piece most often missing is the cheapest one. In a system with no way to appeal, every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it inherited that judgement as settled fact. Nothing in the desk is built to notice that. Anything contested, a score somebody disputes or an action that did real damage, needs a slower path that can go back and look again. Without one, errors do not surface. They compound.
+The cheapest piece is the one most often missing. In a system with no way to appeal, every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Anything contested, a score somebody disputes or an action that did real damage, needs a slower path that can go back and look again. Without one, errors do not surface. They compound.
 
 ## Where Authority Comes From
 
@@ -251,7 +251,7 @@ The drift that caught her has a name, and so do its cousins, which is the only r
 
 Which of these a team ends up with is mostly decided for them. Stable, well-understood work rewards the efficient arrangements. Novel work rewards the flexible ones. And drift that has already cost somebody money pushes hard toward fixed rules and mandatory checks, whether anyone wanted the overhead or not.
 
-The better instinct is to stop shopping for one arrangement at all. Strong systems separate the functions instead of choosing between them: something fast to execute, something bounding what it may do, something watching for drift, and somewhere to appeal. What matters is which of those powers sit apart from each other, because a system where one failure captures everything is a system nobody has to attack twice.
+The better instinct is to stop shopping for one arrangement at all. Split the functions instead: something fast that executes, something that bounds what it may do, something watching for drift, and somewhere a decision can be sent back. Had the desk kept those four apart, the risk score would still have flagged her account, and the appeal path would still have existed to say it was wrong.
 
 It is worth knowing in advance where this usually lands. Hard rules, total visibility, one authority at the top, all wrapped in logs and approvals and escalation paths, is bureaucracy, and bureaucracy is probably the most common agent-governance pattern that will actually ship. Not because anyone admires it, but because it answers the questions organizations get asked: what happened, who approved it, and who is answerable. Its failure mode is just as predictable, which is that the process becomes the point and agents get very good at satisfying forms instead of solving problems. In regulated domains you may not get a choice.
 
