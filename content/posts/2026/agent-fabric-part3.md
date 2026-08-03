@@ -248,9 +248,9 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 She tried complaining first, which meant replying to the email that had refused her. The reply invited her to reply. Whatever read her second letter was the thing that wrote the first one, and it had already decided what her return history meant. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
 
-Leaving is the option everyone assumes she has. She has ordered from that shop for six years because it stocks what she needs at prices she can afford, and the two shops that also do are running the same kind of desk, bought from the same kind of vendor, scoring her the same way on the same history. Walking out works when there is a different door. Increasingly there is one door and several signs on it.
+Leaving is the option everyone assumes she has. She looks. The two other shops that stock what she needs both ask her to create an account, and she has no way of knowing whether either one will read her return history the same way, because neither one will tell her and both of them bought their desk from somewhere.
 
-The third exit only exists for software. If you dislike how a program treats you and the source is open, you can copy the whole thing, change the rule, and run your own version. Nobody does that to a shop. She does not want her own retailer; she wants forty pounds back from this one.
+The third exit is the one that only exists on paper: run your own version, with the rule changed. She does not want her own retailer. She wants forty pounds back from this one.
 
 So she had none of the three.
 
@@ -276,7 +276,9 @@ This framework shares territory with several concurrent research programmes and 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
 
-Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Test the agent that answered her and it answers correctly every time. Nothing that happened to her is inside any agent. It is in the desk: who it lets decide, and how long a stale number keeps deciding for it.
+Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Test the agent that answered her and it answers correctly every time.
+
+Nothing that happened to her is inside any agent. It is in the desk: who it lets decide, and how long a stale number keeps deciding for it.
 
 ## What Is Still Unsolved
 

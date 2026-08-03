@@ -381,7 +381,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one. Logging went in a year ago. The router started reading it. Hard tickets went to whoever closed them fastest. She can see the exact week the third agent slipped, one slow March, and she can see that nothing has been asked of it since.
+Every step she finds is a sensible one. Logging went in a year ago, the router started reading it, and hard tickets went to whoever closed them fastest. She can see the exact week the third agent slipped, one slow March, and that nothing has been asked of it since.
 
 
 
@@ -411,11 +411,13 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Nobody gave the routing table authority over which agent had a career. It got that by being the only thing anyone wrote down, and she cannot argue with it because there is no argument to have: the table is accurate, and being accurate is all it was ever asked to be.
 
-She never lacked evidence. She lacked anywhere to take it. She was right the whole time, and being right was worth nothing.
+She never lacked evidence. She lacked anywhere to take it.
 
-What would have saved the third agent is dull enough to be disappointing. A second column next to close time, for how hard the ticket was. A rule written where the router reads, not in a doc, saying no agent goes a month without a hard ticket. A line in somebody's review meeting where the routing table appears as a thing that was decided rather than a thing that is accurate. Any one of the three, and Priya has something to point at in that meeting.
+What she thinks about, on the Fridays she does not open the log, is how cheap it would have been. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line where the router reads, saying no agent goes a month without a hard ticket, and the third agent is still there. She could have written either in an afternoon, in the same afternoon she wrote the router, if it had occurred to her that a log is a thing that decides.
 
-None of them is difficult. They are just nobody's job, because they are not features and they do not fix a bug, and the system works fine without them right up until somebody needs to argue with it. That is the actual cost of splitting work between agents: not that the split is wrong, but that the record you keep to make the split work becomes the only account of what happened, and it was never designed to be one.
+It did not occur to her, because it does not look like that when you are building it. It looks like a table. The cost of splitting work between agents is not that the split is wrong. It is that the record you keep to make the split work quietly becomes the only account of what happened, and nobody writes that record as though it will have to answer for anybody.
+
+She was right the whole time, and being right was worth nothing.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
