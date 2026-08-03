@@ -276,7 +276,7 @@ This framework shares territory with several concurrent research programmes and 
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record. Not one carries the reason.
+Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not that model any more: retrained twice since her refusal, on data that now includes her case. Older versions are still running, one of them from before the risk score existed. Every one carries her record. Not one carries the reason.
 
 A person can be found years later. A company can be sued a decade on. What actually refused her was a configuration that lasted six weeks, and it is not deleted or overturned, just superseded by the next version of the desk.
 

@@ -381,7 +381,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Every step she finds is a sensible one. On a Tuesday in March the third agent took eleven hours over a billing dispute. After that it sits at the bottom of a table nobody was watching, and it has not been asked a hard question since.
+Nothing she finds is a mistake. On a Tuesday in March the third agent took eleven hours over a billing dispute. After that it sits at the bottom of a table nobody was watching, and it has not been asked a hard question since.
 
 
 
@@ -413,11 +413,11 @@ Priya still works there. The routing table is still accurate, the third agent is
 
 She never lacked evidence. She lacked anywhere to take it.
 
-She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. She could have written either one in an afternoon. It never occurred to her, because a log is not a thing that decides. Except that it is, and it had been for a year.
-
-It did not, because it does not look like that while you are building it. It looks like a table. Nobody writes a table as though it will one day be the only account of what happened, and by the time it is, there is nobody to tell.
+She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. She could have written either one in an afternoon. It never occurred to her, because a log does not look like a thing that decides while you are building it. It looks like a table.
 
 She was right the whole time, and being right was worth nothing.
+
+Neither column would have made the desk fairer. They would have made it arguable, which is a different property, and the one she needed: somewhere the record can be contradicted, and somebody who has to answer when it is. Nobody schedules that work, because until the day somebody needs it, a table that nobody can argue with looks exactly like a table that is right.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">

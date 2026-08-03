@@ -59,7 +59,7 @@ There are only two ways out of this, and one of them is a person at the moments 
 
 Nobody on that team decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The third one never had to be clever either. It only had to be the one whose job was breaking things, on a test it had no reason to defend.
 
-Then the first agent says the test was unfair and the third says it was not, and something has to settle it. Nobody sits down to design that part. What settles it is whichever agent has been overruled less often, because somewhere in the setup there is a counter for that, added by whoever wanted to know which agent to retry first. Nobody wrote that counter down as a decision about whose judgement counts. It is one anyway.
+Then the first agent says the test was unfair and the third says it was not, and something has to settle it. Nobody sits down to design that part, so it gets settled by whatever is already lying around, which turns out to be a counter somebody added months ago to track which agent to retry first. The agent overruled less often wins the argument. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
 
 
 So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
