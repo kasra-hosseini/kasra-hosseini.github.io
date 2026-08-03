@@ -274,7 +274,7 @@ This framework shares territory with several concurrent research programmes and 
 
 She writes again, and this time somebody at the retailer agrees to look. The hard part turns out not to be technical: which agent owes her an explanation?
 
-The obvious place to look is the model that scored her, and it is not that model any more: retrained twice since her refusal, once on data that now includes her case. Ask it why and you are asking something that has already learned from the answer.
+The obvious place to look is the model that scored her. It has been replaced twice since, and each replacement learned from what happened to her, so the thing that made the decision is not there to be asked.
 
 A person can be found years later. A company can be sued a decade on. What actually refused her was a configuration that lasted six weeks, and it is not deleted or overturned, just superseded by the next version of the desk.
 
