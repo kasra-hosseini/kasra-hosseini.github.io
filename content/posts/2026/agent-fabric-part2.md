@@ -375,7 +375,7 @@ Think of an assistant on your phone that has stopped offering you things, not be
 
 On a phone that costs you a suggestion you might have wanted. Put several agents in a company, give one of them the job of deciding which of the others handles what, and let it consult a record of who did well last time. Somebody builds that on a Tuesday, and it does not feel like building an institution. It feels like adding logging. What follows is one of them, seen from the desk of the engineer who built it.
 
-Priya wrote the router: the piece of code that reads each incoming ticket and picks which agent handles it. Anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
+Priya built the thing that decides which agent gets which ticket, which means anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds is a habit that has been running long enough to pass for a rule, which is all a rule has to be.
 
@@ -387,7 +387,9 @@ On a Tuesday in March the third agent took eleven hours over a billing dispute. 
 
 
 
-So she tries to fix it by hand, assigning that agent three hard tickets herself. The table she is fighting has one column, close time, and no column for how hard the ticket was. Two come back late, which is what happens to an agent that has not had a hard ticket in a month, and what the table records is not that she gave a rusty agent difficult work. It records two more slow tickets. The agent drops further and the router asks it for even less. She tried to help, the table read the help as failure, and the agent she was defending is now worse off for having been defended.
+So she tries to fix it by hand, assigning that agent three hard tickets herself. She watches the first one close on time and feels, briefly, like she has proved something. The second and third come back late, which is what happens to an agent that has not had a hard ticket in a month, and by Friday she understands what she has done. The table has one column, close time, and no column for how hard the ticket was. It cannot record that she gave a rusty agent difficult work on purpose. It records two more slow tickets.
+
+The agent drops further and the router asks it for even less. She tried to help, the table read the help as failure, and the agent she was defending is now worse off for having been defended.
 
 There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet, and for seven months nothing about it seems urgent.
 
