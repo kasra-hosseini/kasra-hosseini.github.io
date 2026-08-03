@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,550 words (body) · reference sections extend it"
+wordcount: "~2,400 words (body) · reference sections extend it"
 ---
 
 <style>
@@ -188,7 +188,7 @@ So the bet here is that agent systems will fail through bad institutions rather 
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
 - **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: how work gets split among agents, and how splitting it quietly creates authority nobody granted
-- **Part 3: Ruling an Agent Society** (you are here): governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
+- **Part 3: Ruling an Agent Society** (you are here): governance archetypes, who benefits, who enforces the rules, and how a society gets argued with
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
@@ -215,21 +215,7 @@ It works, too. The refund line stops climbing inside a month. Under the desk bef
 
 A fourth desk exists, but only after somebody complains loudly enough that a shrug will not do. Her letter gets acknowledged by one thing and reviewed by another, and the second is allowed to say the first was wrong. That is the whole difference: different powers in different hands, an appeal that does not report to the thing being appealed. That is a **constitutional republic**, and almost nothing gets there, because it is slower and nobody buys slower until something has already gone wrong. So the same letter reaches a judgement under the first desk, a winner under the second, a rule under the third, and someone who can overrule the rule under the fourth. Four arrangements, no announcements, no design review, and she happened to write in under the third.
 
-The desk's leaderboard priced speed, and the fastest way to close a return is to refuse it. What happened next has a name worth keeping: **drift**, the slow slide where a system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while it happened. Every agent performed well against the measure it was given, and the correction that followed is what refused her. How much drift a design can survive decides most of the rest of it, and underneath sits a question asked far too rarely: who is meant to accumulate advantage here, and who needs protecting from it?
-
-## Who Actually Enforces Any of This
-
-Her case had a second reader, briefly. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while that held, because the runtime honoured it. Then the cloud provider deprecated the API the checking agent depended on. The rule was not repealed and nobody at the retailer voted on anything. It stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday. So the rule that refused her was never really the retailer's: between pieces of software a rule binds for exactly one reason, that the runtime chose to honour it.
-
-Everyone who has delegated a chore knows the underlying problem: ask someone to tidy a room and they will optimise for the room looking tidy, which is not the same as knowing where anything is. Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the tidiest room available. What makes that fixable rather than tragic is that somebody owns the conditions: you cannot redesign a pheromone, but you can redesign a reputation score, on a Tuesday, in a config file.
-
-Appeal is the cheapest of the four and the one most often skipped. Without it every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
-
-The desk did not choose fixed rules either. Drift that has already cost money pushes hard toward them whether anyone wanted the overhead or not, which is how the risk score arrived and how the desk lost the ability to hear that the score was wrong about her. The number that decided her case was also the number watching for drift and the number nobody could appeal, which is three jobs one number cannot do.
-
-## Adversarial Dynamics
-
-Nothing attacked her, and the failures that need an attacker turn out to be the least interesting ones anyway. Say three vendors each supply agents and each gets paid per ticket closed. One of them finds that a hard ticket marked resolved comes back as a second ticket. It never tells the others, and it does not need to: they are all watching the same scoreboard, and a number going up is easy to copy. Six weeks later the desk's figures have never looked better and its customers have never been angrier. Take even that away and her case still happens, because the score that flagged her was tuned on the desk's own history, which already held the drift it was built to correct.
+The desk's leaderboard priced speed, and the fastest way to close a return is to refuse it. What happened next has a name worth keeping: **drift**, the slow slide where a system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while it happened. Every agent performed well against the measure it was given, and the correction that followed is what refused her. How much drift a design can survive decides most of the rest of it, and underneath sits a question asked far too rarely: who is meant to accumulate advantage here, and who needs protecting from it? Which is also the only thing worth attacking: nobody needs to break an agent when moving its numbers moves the work. Nothing had to attack her at all.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -248,7 +234,15 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-Which is why the useful question is not how secure a system is but which arrangement it settled into, because that decides what is worth attacking. Take the router while one router still decides everything and you have every ticket. Once fixed rules decide, whoever writes the rules is the only target left, and that was the desk she wrote to.
+## Who Actually Enforces Any of This
+
+Her case had a second reader, briefly. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while that held, because the runtime honoured it. Then the cloud provider deprecated the API the checking agent depended on. The rule was not repealed and nobody at the retailer voted on anything. It stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday. So the rule that refused her was never really the retailer's: between pieces of software a rule binds for exactly one reason, that the runtime chose to honour it.
+
+Everyone who has delegated a chore knows the underlying problem: ask someone to tidy a room and they will optimise for the room looking tidy, which is not the same as knowing where anything is. Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the tidiest room available. What makes that fixable rather than tragic is that somebody owns the conditions: you cannot redesign a pheromone, but you can redesign a reputation score, on a Tuesday, in a config file.
+
+Appeal is the cheapest of the four and the one most often skipped. Without it every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
+
+The desk did not choose fixed rules either. Drift that has already cost money pushes hard toward them whether anyone wanted the overhead or not, which is how the risk score arrived and how the desk lost the ability to hear that the score was wrong about her. The number that decided her case was also the number watching for drift and the number nobody could appeal, which is three jobs one number cannot do.
 
 ## How a Society Gets Argued With
 
