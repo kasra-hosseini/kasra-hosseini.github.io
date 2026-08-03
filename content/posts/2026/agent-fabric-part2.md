@@ -393,7 +393,7 @@ There is nothing to delete, and nowhere to write down the one thing that would e
 
 ## What the Record Costs
 
-Months later the agent is retired for underperformance, which leaves two that have always agreed with each other, because they were the two the router kept choosing. One of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
+Months later she opens the log and the third agent is not in it. Somebody has retired it for underperformance, which the table supports, and nobody thought the decision worth mentioning to her. That leaves two that have always agreed with each other, because they were the two the router kept choosing. One of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
 
 Priya is in that meeting, and she knows exactly what happened. She could say the comparison was destroyed by a routing preference nobody chose, that she watched it happen, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her.
 
@@ -413,7 +413,7 @@ Priya still works there. The routing table is still accurate, the third agent is
 
 She never lacked evidence. She lacked anywhere to take it.
 
-She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. She could have written either one in an afternoon. It never occurred to her, because a log does not look like a thing that decides while you are building it. It looks like a table.
+She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. Either one was an afternoon's work. Neither occurred to anybody, because while you are building it a log looks like a table.
 
 Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 

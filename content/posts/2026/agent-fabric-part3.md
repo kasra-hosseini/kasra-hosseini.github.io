@@ -217,7 +217,7 @@ So the same letter reaches a judgement, then a winner, then a rule, then someone
 
 Every one of those desks needed a record to exist at all, and plenty of software keeps records. This one decided who would read her letter.
 
-Nothing was broken while that happened. Every agent performed well against the measure it was given, and when finance noticed the refund line and bolted on a risk score, that correction was reasonable too. She is the one who paid for both. The question nobody asks early enough is who an arrangement is meant to favour, and who needs protecting from it.
+Nothing broke while that happened. Every agent did well against the measure it was given, and when finance noticed the refund line and bolted on a risk score, that correction was reasonable too. She is the one who paid for both. The question nobody asks early enough is who an arrangement is meant to favour, and who needs protecting from it.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -238,7 +238,7 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 There was supposed to be a check on exactly this: the written rule said refunds above her amount get read by a second agent, which the retailer rented from another company.
 
-That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying, because the thing enforcing it was never the retailer's. Her letter arrived on the Thursday and got one reader, and the rule that would have caught her case had lasted exactly as long as somebody else's machines kept enforcing it.
+That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying. Her letter arrived on the Thursday and got one reader, and nobody at the retailer knew the difference, because the rule was still there in the policy document where they had written it.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled. It was a number in a config file with her name nowhere near it. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
 
