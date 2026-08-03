@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,450 words (body) · ~2,000 words (notes)"
+wordcount: "~1,350 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -385,9 +385,7 @@ After a month the router sends complex billing disputes only to the two agents t
 
 Six weeks in, an engineer called Priya notices that the third agent has not handled a hard ticket since March, and raises it at standup. Everyone agrees it looks wrong. Nobody can find the decision. There is no config flag, no policy document, no ticket where anyone chose this, and the only artefact is a table of resolution times that everybody agrees is accurate. Priya can override the routing, and she knows what will happen if she does: the numbers will get worse, and she will be the person who made them worse.
 
-She leaves it. Not out of cowardice: she has no argument to make, because the routing table is not wrong about anything. It faithfully records that one agent had a bad month in a job where bad months are remembered. She could say that at the next standup and everyone would nod, and the tickets would keep going to the other two. You have done the same thing on a smaller scale: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too.
-
-Notice what she could not do. She could have taken any single ticket and handed it to the third agent herself, and nobody would have stopped her. What she could not touch was the standing preference about who gets the hard tickets at all, or the question of who is allowed to change it. Nobody at that retailer would call the routing table a rule, which is exactly what makes it one: six months on it is still acting on a preference it formed in its first month, and it will outlast Priya, the tickets that produced it, and anyone who remembers the month it formed.
+She leaves it. She could have taken any single ticket and handed it to the third agent herself, and nobody would have stopped her. What she could not touch was the standing preference about who gets the hard tickets at all, or who is allowed to change it. Nobody at that retailer would call the routing table a rule, which is exactly what makes it one, and she has no argument against it because it is not wrong about anything.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
@@ -397,7 +395,7 @@ A research team builds a Map-Reduce pipeline: multiple agents search different d
 This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
 </details>
 
-Priya at least had a table to look at. That is temporary: training a model on the logs makes the routing faster and removes the lookup, and then the preference is spread through the thing that makes every decision, with no line left to delete. She walked away from a spreadsheet. A year later there would be no spreadsheet to walk away from.
+You have done the same thing on a smaller scale: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too. Priya at least had a table to look at, and that is temporary, because training a model on the logs makes the routing faster and removes the lookup, and then the preference is spread through the thing that makes every decision with no line left to delete. She walked away from a spreadsheet. A year later there would be no spreadsheet to walk away from.
 
 None of this is bad in itself. A structure that forms around real competence often serves the people relying on it, and what separates that from the desk she wrote to is not how it started but whether anyone can push back. Every system here logs who did the work, how it went, and what it cost. None of them logs who said it could.
 

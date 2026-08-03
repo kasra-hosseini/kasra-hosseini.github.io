@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,700 words (body) · reference sections extend it"
+wordcount: "~2,550 words (body) · reference sections extend it"
 ---
 
 <style>
@@ -193,17 +193,13 @@ So the bet here is that agent systems will fail through bad institutions rather 
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-A group that remembers like that is a society in the only sense that matters here, because governance grows out of what gets remembered. In one year that desk will pass through four recognisable ways of being governed, an autocracy, a meritocracy, a doctrine, and a constitutional republic, and nobody at the retailer will decide on any of them.
+Governance grows out of what gets remembered, and in one year that desk will pass through four recognisable ways of being governed, an autocracy, a meritocracy, a doctrine, and a constitutional republic, without anyone at the retailer deciding on a single one of them.
 
 ## What Governance Actually Is
 
 She hit a rule and could not reach the thing that made it. That is the whole distinction, and it carries the rest of this post: the flag on her account is an **institution**, a standing rule about who may do what, and everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
 
-It starts a year before her email, with the leaderboard working. The two best agents get the hard billing disputes, everyone is happy, resolution times drop. What nobody notices is that the metric is resolution time, and the fastest way to resolve a hard dispute is to approve the refund. So the two most trusted agents on the desk gradually become the two most generous, and the leaderboard rewards them for it. No agent lied. No attacker was involved. The scoreboard simply measured the wrong thing and everyone competed honestly.
-
-Then somebody in finance notices the refund line. A risk score gets bolted on and tuned hard, because the drift had to be stopped, and her account is one of the ones it catches. Every step was reasonable, nobody chose the outcome, and there is nobody for her to appeal to because no single person decided anything.
-
-Notice what the router had become for that to happen. Forwarding traffic is playing the game. Keeping score and deciding who may touch what is writing the rules the game runs on, and the desk crossed from one to the other the month it started keeping score. A cache remembers too and governs nothing; what makes these records different is that they decide who gets work tomorrow.
+Notice what the router had to become before a scoring system could refuse her at all. Forwarding traffic is playing the game; keeping score and deciding who may touch what is writing the rules the game runs on, and the desk crossed from one to the other the month it started keeping score. What makes those records different from a cache is that they decide who gets work tomorrow.
 
 ## Where Authority Comes From
 
