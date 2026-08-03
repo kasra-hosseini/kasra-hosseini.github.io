@@ -203,7 +203,7 @@ That desk is now a **society**, and the bar for that word is lower than it sound
 
 ## What Governance Actually Is
 
-One distinction carries the rest of this post. The rule that flagged her account is an **institution**: a standing rule about who may do what. Everything around that rule, applying it and deciding who may change it, is **governance**. She lost to the first and had no access to the second, and that gap is the whole subject. Now go back to the desk that refused her, because it did not start out capable of doing that.
+She hit a rule and could not reach the thing that made it. That is the whole distinction, and it carries the rest of this post: the flag on her account is an **institution**, a standing rule about who may do what, and everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
 
 It starts a year before her email, with the leaderboard working. The two best agents get the hard billing disputes, everyone is happy, resolution times drop. What nobody notices is that the metric is resolution time, and the fastest way to resolve a hard dispute is to approve the refund. So the two most trusted agents on the desk gradually become the two most generous, and the leaderboard rewards them for it. No agent lied. No attacker was involved. The scoreboard simply measured the wrong thing and everyone competed honestly.
 
@@ -318,7 +318,7 @@ The discomfort in that is specific. Nobody on that desk's team did anything wron
 
 ## What Is Still Unsolved
 
-A fair amount of this is unsolved, and the hardest part is not technical. Go back to the customer whose refund was refused. Suppose she pushes, and somebody agrees to look. Which agent owes her an explanation?
+The hardest part of this is not technical. Suppose she pushes, somebody agrees to look, and the question is which agent owes her an explanation.
 
 The one that scored her has been retrained twice since, on data that now includes her case. There are four copies of it running, one of them rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. Ask which one decided and there is no answer that survives contact with how these systems actually work, because the thing that decided was a configuration that existed for six weeks and no longer exists anywhere.
 
