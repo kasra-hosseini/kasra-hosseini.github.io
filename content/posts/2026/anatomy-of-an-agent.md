@@ -37,7 +37,7 @@ The loop is just this: the agent looks at the situation, decides what to do, doe
 
 ## When the Loop Improves Itself
 
-An agent that keeps notes on its own failures gets better at the work in a way that turning the loop alone never delivers, because the output of one pass becomes the input to the next and it is building on the last attempt rather than repeating it. Systems that <a href="https://arxiv.org/abs/2303.11366" target="_blank" rel="noopener">keep their own critiques</a> and turn the procedures that keep working into <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">reusable skills</a> already exist.
+Some agents keep notes on their own failures. One that wasted forty minutes on a test that was failing because the database was not running writes down that lesson, reads it next time, and does not waste the forty minutes again. Do that across fifty tasks and it is working from a file of hard-won rules; keep going and the ones that keep working stop being notes and become <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">tools it can call by name</a>. This is the difference between turning the loop and getting better at something.
 
 And it is where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
 
@@ -61,7 +61,7 @@ Underneath all three is the same root problem. One loop runs one set of habits, 
 
 There are only two ways out of this, and one of them is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. Split the job, so one writes, a second writes tests without seeing the first one's reasoning, and a third tries to break the result. None is more capable than the original. But the second is not invested in the first one's mistake, and the third is rewarded for finding it, so the timezone gets checked by something with no story to protect.
 
-Which is where this stops being about one agent. The moment there are several, somebody has to decide who does what, who checks whom, and whose judgement wins when two of them disagree. Those are questions about power, and they answer themselves whether or not anyone is paying attention.
+Which is where this stops being a question about agents and becomes a question about arrangements. Three agents checking each other is already a small institution: somebody decides who does what, somebody decides who checks whom, and when two of them disagree something has to settle it. Nobody sits down to design that. It gets settled anyway, by whichever agent happens to be trusted, and trust here is just a number somebody started recording.
 
 ---
 

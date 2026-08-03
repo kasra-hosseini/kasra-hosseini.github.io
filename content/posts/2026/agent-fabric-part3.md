@@ -255,7 +255,7 @@ Whatever you pick, you are also picking winners. Watch it happen on the desk. Si
 
 The mechanism is not specific to leaderboards. Any arrangement that remembers ends up favouring whoever was there when it started remembering. Reputation compounds, so early arrivals keep winning. A group with no central authority runs on the habits of whoever set the defaults. And a meritocracy, the arrangement that sounds fairest of all, hands the real power to whoever writes the metric. On the desk that meant two fast refunders and one agent that never recovered from a bad month.
 
-None of this is abstract for long. A coding assistant and a warehouse robot fleet both think of themselves as tools rather than constitutions, and both have made governance choices anyway: the assistant decided which model gets trusted with what, the fleet decided that safety rules outrank throughput and a central dispatcher outranks both. Neither filed paperwork. That is what having names for these structures buys you, the ability to look at something already running and say what it has quietly become. (Worked examples across three horizons live in the [field guide](/posts/2026/delegation-patterns-field-guide/#societies-in-the-wild).)
+None of this is abstract for long. A coding assistant and a warehouse robot fleet both think of themselves as tools rather than constitutions, and both have made governance choices anyway: the assistant decided which model gets trusted with what, the fleet decided that safety rules outrank throughput and a central dispatcher outranks both. Neither filed paperwork. That is what having names for these structures buys you, the ability to look at something already running and say what it has quietly become.
 
 ## Adversarial Dynamics
 
@@ -284,9 +284,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-Which is why "how secure is it" is the wrong question to ask about any of this. Each arrangement is hard to break in one way and soft in another, and the softness follows the authority. Capture the desk's router while it is still an autocracy and you own every ticket. Once it runs on hard rules instead, individual agents stop being worth attacking and whoever writes the rules becomes the whole target. And a colony, where nobody has standing to notice manipulation, is simply the softest thing on the list. Ask which attack you actually expect, not how strong the walls are.
-
-Notice too that the thing being attacked is never one agent. It is the tree, the reputation store, and the memory joining them: a compromised code model writes a backdoor, a test runner that trusts it waves the backdoor through, and a poisoned score then sends more sensitive work toward the model that planted it. Three components, each behaving correctly, and the failure lives in the gaps between them.
+Which is why "how secure is it" is the wrong question. The thing being attacked is never one agent. It is the tree, the reputation store, and the memory joining them, so a compromised code model writes a backdoor, a test runner that trusts it waves the backdoor through, and a poisoned score then sends more sensitive work toward the model that planted it. Three components, each behaving correctly, and the failure living in the gaps between them. Which arrangement you chose decides where those gaps are: capture the desk's router while it is still an autocracy and you own every ticket, while under hard rules individual agents stop being worth attacking and whoever writes the rules becomes the whole target. Ask which attack you actually expect, not how strong the walls are.
 
 ## How a Society Gets Argued With
 
