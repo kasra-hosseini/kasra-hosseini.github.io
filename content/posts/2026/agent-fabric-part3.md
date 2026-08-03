@@ -197,7 +197,7 @@ Nothing any agent told her was untrue. Every answer was correct and the arrangem
 
 ## Four Desks in One Year
 
-She hit a rule and could not reach whoever decides what the rules are, and the desk had not started out capable of either. She was also not the first person to write in about a refund. What she eventually got was four polite sentences and no way to reply to them, and the reason is that the desk had already been three other things by the time her letter arrived. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Watch what happens to her letter under each one.
+What she eventually got was four polite sentences and no way to reply to them, and the reason is that the desk had already been three other things by the time her letter arrived. Not four options anyone weighed up: four things the same desk turned into, in order. Watch what happens to her letter under each one.
 
 **The first desk, day one.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. One router is the simplest thing that works, which is why the desk started here, and the price is that on the day it is wrong about her there is nothing else in the room.
 
@@ -252,9 +252,9 @@ She has two ways to argue with any of this, and she tries them both. The first i
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
-Back at the second desk, an agent was quietly dropped to the bottom of a leaderboard for one slow month. It has the same two options she does, and gets the same nowhere: it cannot say the metric is wrong, because saying so is itself a mark against it, and it cannot go and be a support agent somewhere else. Neither of them can leave, so neither of them gets heard.
+The agent dropped to the bottom of the leaderboard back at the second desk cannot complain either. Saying the metric is wrong is itself a mark against it, and there is nowhere else for it to work. Neither of them can leave, so neither of them gets heard.
 
-The rule that refused her could have been written down. Not in a policy document, but in the same file the system reads, with two lines under it: who may change this, and what happens when somebody says it is wrong.
+Nothing about the rule that refused her was written down anywhere a person could find it. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
 
 Somebody could also have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 

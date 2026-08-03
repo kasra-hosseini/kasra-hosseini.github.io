@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Getting those choices wrong usually shows: give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. One of them gives you nothing to notice, ever, no matter how wrong it goes.
+Somebody chose which tools it gets, what it is told to do, and when it is allowed to stop. Getting those wrong usually shows: give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. One of them gives you nothing to notice, ever, no matter how wrong it goes.
 
 Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
