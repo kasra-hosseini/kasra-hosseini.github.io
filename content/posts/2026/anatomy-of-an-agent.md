@@ -29,7 +29,7 @@ Remove the loop and it is a chatbot again; remove the tools and it can think wit
 
 ## What the Loop Needs
 
-Every piece of that apparatus is something a person chose, and most of those choices announce themselves when they are wrong. Give an agent the wrong tools and it fails at lunchtime. Give it the wrong instructions and it spends an afternoon doing something competent that nobody asked for. One choice does not announce anything: ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself.
+Every piece of that apparatus is something a person chose, and most of those choices announce themselves when they are wrong. Hand it the wrong tools and it fails by lunchtime; hand it the wrong instructions and it spends an afternoon doing something competent that nobody asked for. One choice does not announce anything: ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself.
 
 The stakes of getting those choices wrong are set by what you let it reach. Deleting the wrong file costs an afternoon and a restore from backup; a robot arm that has already swung costs something else, and no amount of apologising unswings it. Reading files is safe, calling a well-behaved service is safe, driving a browser is merely messy because pages change underneath you. Same loop, same model, and how much you should worry depends entirely on which of those somebody handed it.
 
