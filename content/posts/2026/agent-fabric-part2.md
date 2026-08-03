@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Think of an assistant on your phone that has stopped offering you things, not because you switched it off but because you dismissed it a few times when you were busy and something in there is keeping score. It suggests less, so you dismiss it less, so it suggests less again. Nothing in your phone was granted the authority to demote it. You voted for it, one dismissal at a time, without knowing there was an election.
+Think of an assistant on your phone that has stopped offering you things, not because you switched it off but because you dismissed it a few times when you were busy and something in there started keeping score. Nothing in your phone was granted the authority to demote it. You voted for it, one dismissal at a time, without knowing there was an election.
 
 
 

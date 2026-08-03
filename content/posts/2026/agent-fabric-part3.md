@@ -246,7 +246,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 So she complains, which means replying to the email that refused her. The reply comes back in four minutes, thanks her for the additional information, and repeats the second paragraph of the first one. Whatever read her letter is what wrote the letter, and it had already decided what her return history means. An appeal heard by the party you are appealing against is not an appeal.
 
-Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years. She stops with the cursor in the box, because she has no way of knowing what that address is worth here, and no way of finding out until it is worth something.
+Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years. She stops with the cursor in the box, because she has no way of knowing what six years is worth at this shop either.
 
 Nothing about the rule that refused her was written down anywhere she could have found it, and nowhere the people who built the desk could have found it either. There was no line naming who was allowed to change it, and none saying what happens when somebody says it is wrong, because nobody had ever needed those lines until she wrote in.
 
@@ -270,7 +270,7 @@ This framework shares territory with several concurrent research programmes and 
 
 She writes again, and this time somebody at the retailer agrees to look. The hard part turns out not to be technical: which agent owes her an explanation?
 
-The obvious place to look is the model that scored her, and it has been replaced twice since. Each replacement learned from what happened to her. The thing that made the decision is not there to be asked.
+The obvious place to look is the model that scored her, and it is not there any more. It has been replaced twice, and each replacement learned from her case, so the thing that made the decision has been absorbed by the things that came after it.
 
 A person can be found years later, and a company can be sued a decade on. What refused her was a configuration that lasted six weeks, not deleted or overturned but superseded, so there is nothing left that made the decision. Not a missing record: a missing thing. That is why nobody can unmake it, and why an apology would have nowhere to come from even if somebody wanted to give her one.
 
