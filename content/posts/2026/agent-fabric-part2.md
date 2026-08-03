@@ -409,13 +409,13 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Nobody gave the routing table authority over which agent had a career. It got that by being the only thing anyone wrote down, and she cannot argue with it because there is no argument to have: the table is accurate, and being accurate is all it was ever asked to be.
+Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Nobody gave that table authority over which agent had a career. It got that by being the only thing anyone wrote down.
 
 She never lacked evidence. She lacked anywhere to take it.
 
 She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. She could have written either one in an afternoon. It never occurred to her, because a log does not look like a thing that decides while you are building it. It looks like a table.
 
-Either column would have given her something to point at in that meeting, which is all she ever needed and nobody puts on a roadmap. Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
+Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
 She was right the whole time, and being right was worth nothing.
 
