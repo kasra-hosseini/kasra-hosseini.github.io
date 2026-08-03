@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Think of an assistant on your phone that has stopped offering you things, because you dismissed it a few times when you were busy and something in there started keeping score. Nothing in your phone was granted the authority to demote it. You voted for it, one dismissal at a time, without knowing there was an election.
+An assistant on your phone stops offering you things, because you dismissed it a few times when you were busy and something in there started keeping score. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
 
 
@@ -373,7 +373,7 @@ Think of an assistant on your phone that has stopped offering you things, becaus
 <p style="color: #555;"><a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener" class="red-link">MCP</a> standardizes how AI systems connect to tools and data sources; <a href="https://a2a-protocol.org/" target="_blank" rel="noopener" class="red-link">A2A</a> points toward agent-to-agent interoperability. Neither, by itself, solves the whole problem of an open specialist market. The <a href="https://arxiv.org/abs/2410.11905" target="_blank" rel="noopener" class="red-link">Agora protocol</a> (not to be confused with the Agora governance archetype in [Part 3](/posts/2026/agent-fabric-part3/)) frames this as an Agent Communication Trilemma: versatility, efficiency, and portability pull against one another. The likely future is not one universal protocol, but a stack: tool access, agent identity, delegation, settlement, provenance, and audit. A comprehensive <a href="https://arxiv.org/abs/2504.16736" target="_blank" rel="noopener" class="red-link">survey of agent protocols</a> maps the current landscape.</p>
 </details>
 
-On a phone that costs you a suggestion you might have wanted. Put several agents in a company, give one of them the job of deciding which of the others handles what, and let it consult a record of who did well last time. Nobody building that on a Tuesday feels like they are building an institution. It feels like adding logging.
+On a phone that costs you a suggestion you might have wanted. Give one agent in a company the job of deciding which of the others handles what, let it consult a record of who did well last time, and the cost lands on somebody else. Nobody building that on a Tuesday feels like they are building an institution. It feels like adding logging.
 
 Priya built the thing that decides which agent gets which ticket, which means anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
