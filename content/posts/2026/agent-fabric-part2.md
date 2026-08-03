@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-An engineer called Priya once spent an afternoon looking for a rule that did not exist. Before her, though, the version of it already in your pocket: an assistant that has stopped offering you things. Not because you switched it off, but because you dismissed it a few times in a row when you were busy, and something in there is keeping score. It now suggests less, so you dismiss it less, so it suggests less again. Nothing in your phone was granted the authority to demote it. You never wrote that rule either. You voted for it, one dismissal at a time, without knowing there was an election.
+Think of an assistant on your phone that has stopped offering you things. Not because you switched it off, but because you dismissed it a few times in a row when you were busy, and something in there is keeping score. It now suggests less, so you dismiss it less, so it suggests less again. Nothing in your phone was granted the authority to demote it. You never wrote that rule either. You voted for it, one dismissal at a time, without knowing there was an election.
 
 
 
@@ -413,7 +413,7 @@ Priya still works there. The routing table is still accurate, the third agent is
 
 She never lacked evidence. She lacked anywhere to take it.
 
-She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. She could have written either in an afternoon, in the same afternoon she wrote the router, if it had occurred to her that a log is a thing that decides.
+She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. She could have written either one in an afternoon. It never occurred to her, because a log is not a thing that decides. Except that it is, and it had been for a year.
 
 It did not, because it does not look like that while you are building it. It looks like a table. Nobody writes a table as though it will one day be the only account of what happened, and by the time it is, there is nobody to tell.
 
