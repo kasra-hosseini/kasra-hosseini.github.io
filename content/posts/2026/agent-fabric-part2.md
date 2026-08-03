@@ -375,7 +375,7 @@ Your phone buzzes in the middle of a meeting you told it to protect. One assista
 
 ## From Architecture to Institution
 
-On a phone the worst this costs is your own afternoon. Change one thing about that arrangement, though, and it costs somebody else theirs: keep the record, but make it about a stranger who will never see it and has no dismissal to register.
+On a phone the worst this costs is your own afternoon. Change one thing about that arrangement, though, and it costs somebody else theirs: keep the record, but make it about a stranger who will never see it and has no dismissal to register. Somebody has to build that, and it does not feel like building an institution at the time. It feels like adding logging.
 
 Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
@@ -389,7 +389,7 @@ Every step she finds is a sensible one. Somebody writes in because a delivery ne
 
 
 
-The router, it turns out, consults a table of agents ranked by how fast they close things. So she tries to fix it by hand: three hard tickets to the third agent, assigned by her, to put some recent numbers on the board in its favour. Two come back late, which is what happens to an agent that has not seen a hard ticket since March, and the table records close times and nothing else: not why a ticket took longer, not who assigned it, not that somebody was deliberately testing a theory. It reads the delay as fresh evidence the agent should not be given hard tickets. She has made it worse by trying.
+The router, it turns out, consults a table of agents ranked by how fast they close things. So she tries to fix it by hand, assigning the third agent three hard tickets herself. Two come back late, which is what happens to an agent that has not seen a hard ticket since March. The table records close times and nothing else, so it reads the delay as fresh evidence the agent should not be given hard tickets. She has made it worse by trying.
 
 That is the trap. Every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
 
