@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,300 words (body) · ~2,000 words (notes)"
+wordcount: "~1,250 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -312,9 +312,9 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-You will probably end up with a handful of personal agents: something managing your calendar, something triaging your messages, something tracking your sleep. Nobody wires them together, but the calendar agent notices you decline meetings during focused work and the messages agent learns to hold things until a gap opens. Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
+You will probably end up with a handful of personal agents: one managing your calendar, one triaging your messages. Nobody wires them together, but the calendar agent notices you decline meetings during focused work and the messages agent learns to hold things until a gap opens. Then two of them want opposite things. The messages agent has something urgent; the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
-Three months in you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway. Something logged every one of those dismissals, because logging is free and obviously useful, and the record is more consistent than you are, so you are now arguing with a policy you wrote by accident. Your phone can tell you who asked, what happened, and what it cost. It cannot tell you who authorised any of it, because nobody did, and that missing fourth answer is the difference between a log and a rule.
+Try to give the messages agent more room later and it hesitates anyway, because something logged every one of those dismissals and the record is more consistent than you are. You are now arguing with a policy you wrote by accident.
 
 The rest of this post is about how that adds up while nobody is looking.
 
@@ -383,7 +383,7 @@ Somebody writes in because a delivery never arrived. A router reads the message,
 
 After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The next person whose delivery goes missing is routed by a record rather than by a category, and neither they nor anyone at the company could tell you that changed. When a new agent joins, whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router taught itself, or wait. The deployment team can override that, but only by making the service worse, which in practice means they will not.
 
-Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. She raises it at standup. Everyone agrees it looks wrong, and nobody can find the decision: no config flag, no policy document, no ticket where anyone chose this, only a table of resolution times that everybody agrees is accurate. She could hand the third agent any single ticket herself and nobody would stop her. What she cannot touch is the standing preference about who gets the hard ones at all, or who is allowed to change it.
+Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. She raises it at standup. Everyone agrees it looks wrong, and nobody can find the decision: no config flag, no policy document, no ticket where anyone chose this, only a table of resolution times that everybody agrees is accurate. Somewhere in the queue is a customer whose fragile-item return will be handled by whichever agent the table prefers, and nobody in the room can say why that is the one. She could hand the third agent any single ticket herself and nobody would stop her. What she cannot touch is the standing preference about who gets the hard ones at all, or who is allowed to change it.
 
 She leaves it. Overriding the routing would make the numbers worse and make her the person who made them worse, and she has no argument to offer against a table that is not wrong about anything. Nobody at that retailer would call it a rule, which is exactly what makes it one.
 
