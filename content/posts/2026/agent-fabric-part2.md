@@ -379,7 +379,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Nothing she finds is a mistake. One Tuesday the third agent took eleven hours over a billing dispute, and that was the last hard question it was ever asked.
+Nothing she finds is a mistake. One Tuesday the third agent took eleven hours over a billing dispute. That was the last hard question anybody asked it.
 
 
 
@@ -409,11 +409,13 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Nobody gave that table authority over which agent had a career. It got that by being the only thing anyone wrote down.
+Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use.
+
+Nobody gave that table authority over which agent had a career. It got that by being the only thing anyone wrote down, and once it had that authority there was no procedure for taking it back, because nobody had noticed handing it over.
 
 She never lacked evidence. She lacked anywhere to take it.
 
-She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. Either one was an afternoon's work. Neither occurred to anybody, because while you are building it a log looks like a table.
+She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have read as evidence instead of damage. One line in the file the router actually reads, saying no agent goes a month without a hard ticket, and the third agent is still working. She could have written either in an afternoon, on any of the days before it mattered, and it never occurred to her, because while you are building it a log looks like a table.
 
 Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
