@@ -26,7 +26,7 @@ Something was built around it, and that something is the difference between desc
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
 
-Take away the loop and it is a chatbot again. Take away memory and something stranger happens: it does not get dumber in any measurable way, it stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
+Take away the loop and it is a chatbot again. Take away memory and something stranger happens. It does not get dumber in any measurable way. It stays exactly as capable as it was, and walks into the same dead end every twenty minutes, with full confidence, forever.
 
 ## What the Loop Needs
 
@@ -34,7 +34,7 @@ Give an agent a filesystem tool it did not need and by lunchtime it has reorgani
 
 The quiet one is the decision about when it is allowed to stop. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself.
 
-Nothing announces that, and what it costs depends entirely on what somebody let the agent reach. A wrong file costs an afternoon. A robot arm that has already swung costs whatever it hit.
+Nothing announces that. What it costs depends entirely on what somebody let the agent reach: a wrong file means an afternoon and a restore from backup, and an arm that has already swung means whatever it hit stays hit.
 
 
 
