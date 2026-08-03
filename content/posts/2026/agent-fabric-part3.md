@@ -244,7 +244,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nobody built her a way to dispute it, which is the cheapest thing a desk can have and the first thing left out. Without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-Which arrangement a desk ends up in is mostly decided for it, and drift that has already cost money pushes hard toward fixed rules. That is how one score ended up setting how fast the desk ran, what it could approve, and whether anything could be sent back. It was also the number that refused her.
+No desk chooses this either. Drift that has already cost money pushes hard toward fixed rules, which is how one score ended up setting how fast this desk ran, what it could approve, and whether anything could be sent back. It was also the number that refused her.
 
 ## How a Society Gets Argued With
 
@@ -280,7 +280,7 @@ Here is the uncomfortable part. Nobody on that desk's team did anything wrong, n
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-Start with the obvious candidate, the model that scored her, and it cannot answer. Models do not sit still: this one has been retrained twice since, on data that now includes her case, and four copies of it are running, one of them rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+Start with the obvious candidate, the model that scored her. The trouble is that a model is not a thing that sits in a drawer: teams retrain them on newer data every few months and keep older versions running alongside. This one has been retrained twice since her refusal, on data that now includes her case, and four copies of it are live, one rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 You can find a person years later. You can sue a company a decade on. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
