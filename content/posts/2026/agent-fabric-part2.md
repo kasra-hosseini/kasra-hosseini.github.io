@@ -377,11 +377,11 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## From Architecture to Institution
 
-On a phone that record is an inconvenience, and the worst case is your own afternoon: you lose an argument with your own calendar and miss a message you wanted. What changes at a company is who is on the receiving end. There the record is kept about one person and consulted about another, so the person it is wrong about never sees it, never agreed to it, and cannot dismiss anything. You have been on that end this year. Probably several times.
+On a phone the worst this costs is your own afternoon. Move the same arrangement into a company and one thing changes: the record is no longer about the person reading it. It is about a stranger who will never see it, never agreed to it, and has no dismissal to register. You have been that stranger this year, probably several times, and the version below is where it happens.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
 
-After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. When a new agent joins, whether it gets live tickets already has an answer: clear the bar the router taught itself, or wait. The deployment team can override that, but only by making the service worse, which in practice means they will not.
+After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The deployment team could override it, but only by making the service measurably worse, which in practice means nobody does.
 
 Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. She raises it at standup. Everyone agrees it looks wrong, and nobody can find the decision: no config flag, no policy document, no ticket where anyone chose this, only a table of resolution times that everybody agrees is accurate. Somewhere in the queue is a customer whose fragile-item return will be handled by whichever agent the table prefers, and nobody in the room can say why that is the one. She could hand the third agent any single ticket herself and nobody would stop her. What she cannot touch is the standing preference about who gets the hard ones at all, or who is allowed to change it.
 
@@ -399,7 +399,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-Nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that nobody can find. Priya lost that argument to a spreadsheet. On your phone there was never an argument: nobody at any company decided your calendar agent should win, and neither did you, exactly. You just kept voting, a hundred times, in one-second increments, and the winner of that election now governs your attention more reliably than any intention you could state out loud.
+So here is the one line worth carrying out of this. Nobody gets to choose whether their system has governance, only whether it is the kind you can name and overrule or the kind nobody can find. Priya lost that argument to a spreadsheet, and she was the one person in the building who knew where to look. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
