@@ -57,7 +57,7 @@ The agent that made the mistake is the agent grading it. No prompt fixes that, b
 
 ## Beyond the Single Loop
 
-There are only two ways out of this. One is a person at the moments that matter. The other is more than one agent. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways, with no more capability in any of them than the original had. The writer keeps the code. A second agent gets handed the failing test and nothing else, no theory, no history, none of the writer's six hours. A third is told to break whatever comes out.
+There are two ways out. Put a person at the moments that matter, or stop leaving one agent alone with the decision. Go back to the one stuck on the date handling: nothing about it needed to be smarter to escape that loop. It needed one other agent that had not spent the last hour convincing itself the date handling was the problem. So split the job three ways, with no more capability in any of them than the original had. The writer keeps the code. A second agent gets handed the failing test and nothing else, no theory, no history, none of the writer's six hours. A third is told to break whatever comes out.
 
 That second agent does the obvious thing nobody had done in six hours. It runs the test twice, in two timezones, and watches it pass once.
 
@@ -65,7 +65,7 @@ That is the whole fix. It was available the entire time, and the writer could no
 
 Nobody decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong.
 
-The arrangement costs something of its own. The writer says the test was unfair. The agent that ran it says otherwise. Nobody built anything to settle an argument between them, so it gets settled by the retry count, which exists because somebody wanted to know which agent to restart first after an overnight crash. Whichever has fewer retries wins, and it is not the writer. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
+The arrangement costs something of its own. The writer insists the test was unfair; the agent that ran it insists otherwise; and nobody ever built anything to settle an argument between two agents. So it gets settled by whichever of them the system has had to restart less often, because that number happens to exist. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
 
 
 A loop cannot audit itself. Six hours of getting more certain and no closer all looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement does not converge on the truth. It converges on whatever it already believed, only louder.
@@ -77,7 +77,7 @@ Giving it hands did not fix that. It raised the stakes, because the well-read pe
 
 - **Prologue: The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
-- **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: how work gets split among agents, and how splitting it quietly creates authority nobody granted
+- **[Part 2: The Rule Nobody Wrote](/posts/2026/agent-fabric-part2/)**: how splitting work among agents hands authority to a record nobody meant to write
 - **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, who enforces the rules, and how a society gets argued with
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
