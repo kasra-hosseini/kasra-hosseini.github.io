@@ -236,7 +236,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-Her case was supposed to have a second reader. That is what the written rule said: refunds above her amount get checked by a second agent, which the retailer did by paying another company for one.
+Her case was supposed to have a second reader. That is what the written rule said: refunds above her amount get checked by a second agent. The retailer did not have a second agent, so it rented one, from a company whose name appears nowhere in the retailer's own policy and whose roadmap nobody at the desk had read.
 
 That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying, because the thing enforcing it was never the retailer's. Her letter arrived on the Thursday and got one reader, and the rule that would have caught her case had lasted exactly as long as somebody else's machines kept enforcing it.
 
@@ -287,7 +287,9 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-Nothing in her story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. These structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
+Nothing in her story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do.
+
+These structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
 
 That desk has been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking. Nobody had that on a ticket.
 
