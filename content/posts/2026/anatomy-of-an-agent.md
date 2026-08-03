@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Every part of that apparatus is a decision somebody made: which tools it gets, what it is told to do, when it is allowed to stop. Get most of them wrong and you find out by lunchtime. One of them announces nothing at all.
+Every part of that apparatus is a decision somebody made: which tools it gets, what it is told to do, when it is allowed to stop. Get most of them wrong and you find out by lunchtime; one of them announces nothing at all.
 
 Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself, and that tone was typed by somebody too. How much that matters depends on what somebody let it reach: deleting the wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
