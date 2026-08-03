@@ -236,8 +236,6 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-## Who Actually Enforces Any of This
-
 Her case was supposed to have a second reader. That is what the written rule said: refunds above her amount get checked by a second agent, which the retailer did by paying another company for one.
 
 That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying, because the thing enforcing it was never the retailer's. Her letter arrived on the Thursday and got one reader.
@@ -246,9 +244,7 @@ The rule that would have caught her case was never really the retailer's to keep
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled. It was a number in a config file with her name nowhere near it. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
 
-## How a Society Gets Argued With
-
-She has two ways to argue with any of this, and she tries them both. The first is to complain, which means replying to the email that refused her. She replies. What reads her second letter is what wrote the first one, and it has already decided what her return history means. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
+There are two things she can do about any of this, and she does both. Complaining means replying to the email that refused her, so she replies. What reads her second letter is what wrote the first one, and it has already decided what her return history means. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
