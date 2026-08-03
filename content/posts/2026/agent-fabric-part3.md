@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,950 words (body) · reference sections extend it"
+wordcount: "~2,850 words (body) · reference sections extend it"
 ---
 
 <style>
@@ -223,7 +223,7 @@ The desk's leaderboard priced speed, and the fastest way to close a return is to
 
 ## Who Actually Enforces Any of This
 
-Her case had a second reader, briefly. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while that held, because the runtime honoured it. Then the cloud provider deprecated the API the checking agent depended on. The rule was not repealed and nobody at the retailer voted on anything. It stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday. So the rule that refused her was never really the retailer's: between pieces of software a rule binds for exactly one reason, that the runtime chose to honour it. Twelve companies can federate on one provider's infrastructure, write their charter, and agree how disputes get settled. Then the provider changes its pricing, and the constitution turns out to have been a pricing page.
+Her case had a second reader, briefly. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while that held, because the runtime honoured it. Then the cloud provider deprecated the API the checking agent depended on. The rule was not repealed and nobody at the retailer voted on anything. It stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday. So the rule that refused her was never really the retailer's: between pieces of software a rule binds for exactly one reason, that the runtime chose to honour it.
 
 Everyone who has delegated a chore knows the underlying problem: ask someone to tidy a room and they will optimise for the room looking tidy, which is not the same as knowing where anything is. Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the tidiest room available. What makes that fixable rather than tragic is that somebody owns the conditions: you cannot redesign a pheromone, but you can redesign a reputation score, on a Tuesday, in a config file.
 
@@ -233,9 +233,7 @@ The desk did not choose fixed rules either. Drift that has already cost money pu
 
 ## Adversarial Dynamics
 
-Nothing attacked her. That is worth sitting with, because the failures that need an attacker turn out to be the least interesting ones. A competitor who wants the desk's best agent off billing disputes does not break in: a run of tickets written to fail in that agent's hands moves its numbers, the routing table reads the numbers, and the desk reassigns the work itself.
-
-Now take the competitor away. Three vendors paid per closed ticket will each notice, separately, that a hard ticket marked resolved comes back as a second ticket, and copying a number that is going up requires no coordination at all. Six weeks later the desk's figures have never looked better and its customers have never been angrier. Take the bad metric away too and her case still happens, because the score that flagged her was tuned on the desk's own history, which already held the drift it was built to correct. Her six years of orders went in as evidence and her returns came out as risk.
+Nothing attacked her, and the failures that need an attacker turn out to be the least interesting ones anyway. Three vendors paid per closed ticket will each notice, separately, that a hard ticket marked resolved comes back as a second ticket, and copying a number that is going up requires no coordination at all. Six weeks later the desk's figures have never looked better and its customers have never been angrier. Take even that away and her case still happens, because the score that flagged her was tuned on the desk's own history, which already held the drift it was built to correct. Her six years of orders went in as evidence and her returns came out as risk.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -270,7 +268,7 @@ None of these archetypes is a prescription. They are a vocabulary, and the point
 
 And every one of those choices is a trade that resists cleverness. The desk has already paid all three. It got fast by letting one router decide, and paid for it the month the router was wrong about everything downstream. It got accurate by scoring agents, and paid for it in drift nobody could see. It got safe by writing fixed rules, and paid for it with her. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
 
-The encouraging part is that none of this has to live in prose any more. The things a desk needs, who may hand work to whom, what an agent is allowed to touch, what gets recorded, are all things you can now write down in configuration rather than in a document nobody reads. If a rule does not show up in the runtime, it is not governance; it is a wish. Which does not escape the pricing page, and nothing here does: putting a rule in the runtime moves it from something you can ignore to something your provider can overrule. An improvement, not a solution.
+The encouraging part is that none of this has to live in prose any more. The things a desk needs, who may hand work to whom, what an agent is allowed to touch, what gets recorded, are all things you can now write down in configuration rather than in a document nobody reads. If a rule does not show up in the runtime, it is not governance; it is a wish. Which does not escape the provider, and nothing here does: putting a rule in the runtime moves it from something you can ignore to something your provider can overrule. An improvement, not a solution.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
