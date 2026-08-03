@@ -201,7 +201,7 @@ She hit a rule and could not reach the thing that made it, and that gap is what 
 
 ## Where Authority Comes From
 
-One desk, one year, four different answers to the same letter, and nobody chose a single one of the transitions. She was not the first person to write in about a refund, and the desk that answered her was the third version the retailer had run. Not four options anyone weighed up: four things the same desk turned into, in order. Follow her letter into each of them.
+One desk, one year, four different answers to the same letter, and nobody chose a single one of the transitions. Each of the four has a name, and the names are worth having, because a thing you can name is a thing you can argue about. She was not the first person to write in about a refund, and the desk that answered her was the third version the retailer had run. Not four options anyone weighed up: four things the same desk turned into, in order. Follow her letter into each of them.
 
 **The first desk.** On day one her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. Most systems start here, as an **autocracy**, because one router is the simplest thing that works.
 
@@ -217,7 +217,7 @@ So the same letter reaches a judgement under the first desk, a winner under the 
 
 None of the four could have refused her while the router was only forwarding traffic. Once it keeps score and decides who may touch what on the strength of it, it has stopped playing the game and started writing the rules. Plenty of software remembers things; what made this record different is that it decided who would read her letter.
 
-Two years before her letter, somebody set the leaderboard to reward speed. The fastest way to close a return is to refuse it, so the desk went on optimizing faithfully while what it optimized for **drifted** away from anything anyone wanted. Nothing was broken while that happened. Every agent performed well against the measure it was given, the correction that followed was reasonable, and she is the one who paid for both. How much drift a design can survive decides most of the rest of it. The question nobody asks early enough is who the arrangement is meant to favour, and who needs protecting from it.
+Two years before her letter, somebody set the leaderboard to reward speed, and the fastest way to close a return is to refuse it. The desk kept optimizing faithfully while what it optimized for **drifted** away from anything anyone wanted. Nothing was broken while that happened. Every agent performed well against the measure it was given, the correction that followed was reasonable, and she is the one who paid for both. How much drift a design can survive decides most of the rest of it. The question nobody asks early enough is who the arrangement is meant to favour, and who needs protecting from it.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -238,7 +238,7 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 ## Who Actually Enforces Any of This
 
-Her case was supposed to have a second reader. Refunds above a threshold need a second agent to check them, and for a while every refund got one. That agent ran on an interface belonging to the cloud provider, which nobody at the retailer had ever thought about.
+Her case was supposed to have a second reader. Refunds above a threshold need a second agent to check them, and for a while every refund got one, on an interface belonging to the cloud provider that nobody at the retailer had ever thought about.
 
 On a Tuesday morning the provider retired the interface. Nobody at the retailer voted to drop the second check, nobody noticed the rule had become unenforceable, and the rule itself was never repealed: it simply stopped applying, because the thing that made it apply belonged to somebody else. Her letter arrived on the Thursday and got one reader. So the rule that refused her was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
 

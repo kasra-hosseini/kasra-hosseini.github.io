@@ -386,7 +386,7 @@ There is one person at that company who would notice, and it is not a manager. P
 
 She goes looking for the rule that did, and there is no rule anywhere: not in the settings, not in the policy docs, not in anyone's memory, only a pattern that has been running long enough to look like one.
 
-So she tries to break it, and hands the agent three hard tickets herself. The table has no way to tell rusty from incapable, so when two come back late it reads that as fresh evidence the agent should not be given hard tickets.
+What the router consults is a table: agent names down one side, average resolution times down the other, sorted fastest first. So she tries to break it, and hands the third agent three hard tickets herself. It is rusty, two come back late, and the table cannot tell rusty from incapable. It records the delay as fresh evidence the agent should not be given hard tickets.
 
 That is the trap. Every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
 
