@@ -31,9 +31,9 @@ Remove the loop and it is a chatbot again; remove the tools and it can think wit
 
 One piece of that apparatus fails differently from the others, and it is worth naming before the tour. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not. It has no way to check that judgement except the judgement itself. Everything else in the scaffolding can be wrong in ways you notice by lunchtime.
 
-Start with the acting, because some actions cannot be taken back. An agent that deletes the wrong file has caused an afternoon of annoyance and a restore from backup. An agent driving a robot arm that has already swung has caused something else, and no amount of apologising unswings it. Everything ordinary sits between those: reading files is safe, calling a well-behaved service is safe, driving a browser is merely messy because pages change underneath you. Same loop, same model, and the question of how much you should worry depends entirely on which of those it can reach.
-
 Identity is the strangest piece, because it is the one you can edit. Tell one agent it is careful and terse and another that it is patient and kind, on the same model, and the first answers an angry customer with three sentences and a policy link while the second asks what happened and takes four exchanges to get there. Neither is more capable. Most of what feels like character is a sentence somebody typed, and so is most of what an agent will refuse to do, which means the one grading its own work was also told how confident to sound.
+
+Start with the acting, because some actions cannot be taken back. An agent that deletes the wrong file has caused an afternoon of annoyance and a restore from backup. An agent driving a robot arm that has already swung has caused something else, and no amount of apologising unswings it. Everything ordinary sits between those: reading files is safe, calling a well-behaved service is safe, driving a browser is merely messy because pages change underneath you. Same loop, same model, and the question of how much you should worry depends entirely on which of those it can reach.
 
 ## Where Single-Agent Recursion Breaks
 
