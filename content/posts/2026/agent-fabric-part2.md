@@ -341,7 +341,7 @@ Look at what the phone is now keeping. Who did what: the messages agent asked to
 
 Those four records are the whole threshold. Once a system remembers who did what, how well it went, what it cost, and on whose say-so, **delegation has quietly become governance.**
 
-Watch what that means three months in. You try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway, because the record says interruptions get dismissed and the record is more consistent than you are. You are arguing with a policy you wrote by accident, and the only way to overturn it is to be wrong about your own preferences often enough to shift the average.
+Three months in you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway. The record says interruptions get dismissed, and the record is more consistent than you are, so you are now arguing with a policy you wrote by accident.
 
 The rest of this post is about how that adds up while nobody is looking.
 
