@@ -373,7 +373,7 @@ Think of an assistant on your phone that has stopped offering you things. Not be
 <p style="color: #555;"><a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener" class="red-link">MCP</a> standardizes how AI systems connect to tools and data sources; <a href="https://a2a-protocol.org/" target="_blank" rel="noopener" class="red-link">A2A</a> points toward agent-to-agent interoperability. Neither, by itself, solves the whole problem of an open specialist market. The <a href="https://arxiv.org/abs/2410.11905" target="_blank" rel="noopener" class="red-link">Agora protocol</a> (not to be confused with the Agora governance archetype in [Part 3](/posts/2026/agent-fabric-part3/)) frames this as an Agent Communication Trilemma: versatility, efficiency, and portability pull against one another. The likely future is not one universal protocol, but a stack: tool access, agent identity, delegation, settlement, provenance, and audit. A comprehensive <a href="https://arxiv.org/abs/2504.16736" target="_blank" rel="noopener" class="red-link">survey of agent protocols</a> maps the current landscape.</p>
 </details>
 
-On a phone the worst this costs is a suggestion you might have wanted. Point the same scorekeeping at agents doing a job in a company, and it costs somebody their work. Somebody builds that on a Tuesday, and it does not feel like building an institution. It feels like adding logging.
+On a phone the worst this costs is a suggestion you might have wanted. Now put several agents in a company and give one of them the job of deciding which of the others handles what. That decision is the whole of delegation, and the moment it starts consulting a record of who did well last time, it has become the place authority lives. Somebody builds that on a Tuesday, and it does not feel like building an institution. It feels like adding logging.
 
 Priya wrote the router: the piece of code that reads each incoming ticket and picks which agent handles it. Anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
@@ -415,7 +415,7 @@ She never lacked evidence. She lacked anywhere to take it.
 
 She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. She could have written either one in an afternoon. It never occurred to her, because a log does not look like a thing that decides while you are building it. It looks like a table.
 
-Neither column would have made the desk fairer. They would have made it arguable, and accurate is not the same as answerable: with either one in place, somebody in that meeting would have had to say out loud that the rule was wrong, or that they were overriding it. Nobody puts that on a roadmap, because until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
+Either column would have given her something to point at in that meeting, which is all she ever needed and nobody puts on a roadmap. Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
 She was right the whole time, and being right was worth nothing.
 

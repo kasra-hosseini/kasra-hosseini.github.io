@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Somebody decided what this thing can reach, and getting that wrong shows up fast: give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch.
+Give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. Somebody decided what it could reach, and that kind of mistake shows up fast.
 
 Somebody also decided when it is allowed to stop, and that one never shows up at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 

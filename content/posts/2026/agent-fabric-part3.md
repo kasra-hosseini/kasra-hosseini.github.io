@@ -250,7 +250,7 @@ Leaving is the second, and what everyone assumes she can do instead, so she look
 
 The agent has no more than she does. It cannot complain: every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse. It cannot leave either, because there is no second shop for a support agent. Neither of them can go anywhere, so neither of them gets heard.
 
-Nothing about the rule that refused her was written down anywhere a person could find it. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
+Nothing about the rule that refused her was written down anywhere she could have found it, or anywhere the people who built the desk could have found it either. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
 
 Somebody could also have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
