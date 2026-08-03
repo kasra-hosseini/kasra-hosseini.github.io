@@ -415,9 +415,9 @@ She never lacked evidence. She lacked anywhere to take it.
 
 What she thinks about, on the Fridays she does not open the log, is how cheap it would have been. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line where the router reads, saying no agent goes a month without a hard ticket, and the third agent is still there. She could have written either in an afternoon, in the same afternoon she wrote the router, if it had occurred to her that a log is a thing that decides.
 
-It did not occur to her, because it does not look like that while you are building it. It looks like a table. Nobody writes a table as though it will one day be the only account of what happened.
+It did not, because it does not look like that while you are building it. It looks like a table. Nobody writes a table as though it will one day be the only account of what happened, and by the time it is, there is nobody to tell.
 
-What she never had was a route from what she knew to whoever could act on it. She was right the whole time, and being right was worth nothing.
+She was right the whole time, and being right was worth nothing.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
