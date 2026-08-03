@@ -180,7 +180,7 @@ That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), 
 
 Run it a year forward and it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
-Nothing any agent told her was untrue. That is the bet this post is making: agent systems will fail through bad institutions rather than wrong answers. That is a bet, not a measurement. Decades of evidence about interacting agents sit behind it and nothing at this scale sits in front of it, and taking it changes the question from whether you get governance to which kind.
+Nothing any agent told her was untrue. That is the bet this post is making: agent systems will fail through bad institutions rather than wrong answers, and taking that bet changes the question from whether you get governance to which kind you get. It is a bet and not a measurement, with decades of evidence about interacting agents behind it and nothing at this scale in front of it.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
@@ -238,13 +238,15 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 ## Who Actually Enforces Any of This
 
-Her case was supposed to have a second reader. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while every refund got one. Then the cloud provider retired the interface that agent depended on, and the rule stopped being enforceable on a Tuesday morning. Her letter arrived on the Thursday and got one reader. So the rule that refused her was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
+Her case was supposed to have a second reader. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while every refund got one. That checking agent ran on an interface the cloud provider published, which the retailer did not own and had never thought about.
+
+On a Tuesday morning the provider retired the interface. Nobody at the retailer voted to drop the second check, nobody noticed the rule had become unenforceable, and the rule itself was never repealed: it simply stopped applying, because the thing that made it apply belonged to somebody else. Her letter arrived on the Thursday and got one reader. So the rule that refused her was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. What the desk was asked for and what it was rewarded for were never the same thing. What makes that fixable rather than tragic is that somebody owns the conditions. The score that made her a risk was a number in a config file, and any Tuesday somebody could have decided it was wrong.
 
 The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nobody built her a way to dispute it, which is the cheapest thing a desk can have and the first thing left out. Without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-Once drift has cost real money, fixed rules are what get bought, and this desk bought one score to do everything: how fast it ran, what it could approve, whether anything could be sent back. That same score refused her.
+Once drift has cost real money, fixed rules are what get bought. This desk bought one score and made it do everything: how fast the desk ran, what it could approve, whether anything could be sent back. That same score refused her.
 
 ## How a Society Gets Argued With
 

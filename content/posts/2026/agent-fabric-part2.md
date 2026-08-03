@@ -382,9 +382,7 @@ Somebody writes in because a delivery never arrived. A router reads the message,
 
 There is one person at that company who would notice, and it is not a manager. Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
-She goes looking for the rule that did, and there is no rule anywhere: not in the settings, not in the policy docs, not in anyone's memory. There is only a pattern that has been running long enough to look like one.
-
-She hands it three hard tickets herself. The table has no way to tell rusty from incapable, so when two come back late it reads that as fresh evidence the agent should not be given hard tickets. That is the trap: every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
+She goes looking for the rule that did, and there is no rule anywhere: not in the settings, not in the policy docs, not in anyone's memory, only a pattern that has been running long enough to look like one. So she hands the agent three hard tickets herself. The table has no way to tell rusty from incapable, so when two come back late it reads that as fresh evidence the agent should not be given hard tickets. That is the trap: every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
 
 By October that agent is retired for underperformance, which leaves two. In November one of the survivors tells a customer her fragile-item return does not qualify, and it is wrong, and there is nothing left to check it against. The one agent that might have answered differently was retired for never being given the chance.
 
@@ -404,7 +402,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 She was the one person in the building who knew where to look, and a spreadsheet beat her. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
 
-What neither you nor Priya had was a word for it. She could have said the routing was unfair and been told, correctly, that the table was accurate. There is no phrase in ordinary engineering language for a rule that nobody wrote, nobody can produce, and nobody can overturn without falsifying a record, which is why these arguments are lost by people who are right. Naming the thing is the first requirement, and it is what the next post is for.
+Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time. What she never had was a name for the thing she was right about, and neither do you, which is why arguments like hers are lost by the people who are correct. That name is what the next post is for.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
