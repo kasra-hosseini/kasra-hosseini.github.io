@@ -21,7 +21,7 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter. Something was built around it, and that something is the difference between a thing that describes work and a thing that does it.
 
-That gap does not close by making the model smarter. It closes by building things around it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that keeps going until the work looks done. None of that is the model. All of it is what turns a thing that describes work into a thing that does it, and the industry calls it **scaffolding**.
+The gap does not close by making the model smarter. It closes by building things around it, and the apparatus has a name: **scaffolding**. Something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that keeps going until the work looks done. None of that is the model. All of it is what turns a thing that describes work into a thing that does it.
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything outside the model in the middle is scaffolding. None of it makes the model smarter, and all of it is what lets the model act." >}}
 
@@ -67,7 +67,9 @@ Which is where this stops being a question about agents and becomes a question a
 
 ---
 
-So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that. It only raised the stakes, because the well-read person locked in a room could at least be argued with, and this one acts while it is being wrong. Everything that follows in this series is an attempt to fix that, and every fix charges for it. [Part 2](/posts/2026/agent-fabric-part2/) is how the work gets split. [Part 3](/posts/2026/agent-fabric-part3/) is who ends up in charge.
+So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
+
+Everything that follows in this series is an attempt to fix that by putting more than one agent in the room, and every fix charges for it. [Part 2](/posts/2026/agent-fabric-part2/) is how the work gets split. [Part 3](/posts/2026/agent-fabric-part3/) is who ends up in charge.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
