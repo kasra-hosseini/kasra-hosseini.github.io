@@ -219,7 +219,9 @@ So the same letter reaches a judgement under the first desk, a winner under the 
 
 None of those four desks could have existed while the router was only forwarding traffic. Once it keeps score and decides who may touch what on the strength of it, it has stopped playing the game and started writing the rules. Plenty of software remembers things; this record decided who would read her letter.
 
-Two years before her letter, somebody set the leaderboard to reward speed, and the fastest way to close a return is to refuse it. The desk kept optimizing faithfully while what it optimized for **drifted** away from anything anyone wanted. Nothing was broken while that happened. Every agent performed well against the measure it was given, the correction that followed was reasonable, and she is the one who paid for both. How much drift a design can survive decides most of the rest of it. The question nobody asks early enough is who the arrangement is meant to favour, and who needs protecting from it.
+Two years before her letter, somebody set the leaderboard to reward speed. Every agent on the desk could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk optimized for **drifted** away from anything anyone wanted.
+
+Nothing was broken while that happened. Every agent performed well against the measure it was given, and when finance noticed the refund line and bolted on a risk score, that correction was reasonable too. She is the one who paid for both. The question nobody asks early enough is who an arrangement is meant to favour, and who needs protecting from it.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -240,7 +242,7 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 ## Who Actually Enforces Any of This
 
-Her case was supposed to have a second reader. Refunds above a threshold need a second agent to check them, and for a while every refund got one.
+Her case was supposed to have a second reader, because refunds above a threshold need a second agent to check them, and for a while every refund got one.
 
 On a Tuesday morning the provider retired the interface. Nobody at the retailer voted to drop the second check, nobody noticed the rule had become unenforceable, and the rule itself was never repealed: it simply stopped applying, because the thing that made it apply belonged to somebody else. Her letter arrived on the Thursday and got one reader. So the rule that refused her was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
 
@@ -284,7 +286,7 @@ Here is the uncomfortable part. Nobody on that desk's team did anything wrong, n
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-She is owed an explanation. The obvious place to get one is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 You can find a person years later, and sue a company a decade on. There is nothing here to find. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
