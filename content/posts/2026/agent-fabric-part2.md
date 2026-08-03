@@ -380,11 +380,9 @@ On a phone the worst this costs is your own afternoon. The same vacuum inside a 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
-Six weeks in, an engineer called Priya sorts the routing log by agent and sees a column of zeroes going back to March. She goes looking for the rule that did it, and there is no rule: nothing in the settings, nothing in the policy docs, and nobody who changed anything in March.
+Six weeks in, the engineer who built the routing layer sorts the log by agent and sees a column of zeroes going back to March. Priya knows she did not write that. She goes looking for the rule that did, and finds nothing: not in the settings, not in the policy docs, and not in the memory of anyone who could have changed it. There is no rule. There is only a pattern that has been running long enough to look like one.
 
-So she hands the third agent three hard tickets herself, which is the equivalent of you trying to give the messages agent more room. It is slow on two of them, because it has not had a hard ticket since March, and the table records that too.
-
-That is the trap. Nobody wrote the rule and nobody can lift it, because it is not a rule, it is a record of what happened, and the only way to argue with it is to make it wrong. She leaves it, the way you left your calendar alone.
+She hands the third agent three hard tickets herself, and it is slow on two of them, because it has not had a hard ticket since March. The table records that too. That is the trap. Nobody wrote the rule and nobody can lift it, because it is not a rule, it is a record of what happened, and the only way to argue with it is to make it wrong. She leaves it, the way you left your calendar alone.
 
 What that costs arrives six months on, when the third agent is retired for underperformance. Now only two agents have any record on hard billing disputes. When one of them starts approving refunds it should not, there is nothing left to compare it against, because the only agent that might have looked different was retired for never being given the chance.
 
@@ -400,7 +398,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-So here is the one line worth carrying out of this. Nobody gets to choose whether their system has governance, only whether it is the kind you can name and overrule or the kind nobody can find. Priya lost that argument to a spreadsheet, and she was the one person in the building who knew where to look. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
+Nobody gets to choose whether their system has governance, only whether it is the kind you can name and overrule or the kind nobody can find. Priya lost that argument to a spreadsheet, and she was the one person in the building who knew where to look. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
