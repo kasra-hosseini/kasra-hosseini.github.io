@@ -199,7 +199,7 @@ Governance grows out of what gets remembered, and in one year that desk will pas
 
 She hit a rule and could not reach the thing that made it. That is the whole distinction, and it carries the rest of this post: the flag on her account is an **institution**, a standing rule about who may do what, and everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
 
-Notice what the router had to become before a scoring system could refuse her at all. Forwarding traffic is playing the game. Keeping score and deciding who may touch what is writing the rules the game runs on, and the desk crossed that line the month it started keeping score. What makes those records different from a cache is that they decide who gets work tomorrow.
+Notice what the router had to become before a scoring system could refuse her at all. A router that forwards traffic is playing the game. A router that keeps score, and decides who may touch what on the strength of it, is writing the rules the game runs on. The desk crossed that line the month it started keeping score. What makes those records different from a cache is that they decide who gets work tomorrow.
 
 ## Where Authority Comes From
 
@@ -248,7 +248,9 @@ The desk did not choose fixed rules either. Drift that has already cost money pu
 
 All of which is why a society needs ways to be argued with, and there are only three: complain, leave, or take a copy and start your own. She had none of them, and no way to fork a retailer.
 
-Voice is the cheapest of the three and the one nobody builds. For her it would have been a reply that named the rule, said which threshold she crossed, and gave her somewhere to write back that was not the thing that refused her. For the downranked agent it would mean being able to flag that the metric looks wrong without the flag counting against it. Neither existed, which is why the drift ran for months and why her letter came back closed. But voice only works if somebody has a reason to listen, and that reason is exit: an orchestrator that can lose good agents to a competitor listens to complaints, and one that cannot does not have to. She had six years of custom and nowhere else to take it, which is why her letter was safe to refuse.
+Voice is the cheapest of the three and the one nobody builds. For her it would have been a reply that named the rule, said which threshold she crossed, and gave her somewhere to write back that was not the thing that refused her. For the downranked agent it would mean being able to flag that the metric looks wrong without the flag counting against it. Neither existed, which is why the drift ran for months and why her letter came back closed.
+
+But voice only works if somebody has a reason to listen, and that reason is exit: an orchestrator that can lose good agents to a competitor listens to complaints, and one that cannot does not have to. She had six years of custom and nowhere else to take it, which is why her letter was safe to refuse.
 
 ## What This Framework Is For
 
