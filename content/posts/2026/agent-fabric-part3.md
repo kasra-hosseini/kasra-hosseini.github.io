@@ -248,7 +248,7 @@ The desk did not choose fixed rules either. Drift that has already cost money pu
 
 ## How a Society Gets Argued With
 
-Every society has to be arguable with somehow, and there are only three ways: complain, leave, or take a copy and start your own. She had none of them. Complaining would have meant a reply that named the rule and gave her somewhere to write back that was not the thing that refused her, and leaving would have meant somewhere else to take six years of custom. Neither existed, and nobody forks a retailer, which is why her letter was safe to refuse.
+Look at what she actually had. Not a reply that named the rule and pointed her somewhere other than the thing that refused her. Not another shop willing to take six years of custom. And obviously not the option of running her own version of the retailer. Complain, leave, or fork: those are the only three ways anyone has ever argued with an institution, and her letter was safe to refuse because she had none of them.
 
 The same holds inside the desk. The downranked agent cannot say the metric is wrong, because saying so is itself a mark against it. And the desk has no competitor to lose it to, so nothing obliges anyone to listen. Complaints get heard where leaving is possible, and that is what platform concentration takes away.
 
@@ -278,7 +278,7 @@ The discomfort in that is specific. Nobody on that desk's team did anything wron
 
 ## What Is Still Unsolved
 
-Suppose she does not let it go. She writes again, somebody at the retailer agrees to look, and then the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
+She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
 Not the model that scored her: it has been retrained twice since, on data that now includes her case, and four copies of it are running with one rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. The thing that actually decided was a configuration that existed for six weeks and no longer exists anywhere.
 

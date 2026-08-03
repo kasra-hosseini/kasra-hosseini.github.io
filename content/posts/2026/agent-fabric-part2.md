@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,200 words (body) · ~2,000 words (notes)"
+wordcount: "~1,250 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -381,9 +381,9 @@ On a phone the worst this costs is your own afternoon. Move the same arrangement
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
-Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. Nobody can find the decision. There is no config flag and no policy document, only a table of resolution times that everybody agrees is accurate.
+Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. She goes looking for the rule that did it. She greps the config for the agent's name and gets two hits, both of them registration boilerplate. She checks the policy docs, which say hard tickets go to whoever is best placed to handle them. She asks in the team channel who changed the routing in March, and three people say nobody did, which is true.
 
-Here is what she is looking at. Somewhere in the queue is a customer whose fragile-item return will be handled by whichever agent the table prefers, and nobody in the room can say why that is the one. She can hand the third agent any single ticket herself and nobody will stop her. She cannot touch the standing preference about who gets the hard ones at all, and she cannot find anyone who is allowed to change it, because there is nobody: the preference is the table, and the table is just a record of what happened.
+What she finds instead is a table of resolution times that everybody agrees is accurate. There is one number in it she could change, and changing it would be falsifying a record. That is the whole of it: the preference is the table, the table is just what happened, and somewhere in the queue is a customer whose fragile-item return will be handled by whichever agent it prefers.
 
 She leaves it. Overriding the routing would make the numbers worse and her the person who made them worse, and she has no argument against a table that is not wrong about anything. Nobody there would call it a rule, which is exactly what makes it one.
 
