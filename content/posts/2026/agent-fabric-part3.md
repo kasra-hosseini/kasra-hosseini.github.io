@@ -180,9 +180,9 @@ That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), 
 
 That desk changed how it governed itself four times inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen.
 
-By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules that nobody at the desk can change, and neither can the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
+By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules nobody at the desk can change, and neither can the team that built it. Her letter is not refused so much as unaddressed: the question it asks is why me, and there is nobody that question belongs to.
 
-Nothing any agent told her was untrue. That is the whole point: the failure was not in any answer, it was in the arrangement that produced them, which is where these systems will fail long before they start lying. Which means the question was never whether this desk would end up with rules. It was which rules, decided by whom.
+Nothing any agent told her was untrue. Every answer was correct and the arrangement that produced them was not, which is how these systems will fail long before they start lying. Which means the question was never whether this desk would end up with rules. It was which rules, decided by whom.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
@@ -197,7 +197,7 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 ## Four Desks in One Year
 
-She hit a rule and could not reach whoever decides what the rules are, and the desk had not started out capable of either. She was also not the first person to write in about a refund. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Watch what happens to her letter under each one.
+She hit a rule and could not reach whoever decides what the rules are, and the desk had not started out capable of either. She was also not the first person to write in about a refund. What she eventually got was four polite sentences and no way to reply to them, and the reason is that the desk had already been three other things by the time her letter arrived. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Watch what happens to her letter under each one.
 
 **The first desk, day one.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. One router is the simplest thing that works, which is why the desk started here, and the price is that on the day it is wrong about her there is nothing else in the room.
 
@@ -293,7 +293,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 Nothing in her story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. These structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
 
-That desk has now been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking, and nobody at that desk had designing the institution on a ticket.
+That desk has been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking. Nobody had that on a ticket.
 
 Her letter is still in the system somewhere, marked resolved.
 
