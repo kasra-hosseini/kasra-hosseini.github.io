@@ -178,8 +178,6 @@ A woman writes to a shop she has used for six years to ask why her refund was re
 
 That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), the one where an engineer called Priya spent an afternoon looking for a rule that turned out not to exist. She never found anyone who had written it, and she could not undo it without making service worse. By the time this woman wrote in, the desk had been running for a year.
 
-That desk changed how it governed itself four times inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen.
-
 By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules nobody at the desk can change, and neither can the team that built it. Her letter is not refused so much as unaddressed: the question it asks is why me, and there is nobody that question belongs to.
 
 Nothing any agent told her was untrue. Every answer was correct and the arrangement that produced them was not, which is how these systems will fail long before they start lying.
@@ -246,11 +244,9 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 So she complains, which means replying to the email that refused her. The reply comes back in four minutes, thanks her for the additional information, and repeats the second paragraph of the first one. An appeal heard by the party you are appealing against is not an appeal.
 
-Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years. She stops with the cursor in the box, because she has no way of knowing what six years is worth at this shop either.
+Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
-Nothing about the rule that refused her was written down anywhere she could have found it, and nowhere the people who built the desk could have found it either. There was no line naming who was allowed to change it, and none saying what happens when somebody says it is wrong, because nobody had ever needed those lines until she wrote in.
-
-Somebody could also have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
+None of this was written down anywhere she could have found it, or anywhere the people who built the desk could have found it either. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
@@ -268,7 +264,7 @@ This framework shares territory with several concurrent research programmes and 
 
 ## Nobody Left to Ask
 
-She writes again, and this time somebody at the retailer agrees to look. The hard part turns out not to be technical: which agent owes her an explanation?
+She writes again, and this time somebody at the retailer agrees to look. Then the question is which agent owes her an explanation, and nobody can answer it.
 
 The obvious place to look is the model that scored her, and it is not there any more. It has been replaced twice since, each time by something that had learned from her case.
 
