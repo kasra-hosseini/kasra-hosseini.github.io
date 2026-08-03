@@ -377,7 +377,7 @@ On a phone the worst this costs is a suggestion you might have wanted. Now put s
 
 Priya wrote the router: the piece of code that reads each incoming ticket and picks which agent handles it. Anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
-So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like a rule.
+So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds is a habit that has been running long enough to pass for a rule, which is all a rule has to be.
 
 Every step she can find is a defensible one. One Tuesday the third agent took eleven hours over a billing dispute, and that was the last hard question anybody asked it.
 
@@ -387,7 +387,7 @@ Every step she can find is a defensible one. One Tuesday the third agent took el
 
 
 
-So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table has one column, close time, and no column for why. Two more slow tickets is all it sees, so the agent drops further, and the router asks it for even less. She has made it worse by trying.
+So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table has one column, close time, and no column for why. Two more slow tickets is all it sees, so the agent drops further and the router asks it for even less. Trying to help was itself evidence against it.
 
 There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet.
 
@@ -415,7 +415,7 @@ Nobody gave that table authority over which agent had a career. It got that by b
 
 She never lacked evidence. She lacked anywhere to take it.
 
-She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have read as evidence instead of damage. One line in the file the router actually reads, saying no agent goes a month without a hard ticket, and the third agent is still working. She could have written either in an afternoon, on any of the days before it mattered, and it never occurred to her, because while you are building it a log looks like a table.
+She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. She could have added it in an afternoon on any day before it mattered, and it never occurred to her, because while you are building it a log looks like a table.
 
 Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 

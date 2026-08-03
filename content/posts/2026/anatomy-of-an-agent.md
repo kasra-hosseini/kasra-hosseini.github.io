@@ -30,7 +30,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Give an agent a filesystem tool it did not need and it will reorganise a directory nobody asked it to touch by lunchtime, which is the kind of mistake that gets noticed and fixed. The decision about when it is allowed to stop is the one nobody notices at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
+Give an agent a filesystem tool it did not need and it will reorganise a directory nobody asked it to touch by lunchtime. Somebody notices, and it loses the tool. The decision about when it is allowed to stop is the one nobody notices at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
 
 
