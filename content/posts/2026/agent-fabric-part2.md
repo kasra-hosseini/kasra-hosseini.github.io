@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,100 words (body) · ~2,000 words (notes)"
+wordcount: "~1,050 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -382,9 +382,9 @@ Somebody writes in because a delivery never arrived. A router reads the message,
 
 Somebody does eventually notice. Six weeks in, an engineer called Priya, who built half this desk and is the one person on the team who reads the routing logs for fun, sees that the third agent has not been given a hard ticket since March, and goes looking for the rule that did it. There is no rule. The settings mention the agent only to say it exists, the policy docs say hard tickets go to whoever is best placed to handle them, and three people confirm that nobody changed the routing in March, which is true.
 
-So she tries the direct route and reassigns three hard tickets to the third agent by hand. Two come back slower than the average, which is what happens when an agent has not seen a hard ticket since March, and the table absorbs both results and rates it lower than before.
+So she tries the direct route and hands the third agent three hard tickets herself. It is slow on two of them, because it has not seen a hard ticket since March, and the table records that too. She has just made the case against it stronger.
 
-That is the trap. The table is not a rule anyone wrote; it is what happened, recorded, which is why the team treats it as the one thing in the room that cannot be argued with. Her only options are to falsify the record or to feed it more evidence that it was right. She leaves it.
+That is the trap. Nobody wrote the rule and nobody can lift it, because it is not a rule, it is a record of what happened, and the only way to argue with it is to make it wrong. She leaves it.
 
 What that costs arrives six months on. The third agent is retired for underperformance, which leaves the two survivors as the only agents with any record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
 

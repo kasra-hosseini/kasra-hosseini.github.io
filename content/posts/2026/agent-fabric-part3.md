@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,400 words (body) · reference sections extend it"
+wordcount: "~2,500 words (body) · reference sections extend it"
 ---
 
 <style>
@@ -240,11 +240,11 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 Her case was supposed to have a second reader. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while every refund got one. Then the cloud provider retired the interface that checking agent depended on. Nobody repealed the rule and nobody at the retailer voted on anything; it simply stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday, and got one reader. So the rule that refused her was never really the retailer's. A rule between pieces of software holds for one reason only, which is that the machines running them keep enforcing it, and the retailer does not own those machines.
 
-Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that, which is the oldest problem in delegation: what you asked for and what you rewarded were not the same thing. What makes that fixable rather than tragic is that somebody owns the conditions. The score that made her a risk was a number in a config file, and any Tuesday somebody could have decided it was wrong.
+Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. What the desk was asked for and what it was rewarded for were never the same thing. What makes that fixable rather than tragic is that somebody owns the conditions. The score that made her a risk was a number in a config file, and any Tuesday somebody could have decided it was wrong.
 
 The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nobody built her a way to dispute it, which is the cheapest thing a desk can have and the first thing left out. Without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-Drift that has already cost money pushes hard toward fixed rules, which is how the risk score arrived. Nobody chose it: finance saw a number going the wrong way and the desk acquired a threshold. After that the same score set how fast the desk ran, what it was allowed to approve, and whether anything could be sent back. It was also the number that refused her.
+Which arrangement a desk ends up in is mostly decided for it, and drift that has already cost money pushes hard toward fixed rules. That is how one score ended up setting how fast the desk ran, what it could approve, and whether anything could be sent back. It was also the number that refused her.
 
 ## How a Society Gets Argued With
 
@@ -280,7 +280,7 @@ The discomfort in that is specific. Nobody on that desk's team did anything wron
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-Not the model that scored her: it has been retrained twice since, on data that now includes her case, and four copies of it are running with one rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. The thing that actually decided was a configuration that existed for six weeks and no longer exists anywhere.
+The model that scored her cannot answer, because it has been retrained twice since, on data that now includes her case, and four copies of it are running with one rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 You can find a person years later. You can sue a company a decade on. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
