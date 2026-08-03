@@ -377,14 +377,14 @@ Somewhere in a company you have written to this year, a piece of software is dec
 
 On a phone the worst this costs is your own afternoon. Now hold that same arrangement still and change one thing about it: who the record is about. On your phone it was about you, and you could always override it. Inside a company the record is about somebody who is not in the room: it is about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times.
 
-It takes three steps, each of them obviously correct. Split work among agents. Keep records of how it went. Act on the records. Do all three and you have rules nobody wrote, authority nobody granted, and no way to appeal, because nobody ever needed to appeal a log.
+The desk did three things, each obviously correct: it split the work among agents, it kept records of how the work went, and it acted on the records. That is the entire recipe for rules nobody wrote, authority nobody granted, and no way to appeal, because nobody ever needed to appeal a log.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
 Now watch that same mechanism run where the record is about somebody else. There is one person at that company who would notice, and it is not a manager. Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
-She goes looking for the rule that did, and there is no rule anywhere: not in the settings, not in the policy docs, not in anyone's memory, only a pattern that has been running long enough to look like one.
+She goes looking for the rule that did it. There is nothing in the settings, nothing in the policy docs, and nothing in anyone's memory, only a pattern that has been running long enough to look like a rule.
 
 What the router consults is a table of agents ranked by how fast they close things. So she tries to break it, and hands the third agent three hard tickets herself. It is rusty, two come back late, and the table cannot tell rusty from incapable. It records the delay as fresh evidence the agent should not be given hard tickets.
 
