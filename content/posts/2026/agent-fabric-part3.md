@@ -215,13 +215,11 @@ Another rule said refunds above her amount get a second reader, and hers qualifi
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
-**The fourth desk, the one she needed:** it exists only after somebody complains loudly enough that a shrug will not do. Here one thing answers her letter and something else can be asked to look again, and that second thing is allowed to say the first got it wrong. What she gets back names the rule, names the threshold she crossed, and gives her an address that is not the thing that refused her. The refund may still be denied. The difference is that a person could now find out why, and so could she. The thing that hears her appeal does not answer to the thing that refused her. That is the whole trick, and it is slow to build, which is why it usually arrives one letter too late.
+**The fourth desk, the one she needed:** it exists only after somebody complains loudly enough that a shrug will not do. Here one thing answers her letter and something else can be asked to look again, and that second thing is allowed to say the first got it wrong. What she gets back names the rule, names the threshold she crossed, and gives her an address that is not the thing that refused her. The refund may still be denied. The difference is that whatever reads the appeal does not answer to the thing that refused her, so somebody could find out why, and so could she. This desk is slow to build, which is why it usually arrives one letter too late.
 
-So the same letter reaches a judgement, then a winner, then a rule, then someone who can overrule the rule. Four arrangements in a year, no announcements and no design review, and she happened to write in under the only one with no way back in.
+Four arrangements in a year, no announcements and no design review, and she happened to write in under the only one with no way back in. Every one of them needed a record to exist at all, and plenty of software keeps records. This one decided who would read her letter.
 
-Every one of those desks needed a record to exist at all, and plenty of software keeps records. This one decided who would read her letter.
-
-Nothing broke while that happened. Every agent did well against the measure it was given, and when finance noticed the refund line and bolted on a risk score, that correction was reasonable too. She is the one who paid for both. The question nobody asks early enough is who an arrangement is meant to favour, and who needs protecting from it.
+Nothing broke while that happened. Every agent did well against the measure it was given, and every correction along the way was reasonable. She is the one who paid for all of them, and the question nobody asks early enough is who an arrangement is meant to favour.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
@@ -244,7 +242,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## What She Can Do About It
 
-So she complains, which means replying to the email that refused her. The reply comes back in four minutes, thanks her for the additional information, and repeats the second paragraph of the first one. An appeal heard by the party you are appealing against is not an appeal.
+So she complains, which means replying to the email that refused her. The reply comes back in four minutes and repeats the second paragraph of the first one. An appeal heard by the party you are appealing against is not an appeal.
 
 Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
@@ -266,9 +264,9 @@ This framework shares territory with several concurrent research programmes and 
 
 ## Nobody Left to Ask
 
-She writes again, and this time somebody at the retailer agrees to look. Then the question is which agent owes her an explanation, and nobody can answer it.
+She writes again, and this time somebody at the retailer agrees to look, which is when the question becomes which agent owes her an explanation.
 
-The obvious place to look is the model that scored her. It is not there any more. It has been retrained twice since her refusal, each time on data that included her case, so the thing that judged her has been dissolved into the things that came after it. She can be shown the model that would score her today. She cannot be shown the one that did. A person can be found years later. A company can be sued a decade on. This was a configuration that lasted six weeks, and an apology would have nowhere to come from even if somebody wanted to give her one.
+The obvious place to look is the model that scored her, and it is not there any more. It has been retrained twice since her refusal, each time on data that included her case. She can be shown the model that would score her today. She cannot be shown the one that did. A person can be found years later. A company can be sued a decade on. This was a configuration that lasted six weeks, and an apology would have nowhere to come from even if somebody wanted to give her one.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
