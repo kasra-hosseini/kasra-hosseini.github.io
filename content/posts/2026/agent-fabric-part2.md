@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
+Your phone buzzes in the middle of a meeting you told it to protect. Something arrived that one assistant judged urgent enough to interrupt you, and another had been told to hold everything for the next hour. Both were following instructions. Only one could win. Nothing in your phone was granted the authority to settle that, and yet it got settled, because whichever assistant you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
 
 
 
@@ -379,7 +379,7 @@ On a phone the worst this costs is your own afternoon. Now hold that same arrang
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
-Three things happened at that desk, each obviously correct: the work got split, the records got kept, and the records got acted on. Nothing else is required to produce a rule nobody wrote and an authority nobody granted, with no way to appeal, because nobody ever needed to appeal a log.
+Nobody added a policy. Somebody split the work, somebody kept a record of how it went, and the router started reading that record. That is the whole recipe for a rule nobody wrote, and there is nowhere to appeal it, because nobody ever needed to appeal a log.
 
 
 Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
@@ -405,6 +405,8 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 </details>
 
 ---
+
+Here is what her afternoon was actually about. Every arrangement in this post was designed by somebody: the split, the logging, the routing rule. What none of them designed was the authority that came out of it, and that is the part that decided things. You can review a design. Nobody schedules a review for a side effect.
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time, and being right was worth nothing.
 

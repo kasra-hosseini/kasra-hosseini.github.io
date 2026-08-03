@@ -197,7 +197,7 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 ## What Governance Actually Is
 
-She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. She hit a rule and could not reach whoever decides what the rules are. That is what the rest of this post is about: not the agents, but the rules they inherit and who gets to change them. The desk did not start out capable of either.
+She hit a rule and could not reach whoever decides what the rules are. That is what the rest of this post is about: not the agents, but the rules they inherit and who gets to change them. The desk did not start out capable of either.
 
 ## Where Authority Comes From
 
@@ -256,7 +256,7 @@ The downranked agent has no more recourse than she does, and for the same reason
 
 ## What This Framework Is For
 
-Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. Those four are not a menu to choose from. They are just enough vocabulary to notice a choice while it is still a choice.
+Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. The point of naming those arrangements is not to pick one. It is to have words for what you are building while there is still time to build it differently.
 
 This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Where a system settles says a great deal about what its builders were afraid of.
 
