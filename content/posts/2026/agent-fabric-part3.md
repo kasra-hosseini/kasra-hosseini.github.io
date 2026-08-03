@@ -252,7 +252,7 @@ She has two ways to argue with any of this, and she tries them both. The first i
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
-The third agent has the same options and gets the same nowhere: it cannot say the metric is wrong, because saying so is itself a mark against it. A complaint carries weight only where walking out is possible, and neither of them can walk out.
+The third agent has the same two and gets the same nowhere. It cannot say the metric is wrong, because saying so is itself a mark against it, and it cannot go and be a support agent somewhere else. Neither of them can leave, so neither of them gets heard.
 
 The rule that refused her did not have to live nowhere. It could have sat in the same file the system reads, with two lines under it: who may change this, and what happens when somebody says it is wrong. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
