@@ -375,12 +375,14 @@ Your calendar agent and your messages agent will eventually want opposite things
 
 ## From Architecture to Institution
 
-On a phone the worst this costs is your own afternoon. The same vacuum inside a company costs somebody else theirs, because there the record is no longer about the person reading it: it is about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times, and what follows is how it happens.
+On a phone the worst this costs is your own afternoon. Now hold that same arrangement still and change one thing about it: who the record is about. On your phone it was about you, and you could always override it. Inside a company the record is about somebody who is not in the room: it is about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times, and what follows is how it happens.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
-Priya built the routing layer, which means anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it. She goes looking for the rule that did, and finds nothing: not in the settings, not in the policy docs, and not in the memory of anyone who could have changed it. There is no rule. There is only a pattern that has been running long enough to look like one.
+The desk has an engineer whose job is to keep the routing honest. Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
+
+She goes looking for the rule that did, and finds nothing: not in the settings, not in the policy docs, and not in the memory of anyone who could have changed it. There is no rule. There is only a pattern that has been running long enough to look like one.
 
 She hands it three hard tickets herself. It is slow on two, because it has not had one since March, and the table records that too. That is the trap. Nobody wrote the rule and nobody can lift it, because it is not a rule, it is a record of what happened, and the only way to argue with it is to make it wrong. She leaves it, the way you left your calendar alone.
 
@@ -388,7 +390,7 @@ By October that agent is retired for underperformance. Only two are left with an
 
 Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and there is nothing she can point at.
 
-That is the shape of the thing in both places: a record kept for one reason, consulted for another, and never authorised by anyone. On the desk it costs a customer her refund. On your phone it costs you an afternoon.
+The same thing happened on your phone. There it cost you an afternoon; here it cost a stranger her refund.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>

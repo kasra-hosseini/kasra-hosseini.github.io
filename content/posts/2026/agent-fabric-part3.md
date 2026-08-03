@@ -215,7 +215,7 @@ It works, too. The refund line stops climbing inside a month, which is why nobod
 
 So the same letter reaches a judgement under the first desk, a winner under the second, a rule under the third, and someone who can overrule the rule under the fourth. Four arrangements, no announcements, no design review, and she happened to write in under the third. Four arrangements in a year, and the one she got was the only one with no way back in.
 
-None of that could have happened while the router was only forwarding traffic. Once it keeps score and decides who may touch what on the strength of it, it has stopped playing the game and started writing the rules. A cache remembers things too; these records decide who gets work tomorrow.
+None of that could have happened while the router was only forwarding traffic. Once it keeps score and decides who may touch what on the strength of it, it has stopped playing the game and started writing the rules. A cache remembers things too, and nothing follows from what it remembers. These records decide who gets work tomorrow.
 
 The desk's leaderboard priced speed, and the fastest way to close a return is to refuse it. What happened next has a name worth keeping: **drift**, the slow slide where a system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while it happened. Every agent performed well against the measure it was given, and the correction that followed is what refused her. How much drift a design can survive decides most of the rest of it. And underneath sits a question asked far too rarely: who is meant to accumulate advantage here, and who needs protecting from it?
 
@@ -238,7 +238,7 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 ## Who Actually Enforces Any of This
 
-Her case was supposed to have a second reader. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while every refund got one. Then the cloud provider retired the interface that checking agent depended on. Nobody repealed the rule and nobody at the retailer voted on anything; it simply stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday, and got one reader. So the rule that refused her was never really the retailer's. A rule between pieces of software holds for one reason only, which is that the machines running them keep enforcing it, and the retailer does not own those machines.
+Her case was supposed to have a second reader. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while every refund got one. Then the cloud provider retired the interface that checking agent depended on. Nobody repealed the rule and nobody at the retailer voted on anything; it simply stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday, and got one reader. So the rule that refused her was never really the retailer's. Between pieces of software, a rule holds for exactly as long as the machines keep enforcing it. The retailer does not own the machines.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. What the desk was asked for and what it was rewarded for were never the same thing. What makes that fixable rather than tragic is that somebody owns the conditions. The score that made her a risk was a number in a config file, and any Tuesday somebody could have decided it was wrong.
 
@@ -280,7 +280,7 @@ Here is the uncomfortable part. Nobody on that desk's team did anything wrong, n
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-Start with the obvious candidate, the model that scored her. The trouble is that a model is not a thing that sits in a drawer: teams retrain them on newer data every few months and keep older versions running alongside. This one has been retrained twice since her refusal, on data that now includes her case, and several versions of it are still live, including one from before the risk score existed. Every one of them carries her record. Not one carries the reasoning that produced it, because what actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+Somebody has to own the answer, so start with the obvious candidate: the model that scored her. The trouble is that a model is not a thing that sits in a drawer: teams retrain them on newer data every few months and keep older versions running alongside. This one has been retrained twice since her refusal, on data that now includes her case, and several versions of it are still live, including one from before the risk score existed. Every one of them carries her record. Not one carries the reasoning that produced it, because what actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 You can find a person years later. You can sue a company a decade on. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
