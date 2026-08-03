@@ -318,8 +318,6 @@ Then two of them want opposite things. The messages agent has something urgent; 
 
 *Part of The Agent Fabric series. [Part 1](/posts/2026/agent-fabric-part1/) argued that agents survive only while they are useful to someone, that compute is finite while agent populations are not, and that the squeeze between those two facts pushes agents toward connected, coordinated arrangements. Some of those arrangements get designed by a company; others just accrete around whatever tools a person happens to own. Either way, this post is about what they turn into.*
 
-*Two ways to read it. The body is the argument. The expandable sections are a reference manual of pattern cards, examples, and scenarios, and you can ignore all of them without losing the thread.*
-
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
 
@@ -414,7 +412,7 @@ And these arrangements stack, which is where it gets harder to see. You ask your
 
 ## From Architecture to Institution
 
-None of that was really about phones. It needed several agents, a way to hand work between them, and something keeping score, and a company running a support desk has all three before anyone has thought about it once. Same structure, more people on the other end of it, and the cost of being wrong stops being a missed message.
+Now swap the phone for something with a budget. A support desk needs several agents, a way to hand work between them, and something keeping score, which is the same three ingredients your phone assembled by accident. The difference is that when this one gets it wrong, the person on the other end is a stranger who cannot see any of it.
 
 A retailer points a router at its incoming tickets: it reads each one as billing, returns, or technical, and hands it to whichever agent handles that kind. Pure delegation so far. But the router logs how long each agent takes, how often customers come back angry, how often a ticket has to be escalated, because those numbers are cheap to collect and obviously useful.
 
@@ -438,7 +436,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Here is the part that decides whether anyone can fix this later. A preference stored as a list can be deleted. A preference trained into a model cannot, because there is no line to delete.
 
-Say the third agent on that desk was downranked during a fortnight when its one bad week collided with a batch of impossible tickets, and somebody notices six months on. If the router is still consulting a table, you edit the table. But teams do not leave preferences in tables forever; the usual next step is to train a model on the logs so the decision gets faster and stops needing the lookup. After that the judgement is spread through the thing that makes every decision, and your options are to retrain it on a history you would have to reconstruct, or to replace it. That is the difference between an institution you can reform and one you can only tear down.
+Say an agent was downranked during a fortnight when its one bad week collided with a batch of impossible tickets, and somebody notices six months on. If the router is still reading a table, you edit the table. But nobody leaves preferences in tables forever, because training a model on the logs makes the decision faster and removes the lookup, and after that the judgement is spread through the thing that makes every decision. Reform means reconstructing a history you no longer have. The alternative is starting over.
 
 None of which makes this bad in itself. Your calendar agent probably should win most arguments. A structure that forms around real competence usually serves the people relying on it, and one that drifts somewhere worse does not, and both arrive by exactly the same process.
 
