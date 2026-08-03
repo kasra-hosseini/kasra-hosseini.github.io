@@ -379,7 +379,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds is a habit that has been running long enough to pass for a rule, which is all a rule has to be.
 
-Every step she can find is a defensible one. One Tuesday the third agent took eleven hours over a billing dispute, and that was the last hard question anybody asked it.
+Every step she can find is a defensible one, and she can date the one that mattered. One Tuesday the third agent took eleven hours over a billing dispute, and that was the last hard question anybody asked it.
 
 
 
@@ -389,11 +389,11 @@ Every step she can find is a defensible one. One Tuesday the third agent took el
 
 So she tries to fix it by hand, assigning that agent three hard tickets herself. Two come back late, which is what happens to an agent that has not had a hard ticket in a month. The table has one column, close time, and no column for why, so what it records is not that she gave a rusty agent three hard tickets. What it records is two more slow tickets. The agent drops further, the router asks it for even less, and trying to help was itself evidence against it.
 
-There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet.
+There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet, and for seven months nothing about it seems urgent.
 
 ## What the Record Costs
 
-Months later she opens the log and the third agent is not in it. Somebody has retired it for underperformance, which the table supports, and nobody thought the decision worth mentioning to her. That leaves two that have always agreed with each other, because they were the two the router kept choosing. One of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
+Then she opens the log and the third agent is not in it. Not downranked, not flagged: gone. Somebody has retired it for underperformance, which the table supports, and nobody thought the decision worth mentioning to her. That leaves two that have always agreed with each other, because they were the two the router kept choosing. One of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
 
 Priya is in that meeting, and she knows exactly what happened. She could say the comparison was destroyed by a routing preference nobody chose, that she watched it happen, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her.
 
