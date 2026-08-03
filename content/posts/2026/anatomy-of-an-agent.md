@@ -14,8 +14,6 @@ hideCitation: false
 wordcount: "~1,450 words"
 ---
 
-{{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** The anatomy of a single agent, a foundation model wrapped in scaffolding. The model operates in an iterative loop with an environment, acting on it and observing the result. The scaffolding gives it capabilities that let it act (prompt, tools, skills, memory) and constraints that direct it (planning, identity, self-evaluation)." >}}
-
 
 ## From Model Call to Agent
 
@@ -25,6 +23,8 @@ Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. I
 
 That gap does not close by making the model smarter. It closes by building things around it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that keeps going until the work looks done. None of that is the model. All of it is what turns a thing that describes work into a thing that does it, and the industry calls it **scaffolding**.
 
+{{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** The anatomy of a single agent, a foundation model wrapped in scaffolding. The model operates in an iterative loop with an environment, acting on it and observing the result. The scaffolding gives it capabilities that let it act (prompt, tools, skills, memory) and constraints that direct it (planning, identity, self-evaluation)." >}}
+
 Take any one of those away and the whole thing changes character. Without the loop it is a chatbot again. Without tools it can think and never touch anything. Memory is the strangest of the three, because an agent that loses it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
 ## What the Loop Needs
@@ -33,11 +33,9 @@ Start with the acting, because not all of it is equally recoverable and that mat
 
 The rest of the scaffolding is easiest to see by watching it fail. Take away the prompt and a capable agent will do something competent that nobody asked for. Take away planning and it solves the step in front of it at the expense of the one after, cheerfully deleting the file it needs in twenty minutes. Give two agents the same model but tell one it is careful and terse and the other that it is patient and kind, and they will handle the same angry customer completely differently, which is most of what identity means here. And leave it to judge its own work and you get the failure this post is about, because an agent grading itself is the one component whose failure is invisible from the inside.
 
-The loop is just this: the agent looks at the situation, decides what to do, does it, looks again. What makes that powerful is not the shape but what the shape does to time, because the agent's own output becomes its input next time round. When the coding agent runs the tests, the failures it reads are the ones its own last edit produced. It is not solving a problem so much as negotiating with a situation it keeps changing, and that feedback is the whole trick, however many ways it has been <a href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">dressed up</a> since.
-
 ## Where Single-Agent Recursion Breaks
 
-Some agents keep notes on their own failures. One that wasted forty minutes on a test that was failing because the database was not running writes down that lesson, reads it next time, and does not waste the forty minutes again. Do that across fifty tasks and it is working from a file of hard-won rules; keep going and the ones that keep working stop being notes and become <a href="https://arxiv.org/abs/2305.16291" target="_blank" rel="noopener">tools it can call by name</a>. That is the difference between turning the loop and getting better at something, and it is also where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
+Here is the property that makes all of this compound: the agent's own output becomes its input next time round. When the coding agent runs the tests, the failures it reads are the ones its own last edit produced, so it is not solving a problem so much as negotiating with a situation it keeps changing. Some agents go further and keep notes on their own failures. One that wasted forty minutes on a test failing because the database was not running writes down that lesson, reads it next time, and does not waste the forty minutes again. That is the difference between turning the loop and getting better at something, and it is also where a lone loop runs into three kinds of trouble that better prompting does not fix. They arrive in a particular order.
 
 It begins with arithmetic, and the arithmetic is brutal. Give an agent a task with twenty steps and let it be right ninety-five percent of the time at each one, which sounds good. It finishes the whole task correctly about a third of the time. Worse, mistakes are not independent: a wrong turn at step four narrows what step five can even attempt. Which is why agents still fall short of people on <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">realistic computer and web tasks</a>, and why the <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">gap widens as the tasks get longer</a>.
 
