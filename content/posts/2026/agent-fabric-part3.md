@@ -176,13 +176,13 @@ wordcount: "~2,500 words (body) · reference sections extend it"
 
 A woman writes to a shop she has used for six years to ask why her refund was refused. She returns maybe one thing in twenty. The reply is polite and final. What nobody tells her, because nobody at the company can, is that a scoring system decided months ago that her return history made her a risk, and nothing since has been able to look past it. There is no one to appeal to, and no one chose this.
 
-That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), where a router learned within a month to send the hard billing disputes to two particular agents and nothing important to a third, and nobody wrote that rule or could override it without making service worse.
+That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), where a router learned within a month to send the hard billing disputes to two particular agents and nothing important to a third. Nobody wrote that rule, nobody could override it without making service worse, and by the time she wrote in it had been running for a year.
 
 That desk went through four recognisable versions of governance inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen. First one agent decided, then a scoreboard decided, then a fixed rule decided, and finally, after enough complaints, something existed that could overrule the rule.
 
 By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
-Nothing any agent told her was untrue. That is the whole point: the failure was not in any answer, it was in the arrangement that produced them, which is where these systems will fail long before they start lying. Nobody has run this experiment at scale, so that is a bet and not a measurement. It changes the question from whether you get governance to which kind.
+Nothing any agent told her was untrue. That is the whole point: the failure was not in any answer, it was in the arrangement that produced them, which is where these systems will fail long before they start lying. That is a bet rather than a measurement, and it changes the question from whether you get governance to which kind you get.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
@@ -197,7 +197,7 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 ## What Governance Actually Is
 
-She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. The flag on her account was a standing rule about who may do what, which is what an **institution** is, and everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
+She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. The flag on her account was a standing rule about who may do what. That is an **institution**. Everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
 
 ## Where Authority Comes From
 
@@ -207,7 +207,7 @@ One desk, one year, four different answers to the same letter, and nobody chose 
 
 **The second.** A month later somebody turns on logging, and the same letter goes to whichever agent has the best numbers rather than whichever one knows returns. On the board that morning the returns specialist sits fourth at nine minutes a ticket, and her letter goes to the one at four. The reply still reads like a decision, and it might even be the same decision, but it came from whichever agent was winning that week rather than the one that knows what a return pattern looks like. 
 
-The third agent, downranked after one bad month, is not being punished; it is simply never again the best answer to any question the router asks, so whoever wrote the metric now has more say over its working life than the team that deployed it. This is where most systems are today, and the price is that the numbers decide who is competent before anyone has checked whether the numbers measure competence.
+The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, which is harsher than punishment because there is no term to it and nobody to appeal to. So whoever wrote the metric now has more say over its working life than the team that deployed it. This is where most systems are today, and the price is that the numbers decide who is competent before anyone has checked whether the numbers measure competence.
 
 **The third.** This is where her letter actually landed, and it did not reach an agent's judgement at all. Finance had seen the refund line. The retailer stopped trusting the leaderboard with anything that costs money and wrote fixed rules instead: refunds above a threshold need a second check, certain return histories get flagged no matter what any agent thinks. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. This is the desk anyone who has argued with a bank about a flagged transaction has already met: rules first, judgement second, rule over judgement, which from her side feels like talking to a wall: every reply correct, none of them about her.
 
@@ -250,7 +250,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 The flag on her account was one judgement, made once, by something scoring return rates. Every decision after it treated that judgement as settled fact, and because a dispute route is the cheapest thing a desk can have and the first thing left out, nobody ever looked at it twice.
 
-Once drift has cost real money, fixed rules are what get bought, and this desk bought a single score to carry all of it: speed, approval limits, whether anything could be sent back. That same score refused her.
+Once drift has cost real money, fixed rules are what get bought, and this desk bought a single score to carry all of it: how fast it ran, what it could approve, whether anything could be sent back. Her refusal was that score doing three jobs at once, and doing the third one badly.
 
 ## How a Society Gets Argued With
 
@@ -260,7 +260,7 @@ The downranked agent has no more recourse than she does. It cannot say the metri
 
 ## What This Framework Is For
 
-Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. The four names are not a recommendation. They are just enough vocabulary to notice a choice while it is still a choice.
+Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. The four names are not a recommendation. They are just enough vocabulary to notice a choice while it is still a choice.
 
 This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Where a system settles says a great deal about what its builders were afraid of.
 
