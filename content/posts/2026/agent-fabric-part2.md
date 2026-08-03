@@ -379,7 +379,7 @@ Priya wrote the router: the piece of code that reads each incoming ticket and pi
 
 So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
-Nothing she finds is a mistake. One Tuesday in March the third agent took eleven hours over a billing dispute, and that was the last hard question it was ever asked.
+Nothing she finds is a mistake. One Tuesday the third agent took eleven hours over a billing dispute, and that was the last hard question it was ever asked.
 
 
 
@@ -393,9 +393,9 @@ There is nothing to delete, and nowhere to write down the one thing that would e
 
 ## What the Record Costs
 
-By October that agent is retired for underperformance. That leaves two, and they have always agreed with each other, because they were the two the router kept choosing. In November one of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
+Months later the agent is retired for underperformance, which leaves two that have always agreed with each other, because they were the two the router kept choosing. One of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
 
-Priya is in that meeting, and she knows exactly what happened. She could say the comparison was destroyed a year ago by a routing preference nobody chose, that she watched it happen in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her.
+Priya is in that meeting, and she knows exactly what happened. She could say the comparison was destroyed by a routing preference nobody chose, that she watched it happen, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her.
 
 
 

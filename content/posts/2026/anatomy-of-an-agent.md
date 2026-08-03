@@ -63,7 +63,9 @@ That is the whole fix. It was available the entire time, and the writer could no
 
 Nobody on that team decided the tester should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The breaker never had to be clever either. Its whole job was breaking things, on a test it had no reason to defend.
 
-Which is where the arrangement starts costing something. The writer says the test was unfair. The breaker says it was not. Somebody has to break the tie, and nobody designed anything to do it, so it gets broken by whatever is lying around: a count of how often each agent has had to be retried, which somebody added months ago to decide which one to run again first. The breaker has been retried less, so the test stands. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
+Which is where the arrangement starts costing something. The writer says the test was unfair. The breaker says it was not. Somebody has to settle that, and nobody built anything to settle it.
+
+So it gets settled by whatever is already there. What is already there is a count of how often each agent has had to be retried, which somebody added to decide which one to run again first. The breaker has been retried less, so the test stands. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
 
 
 A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.

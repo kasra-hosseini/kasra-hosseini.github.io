@@ -248,7 +248,7 @@ She does the two things anyone can do. First she complains, which means replying
 
 Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
-The downranked agent has the same two and neither works for it either. Every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse, and there is no second shop for a support agent. Neither of them can go anywhere, so neither of them gets heard.
+The downranked agent has the same two options and neither works for it either. Complaining is not available to it in any form: every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse. Leaving is not available either, because there is no second shop for a support agent, no other desk it could take its record to. She has a shop she cannot leave and it has a job it cannot leave, and neither of them gets heard for the same reason.
 
 Nothing about the rule that refused her was written down anywhere she could have found it, or anywhere the people who built the desk could have found it either. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
 
