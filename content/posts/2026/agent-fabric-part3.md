@@ -215,9 +215,9 @@ Notice what the router had become for that to happen, because the line it crosse
 
 She was not the first person to write in about a refund, and the desk that answered her was the third one the retailer had run in a year. Nobody filed a change request for any of it. Follow her letter into each of them.
 
-On day one her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, decides, and if it decides wrong then everyone downstream is wrong with it. That is an **Autocracy**, and it is the version where you can at least tell who decided.
+On day one her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so she gets an answer that afternoon from something that actually read her case. That is an **Autocracy**: if it decides wrong, everyone downstream is wrong with it, and it is the only one of the four where she could name what decided.
 
-A month later somebody turns on logging, and the same letter goes to whichever agent has the best numbers rather than whichever one knows returns. That is a **Meritocracy**. The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, and whoever wrote the metric now has more say over its working life than the team that deployed it.
+A month later somebody turns on logging, and the same letter goes to whichever agent has the best numbers rather than whichever one knows returns. She still gets a judgement, just not from the agent that understands returns. That is a **Meritocracy**, and the third agent, downranked after one bad month, is not being punished; it is simply never again the best answer to any question the router asks, which means whoever wrote the metric now has more say over its working life than the team that deployed it.
 
 The third desk is where her letter actually landed, and it did not reach an agent's judgement at all. Finance had seen the refund line. The retailer stopped trusting the leaderboard with anything that costs money and wrote fixed rules instead: refunds above a threshold need a second check, certain return histories get flagged no matter what any agent thinks. That is **Doctrine**, and it is the one that feels like talking to a wall, because every reply is correct and none of them is about you.
 
@@ -239,7 +239,7 @@ Some of this gets designed on purpose and the rest just happens, norms hardening
 
 Appeal is the cheapest of the four and the one most often skipped. Without it every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-Which of these a team ends up with is mostly decided for them: stable work rewards the efficient arrangements, novel work rewards the flexible ones, and drift that has already cost money pushes hard toward fixed rules whether anyone wanted the overhead or not. Which is how the desk got its risk score, and how it lost the ability to hear that the score was wrong about her. Those are separable. Something fast that executes, something that bounds what it may do, something watching for drift, and somewhere a decision can be sent back are four jobs, not one arrangement, and the desk had collapsed them into a single number.
+Which arrangement a team ends up with is mostly decided for them. Stable work rewards the efficient ones, novel work rewards the flexible ones, and drift that has already cost money pushes hard toward fixed rules whether anyone wanted the overhead or not, which is how the desk got its risk score and how it lost the ability to hear that the score was wrong about her. But executing fast, bounding what may be done, watching for drift, and being able to send a decision back are four separate jobs. The desk had collapsed them into a single number.
 
 Most desks land somewhere duller than any of the four names suggest. Fixed rules, total visibility, one authority at the top, logs and approvals and escalation paths: bureaucracy, and it ships more than anything else here because it answers the questions organizations actually get asked, which are what happened, who approved it, and who is answerable. The desk that refused her would have passed every one of those audits.
 
@@ -276,7 +276,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-So the useful question is not how secure it is but which arrangement you chose, because that decides where the gaps are. Capture the router while the desk is still an autocracy and you own every ticket. Once it runs on fixed rules, individual agents stop being worth attacking and whoever writes the rules becomes the whole target. Ask which attack you actually expect, not how strong the walls are. Then notice that no defence on that list would have helped her, because nothing attacked her. The desk was working.
+No defence on that list would have helped her, because nothing attacked her. The desk was working. Which is why the useful question is not how secure a system is but which arrangement it settled into, since that decides where the gaps are: capture the router while the desk is still an autocracy and you own every ticket, whereas once it runs on fixed rules the individual agents stop being worth attacking and whoever writes the rules becomes the whole target.
 
 ## How a Society Gets Argued With
 
@@ -322,7 +322,7 @@ The hardest part of this is not technical. Suppose she pushes, somebody agrees t
 
 The one that scored her has been retrained twice since, on data that now includes her case. There are four copies of it running, one of them rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. Ask which one decided and there is no answer that survives contact with how these systems actually work, because the thing that decided was a configuration that existed for six weeks and no longer exists anywhere.
 
-Every mechanism we have for holding anyone accountable assumes they stay put. People can be found later, companies can be sued years after the fact, and no login system answers this, because the question is not who signed in. It is which thing is continuous with the one that decided.
+Every mechanism we have for holding anyone accountable assumes they stay put. People can be found later and companies can be sued years after the fact. No login system answers this one, because the question is not who signed in but which thing is continuous with the one that decided, and for her case the honest answer is that nothing is.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>

@@ -320,7 +320,7 @@ And each of those agents is already doing the same thing internally. Ask the res
 
 Something logged those overrides, because logging is free and obviously useful. The calendar agent started acting on the log, because acting on it is the entire point. Two steps, both of them reasonable, and now whether a new agent gets real work has an answer nobody chose.
 
-Look at what the phone is now keeping. Who did what: the messages agent asked to interrupt. How well it went: you dismissed it. What it cost: eleven minutes of a protected block. And under whose authority: nobody's, which is exactly the problem. Those four records are the whole threshold, because once a system remembers them, **delegation has quietly become governance.**
+Look at what the phone is now keeping. It knows the messages agent asked to interrupt, that you dismissed it, and that the interruption would have cost eleven minutes of a protected block. What it does not know, and cannot, is who authorised any of it, because nobody did. Those are the four records, and once a system keeps them, **delegation has quietly become governance.**
 
 Three months in you try to give the messages agent more room, because you have decided you are missing things that matter. It hesitates anyway. The record says interruptions get dismissed, and the record is more consistent than you are, so you are now arguing with a policy you wrote by accident.
 
@@ -385,7 +385,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## From Architecture to Institution
 
-On a phone that record is an inconvenience. You lose an argument with your own calendar and miss a message you wanted. Move the identical mechanism, an agent in front picking who handles what and learning from how it went, into a company where the person on the other end is a stranger and cannot see any of it, and the same record stops being an inconvenience.
+On a phone that record is an inconvenience. You lose an argument with your own calendar and miss a message you wanted, and the worst case is your own afternoon. Now put the identical mechanism, an agent in front picking who handles what and learning from how it went, inside a company, where the person on the other end is a stranger who cannot see the record, did not agree to it, and will be the one it is wrong about. You have been on that end of one this year. Probably several.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
 
@@ -405,7 +405,7 @@ A research team builds a Map-Reduce pipeline: multiple agents search different d
 This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
 </details>
 
-Whether Priya could have fixed it depends on where that preference lives. If the router is reading a table, you edit the table. But nobody leaves preferences in tables forever, because training a model on the logs makes the decision faster and removes the lookup, and after that there is no line to delete. The judgement is spread through the thing that makes every decision, so reform means reconstructing a history you no longer have. Priya walked away from a spreadsheet. A year later she would be arguing with something that has no spreadsheet in it at all.
+Priya at least had a table to look at. That is temporary: training a model on the logs makes the routing faster and removes the lookup, and then the preference is spread through the thing that makes every decision, with no line left to delete. She walked away from a spreadsheet. A year later there would be no spreadsheet to walk away from.
 
 None of which makes any of this bad in itself. A structure that forms around real competence usually serves the people relying on it, one that drifts somewhere worse does not, and both arrive by exactly the same process. What separates them is not their origin but whether anyone can push back, and pushing back is the one thing neither the desk nor the phone was built for. Governance you cannot challenge is tyranny whether somebody designed it or not, and the emergent kind is worse for being invisible while it happens.
 
