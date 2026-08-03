@@ -47,7 +47,7 @@ None of this is a shortfall in the model. It starts with the fact that the agent
 
 From outside it looks like diligence. The commit history shows steady work, each message more specific than the last, the explanations getting more detailed and more certain. If you were reviewing it you would see an agent closing in on something. What you would not see is that it stopped considering alternatives an hour ago, and that the confidence went up precisely because it kept failing. It cannot tell the difference between converging and digging.
 
-Give the same agent more time and it does not escape, it plateaus. The work still looks like work, with files changing and tests running, and nothing signals that the search space collapsed hours ago. On <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">long research problems</a> agents lead human experts for the first couple of hours. Then the humans overtake them and keep going, and the agents are still working.
+Give the same agent more time and it does not escape, it plateaus. The one on the timezone bug will still be editing at hour six, with files changing and tests running and nothing signalling that the search space collapsed hours ago. On <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">long research problems</a> agents lead human experts for the first couple of hours. Then the humans overtake them and keep going, and the agents are still working.
 
 Compounding error, rising confidence, and the plateau all come back to one fact: the agent that made the mistake is the agent grading it. Nothing about that improves with a better prompt, because it is not a shortfall in the model. It is a property of being alone in the room.
 
