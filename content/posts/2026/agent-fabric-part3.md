@@ -207,7 +207,7 @@ Nobody told any agent to refuse returns. The leaderboard rewarded speed, every a
 
 The third agent, downranked after one bad month, is not being punished. It is simply never again the best answer to any question the router asks, which is harsher, because there is no term to it. It is also the agent that would have read her letter properly, and by the time she writes in it has not had a hard question in months. This is where most systems are today, and the price is that the numbers decide who is competent before anyone has checked whether the numbers measure competence.
 
-**The third desk, half a year in.** This is the one her letter reached, and it did not reach an agent's judgement at all. Somebody in finance had looked at the refund line and stopped trusting the leaderboard with anything that costs money, so the rules got written down instead: refunds above a threshold need a second check, certain return histories get flagged no matter what any agent thinks. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. The rule goes first and the judgement goes second, and when they disagree the rule wins: every reply correct, and none of them about her. It is the same wall anyone gets from a bank about a flagged transaction.
+**The third desk, half a year in.** This is the one her letter reached, and it did not reach an agent's judgement at all. Somebody in finance had looked at the refund line and written the rules down instead: certain return histories get flagged no matter what any agent thinks. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
@@ -236,7 +236,7 @@ The attack surface follows the architecture.
 Every new coordination channel is also a new attack channel. Every governance archetype is also an attack pattern waiting to be exploited.
 </details>
 
-Her case was supposed to have a second reader. That is what the written rule said: refunds above her amount get checked by a second agent. The retailer did not have a second agent, so it rented one, from a company whose name appears nowhere in the retailer's own policy and whose roadmap nobody at the desk had read.
+There was supposed to be a check on exactly this. The written rule said refunds above her amount get read by a second agent, and the retailer did not have a second agent, so it rented one from another company.
 
 That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying, because the thing enforcing it was never the retailer's. Her letter arrived on the Thursday and got one reader, and the rule that would have caught her case had lasted exactly as long as somebody else's machines kept enforcing it.
 
@@ -244,7 +244,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## What She Can Do About It
 
-There are two things she can do about any of this, and she does both. Complaining means replying to the email that refused her, so she replies. What reads her second letter is what wrote the first one, and it has already decided what her return history means. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
+She does the two things anyone can do. She complains, which means replying to the email that refused her. What reads her second letter is what wrote the first one, and it has already decided what her return history means. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 

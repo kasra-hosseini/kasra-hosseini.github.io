@@ -61,7 +61,7 @@ That is the whole fix. It was available the entire time, and the first agent cou
 
 Nobody on that team decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The third one never had to be clever either. It only had to be the one whose job was breaking things, on a test it had no reason to defend.
 
-Then the first agent says the test was unfair and the third says it was not. Somebody has to break the tie, and nobody designed anything to do it, so it gets broken by whatever is lying around: a counter somebody added months ago to track which agent to retry first. The test stands, because the third agent has been overruled less often this week. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
+Then the first agent says the test was unfair and the third says it was not. Somebody has to break the tie, and nobody designed anything to do it, so it gets broken by whatever is lying around. What is lying around is a retry counter, added months ago so the system would know which agent to try again first. The agent with fewer retries wins the argument, so the test stands. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
 
 
 A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
