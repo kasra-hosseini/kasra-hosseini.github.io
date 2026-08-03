@@ -30,11 +30,9 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 ## What the Loop Needs
 
-Give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. That kind of wrong is loud: somebody notices by the afternoon, the agent loses the tool, and the mistake is over.
+Give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. That kind of wrong is loud: somebody notices by the afternoon, the agent loses the tool, and an hour of restoring files ends it.
 
-The quiet one is the decision about when it is allowed to stop. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself.
-
-Nothing announces that. What it costs depends entirely on what somebody let the agent reach: a wrong file means an afternoon and a restore from backup, and an arm that has already swung means whatever it hit stays hit.
+The quiet one is the decision about when it is allowed to stop. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. Nothing announces the difference. If the worst it can reach is a file, somebody restores the file; if it has already sent the email or moved the money, there is nothing to restore.
 
 
 
