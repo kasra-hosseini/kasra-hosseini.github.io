@@ -393,7 +393,7 @@ Four agents barely need organizing, but the moment there are dozens and they can
 
 ## From Architecture to Institution
 
-On a phone all of this is survivable. The system is yours, the worst it costs is a missed message, and you could in principle throw the whole thing away and start again. Two changes break that. Somebody else pays, and you cannot start again.
+Everything so far happened on a phone, where the stakes are forgiving. The system is yours, the worst it costs is a missed message, and you could throw the whole thing away and start again. Keep the mechanism exactly as it is and change only two things, that somebody else pays for the mistakes and that you cannot start again, and the same accumulating record stops being an inconvenience and becomes an institution. That is the entire difference between the story you have just read and the one that follows.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
 
@@ -423,11 +423,11 @@ What decides which one you got is not its origin but whether anyone can push bac
 
 So there are two bills for delegating. The one you can measure arrives immediately: every hop costs compute and time, and every hop is another chance for what you asked for to drift from what gets done. That is why nobody builds twenty layers deep when three will do.
 
-The bill that arrives later is authority, and it is easiest to see in what the router will not do. Ask it to send a hard billing dispute to the third agent and it will comply, once, and then go back to the two it trusts, because nothing you said changed the record and the record is what it consults. Nobody granted it that power. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork: preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it. The cheapest, most sensible engineering decisions are exactly the ones that do it.
+The second bill arrives later and it is paid in authority. It is easiest to see in what the router will not do. Ask it to send a hard billing dispute to the third agent and it will comply, once, and then go back to the two it trusts, because nothing you said changed the record and the record is what it consults. Nobody granted it that power. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork: preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it.
 
 Which is why the phone is the right place to have started. Nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud.
 
-The four records are the thing to look for, and they are not hard to find. Most systems already log who handled a request and whether it went well. Plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight; it is what makes the other three feel like engineering instead of politics. Which is the whole choice, in the end. Not whether to have governance, but whether you end up with the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging.
+Which makes the four records worth knowing by heart, because they are not hidden. Most systems already log who handled a request and whether it went well. Plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight; it is what lets the other three pass for engineering. Not whether to have governance, then, but whether you end up with the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging.
 
 Which this post cannot answer. What kinds of governance are there, which one are you accidentally running, and who enforces it when it fails, is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
 
