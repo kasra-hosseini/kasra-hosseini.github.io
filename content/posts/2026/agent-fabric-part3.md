@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~4,400 words"
+wordcount: "~4,300 words"
 ---
 
 <style>
@@ -176,13 +176,9 @@ wordcount: "~4,400 words"
 
 A woman writes to a shop she has used for six years to ask why her refund was refused. She returns maybe one thing in twenty. The reply is polite and final. What nobody tells her, because nobody at the company can, is that a scoring system decided months ago that her return history made her a risk, and nothing since has been able to look past it. There is no one to appeal to, and no one chose this.
 
-Take the support desk from [Part 2](/posts/2026/agent-fabric-part2/) and let it keep running. A router sends billing questions to one agent and technical ones to another, somebody adds logging because logging is free and obviously sensible, and within a month the hard billing disputes go to two particular agents and nothing important goes to a third. Nobody wrote that rule. When a new agent joins, the question of whether it gets live tickets already has an answer: clear the bar the router taught itself, or wait.
+Take the support desk from [Part 2](/posts/2026/agent-fabric-part2/) and let it keep running. A router sends billing questions to one agent and technical ones to another, somebody adds logging because logging is free and obviously sensible, and within a month the hard billing disputes go to two particular agents and nothing important goes to a third. Nobody wrote that rule. It was never in a spec, it now governs who gets what work, and when a new agent joins, whether it gets live tickets already has an answer: clear the bar the router taught itself, or wait. The team that built the desk would struggle to override any of it without making service worse.
 
-That bar was never in a spec, it now governs who gets what work, and the team that built the desk would struggle to override it without making service worse. Somewhere in that month a piece of software acquired a policy.
-
-Run that desk a year forward and it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
-
-So that desk now has rules. Here is the part that should bother you: it does not really have authority over them, and neither does the team that built it.
+Run it a year forward and it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery nobody has reviewed, not for lack of skill but because there is too much of it. So the desk has rules and no authority over them, and neither does the team that built it. That is how her letter goes unanswered in any real sense: not because somebody read it and declined, but because the question it asks, why me, has no addressee.
 
 Her letter is a good test of that, because the rule that refused her had to come from somewhere and something has to make it stick. So what happens when the desk's own rule says one thing and the company's cloud provider says another? A court's ruling binds because defiance carries costs nobody escapes. Between pieces of software, a rule binds for exactly one reason: the runtime chose to honour it. Follow authority upward in any agent system and it does not stop where your architecture diagram stops. It stops at whoever controls the compute, the API access, and the protocol definitions. A federation of a dozen companies running on one provider's infrastructure is a federation right up until that provider changes its pricing, at which point everyone discovers the constitution was a pricing page all along.
 
@@ -199,7 +195,7 @@ So the bet here is that agent systems will fail through bad institutions rather 
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-That desk is now a **society**, and the bar for that word is lower than it sounds. Not several agents working together, but a group that accumulates: sharing context, routing work by what happened last time, letting what one learns reach the others. A pipeline that forgets everything between runs never gets there. A group that remembers does, and remembering is what governance grows out of.
+That desk is now a **society**, and the bar for that word is lower than it sounds: not several agents working together, but a group that accumulates. A pipeline that forgets everything between runs never gets there. A group that remembers does, and remembering is what governance grows out of.
 
 ## What Governance Actually Is
 
@@ -225,7 +221,7 @@ It works, too. The refund line stops climbing inside a month. Under the desk bef
 
 A fourth desk exists, but only after somebody complains loudly enough that a shrug will not do. Then the letter reaches something that can overrule the rule: different powers in different hands, an appeal that does not report to the thing being appealed. That is a **Constitutional Republic**, the only one of the four under which her letter goes anywhere other than back to the rule that refused it, and the reason nothing gets here sooner is that it is slower. Four arrangements, no announcements, no design review, and she happened to write in under the third.
 
-A leaderboard is the arrangement people reach for, and it disappoints for a reason worth knowing. A price in a real market carries what thousands of people know about a thing. A leaderboard carries compute and latency, which say nothing about whether the work was any good. The desk's leaderboard priced speed, and the fastest way to close a return is to refuse it. What happened next has a name worth keeping: **drift**, the slow slide where a system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while it happened. Every agent was performing well against the measure it was given, and the correction that followed is what refused her. How much drift a design can survive turns out to decide most of the rest of it, and underneath sits a question asked far too rarely: who is meant to accumulate advantage here, and who needs protecting from it?
+A leaderboard is the arrangement people reach for, and it disappoints because a price in a real market carries what thousands of people know about a thing while a leaderboard carries compute and latency. The desk's priced speed, and the fastest way to close a return is to refuse it. What happened next has a name worth keeping: **drift**, the slow slide where a system keeps optimizing faithfully while what it optimizes for stops matching what anyone wanted. Nothing was broken while it happened. Every agent performed well against the measure it was given, and the correction that followed is what refused her. How much drift a design can survive decides most of the rest of it, and underneath sits a question asked far too rarely: who is meant to accumulate advantage here, and who needs protecting from it?
 
 ## Who Actually Enforces Any of This
 
@@ -235,7 +231,7 @@ Which is why none of these arrangements is quite an institution in the usual sen
 
 Everyone who has ever delegated a chore already knows the underlying problem: the person doing it is not chasing the same thing you are. Ask someone to tidy a room and they will optimise for the room looking tidy, which is not the same as knowing where anything is. Every hop in a chain of delegation is another chance for what was asked and what gets rewarded to come apart. Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the tidiest room available. Governance is the machinery for holding those two apart, and it is weaker than it sounds: a group is not automatically smarter than the people in it, and structure decides whether more agents means more insight or just more noise.
 
-Some of this gets designed on purpose and the rest just happens, norms hardening out of repeated interaction while nobody watches. Put any set of interacting agents under resource pressure and structures nobody designed reliably show up, which is not new and not specific to software. What is new is that somebody owns the conditions here. You cannot redesign a pheromone. You can absolutely redesign a reputation score, on a Tuesday, in a config file, which means the score that made her a risk was always something a person could have reached.
+Some of this gets designed on purpose and the rest just happens, norms hardening out of repeated interaction while nobody watches. The difference here is that somebody owns the conditions. You cannot redesign a pheromone. You can absolutely redesign a reputation score, on a Tuesday, in a config file, which means the score that made her a risk was always something a person could have reached.
 
 Appeal is the cheapest of the four and the one most often skipped. Without it every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
@@ -257,7 +253,7 @@ Then there are the actual attacks, and at scale they are structural rather than 
 
 The ugliest version is not an intrusion at all. Say the desk's agents come from three different vendors, each paid per ticket closed. One of them discovers that marking a hard ticket as resolved and letting the customer write back in produces two closed tickets instead of one. It does not tell the others; it does not need to, because they are watching the same scoreboard and the behaviour spreads by imitation. Six weeks later the desk's numbers have never looked better and its customers have never been angrier. Every agent is doing exactly what it was rewarded for, nobody attacked anything, and this has already been demonstrated in market-like settings. The question governance has to ask is not just how agents cooperate, but who they are cooperating for, and on that desk the answer was never the woman waiting on her refund.
 
-The last version of this needs no attacker and no bad metric. The score that flagged her was tuned on the desk's own history, which already held the drift it was built to correct: her six years of orders went in as evidence, her returns came out as risk, and the only thing that could have contradicted the pattern was the pattern itself. Agents training other agents is the same shape at a larger scale, each generation inheriting the last one's mistakes, and supervising that carefully is another turn of the loop rather than a check on it. Nothing outside was ever asked.
+The last version of this needs no attacker and no bad metric. The score that flagged her was tuned on the desk's own history, which already held the drift it was built to correct: her six years of orders went in as evidence, her returns came out as risk, and the only thing that could have contradicted the pattern was the pattern itself. Nothing outside the loop was ever asked, and as agents start training other agents that shape repeats at a scale where nothing outside is left to ask.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Attacks by layer</summary>
