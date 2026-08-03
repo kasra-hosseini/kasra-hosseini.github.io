@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,350 words (body) · ~2,000 words (notes)"
+wordcount: "~1,300 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -377,9 +377,9 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## From Architecture to Institution
 
-On a phone that record is an inconvenience. You lose an argument with your own calendar and miss a message you wanted, and the worst case is your own afternoon. Now put the identical mechanism, an agent in front picking who handles what and learning from how it went, inside a company, where the person on the other end is a stranger who cannot see the record, did not agree to it, and will be the one it is wrong about. You have been on that end of one this year. Probably several.
+On a phone that record is an inconvenience, and the worst case is your own afternoon: you lose an argument with your own calendar and miss a message you wanted. What changes at a company is who is on the receiving end. There the record is kept about one person and consulted about another, so the person it is wrong about never sees it, never agreed to it, and cannot dismiss anything. You have been on that end this year. Probably several times.
 
-So watch it happen somewhere the record is not yours. Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
+Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. Nothing here is remarkable, and that is the point: the only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect and obviously useful.
 
 After a month the router sends complex billing disputes only to the two agents that resolve them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The next person whose delivery goes missing is routed by a record rather than by a category, and neither they nor anyone at the company could tell you that changed. When a new agent joins, whether it gets live tickets or has to shadow-run first already has an answer: match the threshold the router taught itself, or wait. The deployment team can override that, but only by making the service worse, which in practice means they will not.
 
@@ -397,7 +397,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 You have done the same thing on a smaller scale: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too. Priya at least had a table to look at, and that is temporary, because training a model on the logs makes the routing faster and removes the lookup, and then the preference is spread through the thing that makes every decision with no line left to delete. She walked away from a spreadsheet. A year later there would be no spreadsheet to walk away from.
 
-None of this is bad in itself. A structure that forms around real competence often serves the people relying on it, and what separates that from the desk she wrote to is not how it started but whether anyone can push back. Every system here logs who did the work, how it went, and what it cost. None of them logs who said it could.
+Every system here logs who did the work, how it went, and what it cost. None of them logs who said it could.
 
 ---
 
