@@ -63,9 +63,16 @@ There are only two ways out of this, and one of them is a person at the moments 
 
 Which is where this stops being a question about agents and becomes a question about arrangements. Three agents checking each other is already a small institution: somebody decides who does what, somebody decides who checks whom, and when two of them disagree something has to settle it. Nobody sits down to design that. It gets settled anyway, by whichever agent happens to be trusted, and trust here is just a number somebody started recording.
 
----
-
-The rest of this series is about what it takes to fix that, and what the fix costs. [Part 1](/posts/2026/agent-fabric-part1/) is why agents end up in groups. [Part 2](/posts/2026/agent-fabric-part2/) is how the work gets split, and [Part 3](/posts/2026/agent-fabric-part3/) is who ends up in charge. Each has a companion field guide: [delegation patterns](/posts/2026/delegation-patterns-field-guide/) and [governance archetypes](/posts/2026/governance-archetypes-field-guide/).
 
 So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
 
+<div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
+<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
+
+- **Prologue: The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
+- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
+- **[Part 2: Delegation, and What It Costs](/posts/2026/agent-fabric-part2/)**: how work gets split among agents, and how splitting it quietly creates authority nobody granted
+- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
+- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
+- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
+</div>
