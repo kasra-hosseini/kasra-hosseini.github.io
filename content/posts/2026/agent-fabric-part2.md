@@ -417,7 +417,7 @@ She knows what it would have taken, and it is cheap enough to be insulting. A se
 
 She was right the whole time, and being right was worth nothing.
 
-Neither column would have made the desk fairer. They would have made it arguable, which is what she actually needed and nobody puts on a roadmap, because until the day it matters, a table nobody can argue with looks exactly like a table that is right.
+Neither column would have made the desk fairer. They would have made it arguable, which is what she actually needed: a record somebody can contradict, and somebody who has to answer when they do. Nobody puts that on a roadmap, because until the day it matters, a table nobody can argue with looks exactly like a table that is right.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">

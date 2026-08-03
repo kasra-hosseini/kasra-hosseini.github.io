@@ -240,7 +240,7 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 Her case was supposed to have a second reader. That is what the written rule said: refunds above her amount get checked by a second agent, which the retailer did by paying another company for one.
 
-That company switched the service off on a Tuesday, having told the retailer months earlier in a changelog nobody at the desk was reading. The rule was not repealed, or voted down, or argued about. It just stopped applying. Her letter arrived on the Thursday and got one reader.
+That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying, because the thing enforcing it was never the retailer's. Her letter arrived on the Thursday and got one reader.
 
 The rule that would have caught her case was never really the retailer's to keep. It held for as long as somebody else's machines went on enforcing it.
 
@@ -252,9 +252,11 @@ She has two ways to argue with any of this, and she tries them both. The first i
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
-The third agent has the same two and gets the same nowhere. It cannot say the metric is wrong, because saying so is itself a mark against it, and it cannot go and be a support agent somewhere else. Neither of them can leave, so neither of them gets heard.
+Back at the second desk, an agent was quietly dropped to the bottom of a leaderboard for one slow month. It has the same two options she does, and gets the same nowhere: it cannot say the metric is wrong, because saying so is itself a mark against it, and it cannot go and be a support agent somewhere else. Neither of them can leave, so neither of them gets heard.
 
-The rule that refused her could have been written down. Not in a policy document, but in the same file the system reads, with two lines under it: who may change this, and what happens when somebody says it is wrong. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
+The rule that refused her could have been written down. Not in a policy document, but in the same file the system reads, with two lines under it: who may change this, and what happens when somebody says it is wrong.
+
+Somebody could also have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Related work and positioning</summary>
