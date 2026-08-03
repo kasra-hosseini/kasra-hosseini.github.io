@@ -23,7 +23,7 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter. Something was built around it, and that something is the difference between a thing that describes work and a thing that does it.
 
-That gap does not close by making the model smarter. It closes by building things around it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that keeps going until the work looks done. That apparatus is called **scaffolding**. The model reasons; the scaffolding is what turns reasoning into consequence.
+That gap does not close by making the model smarter. It closes by building things around it: something telling it what it is doing, tools letting it act, memory carrying what it learned from one step into the next, and a loop that keeps going until the work looks done. None of that is the model. All of it is what turns a thing that describes work into a thing that does it, and the industry calls it **scaffolding**.
 
 Take any one of those away and the whole thing changes character. Without the loop it is a chatbot again. Without tools it can think and never touch anything. Memory is the strangest of the three, because an agent that loses it does not get dumber in any measurable way. It stays exactly as capable as before and walks into the same dead end every twenty minutes, with full confidence, forever.
 
@@ -55,7 +55,7 @@ This is not one system's quirk. When researchers <a href="https://arxiv.org/abs/
 
 Give the same agent more time and it does not escape, it plateaus. Put agents and human experts on the <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">same long research and engineering problems</a> and the agents are ahead in the first couple of hours, then the humans overtake them and keep going. The agent exhausts the strategies available to it and settles into diminishing returns instead of stepping back and trying a different angle.
 
-Underneath all three is the same root problem. One loop runs one set of habits, so the very patterns that produced a mistake are the ones deciding whether it was a mistake at all. Nothing here is a bug awaiting a patch; this is what improving in isolation does, and the agent cannot hold a position and attack it at the same time.
+All three come back to the same thing. One loop runs one set of habits, so the patterns that produced a mistake are the patterns judging whether it was a mistake. The agent cannot hold a position and attack it at the same time, and no amount of prompting changes that, because it is not a shortfall in the model. It is a property of being alone.
 
 {{< figure src="/images/2026/anatomy-delegation-styles.svg" alt="Two delegation styles side by side: a single agent looping through a task alone, and an orchestrator dividing work among research, coding, and review specialists, with a panel listing further patterns (peer-to-peer networks, voting panels, specialist markets, hierarchical chains, blackboard systems, debate protocols) explored in Part 2" caption="**Figure 2.** A single agent can loop through a task alone, or an orchestrator can delegate the work to specialists. These are only two points in a much larger design space; Part 2 maps that space in detail, with dozens of delegation patterns grouped into families." >}}
 
@@ -67,7 +67,7 @@ Which is where this stops being a question about agents and becomes a question a
 
 ---
 
-So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Everything that follows in this series, every arrangement and every institution, is an attempt to fix that, and every one of them charges for it. [Part 2](/posts/2026/agent-fabric-part2/) is how the work gets split. [Part 3](/posts/2026/agent-fabric-part3/) is who ends up in charge.
+So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that. It only raised the stakes, because the well-read person locked in a room could at least be argued with, and this one acts while it is being wrong. Everything that follows in this series is an attempt to fix that, and every fix charges for it. [Part 2](/posts/2026/agent-fabric-part2/) is how the work gets split. [Part 3](/posts/2026/agent-fabric-part3/) is who ends up in charge.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
