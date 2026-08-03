@@ -246,13 +246,19 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## How a Society Gets Argued With
 
-Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third only works on software: copy the whole thing, change the rule you object to, run your own version. That is a real option for people who dislike a piece of code, and no option at all for somebody who just wants their refund from this shop. She had none of the three.
+She tried complaining first, which meant replying to the email that had refused her. The reply invited her to reply. Whatever read her second letter was the thing that wrote the first one, and it had already decided what her return history meant. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
 
-The downranked agent has no more recourse than she does, and for the same reason. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to work. Complaints get heard where leaving is possible, and neither of them could leave.
+Leaving is the option everyone assumes she has. She has ordered from that shop for six years because it stocks what she needs at prices she can afford, and the two shops that also do are running the same kind of desk, bought from the same kind of vendor, scoring her the same way on the same history. Walking out works when there is a different door. Increasingly there is one door and several signs on it.
+
+The third exit only exists for software. If you dislike how a program treats you and the source is open, you can copy the whole thing, change the rule, and run your own version. Nobody does that to a shop. She does not want her own retailer; she wants forty pounds back from this one.
+
+So she had none of the three.
+
+The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. Complaints get heard where leaving is possible, which is the part nobody designs for, because it is the part nobody notices they removed.
 
 ## What This Framework Is For
 
-Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. Her letter is what that missing sentence cost. Nobody had the sentence for it, which is why nobody said it: they were adding a risk score, and that is not a thing anyone objects to.
+Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
 This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Each desk was built by somebody solving the previous desk's worst problem, which is why none of them was ever chosen as a design.
 
