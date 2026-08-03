@@ -182,7 +182,7 @@ By the end of that year it is handling nine thousand tickets a week across forty
 
 Nothing any agent told her was untrue. Every answer was correct, and that is how these systems will fail long before they start lying.
 
-So the question was never whether this desk would end up with rules. It was which rules, and decided by whom.
+The desk was always going to end up with rules. The only open questions were which ones, and who would get to change them.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
@@ -211,7 +211,7 @@ The agent that would have read her letter properly is the one that had a slow mo
 
 **The third desk, half a year in: the rule decides.** This is the one her letter reached, and it never got as far as an agent's judgement. Somebody in finance had looked at the refund line and written the rules down instead. One rule flagged certain return histories no matter what any agent thought, and hers was one of them.
 
-Another rule said refunds above her amount get a second reader. On the Tuesday before her letter arrived, the company renting them that second reader switched it off. Nobody repealed anything; the rule just stopped being true, and her letter landed on the Thursday. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
+Another rule said refunds above her amount get a second reader, and hers qualified. The second reader was rented from another company, and that company switched the service off on the Tuesday. Her letter arrived on the Thursday. Nobody repealed the rule; it just stopped being true. What she gets back is four polite sentences about return-history thresholds, no name at the bottom, and no route to anyone who could look again. Every reply correct, and none of them about her.
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
@@ -281,7 +281,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-The desk will get an appeal eventually, the first time somebody insists on knowing why their complaint was ignored. She was the one asking, and nobody had designing that on a ticket.
+The desk will get an appeal eventually, the first time somebody insists on knowing why their complaint was ignored. She was the one insisting, and designing the thing that would have heard her was on nobody's list.
 
 Nobody in her story was careless, and nobody was cruel. These structures do not arrive when people are careless about governance. They arrive when people are conscientious about everything else.
 
