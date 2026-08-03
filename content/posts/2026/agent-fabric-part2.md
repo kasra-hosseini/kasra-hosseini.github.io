@@ -318,7 +318,7 @@ Then two of them want opposite things. The messages agent has something urgent; 
 
 *Part of The Agent Fabric series. [Part 1](/posts/2026/agent-fabric-part1/) argued that agents survive only while they are useful to someone, that compute is finite while agent populations are not, and that the squeeze between those two facts pushes agents toward connected, coordinated arrangements. Some of those arrangements get designed by a company; others just accrete around whatever tools a person happens to own. Either way, this post is about what they turn into.*
 
-And each of those agents is already doing the same thing internally. Ask the research one for a summary and it quietly hires something to fetch the paper and something else to compress it. You talked to one agent. Several did the work.
+And each of those agents is already doing the same thing internally. Ask the research one for a summary and it quietly hires something to fetch the paper and something else to compress it, and that one may hire further. You asked one question and started a chain of command that nobody can see whole, because each agent knows only who called it and who it called.
 
 None of that is new. Delegation is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
 
@@ -331,8 +331,6 @@ Three months in you try to give the messages agent more room, because you have d
 The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
-
-Four agents barely need organizing, but the moment there are dozens and they can call each other, something has to decide who gets what. That something gets better at deciding by watching which of its guesses you let stand, which means it has to keep score, and there is no version of this that does not. And the arrangements stack: ask your research agent for a summary and it hires a fetcher, which hires something to compress, and three layers each decide what the layer beneath is allowed to try. You asked one question and started a chain of command that nobody can see whole, because each agent knows only who called it and who it called.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
@@ -427,7 +425,7 @@ The second bill arrives later and it is paid in authority. It is easiest to see 
 
 Which is why the phone is the right place to have started. Nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud.
 
-Which makes the four records worth knowing by heart, because they are not hidden. Most systems already log who handled a request and whether it went well. Plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight; it is what lets the other three pass for engineering. Not whether to have governance, then, but whether you end up with the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging.
+So look for the four records in anything you use. Most systems already log who handled a request and whether it went well. Plenty track what it cost. Almost none can say whose authority anything acted under, and that missing fourth record is not an oversight: it is what lets the other three pass for engineering. The choice was never whether to have governance. It is whether you end up with the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging.
 
 Which this post cannot answer. What kinds of governance are there, which one are you accidentally running, and who enforces it when it fails, is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
 
