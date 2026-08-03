@@ -384,13 +384,13 @@ There is one person at that company who would notice, and it is not a manager. P
 
 She goes looking for the rule that did, and there is no rule anywhere: not in the settings, not in the policy docs, not in anyone's memory. There is only a pattern that has been running long enough to look like one.
 
-She hands it three hard tickets herself. It is rusty, two come back late, and the table records that as fresh evidence it should not be given hard tickets. That is the trap: every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
+She hands it three hard tickets herself. The table has no way to tell rusty from incapable, so when two come back late it reads that as fresh evidence the agent should not be given hard tickets. That is the trap: every attempt to correct the record makes the record stronger, and nobody can lift a rule that was never written. She leaves it, the way you left your calendar alone.
 
 By October that agent is retired for underperformance, which leaves two. In November one of the survivors tells a customer her fragile-item return does not qualify, and it is wrong, and there is nothing left to check it against. The one agent that might have answered differently was retired for never being given the chance.
 
 Priya is in that meeting, and she knows exactly what happened. She could say the comparison was destroyed a year ago by a routing preference nobody chose, that she watched it happen in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her.
 
-The same thing happened on your phone. There it cost you an afternoon; here it cost a stranger her refund.
+On your phone the same mechanism cost you an afternoon. Here it cost a stranger her refund and an agent its job, and nobody had to decide either one.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
@@ -402,7 +402,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-Priya lost that argument to a spreadsheet, and she was the one person in the building who knew where to look. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
+She was the one person in the building who knew where to look, and a spreadsheet beat her. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
