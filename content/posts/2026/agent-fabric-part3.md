@@ -244,11 +244,9 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## What She Can Do About It
 
-So she complains, which means replying to the email that refused her, and what reads her second letter is what wrote the first one. It has already decided what her return history means. An appeal heard by the party you are appealing against is not an appeal.
+So she complains, which means replying to the email that refused her. The reply comes back in four minutes, thanks her for the additional information, and repeats the second paragraph of the first one. Whatever read her letter is what wrote the letter, and it had already decided what her return history means. An appeal heard by the party you are appealing against is not an appeal.
 
-Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
-
-The agent that lost its hard tickets has no more than she does. It cannot argue with the record without adding to it, and there is nowhere else for a support agent to work.
+Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years. She stops with the cursor in the box, because she has no way of knowing what that address is worth here, and no way of finding out until it is worth something.
 
 Nothing about the rule that refused her was written down anywhere she could have found it, and nowhere the people who built the desk could have found it either. There was no line naming who was allowed to change it, and none saying what happens when somebody says it is wrong, because nobody had ever needed those lines until she wrote in.
 
