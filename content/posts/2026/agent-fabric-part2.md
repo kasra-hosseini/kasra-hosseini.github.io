@@ -312,9 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Priya wrote the router at a support desk: the piece of code that reads each incoming ticket and picks which agent handles it. Anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
-
-Something on that desk had started deciding which agent was worth using, and nobody had granted it that authority. If it sounds unfamiliar, there is a version in your pocket: an assistant that has stopped offering you things, because you dismissed it a few times when you were busy and something in there is keeping score. You voted for that, one dismissal at a time, without knowing there was an election.
+Think of an assistant on your phone that has stopped offering you things, not because you switched it off but because you dismissed it a few times when you were busy and something in there is keeping score. It suggests less, so you dismiss it less, so it suggests less again. Nothing in your phone was granted the authority to demote it. You voted for it, one dismissal at a time, without knowing there was an election.
 
 
 
@@ -375,9 +373,11 @@ Something on that desk had started deciding which agent was worth using, and nob
 <p style="color: #555;"><a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener" class="red-link">MCP</a> standardizes how AI systems connect to tools and data sources; <a href="https://a2a-protocol.org/" target="_blank" rel="noopener" class="red-link">A2A</a> points toward agent-to-agent interoperability. Neither, by itself, solves the whole problem of an open specialist market. The <a href="https://arxiv.org/abs/2410.11905" target="_blank" rel="noopener" class="red-link">Agora protocol</a> (not to be confused with the Agora governance archetype in [Part 3](/posts/2026/agent-fabric-part3/)) frames this as an Agent Communication Trilemma: versatility, efficiency, and portability pull against one another. The likely future is not one universal protocol, but a stack: tool access, agent identity, delegation, settlement, provenance, and audit. A comprehensive <a href="https://arxiv.org/abs/2504.16736" target="_blank" rel="noopener" class="red-link">survey of agent protocols</a> maps the current landscape.</p>
 </details>
 
-On a phone that costs you a suggestion you might have wanted. Give one agent the job of deciding which of the others handles what, and the same scorekeeping decides whose work exists. That decision is the whole of delegation, and the moment it starts consulting a record of who did well last time, it has become the place authority lives. Somebody builds that on a Tuesday, and it does not feel like building an institution. It feels like adding logging.
+On a phone the worst this costs is a suggestion you might have wanted. Now put several agents in a company and give one of them the job of deciding which of the others handles what. That decision is the whole of delegation, and the moment it starts consulting a record of who did well last time, it has become the place authority lives. Somebody builds that on a Tuesday, and it does not feel like building an institution. It feels like adding logging.
 
-So she goes looking for the rule behind those zeroes. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
+Priya wrote the router: the piece of code that reads each incoming ticket and picks which agent handles it. Anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
+
+So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
 
 Nothing she finds is a mistake. On one Tuesday in March the third agent took eleven hours over a billing dispute, and that is the last hard question it was ever asked.
 
