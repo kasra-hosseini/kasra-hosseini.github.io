@@ -415,11 +415,9 @@ She never lacked evidence. She lacked anywhere to take it.
 
 She knows what it would have taken, and it is cheap enough to be insulting. A second column next to close time, for how hard the ticket was, and her experiment would have been visible instead of damning. One line, in the file the router actually reads, saying that no agent goes a month without a hard ticket, and the third agent is still there. She could have written either one in an afternoon. It never occurred to her, because a log does not look like a thing that decides while you are building it. It looks like a table.
 
+Neither column would have made the desk fairer. They would have made it arguable, and accurate is not the same as answerable: with either one in place, somebody in that meeting would have had to say out loud that the rule was wrong, or that they were overriding it. Nobody puts that on a roadmap, because until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
+
 She was right the whole time, and being right was worth nothing.
-
-Neither column would have made the desk fairer. They would have made it arguable, and that is the distinction she needed and did not have. The table was accurate, and accurate was all anybody had asked it to be.
-
-Accurate is not the same as answerable. In that meeting she would have had a column to point at and a rule to cite, and somebody would have had to say out loud either that the rule was wrong or that they were overriding it. Nobody puts that on a roadmap, because until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">

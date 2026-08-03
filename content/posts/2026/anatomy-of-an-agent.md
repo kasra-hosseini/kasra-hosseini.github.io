@@ -21,7 +21,7 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter.
 
-Something was built around it, and that something is the difference between describing work and doing it. Instructions telling it what it is doing. Tools letting it act. Memory carrying what it learned from one step into the next. A loop that runs until the work looks done. All of that together is called scaffolding, and it does not make the model cleverer. It gives the cleverness somewhere to land.
+Something was built around it, and that something is the difference between describing work and doing it: it was told what it was doing, given tools to act with, allowed to carry what it learned from one step into the next, and left running until the work looked done. All of that together is called scaffolding, and it does not make the model cleverer. It gives the cleverness somewhere to land.
 
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
@@ -49,7 +49,7 @@ The model is not being stupid. Every test it reads was broken by its own last ed
 
 The one on the timezone bug is still editing at hour six, nothing signalling that the search space collapsed before lunch. That is the shape of it on every long job: on a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> an agent beats a human expert for the first couple of hours, and then the expert pulls ahead and keeps pulling.
 
-All of it comes back to one fact: the agent that made the mistake is the agent grading it. No prompt fixes that. It is a property of being alone in the room.
+The agent that made the mistake is the agent grading it. No prompt fixes that, because it is not a flaw in the prompt. It is a property of being alone in the room.
 
 {{< figure src="/images/2026/anatomy-delegation-styles.svg" alt="Two delegation styles side by side: a single agent looping through a task alone, and an orchestrator dividing work among research, coding, and review specialists, with a panel listing further patterns (peer-to-peer networks, voting panels, specialist markets, hierarchical chains, blackboard systems, debate protocols) explored in Part 2" caption="**Figure 2.** The same job done alone and split three ways. The second arrangement is not smarter, just harder to fool." >}}
 
