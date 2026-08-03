@@ -49,7 +49,7 @@ None of this is the model being stupid. Every test it reads was broken by its ow
 
 More time does not help; it plateaus. The one on the timezone bug will still be editing at hour six, files changing and tests running, nothing signalling that the search space collapsed hours ago. Give it a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> and it will beat a human expert for the first couple of hours. Then the expert pulls ahead, and the agent is still editing.
 
-The compounding, the confidence, and the plateau come back to one fact: the agent that made the mistake is the agent grading it. Nothing about that improves with a better prompt. It is a property of being alone in the room.
+All of it comes back to one fact: the agent that made the mistake is the agent grading it. No prompt fixes that. It is a property of being alone in the room.
 
 {{< figure src="/images/2026/anatomy-delegation-styles.svg" alt="Two delegation styles side by side: a single agent looping through a task alone, and an orchestrator dividing work among research, coding, and review specialists, with a panel listing further patterns (peer-to-peer networks, voting panels, specialist markets, hierarchical chains, blackboard systems, debate protocols) explored in Part 2" caption="**Figure 2.** The same job done alone and split three ways. The second arrangement is not smarter, just harder to fool." >}}
 
