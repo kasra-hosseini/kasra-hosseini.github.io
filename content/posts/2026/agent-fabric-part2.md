@@ -353,7 +353,7 @@ A dispatcher has to decide who is worth handing work to. It could go on declared
 
 Your phone already does this to you, in miniature. Something in front decides which of your agents sees a given request, and it gets better at that decision by watching which of its guesses you let stand. The uncomfortable part is that there is no version of this that does not keep score. To send the easy questions somewhere cheap, a dispatcher has to know which questions are easy, and the only way it learns that is by remembering how the last few thousand went.
 
-And these arrangements stack. You ask your research agent for a summary, it hires something to fetch the paper, that thing hires something to compress what it found, and by the time an answer comes back three layers have each decided what the layer beneath it was allowed to try. You asked one question and started a chain of command. Nobody can see it whole, not you and not any agent in it, because each one knows only who called it and who it called. The one mercy is that these trees stay short, since every extra layer costs money and adds delay, so the number of people you cannot see deciding things on your behalf stays small by accident rather than by design.
+And these arrangements stack, which is where it gets harder to see. You ask your research agent for a summary. It hires something to fetch the paper, that thing hires something to compress what it found, and the answer comes back forty seconds later looking like one clean response. Three layers each decided what the layer beneath was allowed to try, and you saw none of it. Nobody saw all of it, either, because each agent knows only who called it and who it called.
 
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
@@ -442,7 +442,7 @@ What separates them is not where they came from but whether anyone can push back
 
 ---
 
-So this is the real cost of delegating. The obvious bill is the one you can measure: every hop multiplies compute, latency, and the chance that intent leaks a little further from what was asked. That bill is why delegation trees stay shallow, why specialists beat generalists on narrow work, and why the shape of a production system is set as much by budget as by design.
+So this is the real cost of delegating. The obvious bill is the one you can measure. Every hop costs compute and time, and every hop is another chance for what you asked for to drift a little further from what gets done. That bill is why nobody builds twenty layers deep when three will do.
 
 The bill that arrives later is authority. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork. It will have preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it. Nobody has to decide to build one, and the cheapest, most sensible engineering decisions are exactly the ones that do it.
 
