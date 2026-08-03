@@ -318,17 +318,6 @@ Then two of them want opposite things. The messages agent has something urgent; 
 
 *Part of The Agent Fabric series. [Part 1](/posts/2026/agent-fabric-part1/) argued that agents survive only while they are useful to someone, that compute is finite while agent populations are not, and that the squeeze between those two facts pushes agents toward connected, coordinated arrangements. Some of those arrangements get designed by a company; others just accrete around whatever tools a person happens to own. Either way, this post is about what they turn into.*
 
-<div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
-
-- **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
-- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
-- **Part 2: Delegation, and What It Costs** (you are here): how work gets split among agents, and how splitting it quietly creates authority nobody granted
-- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
-- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
-- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
-</div>
-
 And each of those agents is already doing the same thing internally. Ask the research one for a summary and it quietly hires something to fetch the paper and something else to compress it. You talked to one agent. Several did the work.
 
 None of that is new. Delegation is already everywhere. What is not yet everywhere is what happens when those arrangements start remembering how they went.
@@ -343,9 +332,7 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
 
-Four agents barely need organizing; one of them handing out jobs is plenty. It gets interesting when there are dozens and they can call each other, because then somebody has to decide who gets what, and that decision is not an implementation detail. It is the whole question.
-
-Your phone already does the second one to you. Something in front decides which agent sees a given request, and it gets better at that decision by watching which of its guesses you let stand. There is no version of this that does not keep score, because to send the easy questions somewhere cheap it has to know which questions are easy, and the only way it learns that is by remembering how the last few thousand went. A record of who did well is the first sentence of a hierarchy.
+Four agents barely need organizing, but the moment there are dozens and they can call each other, somebody has to decide who gets what. Your phone already does this to you. Something in front decides which agent sees a given request, and it gets better at that decision by watching which of its guesses you let stand. There is no version of this that does not keep score, because to send the easy questions somewhere cheap it has to know which questions are easy, and the only way it learns that is by remembering how the last few thousand went. A record of who did well is the first sentence of a hierarchy.
 
 And these arrangements stack, which is where it gets harder to see. You ask your research agent for a summary. It hires something to fetch the paper, that thing hires something to compress what it found, and the answer comes back forty seconds later looking like one clean response. Three layers each decided what the layer beneath was allowed to try, and you saw none of it. Nobody saw all of it, either, because each agent knows only who called it and who it called.
 
@@ -418,10 +405,8 @@ Same four records, same threshold, and this time somebody's refund is on the oth
 
 You could call that good optimization rather than authority. The difference is memory. Plenty of systems already spread work across machines by whichever is least busy right now, and nobody calls that a governing body, because the moment the work is done the numbers are forgotten. The support router does not forget.
 
-Six months on, that router is still routing by a preference it formed in its first month, and nobody at the retailer would describe it as a rule. It outlived the tickets that produced it and it will still be there tomorrow. Which is what an institution actually is: not a layer somebody added on top, but the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it.
+Six months on, that router is still routing by a preference it formed in its first month, and nobody at the retailer would describe it as a rule. It outlived the tickets that produced it and it will still be there tomorrow. Which is what an institution actually is: not a layer somebody added on top, but the delegation pattern itself, seen over a long enough stretch that its own history starts feeding back into it. Mostly this has not arrived yet, since production systems still forget everything between sessions, but long-term memory and evaluation logs and routing analytics are all on their way.
 
-Mostly that has not happened yet, because production systems still forget everything between sessions. But long-term memory, evaluation logs, and routing analytics are all arriving, and memory does not force this outcome so much as remove what was preventing it.
-<details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
 
 A research team builds a Map-Reduce pipeline: multiple agents search different databases, extract claims, and a synthesis agent merges findings into a report. Delegation is explicit: fan out, gather, merge. Over time the synthesis agent notices that one search agent consistently surfaces papers that survive critical review, while another frequently returns retracted or low-impact sources. The synthesis agent begins weighting contributions differently. It gives higher confidence to claims sourced by the reliable agent and flags claims from the unreliable one for manual verification.
@@ -429,9 +414,9 @@ A research team builds a Map-Reduce pipeline: multiple agents search different d
 This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
 </details>
 
-Now suppose an agent was downranked during a fortnight when its one bad week collided with a batch of impossible tickets, and somebody notices six months on. If the router is still reading a table, you edit the table and it is over in a minute. But imagine the router is no longer reading a spreadsheet: it has learned the preference from ten thousand examples, because training a model on the logs makes the decision faster and removes the lookup. Now there is no line to delete. The judgement is spread through the thing that makes every decision, so reform means reconstructing a history you no longer have, and the alternative is starting over. That is the difference between an institution you can fix and one you can only replace.
+Now suppose an agent was downranked during a fortnight when its one bad week collided with a batch of impossible tickets, and somebody notices six months on. If the router is still reading a table, you edit the table and it is over in a minute. But imagine the router is no longer reading a spreadsheet: it has learned the preference from ten thousand examples, because training a model on the logs makes the decision faster and removes the lookup. Now there is no line to delete. The judgement is spread through the thing that makes every decision, so reform means reconstructing a history you no longer have, and the alternative is starting over. An institution you can fix and one you can only replace look identical from outside until somebody tries.
 
-None of which makes this bad in itself. Your calendar agent probably should win most arguments. A structure that forms around real competence usually serves the people relying on it, and one that drifts somewhere worse does not, and both arrive by exactly the same process.
+None of which makes any of this bad in itself. The calendar agent winning most arguments may well be the right outcome, and a structure that forms around real competence usually serves the people relying on it. One that drifts somewhere worse does not, and both arrive by exactly the same process.
 
 What separates them is not where they came from but whether anyone can push back. On the phone that would mean being able to ask why a message was held, to see that the reason is a tally of your own past dismissals, and to overrule it without having to out-vote your own history. None of that exists. Governance you cannot challenge is tyranny whether somebody designed it or not, and the emergent kind is worse for being invisible while it happens.
 
@@ -447,6 +432,17 @@ The four records are the thing to look for, and they are not hard to find. Most 
 
 Which this post cannot answer. What kinds of governance are there, which one are you accidentally running, and who enforces it when it fails, is [The Agent Fabric (Part 3): Ruling an Agent Society](/posts/2026/agent-fabric-part3/).
 
+
+<div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
+<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
+
+- **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
+- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
+- **Part 2: Delegation, and What It Costs** (you are here): how work gets split among agents, and how splitting it quietly creates authority nobody granted
+- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, adversarial dynamics, and who enforces the rules
+- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
+- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
+</div>
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
      ============================================================ -->
