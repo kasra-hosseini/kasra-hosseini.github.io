@@ -402,7 +402,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 She was the one person in the building who knew where to look, and a spreadsheet beat her. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
 
-Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time. What she never had was a name for the thing she was right about, and neither do you, which is why arguments like hers are lost by the people who are correct. That name is what the next post is for.
+Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time. What beat her was not a decision, or a policy, or anyone's judgement: it was a record of what happened, promoted to a rule by the simple fact that something consults it before acting. Nobody has to agree to that promotion, and nobody can revoke it, and that is the whole of what she was up against.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
