@@ -11,7 +11,7 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,500 words"
+wordcount: "~1,450 words"
 ---
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** The anatomy of a single agent, a foundation model wrapped in scaffolding. The model operates in an iterative loop with an environment, acting on it and observing the result. The scaffolding gives it capabilities that let it act (prompt, tools, skills, memory) and constraints that direct it (planning, identity, self-evaluation)." >}}
@@ -29,13 +29,9 @@ Pull any one of those out and watch what happens. Without the loop you are back 
 
 ## What the Loop Needs
 
-Start with the acting. Not all of it is equally recoverable, and that turns out to matter more than how clever the agent is. A deleted file comes back from backup. A robot arm that has already swung cannot be unswung. In between sits everything else: reading and writing files is solved, calling a well-behaved service through something like <a href="https://modelcontextprotocol.io" target="_blank" rel="noopener">MCP</a> is solved, driving a browser is messy because pages change under you, and moving something physical is hardest of all. The same loop with the same model is a different proposition depending on which of those it can reach.
+Start with the acting, because not all of it is equally recoverable and that matters more than how clever the agent is. A deleted file comes back from backup. A robot arm that has already swung cannot be unswung. Reading files and calling a well-behaved service are solved problems, driving a browser is messy because pages change under you, and moving something physical is hardest of all. The same loop with the same model is a different proposition depending on which of those it can reach.
 
-The rest of the scaffolding exists to keep the loop pointed somewhere. A prompt is how a person's goal gets in, and planning is what stops the agent solving the step in front of it at the expense of the one after. Identity is the strange one: a coding assistant and a customer-service agent can run on the same model and behave nothing alike, because one has been told it is careful and terse and the other that it is patient and kind, and that is most of the difference. Nor does the loop wait to be called. It can watch something and step in when it looks wrong, stop to ask a person to approve a plan, or run for an hour with nobody looking.
-
-That last one deserves suspicion, because an agent judging its own work is the one component whose failure is invisible from the inside. It is also where single agents break, which the rest of this post is largely about.
-
-## The Loop
+The rest of the scaffolding keeps the loop pointed somewhere. A prompt is how a person's goal gets in. Planning is what stops the agent solving the step in front of it at the expense of the one after. Identity is the strange one, since a coding assistant and a customer-service agent can run on the same model and behave nothing alike because one was told it is careful and terse and the other that it is patient and kind. And self-evaluation decides when to stop, retry, or ask a person, which deserves more suspicion than it usually gets: an agent judging its own work is the one component whose failure is invisible from the inside.
 
 The loop is just this: the agent looks at the situation, decides what to do, does it, looks again. What makes that powerful is not the shape but what the shape does to time, because the agent's own output becomes its input next time round. When the coding agent runs the tests, the failures it reads are the ones its own last edit produced. It is not solving a problem so much as negotiating with a situation it keeps changing, and that feedback is the whole trick, however many ways it has been <a href="https://arxiv.org/abs/2210.03629" target="_blank" rel="noopener">dressed up</a> since.
 
