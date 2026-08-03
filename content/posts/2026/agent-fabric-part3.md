@@ -197,7 +197,7 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 ## Four Desks in One Year
 
-She hit a rule and could not reach whoever decides what the rules are, and the desk had not started out capable of either. She was also not the first person to write in about a refund: the desk that answered her was the third version the retailer had run. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Follow her letter into each of them.
+She hit a rule and could not reach whoever decides what the rules are, and the desk had not started out capable of either. She was also not the first person to write in about a refund: the desk that answered her was the third version the retailer had run. One desk, one year, four different answers to the same letter. Not four options anyone weighed up: four things the desk turned into, in order. Watch what happens to her letter under each one.
 
 **Day one.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. Most systems start here, because one router is the simplest thing that works, and the price is that when it is wrong there is nothing else in the room.
 
@@ -209,7 +209,7 @@ The third agent, downranked after one bad month, is not being punished. It is si
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
-**The desk she needed** exists only after somebody complains loudly enough that a shrug will not do. Here her letter is acknowledged by one thing and reviewed by another, and the second is allowed to say the first was wrong. What she gets back names the rule, names the threshold she crossed, and gives her an address that is not the thing that refused her. The refund may still be denied. The difference is that a person could now find out why, and so could she. Different powers in different hands, an appeal that does not report to the thing being appealed. It is slower, which is why it usually arrives only after a letter like hers has already gone out.
+**The desk she needed** exists only after somebody complains loudly enough that a shrug will not do. Here her letter is acknowledged by one thing and reviewed by another, and the second is allowed to say the first was wrong. What she gets back names the rule, names the threshold she crossed, and gives her an address that is not the thing that refused her. The refund may still be denied. The difference is that a person could now find out why, and so could she. Whatever hears the appeal does not report to the thing being appealed, which is the whole trick, and it is slower, which is why it usually arrives only after a letter like hers has already gone out.
 
 So the same letter reaches a judgement, then a winner, then a rule, then someone who can overrule the rule. Four arrangements in a year, no announcements and no design review, and she happened to write in under the only one with no way back in.
 
@@ -246,13 +246,13 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## How a Society Gets Argued With
 
-She tried complaining first, which meant replying to the email that had refused her. The reply invited her to reply. Whatever read her second letter was the thing that wrote the first one, and it had already decided what her return history meant. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
+She does try. Complaining means replying to the email that refused her, so she replies, and the reply invites her to reply. Whatever read her second letter was the thing that wrote the first one, and it had already decided what her return history meant. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
 
-Leaving is the option everyone assumes she has. She looks. The two other shops that stock what she needs both ask her to create an account, and she has no way of knowing whether either one will read her return history the same way, because neither one will tell her and both of them bought their desk from somewhere.
+Leaving is what everyone assumes she can do instead, so she looks. The two other shops that stock what she needs both ask her to create an account, and she has no way of knowing whether either one will read her return history the same way, because neither one will tell her and both of them bought their desk from somewhere.
 
-The third exit is the one that only exists on paper: run your own version, with the rule changed. She does not want her own retailer. She wants forty pounds back from this one.
+The third exit exists only on paper: run your own version of the shop, with the rule changed. She does not want her own retailer. She wants forty pounds back from this one.
 
-So she had none of the three.
+Of the three, the only one she can actually do is the one that reports to the thing she is arguing with.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. Complaints get heard where leaving is possible, which is the part nobody designs for, because it is the part nobody notices they removed.
 
