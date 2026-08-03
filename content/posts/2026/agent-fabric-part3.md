@@ -203,7 +203,7 @@ It starts a year before her email, with the leaderboard working. The two best ag
 
 Then somebody in finance notices the refund line. A risk score gets bolted on and tuned hard, because the drift had to be stopped, and her account is one of the ones it catches. Every step was reasonable, nobody chose the outcome, and there is nobody for her to appeal to because no single person decided anything.
 
-Notice what the router had become for that to happen, because the line it crossed is precise. Forwarding traffic is playing the game. Keeping score and deciding who may touch what is writing the rules the game runs on, and the desk crossed from one to the other the month it started keeping score. It has been governed by nobody in particular ever since. Memory alone would not have done it, since a cache remembers and governs nothing; what makes these records different is that they decide who gets work tomorrow.
+Notice what the router had become for that to happen. Forwarding traffic is playing the game. Keeping score and deciding who may touch what is writing the rules the game runs on, and the desk crossed from one to the other the month it started keeping score. A cache remembers too and governs nothing; what makes these records different is that they decide who gets work tomorrow.
 
 ## Where Authority Comes From
 
@@ -262,7 +262,7 @@ All of which is why a society needs ways to be argued with, and there are only r
 
 The cheapest is voice, and it is the one teams forget to build. On the desk it would mean an agent that has been quietly downranked can say so, flag that the metric looks wrong, or ask a human to look, without being penalised for the trouble. It would also mean her letter reaching something other than the rule that generated the refusal. Nobody built either, which is why the refund drift ran for months. Take voice away and failures pile up in silence until something breaks at once, the same reason an organization where nobody reports bad news is always last to learn it is failing.
 
-But voice only works if somebody has a reason to listen, and that reason is exit. Not the departure itself, which costs the leaver whatever standing it had built, but the credible possibility of it: an orchestrator that can lose good agents to a competitor, or a deployer that can pull its agents out, has something to lose by ignoring a complaint. That is why platform concentration is so corrosive. It removes the alternative that made complaining worth hearing.
+But voice only works if somebody has a reason to listen, and that reason is exit. Not leaving, which costs the leaver whatever standing it had built, but being able to: an orchestrator that can lose good agents to a competitor listens to complaints, and one that cannot does not have to. She had six years of custom and nowhere else to take it, which is why her letter was safe to refuse.
 
 ## What This Framework Is For
 
