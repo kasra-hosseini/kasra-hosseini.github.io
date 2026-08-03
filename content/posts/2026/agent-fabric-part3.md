@@ -248,13 +248,13 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## How a Society Gets Argued With
 
-She has three ways to argue with any of this, and she tries them in order. Complaining means replying to the email that refused her, so she replies, and the reply invites her to reply. Whatever read her second letter was the thing that wrote the first one, and it had already decided what her return history meant. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
+She has three ways to argue with any of this, and she tries them in order. The first is to complain, which means replying to the email that refused her. She replies. What reads her second letter is what wrote the first one, and it has already decided what her return history means. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
 The third only works on software, and she is not arguing with software. She wants forty pounds back from a shop.
 
-The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. Neither of them can leave, and that is why neither of them gets heard: a complaint carries weight only where walking out is possible.
+The third agent, the one downranked back in March, has exactly the same three and exactly the same result. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. A customer and a piece of software, stuck for the same reason: a complaint carries weight only where walking out is possible, and neither of them can walk out.
 
 The rule that refused her did not have to live nowhere. It could have sat in the same file the system reads, with two lines under it: who may change this, and what happens when somebody says it is wrong. Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 
@@ -276,9 +276,9 @@ This framework shares territory with several concurrent research programmes and 
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record. Not one carries the reason. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record. Not one carries the reason.
 
-A person can be found years later. A company can be sued a decade on. The thing that refused her existed for six weeks and is gone: not deleted, not overturned, just superseded by the next version of the desk.
+A person can be found years later. A company can be sued a decade on. What actually refused her was a configuration that lasted six weeks, and it is not deleted or overturned, just superseded by the next version of the desk.
 
 So there is nothing left that made her decision. Not a missing record: a missing thing. That is why nobody can unmake it, and why an apology would have nowhere to come from even if somebody wanted to give her one.
 
