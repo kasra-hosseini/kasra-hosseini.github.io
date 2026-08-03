@@ -248,11 +248,9 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 She does try. Complaining means replying to the email that refused her, so she replies, and the reply invites her to reply. Whatever read her second letter was the thing that wrote the first one, and it had already decided what her return history meant. There is a word for an appeal heard by the party you are appealing against, and it is not appeal.
 
-Leaving is what everyone assumes she can do instead, so she looks. The two other shops that stock what she needs both ask her to create an account, and she has no way of knowing whether either one will read her return history the same way, because neither one will tell her and both of them bought their desk from somewhere.
+Leaving is what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
 The third exit exists only on paper: run your own version of the shop, with the rule changed. She does not want her own retailer. She wants forty pounds back from this one.
-
-Of the three, the only one she can actually do is the one that reports to the thing she is arguing with.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and there is nowhere else for it to work. Complaints get heard where leaving is possible, which is the part nobody designs for, because it is the part nobody notices they removed.
 
@@ -276,7 +274,7 @@ This framework shares territory with several concurrent research programmes and 
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record. Not one carries the reason. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 A person can be found years later. A company can be sued a decade on. The thing that refused her existed for six weeks and is gone: not deleted, not overturned, just superseded by the next version of the desk.
 
