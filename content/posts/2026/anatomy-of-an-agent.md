@@ -32,7 +32,7 @@ Take away the loop and it is a chatbot again. Take away memory and something str
 
 Somebody chose every part of that apparatus, and getting it wrong usually shows: give an agent a filesystem tool it did not need and by lunchtime it has reorganised a directory nobody asked it to touch. One of those choices gives you nothing to notice, ever, no matter how wrong it goes.
 
-Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself, and that tone was typed by somebody too. How much that matters depends on what somebody let it reach. A wrong file costs an afternoon and a restore from backup. A robot arm that has already swung costs something no apology unswings.
+Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. How much that matters depends on what somebody let it reach: a wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
 
 
 

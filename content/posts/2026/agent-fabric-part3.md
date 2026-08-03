@@ -270,11 +270,11 @@ This framework shares territory with several concurrent research programmes and 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
 
-## What Is Still Unsolved
+## Nobody Left to Ask
 
-She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
+She writes again, and this time somebody at the retailer agrees to look. The hard part turns out not to be technical: which agent owes her an explanation?
 
-Somebody owes her an explanation. The obvious place to look is the model that scored her, and it cannot give her one, because it is not that model any more: retrained twice since her refusal, on data that now includes her case. Older versions are still running, one of them from before the risk score existed. Every one carries her record. Not one carries the reason.
+The obvious place to look is the model that scored her. It cannot answer, because it is not that model any more. It has been retrained twice since her refusal, once on data that now includes her case, so the thing that judged her has been overwritten by something that has learned from judging her. Older versions are still running, one from before the risk score existed. Every one carries her record. Not one carries the reason.
 
 A person can be found years later. A company can be sued a decade on. What actually refused her was a configuration that lasted six weeks, and it is not deleted or overturned, just superseded by the next version of the desk.
 
@@ -291,7 +291,11 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-That support desk has now been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking. Nothing in her story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. That is the uncomfortable part: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else. Designing the institution is the work, and nobody at that desk had it on a ticket. Her letter is still in the system somewhere, marked resolved.
+Nothing in her story required malice, or even carelessness. It required only that somebody log performance and act on it, which is what any competent engineer would do. These structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
+
+That desk has now been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking, and nobody at that desk had designing the institution on a ticket.
+
+Her letter is still in the system somewhere, marked resolved.
 
 <!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
