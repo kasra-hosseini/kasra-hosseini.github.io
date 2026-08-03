@@ -21,7 +21,7 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter.
 
-Something was built around it, and that something is the difference between describing work and doing it: it was told what it was doing, given tools to act with, allowed to carry what it learned from one step into the next, and left running until the work looked done. All of that together is called scaffolding, and it does not make the model cleverer. It gives the cleverness somewhere to land.
+Something was built around it, and that something is the difference between describing work and doing it: it was told what it was doing, given tools to act with, allowed to carry what it learned from one step into the next, and left running until the work looked done. All of that together is called scaffolding. None of it makes the model better at reasoning; it gives the reasoning something to act on.
 
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
@@ -61,7 +61,7 @@ That is the whole fix. It was available the entire time, and the first agent cou
 
 Nobody on that team decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The third one never had to be clever either. It only had to be the one whose job was breaking things, on a test it had no reason to defend.
 
-Then the first agent says the test was unfair and the third says it was not. Somebody has to break the tie, and nobody designed anything to do it, so it gets broken by whatever is lying around. What is lying around is a retry counter, added months ago so the system would know which agent to try again first. The agent with fewer retries wins the argument, so the test stands. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
+Which is where the arrangement starts costing something. Then the first agent says the test was unfair and the third says it was not. Somebody has to break the tie, and nobody designed anything to do it, so it gets broken by whatever is lying around. What is lying around is a retry counter, added months ago so the system would know which agent to try again first. The agent with fewer retries wins the argument, so the test stands. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
 
 
 A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
