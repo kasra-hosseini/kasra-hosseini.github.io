@@ -193,7 +193,7 @@ Nothing any agent told her was untrue. That is the bet this post is making: agen
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
-That desk went through four recognisable versions of governance inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen. First one agent decided, then a scoreboard decided, then a fixed rule decided, and finally, after enough complaints, something existed that could overrule the rule. Political theory has names for all four, and they will turn up below, but the desk is the thing to watch.
+That desk went through four recognisable versions of governance inside a year, and nobody decided on any of them, because governance grows out of what gets remembered rather than what gets chosen. First one agent decided, then a scoreboard decided, then a fixed rule decided, and finally, after enough complaints, something existed that could overrule the rule.
 
 ## What Governance Actually Is
 
@@ -258,7 +258,7 @@ The downranked agent has no more recourse than she does. It cannot say the metri
 
 Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. That is what the four names are for: not a recommendation, just enough vocabulary to notice a choice while it is still a choice.
 
-Every one of those choices is a trade, and this desk paid three times. One router deciding made it fast, until the month that router was wrong about everything downstream. Scoring the agents made it accurate, until the scores drifted somewhere nobody was looking. Fixed rules made it safe, and the price of that safety was her refund. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
+This desk paid for each of those choices in turn: fast until the router was wrong about everything downstream, accurate until the scores drifted where nobody was looking, safe at the price of her refund. Where a system settles says a great deal about what its builders were afraid of.
 
 The rule that refused her did not have to live in a document nobody reads. It could have been written where the system actually looks, with a note beside it naming who may change it and what happens when somebody disputes it. A rule that lives only in a document is a wish, and hers was not even that.
 
@@ -276,13 +276,13 @@ This framework shares territory with several concurrent research programmes and 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
 
-Here is the uncomfortable part. Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Audit the model that answered her and you would find nothing wrong with it, because an agent cannot collude with itself and no individual model drifts the way a scoreboard does. What would have to be audited is the desk itself: who it lets decide, how fast its measures go stale, and who ends up carrying the cost when they do.
+Here is the uncomfortable part. Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Audit the model that answered her and you would find nothing wrong with it, because an agent cannot collude with itself and no individual model drifts the way a scoreboard does. To find what happened to her you would have to audit the desk: who it lets decide, how fast its measures go stale, and who carries the cost when they do.
 
 ## What Is Still Unsolved
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-Somebody has to answer for it, so start with the obvious candidate: the model that scored her. It cannot. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+She is owed an explanation, and the obvious place to get one is the model that scored her. It cannot give her one. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 You can find a person years later. You can sue a company a decade on. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
