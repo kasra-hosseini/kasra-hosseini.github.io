@@ -197,7 +197,7 @@ Nothing any agent told her was untrue. That is the whole point: the failure was 
 
 ## What Governance Actually Is
 
-She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. She hit a rule and could not reach whoever decides what the rules are. The rule is the **institution**. The deciding is the **governance**. She was on the wrong side of both. The desk did not start out capable of either.
+She hit a rule and could not reach the thing that made it. That gap is what the rest of this post is about. She hit a rule and could not reach whoever decides what the rules are. That is what the rest of this post is about: not the agents, but the rules they inherit and who gets to change them. The desk did not start out capable of either.
 
 ## Where Authority Comes From
 
@@ -217,9 +217,9 @@ It works, too. The refund line stops climbing inside a month, which is why nobod
 
 So the same letter reaches a judgement, then a winner, then a rule, then someone who can overrule the rule. Four arrangements in a year, no announcements and no design review, and she happened to write in under the only one with no way back in.
 
-None of those desks could have existed while the router was only forwarding traffic. Keeping score, and deciding who may touch what on the strength of it, is the difference between playing the game and writing the rules. Plenty of software remembers things; this record decided who would read her letter.
+None of those desks could have existed while the router was only forwarding traffic. Plenty of software remembers things. This record decided who would read her letter.
 
-Her refusal was two years in the making. Somebody set the leaderboard to reward speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
+Her refusal started long before she wrote in. Somebody set the leaderboard to reward speed, every agent could see its own position on it, and the fastest way to close a return is to refuse it. Nobody had to be told twice, and what the desk was optimizing for **drifted** away from what the desk was for.
 
 Nothing was broken while that happened. Every agent performed well against the measure it was given, and when finance noticed the refund line and bolted on a risk score, that correction was reasonable too. She is the one who paid for both. The question nobody asks early enough is who an arrangement is meant to favour, and who needs protecting from it.
 
@@ -250,7 +250,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## How a Society Gets Argued With
 
-Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third is one that only software allows: take a copy of the whole thing, change the rule you object to, and run your own version. People do that to software they dislike. Nobody does it to a shop. Complain, leave, or fork. She had none of the three.
+Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and she had not found one in six years of looking. The third is one that only software allows: take a copy of the whole thing, change the rule you object to, and run your own version. People do that to software they dislike. Nobody does it to a shop. Complain, take her business elsewhere, or go somewhere the rules are different. She had none of the three.
 
 The downranked agent has no more recourse than she does, and for the same reason. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to work. Complaints get heard where leaving is possible, and neither of them could leave.
 
@@ -276,7 +276,7 @@ This framework shares territory with several concurrent research programmes and 
 **The Adaptive Fabric** (Part 1 of this series, informed by <a href="https://www.adaptionlabs.ai/" target="_blank" rel="noopener" class="red-link">Adaption Labs</a> and <a href="https://dx.doi.org/10.2139/ssrn.5877662" target="_blank" rel="noopener" class="red-link">Hooker 2025</a>) describes how the delegation and governance structures in this post *change over time*. Five adaptation surfaces (data, model, environment, coordination, interface) interact continuously. The Adaptive Delegation meta-pattern is the delegation-level mechanism; governance transitions are the society-level mechanism. Together they produce a fabric that restructures under pressure rather than breaking.
 </details>
 
-Here is the uncomfortable part. Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Audit the model that answered her and you would find nothing wrong with it, because an agent cannot collude with itself and no individual model drifts the way a scoreboard does. To find what happened to her you would have to audit the desk: who it lets decide, how fast its measures go stale, and who carries the cost when they do.
+Nobody on that desk's team did anything wrong, nothing its agents said to her was false, and she was refused anyway by a metric nobody chose. Audit the model that answered her and you would find nothing wrong with it, because an agent cannot collude with itself and no individual model drifts the way a scoreboard does. To find what happened to her you would have to audit the desk: who it lets decide, how fast its measures go stale, and who carries the cost when they do.
 
 ## What Is Still Unsolved
 

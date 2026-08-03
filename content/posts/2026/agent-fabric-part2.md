@@ -312,7 +312,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-An engineer called Priya is going to spend an afternoon looking for a rule that does not exist, and by the end of it she will have made things worse for the agent she was trying to help. The same thing is happening, on a smaller scale, in your pocket. Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
+Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
 
 
 
@@ -377,9 +377,9 @@ An engineer called Priya is going to spend an afternoon looking for a rule that 
 
 On a phone the worst this costs is your own afternoon. Now hold that same arrangement still and change one thing about it: who the record is about. On your phone it was about you, and you could always override it. Inside a company the record is about somebody who is not in the room: it is about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times.
 
-The desk did three things, each obviously correct: it split the work among agents, it kept records of how the work went, and it acted on the records. Nothing else is required. Those three steps produce rules nobody wrote and authority nobody granted, with no way to appeal, because nobody ever needed to appeal a log.
-
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
+
+Three things happened at that desk, each obviously correct: the work got split, the records got kept, and the records got acted on. Nothing else is required to produce a rule nobody wrote and an authority nobody granted, with no way to appeal, because nobody ever needed to appeal a log.
 
 
 Priya wrote the layer that decides which agent gets what, so anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
@@ -405,8 +405,6 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 </details>
 
 ---
-
-There is no spreadsheet on your phone and no standup, just a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making. Nobody at any company decided your calendar agent should win. You elected it.
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. She was right the whole time, and being right was worth nothing.
 
