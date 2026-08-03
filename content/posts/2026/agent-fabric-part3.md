@@ -238,19 +238,19 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 ## Who Actually Enforces Any of This
 
-Her case was supposed to have a second reader. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while every refund got one. That checking agent ran on an interface the cloud provider published, which the retailer did not own and had never thought about.
+Her case was supposed to have a second reader. Refunds above a threshold need a second agent to check them, and for a while every refund got one. That agent ran on an interface belonging to the cloud provider, which nobody at the retailer had ever thought about.
 
 On a Tuesday morning the provider retired the interface. Nobody at the retailer voted to drop the second check, nobody noticed the rule had become unenforceable, and the rule itself was never repealed: it simply stopped applying, because the thing that made it apply belonged to somebody else. Her letter arrived on the Thursday and got one reader. So the rule that refused her was never really the retailer's to keep. It held while somebody else's machines went on enforcing it, and stopped the morning they did not.
 
-Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. What the desk was asked for and what it was rewarded for were never the same thing. What makes that fixable rather than tragic is that somebody owns the conditions. The score that made her a risk was a number in a config file, and any Tuesday somebody could have decided it was wrong.
+Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. What the desk was asked for and what it was rewarded for were never the same thing. What keeps that from being tragic is that somebody owns the conditions. The score that made her a risk was a number in a config file, and any Tuesday somebody could have decided it was wrong.
 
 The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nobody built her a way to dispute it, which is the cheapest thing a desk can have and the first thing left out. Without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-Once drift has cost real money, fixed rules are what get bought, and this desk bought a single score to carry all of it: speed, approval limits, whether anything could be sent back. That same score refused her.
+Nobody sat down and chose that arrangement either. Once drift has cost real money, fixed rules are what get bought, and this desk bought a single score to carry all of it: speed, approval limits, whether anything could be sent back. That same score refused her.
 
 ## How a Society Gets Argued With
 
-Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and the reason she had stayed six years is that she had not found one. The third option, the one software has that other institutions do not, is to copy the whole arrangement and change the rule you object to. Nobody does that to a shop. That is the entire repertoire, and her letter was safe to refuse because she had none of it.
+Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and the reason she had stayed six years is that she had not found one. The third is one software has and shops do not: copy the whole arrangement, change the rule you object to, and run that version instead. Nobody forks a retailer. That is the entire repertoire, and her letter was safe to refuse because she had none of it.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it. Both of them are stuck for the same reason: complaints get heard where leaving is possible, and neither of them could leave.
 
