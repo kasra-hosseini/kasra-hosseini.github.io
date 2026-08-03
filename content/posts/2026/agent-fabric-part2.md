@@ -411,9 +411,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use. Nobody gave the routing table authority over which agent had a career. It got that by being the only thing anyone wrote down, and she cannot argue with it because there is no argument to have: the table is accurate, and being accurate is all it was ever asked to be.
 
-She never lacked skill or evidence. She lacked anywhere to take them. She was right the whole time, and being right was worth nothing.
-
-If you have shipped anything that keeps a record and acts on it, you have built one of these. The question is not whether your system has rules. It is whether anybody can find them.
+She never lacked evidence. She lacked anywhere to take it. She was right the whole time, and being right was worth nothing.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
