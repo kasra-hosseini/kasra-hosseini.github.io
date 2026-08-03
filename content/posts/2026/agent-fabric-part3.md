@@ -242,9 +242,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 ## What She Can Do About It
 
-So she complains, which means replying to the email that refused her. The reply comes back in four minutes and repeats the second paragraph of the first one. An appeal heard by the party you are appealing against is not an appeal.
-
-Then she does what everyone assumes she can do instead, and looks elsewhere. The next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
+So she complains, which means replying to the email that refused her. The reply comes back in four minutes and repeats the second paragraph of the first one. Then she does what everyone assumes she can do instead, and looks elsewhere: the next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 
 Somebody could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because nobody objects to a risk score.
 

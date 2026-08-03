@@ -21,7 +21,7 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter.
 
-Something was built around it, and that something is the difference between describing work and doing it: instructions, tools, a memory that carries from one step to the next, and a loop that runs until the work looks done. None of it makes the model better at reasoning. It gives the reasoning something to act on.
+Something was built around it, and that something is the difference between describing work and doing it: instructions, tools, a memory that carries from one step to the next, and a loop that runs until the work looks done. None of it makes the model better at reasoning. It gives the reasoning a way to reach the world.
 
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
@@ -63,7 +63,7 @@ That is the whole fix. It was available the entire time, and the writer could no
 
 Nobody decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong.
 
-The arrangement costs something of its own. The writer insists the test was unfair; the agent that ran it insists otherwise; and nobody ever built anything to settle an argument between two agents. So it gets settled by whichever of them the system has had to restart less often, because that number happens to exist. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
+The arrangement costs something of its own. The writer insists the test was unfair; the agent that ran it insists otherwise. Both are waiting for something to decide, and nobody ever built anything that decides. So it gets settled by whichever of them the system has had to restart less often, because that number happens to exist. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
 
 
 A loop cannot audit itself. Six hours of getting more certain and no closer all looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement does not converge on the truth. It converges on whatever it already believed, only louder.
