@@ -221,15 +221,15 @@ That middle option is the one people reach for, and it disappoints for a reason 
 
 ## Who Actually Enforces Any of This
 
-Her refund is a good place to see that, because the rule that refused her had to be enforced by something. The retailer's rule says refunds above a threshold need a second agent to check them, and that rule holds because the runtime honours it. Then the cloud provider deprecates the API the checking agent depends on, or reprices it past what the desk can afford. The rule does not get repealed. It stops being enforceable one Tuesday morning, nobody at the retailer voted on that, and the next person in her position gets a different answer for reasons no one at the company chose.
+Her case had a second reader, briefly. The retailer's rule says refunds above a threshold need a second agent to check them, and for a while that held, because the runtime honoured it. Then the cloud provider deprecated the API the checking agent depended on. The rule was not repealed and nobody at the retailer voted on anything. It stopped being enforceable one Tuesday morning, and her letter arrived on the Thursday.
 
-Which means none of these arrangements is quite an institution in the usual sense. They behave like one while the actual enforcing is quietly subcontracted to whoever owns the machines. Call a thing a market when one platform decides who is allowed to appear in it, and what you have is that platform's shop with your name on the receipts. So choosing a governance structure without naming who enforces it is half a design, and the half you skipped gets decided by somebody who has never heard of your project.
+Which is why none of these arrangements is quite an institution in the usual sense. They behave like one while the actual enforcing is quietly subcontracted to whoever owns the machines. Call a thing a market when one platform decides who may appear in it, and what you have is that platform's shop with your name on the receipts. Choosing a governance structure without naming who enforces it is half a design, and the half you skipped gets decided by somebody who has never heard of your project, on a Tuesday, for reasons that have nothing to do with refunds.
 
 Appeal is the cheapest of the four and the one most often skipped. Without it every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
 ## Where Authority Comes From
 
-Her letter would have met four different desks depending on when it arrived, and the desk passed through all four without anybody filing a change request.
+She was not the first person to write in about a refund, and the desk that answered her was the third one the retailer had run in a year. Nobody filed a change request for any of it. Follow her letter into each of them.
 
 On day one it reaches whichever agent handles returns, which reads it, looks at six years of orders, and decides. That is an **Autocracy**: one router deciding everything, fast for exactly the reason it is dangerous, because if that single judgement is wrong then everyone downstream is wrong with it. From the outside it feels like dealing with a small shop where one person decides and you can tell who it was.
 

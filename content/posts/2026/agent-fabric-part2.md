@@ -326,10 +326,6 @@ Three months in you try to give the messages agent more room, because you have d
 
 The rest of this post is about how that adds up while nobody is looking.
 
-## The Division of Labour
-
-Something on your phone is already doing this. It reads each request and picks an agent, which four agents would hardly need, but a few dozen calling each other cannot do without. And it cannot pick without keeping score: to send the easy things somewhere cheap it has to know which things are easy, and the only way it learns that is by remembering how the last few thousand went.
-
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
   <div class="viz-caption"><strong>Figure 2.</strong> Three arrangements that actually ship. Each is a different way of deciding who gets asked, and each one needs a record to decide it with.
@@ -397,7 +393,7 @@ After a month the router sends complex billing disputes only to the two agents t
 
 Six weeks in, an engineer called Priya notices that the third agent has not handled a hard ticket since March, and raises it at standup. Everyone agrees it looks wrong. Nobody can find the decision. There is no config flag, no policy document, no ticket where anyone chose this, and the only artefact is a table of resolution times that everybody agrees is accurate. Priya can override the routing, and she knows what will happen if she does: the numbers will get worse, and she will be the person who made them worse.
 
-She leaves it. Not out of cowardice: she has no argument to make, because the routing table is not wrong about anything. It faithfully records what happened, and what happened is that one agent had a bad month in a job where bad months are remembered. She could say that out loud at the next standup and everyone would nod, and the tickets would keep going to the other two. The only thing standing in her way is a spreadsheet that is technically correct.
+She leaves it. Not out of cowardice: she has no argument to make, because the routing table is not wrong about anything. It faithfully records what happened, and what happened is that one agent had a bad month in a job where bad months are remembered. She could say that out loud at the next standup and everyone would nod, and the tickets would keep going to the other two. The only thing standing in her way is a spreadsheet that is technically correct. You have done the same thing, on a smaller scale and without noticing: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too.
 
 Nobody at that retailer would call the routing table a rule, and that is exactly what makes it one. Handing one ticket to a specialist is a step inside a task. A standing preference about who gets the hard tickets at all, plus the question of who may change it, is a constraint on every task there will ever be, and six months on the router is still acting on one it formed in its first month. It will outlast Priya, the tickets that produced it, and anyone who remembers the month it formed. The first thing is delegation. The second is governance, and nobody wrote it.
 
