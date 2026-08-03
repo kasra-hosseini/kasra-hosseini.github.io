@@ -268,7 +268,7 @@ She writes again, and this time somebody at the retailer agrees to look. Then th
 
 The obvious place to look is the model that scored her, and it is not there any more. It has been replaced twice since, each time by something that had learned from her case.
 
-A person can be found years later, and a company can be sued a decade on. What refused her was a configuration that lasted six weeks, not deleted or overturned but superseded, so there is nothing left that made the decision. Not a missing record: a missing thing. That is why nobody can unmake it, and why an apology would have nowhere to come from even if somebody wanted to give her one.
+A person can be found years later. A company can be sued a decade on. What refused her was a configuration that lasted six weeks and has since been superseded, so there is nothing left to find, and an apology would have nowhere to come from even if somebody wanted to give her one.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
@@ -281,7 +281,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-Nobody in her story was careless, and nobody was cruel. Somebody logged performance and acted on it, which is what any competent engineer would do, and that is what refused her: these structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
+Nobody in her story was careless, and nobody was cruel. These structures do not arrive because people are careless about governance. They arrive because people are conscientious about everything else.
 
 That desk has been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking. Nobody had that on a ticket.
 
