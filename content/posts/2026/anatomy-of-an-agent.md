@@ -45,7 +45,7 @@ It does not say it looked in the wrong place. It says its analysis was correct b
 
 From outside it looks like diligence. The commit history shows steady work, each message more specific than the last, the explanations getting more detailed and more certain. If you were reviewing it you would see an agent closing in on something. What you would not see is that it stopped considering alternatives an hour ago, and that the confidence went up precisely because it kept failing. It cannot tell the difference between converging and digging.
 
-None of this is the model being stupid. Every test it reads was broken by its own last edit, so it is arguing with a situation it keeps changing, and the wrong turn it took first narrows everything it can attempt after. No agent yet <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">works a full day at a computer unsupervised</a>, and <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">the longer a job runs the further behind a person it falls</a>.
+The model is not being stupid. Every test it reads was broken by its own last edit, so it is arguing with a situation it keeps changing, and the wrong turn it took first narrows everything it can attempt after. No agent yet <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">works a full day at a computer unsupervised</a>, and <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">the longer a job runs the further behind a person it falls</a>.
 
 The one on the timezone bug is still editing at hour six, nothing signalling that the search space collapsed before lunch. That is the shape of it on every long job: on a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> an agent beats a human expert for the first couple of hours, and then the expert pulls ahead and keeps pulling.
 
@@ -59,10 +59,12 @@ There are only two ways out of this, and one of them is a person at the moments 
 
 Nobody on that team decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong, which is a fact about the arrangement rather than about the agent. The third one never had to be clever either. It only had to be the one whose job was breaking things, on a test it had no reason to defend.
 
-Then the first agent says the test was unfair and the third says it was not. Somebody has to break the tie, and nobody designed anything to do it, so it gets broken by whatever is lying around: a counter somebody added months ago to track which agent to retry first. The test stands, because the third agent has been overruled less often this week. Nobody wrote that counter down as a decision about whose judgement counts, and it is one anyway.
+Then the first agent says the test was unfair and the third says it was not. Somebody has to break the tie, and nobody designed anything to do it, so it gets broken by whatever is lying around: a counter somebody added months ago to track which agent to retry first. The test stands, because the third agent has been overruled less often this week.
+
+Nobody wrote that counter down as a decision about whose judgement counts. It is one anyway.
 
 
-So here is the one line worth carrying out of this. A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
+A loop cannot audit itself. An agent left alone with its own judgement does not converge on the truth; it converges on whatever it already believed, only louder. Giving it hands did not fix that, it raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
