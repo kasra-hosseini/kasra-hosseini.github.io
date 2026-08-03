@@ -21,12 +21,12 @@ Ask a chatbot to run a script and tidy the results into a folder, and it will te
 
 Now watch a coding agent like Claude Code or OpenAI's Codex refactor a module. It reads the files, forms a plan, edits the code, runs the tests, sees them fail, edits again, runs again, and stops once they pass. Here is the part worth pausing on: **the model underneath is the same model.** Nobody made it smarter.
 
-Something was built around it, and that something is the difference between describing work and doing it: instructions, tools, a memory that carries from one step to the next, and a loop that runs until the work looks done. All of that together is called scaffolding. None of it makes the model better at reasoning; it gives the reasoning something to act on.
+Something was built around it, and that something is the difference between describing work and doing it: instructions, tools, a memory that carries from one step to the next, and a loop that runs until the work looks done. None of it makes the model better at reasoning. It gives the reasoning something to act on.
 
 
 {{< figure src="/images/2026/anatomy-of-an-agent.svg" alt="Anatomy of an AI agent: a foundation model wrapped in scaffolding (tools, skills, memory, planning) acting on an environment through an action-observation loop, shaped by identity and self-evaluation" caption="**Figure 1.** Everything around the model in the middle exists for one reason: on its own it cannot reach anything." >}}
 
-Take away the loop and it is a chatbot again. Take away memory and something stranger happens. It does not get dumber in any measurable way. It stays exactly as capable as it was, and walks into the same dead end every twenty minutes, with full confidence, forever.
+Take away the loop and it is a chatbot again. Take away memory and something stranger happens: it stays exactly as capable as it was, and walks into the same dead end every twenty minutes, with full confidence, forever.
 
 ## What the Loop Needs
 
@@ -38,7 +38,7 @@ The quiet one is the decision about when it is allowed to stop. Ask a coding age
 
 ## Where Single-Agent Recursion Breaks
 
-Picture a coding agent debugging a failing test. It decides the bug is in the date handling, rewrites that, and the test still fails. Now ask it to review its own reasoning, which is the obvious fix and what some systems are built to do, right up to <a href="https://arxiv.org/abs/2408.06292" target="_blank" rel="noopener">writing up their own research and then reviewing their own drafts</a>.
+Picture a coding agent debugging a failing test. It decides the bug is in the date handling, rewrites that, and the test still fails. So ask it to review its own reasoning. That is the obvious fix, and some systems are built entirely around it, <a href="https://arxiv.org/abs/2408.06292" target="_blank" rel="noopener">writing up their own research and then reviewing their own drafts</a>.
 
 It does not say it looked in the wrong place. It says its analysis was correct but the fix was incomplete, which is half true, because the date handling really was sloppy. So it goes deeper: a normalization step, then a fallback, then a comment explaining the subtlety it believes it has found. Each pass makes it more certain. The bug is in the timezone the test runs under, which it never considered on the first pass and now never will, because every failed attempt has added another reason to believe the story it already has.
 

@@ -268,7 +268,7 @@ This framework shares territory with several concurrent research programmes and 
 
 She writes again, and this time somebody at the retailer agrees to look. Then the question is which agent owes her an explanation, and nobody can answer it.
 
-The obvious place to look is the model that scored her. It is not there any more. It has been retrained twice since her refusal, each time on data that included her case, so the thing that judged her has been dissolved into the things that came after it, and there is no version of it left to question. A person can be found years later. A company can be sued a decade on. This was a configuration that lasted six weeks, and an apology would have nowhere to come from even if somebody wanted to give her one.
+The obvious place to look is the model that scored her. It is not there any more. It has been retrained twice since her refusal, each time on data that included her case, so the thing that judged her has been dissolved into the things that came after it. She can be shown the model that would score her today. She cannot be shown the one that did. A person can be found years later. A company can be sued a decade on. This was a configuration that lasted six weeks, and an apology would have nowhere to come from even if somebody wanted to give her one.
 
 <details style="margin: 1.2em 0; padding: 0.6em 1em; font-size: 0.95em; background: #f8f8f8; border-left: 3px solid #999; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; font-weight: 600;">Two harder problems: emergency powers, and the judgement calls nobody can engineer away</summary>
@@ -283,7 +283,7 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 The desk will get an appeal eventually, the first time somebody insists on knowing why their complaint was ignored. She was the one insisting, and designing the thing that would have heard her was on nobody's list.
 
-Nobody in her story was careless, and nobody was cruel. These structures do not arrive when people are careless about governance. They arrive when people are conscientious about everything else.
+Nobody in her story was careless, and nobody was cruel. Everybody did the job in front of them, and the job in front of them was never this.
 
 Her letter is still in the system somewhere, marked resolved.
 
