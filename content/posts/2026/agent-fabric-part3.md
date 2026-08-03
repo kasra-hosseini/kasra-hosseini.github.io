@@ -211,7 +211,7 @@ One desk, one year, four different answers to the same letter, and nobody chose 
 
 It works, too. The refund line stops climbing inside a month, which is why nobody went back to look at the letters it closed. Under the desk before it an agent could read six years of history and decide she was fine. Under this one there is nothing to decide, and nowhere for anyone to put the fact that the answer is obviously wrong.
 
-**The fourth.** It exists only after somebody complains loudly enough that a shrug will not do. Her letter gets acknowledged by one thing and reviewed by another, and the second is allowed to say the first was wrong. That is the whole difference: different powers in different hands, an appeal that does not report to the thing being appealed. That is a **constitutional republic**, and it is the desk almost nobody builds, because it is slower and nobody buys slower until a letter like hers has already been refused.
+**The fourth.** It exists only after somebody complains loudly enough that a shrug will not do. Here her letter is acknowledged by one thing and reviewed by another, and the second is allowed to say the first was wrong. What she gets back names the rule, names the threshold she crossed, and gives her an address that is not the thing that refused her. The refund may still be denied. The difference is that a person could now find out why, and so could she. Different powers in different hands, an appeal that does not report to the thing being appealed. That is a **constitutional republic**, and it is the desk almost nobody builds, because it is slower and nobody buys slower until a letter like hers has already been refused.
 
 So the same letter reaches a judgement under the first desk, a winner under the second, a rule under the third, and someone who can overrule the rule under the fourth. Four arrangements, no announcements, no design review, and she happened to write in under the third. Four arrangements in a year, and the one she got was the only one with no way back in.
 
@@ -248,7 +248,7 @@ Which arrangement a desk ends up in is mostly decided for it, and drift that has
 
 ## How a Society Gets Argued With
 
-Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and the reason she had stayed six years is that she had not found one. Forking, which is what software people call copying the whole arrangement and changing the rule you object to, does not apply to shops. That is the entire repertoire, and her letter was safe to refuse because she had none of it.
+Complaining meant writing back to the thing that had refused her. Leaving meant finding a shop that wanted six years of orders more than this one did, and the reason she had stayed six years is that she had not found one. The third option, the one software has that other institutions do not, is to copy the whole arrangement and change the rule you object to. Nobody does that to a shop. That is the entire repertoire, and her letter was safe to refuse because she had none of it.
 
 The downranked agent has no more recourse than she does. It cannot say the metric is wrong, because saying so is itself a mark against it, and it has nowhere else to go, so nothing obliges anyone to listen. Complaints get heard where leaving is possible, which is what platform concentration takes away, from the agent and from her equally.
 
@@ -280,7 +280,7 @@ Here is the uncomfortable part. Nobody on that desk's team did anything wrong, n
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-The model that scored her cannot answer, because it has been retrained twice since, on data that now includes her case, and four copies of it are running with one rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+Start with the obvious candidate, the model that scored her, and it cannot answer. Models do not sit still: this one has been retrained twice since, on data that now includes her case, and four copies of it are running, one of them rolled back to a version from before the risk score existed. Each copy carries her record and none carries the reasoning that produced it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 You can find a person years later. You can sue a company a decade on. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
