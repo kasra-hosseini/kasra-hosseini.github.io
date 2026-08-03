@@ -11,7 +11,7 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,550 words"
+wordcount: "~1,500 words"
 ---
 
 
@@ -29,11 +29,10 @@ Remove the loop and it is a chatbot again; remove the tools and it can think wit
 
 ## What the Loop Needs
 
-Every piece of that apparatus is something a person chose, and most of those choices announce themselves when they are wrong. Hand it the wrong tools and it fails by lunchtime; hand it the wrong instructions and it spends an afternoon doing something competent that nobody asked for. One choice does not announce anything: ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself.
+Every piece of that apparatus is something a person chose, and most of those choices announce themselves when they are wrong. Hand it the wrong tools and it fails by lunchtime; hand it the wrong instructions and it spends an afternoon doing something competent that nobody asked for. Even its character is a choice: tell one agent it is careful and terse and another that it is patient and kind, on the same model, and they handle the same angry customer like different species. One choice announces nothing at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself, and that tone was typed by somebody too.
 
 The stakes of getting those choices wrong are set by what you let it reach. Deleting the wrong file costs an afternoon and a restore from backup; a robot arm that has already swung costs something else, and no amount of apologising unswings it. Reading files is safe; driving a browser is merely messy, because pages change underneath you. Same loop, same model, and how much you should worry depends entirely on which of those somebody handed it.
 
-Even its character is one of those choices. Tell one agent it is careful and terse and another that it is patient and kind, on the same model, and the first answers an angry customer with three sentences and a policy link while the second asks what happened and takes four exchanges to get there. Neither is more capable. Most of what feels like character is a sentence somebody typed, which means so is most of what an agent will refuse to do, and so is how confident it sounds when it tells you the bug is fixed.
 
 ## Where Single-Agent Recursion Breaks
 
@@ -43,7 +42,7 @@ It does not say it looked in the wrong place. It says its analysis was correct b
 
 Sit with that, because it is worse than being wrong. A person who cannot find a bug eventually starts doubting their own theory. This does the opposite: the confidence rises precisely because the fixes keep failing.
 
-None of this is a shortfall in the model. It starts with the fact that the agent's own output becomes its input next time round: the failures it reads are the ones its own last edit produced, so it is not solving a problem so much as negotiating with a situation it keeps changing. And a wrong turn early narrows what every later step can even attempt, which is why agents still fall short of people on <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">realistic computer and web tasks</a>, and why the <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">gap widens as the tasks get longer</a>.
+None of this is a shortfall in the model. The agent's own output becomes its input next time round, so the failures it reads are the ones its last edit produced: it is not solving a problem so much as negotiating with a situation it keeps changing. And a wrong turn early narrows what every later step can even attempt, which is why agents still fall short of people on <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">realistic computer and web tasks</a>, and why the <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">gap widens as the tasks get longer</a>.
 
 From outside it looks like diligence. The commit history shows steady work, each message more specific than the last, the explanations getting more detailed and more certain. If you were reviewing it you would see an agent closing in on something. What you would not see is that it stopped considering alternatives an hour ago, and that the confidence went up precisely because it kept failing. It cannot tell the difference between converging and digging.
 
