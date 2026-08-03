@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,050 words (body) · ~2,000 words (notes)"
+wordcount: "~1,250 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -312,7 +312,7 @@ wordcount: "~1,050 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
+Start with the smallest version of this, the one already sitting in your pocket. Your calendar agent and your messages agent will eventually want opposite things: something urgent has arrived, and the calendar says no interruptions. Nothing in that system was granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election, and the record of those dismissals is more consistent than you are.
 
 
 
@@ -403,6 +403,8 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 ---
 
 She was the one person in the building who knew where to look, and a spreadsheet beat her. On your phone there is no spreadsheet and no standup. There is a record you never agreed to, assembled from a hundred one-second decisions you have already forgotten making, and it now governs your attention more reliably than any intention you could state out loud. Nobody at any company decided your calendar agent should win. You elected it.
+
+What neither you nor Priya had was a word for it. She could have said the routing was unfair and been told, correctly, that the table was accurate. There is no phrase in ordinary engineering language for a rule that nobody wrote, nobody can produce, and nobody can overturn without falsifying a record, which is why these arguments are lost by people who are right. Naming the thing is the first requirement, and it is what the next post is for.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
