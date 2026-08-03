@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,300 words (body) · ~2,000 words (notes)"
+wordcount: "~1,150 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -381,13 +381,11 @@ On a phone the worst this costs is your own afternoon. Move the same arrangement
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, because how long each agent takes and how often people write back angry are free to collect. A month later the same router sends complex billing disputes only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
 
-Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. She goes looking for the rule that did it, expecting a line somebody wrote and forgot. The settings mention the agent twice, both times just to say it exists. The policy docs say hard tickets go to whoever is best placed to handle them. She asks in the team channel who changed the routing in March, and three people say nobody did, which is true.
+Six weeks in, an engineer called Priya notices that the third agent has not been given a hard ticket since March, and goes looking for the rule that did it. There is no rule. The settings mention the agent only to say it exists, the policy docs say hard tickets go to whoever is best placed to handle them, and three people confirm that nobody changed the routing in March, which is true.
 
-What she finds instead is a table of resolution times that everybody agrees is accurate. There is one number in it she could change, and changing it would be falsifying a record. That is the whole of it: the preference is the table, and the table is just what happened. Meanwhile a customer with a cracked vase is waiting, and her return will go to whichever agent the table prefers rather than the one who knows the fragile-item policy, and she will never know either fact.
+What exists is a table of resolution times that everybody agrees is accurate, and the only thing she could change in it is a number, which would be falsifying a record. So she is left arguing with something that is not wrong, on behalf of an agent, while a customer with a cracked vase waits for whichever agent the table prefers rather than the one who knows the fragile-item policy. She leaves it. Overriding the routing would make the numbers worse and her the person who made them worse, and nobody there would call the table a rule, which is exactly what makes it one.
 
-She leaves it. Overriding the routing would make the numbers worse and her the person who made them worse, and nobody there would call the table a rule, which is exactly what makes it one.
-
-What the desk loses by leaving it is the ability to tell later whether anything went wrong. Six months on, the third agent is retired for underperformance. The two survivors are now the only agents with a record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
+What that costs arrives six months on, when the third agent is retired for underperformance. The two survivors are now the only agents with a record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
 
 Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and she would be right, and there is nothing she can point at. Which is where you already are with your calendar, minus the standup. You cannot point at the moment you agreed to any of it either.
 
