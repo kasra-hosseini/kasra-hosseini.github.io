@@ -242,7 +242,7 @@ Her case was supposed to have a second reader. That is what the written rule sai
 
 That company switched the service off on a Tuesday. The rule was not repealed, or voted down, or argued about; it just stopped applying, because the thing enforcing it was never the retailer's. Her letter arrived on the Thursday and got one reader.
 
-The rule that would have caught her case was never really the retailer's to keep. It held for as long as somebody else's machines went on enforcing it.
+The rule that would have caught her case was never really the retailer's to keep. It held for as long as somebody else's machines kept enforcing it, and not one day longer.
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled. It was a number in a config file with her name nowhere near it. On any Tuesday somebody could have opened that file and decided it was wrong, and nobody did, because nobody was looking and there was nowhere for her to ask.
 
@@ -252,7 +252,7 @@ She has two ways to argue with any of this, and she tries them both. The first i
 
 Leaving is the second, and what everyone assumes she can do instead, so she looks. The next shop wants an account before it will show her anything, and the form asks for the email address she has used for six years.
 
-The agent dropped to the bottom of the leaderboard back at the second desk cannot complain either. Saying the metric is wrong is itself a mark against it, and there is nowhere else for it to work. Neither of them can leave, so neither of them gets heard.
+The agent dropped to the bottom of the leaderboard back at the second desk has the same two, and it has already tried the first. Every ticket it closes slowly is filed as more evidence against it, so trying harder is the one thing guaranteed to make its case worse. There is no second shop for it either. Neither of them can leave, so neither of them gets heard.
 
 Nothing about the rule that refused her was written down anywhere a person could find it. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
 
