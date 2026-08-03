@@ -244,7 +244,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Appeal is the cheapest thing a desk can build and the first thing left out, and without it every mistake becomes the rule. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
-Drift that has already cost money pushes hard toward fixed rules, whether or not anyone wanted the overhead. That is how the risk score arrived, and nobody chose it either. One number then decided how fast the desk ran, what it was allowed to do, whether it was drifting, and whether anything could be reversed. It was also the number that refused her.
+Drift that has already cost money pushes hard toward fixed rules, which is how the risk score arrived. Nobody chose it: finance saw a number going the wrong way and the desk acquired a threshold. After that the same score set how fast the desk ran, what it was allowed to approve, and whether anything could be sent back. It was also the number that refused her.
 
 ## How a Society Gets Argued With
 
@@ -256,7 +256,7 @@ The same holds inside the desk. The downranked agent cannot say the metric is wr
 
 Somebody at that retailer could have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because there were no words for it that sounded like anything other than shipping a feature. That is what the four names are for: not a recommendation, just enough vocabulary to notice a choice while it is still a choice.
 
-And every one of those choices is a trade that resists cleverness. The desk has already paid all three. It got fast by letting one router decide, and paid for it the month the router was wrong about everything downstream. It got accurate by scoring agents, and paid for it in drift nobody could see. It got safe by writing fixed rules, and paid for it with her. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
+And every one of those choices is a trade that resists cleverness. Letting one router decide made the desk fast until the month that router was wrong about everything downstream. Scoring the agents made it accurate and produced drift nobody could see. Writing fixed rules made it safe, and the safety cost her the refund. Nothing reaches the corner where it gets all three, and where a system settles says a great deal about what its builders were afraid of.
 
 The encouraging part is that none of this has to live in a document nobody reads. The rule that refused her could have been written where the system actually looks, with a note beside it saying who may change it and what happens when somebody disputes it. A rule that does not show up there is not governance, it is a wish. That does not escape the provider, and nothing here does. Writing the rule where the system consults it moves the rule from something a team can ignore to something a provider can overrule, which is better than a document nobody reads and still not hers to appeal to.
 
