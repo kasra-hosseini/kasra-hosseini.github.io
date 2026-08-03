@@ -231,7 +231,7 @@ Her refund is a good place to see that, because the rule that refused her had to
 
 Which means none of these arrangements is quite an institution in the usual sense. They behave like one while the actual enforcing is quietly subcontracted to whoever owns the machines. A market whose discovery layer belongs to one platform is not really a market; it is a shop with the platform's name over the door. So choosing a governance structure without naming who enforces it is half a design, and the half you skipped gets decided by somebody who has never heard of your project.
 
-The cheapest of those is the one most often missing. In a system with no way to appeal, every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nothing in the desk is built to notice. Anything contested, a score somebody disputes or an action that did real damage, needs a slower path that can go back and look again, and without one errors do not surface. They compound.
+Appeal is the cheapest of the four and the one most often skipped. Without it every mistake becomes the rule: the flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. Nothing in the desk is built to notice. A score somebody disputes, an action that did real damage, anything contested at all needs a slower path that can go back and look again, and without one errors do not surface. They compound.
 
 ## Where Authority Comes From
 
