@@ -377,7 +377,7 @@ Start with the smallest version of this, the one already sitting in your pocket.
 
 On a phone the worst this costs is your own afternoon. Now hold that same arrangement still and change one thing about it: who the record is about. On your phone it was about you, and you could always override it. Inside a company the record is about somebody who is not in the room: it is about a stranger who will never see it and has no dismissal to register. You have been that stranger this year, probably several times.
 
-What follows is a support desk acquiring rules nobody wrote, authority nobody granted, and no way to appeal, because nobody ever needed to appeal a log. It happens through three steps that are each obviously correct: split work among agents, keep records of how it went, act on the records.
+It takes three steps, each of them obviously correct. Split work among agents. Keep records of how it went. Act on the records. Do all three and you have rules nobody wrote, authority nobody granted, and no way to appeal, because nobody ever needed to appeal a log.
 
 Somebody writes in because a delivery never arrived. A router reads the message, decides it is a returns question rather than a billing one, and hands it to the agent that handles returns, which sorts it out. The only thing anyone added was logging, exactly as free and obvious as it was on your phone. A month later the same router sends the hard cases, the billing disputes that take real work, only to the two agents that clear them fastest, and has stopped sending fragile-item returns to the one that keeps misapplying the policy. Nobody reprogrammed it. The difference is that when your calendar agent won, you were the one who had been voting; here the votes are resolution times, and the next person whose delivery goes missing is routed by that record rather than by what their problem actually is.
 
@@ -394,7 +394,7 @@ By October that agent is retired for underperformance, which leaves two. In Nove
 
 Priya is in that meeting, and she knows exactly what happened. She could say the comparison was destroyed a year ago by a routing preference nobody chose, that she watched it happen in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her.
 
-On your phone the same mechanism cost you an afternoon. Here it cost a stranger her refund and an agent its job, and nobody had to decide either one.
+The same mechanism on your phone cost you an afternoon. Here it cost a stranger her refund and an agent its job, and nobody decided either.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>

@@ -197,7 +197,7 @@ That desk went through four recognisable versions of governance inside a year, a
 
 ## What Governance Actually Is
 
-She hit a rule and could not reach the thing that made it. That is the whole distinction, and it carries the rest of this post: the flag on her account is an **institution**, a standing rule about who may do what, and everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
+She hit a rule and could not reach the thing that made it, and that gap is what the rest of this post is about: the flag on her account is an **institution**, a standing rule about who may do what, and everything around it, applying it and deciding who may change it, is **governance**. The desk did not start out capable of either.
 
 ## Where Authority Comes From
 
@@ -244,7 +244,7 @@ On a Tuesday morning the provider retired the interface. Nobody at the retailer 
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. What the desk was asked for and what it was rewarded for were never the same thing. The score that made her a risk was a number in a config file, and on any Tuesday somebody could have opened that file and decided it was wrong. Nobody did, because nobody was looking for it.
 
-The flag on her account was a judgement made once, by something scoring return rates, and every decision after it treated that judgement as settled fact. A dispute route is the cheapest thing a desk can have and the first thing left out, so her flag never got a second look. Errors like it do not surface. They compound.
+The flag on her account was one judgement, made once, by something scoring return rates. Every decision after it treated that judgement as settled fact, and because a dispute route is the cheapest thing a desk can have and the first thing left out, nobody ever looked at it twice.
 
 Nobody sat down and chose that arrangement either. Once drift has cost real money, fixed rules are what get bought, and this desk bought a single score to carry all of it: speed, approval limits, whether anything could be sent back. That same score refused her.
 
@@ -282,7 +282,7 @@ Here is the uncomfortable part. Nobody on that desk's team did anything wrong, n
 
 She writes again. This time somebody at the retailer agrees to look, and the hardest part of this turns out not to be technical at all: which agent owes her an explanation?
 
-She is owed an explanation, and the obvious place to get one is the model that scored her. It cannot give her one. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
+She is owed an explanation. The obvious place to get one is the model that scored her, and it cannot give her one, because it is not the same model any more. It has been retrained twice since her refusal, on data that now includes her case, and several older versions of it are still running, including one from before the risk score existed. Every one of them carries her record and not one carries the reasoning behind it. What actually decided was a configuration that lasted six weeks and no longer exists anywhere.
 
 You can find a person years later. You can sue a company a decade on. The thing that decided her case was a configuration that existed for six weeks, and the question is not who signed in but which of the four copies is continuous with it. None of them is.
 
