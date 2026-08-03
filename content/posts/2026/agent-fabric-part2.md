@@ -387,6 +387,8 @@ Six weeks in, an engineer called Priya sorts the routing log by agent and finds 
 
 She leaves it. Overriding the routing would make the numbers worse and make her the person who made them worse, and she has no argument to offer against a table that is not wrong about anything. Nobody at that retailer would call it a rule, which is exactly what makes it one.
 
+What that costs is visible six months later, in a sprint review nobody connects to it. The third agent is retired for underperformance. The two survivors are now the only agents with a record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing to compare it against. Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and she would be right, and there is no artefact she could point at to prove it.
+
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
 
@@ -395,11 +397,11 @@ A research team builds a Map-Reduce pipeline: multiple agents search different d
 This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
 </details>
 
-You have done the same thing on a smaller scale: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too. Priya at least had a table to look at. That will not last. Nobody keeps routing rules in a table forever, because a model trained on the logs decides faster and skips the lookup entirely. After that there is no line to delete. She walked away from a spreadsheet; a year later there would be no spreadsheet to walk away from.
+You have done the same thing on a smaller scale: the reason you stopped fighting your calendar agent is that its record of your own dismissals was accurate too. Priya at least had a table to look at, and that is the part that will not last, because the moment a model is trained on those logs there is no table left to look at.
 
 ---
 
-Nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that assembled itself in the gaps of your logging. Every system in this post recorded who did the work, how it went, and what it cost, and not one of them recorded who said it could. Priya lost that argument to a spreadsheet. On your phone there was never an argument: nobody at any company decided your calendar agent should win, and neither did you, exactly. You just kept voting, a hundred times, in one-second increments, and the winner of that election now governs your attention more reliably than any intention you could state out loud.
+Nobody gets to choose whether their system has governance. Only whether it is the kind you can name and overrule, or the kind that nobody can find. Priya lost that argument to a spreadsheet. On your phone there was never an argument: nobody at any company decided your calendar agent should win, and neither did you, exactly. You just kept voting, a hundred times, in one-second increments, and the winner of that election now governs your attention more reliably than any intention you could state out loud.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
