@@ -11,7 +11,7 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,450 words"
+wordcount: "~1,400 words"
 ---
 
 
@@ -29,9 +29,10 @@ Remove the loop and it is a chatbot again; remove the tools and it can think wit
 
 ## What the Loop Needs
 
-Every piece of that apparatus is something a person chose, and most of those choices announce themselves when they are wrong: give it the wrong instructions and it spends an afternoon doing something competent that nobody asked for, which you notice by lunchtime. One choice announces nothing at all. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself, and that tone was typed by somebody too.
+Every piece of that apparatus is something a person chose, and most of those choices announce themselves when they are wrong: give it the wrong instructions and it spends an afternoon doing something competent that nobody asked for, which you notice by lunchtime. One choice announces nothing at all.
 
-The stakes of getting those choices wrong are set by what you let it reach. Deleting the wrong file costs an afternoon and a restore from backup; a robot arm that has already swung costs something else, and no amount of apologising unswings it. Reading files is safe; driving a browser is merely messy, because pages change underneath you. Same loop, same model, and how much you should worry depends entirely on which of those somebody handed it.
+Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself, and that tone was typed by somebody too. How much that matters depends on what somebody let it reach: deleting the wrong file costs an afternoon and a restore from backup, and a robot arm that has already swung costs something no apology unswings.
+
 
 
 ## Where Single-Agent Recursion Breaks

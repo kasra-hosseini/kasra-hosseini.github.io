@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,250 words (body) · ~2,000 words (notes)"
+wordcount: "~1,300 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -383,13 +383,13 @@ Somebody writes in because a delivery never arrived. A router reads the message,
 
 Six weeks in, an engineer called Priya sorts the routing log by agent and finds that the third one has not been given a hard ticket since March. She goes looking for the rule that did it, expecting a line somebody wrote and forgot. The settings mention the agent twice, both times just to say it exists. The policy docs say hard tickets go to whoever is best placed to handle them. She asks in the team channel who changed the routing in March, and three people say nobody did, which is true.
 
-What she finds instead is a table of resolution times that everybody agrees is accurate. There is one number in it she could change, and changing it would be falsifying a record. That is the whole of it: the preference is the table, the table is just what happened, and somewhere in the queue is a customer whose fragile-item return will be handled by whichever agent it prefers.
+What she finds instead is a table of resolution times that everybody agrees is accurate. She sits with it for a while. She is certain the third agent is being treated unfairly and equally certain she cannot say so out loud without sounding like someone defending a piece of software against arithmetic. There is one number in the table she could change, and changing it would be falsifying a record. That is the whole of it: the preference is the table, the table is just what happened, and somewhere in the queue is a customer whose fragile-item return will be handled by whichever agent it prefers.
 
 She leaves it, because overriding the routing would make the numbers worse and her the person who made them worse. Nobody there would call the table a rule, which is exactly what makes it one.
 
 What the desk loses by leaving it is the ability to tell later whether anything went wrong. Six months on, the third agent is retired for underperformance. The two survivors are now the only agents with a record on hard billing disputes, so when one of them starts approving refunds it should not, there is nothing left to compare it against.
 
-Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and she would be right, and there is nothing she can point at. Soon there will be less: train a model on those logs and the table itself is gone, absorbed into a system that just decides. Which is where you already are with your calendar, minus the standup. You cannot point at the moment you agreed to any of it either.
+Priya is in that meeting. She could say the comparison was destroyed by a routing preference nobody chose, and she would be right, and there is nothing she can point at. Soon there will be less to point at. Train a model on those logs and the table stops existing; the preference is still there, spread through something that just decides. Which is where you already are with your calendar, minus the standup. You cannot point at the moment you agreed to any of it either.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
