@@ -281,7 +281,9 @@ And some of it cannot be engineered at all, because it needs somebody to make a 
 
 ---
 
-Nobody in her story was careless, and nobody was cruel. That desk has been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking, and nobody had designing any of it on a ticket, because these structures do not arrive when people are careless about governance. They arrive when people are conscientious about everything else.
+That desk has been run by one agent, by a scoreboard, and by a rule, and it will be run by an appeal the first time somebody insists on knowing why their complaint was ignored. She was the one asking, and nobody had designing any of it on a ticket.
+
+Nobody in her story was careless, and nobody was cruel. These structures do not arrive when people are careless about governance. They arrive when people are conscientious about everything else.
 
 Her letter is still in the system somewhere, marked resolved.
 
