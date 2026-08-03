@@ -252,7 +252,7 @@ Then she does what everyone assumes she can do instead, and looks elsewhere. The
 
 Neither option works for the downranked agent either, and for the same reason: it cannot argue with the record without adding to it, and it has nowhere else to work.
 
-Nothing about the rule that refused her was written down anywhere she could have found it, or anywhere the people who built the desk could have found it either. It could have been, in the same file the system reads, with two lines under it naming who may change it and what happens when somebody says it is wrong.
+Nothing about the rule that refused her was written down anywhere she could have found it, and nowhere the people who built the desk could have found it either. There was no line naming who was allowed to change it, and none saying what happens when somebody says it is wrong, because nobody had ever needed those lines until she wrote in.
 
 Somebody could also have said out loud, in the week the risk score went in, that they were adding a rule no agent could override and no customer could appeal. Nobody did, because they were adding a risk score, and nobody objects to a risk score. Her letter is what that missing sentence cost.
 

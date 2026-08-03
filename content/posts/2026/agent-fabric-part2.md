@@ -417,9 +417,9 @@ She knows what it would have taken, and it is cheap enough to be insulting. A se
 
 Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
 
-She was right the whole time, and being right was worth nothing.
+The second column would have changed less than it sounds like. The router would still have chosen the fast agent for most tickets, and the third agent would still have been slower, but the table would have carried the reason, so the choice would have been somebody's to defend rather than the log's to make.
 
-The second column would have changed less than it sounds like. The router would still have chosen the fast agent for most tickets, and the third agent would still have been slower, but the table would have carried the reason, so the choice would have been somebody's to defend rather than the log's to make. That is the whole difference between a system that is measured and a system that can be argued with, and it is the difference Part 3 is about.
+She was right the whole time, and being right was worth nothing.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
