@@ -31,7 +31,9 @@ Take any one of those away and the whole thing changes character. Without the lo
 
 Start with the acting, because not all of it is equally recoverable and that matters more than how clever the agent is. A deleted file comes back from backup. A robot arm that has already swung cannot be unswung. Reading files and calling a well-behaved service are solved problems, driving a browser is messy because pages change under you, and moving something physical is hardest of all. The same loop with the same model is a different proposition depending on which of those it can reach.
 
-The rest of the scaffolding is easiest to see by watching it fail. Take away the prompt and a capable agent will do something competent that nobody asked for. Take away planning and it solves the step in front of it at the expense of the one after, cheerfully deleting the file it needs in twenty minutes. Give two agents the same model but tell one it is careful and terse and the other that it is patient and kind, and they will handle the same angry customer completely differently, which is most of what identity means here. And leave it to judge its own work and you get the failure this post is about, because an agent grading itself is the one component whose failure is invisible from the inside.
+The rest of the scaffolding is easiest to see by watching it fail. Take away the prompt and a capable agent does something competent that nobody asked for. Take away planning and it solves the step in front of it at the expense of the one after, cheerfully deleting the file it needs in twenty minutes. Leave it to grade its own work and you get the failure this post is about, because an agent judging itself is the one component whose failure is invisible from the inside.
+
+Identity is the strange one. Tell one agent it is careful and terse, tell another it is patient and kind, run both on the same model, and put the same angry customer in front of them. They will behave like different species. Most of what feels like an agent's character is a sentence somebody typed.
 
 ## Where Single-Agent Recursion Breaks
 
