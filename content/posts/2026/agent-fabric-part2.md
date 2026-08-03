@@ -377,9 +377,9 @@ On a phone the worst this costs is a suggestion you might have wanted. Now put s
 
 Priya wrote the router: the piece of code that reads each incoming ticket and picks which agent handles it. Anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
-So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like one.
+So she goes looking for the rule. It is not in the settings, not in the policy docs, and not in anyone's memory. What she finds instead is a pattern that has been running long enough to look like a rule.
 
-Nothing she finds is a mistake. One Tuesday the third agent took eleven hours over a billing dispute. That was the last hard question anybody asked it.
+Every step she can find is a defensible one. One Tuesday the third agent took eleven hours over a billing dispute, and that was the last hard question anybody asked it.
 
 
 
