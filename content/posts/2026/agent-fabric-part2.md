@@ -314,7 +314,7 @@ wordcount: "~1,150 words (body) · ~2,000 words (notes)"
 
 You will probably end up with a handful of personal agents: one managing your calendar, one triaging your messages. Nobody wires them together. Then two of them want opposite things, because the messages agent has something urgent and the calendar says no interruptions. Nothing in that system was ever granted the authority to settle it, and yet it gets settled, because whichever agent you have overridden less often now quietly carries more weight. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
-Try to give the messages agent more room later and it hesitates anyway, because something logged every one of those dismissals and the record is more consistent than you are. You are now arguing with a policy you wrote by accident.
+Try to give the messages agent more room later and it hesitates anyway, because the record of those dismissals is more consistent than you are. You are now arguing with a policy you wrote by accident.
 
 
 <div class="viz-container">
@@ -383,9 +383,7 @@ Somebody writes in because a delivery never arrived. A router reads the message,
 
 Six weeks in, an engineer called Priya notices that the third agent has not been given a hard ticket since March, and goes looking for the rule that did it. There is no rule. The settings mention the agent only to say it exists, the policy docs say hard tickets go to whoever is best placed to handle them, and three people confirm that nobody changed the routing in March, which is true.
 
-What exists is a table of resolution times that everybody agrees is accurate. The only thing in it she could change is a number, and changing that would be falsifying a record.
-
-So she is arguing with something that is not wrong, on behalf of a piece of software, and she can hear how that sounds. Meanwhile a customer with a cracked vase is in the queue, waiting for whichever agent the table prefers rather than the one who knows the fragile-item policy.
+What exists is a table of resolution times. Nobody wrote it and nobody maintains it; it is just what happened, recorded, which is exactly why the team treats it as the one thing in the room that cannot be argued with. The only thing in it she could change is a number, and changing that would be falsifying a record. So she is arguing with something that is not wrong, on behalf of a piece of software, and she can hear how that sounds.
 
 She leaves it. Overriding the routing would make the numbers worse and her the person who made them worse, and nobody there would call the table a rule, which is exactly what makes it one.
 
