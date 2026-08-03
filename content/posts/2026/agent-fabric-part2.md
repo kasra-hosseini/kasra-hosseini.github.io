@@ -332,6 +332,8 @@ The rest of this post is about how that adds up while nobody is looking.
 
 ## The Division of Labour
 
+Four agents barely need organizing. The question gets interesting at a few dozen, calling each other, because then something has to decide who gets what, and there are only a handful of shapes that decision can take. Split a job into parts and merge the answers, which is what happens when you ask for a summary of forty papers. Or put one agent in front to read each request and hand it to whoever handles that kind. The first shape is about speed. The second is about who decides, and the moment any record of past results exists, that record decides, because it is cheaper than asking and more accurate than trusting.
+
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
   <div class="viz-caption"><strong>Figure 2.</strong> Three arrangements that actually ship. Each is a different way of deciding who gets asked, and each one needs a record to decide it with.
@@ -419,9 +421,9 @@ What decides which one you got is not its origin but whether anyone can push bac
 
 ---
 
-So there are two bills for delegating. The one you can measure arrives immediately: every hop costs compute and time, and every hop is another chance for what you asked for to drift from what gets done. That is why nobody builds twenty layers deep when three will do.
+Delegating costs you twice. The first cost is obvious and you can measure it: every hop burns compute and time, and every hop is another chance for what you asked for to drift from what gets done, which is why nobody builds twenty layers deep when three will do.
 
-The second bill arrives later and it is paid in authority. It is easiest to see in what the router will not do. Ask it to send a hard billing dispute to the third agent and it will comply, once, and then go back to the two it trusts, because nothing you said changed the record and the record is what it consults. Nobody granted it that power. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork: preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it.
+The second cost is authority, and it is easiest to see in what the router will not do. Ask it to send a hard billing dispute to the third agent and it will comply, once, and then go back to the two it trusts, because nothing you said changed the record and the record is what it consults. Nobody granted it that power. Split work among agents, keep records of how it went, act on those records, and you have built an institution without filing any paperwork: preferences you did not choose, standing you did not assign, and a memory that outlives the task that created it.
 
 Which is why the phone is the right place to have started. Nobody at any company decided your calendar agent should win. You did, a hundred times, in one-second increments, and the record of those seconds now governs your attention more reliably than any intention you could state out loud.
 
