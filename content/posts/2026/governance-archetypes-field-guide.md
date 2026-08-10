@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,200 words (guide) · ~9,000 words (archetype cards)"
+wordcount: "~1,000 words (guide) · ~7,500 words (archetype cards)"
 ---
 
 <style>
@@ -183,8 +183,6 @@ That is what this page is for: not to argue anything, but to let you point at a 
 
 Twenty-two archetypes follow, grouped by where each one locates authority. Some concentrate it in a hub or a rulebook. Some hand it to whoever performs best, then spend their lives defending the scoreboard. Some derive it from an obligation owed to a person, some from verification, and one refuses to locate it anywhere and lets norms accumulate instead. The boundaries leak, and most real systems run several at once.
 
-**A warning about one word.** The cards rate each archetype on four axes, one of which is *legitimacy*. In political philosophy that word means the governed consenting to be governed, and agents cannot consent to anything. Read it here in the narrow engineering sense: will the participants, and the humans answerable for them, treat this structure's rulings as binding?
-
 **How to use this page.** If you know the name, the summary table is fastest. If you know your situation but not the name, start with the quick guide. If you are trying to tell two confusable archetypes apart, that comparison is below too. And if you want the argument about who actually enforces any of this, that is [Part 3](/posts/2026/agent-fabric-part3/), which is a post rather than a reference.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
@@ -193,7 +191,7 @@ Twenty-two archetypes follow, grouped by where each one locates authority. Some 
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
 - **[Part 2: The Rule Nobody Wrote](/posts/2026/agent-fabric-part2/)**: how splitting work among agents hands authority to a record nobody meant to write
-- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance, who enforces it, and how it fails
+- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: how governance arrives without anyone designing it, who it favours, and who is left to argue with it
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the forty-three delegation patterns behind Part 2
 - **Governance Archetypes: A Field Guide** (you are here): the twenty-two archetypes behind Part 3
 </div>
@@ -207,10 +205,12 @@ Twenty-two archetypes follow, grouped by where each one locates authority. Some 
   Click to restart.<br><button class="viz-restart" onclick="document.getElementById('viz-society').querySelector('svg').dispatchEvent(new Event('click'))">Restart</button></div>
 </div>
 
+## How to Read the Cards
+
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The four evaluation axes explained</summary>
 
-**A warning about one of them.** *Legitimacy* in political philosophy means the governed consenting to be governed, which agents cannot do. Read it here in the narrow engineering sense: will the participants, and the humans answerable for them, treat this structure's rulings as binding? Open Problems returns to what that swap costs.
+**A warning about one of them.** *Legitimacy* in political philosophy means the governed consenting to be governed, which agents cannot do. Read it here in the narrow engineering sense: will the participants, and the humans answerable for them, treat this structure's rulings as binding? [Part 3](/posts/2026/agent-fabric-part3/#nobody-left-to-ask) returns to what that swap costs.
 
 **Efficiency:** Autocracy and Doctrine are highly efficient, with minimal coordination overhead. Market and Colony are less efficient, though for different reasons: a Market spends effort on the bidding and matching that reaching a price requires, while a Colony has little per-interaction overhead but wastes effort through redundant, uncoordinated work. The Agora and Federation fall in between.
 
@@ -222,6 +222,8 @@ Twenty-two archetypes follow, grouped by where each one locates authority. Some 
 
 These are ordinal hunches rather than measurements, and they assume a stable task distribution under a single deployer; a different environment can reorder them. What they are good for is seeing the shape of a trade, that a Colony spends legibility to buy flexibility, or that Doctrine buys resistance to drift and pays in adaptability.
 </details>
+
+## Telling Confusable Archetypes Apart
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">How to distinguish confusable pairs</summary>
@@ -251,6 +253,8 @@ These are ordinal hunches rather than measurements, and they assume a stable tas
 | **Constitutional Republic vs. Federation** | Separated powers | Constitutional Republic separates *functional branches* (legislative, executive, judicial) within one society; Federation separates *autonomous groups* across organizational lines |
 | **Stewardship vs. Open-Source Maintainership** | Community governance of shared resources | Stewardship gives *all users* governing voice (Ostrom's principles); Maintainership concentrates merge authority in *a few curators* with fork as the community's check |
 </details>
+
+## All Twenty-Two at a Glance
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Summary: governance archetypes at a glance</summary>
@@ -282,6 +286,8 @@ These are ordinal hunches rather than measurements, and they assume a stable tas
 
 </details>
 
+## Which Archetype Fits Your Situation
+
 <details style="margin: 1em 0; padding: 0.8em 1em; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600;">Quick guide: which archetype fits your situation?</summary>
 
@@ -300,10 +306,9 @@ These are ordinal hunches rather than measurements, and they assume a stable tas
 - **Distributed threat detection:** Immune System (layered innate + adaptive response)
 </details>
 
-<details style="margin: 1.2em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
-<summary style="cursor: pointer; font-weight: 600; color: #334155;">Show all twenty-two archetypes (reference; the argument continues below)</summary>
+## The Twenty-Two Archetypes
 
-<p style="font-size: 0.9em; color: #64748b; margin: 0.6em 0 0.4em 0;">Grouped by where each one locates authority. Each card covers what it is, where you see it today, how it fails, and what it pairs with.</p>
+They are grouped below by where each one locates authority, in four toggles you can open as you need them. Each card covers what the archetype is, where you see it today, how it fails, and what it pairs with. The prose between the groups is where the argument runs.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600; color: #334155;">The ten structures almost everyone builds first, and where each one concentrates the risk</summary>
@@ -365,7 +370,7 @@ These are ordinal hunches rather than measurements, and they assume a stable tas
 
 </details>
 
-Notice what all ten have in common: each puts authority *somewhere*, in a hub or a rulebook or a leaderboard, and the only question is where. Our support desk has already drifted across three of them. It began as a single router deciding everything. Once it started scoring agents it became a leaderboard, and once the retailer wrote hard rules about refunds above a threshold it acquired a constitution the router itself cannot override. Nobody announced any of these transitions. The next two archetypes abandon the whole approach, deriving authority from an obligation owed to somebody, which is the foundation that matters most to you personally: any agent acting on your behalf is one of these, or it should be.
+Notice what all ten have in common: each puts authority *somewhere*, in a hub or a rulebook or a leaderboard, and the only question is where. Our support desk has already drifted across three of them. It began as a single router deciding everything. Once it started scoring agents it became a leaderboard, and once the retailer wrote hard rules about refunds above a threshold it acquired a constitution the router itself cannot override. Nobody announced any of these transitions. The next two archetypes abandon the whole approach, deriving authority from an obligation owed to somebody instead. Any agent acting on a person's behalf is one of these, or it should be.
 
 <details style="margin: 1em 0; padding: 0.7em 1em; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px;">
 <summary style="cursor: pointer; font-weight: 600; color: #334155;">Two that derive authority from an obligation instead of from power, including the one your personal agent already is</summary>
@@ -457,8 +462,6 @@ Which leaves the most deliberate group of all, and this is where the support des
 </details>
 
 </div>
-
-</details>
 
 </details>
 

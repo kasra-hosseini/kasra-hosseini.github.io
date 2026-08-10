@@ -1,7 +1,7 @@
 ---
 title: "The Anatomy of an Agent"
 subtitle: "The loop, its limits, and why one agent is never enough"
-date: 2026-07-31
+date: 2026-07-29
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "LLM", "agent fabric"]
@@ -11,9 +11,14 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,300 words"
+wordcount: "~1,400 words"
 ---
 
+<p style="font-size: 0.82em; color: #999; margin-top: 1em;"><a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener" style="color: #999;">Claude Code</a> was used for editing and visualizations. All ideas and arguments are the authors' own.</p>
+
+<div style="background: #fffbeb; border: 1px solid #f59e0b; border-radius: 6px; padding: 0.6em 1em; margin: 1.5em 0; font-size: 0.88em; color: #92400e;">
+<strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
+</div>
 
 ## From Model Call to Agent
 
@@ -34,8 +39,6 @@ Give an agent a filesystem tool it did not need and by lunchtime it has reorgani
 
 The quiet one is the decision about when it is allowed to stop. Ask a coding agent to fix a bug, let it decide when it is finished, and it will tell you the work is done in the same confident tone whether it is or not, because it has no way to check that judgement except the judgement itself. Nothing announces the difference. If the worst it can reach is a file, somebody restores the file; if it has already sent the email or moved the money, there is nothing to restore.
 
-
-
 ## Where Single-Agent Recursion Breaks
 
 Picture a coding agent debugging a failing test. It decides the bug is in the date handling, rewrites that, and the test still fails. So ask it to review its own reasoning. That is the obvious fix, and some systems are built entirely around it, <a href="https://arxiv.org/abs/2408.06292" target="_blank" rel="noopener">writing up their own research and then reviewing their own drafts</a>.
@@ -45,13 +48,13 @@ It does not say it looked in the wrong place. It says its analysis was correct b
 
 From outside it looks like diligence. The commit history shows steady work, each message more specific than the last, the explanations getting more detailed and more certain. If you were reviewing it you would see an agent closing in on something. What you would not see is that it stopped considering alternatives an hour ago, and that the confidence went up precisely because it kept failing. It cannot tell the difference between converging and digging.
 
-The model is not being stupid. Every test it reads was broken by its own last edit, so it is arguing with a situation it keeps changing, and the wrong turn it took first narrows everything it can attempt after. No agent yet <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">works a full day at a computer unsupervised</a>, and <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">the longer a job runs the further behind a person it falls</a>.
+The model is not being stupid. Every test it reads was broken by its own last edit, so it is arguing with a situation it keeps changing, and the wrong turn it took first narrows everything it can attempt after. No agent yet gets through <a href="https://arxiv.org/abs/2404.07972" target="_blank" rel="noopener">ordinary desktop work at anything like the rate a person does</a>, and asked the same job twice, <a href="https://arxiv.org/abs/2406.12045" target="_blank" rel="noopener">it will not reliably do it the same way</a>.
 
 The one on the timezone bug is still editing at hour six, nothing signalling that the search space collapsed before lunch. On a <a href="https://arxiv.org/abs/2411.15114" target="_blank" rel="noopener">research problem that takes days</a> it leads a human expert for the first couple of hours, and then never catches up again.
 
 The agent that made the mistake is the agent grading it. No prompt fixes that, because it is not a flaw in the prompt. It is a property of being alone in the room.
 
-{{< figure src="/images/2026/anatomy-delegation-styles.svg" alt="Two delegation styles side by side: a single agent looping through a task alone, and an orchestrator dividing work among research, coding, and review specialists, with a panel listing further patterns (peer-to-peer networks, voting panels, specialist markets, hierarchical chains, blackboard systems, debate protocols) explored in Part 2" caption="**Figure 2.** The same job done alone and split three ways. The second arrangement is not smarter, just harder to fool." >}}
+{{< figure src="/images/2026/anatomy-delegation-styles.svg" alt="Two delegation styles side by side: a single agent looping through a task alone, and an orchestrator dividing work among research, coding, and review specialists, with a panel listing further patterns (peer-to-peer networks, voting panels, specialist markets, hierarchical chains, blackboard systems, debate protocols) explored in the delegation patterns field guide" caption="**Figure 2.** The same job done alone and split three ways. The second arrangement is not smarter, just harder to fool." >}}
 
 ## Beyond the Single Loop
 
@@ -76,7 +79,7 @@ Giving it hands did not fix that. It raised the stakes, because the well-read pe
 - **Prologue: The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
 - **[Part 2: The Rule Nobody Wrote](/posts/2026/agent-fabric-part2/)**: how splitting work among agents hands authority to a record nobody meant to write
-- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, who enforces the rules, and how a society gets argued with
+- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: how governance arrives without anyone designing it, who it favours, and who is left to argue with it
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>

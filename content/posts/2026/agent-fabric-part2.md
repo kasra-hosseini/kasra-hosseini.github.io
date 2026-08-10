@@ -1,17 +1,17 @@
 ---
 title: "The Agent Fabric (Part 2): The Rule Nobody Wrote"
 subtitle: "How splitting work among agents hands authority to a record nobody meant to write"
-date: 2026-07-31
+date: 2026-07-30
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "governance", "the loom hypothesis"]
 description: "An engineer builds a router that picks which agent handles which ticket, and a log nobody designed as a decision starts ending careers. How delegation hands authority to a record, and why the cheapest engineering choices are the ones that build an institution."
 draft: false
 math: false
-ShowToc: true
+ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,300 words (body) · ~2,000 words (notes)"
+wordcount: "~1,400 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -174,6 +174,7 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
 
+An assistant on your phone stops offering you things, because you dismissed it a few times when you were busy and something in there started keeping score. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
 
 <div class="viz-container">
   <div id="viz-scale" style="width: 100%; max-width: 720px; margin: 0 auto;" role="img" aria-label="Four panels in a 2x2 grid showing the progression from a single agent to a multi-agent team to a society to the fabric where societies interconnect.">
@@ -312,10 +313,6 @@ wordcount: "~1,300 words (body) · ~2,000 words (notes)"
   </details></div>
 </div>
 
-An assistant on your phone stops offering you things, because you dismissed it a few times when you were busy and something in there started keeping score. You never wrote that rule. You voted for it, one dismissal at a time, without knowing there was an election.
-
-
-
 <div class="viz-container">
   <div id="viz-combo" style="width: 100%; height: 420px;" role="img" aria-label="Three combined delegation patterns shown side by side: Quality Gate, Consensus Engine, and Bidding Pipeline."></div>
   <div class="viz-caption"><strong>Figure 2.</strong> Three arrangements that actually ship. Each is a different way of deciding who gets asked, and each one needs a record to decide it with.
@@ -356,7 +353,7 @@ An assistant on your phone stops offering you things, because you dismissed it a
 
 <p style="color: #555;">Without discovery, specialists remain invisible. Without budgets, markets become spam. Without settlement, reputation has no teeth. Without provenance, good outputs cannot become trusted knowledge.</p>
 
-<p style="color: #555;">Return to the coding agent from the opening. Today it dispatches to a planner, a code writer, and a test runner through a fixed tree. In a specialist market, that tree becomes dynamic: the agent discovers that a small code model handles boilerplate faster, a reasoning model handles algorithmic refactors better, and a security scanner should verify the output. The routing decision becomes an allocation decision. The tree is no longer fixed in advance; it is assembled from the market at runtime.</p>
+<p style="color: #555;">Return to the coding agent from the <a href="/posts/2026/anatomy-of-an-agent/" class="red-link">Prologue</a>. Today it dispatches to a planner, a code writer, and a test runner through a fixed tree. In a specialist market, that tree becomes dynamic: the agent discovers that a small code model handles boilerplate faster, a reasoning model handles algorithmic refactors better, and a security scanner should verify the output. The routing decision becomes an allocation decision. The tree is no longer fixed in advance; it is assembled from the market at runtime.</p>
 
 <p style="color: #555;">The counterargument deserves airing: consolidation pressure may push in the opposite direction. We have seen this in cloud computing, where the prediction was millions of small servers and the reality is a handful of hyperscalers. If a single frontier model becomes cheap enough and good enough at everything, the specialist market collapses. This is not just about model quality. It is about platform economics: data flywheel effects, distribution advantages, API lock-in, and the capital cost of training. Even if small specialists are technically superior for narrow tasks, users may stay on the platform that bundles everything because switching costs exceed the quality gap. Specialization can win at the model layer while consolidation wins at the platform layer. That is arguably the current trajectory.</p>
 
@@ -366,7 +363,7 @@ An assistant on your phone stops offering you things, because you dismissed it a
 
 <p style="color: #555;">An early version of this pattern used one language model as a controller over many specialist models: parse the request, select the right specialist (vision, speech, generation), execute subtasks, then synthesize the result (see <a href="https://arxiv.org/abs/2303.17580" target="_blank" rel="noopener" class="red-link">HuggingGPT</a>). Language becomes the interface for cooperation between minds of very different kinds.</p>
 
-<p style="color: #555;">Bidding for work has an old lineage (the <a href="https://en.wikipedia.org/wiki/Contract_Net_Protocol" target="_blank" rel="noopener" class="red-link">Contract Net Protocol</a> from 1980 formalized it; see the Auction archetype above). A specialist market also needs settlement. If agents bid for work, someone must pay the compute bill, enforce quotas, and decide whether the result was worth the cost. Settlement makes the six layers above operational rather than aspirational. In early systems, "pricing" may simply mean token budgets, latency budgets, rate limits, or priority access rather than currency.</p>
+<p style="color: #555;">Bidding for work has an old lineage (the <a href="https://en.wikipedia.org/wiki/Contract_Net_Protocol" target="_blank" rel="noopener" class="red-link">Contract Net Protocol</a> from 1980 formalized it; see the Auction pattern in the <a href="/posts/2026/delegation-patterns-field-guide/" class="red-link">delegation field guide</a>). A specialist market also needs settlement. If agents bid for work, someone must pay the compute bill, enforce quotas, and decide whether the result was worth the cost. Settlement makes the six layers above operational rather than aspirational. In early systems, "pricing" may simply mean token budgets, latency budgets, rate limits, or priority access rather than currency.</p>
 
 <p style="color: #555;">Communication is not free. Today, agents communicate through natural language: verbose, ambiguous, expensive. At small scale this works; at large scale, it becomes a bottleneck. A specialist market needs a protocol layer for discovery (how do I find a specialist?), authentication (are you who you claim to be?), negotiation (what will this cost?), permissioning, and result formatting (how do I parse your output?).</p>
 
@@ -375,17 +372,11 @@ An assistant on your phone stops offering you things, because you dismissed it a
 
 Give one agent in a company the job of deciding which of the others handles what, and let it consult a record of who did well last time. Nobody building that on a Tuesday feels like they are building an institution; it feels like adding logging. The difference is that on a phone the loser is a suggestion, and at a company the loser has a job.
 
-Priya built the thing that decides which agent gets which ticket, which means anything it does wrong is hers to answer for. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
+The engineer who built the thing that decides which agent gets which ticket is the one who answers for anything it does wrong. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
 
 So she goes looking for the rule behind those zeroes, and there is no rule: not in the settings, not in the policy docs, not in anyone's memory. What she finds is a habit that has been running long enough to pass for one, which is all a rule has to be.
 
 On a Tuesday in March the third agent took eleven hours over a billing dispute, and after that the router stopped asking it hard questions at all. Every step in between is one she would have signed off on.
-
-
-
-
-
-
 
 So she tries to fix it by hand, assigning that agent three hard tickets herself. She watches the first one close on time and feels, briefly, like she has proved something. The second and third come back late, which is what happens to an agent that has not had a hard ticket in a month, and by Friday she understands what she has done. The table has one column, close time, and no column for how hard the ticket was. It cannot record that she gave a rusty agent difficult work on purpose. It records two more slow tickets.
 
@@ -397,9 +388,7 @@ There is nothing to delete, and nowhere to write down the one thing that would e
 
 Then she opens the log and the third agent is not in it. Not downranked, not flagged: gone. Somebody has retired it for underperformance, which the table supports, and nobody thought the decision worth mentioning to her. That leaves two that have always agreed with each other, because they were the two the router kept choosing. One of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
 
-Priya is in that meeting, and she knows exactly what happened. She could say that the router quietly stopped sending hard tickets to one of the three, that she watched the column go to zeroes in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her. She never lacked evidence. She lacked anywhere to take it.
-
-
+The engineer is in that meeting, and she knows exactly what happened. She could say that the router quietly stopped sending hard tickets to one of the three, that she watched the column go to zeroes in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her. She never lacked evidence. She lacked anywhere to take it.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
@@ -411,7 +400,7 @@ This weighting is not a quality filter on individual outputs. It is a standing j
 
 ---
 
-Priya still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use.
+She still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use.
 
 She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. An afternoon's work, on any of the days before it mattered. It never occurred to her, because while you are building it a log looks like a table.
 
@@ -421,6 +410,12 @@ She was right the whole time, and being right was worth nothing.
 
 Nobody gave the table that power. It took it by being the only thing written down, and what a record decides is not just who gets the work. It is who is still around to be asked.
 
+Call it a **load-bearing record**: something kept for one purpose that quietly becomes the authority for another, because it is the only account of what happened. The restart count that settled which agent to believe in the [Prologue](/posts/2026/anatomy-of-an-agent/) was one of these. So is this table. The test is not whether a record is accurate. It is whether anything it cannot express can still be said out loud by somebody, and to whom.
+
+[Part 1](/posts/2026/agent-fabric-part1/#collective-memory-and-the-knowledge-factory) called the governed version of this a Collective Memory: a store that keeps claims with their provenance, including who produced them, under what conditions, and when they stop being true. The routing table is what you get without any of that. Same function, no provenance, and it was still the thing that decided.
+
+That is the part you can act on while it is still cheap. Any record that starts deciding who gets work needs a column for the thing it was not built to measure, and it has to be there before the day you need it, because on that day the record is already the rule.
+
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
@@ -428,11 +423,12 @@ Nobody gave the table that power. It took it by being the only thing written dow
 - **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
 - **Part 2: The Rule Nobody Wrote** (you are here): how splitting work among agents hands authority to a record nobody meant to write
-- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: governance archetypes, who benefits, who enforces the rules, and how a society gets argued with
+- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: how governance arrives without anyone designing it, who it favours, and who is left to argue with it
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
 </div>
 
+<!-- ============================================================
      SCRIPTS: D3.js VISUALIZATIONS
      ============================================================ -->
 
