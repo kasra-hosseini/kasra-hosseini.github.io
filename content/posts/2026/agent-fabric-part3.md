@@ -33,7 +33,7 @@ The desk was always going to end up with rules. The only open questions were whi
 
 ## Four Desks in One Year
 
-What she eventually got was four polite sentences and no way to reply to them. By the time her letter arrived, the desk had already been three other things. Not four options anyone weighed up: four things the same desk turned into, in order. Watch what happens to her letter under each one.
+What she eventually got was four polite sentences and no way to reply to them. By the time her letter arrived, the desk had already been three other things. Not four options anyone weighed up: four things the same desk turned into, in order.
 
 **The first desk: one agent decides.** Her letter reaches whichever agent handles returns. It reads the letter, looks at six years of orders, and decides, so by that afternoon she has a reply explaining that twelve returns in six years is not a pattern and the refund is approved. If it decides wrong, everyone downstream is wrong with it, but she could at least name what decided. One router is the simplest thing that works, which is why the desk started here, and the price is that on the day it is wrong about her there is nothing else in the room.
 
@@ -84,7 +84,7 @@ Every new coordination channel is also a new attack channel. Every governance ar
 
 Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep refund losses down, and refusing her was the cheapest way to do that. The flag on her account was one judgement, made once, by something scoring return rates, and every decision after it treated that judgement as settled. It was a number in a config file with her name nowhere near it. On any Tuesday somebody could have opened that file and decided it was wrong. No one did, because no one was looking, and there was nowhere for her to ask.
 
-That number is the [load-bearing record](/posts/2026/agent-fabric-part2/) again, one desk further on. Part 2 watched a routing table become the rule for which agent got work. Here a risk score has become the rule for which customer gets served, and the difference is only who is standing on the other side of it. Governance is what you call it once somebody outside the system has to live with what the record decided.
+That number is the [load-bearing record](/posts/2026/agent-fabric-part2/) again, one desk further on. Part 2 watched a routing table become the rule for which agent got work. Here a risk score has become the rule for which customer gets served. Governance is what you call it once somebody outside the system has to live with what the record decided.
 
 ## Complain, or Go Elsewhere
 
@@ -112,7 +112,7 @@ She writes again, and this time somebody at the retailer agrees to look, which i
 
 The obvious place to look is the model that scored her, and the version that scored her no longer exists. It has been retrained twice since her refusal, each time on data that included her case. She can be shown the model that would score her today. She cannot be shown the one that did. A person can be found years later. A company can be sued a decade on. This was a configuration that lasted six weeks, and an apology would have nowhere to come from even if somebody wanted to give her one.
 
-There is a harder version of the same question, and the third desk already answered it. The rule that entitled her to a second reader did not stop applying because anyone at the retailer decided it should. It stopped applying because a company two steps removed switched a service off. No one at the retailer was consulted or noticed, and the rule stayed in the config file being true and inoperative at the same time. The retailer wrote that rule and believed it owned it. What it owned was a sentence. The thing that made the sentence happen belonged to somebody else.
+That is a hard problem, and it is not the hardest one here. Ask instead who was able to make her rule stop working, and the third desk has already answered it. The rule that entitled her to a second reader did not stop applying because anyone at the retailer decided it should. It stopped applying because a company two steps removed switched a service off. No one at the retailer was consulted or noticed, and the rule stayed in the config file being true and inoperative at the same time. The retailer wrote that rule and believed it owned it. What it owned was a sentence. The thing that made the sentence happen belonged to somebody else.
 
 That is the limit under every arrangement in this post. Whatever the governance says, it runs on compute somebody else provisions, on models somebody else upgrades and retires, under terms somebody else changes. A constitution holds only as far as the platform underneath it agrees to keep executing it. An appeal route can be deprecated by a vendor on a Tuesday for reasons that have nothing to do with the desk, and the desk will not know until somebody's letter comes back wrong. Governance describes who is supposed to decide. Ownership of the substrate decides who actually can, and those two are usually not the same party. So the interesting question about any agent society is not what its rules say but whose infrastructure has to stay up for them to mean anything.
 
