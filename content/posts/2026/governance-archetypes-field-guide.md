@@ -228,7 +228,7 @@ These are ordinal hunches rather than measurements, and they assume a stable tas
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">How to distinguish confusable pairs</summary>
 
-**Delegation pairs** (these patterns are catalogued in [Part 2](/posts/2026/agent-fabric-part2/); the table is here so both sets of boundary tests sit together):
+**Delegation pairs** (these patterns are catalogued in the [delegation field guide](/posts/2026/delegation-patterns-field-guide/); the table is here so both sets of boundary tests sit together):
 
 | Pair | They share | They differ in |
 |------|-----------|----------------|
