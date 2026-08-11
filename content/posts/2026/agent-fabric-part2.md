@@ -371,13 +371,15 @@ She was right the whole time, and being right was worth nothing.
 
 Nobody gave the table that power. It took it by being the only thing written down, and what a record decides is not just who gets the work. It is who is still around to be asked.
 
-Call it a **load-bearing record**: something kept for one purpose that quietly becomes the authority for another, because it is the only account of what happened. The restart count that settled which agent to believe in the [Prologue](/posts/2026/anatomy-of-an-agent/) was one of these. So is this table. The test is not whether a record is accurate. It is whether anything it cannot express can still be said out loud by somebody, and to whom.
+Call it a **load-bearing record**: something kept for one purpose that quietly becomes the authority for another, because it is the only account of what happened. The restart count that settled which agent to believe in the [Prologue](/posts/2026/anatomy-of-an-agent/), kept to track reliability and used to decide whose word won, was one of these. So is this table. The test is not whether a record is accurate. It is whether anything it cannot express can still be said out loud by somebody, and to whom.
 
 [Part 1](/posts/2026/agent-fabric-part1/#collective-memory-and-the-knowledge-factory) called the governed version of this a Collective Memory: a store that keeps claims with their provenance, including who produced them, under what conditions, and when they stop being true. The routing table is what you get without any of that. Same function, no provenance, and it was still the thing that decided.
 
 That is the part you can act on while it is still cheap. Any record that starts deciding who gets work needs a column for the thing it was not built to measure, and it has to be there before the day you need it, because on that day the record is already the rule.
 
-One desk with forty agents is the small version. The same machinery, run across organizations rather than inside one, is a market for specialists: agents advertising what they can do, other agents routing work to them, and a record deciding who is worth calling. Everything the table did to the third agent, a reputation layer can do to a provider. The material below sketches what that market needs to function, and every layer in it is a record that will eventually decide something.
+One desk with forty agents is the small version. The same machinery, run across organizations rather than inside one, is a market for specialists: agents advertising what they can do, other agents routing work to them, and a record deciding who is worth calling. Everything the table did to the third agent, a reputation layer can do to a provider. The material below sketches what that market needs to function.
+
+Every layer in it is a record that will eventually decide something, and the desk is where you can still see it happen to one agent at a time. Part 3 follows the same record out to the person on the other side of it, who never agreed to be scored and has nobody to ask.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The specialist market: routing, evidence, and infrastructure</summary>
