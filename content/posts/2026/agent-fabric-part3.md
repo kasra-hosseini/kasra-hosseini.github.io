@@ -24,7 +24,7 @@ A woman writes to a shop she has used for six years to ask why her refund was re
 
 That shop runs the support desk from [Part 2](/posts/2026/agent-fabric-part2/), the one where an engineer spent an afternoon looking for a rule that turned out not to exist. The engineer never found anyone who had written it, and she could not undo it without making service worse. By the time this woman wrote in, the desk had been running for a year.
 
-By the end of that year it is handling nine thousand tickets a week across forty agents, every one of them decided by machinery no one has reviewed, not for lack of skill but because there is too much of it. So the desk has rules the desk itself cannot change, and neither can the team that built it. Her letter is not refused so much as unaddressed: the question it asks is why me, and there is nobody that question belongs to.
+By the end of that year it is handling nine thousand tickets a week across the forty agents the desk grew into, every one of them decided by machinery no one has reviewed, not for lack of skill but because there is too much of it. So the desk has rules the desk itself cannot change, and neither can the team that built it. Her letter is not refused so much as unaddressed: the question it asks is why me, and there is nobody that question belongs to.
 
 Nothing any agent told her was untrue. Every answer was correct, and that is how these systems will fail long before they start lying.
 
@@ -86,7 +86,7 @@ Nobody asked the desk to refuse a six-year customer. Somebody asked it to keep r
 
 That number is the [load-bearing record](/posts/2026/agent-fabric-part2/) again, one desk further on. Part 2 watched a routing table become the rule for which agent got work. Here a risk score has become the rule for which customer gets served, and the difference is only who is standing on the other side of it. Governance is what you call it once somebody outside the system has to live with what the record decided.
 
-## What She Can Do About It
+## Complain, or Go Elsewhere
 
 So she complains, which means replying to the email that refused her. The reply comes back in four minutes and repeats the second paragraph of the first one. Then she does what everyone assumes she can do instead, and looks elsewhere: the next shop wants an account before it will show her anything, and the form asks for her email address, the one she has used for six years.
 

@@ -11,7 +11,7 @@ math: false
 ShowToc: false
 TocOpen: false
 hideCitation: false
-wordcount: "~1,400 words (body) · ~2,000 words (notes)"
+wordcount: "~1,600 words (body) · ~2,000 words (notes)"
 ---
 
 <style>
@@ -322,6 +322,63 @@ An assistant on your phone stops offering you things, because you dismissed it a
   Click to restart.<br><button class="viz-restart" onclick="document.getElementById('viz-combo').parentElement.querySelector('svg').dispatchEvent(new Event('click'))">Restart</button></div>
 </div>
 
+
+Give one agent in a company the job of deciding which of the others handles what, and let it consult a record of who did well last time. Nobody building that on a Tuesday feels like they are building an institution; it feels like adding logging. The difference is that on a phone the loser is a suggestion, and at a company the loser has a job.
+
+The engineer who built the thing that decides which agent gets which ticket is the one who answers for anything it does wrong. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
+
+So she goes looking for the rule behind those zeroes, and there is no rule: not in the settings, not in the policy docs, not in anyone's memory. What she finds is a habit that has been running long enough to pass for one, which is all a rule has to be.
+
+On a Tuesday in March the third agent took eleven hours over a billing dispute, and after that the router stopped asking it hard questions at all. Every step in between is one she would have signed off on.
+
+So she tries to fix it by hand, assigning that agent three hard tickets herself. She watches the first one close on time and feels, briefly, like she has proved something. The second and third come back late, which is what happens to an agent that has not had a hard ticket in a month, and by Friday she understands what she has done. The table has one column, close time, and no column for how hard the ticket was. It cannot record that she gave a rusty agent difficult work on purpose. It records two more slow tickets.
+
+The agent drops further and the router asks it for even less. She tried to help, the table read the help as failure, and the agent she was defending is now worse off for having been defended.
+
+There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet, and for seven months nothing about it seems urgent.
+
+What happens over those seven months is that the desk gets bigger. Tickets double and then double again, and the answer to every surge is more agents, because more agents is the answer that works. Three become eleven, then thirty, then forty. Nobody reopens the question of what the table measures when the eleventh agent arrives. They point the router at it, the table starts a new row, and the new agent learns in its first week what the third agent learned in March.
+
+By then the table has stopped merely recording the desk and started teaching it. An agent that wants hard tickets has no way to earn them except by closing easy ones fast, and forty agents all reading the same column arrive at the same habit without any of them being told.
+
+## What the Record Costs
+
+Then she opens the log and the third agent is not in it. Not downranked, not flagged: gone. Somebody has retired it for underperformance, which the table supports, and nobody thought the decision worth mentioning to her.
+
+The decision took about a minute. Somebody in a quarterly review sorted forty agents by close time, looked at the bottom of the list, and retired the worst one, which is exactly the sort of housekeeping nobody writes a memo about. The person who did it had never heard of the eleven-hour billing dispute and had no reason to. They were reading the only account of the desk that existed, and it said what it always said.
+
+That leaves the two agents at the top of the list, which are the two that have always agreed with each other, because they were the two the router kept choosing. One of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
+
+The engineer is in that meeting, and she knows exactly what happened. She could say that the router quietly stopped sending hard tickets to one of the three, that she watched the column go to zeroes in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her. She never lacked evidence. She lacked anywhere to take it.
+
+<details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
+<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
+
+A research team builds a Map-Reduce pipeline: multiple agents search different databases, extract claims, and a synthesis agent merges findings into a report. Delegation is explicit: fan out, gather, merge. Over time the synthesis agent notices that one search agent consistently surfaces papers that survive critical review, while another frequently returns retracted or low-impact sources. The synthesis agent begins weighting contributions differently. It gives higher confidence to claims sourced by the reliable agent and flags claims from the unreliable one for manual verification.
+
+This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
+</details>
+
+---
+
+She still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use.
+
+She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. An afternoon's work, on any of the days before it mattered. It never occurred to her, because while you are building it a log looks like a table.
+
+Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
+
+She was right the whole time, and being right was worth nothing.
+
+Nobody gave the table that power. It took it by being the only thing written down, and what a record decides is not just who gets the work. It is who is still around to be asked.
+
+Call it a **load-bearing record**: something kept for one purpose that quietly becomes the authority for another, because it is the only account of what happened. The restart count that settled which agent to believe in the [Prologue](/posts/2026/anatomy-of-an-agent/) was one of these. So is this table. The test is not whether a record is accurate. It is whether anything it cannot express can still be said out loud by somebody, and to whom.
+
+[Part 1](/posts/2026/agent-fabric-part1/#collective-memory-and-the-knowledge-factory) called the governed version of this a Collective Memory: a store that keeps claims with their provenance, including who produced them, under what conditions, and when they stop being true. The routing table is what you get without any of that. Same function, no provenance, and it was still the thing that decided.
+
+That is the part you can act on while it is still cheap. Any record that starts deciding who gets work needs a column for the thing it was not built to measure, and it has to be there before the day you need it, because on that day the record is already the rule.
+
+One desk with forty agents is the small version. The same machinery, run across organizations rather than inside one, is a market for specialists: agents advertising what they can do, other agents routing work to them, and a record deciding who is worth calling. Everything the table did to the third agent, a reputation layer can do to a provider. The material below sketches what that market needs to function, and every layer in it is a record that will eventually decide something.
+
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The specialist market: routing, evidence, and infrastructure</summary>
 
@@ -369,52 +426,6 @@ An assistant on your phone stops offering you things, because you dismissed it a
 
 <p style="color: #555;"><a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener" class="red-link">MCP</a> standardizes how AI systems connect to tools and data sources; <a href="https://a2a-protocol.org/" target="_blank" rel="noopener" class="red-link">A2A</a> points toward agent-to-agent interoperability. Neither, by itself, solves the whole problem of an open specialist market. The <a href="https://arxiv.org/abs/2410.11905" target="_blank" rel="noopener" class="red-link">Agora protocol</a> (not to be confused with the Agora governance archetype in [Part 3](/posts/2026/agent-fabric-part3/)) frames this as an Agent Communication Trilemma: versatility, efficiency, and portability pull against one another. The likely future is not one universal protocol, but a stack: tool access, agent identity, delegation, settlement, provenance, and audit. A comprehensive <a href="https://arxiv.org/abs/2504.16736" target="_blank" rel="noopener" class="red-link">survey of agent protocols</a> maps the current landscape.</p>
 </details>
-
-Give one agent in a company the job of deciding which of the others handles what, and let it consult a record of who did well last time. Nobody building that on a Tuesday feels like they are building an institution; it feels like adding logging. The difference is that on a phone the loser is a suggestion, and at a company the loser has a job.
-
-The engineer who built the thing that decides which agent gets which ticket is the one who answers for anything it does wrong. In April she sorts the log by agent and finds a column of zeroes going back to March, and she knows she did not write it.
-
-So she goes looking for the rule behind those zeroes, and there is no rule: not in the settings, not in the policy docs, not in anyone's memory. What she finds is a habit that has been running long enough to pass for one, which is all a rule has to be.
-
-On a Tuesday in March the third agent took eleven hours over a billing dispute, and after that the router stopped asking it hard questions at all. Every step in between is one she would have signed off on.
-
-So she tries to fix it by hand, assigning that agent three hard tickets herself. She watches the first one close on time and feels, briefly, like she has proved something. The second and third come back late, which is what happens to an agent that has not had a hard ticket in a month, and by Friday she understands what she has done. The table has one column, close time, and no column for how hard the ticket was. It cannot record that she gave a rusty agent difficult work on purpose. It records two more slow tickets.
-
-The agent drops further and the router asks it for even less. She tried to help, the table read the help as failure, and the agent she was defending is now worse off for having been defended.
-
-There is nothing to delete, and nowhere to write down the one thing that would explain the late tickets. She leaves it, the way you stopped noticing the assistant that went quiet, and for seven months nothing about it seems urgent.
-
-## What the Record Costs
-
-Then she opens the log and the third agent is not in it. Not downranked, not flagged: gone. Somebody has retired it for underperformance, which the table supports, and nobody thought the decision worth mentioning to her. That leaves two that have always agreed with each other, because they were the two the router kept choosing. One of them tells a customer her fragile-item return does not qualify. It is wrong, and there is nothing left to check it against.
-
-The engineer is in that meeting, and she knows exactly what happened. She could say that the router quietly stopped sending hard tickets to one of the three, that she watched the column go to zeroes in April, that she tried once and made it worse. What she cannot do is point at anything. There is no rule to produce, no decision to cite, no author to name, and a table everyone agrees is accurate. So she says the survivor needs closer review, which is true, and useless, and the only sentence available to her. She never lacked evidence. She lacked anywhere to take it.
-
-<details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
-<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Example: Research synthesis pipeline</summary>
-
-A research team builds a Map-Reduce pipeline: multiple agents search different databases, extract claims, and a synthesis agent merges findings into a report. Delegation is explicit: fan out, gather, merge. Over time the synthesis agent notices that one search agent consistently surfaces papers that survive critical review, while another frequently returns retracted or low-impact sources. The synthesis agent begins weighting contributions differently. It gives higher confidence to claims sourced by the reliable agent and flags claims from the unreliable one for manual verification.
-
-This weighting is not a quality filter on individual outputs. It is a standing judgment about an agent's epistemic authority. The synthesis agent now functions as a **peer-review committee of one**, deciding whose testimony counts and how much. When the team adds a new database or swaps a search agent, the synthesis agent's learned weights determine how much that newcomer's findings influence the final report. The pipeline has developed an implicit **Meritocracy**: standing earned through track record, not assigned by design. The institution reveals itself the first time someone asks "why was this source excluded?" and the answer is not a rule but a learned preference.
-</details>
-
----
-
-She still works there. The routing table is still accurate, the third agent is still gone, and she has stopped opening the log on Fridays because there is nothing in it she can use.
-
-She knows what it would have taken, and it is cheap enough to be insulting. One more column in the table, for how hard the ticket was, and her three tickets would have read as evidence instead of damage. An afternoon's work, on any of the days before it mattered. It never occurred to her, because while you are building it a log looks like a table.
-
-Until the day somebody needs it, a table nobody can argue with looks exactly like a table that is right.
-
-She was right the whole time, and being right was worth nothing.
-
-Nobody gave the table that power. It took it by being the only thing written down, and what a record decides is not just who gets the work. It is who is still around to be asked.
-
-Call it a **load-bearing record**: something kept for one purpose that quietly becomes the authority for another, because it is the only account of what happened. The restart count that settled which agent to believe in the [Prologue](/posts/2026/anatomy-of-an-agent/) was one of these. So is this table. The test is not whether a record is accurate. It is whether anything it cannot express can still be said out loud by somebody, and to whom.
-
-[Part 1](/posts/2026/agent-fabric-part1/#collective-memory-and-the-knowledge-factory) called the governed version of this a Collective Memory: a store that keeps claims with their provenance, including who produced them, under what conditions, and when they stop being true. The routing table is what you get without any of that. Same function, no provenance, and it was still the thing that decided.
-
-That is the part you can act on while it is still cheap. Any record that starts deciding who gets work needs a column for the thing it was not built to measure, and it has to be there before the day you need it, because on that day the record is already the rule.
 
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
