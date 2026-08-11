@@ -45,7 +45,13 @@
     </header>
     {{- if (ne (.Param "hideSummary") true) }}
     <div class="entry-content">
+      {{- /* Prefer the hand-written description. Auto summaries start at the
+             credit line and banner, so every card reads the same. */ -}}
+      {{- with .Description }}
+      <p>{{ . | plainify | htmlUnescape }}</p>
+      {{- else }}
       <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+      {{- end }}
     </div>
     {{- end }}
     {{- if not (.Param "hideMeta") }}
