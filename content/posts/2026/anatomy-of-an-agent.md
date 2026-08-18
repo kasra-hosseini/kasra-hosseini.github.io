@@ -73,12 +73,10 @@ Six hours of getting more certain and no closer all looked like work: files chan
 Giving it hands did not fix that. It raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
+<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are essays; the last two are reference catalogues.
 
-- **Prologue: The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
-- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
-- **[Part 2: The Rule Nobody Wrote](/posts/2026/agent-fabric-part2/)**: how splitting work among agents hands authority to a record nobody meant to write
-- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: how governance arrives without anyone designing it, who it favours, and who is left to argue with it
-- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns behind Part 2
-- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes behind Part 3
+- **The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
+- **[The Agent Fabric: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
+- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns, from Supervisor to Market
+- **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes, and who ends up enforcing them
 </div>

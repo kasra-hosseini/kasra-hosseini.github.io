@@ -1,12 +1,12 @@
 ---
-title: "The Agent Fabric (Part 3): Ruling an Agent Society"
+title: "[ARCHIVE] The Agent Fabric (Part 3): Ruling an Agent Society"
 subtitle: "How authority forms when nobody designs it, and who is left to argue with it"
 date: 2026-07-13
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "governance", "the loom hypothesis"]
 description: "How agent societies end up governed by rules nobody wrote, why governance runs on infrastructure somebody else owns, and how these systems fail."
-draft: false
+draft: true
 math: false
 ShowToc: false
 TocOpen: false
