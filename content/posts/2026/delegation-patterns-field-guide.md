@@ -174,7 +174,7 @@ wordcount: "~2,200 words (guide) · ~13,100 words (pattern cards)"
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
 
-*Forty-three ways to split work between agents, and the failure that comes attached to each one. How you divide work decides who ends up holding authority, so this catalogue is also a catalogue of authority. It is built to be searched rather than read.*
+*Forty-three ways to split work between agents, grouped into nine families by the question each answers, with what each pattern is for and how each one fails. Built to be searched rather than read.*
 
 Every system that hands work from one agent to another has picked a delegation pattern, whether or not anyone named it. Usually nobody did. A team wires up an orchestrator because that is the obvious thing to do, adds a retry loop because something failed in staging, bolts on a reviewer after an incident, and ends up with an architecture that has three patterns in it and a name for none of them.
 
