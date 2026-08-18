@@ -1,12 +1,12 @@
 ---
-title: "The Agent Fabric (Part 2): The Rule Nobody Wrote"
+title: "[ARCHIVE] The Agent Fabric (Part 2): The Rule Nobody Wrote"
 subtitle: "How splitting work among agents hands authority to a record nobody meant to write"
 date: 2026-06-29
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "governance", "the loom hypothesis"]
 description: "An engineer builds a router that picks which agent handles which ticket, and a log nobody designed as a decision starts ending careers. How delegation hands authority to a record, and why the cheapest engineering choices are the ones that build an institution."
-draft: false
+draft: true
 math: false
 ShowToc: false
 TocOpen: false

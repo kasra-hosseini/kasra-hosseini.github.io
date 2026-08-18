@@ -175,7 +175,7 @@ wordcount: "~1,000 words (guide) · ~7,500 words (archetype cards)"
 </div>
 
 
-*A companion reference to [Part 3](/posts/2026/agent-fabric-part3/) of The Agent Fabric. That post argues that governance arrives in agent systems whether anyone designed it or not, and that whoever owns the compute enforces it. This page is the catalogue it draws on, and it is built to be searched rather than read.*
+*A companion reference to [The Agent Fabric](/posts/2026/agent-fabric-part1/), and a sibling to the [delegation field guide](/posts/2026/delegation-patterns-field-guide/). Governance arrives in agent systems whether anyone designed it or not, and whoever owns the compute enforces it. This page is the catalogue of the forms it takes, and it is built to be searched rather than read.*
 
 Every group of agents that persists long enough develops a way of deciding things. Usually nobody wrote it down. A router starts keeping score and a leaderboard appears; somebody adds a hard rule about refunds and a constitution appears; an incident happens and an appeals process appears. Three arrangements, no design review.
 
@@ -183,17 +183,15 @@ That is what this page is for: not to argue anything, but to let you point at a 
 
 Twenty-two archetypes follow, grouped by where each one locates authority. Some concentrate it in a hub or a rulebook. Some hand it to whoever performs best, then spend their lives defending the scoreboard. Some derive it from an obligation owed to a person, some from verification, and one refuses to locate it anywhere and lets norms accumulate instead. The boundaries leak, and most real systems run several at once.
 
-**How to use this page.** If you know the name, the summary table is fastest. If you know your situation but not the name, start with the quick guide. If you are trying to tell two confusable archetypes apart, that comparison is below too. And if you want the argument about who actually enforces any of this, that is [Part 3](/posts/2026/agent-fabric-part3/), which is a post rather than a reference.
+**How to use this page.** If you know the name, the summary table is fastest. If you know your situation but not the name, start with the quick guide. If you are trying to tell two confusable archetypes apart, that comparison is below too. And if you want the argument for why societies of agents form at all, that is [The Agent Fabric](/posts/2026/agent-fabric-part1/), which is a post rather than a reference.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>The Agent Fabric</strong>, a multi-part blog series on why and how AI agents may form societies and what it means for us.
+<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are essays; the last two are reference catalogues.
 
-- **[Prologue: The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
-- **[Part 1: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
-- **[Part 2: The Rule Nobody Wrote](/posts/2026/agent-fabric-part2/)**: how splitting work among agents hands authority to a record nobody meant to write
-- **[Part 3: Ruling an Agent Society](/posts/2026/agent-fabric-part3/)**: how governance arrives without anyone designing it, who it favours, and who is left to argue with it
-- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the forty-three delegation patterns behind Part 2
-- **Governance Archetypes: A Field Guide** (you are here): the twenty-two archetypes behind Part 3
+- **[The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
+- **[The Agent Fabric: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
+- **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns, from Supervisor to Market
+- **Governance Archetypes: A Field Guide** (you are here): the twenty-two governance archetypes, and who ends up enforcing them
 </div>
 
 <div class="viz-container">
@@ -210,7 +208,7 @@ Twenty-two archetypes follow, grouped by where each one locates authority. Some 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The four evaluation axes explained</summary>
 
-**A warning about one of them.** *Legitimacy* in political philosophy means the governed consenting to be governed, which agents cannot do. Read it here in the narrow engineering sense: will the participants, and the humans answerable for them, treat this structure's rulings as binding? [Part 3](/posts/2026/agent-fabric-part3/#nobody-left-to-ask) returns to what that swap costs.
+**A warning about one of them.** *Legitimacy* in political philosophy means the governed consenting to be governed, which agents cannot do. Read it here in the narrow engineering sense: will the participants, and the humans answerable for them, treat this structure's rulings as binding? Every use of the word below carries that narrower meaning.
 
 **Efficiency:** Autocracy and Doctrine are highly efficient, with minimal coordination overhead. Market and Colony are less efficient, though for different reasons: a Market spends effort on the bidding and matching that reaching a price requires, while a Colony has little per-interaction overhead but wastes effort through redundant, uncoordinated work. The Agora and Federation fall in between.
 
