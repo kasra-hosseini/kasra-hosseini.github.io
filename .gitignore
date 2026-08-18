@@ -27,3 +27,7 @@ substack/
 
 # Internal planning and review docs — local only, never push
 tasks/
+
+# Orphaned figures from archived posts — local only, never push
+static/images/2026/anatomy-of-an-agent.svg
+static/images/2026/anatomy-delegation-styles.svg
