@@ -1,7 +1,7 @@
 ---
 title: "Delegation Patterns: A Field Guide"
 subtitle: "Forty-three ways to split work between agents, what each is for, and how each one fails"
-date: 2026-08-01
+date: 2026-08-09
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "delegation", "reference"]
