@@ -177,7 +177,7 @@ wordcount: "~1,000 words (guide) · ~7,500 words (archetype cards)"
 
 *Twenty-two ways an agent society can be run, grouped by where each one locates authority, with what each is good at and how each one fails. Built to be searched rather than read. Its sibling covers the [delegation patterns](/posts/2026/delegation-patterns-field-guide/).*
 
-Every group of agents that persists long enough develops a way of deciding things. Usually nobody wrote it down. A router starts keeping score and a leaderboard appears; somebody adds a hard rule about refunds and a constitution appears; an incident happens and an appeals process appears. Three arrangements, no design review.
+Every group of agents that persists long enough develops a way of deciding things. Usually nobody wrote it down. Take a retailer's support desk, a dozen agents handling refunds and complaints, and watch it happen: a router starts keeping score and a leaderboard appears; somebody adds a hard rule about refunds above a threshold and a constitution appears; an incident happens and an appeals process appears. Three arrangements, no design review. That desk comes back a few times below, because it is small enough to hold in your head and it drifts through half this catalogue on its own.
 
 That is what this page is for: not to argue anything, but to let you point at a running system and say what it has become. Naming the arrangement buys you two concrete things, the failure mode that comes attached to it, and the vocabulary to discuss a design with somebody who did not build it.
 
