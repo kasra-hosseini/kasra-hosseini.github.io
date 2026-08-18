@@ -203,7 +203,7 @@ wordcount: "~6,000 words (body) · ~6,500 words (notes)"
 <li><strong>2026-06-08:</strong> Added references to Foundation Protocol (Liu et al., 2026), scaling of personalized adapters (Bo et al., 2026), and heterogeneous swarms (Feng et al., NeurIPS 2025). The first two appeared after publication and support predictions made in the original text.</li>
 <li><strong>2026-06-25:</strong> Added Woolley et al. 2010 citation for collective intelligence claim, Christiano 2018 (IDA) reference in Phase 4, fixed footnote numbering in fn-self-improving, and replaced "facts without history" with "facts without provenance."
 <li><strong>2026-08-09:</strong> Reference audit across the series. Dated the METR doubling-time figure to its March 2025 source and linked their maintained time-horizons page, which now supersedes it. Removed an unverifiable bits-per-minute figure from the bandwidth argument, keeping the claim the cited work supports.</li>
-<li><strong>2026-08-18:</strong> Restructured the series. Two planned essays on delegation and governance were withdrawn; their material now lives in the two companion field guides. Dropped "Part 1" from the title and rewrote the forward references accordingly.</li>
+<li><strong>2026-08-10:</strong> Restructured the series. Two planned essays on delegation and governance were withdrawn. Dropped "Part 1" from the title and repointed the forward references to the two companion field guides.</li>
 </ul>
 </details>
 

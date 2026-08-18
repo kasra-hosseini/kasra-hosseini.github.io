@@ -175,7 +175,7 @@ wordcount: "~1,000 words (guide) · ~7,500 words (archetype cards)"
 </div>
 
 
-*Twenty-two ways an agent society can be run, sorted by where each one puts authority. Governance arrives whether anyone designed it or not, and whoever owns the compute is the one enforcing it. This is the catalogue of the forms it takes, and it is built to be searched rather than read. Its sibling covers the [delegation patterns](/posts/2026/delegation-patterns-field-guide/) that produce them.*
+*Twenty-two ways an agent society can be run, grouped by where each one locates authority, with what each is good at and how each one fails. Built to be searched rather than read. Its sibling covers the [delegation patterns](/posts/2026/delegation-patterns-field-guide/).*
 
 Every group of agents that persists long enough develops a way of deciding things. Usually nobody wrote it down. A router starts keeping score and a leaderboard appears; somebody adds a hard rule about refunds and a constitution appears; an incident happens and an appeals process appears. Three arrangements, no design review.
 
