@@ -1,7 +1,7 @@
 ---
 title: "The Agent Fabric (Part 1): Why Agents May Form Societies"
 subtitle: "As agents multiply, isolation becomes expensive. Shared memory, specialization, and governance push useful agents into bounded societies."
-date: 2026-04-28
+date: 2026-08-06
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "society of mind", "the loom hypothesis"]

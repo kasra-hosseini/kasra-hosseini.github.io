@@ -1,7 +1,7 @@
 ---
 title: "Governance Archetypes: A Field Guide"
 subtitle: "Twenty-two ways an agent society can be run, what each is good at, and how each one fails"
-date: 2026-08-02
+date: 2026-08-10
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "governance", "reference"]
