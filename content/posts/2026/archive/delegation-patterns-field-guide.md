@@ -1,12 +1,12 @@
 ---
-title: "Delegation Patterns: A Field Guide"
+title: "[ARCHIVE] Delegation Patterns: A Field Guide"
 subtitle: "Forty-three ways to split work between agents, what each is for, and how each one fails"
 date: 2026-06-08
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "delegation", "reference"]
 description: "A reference catalogue of forty-three delegation patterns for multi-agent systems, grouped into nine families, with what each pattern is for, when to reach for it, how it fails, and how it differs from its neighbours."
-draft: false
+draft: true
 math: false
 ShowToc: true
 TocOpen: false
