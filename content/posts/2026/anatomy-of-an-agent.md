@@ -66,11 +66,13 @@ That is the whole fix. It was available the entire time, and the writer could no
 
 Nobody decided the second agent should be the one to catch it. It caught it because it had not spent six hours being wrong.
 
-The arrangement costs something of its own. The writer insists the test was unfair; the agent that ran it insists otherwise. Nothing in the setup can settle that, because nobody built anything to settle it. What settles it is which of the two the system has had to restart less often, because that number happens to exist. Nobody wrote that down as a rule about whose word beats whose. It is one anyway.
+The arrangement costs something of its own. The agent that wrote the code says the test was unfair; the agent that ran it says otherwise. Nothing in the setup can settle that, because nobody built anything to settle it. What settles it is which of the two has needed restarting less often, a number kept for operations that nobody intended as a verdict on whose word counts. It is one anyway.
 
-Six hours of getting more certain and no closer all looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement does not converge on the truth. It converges on whatever it already believed, only louder.
+Six hours of getting more certain and no closer all looked like work: files changing, tests running, commit messages getting more specific. An agent alone with its own judgement converges on whatever it already believed, only louder.
 
-Giving it hands did not fix that. It raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
+Giving it hands did not fix that. The well-read person locked in a room could at least be argued with; this one acts while it is being wrong.
+
+So the second agent is not a luxury. It is the cheapest available source of the one thing the first agent cannot generate for itself, which is a view it has not already talked itself into. That is the whole case for putting more than one of them on a problem, and it is also where the trouble starts: the moment there are several, something has to decide which one to believe, and a restart count is standing right there ready to do it.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are read front to back; the last two are catalogues to search.
