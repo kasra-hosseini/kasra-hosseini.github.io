@@ -175,7 +175,7 @@ wordcount: "~1,000 words (guide) · ~7,500 words (archetype cards)"
 </div>
 
 
-*A companion reference to [The Agent Fabric](/posts/2026/agent-fabric-part1/), and a sibling to the [delegation field guide](/posts/2026/delegation-patterns-field-guide/). Governance arrives in agent systems whether anyone designed it or not, and whoever owns the compute enforces it. This page is the catalogue of the forms it takes, and it is built to be searched rather than read.*
+*Twenty-two ways an agent society can be run, sorted by where each one puts authority. Governance arrives whether anyone designed it or not, and whoever owns the compute is the one enforcing it. This is the catalogue of the forms it takes, and it is built to be searched rather than read. Its sibling covers the [delegation patterns](/posts/2026/delegation-patterns-field-guide/) that produce them.*
 
 Every group of agents that persists long enough develops a way of deciding things. Usually nobody wrote it down. A router starts keeping score and a leaderboard appears; somebody adds a hard rule about refunds and a constitution appears; an incident happens and an appeals process appears. Three arrangements, no design review.
 
@@ -183,7 +183,7 @@ That is what this page is for: not to argue anything, but to let you point at a 
 
 Twenty-two archetypes follow, grouped by where each one locates authority. Some concentrate it in a hub or a rulebook. Some hand it to whoever performs best, then spend their lives defending the scoreboard. Some derive it from an obligation owed to a person, some from verification, and one refuses to locate it anywhere and lets norms accumulate instead. The boundaries leak, and most real systems run several at once.
 
-**How to use this page.** If you know the name, the summary table is fastest. If you know your situation but not the name, start with the quick guide. If you are trying to tell two confusable archetypes apart, that comparison is below too. And if you want the argument for why societies of agents form at all, that is [The Agent Fabric](/posts/2026/agent-fabric-part1/), which is a post rather than a reference.
+**How to use this page.** If you know the name, the summary table is fastest. If you know your situation but not the name, start with the quick guide. If you are trying to tell two confusable archetypes apart, that comparison is below too. Each card ends with what the archetype is for, how it fails, and what it pairs with. For why agents end up governed at all, [The Agent Fabric](/posts/2026/agent-fabric-part1/) makes that argument; this page assumes it and gets on with the catalogue.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
 <strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are essays; the last two are reference catalogues.

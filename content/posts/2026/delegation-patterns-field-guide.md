@@ -174,7 +174,7 @@ wordcount: "~2,200 words (guide) · ~13,100 words (pattern cards)"
 <strong>Early access.</strong> This blog series is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
 
-*A companion reference to [The Agent Fabric](/posts/2026/agent-fabric-part1/). That post argues that isolated agents get woven into societies. This one is the catalogue of how work moves once they are, and it is built to be searched rather than read.*
+*Forty-three ways to split work between agents, and the failure that comes attached to each one. How you divide work decides who ends up holding authority, so this catalogue is also a catalogue of authority. It is built to be searched rather than read.*
 
 Every system that hands work from one agent to another has picked a delegation pattern, whether or not anyone named it. Usually nobody did. A team wires up an orchestrator because that is the obvious thing to do, adds a retry loop because something failed in staging, bolts on a reviewer after an incident, and ends up with an architecture that has three patterns in it and a name for none of them.
 
@@ -182,7 +182,7 @@ That is what this page is for: not to argue anything, but to let you point at pa
 
 Forty-three patterns follow, plus one meta-pattern that operates on the structure itself. They are grouped into nine families by the question each family answers, because that is how people actually look things up: you know roughly what you need (get this checked, survive a failure, allocate work competitively) before you know what it is called. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution is half a quality check and half a market. That is fine. The grouping is a finding aid, not a taxonomy with a claim to make.
 
-**How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, start with the quick guide. If you are trying to tell two confusable patterns apart, each card ends with how it differs from its neighbours. And if you want the argument for why any of this structure forms in the first place, that is [The Agent Fabric](/posts/2026/agent-fabric-part1/), which is a post rather than a reference.
+**How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, start with the quick guide. If you are trying to tell two confusable patterns apart, each card ends with how it differs from its neighbours. The nine families are listed below, and each card ends with what it is for, how it fails, and what to reach for instead. For why agents end up in structures like these at all, [The Agent Fabric](/posts/2026/agent-fabric-part1/) makes that argument; this page assumes it and gets on with the catalogue.
 
 One piece of vocabulary before the catalogue. Everything here is built from a single unit: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; this thing loops, remembers, and acts. [The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/) takes that unit apart properly.
 
