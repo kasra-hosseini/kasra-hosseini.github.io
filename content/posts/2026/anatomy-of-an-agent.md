@@ -1,7 +1,7 @@
 ---
 title: "The Anatomy of an Agent"
 subtitle: "The loop, its limits, and why one agent is never enough"
-date: 2026-08-06
+date: 2026-06-15
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "LLM", "agent fabric"]
