@@ -73,7 +73,7 @@ Six hours of getting more certain and no closer all looked like work: files chan
 Giving it hands did not fix that. It raised the stakes, because the well-read person locked in a room could at least be argued with. This one acts while it is being wrong.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are essays; the last two are reference catalogues.
+<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are read front to back; the last two are catalogues to search.
 
 - **The Anatomy of an Agent** (you are here): the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[The Agent Fabric: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
