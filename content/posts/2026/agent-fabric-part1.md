@@ -227,7 +227,7 @@ The argument of this post is one sentence: isolation and coordination both have 
 
 <!-- Series navigation -->
 <div class="series-nav">
-<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are essays; the last two are reference catalogues.
+<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are read front to back; the last two are catalogues to search.
 
 - **[The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **The Agent Fabric: Why Agents May Form Societies** (you are here): two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
@@ -773,7 +773,7 @@ What does all of this look like when it is running?
 
 In the animation, watch for three boundary events (dissolution, expansion, schism). Each follows directly from the two observations. Configurations that deliver utility persist; those that do not get restructured. The fabric's intelligence is not located only in its nodes. It also lives in the rate, fidelity, and governance of coordination between them.
 
-No system today operates at the full scale described here. Many of the components exist in isolation, and the trajectory seems plausible, though far from certain. Two questions follow immediately, and the companion field guides are where they get worked through. How does work actually get divided inside a society, and what starts deciding that division once nobody is watching? And once something is deciding, who is allowed to argue with it? Other questions stay open here: how trust survives across society boundaries, and where humans end up when they are participants in the fabric rather than overseers of it.
+No system today operates at the full scale described here. Many of the components exist in isolation, and the trajectory seems plausible, though far from certain. Two questions follow immediately, and this post does not settle either. How does work actually get divided inside a society, and what starts deciding that division once nobody is watching? And once something is deciding, who is allowed to argue with it? The companion field guides catalogue the structures those questions produce, on <a href="/posts/2026/delegation-patterns-field-guide/">delegation</a> and <a href="/posts/2026/governance-archetypes-field-guide/">governance</a>, which is a different thing from answering them. Other questions stay open too: how trust survives across society boundaries, and where humans end up when they are participants in the fabric rather than overseers of it.
 
 
 <!-- ============================================================

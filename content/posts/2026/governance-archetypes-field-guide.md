@@ -186,7 +186,7 @@ Twenty-two archetypes follow, grouped by where each one locates authority. Some 
 **How to use this page.** If you know the name, the summary table is fastest. If you know your situation but not the name, start with the quick guide. If you are trying to tell two confusable archetypes apart, that comparison is below too. Each card ends with what the archetype is for, how it fails, and what it pairs with. For why agents end up governed at all, [The Agent Fabric](/posts/2026/agent-fabric-part1/) makes that argument; this page assumes it and gets on with the catalogue.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are essays; the last two are reference catalogues.
+<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are read front to back; the last two are catalogues to search.
 
 - **[The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[The Agent Fabric: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
