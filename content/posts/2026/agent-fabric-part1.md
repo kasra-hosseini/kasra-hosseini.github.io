@@ -227,9 +227,8 @@ The argument of this post is one sentence: isolation and coordination both have 
 
 <!-- Series navigation -->
 <div class="series-nav">
-<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are read front to back; the last two are catalogues to search.
+<strong>The Agent Fabric</strong>, a three-post series on why and how AI agents may form societies and what it means for us. The first is read front to back; the two field guides are catalogues to search.
 
-- **[The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **The Agent Fabric: Why Agents May Form Societies** (you are here): two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
 - **[Delegation Patterns: A Field Guide](/posts/2026/delegation-patterns-field-guide/)**: the full catalogue of forty-three delegation patterns, from Supervisor to Market
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes, and who ends up enforcing them

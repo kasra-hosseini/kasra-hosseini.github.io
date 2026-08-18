@@ -1,7 +1,7 @@
 ---
 title: "Delegation Patterns: A Field Guide"
 subtitle: "Forty-three ways to split work between agents, what each is for, and how each one fails"
-date: 2026-07-27
+date: 2026-06-08
 author: "Kasra Hosseini and Maria Tsekhmistrenko"
 post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "delegation", "reference"]
@@ -184,12 +184,11 @@ Forty-three patterns follow, plus one meta-pattern that operates on the structur
 
 **How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, there is a quick guide keyed to situations, though it sits after the cards rather than before them. If you are trying to tell two confusable patterns apart, each card ends with how it differs from its neighbours. The nine families are listed below, and each card ends with what it is for, how it fails, and what to reach for instead. For why agents end up in structures like these at all, [The Agent Fabric](/posts/2026/agent-fabric-part1/) makes that argument; this page assumes it and gets on with the catalogue.
 
-One piece of vocabulary before the catalogue. Everything here is built from a single unit: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; this thing loops, remembers, and acts. [The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/) takes that unit apart properly.
+One piece of vocabulary before the catalogue. Everything here is built from a single unit: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; this thing loops, remembers, and acts.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>The Agent Fabric</strong>, a four-post series on why and how AI agents may form societies and what it means for us. The first two are read front to back; the last two are catalogues to search.
+<strong>The Agent Fabric</strong>, a three-post series on why and how AI agents may form societies and what it means for us. The first is read front to back; the two field guides are catalogues to search.
 
-- **[The Anatomy of an Agent](/posts/2026/anatomy-of-an-agent/)**: the loop at the heart of a single agent, and where single-agent recursion breaks
 - **[The Agent Fabric: Why Agents May Form Societies](/posts/2026/agent-fabric-part1/)**: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving
 - **Delegation Patterns: A Field Guide** (you are here): the full catalogue of forty-three delegation patterns, from Supervisor to Market
 - **[Governance Archetypes: A Field Guide](/posts/2026/governance-archetypes-field-guide/)**: the twenty-two governance archetypes, and who ends up enforcing them
