@@ -11,7 +11,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~1,000 words (guide) · ~7,500 words (archetype cards)"
+wordcount: "~1,000 words (guide) · ~7,100 words (archetype cards)"
 ---
 
 <style>
@@ -272,13 +272,13 @@ These are ordinal hunches rather than measurements, and they assume a stable tas
 | **Federation** | Self-governing members | Multi-org coordination | Boundary friction, free-riding |
 | **Colony** | Emergent norms | Exploratory tasks, creative search | Drift, invisible governance |
 | **Stewardship / Commons** | Collective governance | Shared resources (memory, tools) | Tragedy of commons without Ostrom principles |
-| **Custodianship** | Fiduciary obligation | Personal agents | Paternalism, misread preferences |
+| **Custodianship / Trusteeship** | Fiduciary obligation | Personal agents | Paternalism, misread preferences |
 | **Constitutional Republic** | Separated powers | High-stakes multi-party | Gridlock between branches |
-| **Franchise** | Comply-or-leave platform | Scaled, standardized provision | Platform extracts value from participants |
-| **Open-Source** | Community plus merge authority | Shared artifacts, forkable governance | Fork fragmentation, maintainer overload |
-| **Sortition** | Random selection | Preventing capture | Low competence by chance |
+| **Franchise / Platform** | Comply-or-leave platform | Scaled, standardized provision | Platform extracts value from participants |
+| **Open-Source Maintainership** | Community plus merge authority | Shared artifacts, forkable governance | Fork fragmentation, maintainer overload |
+| **Sortition / Demarchy** | Random selection | Preventing capture | Low competence by chance |
 | **Adhocracy** | Temporary teams | Rapidly changing environment | Coordination overhead, duplication |
-| **Mission Command** | Intent-based autonomy | Capable agents, uncertain conditions | Intent ambiguity, divergent interpretations |
+| **Mission Command Governance** | Intent-based autonomy | Capable agents, uncertain conditions | Intent ambiguity, divergent interpretations |
 | **Mechanism Design** | Incentive alignment | Alignment without enforcement | Specification gaming |
 | **Immune System** | Layered detection | Distributed threat response | Autoimmune overreaction |
 
