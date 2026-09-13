@@ -171,31 +171,31 @@ wordcount: "~2,100 words (body) · ~18,500 words (cards and tables)"
 })();
 </script>
 
-<p style="font-size: 0.82em; color: #999; margin-top: 1em;"><a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener" style="color: #999;">Claude Code</a> was used for editing and visualizations. All ideas and arguments are the authors' own.</p>
+<p style="font-size: 0.82em; color: #999; margin-top: 1em;"><a href="https://code.claude.com/docs/en/overview" target="_blank" rel="noopener" style="color: #999;">Claude Code</a> was used for editing and visualizations. All ideas and arguments are the author's own.</p>
 
 <div style="background: #fffbeb; border: 1px solid #f59e0b; border-radius: 6px; padding: 0.6em 1em; margin: 1.5em 0; font-size: 0.88em; color: #92400e;">
 <strong>Early access.</strong> This post is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
 
-*Fifty-nine ways to split work between agents, grouped into nine families by the question each answers, with what each pattern is for and how each one fails. Built as a reference: start from the map and jump to what you need, though it reads front to back just as well.*
+*Fifty-nine ways to split work between agents, grouped into nine families by the question each answers, with what each pattern is for and how each one fails. Built as a reference. Start from the map and jump to what you need, though it reads front to back just as well.*
 
 Every system that hands work from one agent to another has picked a delegation pattern. A team wires up an orchestrator because it seems the natural choice at the time, adds a retry loop because something failed in staging, bolts on a reviewer after an incident, and ends up with an architecture that has three patterns in it.
 
-This page is a catalogue of those patterns. Where a pattern has an established name, that is the one used here; where it does not, the name is ours, and the description matters more than the label. A name is useful for two reasons: it comes attached to a known failure mode, and it makes a design easier to discuss with somebody who did not build it.
+This page is a catalogue of those patterns. Where a pattern has an established name, that is the one used here; where it does not, I chose one, and the description matters more than the label. A name earns its keep in two ways. It comes attached to a known failure mode, and it makes a design easier to discuss with somebody who did not build it.
 
-Fifty-nine patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers, because that is how people actually look things up: you know roughly what you need (get this checked, survive a failure, allocate work competitively) before you know what it is called. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution is half a quality check and half a market. That is fine. The grouping is a finding aid, not a taxonomy with a claim to make.
+Fifty-nine patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers, because that is how people actually look things up. You know roughly what you need (get this checked, survive a failure, allocate work competitively) before you know what it is called. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution is half a quality check and half a market. That is fine. The grouping is a finding aid, not a taxonomy with a claim to make.
 
 **How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, jump to the <a href="#quick-guide">quick guide keyed to situations</a> at the end of the page. The nine families are listed below, and each card ends with what it is for, when to reach for it, how it fails, and how it differs from its neighbours.
 
-One piece of vocabulary before the catalogue. Everything here is built from a single unit: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; this thing loops, remembers, and acts. Two recurring words: a <em>principal</em> is the party on whose behalf an agent acts, human or agent; a <em>mandate</em> is the bounded authority the principal hands over.
+One piece of vocabulary before the catalogue. Everything here is built from a single unit, a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; this thing loops, remembers, and acts. Two recurring words. A <em>principal</em> is the party on whose behalf an agent acts, human or agent; a <em>mandate</em> is the bounded authority the principal hands over.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>Companion essay:</strong> <a href="/posts/2026/agent-fabric-part1/">The Agent Fabric: Why Agents May Form Societies</a> makes the argument this catalogue assumes: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving. That one is read front to back; this one starts from the map. Its <a href="/posts/2026/agent-fabric-part1/#the-adaptive-fabric">Adaptive Fabric</a> is where these patterns stop being fixed choices: the closing meta-pattern of this catalogue, Adaptive Delegation, is its delegation-level face.
+<strong>Companion essay:</strong> <a href="/posts/2026/agent-fabric-part1/">The Agent Fabric: Why Agents May Form Societies</a> makes the argument this catalogue assumes, from two observations through the Loom Hypothesis (why isolated agents get woven together) to the path from isolation to interweaving. That one is read front to back; this one starts from the map. Its <a href="/posts/2026/agent-fabric-part1/#the-adaptive-fabric">Adaptive Fabric</a> is where these patterns stop being fixed choices; the closing meta-pattern of this catalogue, Adaptive Delegation, is its delegation-level face.
 </div>
 
 ## The Map
 
-The catalogue in one view: the nine families and their core questions, the animated map of every pattern, and the summary table. Everything after this section is the cards themselves.
+The nine families and their core questions, the animated map of every pattern, and the summary table, all in one place. Everything after this section is the cards themselves.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The nine delegation families (59 patterns + 1 meta-pattern)</summary>
@@ -301,7 +301,7 @@ Any pattern can be deliberately designed or can emerge from agent interaction. T
 
 <div class="gov-list">
 
-The simplest arrangements just move work forward in a line, each agent seeing what the last one produced. Everything more elaborate is built out of these, which is why it is worth being precise about the small differences between them. Whether a caller waits for a result or exits permanently, whether stages have defined contracts or just pass things along, whether a failed step retries itself or escalates: these sound like details and they determine what happens when something goes wrong at three in the morning.
+The simplest arrangements just move work forward in a line, each agent seeing what the last one produced. Everything more elaborate is built out of these, which is why it is worth being precise about the small differences between them. Whether a caller waits for a result or exits permanently, whether stages have defined contracts or just pass things along, whether a failed step retries itself or escalates. These sound like details, and they determine what happens when something goes wrong at three in the morning.
 
 <details>
 <summary>Chain <span class="gov-tagline">sequential hand-off</span></summary>
@@ -341,7 +341,7 @@ The simplest arrangements just move work forward in a line, each agent seeing wh
 
 Break a task into pieces, hand each piece down, and collect the results back up, and you have a hierarchy. These are the workhorses of production agent systems, and they carry a danger that is easy to miss.
 
-Suppose each hop preserves most of what the original requester meant, but not all of it. Those small losses multiply with depth, which means a sufficiently deep tree can be working hard, reporting success, and solving something nobody asked for. <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel="noopener" class="red-link">Tomašev et al. (2026)</a> describe the version of this that matters for assigning blame as an accountability vacuum. The practical lesson is blunt: the shallowest tree that works is also the safest one.
+Suppose each hop preserves most of what the original requester meant, but not all of it. Those small losses multiply with depth, which means a sufficiently deep tree can be working hard, reporting success, and solving something nobody asked for. <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel="noopener" class="red-link">Tomašev et al. (2026)</a> describe the version of this that matters for assigning blame as an accountability vacuum. The practical lesson is blunt. The shallowest tree that works is also the safest one.
 
 <details>
 <summary>Tree <span class="gov-tagline">hierarchical fan-out</span></summary>
@@ -491,7 +491,7 @@ Nothing in this family makes a system smarter. What it does is bound the damage 
 
 Work does not have to be assigned at all. It can be competed for, through bidding, bargaining, or simply racing several attempts and taking whichever finishes first.
 
-Competition is attractive because it discovers things a central planner cannot: which agent is actually fast at this, what the work is really worth, where spare capacity is hiding. It is also the family most vulnerable to being gamed, because any mechanism that allocates on the basis of a claim invites agents to shade the claim. Every pattern here is partly a scheme for making honesty the winning move.
+Competition is attractive because it discovers things a central planner cannot, such as which agent is actually fast at this, what the work is really worth, and where spare capacity is hiding. It is also the family most vulnerable to being gamed, because any mechanism that allocates on the basis of a claim invites agents to shade the claim. Every pattern here is partly a scheme for making honesty the winning move.
 
 <details>
 <summary>Auction <span class="gov-tagline">bid for work</span></summary>
@@ -521,7 +521,7 @@ Competition is attractive because it discovers things a central planner cannot: 
 
 Capability itself can move between agents, which is what stops every newcomer from having to learn the job from nothing.
 
-The patterns here differ mainly in when the transfer happens and whether the source sticks around afterwards. Some teach at inference time, with the teacher staying in the loop. Some compress a large model's behaviour into a small one at training time and then cut the connection entirely. Some move knowledge sideways between peers without any of them sharing the underlying data. The choice usually comes down to a constraint you cannot negotiate: cost, latency, or who is legally allowed to see what.
+The patterns here differ mainly in when the transfer happens and whether the source sticks around afterwards. Some teach at inference time, with the teacher staying in the loop. Some compress a large model's behaviour into a small one at training time and then cut the connection entirely. Some move knowledge sideways between peers without any of them sharing the underlying data. The choice usually comes down to a constraint you cannot negotiate, whether cost, latency, or who is legally allowed to see what.
 
 <details>
 <summary>Teacher-Student <span class="gov-tagline">strong trains weak</span></summary>
@@ -556,7 +556,7 @@ The patterns here differ mainly in when the transfer happens and whether the sou
 
 Coordination does not actually require anyone in charge. Agents under resource pressure can work out how to cooperate through nothing but local interaction, each responding only to its neighbours, none of them holding a picture of the whole.
 
-This is well-trodden ground outside AI. Holland (*Hidden Order*, 1995) and Kauffman (*The Origins of Order*, 1993) showed that interacting agents under constraints reliably produce structure nobody designed, and the same phenomenon turns up in ant colonies, traffic, markets, and immune systems. What these patterns give you is that phenomenon deliberately instantiated: coordination without a coordinator, which buys robustness (no single point of failure) at the cost of predictability (no single point of control either).
+This is well-trodden ground outside AI. Holland (*Hidden Order*, 1995) and Kauffman (*The Origins of Order*, 1993) showed that interacting agents under constraints reliably produce structure nobody designed, and the same phenomenon turns up in ant colonies, traffic, markets, and immune systems. What these patterns give you is that phenomenon deliberately instantiated, coordination without a coordinator, which buys robustness (no single point of failure) at the cost of predictability (no single point of control either).
 
 <details>
 <summary>Publish-Subscribe <span class="gov-tagline">event-driven, fully decoupled</span></summary>
@@ -589,7 +589,7 @@ This is well-trodden ground outside AI. Holland (*Hidden Order*, 1995) and Kauff
 
 <div class="gov-list">
 
-Who is even allowed to hand work to whom, and with what powers attached? These are constraints rather than shapes: they sit on top of whatever structure you already have and bound what it is permitted to do.
+Who is even allowed to hand work to whom, and with what powers attached? These are constraints rather than shapes. They sit on top of whatever structure you already have and bound what it is permitted to do.
 
 Tomašev et al. (2026) treat this as a first-class concern rather than an implementation detail, and the reason is worth stating plainly. Skip it and you do not end up with a system that has no authority structure. You end up with one nobody wrote down, which auditors cannot inspect and which nobody is accountable for when it fails. The patterns here are the difference between authority you specified and authority that accumulated.
 
@@ -636,7 +636,7 @@ Tomašev et al. (2026) treat this as a first-class concern rather than an implem
 
 Somewhere in all of this sits a person, and where exactly turns out to be one of the more consequential decisions in the whole design. What stops and waits for a human to approve it? Who is watching, and what is alarming enough to interrupt them?
 
-Every pattern here works around the same wall: human attention does not scale with the number of agents. Nobody reviews a thousand decisions a day, and a person who is nominally supervising a system they cannot actually inspect provides the appearance of oversight rather than the substance. So each of these is a different bet about which decisions are worth a human's time, and each fails in its own way when the bet is wrong. Gate too much and people start approving without reading, which is worse than no gate at all because it manufactures a paper trail of consent. Gate too little and the first anyone hears of a problem is when it has already happened.
+Every pattern here works around the same wall, which is that human attention does not scale with the number of agents. Nobody reviews a thousand decisions a day, and a person who is nominally supervising a system they cannot actually inspect provides the appearance of oversight rather than the substance. So each of these is a different bet about which decisions are worth a human's time, and each fails in its own way when the bet is wrong. Gate too much and people start approving without reading, which is worse than no gate at all because it manufactures a paper trail of consent. Gate too little and the first anyone hears of a problem is when it has already happened.
 
 <details>
 <summary>Human-in-the-Loop Gate <span class="gov-tagline">execution blocks until a human approves</span></summary>
@@ -774,7 +774,7 @@ Now that the patterns are in view, here are the structural traps that emerge fro
 
 ## Societies in the Wild
 
-The patterns and archetypes above are parts. What they look like assembled is more interesting, and the tables below work through concrete situations across three horizons: systems operating now, ones plausible within a few years, and ones that are frankly speculative. None of it is prediction. The point is narrower: a coding assistant and a warehouse robot fleet have both already made governance choices without filing any paperwork about it, and naming the choice is how you get to make it on purpose. The governance labels in these tables (Autocracy, Meritocracy, Colony, and the rest) are informal shorthand for who holds authority and how it is enforced, not defined terms; read them as descriptions. Built for dipping into, though they hold up to a straight read.
+The patterns and archetypes above are parts. What they look like assembled is more interesting, and the tables below work through concrete situations across three horizons, from systems operating now, through ones plausible within a few years, to ones that are frankly speculative. None of it is prediction. The point is narrower. A coding assistant and a warehouse robot fleet have both already made governance choices without filing any paperwork about it, and naming the choice is how you get to make it on purpose. The governance labels in these tables (Autocracy, Meritocracy, Colony, and the rest) are informal shorthand for who holds authority and how it is enforced, not defined terms; read them as descriptions. Built for dipping into, though they hold up to a straight read.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Today: systems already in operation or near-term</summary>
