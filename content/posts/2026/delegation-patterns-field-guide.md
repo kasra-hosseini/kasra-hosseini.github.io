@@ -177,7 +177,7 @@ wordcount: "~2,100 words (body) · ~18,500 words (cards and tables)"
 <strong>Early access.</strong> This post is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
 
-*Fifty-nine ways to split work between agents, grouped into nine families by the question each answers, with what each pattern is for and how each one fails. Built to be searched rather than read.*
+*Fifty-nine ways to split work between agents, grouped into nine families by the question each answers, with what each pattern is for and how each one fails. Built as a reference: start from the map and jump to what you need, though it reads front to back just as well.*
 
 Every system that hands work from one agent to another has picked a delegation pattern. A team wires up an orchestrator because it seems the natural choice at the time, adds a retry loop because something failed in staging, bolts on a reviewer after an incident, and ends up with an architecture that has three patterns in it.
 
@@ -190,7 +190,7 @@ Fifty-nine patterns follow, plus one meta-pattern that operates on the structure
 One piece of vocabulary before the catalogue. Everything here is built from a single unit: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; this thing loops, remembers, and acts. Two recurring words: a <em>principal</em> is the party on whose behalf an agent acts, human or agent; a <em>mandate</em> is the bounded authority the principal hands over.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>Companion essay:</strong> <a href="/posts/2026/agent-fabric-part1/">The Agent Fabric: Why Agents May Form Societies</a> makes the argument this catalogue assumes: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving. That one is read front to back; this one is searched. Its <a href="/posts/2026/agent-fabric-part1/#the-adaptive-fabric">Adaptive Fabric</a> is where these patterns stop being fixed choices: the closing meta-pattern of this catalogue, Adaptive Delegation, is its delegation-level face.
+<strong>Companion essay:</strong> <a href="/posts/2026/agent-fabric-part1/">The Agent Fabric: Why Agents May Form Societies</a> makes the argument this catalogue assumes: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving. That one is read front to back; this one starts from the map. Its <a href="/posts/2026/agent-fabric-part1/#the-adaptive-fabric">Adaptive Fabric</a> is where these patterns stop being fixed choices: the closing meta-pattern of this catalogue, Adaptive Delegation, is its delegation-level face.
 </div>
 
 ## The Map
@@ -774,7 +774,7 @@ Now that the patterns are in view, here are the structural traps that emerge fro
 
 ## Societies in the Wild
 
-The patterns and archetypes above are parts. What they look like assembled is more interesting, and the tables below work through concrete situations across three horizons: systems operating now, ones plausible within a few years, and ones that are frankly speculative. None of it is prediction. The point is narrower: a coding assistant and a warehouse robot fleet have both already made governance choices without filing any paperwork about it, and naming the choice is how you get to make it on purpose. The governance labels in these tables (Autocracy, Meritocracy, Colony, and the rest) are informal shorthand for who holds authority and how it is enforced, not defined terms; read them as descriptions. Browse rather than read.
+The patterns and archetypes above are parts. What they look like assembled is more interesting, and the tables below work through concrete situations across three horizons: systems operating now, ones plausible within a few years, and ones that are frankly speculative. None of it is prediction. The point is narrower: a coding assistant and a warehouse robot fleet have both already made governance choices without filing any paperwork about it, and naming the choice is how you get to make it on purpose. The governance labels in these tables (Autocracy, Meritocracy, Colony, and the rest) are informal shorthand for who holds authority and how it is enforced, not defined terms; read them as descriptions. Built for dipping into, though they hold up to a straight read.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Today: systems already in operation or near-term</summary>
