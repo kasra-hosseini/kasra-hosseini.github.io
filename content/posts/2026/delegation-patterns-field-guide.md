@@ -193,6 +193,10 @@ One piece of vocabulary before the catalogue. Everything here is built from a si
 <strong>Companion essay:</strong> <a href="/posts/2026/agent-fabric-part1/">The Agent Fabric: Why Agents May Form Societies</a> makes the argument this catalogue assumes: two observations, the Loom Hypothesis (why isolated agents get woven together), and the path from isolation to interweaving. That one is read front to back; this one is searched. Its <a href="/posts/2026/agent-fabric-part1/#the-adaptive-fabric">Adaptive Fabric</a> is where these patterns stop being fixed choices: the closing meta-pattern of this catalogue, Adaptive Delegation, is its delegation-level face.
 </div>
 
+## The Map
+
+The catalogue in one view: the nine families and their core questions, the animated map of every pattern, and the summary table. Everything after this section is the cards themselves.
+
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The nine delegation families (59 patterns + 1 meta-pattern)</summary>
 
