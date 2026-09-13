@@ -189,7 +189,7 @@ Fifty-nine patterns follow, plus one meta-pattern that operates on the structure
 
 One piece of vocabulary before the catalogue. Everything here is built from a single unit, the agent: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; an agent loops, remembers, and acts.
 
-The same boundary can hide more than one agent. Because it loops, remembers, and acts, the unit above is an agent; but the definition constrains only its interface, a task in and a result out, never what sits behind it. So a single box in these diagrams may contain one model, or an entire multi-agent system running any pattern in this catalogue. A Supervisor's worker may itself be an Orchestrator running a Pipeline, and nothing above it needs to know. This is nesting, not self-improvement: the structures compose, and that composition is what lets the same nine families describe a two-agent script and a fabric of millions.
+That definition fixes only the interface. A task goes in, a result comes out, and everything behind that is unspecified. So a single box in these diagrams may contain one model, or an entire multi-agent system running any pattern in this catalogue. A Supervisor's worker may itself be an Orchestrator running a Pipeline, and nothing above it needs to know. This is nesting, not self-improvement: the structures compose, and that composition is what lets the same nine families describe a two-agent script and a fabric of millions.
 
 Two recurring words. A <em>principal</em> is the party on whose behalf an agent acts, human or agent; a <em>mandate</em> is the bounded authority the principal hands over.
 
