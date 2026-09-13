@@ -222,7 +222,7 @@ Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel
 
 <div class="viz-container">
   <div id="viz-delegation" style="width: 100%;" role="img" aria-label="Delegation archetypes grouped by family, each animated with task and result packets. Click any panel to expand."></div>
-  <div class="viz-caption"><strong>Figure 1. Delegation archetypes.</strong> Fifty-nine patterns in nine families, plus one meta-pattern, describing how tasks are decomposed, routed, checked, and reassembled. Any pattern can be deliberately designed or can emerge from agent interaction.
+  <div class="viz-caption"><strong>Figure 1. Delegation archetypes.</strong> Fifty-nine patterns in nine families, plus one meta-pattern, describing how tasks are decomposed, routed, checked, and reassembled. Any pattern can be deliberately designed or can emerge from agent interaction, and every node can itself be a whole multi-agent system behind a single interface; the patterns nest.
   <details style="margin-top: 0.4em;"><summary style="cursor: pointer; color: #2563eb; font-size: 0.92em;">Full caption</summary>
   <p style="margin-top: 0.4em;">Any delegation pattern can be deliberately designed or can emerge from agent interaction. A Swarm can be engineered (deploy 50 drones with specified behaviors) or can arise when agents independently discover that self-organizing works. A Chain can be hardcoded or can emerge when agents learn to pass work sequentially. The designed/emergent distinction is a property of how a pattern was instantiated, not of the pattern itself. Most real systems combine multiple patterns. Red packets are tasks; green are results. Click any panel to expand.</p>
   </details>
@@ -2993,19 +2993,19 @@ The patterns and archetypes above are parts. What they look like assembled is mo
     var g = svg.append('g');
     var edges = g.append('g');
     var nodesG = g.append('g');
-    var cx = p.ox + cellW / 2, cy = p.oy + 112;
+    var cx = p.ox + cellW / 2, cy = p.oy + 122;
     var N = 6;
     function ellipse(i, n, rx, ry) {
       var a = -Math.PI / 2 + i * 2 * Math.PI / n;
       return {x: cx + rx * Math.cos(a), y: cy + ry * Math.sin(a)};
     }
-    var scatter = [[-95,-38],[-40,22],[15,-42],[60,30],[110,-15],[-15,-5]];
+    var scatter = [[-95,-34],[-40,22],[15,-38],[60,30],[110,-12],[-15,-4]];
     var layouts = {
       Chain: {pos: [0,1,2,3,4,5].map(function(i){return {x: cx - 115 + i * 46, y: cy};}),
         links: [[0,1],[1,2],[2,3],[3,4],[4,5]], flow: [[0,1],[2,3],[4,5]]},
-      Supervisor: {pos: [{x: cx, y: cy - 48}].concat([0,1,2,3,4].map(function(i){return {x: cx - 100 + i * 50, y: cy + 44};})),
+      Supervisor: {pos: [{x: cx, y: cy - 40}].concat([0,1,2,3,4].map(function(i){return {x: cx - 100 + i * 50, y: cy + 42};})),
         links: [[0,1],[0,2],[0,3],[0,4],[0,5]], flow: [[0,2],[0,4],[3,0]]},
-      Market: {pos: [{x: cx, y: cy}].concat([0,1,2,3,4].map(function(i){return ellipse(i, 5, 105, 58);})),
+      Market: {pos: [{x: cx, y: cy}].concat([0,1,2,3,4].map(function(i){return ellipse(i, 5, 105, 46);})),
         links: [[1,0],[2,0],[3,0],[4,0],[5,0]], flow: [[1,0],[3,0],[5,0]]},
       Swarm: {pos: scatter.map(function(d){return {x: cx + d[0], y: cy + d[1]};}),
         links: [[0,1],[1,2],[2,5],[5,3],[3,4],[1,5]], flow: [[0,1],[2,5],[3,4]]}
