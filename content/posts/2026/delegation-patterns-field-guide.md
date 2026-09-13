@@ -214,19 +214,6 @@ The nine families and their core questions, the animated map of every pattern, a
 
 Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel="noopener">"Intelligent AI Delegation"</a> (2026) proposes a complementary decision framework organized around the transfer of authority, responsibility, and accountability, the clarity of role specifications and intent, and the mechanisms for establishing trust. The families here describe the *how*; their framework addresses the *whether* and *to whom*.
 
-**Diagnostic shortcuts.** Fast boundary tests for the most easily confused pairs. These are not definitions.
-
-| Ask | One answer | The other |
-|---|---|---|
-| Does the shared state have a schema? | Yes: Blackboard | No: Stigmergy |
-| Does the coordinator decompose the task or just review output? | Decomposes: Orchestrator | Reviews: Supervisor |
-| Is the competitive allocation one-to-many or bilateral? | One-to-many: Auction | Bilateral: Negotiation |
-| Is verification constructive or adversarial? | Constructive: Evaluator | Adversarial: Critic |
-| Does the caller persist after handoff? | Yes: Chain | No: Relay |
-| Are the workers specialists or interchangeable? | Specialists: Router | Interchangeable: Worker Pool |
-| Is the plan locked before execution? | Locked: Planner-Executor Split | Revised in flight: Orchestrator |
-| Does the checker give feedback or a verdict? | Feedback: Evaluator | Verdict: Neuro-Symbolic Bridge |
-| Is the human directing one workflow or a population? | One: Human-on-the-Loop | Population: Fleet Controller (hands on) or Population Governance (by statistics) |
 </details>
 
 <div class="viz-container">
@@ -307,6 +294,19 @@ Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel
 Any pattern can be deliberately designed or can emerge from agent interaction. The designed/emergent distinction belongs to the deployment, not the pattern. A deployer can engineer a Swarm (deploy agents whose interactions produce collective behavior) just as readily as a Chain. Most real systems combine multiple patterns; each card below ends with a note on how that pattern composes with the others.
 
 **Adaptive Delegation** (meta-pattern): the delegation structure itself changes based on performance signals. Every other pattern can be a source or target state in an adaptive transition.
+**Diagnostic shortcuts.** Fast boundary tests for the most easily confused pairs. These are not definitions.
+
+| Ask | One answer | The other |
+|---|---|---|
+| Does the shared state have a schema? | Yes: Blackboard | No: Stigmergy |
+| Does the coordinator decompose the task or just review output? | Decomposes: Orchestrator | Reviews: Supervisor |
+| Is the competitive allocation one-to-many or bilateral? | One-to-many: Auction | Bilateral: Negotiation |
+| Is verification constructive or adversarial? | Constructive: Evaluator | Adversarial: Critic |
+| Does the caller persist after handoff? | Yes: Chain | No: Relay |
+| Are the workers specialists or interchangeable? | Specialists: Router | Interchangeable: Worker Pool |
+| Is the plan locked before execution? | Locked: Planner-Executor Split | Revised in flight: Orchestrator |
+| Does the checker give feedback or a verdict? | Feedback: Evaluator | Verdict: Neuro-Symbolic Bridge |
+| Is the human directing one workflow or a population? | One: Human-on-the-Loop | Population: Fleet Controller (hands on) or Population Governance (by statistics) |
 </details>
 
 ## Sequential
