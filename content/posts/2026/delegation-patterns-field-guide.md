@@ -2987,42 +2987,74 @@ The patterns and archetypes above are parts. What they look like assembled is mo
 
   function drawAdaptive(p) {
     var g = svg.append('g');
-    var cy = p.oy + 45 + (cellH-45)/2;
-    var rx2 = p.ox + 90, ry2 = cy;
-    var ax2 = p.ox + 240, ay2 = p.oy + 100;
-    var bx = p.ox + 240, by = p.oy + 175;
-    dl(g, rx2, ry2, ax2, ay2, 0);
-    dl(g, rx2, ry2, bx, by, 0);
-    dn(g, rx2, ry2, 20, '#3b82f6', 'router');
-    var nodeA = g.append('circle').attr('cx',ax2).attr('cy',ay2).attr('r',16).attr('fill','#a855f7').attr('opacity',0.85);
-    g.append('text').attr('x',ax2).attr('y',ay2+28).attr('text-anchor','middle').attr('font-size','7px').attr('fill','#888').text('A');
-    dn(g, bx, by, 16, '#f97316', 'B');
-    var tick = 0;
-    function run() {
-      tick++;
-      nodeA.transition().duration(0).attr('opacity',0.85);
-      pkt(g, [{x:rx2,y:ry2},{x:ax2,y:ay2}], '#dc2626', 100, 4);
-      pkt(g, [{x:rx2,y:ry2},{x:bx,y:by}], '#dc2626', 400, 4);
-      timers.push(setTimeout(function() {
-        nodeA.transition().duration(600).attr('opacity',0.15);
-        var cx2 = p.ox + 250, cy2 = p.oy + 90;
-        var nodeC = g.append('circle').attr('cx',cx2).attr('cy',cy2).attr('r',0).attr('fill','#4ade80').attr('opacity',0.85);
-        nodeC.transition().duration(400).attr('r',16);
-        var clbl = g.append('text').attr('x',cx2).attr('y',cy2+28).attr('text-anchor','middle').attr('font-size','7px').attr('fill','#888').attr('opacity',0).text('C');
-        clbl.transition().duration(400).attr('opacity',1);
-        timers.push(setTimeout(function() {
-          pkt(g, [{x:rx2,y:ry2},{x:cx2,y:cy2}], '#dc2626', 100, 4);
-          pkt(g, [{x:rx2,y:ry2},{x:bx,y:by}], '#dc2626', 400, 4);
-          timers.push(setTimeout(function() {
-            nodeC.transition().duration(300).attr('opacity',0).on('end',function(){nodeC.remove();});
-            clbl.transition().duration(300).attr('opacity',0).on('end',function(){clbl.remove();});
-            if (tick < 80) run();
-          }, 1500));
-        }, 600));
-      }, 2000));
+    var edges = g.append('g');
+    var nodesG = g.append('g');
+    var cx = p.ox + cellW / 2, cy = p.oy + 112;
+    var N = 6;
+    function ellipse(i, n, rx, ry) {
+      var a = -Math.PI / 2 + i * 2 * Math.PI / n;
+      return {x: cx + rx * Math.cos(a), y: cy + ry * Math.sin(a)};
     }
-    timers.push(setTimeout(run, 800));
-    anno(g, p, 'Delegation structure morphs in real-time');
+    var scatter = [[-95,-38],[-40,22],[15,-42],[60,30],[110,-15],[-15,-5]];
+    var layouts = {
+      Chain: {pos: [0,1,2,3,4,5].map(function(i){return {x: cx - 115 + i * 46, y: cy};}),
+        links: [[0,1],[1,2],[2,3],[3,4],[4,5]], flow: [[0,1],[2,3],[4,5]]},
+      Supervisor: {pos: [{x: cx, y: cy - 48}].concat([0,1,2,3,4].map(function(i){return {x: cx - 100 + i * 50, y: cy + 44};})),
+        links: [[0,1],[0,2],[0,3],[0,4],[0,5]], flow: [[0,2],[0,4],[3,0]]},
+      Market: {pos: [{x: cx, y: cy}].concat([0,1,2,3,4].map(function(i){return ellipse(i, 5, 105, 58);})),
+        links: [[1,0],[2,0],[3,0],[4,0],[5,0]], flow: [[1,0],[3,0],[5,0]]},
+      Swarm: {pos: scatter.map(function(d){return {x: cx + d[0], y: cy + d[1]};}),
+        links: [[0,1],[1,2],[2,5],[5,3],[3,4],[1,5]], flow: [[0,1],[2,5],[3,4]]}
+    };
+    var phases = [
+      {name: 'Chain', sig: 'latency climbing'},
+      {name: 'Supervisor', sig: 'reviewer saturated'},
+      {name: 'Market', sig: 'bids too costly'},
+      {name: 'Swarm', sig: 'drift detected'}
+    ];
+    var nodes = layouts.Chain.pos.map(function(pt, i) {
+      return nodesG.append('circle').attr('cx', pt.x).attr('cy', pt.y)
+        .attr('r', i === 0 ? 11 : 8)
+        .attr('fill', i === 0 ? '#7f1d1d' : '#475569')
+        .attr('stroke', 'white').attr('stroke-width', 1).attr('opacity', 0.85);
+    });
+    var label = g.append('text').attr('x', cx).attr('y', p.oy + 40)
+      .attr('text-anchor', 'middle').attr('font-size', '9px').attr('font-weight', 'bold')
+      .attr('fill', '#2563eb').text('structure: Chain');
+    var tick = 0;
+    function phase() {
+      tick++;
+      var cur = phases[(tick - 1) % 4], next = phases[tick % 4];
+      var L = layouts[cur.name];
+      edges.selectAll('*').remove();
+      L.links.forEach(function(lk, i) {
+        dl(edges, L.pos[lk[0]].x, L.pos[lk[0]].y, L.pos[lk[1]].x, L.pos[lk[1]].y, i * 60);
+      });
+      label.text('structure: ' + cur.name);
+      timers.push(setTimeout(function() {
+        L.flow.forEach(function(f, i) {
+          pkt(g, [L.pos[f[0]], L.pos[f[1]]], taskColor, i * 250, 2.4);
+          pkt(g, [L.pos[f[1]], L.pos[f[0]]], resultColor, 600 + i * 250, 2.2);
+        });
+      }, 500));
+      timers.push(setTimeout(function() {
+        var sig = g.append('text').attr('x', cx).attr('y', p.oy + 56)
+          .attr('text-anchor', 'middle').attr('font-size', '8px').attr('font-style', 'italic')
+          .attr('fill', '#dc2626').attr('opacity', 0).text(cur.sig + ', restructuring');
+        sig.transition().duration(250).attr('opacity', 1)
+          .transition().delay(700).duration(300).attr('opacity', 0).remove();
+      }, 2100));
+      timers.push(setTimeout(function() {
+        edges.selectAll('line').transition().duration(350).attr('opacity', 0).remove();
+        var NL = layouts[next.name];
+        nodes.forEach(function(nd, i) {
+          nd.transition().duration(750).attr('cx', NL.pos[i].x).attr('cy', NL.pos[i].y);
+        });
+      }, 2900));
+      timers.push(setTimeout(function() { if (tick < 80) phase(); }, 3800));
+    }
+    phase();
+    anno(g, p, 'the structure itself is what adapts');
   }
 
   // Assign draw functions in family order matching panelDefs
