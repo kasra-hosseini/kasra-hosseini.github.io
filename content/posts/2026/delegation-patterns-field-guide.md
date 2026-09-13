@@ -232,6 +232,8 @@ Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Summary: delegation archetypes at a glance</summary>
 
+A note that applies to every row. The agents in these patterns are defined only by their interface, a task in and a result out, so any single agent below can itself be a whole multi-agent system running another of these patterns. The archetypes nest, which is how the same table describes two agents or millions.
+
 | Archetype | Structure | When to use | Failure mode |
 |-----------|-----------|-------------|--------------|
 | **Chain** | Sequential hand-off, A&#8594;B&#8594;C | Linear workflows with clear stage boundaries | Early error propagates through every stage |
