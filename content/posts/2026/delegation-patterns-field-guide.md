@@ -187,7 +187,7 @@ Fifty-nine patterns follow, plus one meta-pattern that operates on the structure
 
 **How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, jump to the <a href="#quick-guide">quick guide keyed to situations</a> at the end of the page. The nine families are listed below, and each card ends with what it is for, when to reach for it, how it fails, and how it differs from its neighbours.
 
-One piece of vocabulary before the catalogue. Everything here is built from a single unit, a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; this unit loops, remembers, and acts.
+One piece of vocabulary before the catalogue. Everything here is built from a single unit, the agent: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; an agent loops, remembers, and acts.
 
 The unit is also recursive. Anything that accepts a task and returns a result can occupy a box in these diagrams, and that includes a whole multi-agent system wearing a single interface. A Supervisor's worker may itself be an Orchestrator running a Pipeline, and nothing above it needs to know. That recursion is what lets the same nine families describe a two-agent script and a fabric of millions; every box can be opened into another pattern.
 
