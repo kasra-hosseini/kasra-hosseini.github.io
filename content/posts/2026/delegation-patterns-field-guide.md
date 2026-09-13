@@ -183,7 +183,7 @@ Every system that hands work from one agent to another has picked a delegation p
 
 This page is a catalogue of those patterns. Where a pattern has an established name, that is the one used here; where it does not, I chose one, and the description matters more than the label.
 
-Fifty-nine patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution is half a quality check and half a market. That is fine. The grouping is a finding aid, not a strict taxonomy.
+Fifty-nine patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution, for example, is half a quality check and half a market. That is fine. The grouping is a finding aid, not a strict taxonomy.
 
 **How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, jump to the <a href="#quick-guide">quick guide keyed to situations</a> at the end of the page. The nine families are listed below, and each card ends with what it is for, when to reach for it, how it fails, and how it differs from its neighbours.
 
