@@ -183,19 +183,19 @@ Every system that hands work from one agent to another has picked a delegation p
 
 This page is a catalogue of those patterns. Where a pattern has an established name, that is the one used here; where it does not, I chose one, and the description matters more than the label.
 
-Fifty-nine patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers. You know roughly what you need (get this checked, survive a failure, allocate work competitively) before you know what it is called. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution is half a quality check and half a market. That is fine. The grouping is a finding aid, not a taxonomy with a claim to make.
+Fifty-nine patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution is half a quality check and half a market. That is fine. The grouping is a finding aid, not a strict taxonomy.
 
 **How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, jump to the <a href="#quick-guide">quick guide keyed to situations</a> at the end of the page. The nine families are listed below, and each card ends with what it is for, when to reach for it, how it fails, and how it differs from its neighbours.
 
-One piece of vocabulary before the catalogue. Everything here is built from a single unit, a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; this thing loops, remembers, and acts. Two recurring words. A <em>principal</em> is the party on whose behalf an agent acts, human or agent; a <em>mandate</em> is the bounded authority the principal hands over.
+One piece of vocabulary before the catalogue. Everything here is built from a single unit, a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; this unit loops, remembers, and acts. Two recurring words. A <em>principal</em> is the party on whose behalf an agent acts, human or agent; a <em>mandate</em> is the bounded authority the principal hands over.
 
 <div style="background: #f8f8f8; border: 1px solid #e5e5e5; border-radius: 6px; padding: 0.8em 1.2em; margin: 1.5em 0; font-size: 0.95em;">
-<strong>Companion essay:</strong> <a href="/posts/2026/agent-fabric-part1/">The Agent Fabric: Why Agents May Form Societies</a> makes the argument this catalogue assumes, from two observations through the Loom Hypothesis (why isolated agents get woven together) to the path from isolation to interweaving. That one is read front to back; this one starts from the map. Its <a href="/posts/2026/agent-fabric-part1/#the-adaptive-fabric">Adaptive Fabric</a> is where these patterns stop being fixed choices; the closing meta-pattern of this catalogue, Adaptive Delegation, is its delegation-level face.
+<strong>Companion essay:</strong> <a href="/posts/2026/agent-fabric-part1/">The Agent Fabric: Why Agents May Form Societies</a> makes the argument this catalogue assumes, from two observations through the Loom Hypothesis to the path from isolation to interweaving. That one is read front to back; this one starts from the map. Its <a href="/posts/2026/agent-fabric-part1/#the-adaptive-fabric">Adaptive Fabric</a> is where these patterns stop being fixed choices; the closing meta-pattern of this catalogue, Adaptive Delegation, is its delegation-level face.
 </div>
 
 ## The Map
 
-The nine families and their core questions, the animated map of every pattern, and the summary table, all in one place. Everything after this section is the cards themselves.
+The nine families and their core questions, the animated map of every pattern, and the summary table. Everything after this section is the cards themselves. Two words recur in the cards. A <em>principal</em> is the party on whose behalf an agent acts, human or agent; a <em>mandate</em> is the bounded authority a principal hands over.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The nine delegation families (59 patterns + 1 meta-pattern)</summary>
@@ -214,7 +214,19 @@ The nine families and their core questions, the animated map of every pattern, a
 
 Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel="noopener">"Intelligent AI Delegation"</a> (2026) proposes a complementary decision framework organized around the transfer of authority, responsibility, and accountability, the clarity of role specifications and intent, and the mechanisms for establishing trust. The families here describe the *how*; their framework addresses the *whether* and *to whom*.
 
-**Diagnostic shortcuts.** When classifying a system, ask: *Does the shared state have a schema?* (Yes = Blackboard, no = Stigmergy.) *Does the coordinator decompose the task or just review the output?* (Decomposes = Orchestrator, reviews = Supervisor.) *Is the competitive allocation one-to-many or bilateral?* (One-to-many = Auction, bilateral = Negotiation.) *Is verification constructive or adversarial?* (Constructive = Evaluator, adversarial = Critic.) *Does the caller persist after handoff?* (Yes = Chain, no = Relay.) *Are the workers specialists or interchangeable?* (Specialists = Router, interchangeable = Worker Pool.) *Is the plan locked before execution?* (Locked = Planner-Executor Split, revised in flight = Orchestrator.) *Does the checker give feedback or a verdict?* (Feedback = Evaluator, mechanical verdict = Neuro-Symbolic Bridge.) *Is the human watching one workflow or a population?* (One = Human-on-the-Loop, population with hands on = Fleet Controller, population by statistics = Population Governance.) These are not definitions, but fast boundary tests for the confusable cases.
+**Diagnostic shortcuts.** Fast boundary tests for the most easily confused pairs. These are not definitions.
+
+| Ask | One answer | The other |
+|---|---|---|
+| Does the shared state have a schema? | Yes: Blackboard | No: Stigmergy |
+| Does the coordinator decompose the task or just review output? | Decomposes: Orchestrator | Reviews: Supervisor |
+| Is the competitive allocation one-to-many or bilateral? | One-to-many: Auction | Bilateral: Negotiation |
+| Is verification constructive or adversarial? | Constructive: Evaluator | Adversarial: Critic |
+| Does the caller persist after handoff? | Yes: Chain | No: Relay |
+| Are the workers specialists or interchangeable? | Specialists: Router | Interchangeable: Worker Pool |
+| Is the plan locked before execution? | Locked: Planner-Executor Split | Revised in flight: Orchestrator |
+| Does the checker give feedback or a verdict? | Feedback: Evaluator | Verdict: Neuro-Symbolic Bridge |
+| Is the human directing one workflow or a population? | One: Human-on-the-Loop | Population: Fleet Controller (hands on) or Population Governance (by statistics) |
 </details>
 
 <div class="viz-container">
