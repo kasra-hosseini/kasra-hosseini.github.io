@@ -6,6 +6,14 @@ theme = "PaperMod"
 [pagination]
   pagerSize = 100
 
+# Tag and category pages are thin navigation pages; noindex them (PaperMod's
+# robotsNoIndex param) so Google spends its crawl budget on posts and papers.
+[[cascade]]
+  [cascade.params]
+    robotsNoIndex = true
+  [cascade.target]
+    kind = "{taxonomy,term}"
+
 [params]
     env = "production"
     comments = true
