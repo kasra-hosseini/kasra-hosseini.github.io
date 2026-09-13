@@ -199,7 +199,7 @@ Two recurring words. A <em>principal</em> is the party on whose behalf an agent 
 
 ## The Map
 
-The nine families and their core questions, the animated map of every pattern, and the summary table. Everything after this section is the cards themselves. As defined above, a <em>principal</em> is the party an agent acts for, and a <em>mandate</em> the bounded authority it received.
+The nine families and their core questions, the animated map of every pattern, and the summary table. Below this section come the full cards, family by family, then the anti-patterns and the assembled real-world examples. As defined above, a <em>principal</em> is the party an agent acts for, and a <em>mandate</em> the bounded authority it received.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The nine delegation families (59 patterns + 1 meta-pattern)</summary>
