@@ -15,7 +15,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,200 words (body) · ~18,500 words (cards and tables)"
+wordcount: "~2,500 words (body) · ~18,500 words (cards and tables)"
 ---
 
 <style>
@@ -358,7 +358,7 @@ The simplest arrangements just move work forward in a line, each agent seeing wh
 
 <div class="gov-list">
 
-Break a task into pieces, hand each piece down, and collect the results back up, and you have a hierarchy. These are the workhorses of production agent systems, and they carry a danger that is easy to miss.
+Break a task into pieces, hand each piece down, and collect the results back up, and you have a hierarchy. Two members bend that mould without leaving it. Task Force hands over a whole task with its authority attached, and Liaison / Broker decomposes nothing at all; it holds the boundary between hierarchies. These are the workhorses of production agent systems, and they carry a danger that is easy to miss.
 
 Suppose each hop preserves most of what the original requester meant, but not all of it. Those small losses multiply with depth, which means a sufficiently deep tree can be working hard, reporting success, and solving something nobody asked for. <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel="noopener" class="red-link">Tomašev et al. (2026)</a> describe the version of this that matters for assigning blame as an accountability vacuum. The shallowest tree that works is also the safest one.
 
@@ -420,7 +420,7 @@ Suppose each hop preserves most of what the original requester meant, but not al
 
 Adding more agents does not by itself make an answer better. What makes it better is how the work gets checked, and there are more ways to check it than most people reach for.
 
-The obvious move is to have something look at the output and suggest improvements. Less obvious, and often more effective, is to have something actively try to break it. You can also aggregate independent attempts and take the majority, bring in a third party whose only job is to attest, or use a protocol that verifies a result without redoing the work. These are different mechanisms with different failure modes, and the common mistake is assuming any of them is interchangeable with the others.
+The obvious move is to have something look at the output and suggest improvements. Less obvious, and often more effective, is to have something actively try to break it. You can also aggregate independent attempts and take the majority, bring in a third party whose only job is to attest, or use a protocol that verifies a result without redoing the work. Two further moves complete the set. Hand the output to a different computational regime, a proof checker or a test suite, whose acceptance is a guarantee rather than an opinion. Or judge whole populations of outputs rather than single ones, selecting what deserves to proceed at all. These are different mechanisms with different failure modes, and the common mistake is assuming any of them is interchangeable with the others.
 
 <details>
 <summary>Evaluator <span class="gov-tagline">generate, critique, refine</span></summary>
@@ -475,7 +475,7 @@ The obvious move is to have something look at the output and suggest improvement
 
 Then there is failure handling, where the goal is a chain that degrades instead of collapsing.
 
-Nothing in this family makes a system smarter. What it does is bound the damage when a component fails, hangs, or starts returning confident nonsense, which in a delegation tree matters more than it does in a single call, because one stuck agent can block everything waiting downstream. These patterns are almost entirely borrowed from distributed systems engineering, where the problems are older and the solutions are better understood than anything specific to agents.
+Nothing in this family makes a system smarter. What it does is bound the damage when a component fails, hangs, or starts returning confident nonsense, which in a delegation tree matters more than it does in a single call, because one stuck agent can block everything waiting downstream. These patterns are almost entirely borrowed from distributed systems engineering, where the problems are older and the solutions are better understood than anything specific to agents. Two members widen the family beyond in-flight damage control. Canary / Shadow is prospective, catching a bad rollout before it can cascade, and Dead Letter Queue is terminal, making sure the work that exhausts every path is parked rather than silently dropped.
 
 <details>
 <summary>Circuit Breaker <span class="gov-tagline">stop calling failing agents</span></summary>
@@ -540,7 +540,7 @@ Competition is attractive because it discovers things a central planner cannot, 
 
 Capability itself can move between agents, which spares each new agent from rebuilding capability from scratch.
 
-The patterns here differ mainly in when the transfer happens and whether the source sticks around afterwards. Some teach at inference time, with the teacher staying in the loop. Some compress a large model's behaviour into a small one at training time and then cut the connection entirely. Some move knowledge sideways between peers without any of them sharing the underlying data. The choice usually comes down to a constraint you cannot negotiate, whether cost, latency, or who is legally allowed to see what.
+The patterns here differ mainly in when the transfer happens and whether the source sticks around afterwards. Some teach at inference time, with the teacher staying in the loop. Some compress a large model's behaviour into a small one at training time and then cut the connection entirely. Some move knowledge sideways between peers without any of them sharing the underlying data. And some deposit what a finished agent learned for successors it will never meet, transferring experience across task generations. The choice usually comes down to a constraint you cannot negotiate, whether cost, latency, or who is legally allowed to see what.
 
 <details>
 <summary>Teacher-Student <span class="gov-tagline">strong trains weak</span></summary>
@@ -608,7 +608,7 @@ This is well-trodden ground outside AI. Holland (*Hidden Order*, 1995) and Kauff
 
 <div class="gov-list">
 
-Who is even allowed to hand work to whom, and with what powers attached? These are constraints rather than shapes. They sit on top of whatever structure you already have and bound what it is permitted to do.
+Who is even allowed to hand work to whom, and with what powers attached? Most of these are constraints rather than shapes. They sit on top of whatever structure you already have and bound what it is permitted to do. The exception is Liquid Democracy, which is itself a shape, a mechanism for routing standing authority through revocable trust chains instead of fixing it at design time.
 
 Tomašev et al. (2026) treat this as a first-class concern rather than an implementation detail, and the reason is worth stating plainly. Skip it and you do not end up with a system that has no authority structure. You end up with one nobody wrote down, which auditors cannot inspect and which nobody is accountable for when it fails. The patterns here are the difference between authority you specified and authority that accumulated.
 
@@ -655,7 +655,7 @@ Tomašev et al. (2026) treat this as a first-class concern rather than an implem
 
 Somewhere in all of this sits a person, and where exactly turns out to be one of the more consequential decisions in the whole design. What stops and waits for a human to approve it? Who is watching, and what is alarming enough to interrupt them?
 
-Every pattern here works around the same wall, which is that human attention does not scale with the number of agents. Nobody reviews a thousand decisions a day, and a person who is nominally supervising a system they cannot actually inspect provides the appearance of oversight rather than the substance. So each of these is a different bet about which decisions are worth a human's time, and each fails in its own way when the bet is wrong. Gate too much and people start approving without reading, which is worse than no gate at all because it produces a record of approvals that reflects no real scrutiny. Gate too little and the first anyone hears of a problem is when it has already happened.
+Every pattern here works around the same wall, which is that human attention does not scale with the number of agents. Nobody reviews a thousand decisions a day, and a person who is nominally supervising a system they cannot actually inspect provides the appearance of oversight rather than the substance. So each of these is a different bet about which decisions are worth a human's time, and each fails in its own way when the bet is wrong. The first four patterns place the human as an approver, a monitor, a rule-setter, or an exception handler. The last four extend the range: a controller actively directing a live fleet, a governor managing populations through statistics, a proxy negotiating in the human's name, and agents whose delegated work is modeling the human themselves. Gate too much and people start approving without reading, which is worse than no gate at all because it produces a record of approvals that reflects no real scrutiny. Gate too little and the first anyone hears of a problem is when it has already happened.
 
 <details>
 <summary>Human-in-the-Loop Gate <span class="gov-tagline">execution blocks until a human approves</span></summary>
