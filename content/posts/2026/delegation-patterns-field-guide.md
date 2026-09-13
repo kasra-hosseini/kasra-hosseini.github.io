@@ -199,7 +199,7 @@ Two recurring words. A <em>principal</em> is the party on whose behalf an agent 
 
 ## The Map
 
-The nine families and their core questions, the animated map of every pattern, and the summary table. Everything after this section is the cards themselves. Two words recur in the cards. A <em>principal</em> is the party on whose behalf an agent acts, human or agent; a <em>mandate</em> is the bounded authority a principal hands over.
+The nine families and their core questions, the animated map of every pattern, and the summary table. Everything after this section is the cards themselves. As defined above, a <em>principal</em> is the party an agent acts for, and a <em>mandate</em> the bounded authority it received.
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The nine delegation families (59 patterns + 1 meta-pattern)</summary>
@@ -232,7 +232,7 @@ Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Summary: delegation archetypes at a glance</summary>
 
-A note that applies to every row. The agents in these patterns are defined only by their interface, a task in and a result out, so any single agent below can itself be a whole multi-agent system running another of these patterns. The archetypes nest, which is how the same table describes two agents or millions.
+A note that applies to every row. The agents in these patterns are defined only by their interface, a task in and a result out, so any single agent below can itself be a whole multi-agent system running another of these patterns. The archetypes nest, which is how the same table spans a two-agent script and a fabric of millions.
 
 | Archetype | Structure | When to use | Failure mode |
 |---|---|---|---|
