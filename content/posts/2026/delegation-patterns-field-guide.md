@@ -1,17 +1,21 @@
 ---
 title: "Delegation Patterns: A Field Guide"
-subtitle: "Forty-three ways to split work between agents, what each is for, and how each one fails"
+subtitle: "Forty-seven ways to split work between agents, what each is for, and how each one fails"
 date: 2026-09-13
 author: "Kasra Hosseini"
 post_categories: ["AI"]
 tags: ["delegation patterns", "multi-agent systems", "agent orchestration", "multi-agent design patterns", "AI agents", "agent fabric", "LLM"]
-description: "A searchable reference of 43 delegation patterns for multi-agent systems, in nine families: what each does, when to reach for it, and how it fails."
+description: "A searchable reference of 47 delegation patterns for multi-agent systems, in nine families: what each does, when to reach for it, and how it fails."
+cover:
+  image: "/images/delegation-patterns-cover.png"
+  alt: "Nine abstract motifs of delegation pattern families: chains, trees, verification loops, circuit breaks, market hubs, and trust rings on a woven dark background"
+  hidden: true
 draft: false
 math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,100 words (body) · ~13,100 words (cards and tables)"
+wordcount: "~2,100 words (body) · ~14,300 words (cards and tables)"
 ---
 
 <style>
@@ -173,13 +177,13 @@ wordcount: "~2,100 words (body) · ~13,100 words (cards and tables)"
 <strong>Early access.</strong> This post is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
 
-*Forty-three ways to split work between agents, grouped into nine families by the question each answers, with what each pattern is for and how each one fails. Built to be searched rather than read.*
+*Forty-seven ways to split work between agents, grouped into nine families by the question each answers, with what each pattern is for and how each one fails. Built to be searched rather than read.*
 
 Every system that hands work from one agent to another has picked a delegation pattern. A team wires up an orchestrator because it seems the natural choice at the time, adds a retry loop because something failed in staging, bolts on a reviewer after an incident, and ends up with an architecture that has three patterns in it.
 
 This page is a catalogue of those patterns. Where a pattern has an established name, that is the one used here; where it does not, the name is ours, and the description matters more than the label. A name is useful for two reasons: it comes attached to a known failure mode, and it makes a design easier to discuss with somebody who did not build it.
 
-Forty-three patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers, because that is how people actually look things up: you know roughly what you need (get this checked, survive a failure, allocate work competitively) before you know what it is called. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution is half a quality check and half a market. That is fine. The grouping is a finding aid, not a taxonomy with a claim to make.
+Forty-seven patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers, because that is how people actually look things up: you know roughly what you need (get this checked, survive a failure, allocate work competitively) before you know what it is called. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution is half a quality check and half a market. That is fine. The grouping is a finding aid, not a taxonomy with a claim to make.
 
 **How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, jump to the <a href="#quick-guide">quick guide keyed to situations</a> at the end of the page. The nine families are listed below, and each card ends with what it is for, when to reach for it, how it fails, and how it differs from its neighbours.
 
@@ -190,28 +194,28 @@ One piece of vocabulary before the catalogue. Everything here is built from a si
 </div>
 
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
-<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The nine delegation families (43 patterns + 1 meta-pattern)</summary>
+<summary style="cursor: pointer; color: #2563eb; font-weight: 600;">The nine delegation families (47 patterns + 1 meta-pattern)</summary>
 
 | Family | Patterns | Core question |
 |--------|----------|---------------|
 | **Sequential** | Chain, Pipeline, Router, Escalation, Relay/Handoff, Loop/Retry-with-Context | How does a task flow from start to finish? |
-| **Hierarchical** | Tree, Map-Reduce, Supervisor, Orchestrator, Mission Command, Feudal Delegation | How is a complex task decomposed and reassembled? |
-| **Quality & Verification** | Evaluator, Voting, Critic / Red Team, Debate, Witness / Notarization, Verification Game | How do we verify that output is good enough? |
+| **Hierarchical** | Tree, Map-Reduce, Supervisor, Orchestrator, Planner-Executor Split, Worker Pool, Mission Command, Feudal Delegation | How is a complex task decomposed and reassembled? |
+| **Quality & Verification** | Evaluator, Voting, Mixture-of-Agents, Critic / Red Team, Debate, Witness / Notarization, Verification Game | How do we verify that output is good enough? |
 | **Reliability** | Circuit Breaker, Timeout / Dead-Man, Checkpoint / Saga, Canary / Shadow | How do we handle failure without cascade? |
 | **Market & Competition** | Auction, Negotiation, Speculative Execution, Contract Net | How is work allocated competitively? |
 | **Knowledge Transfer** | Teacher-Student, Federated Learning, Blackboard, Distillation | How do agents share what they know? |
 | **Emergent Coordination** | Publish-Subscribe, Choreography, Stigmergy, Swarm, Gossip | How do agents coordinate without a center? |
-| **Trust & Authority** | Privilege Attenuation, Liability Firebreaks, Capability Credentials, Zone of Indifference | Who is allowed to delegate to whom, and with what? |
+| **Trust & Authority** | Privilege Attenuation, Context Scoping, Liability Firebreaks, Capability Credentials, Zone of Indifference | Who is allowed to delegate to whom, and with what? |
 | **Human-Agent Interface** | Human-in-the-Loop Gate, Human-on-the-Loop, Policy Delegation, Approval Escalation | How do humans structurally participate in delegation? |
 
 Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel="noopener">"Intelligent AI Delegation"</a> (2026) proposes a complementary decision framework organized around the transfer of authority, responsibility, and accountability, the clarity of role specifications and intent, and the mechanisms for establishing trust. The families here describe the *how*; their framework addresses the *whether* and *to whom*.
 
-**Diagnostic shortcuts.** When classifying a system, ask: *Does the shared state have a schema?* (Yes = Blackboard, no = Stigmergy.) *Does the coordinator decompose the task or just review the output?* (Decomposes = Orchestrator, reviews = Supervisor.) *Is the competitive allocation one-to-many or bilateral?* (One-to-many = Auction, bilateral = Negotiation.) *Is verification constructive or adversarial?* (Constructive = Evaluator, adversarial = Critic.) *Does the caller persist after handoff?* (Yes = Chain, no = Relay.) These are not definitions, but fast boundary tests for the confusable cases.
+**Diagnostic shortcuts.** When classifying a system, ask: *Does the shared state have a schema?* (Yes = Blackboard, no = Stigmergy.) *Does the coordinator decompose the task or just review the output?* (Decomposes = Orchestrator, reviews = Supervisor.) *Is the competitive allocation one-to-many or bilateral?* (One-to-many = Auction, bilateral = Negotiation.) *Is verification constructive or adversarial?* (Constructive = Evaluator, adversarial = Critic.) *Does the caller persist after handoff?* (Yes = Chain, no = Relay.) *Are the workers specialists or interchangeable?* (Specialists = Router, interchangeable = Worker Pool.) *Is the plan locked before execution?* (Locked = Planner-Executor Split, revised in flight = Orchestrator.) These are not definitions, but fast boundary tests for the confusable cases.
 </details>
 
 <div class="viz-container">
   <div id="viz-delegation" style="width: 100%;" role="img" aria-label="Delegation archetypes grouped by family, each animated with task and result packets. Click any panel to expand."></div>
-  <div class="viz-caption"><strong>Figure 1. Delegation archetypes.</strong> Forty-three patterns in nine families, plus one meta-pattern, describing how tasks are decomposed, routed, checked, and reassembled. Any pattern can be deliberately designed or can emerge from agent interaction.
+  <div class="viz-caption"><strong>Figure 1. Delegation archetypes.</strong> Forty-seven patterns in nine families, plus one meta-pattern, describing how tasks are decomposed, routed, checked, and reassembled. Any pattern can be deliberately designed or can emerge from agent interaction.
   <details style="margin-top: 0.4em;"><summary style="cursor: pointer; color: #2563eb; font-size: 0.92em;">Full caption</summary>
   <p style="margin-top: 0.4em;">Any delegation pattern can be deliberately designed or can emerge from agent interaction. A Swarm can be engineered (deploy 50 drones with specified behaviors) or can arise when agents independently discover that self-organizing works. A Chain can be hardcoded or can emerge when agents learn to pass work sequentially. The designed/emergent distinction is a property of how a pattern was instantiated, not of the pattern itself. Most real systems combine multiple patterns. Red packets are tasks; green are results. Click any panel to expand.</p>
   </details>
@@ -231,6 +235,8 @@ Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel
 | **Map-Reduce** | Parallel execution + aggregation | Embarrassingly parallel sub-problems | Aggregator discards minority evidence or mis-merges partial results |
 | **Supervisor** | Frontier model reviews smaller models' work | Production systems with cost/quality tradeoff | Bottleneck at the supervisor; single point of quality failure |
 | **Orchestrator** | Dynamic decomposition and re-planning | Open-ended tasks where structure emerges | Orchestrator misjudges decomposition, re-plans endlessly |
+| **Planner-Executor Split** | Lock a complete plan, then execute it | Plans needing audit, approval, or parallel steps | Locked plan goes stale mid-execution |
+| **Worker Pool** | Queue + interchangeable workers, dispatch by availability | Throughput-bound batches of similar tasks | Poison tasks pin workers; queue depth ignored |
 | **Evaluator** | Generate, critique, refine loop | Quality-sensitive outputs (code, writing, reasoning) | Over-filtering or infinite refinement loops |
 | **Relay / Handoff** | Pass full control + context, caller exits | Agent-to-agent handoffs where the caller must not persist | Dropped context or ambiguous ownership at handoff boundary |
 | **Circuit Breaker** | Stop calling failing downstream agents | Resilient agent networks, API integrations | Opens too aggressively (transient errors) or too slowly (cascade) |
@@ -238,6 +244,7 @@ Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel
 | **Canary / Shadow** | Test new agent on live traffic before promotion | Model upgrades, prompt changes, safe rollout | Shadow period too short (misses rare failures) or too long (wasted compute) |
 | **Publish-Subscribe** | Event-driven, fully decoupled | Large-scale agent coordination, notification systems | Message storms, lost messages, implicit debugging |
 | **Voting** | Same task, majority wins | High-stakes decisions needing reliability | Correlated errors (all voters wrong the same way) |
+| **Mixture-of-Agents** | All specialists answer, weighted merge | Complementary strengths, quality-sensitive tasks | Aggregator captured by confidence, not correctness |
 | **Critic / Red Team** | Generate output, then adversarially attack it | Security review, red-teaming, adversarial robustness | Critic too strong (nothing passes) or too weak (nothing caught) |
 | **Debate** | Multi-round adversarial argument with judge | High-stakes reasoning, alignment verification | Judge capture, infinite regress, performative argumentation |
 | **Speculative Execution** | Race parallel approaches, commit first valid | Latency-sensitive tasks, non-deterministic workloads | Wasted compute; committing a fast but incorrect result |
@@ -260,6 +267,7 @@ Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel
 | **Contract Net** | Broadcast, bid, award, execute, report | Open systems with unknown agent capabilities | Unbounded recursive sub-contracting |
 | **Distillation** | Large model trains small, then disconnects | Cost/latency constraints in production | Capability collapse on distribution shift |
 | **Privilege Attenuation** | Sub-delegates get strict permission subsets | Any system where sub-agents touch external resources | Over-attenuation starves leaf agents |
+| **Context Scoping** | Each sub-agent gets a trimmed, task-specific brief | Every delegation; critical for costly or sensitive context | Under-scoping omits the constraint that mattered |
 | **Liability Firebreaks** | Explicit responsibility transfer points | Consequential delegation across org boundaries | Too narrow (overhead) or too broad (diffuse blame) |
 | **Capability Credentials** | Verifiable attestations of competence | Open composition of agents from different sources | Credential inflation, staleness, gaming |
 | **Zone of Indifference** | Range of instructions followed without pushback | Diagnosing why delegation chains stall or comply | Too wide (safety) or too narrow (throughput) |
@@ -340,6 +348,16 @@ Suppose each hop preserves most of what the original requester meant, but not al
 </details>
 
 <details>
+<summary>Planner-Executor Split <span class="gov-tagline">lock the plan, then run it</span></summary>
+<div class="gov-body">A planning agent produces a complete plan (a step list or dependency graph) before any execution begins; a separate executor runs the plan without replanning. The plan is an artifact: it can be audited, budgeted, parallelized, and approved before a single side effect occurs. If execution fails, control returns to the planner for a new plan rather than an in-flight improvisation.<br><br><em>When to use:</em> tasks where the plan itself needs review before execution: human approval, budget checks, compliance gates. Also wherever independent plan steps should run in parallel, which a locked dependency graph makes safe in a way that improvised decomposition does not.<br><br><em>Example:</em> plan-and-execute agent architectures separate one planning call from many execution calls; coding agents that present a plan for approval before touching any files instantiate the same split. Graph frameworks that compile a fixed structure before running it are the framework-level version: the shape is decided at compile time, then executed.<br><br><em>Failure mode:</em> the plan goes stale. A locked plan cannot absorb what execution discovers, so a wrong assumption in step one is faithfully executed through step ten. The pattern trades adaptability for auditability; systems that need both end up inserting re-planning checkpoints, at which point they are running an Orchestrator that carries a plan for show.<br><br><em>Relation to other patterns:</em> Orchestrator re-plans continuously at runtime; Planner-Executor forbids exactly that, which is the diagnostic between them. Mission Command hands over intent and no method; Planner-Executor hands over nothing but the method. Human-in-the-Loop Gate most often sits precisely between the planner and the executor.</div>
+</details>
+
+<details>
+<summary>Worker Pool <span class="gov-tagline">interchangeable workers, dispatch by availability</span></summary>
+<div class="gov-body">A dispatcher maintains a queue of tasks and a pool of interchangeable worker agents; each task goes to whichever worker is free. The workers are homogeneous, so the dispatch decision is about availability and load, never capability. This is the default scaling move in production: when one agent is too slow for the workload, run N copies of it.<br><br><em>When to use:</em> throughput-bound workloads of similar, independent tasks: bulk document processing, parallel code migrations, reviewing two hundred files with eight identical reviewers. Anywhere tasks outnumber agents and no task needs a specialist.<br><br><em>Example:</em> an orchestration layer spawns eight identical review agents over a work list, each agent pulling the next file the moment it finishes the last. Parallel sub-agent fan-outs in agentic coding tools are Worker Pools whenever the sub-agents share one prompt; the same shape runs under every task queue with horizontally scaled consumers.<br><br><em>Failure mode:</em> poison tasks and head-of-line blocking. One pathological task pins a worker forever if no timeout fires, and a retried poison task cycles through the pool hanging one worker at a time. Queue depth is the health signal, and it is routinely ignored until it is the outage.<br><br><em>Relation to other patterns:</em> Router picks a specialist by content; Worker Pool picks a worker by availability. That is the diagnostic: heterogeneous specialists mean Router, interchangeable workers mean Worker Pool. Map-Reduce fans out the pieces of one decomposed task; a pool drains a queue of unrelated ones. Auction allocates by competition; a pool has nothing to bid over because every worker is the same.</div>
+</details>
+
+<details>
 <summary>Mission Command <span class="gov-tagline">intent without method</span></summary>
 <div class="gov-body">The delegating agent communicates the goal and the reason (intent) but deliberately does not prescribe the method. Subordinate agents exercise autonomous judgment in selecting how to achieve the intent, adapting to conditions without waiting for instructions.<br><br><em>When to use:</em> delegating to capable agents in situations where the delegator cannot anticipate local conditions. Complex coding tasks ("make this module thread-safe" rather than "add a lock on line 47"), research tasks ("find the root cause" rather than "check these three files"), any task where method prescription would be counterproductive.<br><br><em>Example:</em> every good prompt engineer uses mission command instinctively. "Write tests for this module that cover edge cases" is mission command. "Open test_module.py, add a function called test_edge_case_1 that asserts..." is not. The deliberate withholding of method specification is what distinguishes it. When the same idea is cast as a standing arrangement rather than a single handover, it becomes a governance structure. The pattern is essential for embodied agents: tell a delivery robot "get this package to room 312" rather than prescribing every turn, because the robot knows the building and the corridor conditions better than you do.<br><br><em>Failure mode:</em> intent ambiguity. If the goal is vague, autonomous agents may pursue reasonable but divergent interpretations. The quality of the intent statement determines the quality of the outcome.<br><br><em>Relation to other patterns:</em> Mission Command is the philosophical complement to Supervisor. The Supervisor reviews output after the fact; Mission Command shapes behavior before execution by specifying intent clearly enough that autonomous execution is safe. Source: military doctrine (Prussian Auftragstaktik and its modern, looser codifications in NATO Allied Joint Publication and US Army ADP 6-0).</div>
 </details>
@@ -367,6 +385,11 @@ The obvious move is to have something look at the output and suggest improvement
 <details>
 <summary>Voting <span class="gov-tagline">same task, majority wins</span></summary>
 <div class="gov-body">Multiple agents work on the same task independently. The final answer is selected by majority vote or aggregation. Redundancy as a strategy for reliability.<br><br><em>When to use:</em> high-stakes decisions where no single agent is reliable enough. Medical diagnosis confirmation, safety-critical classifications, any domain where the cost of a wrong answer exceeds the cost of running multiple agents. Worth stating plainly: voters drawn from one base model with different prompts will often be wrong together, so the diversity has to be real to buy anything.<br><br><em>Example:</em> <a href="https://arxiv.org/abs/2402.05120" target="_blank" rel="noopener" class="red-link">"More Agents Is All You Need"</a> demonstrates that even simple sampling and majority voting can improve LLM performance, with gains growing as ensemble size increases (most steeply on harder tasks).<br><br><em>Failure mode:</em> correlated errors. If all voters share the same training data, architecture, and biases, they will be wrong in the same way. Voting only helps when errors are independent.<br><br><em>Relation to other patterns:</em> Voting is the simplest form of ensemble. It is a delegation pattern for a specific decision, not an ongoing deliberative structure for setting policy.</div>
+</details>
+
+<details>
+<summary>Mixture-of-Agents <span class="gov-tagline">all specialists answer, a gate combines</span></summary>
+<div class="gov-body">Multiple specialist agents process the same input in parallel, and an aggregation function combines their outputs with non-uniform weights: by confidence, by specialization, or by learned performance. Nobody wins a vote; everybody contributes to the answer.<br><br><em>When to use:</em> quality-sensitive tasks where agents have complementary strengths and a merged answer beats any single one. Multi-model answer synthesis, retrieval over heterogeneous sources, judgment tasks where the perspectives genuinely differ rather than being noisy copies of each other.<br><br><em>Example:</em> layered mixture-of-agents setups feed several models' draft answers to an aggregator model that writes the final response (<a href="https://arxiv.org/abs/2406.04692" target="_blank" rel="noopener" class="red-link">Wang et al. 2024</a>). Ensemble retrievers that merge ranked lists with reciprocal rank fusion are the retrieval-side version of the same shape.<br><br><em>Failure mode:</em> the aggregator is a single point of judgment. It can be captured by the most confident-sounding contributor rather than the most correct one, and miscalibrated weights are invisible until the ensemble underperforms its own best member, which is the metric worth watching.<br><br><em>Relation to other patterns:</em> Voting weights every agent equally and selects one output; Mixture-of-Agents weights contributions and synthesizes a new one. Router sends the input to a single specialist; this pattern sends it to all of them. Speculative Execution races for the first valid answer and discards the rest; here nothing is discarded.</div>
 </details>
 
 <details>
@@ -526,7 +549,12 @@ Tomašev et al. (2026) treat this as a first-class concern rather than an implem
 
 <details>
 <summary>Privilege Attenuation <span class="gov-tagline">you can only grant what you hold, never more</span></summary>
-<div class="gov-body">A structural constraint on all delegation patterns: when an agent sub-delegates, it may grant only a strict subset of its own permissions to the sub-agent. Authority cannot be amplified at any link in the chain. An agent with read-only file access cannot grant write access. An agent authorized for one data scope cannot delegate access to a broader scope. This is a property of the delegation infrastructure, not a pattern agents choose to apply.<br><br><em>When to use:</em> Any multi-agent system where sub-agents interact with external resources, user data, or APIs. Privilege attenuation should be enforced at the runtime or framework level so that agents cannot circumvent it by accident or by design.<br><br><em>Example:</em> Tomašev et al. (2026) identify this as a core requirement for safe intelligent delegation. The principle of least privilege in operating systems enforces the same constraint: processes cannot escalate their own privileges by spawning child processes.<br><br><em>Failure mode:</em> The practical failure is the reverse: each hop strips permissions too conservatively, so the agent actually doing the work lacks the access it needs. The system grinds to a halt not from over-permission but from under-permission at the far end.<br><br><em>Relation to other patterns:</em> Privilege Attenuation applies as a constraint within Feudal Delegation, Contract Net, and any other pattern that creates delegation chains. Capability Credentials make the current permission set verifiable; Privilege Attenuation governs how that set changes across hops.</div>
+<div class="gov-body">A structural constraint on all delegation patterns: when an agent sub-delegates, it may grant only a strict subset of its own permissions to the sub-agent. Authority cannot be amplified at any link in the chain. An agent with read-only file access cannot grant write access. An agent authorized for one data scope cannot delegate access to a broader scope. This is a property of the delegation infrastructure, not a pattern agents choose to apply.<br><br><em>When to use:</em> Any multi-agent system where sub-agents interact with external resources, user data, or APIs. Privilege attenuation should be enforced at the runtime or framework level so that agents cannot circumvent it by accident or by design.<br><br><em>Example:</em> Tomašev et al. (2026) identify this as a core requirement for safe intelligent delegation. The principle of least privilege in operating systems enforces the same constraint: processes cannot escalate their own privileges by spawning child processes.<br><br><em>Failure mode:</em> The practical failure is the reverse: each hop strips permissions too conservatively, so the agent actually doing the work lacks the access it needs. The system grinds to a halt not from over-permission but from under-permission at the far end.<br><br><em>Relation to other patterns:</em> Privilege Attenuation applies as a constraint within Feudal Delegation, Contract Net, and any other pattern that creates delegation chains. Capability Credentials make the current permission set verifiable; Privilege Attenuation governs how that set changes across hops. Context Scoping is its informational counterpart: this pattern narrows what a sub-agent may do, that one narrows what it gets to see.</div>
+</details>
+
+<details>
+<summary>Context Scoping <span class="gov-tagline">each agent sees only what its task needs</span></summary>
+<div class="gov-body">The delegating agent deliberately selects, trims, and transforms the context passed to each sub-agent: the task brief, the relevant excerpts, the constraints that apply, and nothing else. It is the informational counterpart to Privilege Attenuation. That pattern narrows what a sub-agent may do; this one narrows what it gets to see. What each agent receives is one of the most consequential design decisions in any multi-agent system, and this card is the positive form of a trap named later in this page.<br><br><em>When to use:</em> every delegation, in truth; explicitly whenever context is expensive (tokens), sensitive (credentials, personal data, other users' history), or distracting, since an agent reasoning over irrelevant history performs worse than one with a clean brief.<br><br><em>Example:</em> sub-agent architectures where the orchestrator writes a fresh brief for each worker instead of forwarding its own transcript; framework-level message filtering and state channels that declare exactly which parts of shared state each node receives.<br><br><em>Failure mode:</em> under-scoping. The trimmed brief omits the one constraint that mattered, and the sub-agent solves the wrong problem with full confidence. The opposite failure, sharing everything by default, is context hemorrhage in the anti-patterns table below: cost, distraction, and data leakage in exchange for nothing.<br><br><em>Relation to other patterns:</em> Privilege Attenuation governs permissions; Context Scoping governs information; the two are enforced at the same handoff and usually travel together. Feudal Delegation makes methods opaque upward; Context Scoping makes context narrow downward. Blackboard is the deliberate opposite move: pooling context rather than partitioning it.</div>
 </details>
 
 <details>
@@ -600,7 +628,10 @@ The delegation structure itself changes in real-time based on performance signal
 - **Need to hand off completely:** Relay / Handoff
 - **Multiple domains, need routing:** Router (+ Escalation for cost optimization)
 - **Complex task, unknown decomposition:** Orchestrator or Tree
+- **Plan must be approved or budgeted before running:** Planner-Executor Split
+- **Many similar tasks, need throughput:** Worker Pool (identical workers drain a queue)
 - **Reliability critical, single task:** Voting or Evaluator
+- **Complementary specialists, merged answer:** Mixture-of-Agents
 - **Adversarial verification needed:** Critic / Red Team
 - **Latency-critical, multiple approaches:** Speculative Execution
 - **Cost-critical, variable difficulty:** Escalation (try cheap first)
@@ -618,6 +649,7 @@ The delegation structure itself changes in real-time based on performance signal
 - **Verification without re-execution:** Verification Game (challenge-response protocol)
 - **Iterative self-improvement, no external critic:** Loop / Retry-with-Context
 - **Sub-agents need less access than you have:** Privilege Attenuation
+- **Deciding what each sub-agent should see:** Context Scoping
 - **Need accountability across delegation chains:** Liability Firebreaks
 - **Composing agents from unknown sources:** Capability Credentials
 - **Human must approve irreversible actions:** Human-in-the-Loop Gate
@@ -641,7 +673,7 @@ Now that the patterns are in view, here are the structural traps that emerge fro
 | **Unbounded fan-out** | Task tree grows until cost and latency explode | Recursive decomposition without depth or breadth limits; no delegation budget |
 | **Consensus theater** | Voting among near-identical agents and mistaking correlated agreement for truth | Shared training data/architecture produces correlated errors that look like independent confirmation |
 | **Evaluator capture** | Generator learns to satisfy the evaluator rather than the actual task | Evaluator's preferences become the optimization target (Goodhart's law applied to multi-agent quality) |
-| **Context hemorrhage** | Every sub-agent receives too much irrelevant context, raising cost and leaking data | No scoping of what context each delegation level needs; "share everything" as default |
+| **Context hemorrhage** | Every sub-agent receives too much irrelevant context, raising cost and leaking data | No scoping of what context each delegation level needs; "share everything" as default. The positive counterpart is the Context Scoping pattern |
 | **Retry addiction** | System keeps re-planning instead of failing safely | No distinction between "plan was wrong" and "execution failed"; every failure triggers re-plan |
 | **Premature society** | Adding persistent memory, reputation, and governance before the task requires it | Institutional overhead without institutional value; designing for scale before reaching it |
 | **Context laundering** | A sub-agent's unsupported claim gets summarized, passed upward, and reintroduced as trusted context | Lossy summarization at delegation boundaries strips provenance; downstream agents cannot distinguish verified from unverified claims |
@@ -759,14 +791,14 @@ The patterns and archetypes above are parts. What they look like assembled is mo
   var familyLabels = [
     {name: 'Sequential', startIdx: 0},
     {name: 'Hierarchical', startIdx: 6},
-    {name: 'Quality & Verification', startIdx: 12},
-    {name: 'Reliability', startIdx: 18},
-    {name: 'Market & Competition', startIdx: 22},
-    {name: 'Knowledge Transfer', startIdx: 26},
-    {name: 'Emergent Coordination', startIdx: 30},
-    {name: 'Trust & Authority', startIdx: 35},
-    {name: 'Human-Agent Interface', startIdx: 39},
-    {name: 'Meta-Pattern', startIdx: 43}
+    {name: 'Quality & Verification', startIdx: 14},
+    {name: 'Reliability', startIdx: 21},
+    {name: 'Market & Competition', startIdx: 25},
+    {name: 'Knowledge Transfer', startIdx: 29},
+    {name: 'Emergent Coordination', startIdx: 33},
+    {name: 'Trust & Authority', startIdx: 38},
+    {name: 'Human-Agent Interface', startIdx: 43},
+    {name: 'Meta-Pattern', startIdx: 47}
   ];
   var panelDefs = [
     // Sequential (6)
@@ -776,16 +808,19 @@ The patterns and archetypes above are parts. What they look like assembled is mo
     {label: 'Escalation', sub: 'Try small, fail up'},
     {label: 'Relay / Handoff', sub: 'Pass control, caller exits'},
     {label: 'Loop / Retry', sub: 'Self-feedback until success'},
-    // Hierarchical (6)
+    // Hierarchical (8)
     {label: 'Tree', sub: 'Hierarchical fan-out'},
     {label: 'Map-Reduce', sub: 'Parallel + aggregation'},
     {label: 'Supervisor', sub: 'Review, reject, re-dispatch'},
     {label: 'Orchestrator', sub: 'Dynamic decomposition'},
+    {label: 'Planner-Executor', sub: 'Lock the plan, then run it'},
+    {label: 'Worker Pool', sub: 'Queue drained by identical workers'},
     {label: 'Mission Command', sub: 'Intent over instructions'},
     {label: 'Feudal Delegation', sub: 'Goals down, opacity inward'},
-    // Quality & Verification (6)
+    // Quality & Verification (7)
     {label: 'Evaluator', sub: 'Generate, critique, refine'},
     {label: 'Voting', sub: 'Same task, majority wins'},
+    {label: 'Mixture-of-Agents', sub: 'Weighted merge of all answers'},
     {label: 'Critic / Red Team', sub: 'Generate, then attack'},
     {label: 'Debate', sub: 'Multi-round argument with judge'},
     {label: 'Witness', sub: 'Independent certification'},
@@ -811,8 +846,9 @@ The patterns and archetypes above are parts. What they look like assembled is mo
     {label: 'Stigmergy', sub: 'Coordinate via environment'},
     {label: 'Swarm', sub: 'Collective behavior, no central plan'},
     {label: 'Gossip', sub: 'Peer-to-peer spread'},
-    // Trust & Authority (4)
+    // Trust & Authority (5)
     {label: 'Privilege Attenuation', sub: 'Permissions narrow downward'},
+    {label: 'Context Scoping', sub: 'Trimmed brief per sub-agent'},
     {label: 'Firebreaks', sub: 'Explicit trust boundaries'},
     {label: 'Credentials', sub: 'Present proof, gain access'},
     {label: 'Zone of Indifference', sub: 'Act freely within bounds'},
@@ -2875,13 +2911,164 @@ The patterns and archetypes above are parts. What they look like assembled is mo
   }
 
   // Assign draw functions in family order matching panelDefs
+  function drawPlannerExec(p) {
+    var g = svg.append('g');
+    var cx = p.ox + cellW / 2, py = p.oy + 72;
+    var plx = cx - 110, dx = cx - 10, ex = cx + 90;
+    var sy = p.oy + 150, sxs = [ex - 50, ex, ex + 50];
+    // lines first (behind nodes)
+    dl(g, plx + 13, py, dx - 18, py, 0);
+    dl(g, dx + 18, py, ex - 11, py, 150);
+    for (var i = 0; i < 3; i++) dl(g, ex, py + 11, sxs[i], sy - 8, 300 + i * 100);
+    // plan artifact (rect) and nodes on top
+    g.append('rect').attr('x', dx - 14).attr('y', py - 18).attr('width', 28).attr('height', 36)
+      .attr('rx', 3).attr('fill', '#fff').attr('stroke', '#94a3b8').attr('stroke-width', 1.2);
+    for (var i = 0; i < 3; i++) g.append('line').attr('x1', dx - 8).attr('y1', py - 8 + i * 9)
+      .attr('x2', dx + 8).attr('y2', py - 8 + i * 9).attr('stroke', '#cbd5e1').attr('stroke-width', 1.5);
+    g.append('text').attr('x', dx).attr('y', py + 32).attr('text-anchor', 'middle')
+      .attr('font-size', '7px').attr('fill', '#888').text('Plan');
+    dn(g, plx, py, 12, '#7f1d1d', 'Planner');
+    dn(g, ex, py, 10, '#475569', 'Executor', py - 16);
+    for (var i = 0; i < 3; i++) dn(g, sxs[i], sy, 6, '#94a3b8', 'Step ' + (i + 1));
+    var tick = 0;
+    function anim() {
+      tick++;
+      pkt(g, [{x: plx, y: py}, {x: dx, y: py}], taskColor, 200, 2.5);
+      timers.push(setTimeout(function() {
+        var ok = g.append('text').attr('x', dx).attr('y', py - 26).attr('text-anchor', 'middle')
+          .attr('font-size', '10px').attr('font-weight', 'bold').attr('fill', '#16a34a')
+          .attr('opacity', 0).text('approved');
+        ok.transition().duration(200).attr('opacity', 1)
+          .transition().delay(700).duration(300).attr('opacity', 0).remove();
+        pkt(g, [{x: dx, y: py}, {x: ex, y: py}], taskColor, 400, 2.5);
+      }, 800));
+      timers.push(setTimeout(function() {
+        for (var i = 0; i < 3; i++) {
+          pkt(g, [{x: ex, y: py}, {x: sxs[i], y: sy}], taskColor, i * 250, 2.2);
+          pkt(g, [{x: sxs[i], y: sy}, {x: ex, y: py}], resultColor, 500 + i * 250, 2.2);
+        }
+      }, 1900));
+      timers.push(setTimeout(function() { if (tick < 80) anim(); }, 4400));
+    }
+    anim();
+    anno(g, p, 'the plan is locked before execution begins');
+  }
+
+  function drawWorkerPool(p) {
+    var g = svg.append('g');
+    var cx = p.ox + cellW / 2, dy = p.oy + 66;
+    var qx = cx - 120;
+    var wy = p.oy + 150, wxs = [cx - 80, cx, cx + 80];
+    // lines first (behind nodes)
+    dl(g, qx + 14, dy, cx - 13, dy, 0);
+    for (var i = 0; i < 3; i++) dl(g, cx, dy + 12, wxs[i], wy - 10, 150 + i * 100);
+    // queue (stack of small squares) and nodes on top
+    for (var i = 0; i < 3; i++) g.append('rect').attr('x', qx - 6 - i * 11).attr('y', dy - 5)
+      .attr('width', 9).attr('height', 10).attr('rx', 2)
+      .attr('fill', '#fecaca').attr('stroke', '#ef4444').attr('stroke-width', 0.8);
+    g.append('text').attr('x', qx - 12).attr('y', dy + 20).attr('text-anchor', 'middle')
+      .attr('font-size', '7px').attr('fill', '#888').text('Queue');
+    dn(g, cx, dy, 12, '#7f1d1d', 'Dispatcher', dy - 18);
+    for (var i = 0; i < 3; i++) dn(g, wxs[i], wy, 9, '#475569', 'Worker');
+    var tick = 0;
+    function anim() {
+      tick++;
+      var w = tick % 3;
+      pkt(g, [{x: qx, y: dy}, {x: cx, y: dy}], taskColor, 150, 2.5);
+      timers.push(setTimeout(function() {
+        pkt(g, [{x: cx, y: dy}, {x: wxs[w], y: wy}], taskColor, 0, 2.5);
+      }, 650));
+      timers.push(setTimeout(function() {
+        pkt(g, [{x: wxs[w], y: wy}, {x: cx, y: dy}], resultColor, 0, 2.5);
+      }, 1350));
+      timers.push(setTimeout(function() { if (tick < 80) anim(); }, 2000));
+    }
+    anim();
+    anno(g, p, 'any free worker takes the next task');
+  }
+
+  function drawMixture(p) {
+    var g = svg.append('g');
+    var cx = p.ox + cellW / 2, my = p.oy + 108;
+    var ix = cx - 130, ax = cx + 95;
+    var sxs = cx - 15, sys = [p.oy + 62, my, p.oy + 154];
+    var weights = [3.4, 2.6, 1.8];
+    // lines first (behind nodes)
+    for (var i = 0; i < 3; i++) {
+      dl(g, ix + 11, my, sxs - 11, sys[i], i * 100);
+      dl(g, sxs + 11, sys[i], ax - 13, my, 200 + i * 100);
+    }
+    // nodes on top
+    dn(g, ix, my, 10, '#475569', 'Input');
+    var scols = ['#b91c1c', '#dc2626', '#ef4444'];
+    for (var i = 0; i < 3; i++) dn(g, sxs, sys[i], 9, scols[i], 'Specialist ' + (i + 1));
+    dn(g, ax, my, 12, '#7f1d1d', 'Aggregator', my - 18);
+    var tick = 0;
+    function anim() {
+      tick++;
+      for (var i = 0; i < 3; i++) {
+        pkt(g, [{x: ix, y: my}, {x: sxs, y: sys[i]}], taskColor, 200 + i * 120, 2.5);
+      }
+      timers.push(setTimeout(function() {
+        for (var i = 0; i < 3; i++) {
+          pkt(g, [{x: sxs, y: sys[i]}, {x: ax, y: my}], resultColor, i * 120, weights[i]);
+        }
+      }, 1100));
+      timers.push(setTimeout(function() {
+        g.append('circle').attr('cx', ax).attr('cy', my).attr('r', 12)
+          .attr('fill', 'none').attr('stroke', '#16a34a').attr('stroke-width', 2).attr('opacity', 0.8)
+          .transition().duration(600).attr('r', 26).attr('opacity', 0).remove();
+      }, 2100));
+      timers.push(setTimeout(function() { if (tick < 80) anim(); }, 3400));
+    }
+    anim();
+    anno(g, p, 'packet size = weight; nothing is discarded');
+  }
+
+  function drawContextScoping(p) {
+    var g = svg.append('g');
+    var cx = p.ox + cellW / 2, py = p.oy + 60;
+    var wy = p.oy + 152, wxs = [cx - 90, cx, cx + 90];
+    // lines first (behind nodes)
+    for (var i = 0; i < 3; i++) dl(g, cx, py + 12, wxs[i], wy - 24, i * 120);
+    // full context bar under the principal
+    g.append('rect').attr('x', cx - 60).attr('y', py + 20).attr('width', 120).attr('height', 7)
+      .attr('rx', 2).attr('fill', '#e2e8f0').attr('stroke', '#cbd5e1').attr('stroke-width', 0.8);
+    g.append('text').attr('x', cx + 70).attr('y', py + 27).attr('font-size', '7px')
+      .attr('fill', '#aaa').text('full context');
+    // trimmed briefs above each worker
+    var briefW = [34, 22, 28];
+    for (var i = 0; i < 3; i++) {
+      g.append('rect').attr('x', wxs[i] - briefW[i] / 2).attr('y', wy - 22).attr('width', briefW[i])
+        .attr('height', 5).attr('rx', 1.5).attr('fill', '#fde68a').attr('stroke', '#f59e0b').attr('stroke-width', 0.7);
+    }
+    // nodes on top
+    dn(g, cx, py, 12, '#7f1d1d', 'Principal', py - 18);
+    for (var i = 0; i < 3; i++) dn(g, wxs[i], wy, 9, '#475569', 'Sub-agent');
+    var tick = 0;
+    function anim() {
+      tick++;
+      for (var i = 0; i < 3; i++) {
+        (function(idx) {
+          pkt(g, [{x: cx, y: py}, {x: wxs[idx], y: wy - 24}], '#f59e0b', 300 + idx * 250, 2.2);
+          timers.push(setTimeout(function() {
+            pkt(g, [{x: wxs[idx], y: wy}, {x: cx, y: py}], resultColor, 0, 2.2);
+          }, 1400 + idx * 250));
+        })(i);
+      }
+      timers.push(setTimeout(function() { if (tick < 80) anim(); }, 3600));
+    }
+    anim();
+    anno(g, p, 'each brief is trimmed to the task, never the transcript');
+  }
+
   drawFns = [
     // Sequential (6)
     drawChain, drawPipeline, drawRouter, drawEscalation, drawRelay, drawLoop,
-    // Hierarchical (6)
-    drawTree, drawMapReduce, drawSupervisor, drawOrchestrator, drawMissionCommand, drawFeudal,
-    // Quality & Verification (6)
-    drawEvaluator, drawVoting, drawCritic, drawDebate, drawWitness, drawVerificationGame,
+    // Hierarchical (8)
+    drawTree, drawMapReduce, drawSupervisor, drawOrchestrator, drawPlannerExec, drawWorkerPool, drawMissionCommand, drawFeudal,
+    // Quality & Verification (7)
+    drawEvaluator, drawVoting, drawMixture, drawCritic, drawDebate, drawWitness, drawVerificationGame,
     // Reliability (4)
     drawCircuitBreaker, drawTimeout, drawCheckpoint, drawCanary,
     // Market & Competition (4)
@@ -2890,8 +3077,8 @@ The patterns and archetypes above are parts. What they look like assembled is mo
     drawTeacherStudent, drawFederatedLearning, drawBlackboard, drawDistillation,
     // Emergent Coordination (5)
     drawPubSub, drawChoreography, drawStigmergy, drawSwarm, drawGossip,
-    // Trust & Authority (4)
-    drawPrivilege, drawFirebreaks, drawCredentials, drawZoneOfIndifference,
+    // Trust & Authority (5)
+    drawPrivilege, drawContextScoping, drawFirebreaks, drawCredentials, drawZoneOfIndifference,
     // Human-Agent Interface (4)
     drawHumanGate, drawHumanOnLoop, drawPolicyDelegation, drawApprovalEscalation,
     // Meta-Pattern (1)
