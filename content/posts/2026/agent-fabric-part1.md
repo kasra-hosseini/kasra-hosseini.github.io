@@ -206,6 +206,10 @@ wordcount: "~6,000 words (body) · ~6,500 words (notes)"
 </ul>
 </details>
 
+<div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; padding: 0.6em 1em; margin: 1.5em 0; font-size: 0.88em; color: #475569;">
+<strong>Disclaimer.</strong> Personal notes and opinions. Views expressed here are my own and do not represent those of any past or current employer.
+</div>
+
 <div style="background: #fffbeb; border: 1px solid #f59e0b; border-radius: 6px; padding: 0.6em 1em; margin: 1.5em 0; font-size: 0.88em; color: #92400e;">
 <strong>Early access.</strong> This post is a work in progress. Feedback, comments, and suggestions are welcome. Feel free to <a href="https://www.linkedin.com/in/kasra-hosseini/" target="_blank" rel="noopener" style="color: #92400e;">reach out on LinkedIn</a> or leave a comment at the bottom of the page.
 </div>
