@@ -1,5 +1,5 @@
 ---
-title: "Delegation Patterns: A Field Guide"
+title: "Delegation Patterns in Multi-Agent Systems: A Field Guide"
 subtitle: "Fifty-nine ways to split work between agents, what each is for, and how each one fails"
 date: 2026-09-13
 author: "Kasra Hosseini"
