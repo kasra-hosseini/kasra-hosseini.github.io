@@ -189,7 +189,7 @@ Fifty-nine patterns follow, plus one meta-pattern that operates on the structure
 
 One piece of vocabulary before the catalogue. Everything here is built from a single unit, the agent: a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; an agent loops, remembers, and acts.
 
-Note that this definition fixes only the interface. A task goes in, a result comes out, and everything behind that is unspecified. So a single box in these diagrams may contain one model, or an entire multi-agent system running any pattern in this catalogue. A Supervisor's worker may itself be an Orchestrator running a Pipeline, and nothing above it needs to know. This is nesting, not self-improvement: the structures compose, and that composition is what lets the same nine families describe a two-agent script and a fabric of millions.
+Note that the patterns in this catalogue see an agent only through its interface. A task goes in, a result comes out, and nothing in any diagram depends on what happens behind that. So a single box may contain one agent, or an entire multi-agent system running any pattern in this catalogue. A Supervisor's worker may itself be an Orchestrator running a Pipeline, and nothing above it needs to know. This is nesting, not self-improvement: the structures compose, and that composition is what lets the same nine families describe a two-agent script and a fabric of millions.
 
 Two recurring words. A <em>principal</em> is the party on whose behalf an agent acts, human or agent; a <em>mandate</em> is the bounded authority the principal hands over.
 
@@ -232,7 +232,7 @@ Tomašev et al.'s <a href="https://arxiv.org/abs/2602.11865" target="_blank" rel
 <details style="margin: 0.8em 0; padding: 0.6em 1em; font-size: 0.9em; background: #eff6ff; border-left: 3px solid #2563eb; border-radius: 0 4px 4px 0;">
 <summary style="cursor: pointer; color: #2563eb; font-weight: 600;">Summary: delegation archetypes at a glance</summary>
 
-A note that applies to every row. The agents in these patterns are defined only by their interface, a task in and a result out, so any single agent below can itself be a whole multi-agent system running another of these patterns. The archetypes nest, which is how the same table spans a two-agent script and a fabric of millions.
+A note that applies to every row. The patterns see agents only through their interface, a task in and a result out, so any single agent below can itself be a whole multi-agent system running another of these patterns. The archetypes nest, which is how the same table spans a two-agent script and a fabric of millions.
 
 | Archetype | Structure | When to use | Failure mode |
 |---|---|---|---|
