@@ -1388,12 +1388,12 @@ The patterns and archetypes above are parts. The tables below show them assemble
 
   function drawVoting(p) {
     var g = svg.append('g');
-    var cx = p.ox + cellW / 2, ty = p.oy + 55;
-    var source = {x: cx - 110, y: ty + 50};
-    var judge = {x: cx + 110, y: ty + 50};
+    var cx = p.ox + cellW / 2, ty = p.oy + 50;
+    var source = {x: cx - 145, y: ty + 56};
+    var judge = {x: cx + 145, y: ty + 56};
     var voters = [];
     for (var i = 0; i < 5; i++) {
-      voters.push({x: cx, y: ty + 10 + i * 22});
+      voters.push({x: cx, y: ty + 4 + i * 26});
     }
     voters.forEach(function(v, i) {
       dl(g, source.x, source.y, v.x - 8, v.y, 200 + i * 60);
@@ -1401,7 +1401,11 @@ The patterns and archetypes above are parts. The tables below show them assemble
     });
     dn(g, source.x, source.y, 10, '#6b7280', 'Task');
     dn(g, judge.x, judge.y, 10, '#7f1d1d', 'Judge');
-    voters.forEach(function(v, i) { dn(g, v.x, v.y, 7, '#2563eb', 'Agent ' + (i+1)); });
+    voters.forEach(function(v, i) {
+      dn(g, v.x, v.y, 7, '#2563eb');
+      g.append('text').attr('x', v.x - 16).attr('y', v.y + 3).attr('text-anchor', 'end')
+        .attr('font-size', '7px').attr('fill', '#888').text('Agent ' + (i+1));
+    });
     var voteLabels = [];
     voters.forEach(function(v) {
       voteLabels.push(g.append('text').attr('x', v.x + 30).attr('y', v.y + 4)
