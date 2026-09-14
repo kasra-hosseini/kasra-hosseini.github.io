@@ -185,7 +185,7 @@ wordcount: "~2,600 words (body) · ~18,600 words (cards and tables)"
 
 Every system that hands work from one agent to another has picked a delegation pattern. A team wires up an orchestrator because it seems the natural choice at the time, adds a retry loop because something failed in staging, bolts on a reviewer after an incident, and ends up with an architecture that has three patterns in it.
 
-This page is a catalogue of those patterns. Where a pattern has an established name, that is the one used here; where it does not, I chose one, and the description matters more than the label.
+This page is a catalogue of those patterns. Where a pattern has an established name, that is the one used here; where it does not, I chose one, and what really matters is the description, not the label.
 
 Fifty-nine patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution, for example, is half a quality check and half a market. That is fine. The grouping is a finding aid, not a strict taxonomy.
 
