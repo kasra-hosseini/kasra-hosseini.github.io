@@ -189,7 +189,7 @@ This page is a catalogue of those patterns. Where a pattern has an established n
 
 Fifty-nine patterns follow, plus one meta-pattern that operates on the structure itself. The number counts what has been catalogued so far rather than claiming the list closes here. They are grouped into nine families by the question each family answers. The boundaries between families leak, and a few patterns could sit in two of them. Speculative Execution, for example, is half a quality check and half a market. That is fine. The grouping is a finding aid, not a strict taxonomy.
 
-**How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, jump to the <a href="#quick-guide">quick guide keyed to situations</a> at the end of the page. The nine families are listed below, and each card ends with what it is for, when to reach for it, how it fails, and how it differs from its neighbours.
+**How to use this page.** If you know the pattern's name, the summary table below is the fastest route. If you know your situation but not the name, jump to the <a href="#quick-guide">quick guide keyed to situations</a> at the end of the page. The nine families are listed below. Each pattern gets a card, a short expandable entry, covering what it is for, when to reach for it, how it fails, and how it differs from its neighbours.
 
 One piece of vocabulary before the catalogue. Everything here is built from a single unit, the agent. An agent is a model with memory that survives between calls, tools that reach the world, and enough planning to break a goal into steps. A bare model maps input to output; an agent loops, remembers, and acts.
 
