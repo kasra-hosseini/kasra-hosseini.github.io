@@ -1,7 +1,7 @@
 ---
 title: "Delegation Patterns in Multi-Agent Systems: A Field Guide"
 subtitle: "Fifty-nine ways to split work between agents, what each is for, and how each one fails"
-date: 2026-09-13
+date: 2026-09-14
 author: "Kasra Hosseini"
 post_categories: ["AI"]
 tags: ["delegation patterns", "multi-agent systems", "agent orchestration", "multi-agent design patterns", "AI agents", "agent fabric", "LLM"]
@@ -15,7 +15,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,500 words (body) · ~18,500 words (cards and tables)"
+wordcount: "~2,600 words (body) · ~18,600 words (cards and tables)"
 ---
 
 <style>
