@@ -7,7 +7,7 @@ post_categories: ["AI"]
 tags: ["AI", "AI agents", "multi-agent systems", "LLM", "agent fabric", "society of mind", "the loom hypothesis"]
 description: "Why AI agents may form societies, share knowledge at global scale, and why adaptive structures could become the norm."
 cover:
-  image: "/images/agent-fabric-cover.svg"
+  image: "/images/agent-fabric-cover.png"
   alt: "Abstract visualization of threads weaving into a fabric pattern, representing designed and emergent agent interactions"
   hidden: true
 draft: false
