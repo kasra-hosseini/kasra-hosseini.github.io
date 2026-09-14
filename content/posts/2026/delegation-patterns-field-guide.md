@@ -15,7 +15,7 @@ math: false
 ShowToc: true
 TocOpen: false
 hideCitation: false
-wordcount: "~2,600 words (body) · ~18,600 words (cards and tables)"
+wordcount: "~2,600 words (body) · ~18,700 words (cards and tables)"
 ---
 
 <style>
