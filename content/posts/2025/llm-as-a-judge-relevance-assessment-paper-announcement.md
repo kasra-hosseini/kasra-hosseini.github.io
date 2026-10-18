@@ -13,6 +13,7 @@ math: true
 ShowToc: true
 TocOpen: false
 wordcount: "~2,200 words"
+canonicalURL: "https://engineering.zalando.com/posts/2024/11/llm-as-a-judge-relevance-assessment-paper-announcement.html"
 ---
 
 > **Note:** Most of the content in this blogpost was previously published on the <a href="https://engineering.zalando.com/posts/2024/11/llm-as-a-judge-relevance-assessment-paper-announcement.html" target="_blank" class="red-link">Zalando Engineering Blog</a>.
